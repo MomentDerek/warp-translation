@@ -29,3 +29,36 @@
 
 下一步：PR3（builder + 第一批 LLM 翻译）。
 
+
+
+## Session 1: Translate Warp project to Chinese — PR1+PR2+PR3
+
+**Date**: 2026-05-08
+**Task**: Translate Warp project to Chinese — PR1+PR2+PR3
+**Branch**: `main`
+
+### Summary
+
+End-to-end Chinese translation pipeline for Warp source. Built warp-zh-extractor (syn::Visit + heuristic + 5-state translation table) and warp-zh-builder (surgical byte-range replacement + marker-file safety). 6,327 active table entries, 227 PR3 first-batch translated (45 do_not_translate + 182 Chinese), 32-term glossary. cargo check -p warp passes on build/warp-zh/. 4-angle trellis-check verified builder code, translation quality (100% glossary/placeholder/tone consistency), end-to-end build idempotency, and schema/spec compliance. Captured 4 durable lessons in spec/ (syn doc-attr filtering, canonical-form --check semantic boundary, output-dir marker safety, translation contract checklist).
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `a0ea0ba` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
