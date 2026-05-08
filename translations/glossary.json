@@ -1,0 +1,203 @@
+{
+  "$schema_version": "1.0.0",
+  "metadata": {
+    "tool_version": "warp-zh-builder 0.1.0",
+    "created_at": "2026-05-08T00:00:00Z",
+    "term_count": 32,
+    "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
+  },
+  "terms": {
+    "agent": {
+      "en": "agent",
+      "zh": "Agent",
+      "notes": "Warp 的 AI 代理系统。作为产品名称保留 'Agent'/'Warp Agent' 不译；普通词性的 'AI agent' 也保留 'Agent'，避免与 '智能体'/'代理' 翻译多版本不一致。",
+      "do_not_translate": false
+    },
+    "block": {
+      "en": "block",
+      "zh": "命令块",
+      "notes": "Warp 终端的命令块抽象。按业务上下文译为 '命令块'，避免与一般 '区块'/'方块' 混淆。",
+      "do_not_translate": false
+    },
+    "pane": {
+      "en": "pane",
+      "zh": "窗格",
+      "notes": "终端分屏中的子区域。'窗格' 比 '面板' 更准确（panel 才译为面板）。",
+      "do_not_translate": false
+    },
+    "panel": {
+      "en": "panel",
+      "zh": "面板",
+      "notes": "侧栏 / 工具区 等较大型 UI 区块。",
+      "do_not_translate": false
+    },
+    "workflow": {
+      "en": "workflow",
+      "zh": "工作流",
+      "notes": "Warp 的命令模板特性。",
+      "do_not_translate": false
+    },
+    "drive": {
+      "en": "Warp Drive",
+      "zh": "Warp Drive",
+      "notes": "Warp 的知识库产品名，保留英文。",
+      "do_not_translate": true
+    },
+    "notebook": {
+      "en": "notebook",
+      "zh": "笔记本",
+      "notes": "Warp Notebook —— 文档型工作流。整体作为产品名时写 'Warp Notebook'；普通名词译为 '笔记本'。",
+      "do_not_translate": false
+    },
+    "terminal": {
+      "en": "terminal",
+      "zh": "终端",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "command": {
+      "en": "command",
+      "zh": "命令",
+      "notes": "shell 命令；和 'block' 区分时通常说 '命令'。",
+      "do_not_translate": false
+    },
+    "command_palette": {
+      "en": "command palette",
+      "zh": "命令面板",
+      "notes": "全局快速操作入口，沿用 VSCode 行业惯例。",
+      "do_not_translate": false
+    },
+    "prompt": {
+      "en": "prompt",
+      "zh": "提示词",
+      "notes": "AI 上下文的输入文本译为 '提示词'；shell 提示符译为 '提示符'。按上下文区分。",
+      "do_not_translate": false
+    },
+    "session": {
+      "en": "session",
+      "zh": "会话",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "tab": {
+      "en": "tab",
+      "zh": "标签页",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "theme": {
+      "en": "theme",
+      "zh": "主题",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "keybinding": {
+      "en": "keybinding",
+      "zh": "快捷键",
+      "notes": "keybinding / keybindings 统一译为 '快捷键'，与 shortcut 同义。",
+      "do_not_translate": false
+    },
+    "shortcut": {
+      "en": "shortcut",
+      "zh": "快捷键",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "settings": {
+      "en": "settings",
+      "zh": "设置",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "preferences": {
+      "en": "Preferences",
+      "zh": "偏好设置",
+      "notes": "macOS 主菜单 'Preferences' 项；与 'Settings' 区分时分别用 '偏好设置' 与 '设置'。",
+      "do_not_translate": false
+    },
+    "subscription": {
+      "en": "subscription",
+      "zh": "订阅",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "team": {
+      "en": "team",
+      "zh": "团队",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "model": {
+      "en": "model",
+      "zh": "模型",
+      "notes": "AI 模型；'base model' = '基础模型'，'planning model' = '规划模型'。",
+      "do_not_translate": false
+    },
+    "mcp": {
+      "en": "MCP",
+      "zh": "MCP",
+      "notes": "Model Context Protocol 协议名，保留英文。'MCP server' 译为 'MCP 服务器'。",
+      "do_not_translate": true
+    },
+    "warp": {
+      "en": "Warp",
+      "zh": "Warp",
+      "notes": "产品名永远保留英文。",
+      "do_not_translate": true
+    },
+    "ai": {
+      "en": "AI",
+      "zh": "AI",
+      "notes": "保留英文缩写；'AI Request' = 'AI 请求'。",
+      "do_not_translate": true
+    },
+    "api": {
+      "en": "API",
+      "zh": "API",
+      "notes": "保留英文缩写。",
+      "do_not_translate": true
+    },
+    "api_key": {
+      "en": "API key",
+      "zh": "API 密钥",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "git": {
+      "en": "Git",
+      "zh": "Git",
+      "notes": "工具名，保留。",
+      "do_not_translate": true
+    },
+    "ssh": {
+      "en": "SSH",
+      "zh": "SSH",
+      "notes": "",
+      "do_not_translate": true
+    },
+    "agent_mode": {
+      "en": "Agent Mode",
+      "zh": "Agent 模式",
+      "notes": "Warp 的工作模式名。",
+      "do_not_translate": false
+    },
+    "rich_input": {
+      "en": "Rich Input",
+      "zh": "富文本输入",
+      "notes": "Warp 的输入框组件。",
+      "do_not_translate": false
+    },
+    "session_sharing": {
+      "en": "session sharing",
+      "zh": "会话共享",
+      "notes": "",
+      "do_not_translate": false
+    },
+    "init_block": {
+      "en": "Initialization Block",
+      "zh": "初始化命令块",
+      "notes": "shell 启动时执行的命令块。",
+      "do_not_translate": false
+    }
+  }
+}

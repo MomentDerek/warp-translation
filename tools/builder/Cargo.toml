@@ -1,0 +1,30 @@
+[package]
+name = "warp-zh-builder"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "warp-zh-builder"
+path = "src/main.rs"
+
+[lib]
+name = "warp_zh_builder"
+path = "src/lib.rs"
+
+[dependencies]
+warp-zh-extractor = { path = "../extractor" }
+syn.workspace = true
+proc-macro2.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+walkdir.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+[dev-dependencies]
+tempfile = "3"

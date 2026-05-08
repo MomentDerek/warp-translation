@@ -1,0 +1,36 @@
+[package]
+name = "warp-zh-extractor"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "warp-zh-extractor"
+path = "src/main.rs"
+
+[lib]
+name = "warp_zh_extractor"
+path = "src/lib.rs"
+
+[dependencies]
+syn.workspace = true
+proc-macro2.workspace = true
+quote.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+clap.workspace = true
+walkdir.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+sha2.workspace = true
+strsim.workspace = true
+ulid.workspace = true
+regex.workspace = true
+once_cell.workspace = true
+
+[dev-dependencies]
+tempfile = "3"

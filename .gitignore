@@ -1,0 +1,12 @@
+# Build artifacts
+build/
+reports/
+tools/target/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# Runtime metadata (per research/translation-table-format.md)
+translations/.lock.json

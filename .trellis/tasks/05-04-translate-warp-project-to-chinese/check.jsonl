@@ -1,0 +1,6 @@
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/prd.md", "reason": "校验需求是否全部实现：D1-D5 决策、Acceptance Criteria 全部勾选、Out of Scope 未越界"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/syn-string-extraction.md", "reason": "校验 surgical text replacement 实现是否符合：byte_range 倒序替换、SKIP_MACROS 覆盖、parse 失败 fallback、不依赖 quote!"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/ui-string-heuristics.md", "reason": "校验启发式覆盖度：路径白/黑名单完整、UI 调用白名单与反向白名单都已实现、15 类正则、阈值 6/3 合规"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/translation-table-format.md", "reason": "校验翻译表 schema 与增量逻辑：5 态正确流转、history 写入 fuzzy 路径、obsolete 3 轮宽限、entries 排序与字段顺序稳定（diff 友好）"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "工具代码 lint/test 是否达标"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "错误处理是否合规（用户面向 vs 内部错误的分级）"}

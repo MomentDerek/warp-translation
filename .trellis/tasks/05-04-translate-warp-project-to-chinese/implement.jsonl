@@ -1,0 +1,6 @@
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/prd.md", "reason": "完整的需求与决策（D1-D5）+ 三阶段实施计划，sub-agent 必须遵循"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/syn-string-extraction.md", "reason": "PR1/PR3 实现核心：syn 抽取与 surgical text replacement 的具体 API、代码骨架、SKIP_MACROS 列表、parse 失败降级策略"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/ui-string-heuristics.md", "reason": "PR2 评分算法的全部输入：Warp 仓库目录白/黑名单、UI 调用模式、反向调用、宏黑名单、15 类正则、const 命名规则、scoring 伪代码"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/translation-table-format.md", "reason": "PR2 数据模型与增量算法：strings.json schema、ULID 主键、5 态状态机、增量合并伪代码、obsolete 宽限策略"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "工具用 Rust 写，需遵循项目错误处理规范（anyhow 用法、Result 风格）"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "工具代码的 lint / 测试 / 通用质量基线"}
