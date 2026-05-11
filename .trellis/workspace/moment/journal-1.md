@@ -62,3 +62,36 @@ End-to-end Chinese translation pipeline for Warp source. Built warp-zh-extractor
 ### Next Steps
 
 - None - task complete
+
+
+## Session 2: Fix menu bar translation gap (heuristic + second batch)
+
+**Date**: 2026-05-11
+**Task**: Fix menu bar translation gap (heuristic + second batch)
+**Branch**: `main`
+
+### Summary
+
+Diagnosed and fixed the menu bar translation gap in build/warp-zh: B-class top-level menus (File/View/Window/Help/Drive/Blocks/Agent/Tabs) + D-class menu items (Switch tab/Activate pane/Clear command editor/Left Panel:X/etc) were filtered by heuristic or never captured. Trace research showed D-class literals live in EditableBinding::new[1] / FixedBinding::custom[2] / BindingDescription::new[0] across workspace/terminal/editor source files. Added 7 (call_path, arg_index) entries to UI_CONSTRUCTORS plus 10 unit tests including arg-index-rejection coverage. Re-extracted (6327 to 6391 entries, +64 menu strings); translated 506 entries with flags=[pr-menu-batch] (503 Chinese + 3 do_not_translate); 227 prior pr3_first_batch entries preserved verbatim. Quality check: 44/44 tests green, glossary 100% consistency, placeholder 100% integrity, cargo check -p warp passes in 2m 52s on the new build, builder idempotent. Updated spec rust-syn-extraction.md with the UI constructor whitelist strategy. Out of scope: C-class macOS system menu (Cut/Copy/Paste/Undo/Redo/Select All) needs Info.plist + zh-Hans.lproj route, independent task.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `032569e` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

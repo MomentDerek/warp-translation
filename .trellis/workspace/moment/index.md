@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 1
-- **Last Active**: 2026-05-08
+- **Total Sessions**: 2
+- **Last Active**: 2026-05-11
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~64 | Active |
+| `journal-1.md` | ~97 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 2 | 2026-05-11 | Fix menu bar translation gap (heuristic + second batch) | `032569e` | `main` |
 | 1 | 2026-05-08 | Translate Warp project to Chinese — PR1+PR2+PR3 | `a0ea0ba` | `main` |
 <!-- @@@/auto:session-history -->
 
