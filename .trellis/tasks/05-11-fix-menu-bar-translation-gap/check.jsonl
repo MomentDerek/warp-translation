@@ -1,0 +1,7 @@
+{"file": ".trellis/tasks/05-11-fix-menu-bar-translation-gap/prd.md", "reason": "Acceptance Criteria 全部勾选：8 个 UI_CONSTRUCTORS 加全、第二批翻译完成、cargo check 通过、9 菜单视觉抽查"}
+{"file": ".trellis/tasks/05-11-fix-menu-bar-translation-gap/research/menu-literal-trace.md", "reason": "校验 heuristic 是否覆盖 trace 列出的 4 个 pattern group；FP 风险点是否回归测试"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/translation-table-format.md", "reason": "D4 表格式 + 增量算法不变：sort、字段顺序、5 态、3-run 宽限、history 截 5、source_hash 16 hex chars——本 task 的重 extract 不能破坏这些"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "校验：--check 仍幂等、idempotency 测试新增覆盖 heuristic 改动后、output marker 安全不变"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "校验：新增 UI_CONSTRUCTORS 条目是否按 spec 维护（reason code 风格、unit test 覆盖）"}
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "校验第二批翻译：占位符完整性、glossary 一致性、您 tone、中文标点、do_not_translate 正确性"}
+{"file": "translations/glossary.json", "reason": "校验第二批翻译条目对术语表的引用率（采样 ≥ 10 个含术语条目，期望 100% 一致）"}

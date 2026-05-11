@@ -157,12 +157,31 @@ const UI_METHODS: &[&str] = &[
 
 /// UI constructor patterns. Tuple = `(callee_substring, allowed_arg_indices)`.
 /// `None` allowed_arg_indices = any arg index counts.
+///
+/// Maintenance guidance: each entry promotes a specific positional arg of a
+/// specific constructor/helper to "UI string". When the same string lives in
+/// a different arg position, it must NOT inherit the bonus — that is the
+/// whole point of the arg-index filter. To add a new constructor, locate the
+/// call site, identify the positional index of the user-visible label, then
+/// extend this table; do NOT add open-ended `None` allowed_arg_indices unless
+/// every positional arg of the constructor is genuinely user-visible.
+///
+/// `BindingDescription::new_preserve_case` is the runtime-titlecase-bypass
+/// variant; `BindingDescription::new` itself title-cases its input. Both
+/// promote arg 0 because the source literal (which is what the translation
+/// table is keyed on) is the user-facing string in either case.
 const UI_CONSTRUCTORS: &[(&str, &[usize])] = &[
     ("MenuItem::new", &[0]),
     ("CustomMenuItem::new", &[0]),
     ("CustomMenuItem::new_with_submenu", &[0]),
     ("Dialog::new", &[0, 1]),
     ("BindingDescription::new", &[0]),
+    ("BindingDescription::new_preserve_case", &[0]),
+    ("BindingDescription::with_custom_description", &[1]),
+    ("EditableBinding::new", &[1]),
+    ("FixedBinding::custom", &[2]),
+    ("Menu::new", &[0]),
+    ("MenuItemFields::new", &[0]),
     ("SettingActionPair::new", &[0, 1]),
     ("ToggleSettingActionPair::new", &[0]),
     ("SettingActionPairDescriptions::new", &[0, 1]),
@@ -170,6 +189,7 @@ const UI_CONSTRUCTORS: &[(&str, &[usize])] = &[
     ("Tooltip::new", &[0]),
     ("Notification::new", &[0, 1]),
     ("Banner::new", &[0]),
+    ("link_menu_item", &[0]),
 ];
 
 /// Anti-UI calls — when the literal is the argument of one of these, hard cut.
@@ -608,5 +628,161 @@ mod tests {
         r.enclosing_const_name = Some("SETTINGS_CSV_FILE_NAME".to_string());
         let v = classify(&r);
         assert_eq!(v.verdict, Verdict::NotUi);
+    }
+
+    // ---- B-class / D-class UI_CONSTRUCTORS coverage --------------------------
+    //
+    // Each test asserts the corresponding (call_path, arg_index) entry pushes
+    // the score to AutoUi (≥6) and the reason trail cites the new rule. The
+    // raw shape mirrors what the AST visitor produces in `extract.rs` for the
+    // call site in question.
+
+    fn raw_in_call(file: &str, value: &str, call_path: &str, arg_idx: usize) -> RawString {
+        let mut r = raw(file, value);
+        r.parent_call = Some(call_path.to_string());
+        r.parent_call_arg_index = Some(arg_idx);
+        r
+    }
+
+    fn has_reason(audit: &Audit, code_substr: &str) -> bool {
+        audit.reasons.iter().any(|r| r.code.contains(code_substr))
+    }
+
+    #[test]
+    fn menu_new_arg0_promotes_to_auto_ui() {
+        // B-class: `Menu::new("File", file_menu_options)`. The string "File" by
+        // itself would be camel_case-shaped, but the explicit UI ctor whitelist
+        // outranks the regex penalty.
+        let r = raw_in_call("app/src/app_menus.rs", "File", "Menu::new", 0);
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+        assert!(v.score >= 6, "score={}", v.score);
+        assert!(has_reason(&v, "ui_ctor:Menu::new"));
+    }
+
+    #[test]
+    fn editable_binding_new_arg1_is_ui() {
+        // D-class dominant pattern: `EditableBinding::new(name, description, action)`.
+        let r = raw_in_call(
+            "app/src/workspace/mod.rs",
+            "Activate next pane",
+            "EditableBinding::new",
+            1,
+        );
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+        assert!(v.score >= 6, "score={}", v.score);
+        assert!(has_reason(&v, "ui_ctor:EditableBinding::new"));
+    }
+
+    #[test]
+    fn editable_binding_new_arg0_is_not_promoted() {
+        // The action-name (arg 0) is the binding identifier, NOT a UI string.
+        // Must NOT inherit the bonus — that is the whole point of the arg-index
+        // filter.
+        let r = raw_in_call(
+            "app/src/workspace/mod.rs",
+            "pane_group:navigate_next",
+            "EditableBinding::new",
+            0,
+        );
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::NotUi, "audit={v:?}");
+    }
+
+    #[test]
+    fn fixed_binding_custom_arg2_is_ui() {
+        // `FixedBinding::custom(custom_action, action, "Switch to next tab", ctx)`
+        let r = raw_in_call(
+            "app/src/workspace/mod.rs",
+            "Switch to next tab",
+            "FixedBinding::custom",
+            2,
+        );
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+        assert!(has_reason(&v, "ui_ctor:FixedBinding::custom"));
+    }
+
+    #[test]
+    fn binding_description_new_arg0_is_ui() {
+        // Nested form: `EditableBinding::new(NAME, BindingDescription::new("Left Panel: ..."), ...)`
+        // — the inner literal's parent_call is `BindingDescription::new` arg 0.
+        // Note: source has `colon_ident` regex penalty risk but `Left Panel:`
+        // doesn't match that regex (it has a space after the colon and starts
+        // with capital letters).
+        let r = raw_in_call(
+            "app/src/workspace/mod.rs",
+            "Left Panel: Agent conversations",
+            "BindingDescription::new",
+            0,
+        );
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+        assert!(has_reason(&v, "ui_ctor:BindingDescription::new"));
+    }
+
+    #[test]
+    fn binding_description_new_preserve_case_arg0_is_ui() {
+        let r = raw_in_call(
+            "app/src/workspace/mod.rs",
+            "Some Casing-Sensitive Label",
+            "BindingDescription::new_preserve_case",
+            0,
+        );
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+    }
+
+    #[test]
+    fn binding_description_with_custom_description_arg1_is_ui() {
+        // `.with_custom_description(MAC_MENUS_CONTEXT, "Switch tab")` — arg 1
+        // (the description) is the UI text, arg 0 (the context constant) is not.
+        let r = raw_in_call(
+            "app/src/workspace/mod.rs",
+            "Switch to next tab",
+            "BindingDescription::with_custom_description",
+            1,
+        );
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+        assert!(has_reason(
+            &v,
+            "ui_ctor:BindingDescription::with_custom_description"
+        ));
+    }
+
+    #[test]
+    fn menu_item_fields_new_arg0_is_ui() {
+        let r = raw_in_call("app/src/app_menus.rs", "Quit Warp", "MenuItemFields::new", 0);
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+        assert!(has_reason(&v, "ui_ctor:MenuItemFields::new"));
+    }
+
+    #[test]
+    fn link_menu_item_arg0_is_ui() {
+        // `link_menu_item("GitHub Issues...", url)` in app_menus.rs. Note the
+        // trailing "..." would normally not boost score on its own; UI ctor +5
+        // is what gets it across.
+        let r = raw_in_call(
+            "app/src/app_menus.rs",
+            "GitHub Issues...",
+            "link_menu_item",
+            0,
+        );
+        let v = classify(&r);
+        assert_eq!(v.verdict, Verdict::AutoUi, "audit={v:?}");
+        assert!(has_reason(&v, "ui_ctor:link_menu_item"));
+    }
+
+    #[test]
+    fn menu_new_arg1_is_not_promoted() {
+        // arg 1 of `Menu::new` is the items vec, never a UI string. Even if
+        // some inner literal was tagged at arg 1, it must not inherit the bonus.
+        let r = raw_in_call("app/src/app_menus.rs", "something", "Menu::new", 1);
+        let v = classify(&r);
+        // No UI ctor bonus — `something` is snake_case so it lands in NotUi.
+        assert_eq!(v.verdict, Verdict::NotUi, "audit={v:?}");
     }
 }

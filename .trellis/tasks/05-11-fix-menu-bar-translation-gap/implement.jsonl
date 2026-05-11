@@ -1,0 +1,8 @@
+{"file": ".trellis/tasks/05-11-fix-menu-bar-translation-gap/prd.md", "reason": "锁定决策（Approach B）+ 8 条 UI_CONSTRUCTORS 扩展清单 + 三阶段 PR 计划"}
+{"file": ".trellis/tasks/05-11-fix-menu-bar-translation-gap/research/menu-literal-trace.md", "reason": "D 类字面量源码定位完整 trace；每个 pattern group 的 AST hook 提议 + FP 风险评估；titlecase caveat 说明"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/prd.md", "reason": "前一 task 的完整 PRD：D1-D5 决策、PR1/PR2/PR3 范围、acceptance criteria —— 本 task 的延续基础"}
+{"file": ".trellis/tasks/05-04-translate-warp-project-to-chinese/research/ui-string-heuristics.md", "reason": "heuristic 总体设计：当前 UI_CONSTRUCTORS 已有条目（CustomMenuItem::new[0]、Dialog::new[0,1] 等）、阈值 6/3、reason code 风格——新加条目要保持一致"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "syn::Visit 抽取模式 spec：parent_call / parent_call_arg_index 已在 RawString 中追踪，新加 UI_CONSTRUCTORS 条目直接复用"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "canonical-form 契约、idempotency 测试要求、marker file 安全——本 task 改 extractor 必须保持这些不变"}
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "翻译第二批要严格按此 checklist：占位符、format!() 上下文、glossary、您/你统一、do_not_translate 判据"}
+{"file": "translations/glossary.json", "reason": "32 词术语表——第二批翻译必须严格引用（Agent 保留英文、block→命令块、pane→窗格、panel→面板、prompt→提示词 等）"}
