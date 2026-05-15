@@ -86,7 +86,7 @@ description: 把翻译表 strings.json 重新锚定到上游 warp master b9ec4f3
   - 2 条转 obsolete（上游删除：`Add new MCP server`、AI page API key 说明长句）
   - 1 条边界差异
 - [x] obsolete 条目数 30（自然落入，无需处理）✓
-- [ ] commit message 包含 commit hash 跨度 25652d73..b9ec4f39
+- [x] commit message 包含 commit hash 跨度 25652d73..b9ec4f39 ✓（commit `05f6f0d`）
 
 ## Definition of Done
 
