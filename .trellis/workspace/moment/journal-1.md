@@ -135,3 +135,36 @@ translated 减 7 条全部为合理原因：
 - 复核 4 条 fuzzy（小修翻译即可，glossary 已就位）
 - 评估新增 279 条里能直接翻译消化的部分（Cloud Agent / Custom endpoints / Billing 等）
 - 1 条 `syn::parse_file` 失败（extractor WARN，count=1）— 不影响 sync 幂等，但下次扩展功能时可顺手查源
+
+
+## Session 3: Sync translation table to upstream b9ec4f39
+
+**Date**: 2026-05-15
+**Task**: Sync translation table to upstream b9ec4f39
+**Branch**: `main`
+
+### Summary
+
+Re-ran extractor against upstream warp master (25652d73..b9ec4f39, 357 commits). Net merge: added=279, changed=33, unchanged=6328, obsoleted=30. Translated 735->728 (7 affected: 4 fuzzy from real source edits like 'Copy git branch'->'Copy branch', 'tab'->'pane', 'Oz'->'Orchestration'; 2 obsoleted due to upstream deletion; 1 boundary diff). extract --check idempotent. No code changes, no spec updates required. Followups deferred: review 4 fuzzy with existing translations, plan translation of 279 new entries by feature area (Cloud Agent, Custom inference endpoints, Billing & Usage).
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `05f6f0d` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
