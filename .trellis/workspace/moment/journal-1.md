@@ -95,3 +95,43 @@ Diagnosed and fixed the menu bar translation gap in build/warp-zh: B-class top-l
 ### Next Steps
 
 - None - task complete
+
+---
+
+## 2026-05-15 — sync-upstream-b9ec4f39
+
+### Context
+
+- `../warp` fast-forward 到 `b9ec4f39`（旧锚 `25652d73`，357 commits）
+- `extract --check` 当前失败 → 翻译表必须重跑
+
+### Action
+
+- 跑 `cargo run -p warp-zh-extractor --release -- extract`
+- Approach A：纯表同步，不翻新条目、不重 build
+
+### Result（metadata.stats 前 → 后）
+
+| 字段 | 25652d73 | b9ec4f39 | Δ |
+|---|---|---|---|
+| entry_count | 6391 | 6670 | +279 |
+| translated | 735 | 728 | -7 |
+| new | 5655 | 5878 | +223 |
+| fuzzy | 1 | 34 | +33 |
+| obsolete | 0 | 30 | +30 |
+| uncertain | 4357 | 4509 | +152 |
+
+merge log：`added=279 changed=33 unchanged=6328 obsoleted=30 hard_deleted=0`
+
+### 回退分析
+
+translated 减 7 条全部为合理原因：
+- 4 条 → fuzzy：原文小改动（`git branch`/`tab→pane`/`up one line→down one page`/`Oz→Orchestration`）
+- 2 条 → obsolete：上游删除（`Add new MCP server`、AI page API key 长句）
+- 1 条边界差异
+
+### Followups（下个 task）
+
+- 复核 4 条 fuzzy（小修翻译即可，glossary 已就位）
+- 评估新增 279 条里能直接翻译消化的部分（Cloud Agent / Custom endpoints / Billing 等）
+- 1 条 `syn::parse_file` 失败（extractor WARN，count=1）— 不影响 sync 幂等，但下次扩展功能时可顺手查源
