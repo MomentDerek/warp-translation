@@ -1,0 +1,2 @@
+{"file": ".trellis/tasks/05-18-refresh-fuzzy-translations/prd.md", "reason": "本任务 PRD：4 条 fuzzy 复核方案表 + Orchestration→编排 决策"}
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "翻译契约：glossary 应用顺序、占位符保留、全角标点、do_not_translate 规则"}
