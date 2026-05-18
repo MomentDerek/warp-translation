@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 4
+- **Total Sessions**: 5
 - **Last Active**: 2026-05-18
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~203 | Active |
+| `journal-1.md` | ~236 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 5 | 2026-05-18 | Translate next batch of new entries after upstream sync | `1adb63b` | `main` |
 | 4 | 2026-05-18 | Refresh 4 fuzzy translations after upstream sync | `95ec339` | `main` |
 | 3 | 2026-05-15 | Sync translation table to upstream b9ec4f39 | `05f6f0d` | `main` |
 | 2 | 2026-05-11 | Fix menu bar translation gap (heuristic + second batch) | `032569e` | `main` |

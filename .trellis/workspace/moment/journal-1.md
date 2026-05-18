@@ -201,3 +201,36 @@ Followup to 05-15 sync. The 4 previously-translated entries that went fuzzy afte
 ### Next Steps
 
 - None - task complete
+
+
+## Session 5: Translate next batch of new entries after upstream sync
+
+**Date**: 2026-05-18
+**Task**: Translate next batch of new entries after upstream sync
+**Branch**: `main`
+
+### Summary
+
+Followup to 05-15 sync. Translated 116 auto_ui-verdict UI strings from the b9ec4f39 delta across 7 themes: Custom endpoints/BYOK (26), misc UI (42), billing & credits (16), remote codebase (15), cloud handoff (9), orchestration (6), agent harness (2). Excluded 27 crates/remote_server log strings + 16 app/src/remote_server/server_model.rs technical buffer errors. Stats translated 732 -> 848 (+116). Glossary 32 -> 39: credit/auto-reload/handoff/harness/BYOK/endpoint/orchestration (codifies Oz -> 编排 from 05-18 fuzzy refresh). Verification: extract --check exit 0, 116/116 placeholder integrity, trellis-check sampled 25 entries across all themes (PASS on glossary/tone/punct/canonical-form/build-spot-check). warp-zh-builder rebuilt against b9ec4f39 (4995 copied / 202 modified / 1371 replaced); cargo check -p warp PASS in 3m 25s with CARGO_NET_GIT_FETCH_WITH_CLI=true. Followup: builder skips hidden dirs; had to manually cp -r ../warp/.cargo build/warp-zh/.cargo because upstream now requires MACOSX_DEPLOYMENT_TARGET from .cargo/config.toml — worth a builder fix or spec note. 150 uncertain-verdict + 16 server_model.rs auto_ui still status=new for next batch.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `1adb63b` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
