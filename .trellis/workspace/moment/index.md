@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 3
-- **Last Active**: 2026-05-15
+- **Total Sessions**: 4
+- **Last Active**: 2026-05-18
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~170 | Active |
+| `journal-1.md` | ~203 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 4 | 2026-05-18 | Refresh 4 fuzzy translations after upstream sync | `95ec339` | `main` |
 | 3 | 2026-05-15 | Sync translation table to upstream b9ec4f39 | `05f6f0d` | `main` |
 | 2 | 2026-05-11 | Fix menu bar translation gap (heuristic + second batch) | `032569e` | `main` |
 | 1 | 2026-05-08 | Translate Warp project to Chinese — PR1+PR2+PR3 | `a0ea0ba` | `main` |

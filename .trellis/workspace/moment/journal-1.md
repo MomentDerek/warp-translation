@@ -168,3 +168,36 @@ Re-ran extractor against upstream warp master (25652d73..b9ec4f39, 357 commits).
 ### Next Steps
 
 - None - task complete
+
+
+## Session 4: Refresh 4 fuzzy translations after upstream sync
+
+**Date**: 2026-05-18
+**Task**: Refresh 4 fuzzy translations after upstream sync
+**Branch**: `main`
+
+### Summary
+
+Followup to 05-15 sync. The 4 previously-translated entries that went fuzzy after upstream changes are now refreshed: 'Copy git branch'->'Copy branch' (drop git), 'Rename ... tab'->'... pane' (重命名当前窗格 per glossary), 'Scroll ... up one line'->'... down one page' (paired with sibling translated entry pattern), and '[Debug] Reset Oz Launch Modal State'->'[Debug] Reset Orchestration Launch Modal State' (Oz internal codename renamed to public concept Orchestration->编排, follows existing multi-agent orchestration->多 Agent 编排 glossary usage). stats: translated 728->732, fuzzy 34->30. extract --check idempotent. No code changes.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `95ec339` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
