@@ -1,0 +1,1436 @@
+[
+  {
+    "id": "01KRNVK8VPPQME2DPDM40S3KPJ",
+    "source": ". BYOK and custom endpoints are intended for individual use and small teams. Companies or organizations with more than 10 employees should use Warp Business or Enterprise.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "FormattedTextLine::Line > macro:vec"
+  },
+  {
+    "id": "01KRNVK92G0P0RPE0EGAX9AP6F",
+    "source": "Auto-reload disabled.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": "Some"
+  },
+  {
+    "id": "01KRNVK93494AGBV2Y5ZHRQEDV",
+    "source": "Auto-reload enabled. We'll refill with {credits} credits when your balance runs low.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": "Some > macro:format"
+  },
+  {
+    "id": "01KRNVK944HGQRGJ0TCZY6EAFA",
+    "source": "Auto-reload is paused because the next reload would exceed your monthly spend limit. Increase your limit to continue using auto-reload.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVK952PX0V4KD9DBTKJHY7",
+    "source": "Auto-reload is paused because the next reload would exceed your team’s monthly spend limit. Contact a team admin to increase it.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVK967XQR73BJJ43CY515H",
+    "source": "Billing and usage",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page.rs",
+    "parent_call": null,
+    "context_hint": "macro:vec"
+  },
+  {
+    "id": "01KRNVK96C2TGYSTDVYX744EJK",
+    "source": "Billing and usage v2",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVKA5H9C8KKH3DCZTGYBYT",
+    "source": "Personal credits",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": "render_balance_card"
+  },
+  {
+    "id": "01KRNVKA7RRR70AP3R4VQ63F9M",
+    "source": "Purchased add-on credits are added to your personal balance.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": "const:ADDITIONAL_ADDON_CREDITS_DESCRIPTION_FOR_TEAM"
+  },
+  {
+    "id": "01KRNVKAN360QAC4GCBVS6ZV8C",
+    "source": "Switch to Business",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page.rs",
+    "parent_call": null,
+    "context_hint": "macro:vec"
+  },
+  {
+    "id": "01KRNVKAN7BNNFFWB8PHYY69C8",
+    "source": "Team credits",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": "render_balance_card"
+  },
+  {
+    "id": "01KRNVKAQAJXN2RRJVD04VY3YH",
+    "source": "This purchase would exceed your monthly limit. Increase your limit to continue.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVKAQH75B7MVZMJ5GQKRHK",
+    "source": "This purchase would exceed your team’s monthly spend limit. Contact a team admin to increase it.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVKAR4CSGPVSAZ5EVMFM5G",
+    "source": "Unable to enable auto-reload until pricing options load.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": ".show_toast"
+  },
+  {
+    "id": "01KRNVKASE8R5ZFV6P003HHKWV",
+    "source": "Use your own API keys from model providers for Warp Agent. You can also add custom endpoints to use third-party models. Custom endpoints must support the OpenAI-compatible Chat Completions API. API keys are stored locally and are never synced to the cloud. Using auto models or models from providers you have not provided API keys for will consume Warp credits. ",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "macro:vec"
+  },
+  {
+    "id": "01KRNVKAT76QZ6DSEEREXJPVNQ",
+    "source": "When any member on your team’s credit balance reaches 100 credits remaining, automatically purchase {auto_reload_credit_amount}.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": "macro:format"
+  },
+  {
+    "id": "01KRNVK8VSPXDVAV76W4K518FE",
+    "source": "API key",
+    "verdict_reasons": [
+      "ui_const:_LABEL",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "parent_call": null,
+    "context_hint": "const:AUTH_SECRET_COLUMN_LABEL"
+  },
+  {
+    "id": "01KRNVK8WB7D5YWYJJB4BBNCAQ",
+    "source": "API key header width handle should lock",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/platform_page.rs",
+    "parent_call": null,
+    "context_hint": ".expect"
+  },
+  {
+    "id": "01KRNVK8WQDPBZ4GB8XZD324PR",
+    "source": "API key table column width handle should lock",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/platform_page.rs",
+    "parent_call": null,
+    "context_hint": ".expect"
+  },
+  {
+    "id": "01KRNVK8Y82ERCRA8QJB4C8C2M",
+    "source": "Add custom endpoint",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "Some"
+  },
+  {
+    "id": "01KRNVK8YDGDG430TW67FHN0AP",
+    "source": "Add endpoint",
+    "verdict_reasons": [
+      "path_whitelist",
+      "ui_method:with_text_label",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": ".with_text_label"
+  },
+  {
+    "id": "01KRNVK90M5QQETVNX8NMX8T10",
+    "source": "Anthropic API key",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": ".render_api_key_input"
+  },
+  {
+    "id": "01KRNVK91J5NFT5JE1YMW1CW17",
+    "source": "Are you sure you want to remove this endpoint? You won't be able to use its models in your agent sessions moving forward.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/remove_custom_endpoint_confirmation_dialog.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVK95E3TJ3XEZ7EH7YRBZ0",
+    "source": "BASE_URL (e.g. https://us.api.openai.com/v1)",
+    "verdict_reasons": [
+      "ui_field:placeholder",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/auth_secret_types.rs",
+    "parent_call": null,
+    "context_hint": "Some > field:placeholder > const:CODEX_AUTH_SECRET_TYPES"
+  },
+  {
+    "id": "01KRNVK99Y6N3YZG6635QC57Z4",
+    "source": "By using BYOK or custom endpoints, you agree to use them only as permitted by ",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "FormattedTextLine::Line > macro:vec"
+  },
+  {
+    "id": "01KRNVK9GXPFMNC4DYTJ8R26W1",
+    "source": "Custom endpoints",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "Text::new_inline"
+  },
+  {
+    "id": "01KRNVK9H44CSX2R2DCNW0K1CP",
+    "source": "Custom inference",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "build_sub_header"
+  },
+  {
+    "id": "01KRNVK9H8DAA6NV36BQ0MJ2JZ",
+    "source": "Custom models",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/profile_model_selector.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new > field:fields"
+  },
+  {
+    "id": "01KRNVK9J1YQ16MRK6YA38XZ38",
+    "source": "Edit custom endpoint",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "Some"
+  },
+  {
+    "id": "01KRNVK9JVDAQTB7CS1CHP6PC0",
+    "source": "Endpoint URL",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "label"
+  },
+  {
+    "id": "01KRNVK9JZ0GVJHYKFH75R4A5Q",
+    "source": "Endpoint added",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "crate::view_components::DismissibleToast::success"
+  },
+  {
+    "id": "01KRNVK9K28SPSEY9060PGW806",
+    "source": "Endpoint name",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "label"
+  },
+  {
+    "id": "01KRNVK9K6VW2MG5HN4BQQM4HC",
+    "source": "Endpoint removed",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "crate::view_components::DismissibleToast::success"
+  },
+  {
+    "id": "01KRNVK9KBH1G0A8HCTZS3SQ3R",
+    "source": "Endpoint saved",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "crate::view_components::DismissibleToast::success"
+  },
+  {
+    "id": "01KRNVK9WKA2X9QYE7JEFQCY9P",
+    "source": "Google API key",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": ".render_api_key_input"
+  },
+  {
+    "id": "01KRNVKA30B5MS2TKYD04E492V",
+    "source": "OpenAI API key",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": ".render_api_key_input"
+  },
+  {
+    "id": "01KRNVKA7G74YT34K0BHTPG3QZ",
+    "source": "Provide your endpoint details below. You can add as many models from the endpoint as you'd like and can also provide aliases for the model picker in your input.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "Text::new"
+  },
+  {
+    "id": "01KRNVKAH0GSDEF9XR1PSTMNGC",
+    "source": "Remove endpoint",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/remove_custom_endpoint_confirmation_dialog.rs",
+    "parent_call": null,
+    "context_hint": "ActionButton::new"
+  },
+  {
+    "id": "01KRNVKAH2EM6TB9R24HFD63H2",
+    "source": "Remove endpoint?",
+    "verdict_reasons": [
+      "path_whitelist",
+      "ui_ctor:Dialog::new",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/remove_custom_endpoint_confirmation_dialog.rs",
+    "parent_call": null,
+    "context_hint": "Dialog::new"
+  },
+  {
+    "id": "01KRNVKAKVP8QJPBDD68ZZ9NGB",
+    "source": "Skip setting an API key",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/ambient_agent/auth_secret_ftux_dropdown.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new_with_label"
+  },
+  {
+    "id": "01KRNVKAPTXW424YHXE82SMBBJ",
+    "source": "This API key is tied to your team and can make requests on behalf of your team.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/platform/create_api_key_modal.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVKATWR9WCSM1DW9Y50RSK",
+    "source": "e.g., sk-...",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": ".set_placeholder_text"
+  },
+  {
+    "id": "01KRNVK9C1XH33XA6N4C5DA1D6",
+    "source": "Cloud Handoff",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "build_sub_header"
+  },
+  {
+    "id": "01KRNVK9CGSJ0NZM70XM9Z2NG1",
+    "source": "Cloud handoff",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "render_body_item_label"
+  },
+  {
+    "id": "01KRNVK9CYEY6J3B60FWVRGEZM",
+    "source": "Cloud handoff requires cloud conversations to be enabled.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVK9E61G0BAX5C5DC5VQWV",
+    "source": "Continue this task in Cloud Mode",
+    "verdict_reasons": [
+      "ui_method:with_tooltip",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "parent_call": null,
+    "context_hint": ".with_tooltip"
+  },
+  {
+    "id": "01KRNVK9WXW900PFW3MGPPM82F",
+    "source": "Hand off local agent conversations to a cloud agent.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "render_ai_setting_description"
+  },
+  {
+    "id": "01KRNVK9X5VVD22T9839HVVKC1",
+    "source": "Hand off this conversation to a cloud agent",
+    "verdict_reasons": [
+      "ui_field:description",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/search/slash_command_menu/static_commands/commands.rs",
+    "parent_call": null,
+    "context_hint": "LazyLock::new > field:description > const:MOVE_TO_CLOUD"
+  },
+  {
+    "id": "01KRNVK9X9HM7ZQYY9XDJ9MP7F",
+    "source": "Hand off to cloud",
+    "verdict_reasons": [
+      "ui_method:with_tooltip",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "parent_call": null,
+    "context_hint": ".with_tooltip"
+  },
+  {
+    "id": "01KRNVKAQSY297S01AHD910MY7",
+    "source": "Type & as the first character to enter cloud handoff compose mode.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "render_ai_setting_description"
+  },
+  {
+    "id": "01KRNVKARKVR24JKJVSX5J18K0",
+    "source": "Use & to trigger handoff",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "render_body_item_label"
+  },
+  {
+    "id": "01KRNVK8WZ4TFJSP0YBQD1VT8Y",
+    "source": "Accept w/o orchestration",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/blocklist/inline_action/run_agents_card_view.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new_with_label"
+  },
+  {
+    "id": "01KRNVK9ZR7Q0XE38DV6K94XHT",
+    "source": "Multi-agent orchestration",
+    "verdict_reasons": [
+      "ui_field:title",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/workspace/view/orchestration_launch_modal/view.rs",
+    "parent_call": null,
+    "context_hint": "field:title > const:FEATURE_ITEMS"
+  },
+  {
+    "id": "01KRNVKARTAX9HRJSS1J5WN6VW",
+    "source": "Use Oz to spin up Claude Code or Codex agents in the cloud; Oz will help you track and steer the agents.",
+    "verdict_reasons": [
+      "ui_field:description",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/workspace/view/orchestration_launch_modal/view.rs",
+    "parent_call": null,
+    "context_hint": "field:description > const:FEATURE_ITEMS"
+  },
+  {
+    "id": "01KRNVKASM161CNXMTARBRSZBQ",
+    "source": "Warp Agents will now orchestrate swarms of subagents, allowing you to parallelize tasks.",
+    "verdict_reasons": [
+      "ui_field:description",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/workspace/view/orchestration_launch_modal/view.rs",
+    "parent_call": null,
+    "context_hint": "field:description > const:FEATURE_ITEMS"
+  },
+  {
+    "id": "01KRNVKATGG7X93T7SP1WBJRV2",
+    "source": "[Debug] Open Orchestration Launch Modal",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape"
+    ],
+    "first_file": "app/src/workspace/mod.rs",
+    "parent_call": null,
+    "context_hint": "EditableBinding::new"
+  },
+  {
+    "id": "01KRNVKATKVB0RETDF14TY6XKZ",
+    "source": "[Debug] Reset Oz Launch Modal State",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape"
+    ],
+    "first_file": "app/src/workspace/mod.rs",
+    "parent_call": null,
+    "context_hint": "EditableBinding::new"
+  },
+  {
+    "id": "01KRNVK8YHT7AJTCBG1CQJZ8XJ",
+    "source": "Agent Memory",
+    "verdict_reasons": [
+      "ui_field:title",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/workspace/view/orchestration_launch_modal/view.rs",
+    "parent_call": null,
+    "context_hint": "field:title > const:FEATURE_ITEMS"
+  },
+  {
+    "id": "01KRNVKAHVW5X8ZMSHPS91SX8J",
+    "source": "Run any agent harness in the cloud",
+    "verdict_reasons": [
+      "ui_field:title",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/workspace/view/orchestration_launch_modal/view.rs",
+    "parent_call": null,
+    "context_hint": "field:title > const:FEATURE_ITEMS"
+  },
+  {
+    "id": "01KRNVK9FSNE40HJ0YMCN6RXEJ",
+    "source": "Couldn't connect to the Warp SSH extension",
+    "verdict_reasons": [
+      "ui_const:_TITLE",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/ssh_remote_server_failed_banner.rs",
+    "parent_call": null,
+    "context_hint": "const:BANNER_TITLE"
+  },
+  {
+    "id": "01KRNVK9QS60EFPN2CDD0G6ETT",
+    "source": "Failed to read remote search result files: {failed}",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "Ok > field:message > macro:format"
+  },
+  {
+    "id": "01KRNVK9T39H9ZHCCPZR9DVQ07",
+    "source": "Failed to start SSH extension",
+    "verdict_reasons": [
+      "ui_field:body",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view.rs",
+    "parent_call": null,
+    "context_hint": ".show_ssh_remote_server_failed_banner > field:body"
+  },
+  {
+    "id": "01KRNVKA90C021ZNGK19FCANGM",
+    "source": "Remote codebase search is not available in this environment.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/wasm.rs",
+    "parent_call": null,
+    "context_hint": "RemoteSearchRequest::Ready > field:message"
+  },
+  {
+    "id": "01KRNVKA95D8GNY4YVB2KEG18D",
+    "source": "Remote codebase search is not available.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/remote_server/codebase_index_model.rs",
+    "parent_call": null,
+    "context_hint": ".unwrap_or_else > field:message"
+  },
+  {
+    "id": "01KRNVKA9A3WN3KN0PMNAS1ZDC",
+    "source": "Remote codebase search is not enabled.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "RemoteSearchRequest::Ready > field:message"
+  },
+  {
+    "id": "01KRNVKA9M3Q3WNXBWE64R0GVT",
+    "source": "Remote codebase search is unavailable because the remote host is not connected.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "field:message"
+  },
+  {
+    "id": "01KRNVKA9ZRTBG72SY3PXNQR8Q",
+    "source": "Remote codebase search is unavailable because the remote server is not connected.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "RemoteSearchRequest::Ready > field:message"
+  },
+  {
+    "id": "01KRNVKAA6EX8D426NWK1J3JPB",
+    "source": "Remote codebase search is unavailable for {}: {message}",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "field:message > macro:format"
+  },
+  {
+    "id": "01KRNVKAAB3ZNRF9TT9ZT467PP",
+    "source": "Remote codebase search is unavailable.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/blocklist/action_model/execute/search_codebase.rs",
+    "parent_call": null,
+    "context_hint": "AIAgentActionResultType::SearchCodebase > field:message"
+  },
+  {
+    "id": "01KRNVKAAJER2S8B7RN6MXSWKN",
+    "source": "Remote codebase search was unexpectedly unavailable.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "field:message"
+  },
+  {
+    "id": "01KRNVKANCBMD6MZJXFYHVNAEV",
+    "source": "The current remote directory is not in a known codebase.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "field:message"
+  },
+  {
+    "id": "01KRNVKANYXRNPQJ9QARC2N1KA",
+    "source": "The remote codebase at {} is not indexed yet. Indexing has been requested; try again after it finishes.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "field:message > macro:format"
+  },
+  {
+    "id": "01KRNVKAP3TDR05EMXY4RAWQTE",
+    "source": "The remote codebase at {} is still being indexed. Try again later.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "parent_call": null,
+    "context_hint": "field:message > macro:format"
+  },
+  {
+    "id": "01KRNVKAP845349S4AR8R2AG3F",
+    "source": "The remote codebase index is missing its root hash.",
+    "verdict_reasons": [
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/remote_server/codebase_index_model.rs",
+    "parent_call": null,
+    "context_hint": "field:message"
+  },
+  {
+    "id": "01KRNVK8TB9P247NZ3EF583Z06",
+    "source": "+ Add model",
+    "verdict_reasons": [
+      "path_whitelist",
+      "ui_method:with_text_label",
+      "sentence_shape"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": ".with_text_label"
+  },
+  {
+    "id": "01KRNVK8XC9XZ0JXH6CCX6G1F4",
+    "source": "Add a new MCP server via the MCP settings page",
+    "verdict_reasons": [
+      "ui_field:description",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/search/slash_command_menu/static_commands/commands.rs",
+    "parent_call": null,
+    "context_hint": "field:description > const:ADD_MCP"
+  },
+  {
+    "id": "01KRNVK8Y2998GPXSVG5YEP7T1",
+    "source": "Add a rule above, or drop one at ~/.agents/AGENTS.md to apply it across every project.",
+    "verdict_reasons": [
+      "ui_const:_TEXT",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/facts/view/rule.rs",
+    "parent_call": null,
+    "context_hint": "const:ZERO_STATE_TEXT"
+  },
+  {
+    "id": "01KRNVK905KSSKKP4KY1S9C4FR",
+    "source": "Agents will now store and access long-term memories, enabling self-improvement over time.",
+    "verdict_reasons": [
+      "ui_field:description",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/workspace/view/orchestration_launch_modal/view.rs",
+    "parent_call": null,
+    "context_hint": "field:description > const:FEATURE_ITEMS"
+  },
+  {
+    "id": "01KRNVK97HE18X1HXM9R1F20C6",
+    "source": "Break this work into coordinated streams with multiple agents.",
+    "verdict_reasons": [
+      "ui_const:_DESCRIPTION",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/document/orchestration_config_block.rs",
+    "parent_call": null,
+    "context_hint": "const:CONFIG_BLOCK_DESCRIPTION"
+  },
+  {
+    "id": "01KRNVK9A9Z8DVE4RW3061H4QK",
+    "source": "Can I start additional agents for this task?",
+    "verdict_reasons": [
+      "ui_const:_TITLE",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/blocklist/inline_action/run_agents_card_view.rs",
+    "parent_call": null,
+    "context_hint": "const:RUN_AGENTS_CARD_TITLE"
+  },
+  {
+    "id": "01KRNVK9BAX4V410RGRXG4F6PX",
+    "source": "Choose a type",
+    "verdict_reasons": [
+      "ui_const:_LABEL",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+    "parent_call": null,
+    "context_hint": "const:SIDECAR_HEADER_LABEL"
+  },
+  {
+    "id": "01KRNVK9EDC2ZVAX2XRB76NJ4H",
+    "source": "Copy git branch",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new"
+  },
+  {
+    "id": "01KRNVK9EX0T3NTKXVG9G20KMR",
+    "source": "Copy share link",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/context_menu.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new"
+  },
+  {
+    "id": "01KRNVK9G8ZR15R9BR6DE8Z29Q",
+    "source": "Create agent",
+    "verdict_reasons": [
+      "path_whitelist",
+      "ui_method:with_text_label",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/platform/create_api_key_modal.rs",
+    "parent_call": null,
+    "context_hint": ".with_text_label"
+  },
+  {
+    "id": "01KRNVK9GDXY9H026QMV7JV9C1",
+    "source": "Create an account",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "macro:vec"
+  },
+  {
+    "id": "01KRNVK9HWW1P5KCZPGGGHJ51K",
+    "source": "Disabled by your administrator",
+    "verdict_reasons": [
+      "ui_method:with_tooltip",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/ambient_agent/harness_selector.rs",
+    "parent_call": null,
+    "context_hint": ".with_tooltip"
+  },
+  {
+    "id": "01KRNVK9KTXYNRJGQG26FWQREA",
+    "source": "Expires {}",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": "macro:format"
+  },
+  {
+    "id": "01KRNVK9SXDQFKVFJCGKQ94FGD",
+    "source": "Failed to send emails. Please try again.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/referrals_page.rs",
+    "parent_call": null,
+    "context_hint": "const:EMAIL_FAILURE_TOAST"
+  },
+  {
+    "id": "01KRNVK9VE4AAE0338ZF1QR3V3",
+    "source": "Failed to unshare block. Please try again.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/show_blocks_view.rs",
+    "parent_call": null,
+    "context_hint": ".emit > field:message"
+  },
+  {
+    "id": "01KRNVK9WDZFJQYF2TSGP884XW",
+    "source": "Fork from here (dev only)",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new"
+  },
+  {
+    "id": "01KRNVK9XN3Z9HTNGMT0DGK66H",
+    "source": "Inherit key from environment",
+    "verdict_reasons": [
+      "ui_const:_LABEL",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "parent_call": null,
+    "context_hint": "const:AUTH_SECRET_INHERIT_LABEL"
+  },
+  {
+    "id": "01KRNVK9XSND2SAR2SDR5V80WK",
+    "source": "Invalid URL",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": ".map_err"
+  },
+  {
+    "id": "01KRNVK9YFDH834446EZTDVM24",
+    "source": "Loading…",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "terminal_punct"
+    ],
+    "first_file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new"
+  },
+  {
+    "id": "01KRNVK9ZHP7ZWAQYZ0BJZTGJ8",
+    "source": "Model alias (optional)",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "label"
+  },
+  {
+    "id": "01KRNVK9ZKD7JCCEJEAQXQZ7GX",
+    "source": "Model name",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "label"
+  },
+  {
+    "id": "01KRNVK9ZXX0QQP9YYSZKWVRG8",
+    "source": "New {}",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/ambient_agent/auth_secret_ftux_dropdown.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new > macro:format"
+  },
+  {
+    "id": "01KRNVKA0MFDW84DPP0NMWRGYZ",
+    "source": "No agents available. Create one first.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/platform/create_api_key_modal.rs",
+    "parent_call": null,
+    "context_hint": "Text::new"
+  },
+  {
+    "id": "01KRNVKA28ZYZ21JYSMDEYY5YD",
+    "source": "No secrets found",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/ambient_agent/auth_secret_ftux_dropdown.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new"
+  },
+  {
+    "id": "01KRNVKA2XJB1YA6KHCR3JWFPT",
+    "source": "Not logged in",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/handoff_environment_creation_modal.rs",
+    "parent_call": null,
+    "context_hint": ".emit > field:error_message"
+  },
+  {
+    "id": "01KRNVKA5V0W6V6EP1XKCVJ2XY",
+    "source": "Please include 'https://'",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": ".set_placeholder_text"
+  },
+  {
+    "id": "01KRNVKA6AKWCB34CBWSEZQ403",
+    "source": "Please select an agent.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "ui_field:message",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/platform/create_api_key_modal.rs",
+    "parent_call": null,
+    "context_hint": ".emit > field:message"
+  },
+  {
+    "id": "01KRNVKA6W4S4CFAX6ECQKMPZ4",
+    "source": "Press enter to navigate to this session.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/search/command_palette/navigation/search_item.rs",
+    "parent_call": null,
+    "context_hint": "Some"
+  },
+  {
+    "id": "01KRNVKAH9SJS2858YJTGYMSTS",
+    "source": "Rename the current tab",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/search/slash_command_menu/static_commands/commands.rs",
+    "parent_call": null,
+    "context_hint": "LazyLock::new > field:description > const:RENAME_TAB"
+  },
+  {
+    "id": "01KRNVKAHHH7QMNXMZ43HGWEH6",
+    "source": "Resets %b %d at %-I:%M %p",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "parent_call": null,
+    "context_hint": ".format"
+  },
+  {
+    "id": "01KRNVKAJ25WRMV3YJ5DGY0B7B",
+    "source": "Save environment",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/update_environment_form.rs",
+    "parent_call": null,
+    "context_hint": null
+  },
+  {
+    "id": "01KRNVKAJDGA2VXJ7AZ04Z7T4D",
+    "source": "Scroll down half a page (vim)",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/code/editor/view/actions.rs",
+    "parent_call": null,
+    "context_hint": "EditableBinding::new"
+  },
+  {
+    "id": "01KRNVKAJPWWCM0VDJPC57J45W",
+    "source": "Scroll terminal output up one line",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/init.rs",
+    "parent_call": null,
+    "context_hint": "EditableBinding::new"
+  },
+  {
+    "id": "01KRNVKAJTKW7RK1G9HXX74TDJ",
+    "source": "Scroll terminal output up one page",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/input.rs",
+    "parent_call": null,
+    "context_hint": "EditableBinding::new"
+  },
+  {
+    "id": "01KRNVKAJYVFA8W57BDAPK0QEM",
+    "source": "Scroll up half a page (vim)",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/code/editor/view/actions.rs",
+    "parent_call": null,
+    "context_hint": "EditableBinding::new"
+  },
+  {
+    "id": "01KRNVKAKGY4V722SB4VTQPWZG",
+    "source": "Selected {}. {}.",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "terminal_punct",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/search/command_palette/navigation/search_item.rs",
+    "parent_call": null,
+    "context_hint": "macro:format"
+  },
+  {
+    "id": "01KRNVKAQK2BDKFS4P53DY9Y6K",
+    "source": "Toggle Conversation Details Panel",
+    "verdict_reasons": [
+      "ui_ctor:EditableBinding::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/terminal/view/init.rs",
+    "parent_call": null,
+    "context_hint": "EditableBinding::new"
+  },
+  {
+    "id": "01KRNVKAQVJ2ZCY5G8C55S7Q6T",
+    "source": "URL must include a host",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "Err"
+  },
+  {
+    "id": "01KRNVKAQYMZ78FP4TXPYJKS47",
+    "source": "URL must not use a local or private host",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "Err"
+  },
+  {
+    "id": "01KRNVKAR0R1NY3WFWGJ0PJ3E5",
+    "source": "URL must use HTTPS",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/custom_inference_modal.rs",
+    "parent_call": null,
+    "context_hint": "Err"
+  },
+  {
+    "id": "01KRNVKAR6WV3JD7ZB7QGYM6FS",
+    "source": "Unable to load secrets",
+    "verdict_reasons": [
+      "ui_ctor:MenuItemFields::new",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "parent_call": null,
+    "context_hint": "MenuItemFields::new"
+  },
+  {
+    "id": "01KRNVKASQRYCRKXS3VRE7TA57",
+    "source": "Warp's Terms of Service",
+    "verdict_reasons": [
+      "path_whitelist",
+      "sentence_shape",
+      "title_case_phrase"
+    ],
+    "first_file": "app/src/settings_view/ai_page.rs",
+    "parent_call": null,
+    "context_hint": "FormattedTextLine::Line > macro:vec"
+  }
+]

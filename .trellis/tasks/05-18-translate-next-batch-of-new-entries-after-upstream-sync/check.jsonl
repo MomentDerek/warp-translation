@@ -1,0 +1,3 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "Review checklist — checker re-runs every item (glossary, placeholders, modifiers, tone) against the 113 translated entries."}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Canonical-form / idempotency / marker-file safety. Checker must confirm extract --check exit 0 after table edit and that build/warp-zh/ marker is updated post-builder run."}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "If extract --check fails after the batch, this is the reference for understanding which heuristic/path changed; helps diagnose canonical-form drift."}
