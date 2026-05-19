@@ -20,9 +20,38 @@ pub fn collect_rust_files(root: &Path) -> Vec<PathBuf> {
 
 /// Directories whose contents we never copy or scan. Shared with the builder
 /// so the copied source tree mirrors what the extractor saw.
+///
+/// Only truly generated / reproducible dirs go here. User-authored hidden
+/// config dirs (notably `.cargo/`, which carries `config.toml` for target /
+/// registry settings) must NOT be skipped — the translated copy needs them
+/// to build the same way upstream does.
 pub fn is_ignored_dir(name: &str) -> bool {
-    matches!(
-        name,
-        "target" | ".git" | "node_modules" | ".cargo" | "build" | "dist"
-    )
+    matches!(name, "target" | ".git" | "node_modules" | "build" | "dist")
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn ignores_generated_dirs() {
+        for name in ["target", ".git", "node_modules", "build", "dist"] {
+            assert!(is_ignored_dir(name), "{name} should be ignored");
+        }
+    }
+
+    #[test]
+    fn does_not_ignore_cargo_config_dir() {
+        // `.cargo/config.toml` carries registry / target build config the
+        // translated copy must inherit. Regression guard: see PR fix for
+        // "builder skipping .cargo hidden dir".
+        assert!(!is_ignored_dir(".cargo"));
+    }
+
+    #[test]
+    fn does_not_ignore_normal_dirs() {
+        for name in ["src", "crates", "app", "tests", ".github"] {
+            assert!(!is_ignored_dir(name), "{name} should not be ignored");
+        }
+    }
 }

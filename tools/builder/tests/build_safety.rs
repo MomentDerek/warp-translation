@@ -78,6 +78,10 @@ fn build_succeeds_and_drops_marker() {
     write(&src.join("README.md"), "doc\n");
     write(&src.join("target/garbage.txt"), "should not be copied\n");
     write(&src.join(".git/config"), "[core]\n");
+    // `.cargo/config.toml` is user-authored build config; it must be mirrored
+    // into the output so the translated copy builds the same way upstream
+    // does. Regression guard for the .cargo-skipped bug.
+    write(&src.join(".cargo/config.toml"), "[build]\nrustflags = []\n");
     write(&table, MIN_TABLE);
 
     let result = run_build(&src, &table, &out);
@@ -100,6 +104,13 @@ fn build_succeeds_and_drops_marker() {
     // Ignored dirs NOT copied.
     assert!(!out.join("target").exists());
     assert!(!out.join(".git").exists());
+    // `.cargo/` IS copied (regression: previously folded into the ignore list).
+    let cargo_cfg = out.join(".cargo/config.toml");
+    assert!(cargo_cfg.exists(), ".cargo/config.toml must be mirrored");
+    assert_eq!(
+        fs::read_to_string(&cargo_cfg).unwrap(),
+        "[build]\nrustflags = []\n"
+    );
 }
 
 #[test]
