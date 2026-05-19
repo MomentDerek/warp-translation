@@ -385,3 +385,36 @@ Translated 103 auto_ui new entries in `app/src/settings_view/teams_page.rs` (Set
 ### Next Steps
 
 - Await user approval to commit + archive.
+
+
+## Session 7: Translate teams_page.rs batch (103 auto_ui entries)
+
+**Date**: 2026-05-19
+**Task**: Translate teams_page.rs batch (103 auto_ui entries)
+**Branch**: `main`
+
+### Summary
+
+Translated 103 auto_ui new entries in app/src/settings_view/teams_page.rs (Settings → Teams). Glossary +4 terms (admin/invite/plan/discoverable) → 43. Stats: translated 962→1065, new 5648→5545. trellis-check caught 1 trailing-space drop on sentence-link prefix ('Please ' → '请 '), 3rd time hitting this pattern. extract --check idempotent; cargo check -p warp PASS in 3m10s.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `2257b5c` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
