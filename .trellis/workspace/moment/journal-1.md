@@ -234,3 +234,80 @@ Followup to 05-15 sync. Translated 116 auto_ui-verdict UI strings from the b9ec4
 ### Next Steps
 
 - None - task complete
+
+
+## Session 6: Translate features_page.rs batch (114 auto_ui entries)
+
+**Date**: 2026-05-19
+**Task**: Translate features_page.rs batch (114 auto_ui entries)
+**Branch**: `main`
+
+### Summary
+
+Translated 114 auto_ui new entries in app/src/settings_view/features_page.rs (Settings > Features). Excluded 4 internal .expect() panic-msg lines (L1491/1500/1509/3082, same defer pattern as last round's server_model.rs). Stats: translated 848 -> 962 (+114), new 5762 -> 5648. Glossary unchanged (39 terms). extract --check idempotent both before and after trellis-check fixes (3 issues caught: 2 missing trailing spaces before inline link spans + 1 您/你 register violation). warp-zh-builder rebuilt; cargo check -p warp PASS in 3m00s. Builder still skips hidden dirs - had to cp .cargo/config.toml again.
+
+### Main Changes
+
+### Main Changes
+
+- `translations/strings.json`：114 条 features_page.rs auto_ui new → translated；新增 batch flag `pr-settings-features-batch`；stats: translated 848 → 962（+114），new 5762 → 5648。
+- `.trellis/tasks/05-19-translate-next-batch-of-new-auto-ui-entries/apply_translations.py`：114 条源→译表 + 4 行 panic-msg 排除（L1491/1500/1509/3082 的 `.expect("...")`）。
+- Glossary 不变（39 条已覆盖本批所有术语：Agent / Warp / SSH / Vim / Wayland / GPU / pane / block / 命令块 / 窗格 等）。
+
+### Themes covered (Settings → Features 单页)
+
+| 簇 | 条数 |
+|---|---|
+| Modifier keys (Left/Right Option/Alt) | 4 |
+| Toggle-pair labels (Warp SSH wrapper / quit warning / alias expansion / Vim 等) | 18 |
+| Block / pin 布局 (Active Screen / Pin to top/bottom/left/right / Width%/Height%) | 8 |
+| Tab placement & 标签页 | 3 |
+| Notifications (desktop / agent / sound / toast) | 7 |
+| Hotkey & startup behavior (Global hotkey / Start at login / Restore windows) | 12 |
+| Block 限制 (max rows / mouse-wheel interval) | 5 |
+| Shell defaults (default shell / working directory / confirm close) | 3 |
+| Completions / autosuggestions (含 6 条 `{}` 占位符) | 16 |
+| Vim (3) + 终端输入上下文菜单 (6) | 9 |
+| Mouse/scroll/focus reporting + bell | 4 |
+| Selection / copy / new tab placement | 6 |
+| Linux clipboard | 2 |
+| GPU / Wayland (含 `\n\nRestart Warp...` 前导换行 + `Current backend: {}`) | 8 |
+| 其它 categories / wrapper headers | 9 |
+| **Total** | **114** |
+
+### Lessons / 边界情况
+
+- **Trailing-space matters before inline link span**：L4290 `"Window positions won't be restored on Wayland. "` 和 L5371 `"Not supported on Wayland. "` 都以一个空格结尾，因为后面会拼接 `See docs.` 链接 span。trellis-check 抓到了第一遍漏掉的空格——译文必须保留 source 末尾空格。后续翻译时凡见末尾带空格的 source 都要原样保留。
+- **`您` vs `你` register**：trellis-check 抓到 L5016 用了 `你的关注`，修为 `您的关注`。已在 spec 里有规则（line 85），但仍可能在长句里漏过——审校时应专门 grep `你` 字符。
+- **Panic / assert defer 口径**：features_page.rs 内 4 条 `.expect("X failed to serialize")` + 1 条 `.expect("Pin position should exist...")` 与上一轮 server_model.rs 同口径排除，保持 status=new。
+- **Builder 副作用**：`warp-zh-builder` 重建时会重新 copy 上游目录，但跳过隐藏目录——`.cargo/config.toml` 每次重建后需手动 `cp -r ../warp/.cargo build/warp-zh/.cargo`。已是第 2 次踩同一坑，值得后续做 builder 修复。
+
+### Verification
+
+- `extract --check` exit 0（两次幂等校验，含 trellis-check 修正后的第二次）。
+- `warp-zh-builder` 重建 `build/warp-zh/`：copied=4994 / modified=203 / replaced=1493 / kept_english=7798 / parse_failed=1（上游既存 1 个 parse failure，与本批无关）。
+- `cargo check -p warp` 两次 PASS（首次 3m01s、修正后 3m00s）。
+- Placeholder integrity 100%（`{max_rows}` / `{}` × 5 / leading `\n\n` / 末尾空格 × 2 全部 verbatim）。
+- Glossary spot-check：Agent / Warp / Vim / SSH / Wayland 0 mix；`您` 100% consistency（trellis-check 修正后）。
+
+### Next Steps
+
+- 剩余 1238 条 auto_ui new（settings_view 占 586）、4410 条 uncertain new、4 条 features_page 内部 panic msg。
+- 下一轮自然候选：`teams_page.rs`(97) / `appearance_page.rs`(84) / `billing_and_usage_page.rs`(66) 任一单页，或同样规模的 mcp_servers/code/environments 组合。
+
+
+### Git Commits
+
+(No commits - planning session)
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
