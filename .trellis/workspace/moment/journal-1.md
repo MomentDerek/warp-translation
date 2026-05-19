@@ -311,3 +311,77 @@ Translated 114 auto_ui new entries in app/src/settings_view/features_page.rs (Se
 ### Next Steps
 
 - None - task complete
+
+
+## Session 7: Translate teams_page.rs batch (103 auto_ui entries)
+
+**Date**: 2026-05-19
+**Task**: Translate teams_page.rs batch (103 auto_ui entries)
+**Branch**: `main`
+
+### Summary
+
+Translated 103 auto_ui new entries in `app/src/settings_view/teams_page.rs` (Settings → Teams). Glossary +4 terms (admin / invite / plan / discoverable) → term_count 39→43. Stats: translated 962→1065 (+103), new 5648→5545. trellis-check caught 1 issue: `'Please '` trailing-space dropped on prefix half of sentence-link composition (L136 + L137 + L138 chain — same pattern as last batch's L4290 Wayland). Fixed to `'请 '`. extract --check idempotent (after first canonicalization pass). warp-zh-builder rebuilt; cargo check -p warp PASS in 3m10s.
+
+### Main Changes
+
+- `translations/strings.json`：103 条 teams_page.rs auto_ui new → translated；batch flag `pr-settings-teams-batch`；stats: translated 962→1065（+103），new 5648→5545。
+- `translations/glossary.json`：+4 条术语（admin / invite / plan / discoverable），term_count 39→43。
+- `.trellis/tasks/05-19-translate-next-batch-of-new-auto-ui-entries-settings-view-continued/apply_translations.py`：103 条源→译表 + 4 条 glossary 增补。
+- Teams 页面术语锁定：`admin`→管理员、`team admin`→团队管理员、`invite`→邀请、`invite link`→邀请链接、`plan`→套餐（订阅层级）、`Lightspeed/Turbo/Build plan`→Lightspeed/Turbo/Build 套餐、`team ownership`→团队所有权、`discoverable/discoverability`→可发现/可发现性。
+
+### Themes covered (Settings → Teams 单页)
+
+| 簇 | 条数 |
+|---|---|
+| Team CRUD (create/delete/rename/leave/transfer ownership) | 14 |
+| Roles (admin/member/promote/demote/remove) | 6 |
+| Invite by email (placeholders / instructions / send / cancel / delete) | 12 |
+| Invite by link (toggle / reset / domain restrictions) | 14 |
+| Domain restrictions (add/remove/invalid/instructions) | 7 |
+| Team discoverability | 5 |
+| Plan & billing (Free/Build/Lightspeed/Turbo/usage limits/Stripe portal) | 13 |
+| Delinquent / limit-hit copy (4 个角色 × 多模板) | 10 |
+| Toast / show_error 文案（成功/失败状态） | 17 |
+| 其它（offline / placeholder / sub-headers） | 5 |
+| **Total** | **103** |
+
+### Lessons / 边界情况
+
+- **Sentence-link composition trailing space**（再次踩坑，第 3 次）：L136 `'Please '` + L137 `'update your payment information'`（link） + L138 `' to restore access.'`（leading-space suffix）拼接成完整句。前缀的尾部空格译文也必须保留：`'请 '`。规律：**只要 source 末尾有空格，译文末尾也保留空格**，无论中文语感是否需要。trellis-check 已两次抓到此类——值得在 spec 里加 explicit rule。
+- **history 字段不可乱写**：本批首次尝试在 `history[]` 中追加 `{at, action, batch, note}` 失败，extractor 报 `missing field source`——history entry struct 期望含 `source` 字段。之前所有 batch 都用 `"history": []`，本批沿用空数组，flag 才是审计入口。**应在 spec 里固化：批次内不写 history，仅靠 flag tracking**。
+- **canonicalize 二步法**：Python 直接 `json.dump` 的格式与 extractor canonical form 不完全一致，必须先跑一次 `extract`（不带 --check）让 extractor 重写为 canonical，再跑 `extract --check` 才会通过。两步流程已稳定。
+- **Builder 隐藏目录 bug 第 3 次**：`.cargo/config.toml` 又被跳过；又手动 cp。**真该修一下 builder 了**——不能再 defer，下一轮加 task 修。
+- **Glossary 新增节奏**：本批一次性加 4 条（admin/invite/plan/discoverable），teams 页面术语密度高、未来 settings 页可大量复用，值得集中入库。
+
+### Verification
+
+- `extract --check` exit 0（先 canonicalize 再 --check 两次幂等）。
+- `warp-zh-builder` 重建：copied=4992 / modified=205 / replaced=1611 / kept_english=7680 / parse_failed=1（上游既存 1 个 parse failure 与本批无关）。
+- `cargo check -p warp` PASS（首次 3m03s、trellis-check 修正后 3m10s）。
+- trellis-check 自动校验：103 条 placeholder integrity 100%（`{domain}`/`{prorated_message}`/`{monthly_cost:.0}`/`{yearly_cost:.0}`/`{}` 全部 verbatim）、`你` 0 处、半角点号 0 处误用、leading/trailing space 100% 保留（含修正后的 L136 `'请 '`）。
+- Glossary 一致性 spot-check：admin/管理员、Warp/Agent 不混译、Lightspeed/Turbo/Build 套餐名保留英文。
+
+### Next Steps
+
+- 剩余 1135 条 auto_ui new（settings_view 占 ~480）、4410 条 uncertain new、4 条 features_page 内部 panic msg。
+- 下一轮自然候选：`appearance_page.rs`(84) / `billing_and_usage_page.rs`(66) / `code_page.rs`(36) 任一单页。
+- **待修**：tools/builder/ 跳过隐藏目录的 bug（`.cargo/` 每次都要手动 cp）——下一轮第一件事。
+
+### Git Commits
+
+(No commits - implementation only; commit on user approval)
+
+### Testing
+
+- [OK] extract --check idempotent
+- [OK] cargo check -p warp PASS (3m10s)
+- [OK] trellis-check 0 issues (after 1 fix)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- Await user approval to commit + archive.

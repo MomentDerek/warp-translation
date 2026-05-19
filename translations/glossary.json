@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 39,
+    "term_count": 43,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -239,6 +239,30 @@
       "en": "orchestration",
       "zh": "编排",
       "notes": "Multi-agent orchestration 上下文：'multi-agent orchestration' → '多 Agent 编排'。内部代号 'Oz' 已被上游替换为公开概念 'Orchestration'，按 '编排' 统一翻译。'[Debug] Reset Oz Launch Modal State' → '[Debug] 重置编排启动弹窗状态'。",
+      "do_not_translate": false
+    },
+    "admin": {
+      "en": "admin",
+      "zh": "管理员",
+      "notes": "团队管理员角色。'team admin' → '团队管理员'；'admin panel' → '管理面板'；'Demote from admin' → '降为普通成员'；'Promote to admin' → '提升为管理员'。",
+      "do_not_translate": false
+    },
+    "invite": {
+      "en": "invite",
+      "zh": "邀请",
+      "notes": "团队邀请操作或邀请对象。动词和名词共用 '邀请'。'invite link' → '邀请链接'；'cancel invite' → '取消邀请'；'pending invite' → '待处理邀请'；'email invitation' → '邮箱邀请'。",
+      "do_not_translate": false
+    },
+    "plan": {
+      "en": "plan",
+      "zh": "套餐",
+      "notes": "订阅套餐计费层级。'Free plan' / 'Build plan' / 'Lightspeed plan' / 'Turbo plan' / 'Enterprise plan' 中 'plan' 译为 '套餐'，计划名（Build/Lightspeed/Turbo 等）保留英文。'Manage plan' → '管理套餐'；'Compare plans' → '比较套餐'。不与作为名词的 'plan'（计划/规划）混；后者出现在 AI/agent 上下文中（'create a plan' → '制定计划'）。",
+      "do_not_translate": false
+    },
+    "discoverable": {
+      "en": "discoverable",
+      "zh": "可发现",
+      "notes": "Team discovery 功能：是否允许同域用户搜索到团队。'Make team discoverable' → '允许团队被发现'；'team discoverability' → '团队可发现性'；'Toggle Team Discoverability' → '切换团队可发现性'。",
       "do_not_translate": false
     }
   }
