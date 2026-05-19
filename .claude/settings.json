@@ -10,7 +10,7 @@
           {
             "type": "command",
             "command": "python3 .claude/hooks/session-start.py",
-            "timeout": 10
+            "timeout": 30
           }
         ]
       },
@@ -20,7 +20,7 @@
           {
             "type": "command",
             "command": "python3 .claude/hooks/session-start.py",
-            "timeout": 10
+            "timeout": 30
           }
         ]
       },
@@ -30,7 +30,7 @@
           {
             "type": "command",
             "command": "python3 .claude/hooks/session-start.py",
-            "timeout": 10
+            "timeout": 30
           }
         ]
       }
@@ -63,7 +63,7 @@
           {
             "type": "command",
             "command": "python3 .claude/hooks/inject-workflow-state.py",
-            "timeout": 5
+            "timeout": 15
           }
         ]
       }

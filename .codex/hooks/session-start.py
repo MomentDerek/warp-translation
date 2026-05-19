@@ -18,6 +18,77 @@ import warnings
 from io import StringIO
 from pathlib import Path
 
+# Force UTF-8 on stdin/stdout/stderr on Windows. Default codepage there is
+# cp936 / cp1252 / etc. — non-ASCII content (Chinese task names, prd snippets)
+# both in stdin (hook payload from host CLI) and stdout (our emitted blocks)
+# raises UnicodeDecodeError / UnicodeEncodeError. Equivalent to `python -X utf8`
+# but applied per-stream so we don't depend on host CLI's command wiring.
+if sys.platform.startswith("win"):
+    import io as _io
+    for _stream_name in ("stdin", "stdout", "stderr"):
+        _stream = getattr(sys, _stream_name, None)
+        if _stream is None:
+            continue
+        if hasattr(_stream, "reconfigure"):
+            try:
+                _stream.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
+            except Exception:
+                pass
+        elif hasattr(_stream, "detach"):
+            try:
+                setattr(sys, _stream_name, _io.TextIOWrapper(_stream.detach(), encoding="utf-8", errors="replace"))
+            except Exception:
+                pass
+
+
+def _normalize_windows_shell_path(path_str: str) -> str:
+    """Normalize Unix-style shell paths to real Windows paths.
+
+    On Windows, shells like Git Bash / MSYS2 / Cygwin may report paths like
+    `/d/Users/...` or `/cygdrive/d/Users/...`. `Path.resolve()` will misinterpret
+    these as `D:/d/Users...` on drive D: (or similar), breaking repo root
+    detection.
+
+    This function is intentionally conservative: it only rewrites patterns that
+    unambiguously represent a drive letter mount.
+    """
+    if not isinstance(path_str, str) or not path_str:
+        return path_str
+
+    # Only relevant on Windows; keep other platforms untouched.
+    if not sys.platform.startswith("win"):
+        return path_str
+
+    p = path_str.strip()
+
+    # Already a Windows drive path (C:\... or C:/...)
+    if re.match(r"^[A-Za-z]:[\/]", p):
+        return p
+
+    # MSYS/Git-Bash style: /c/Users/... or /d/Work/...
+    m = re.match(r"^/([A-Za-z])/(.*)", p)
+    if m:
+        drive, rest = m.group(1).upper(), m.group(2)
+        rest = rest.replace('/', '\\')
+        return f"{drive}:\\{rest}"
+
+    # Cygwin style: /cygdrive/c/Users/...
+    m = re.match(r"^/cygdrive/([A-Za-z])/(.*)", p)
+    if m:
+        drive, rest = m.group(1).upper(), m.group(2)
+        rest = rest.replace('/', '\\')
+        return f"{drive}:\\{rest}"
+
+    # WSL mounted drive (sometimes leaked into env): /mnt/c/Users/...
+    m = re.match(r"^/mnt/([A-Za-z])/(.*)", p)
+    if m:
+        drive, rest = m.group(1).upper(), m.group(2)
+        rest = rest.replace('/', '\\')
+        return f"{drive}:\\{rest}"
+
+    return path_str
+
+
 warnings.filterwarnings("ignore")
 
 FIRST_REPLY_NOTICE = """<first-reply-notice>
@@ -26,8 +97,28 @@ Trellis SessionStart 已注入：workflow、当前任务状态、开发者身份
 Then continue directly with the user's request. This notice is one-shot: do not repeat it after the first assistant reply in the same session.
 </first-reply-notice>"""
 
+SUB_AGENT_NOTICE = """<sub-agent-notice>
+SUB-AGENT NOTICE - READ FIRST IF SPAWNED VIA spawn_agent
+
+If your parent session spawned you via spawn_agent with an explicit task
+message above this hook output, that message is your only job.
+- Execute the parent message exactly as written, then return.
+- Ignore all Trellis workflow guidance below this notice.
+- Do NOT call task.py start, task.py add-context, or task.py archive.
+- Do NOT call wait_agent or spawn_agent.
+- Do NOT modify .trellis/tasks/* or any other file unless the parent message
+  explicitly asks for that.
+
+If you are the main interactive Codex session and the user is typing at the
+terminal with no parent agent, use the workflow guidance below normally.
+</sub-agent-notice>"""
+
 
 def should_skip_injection() -> bool:
+    if os.environ.get("TRELLIS_HOOKS") == "0":
+        return True
+    if os.environ.get("TRELLIS_DISABLE_HOOKS") == "1":
+        return True
     return os.environ.get("CODEX_NON_INTERACTIVE") == "1"
 
 
@@ -191,6 +282,10 @@ def _get_task_status(trellis_dir: Path, hook_input: dict) -> str:
         "Next required action: dispatch `trellis-implement` per Phase 2.1. "
         "For agent-capable platforms, the default is to NOT edit code in the main session. "
         "After implementation, dispatch `trellis-check` per Phase 2.2 before reporting completion.\n"
+        "Sub-agent self-exemption: if you are reading this as a `trellis-implement` or "
+        "`trellis-check` sub-agent (your own role / agent name reflects that), this dispatch "
+        "instruction does NOT apply to you — you are already the dispatched sub-agent. "
+        "Implement / check directly without spawning another sub-agent of the same kind.\n"
         "User override (per-turn escape hatch): if the user's CURRENT message explicitly tells the "
         "main session to handle it directly (\"你直接改\" / \"别派 sub-agent\" / \"main session 写就行\" / "
         "\"do it inline\" / \"不用 sub-agent\"), honor it for this turn and edit code directly. "
@@ -267,7 +362,7 @@ def main() -> None:
         hook_input = json.loads(sys.stdin.read())
         if not isinstance(hook_input, dict):
             hook_input = {}
-        project_dir = Path(hook_input.get("cwd", ".")).resolve()
+        project_dir = Path(_normalize_windows_shell_path(hook_input.get("cwd", "."))).resolve()
     except (json.JSONDecodeError, KeyError):
         hook_input = {}
         project_dir = Path(".").resolve()
@@ -278,6 +373,9 @@ def main() -> None:
     context_key = _resolve_context_key(project_dir, hook_input)
 
     output = StringIO()
+
+    output.write(SUB_AGENT_NOTICE)
+    output.write("\n\n")
 
     output.write("""<session-context>
 You are starting a new session in a Trellis-managed project.
@@ -309,7 +407,11 @@ Read and follow all instructions below carefully.
         "`trellis-implement` and `trellis-check` (so JSONL context is loaded by "
         "the sub-agents) rather than editing code in the main session. "
         "Honor a per-turn user override only if the user's current message "
-        "explicitly opts out (see <task-status> below for override phrases).\n\n"
+        "explicitly opts out (see <task-status> below for override phrases).\n"
+        "- Sub-agent self-exemption: if you are reading this as a `trellis-implement` "
+        "or `trellis-check` sub-agent, the \"dispatch trellis-implement / trellis-check\" "
+        "rule above does NOT apply to you — you are already the dispatched sub-agent. "
+        "Do NOT spawn another sub-agent of the same kind; implement / check directly.\n\n"
     )
 
     # guides/ inlined (cross-package thinking, broadly useful)

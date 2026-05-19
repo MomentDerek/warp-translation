@@ -18,20 +18,82 @@ import sys
 from io import StringIO
 from pathlib import Path
 
+
+def _normalize_windows_shell_path(path_str: str) -> str:
+    """Normalize Unix-style shell paths to real Windows paths.
+
+    On Windows, shells like Git Bash / MSYS2 / Cygwin may report paths like
+    `/d/Users/...` or `/cygdrive/d/Users/...`. `Path.resolve()` will misinterpret
+    these as `D:/d/Users...` on drive D: (or similar), breaking repo root
+    detection.
+
+    This function is intentionally conservative: it only rewrites patterns that
+    unambiguously represent a drive letter mount.
+    """
+    if not isinstance(path_str, str) or not path_str:
+        return path_str
+
+    # Only relevant on Windows; keep other platforms untouched.
+    if not sys.platform.startswith("win"):
+        return path_str
+
+    p = path_str.strip()
+
+    # Already a Windows drive path (C:\... or C:/...)
+    if re.match(r"^[A-Za-z]:[\/]", p):
+        return p
+
+    # MSYS/Git-Bash style: /c/Users/... or /d/Work/...
+    m = re.match(r"^/([A-Za-z])/(.*)", p)
+    if m:
+        drive, rest = m.group(1).upper(), m.group(2)
+        rest = rest.replace('/', '\\')
+        return f"{drive}:\\{rest}"
+
+    # Cygwin style: /cygdrive/c/Users/...
+    m = re.match(r"^/cygdrive/([A-Za-z])/(.*)", p)
+    if m:
+        drive, rest = m.group(1).upper(), m.group(2)
+        rest = rest.replace('/', '\\')
+        return f"{drive}:\\{rest}"
+
+    # WSL mounted drive (sometimes leaked into env): /mnt/c/Users/...
+    m = re.match(r"^/mnt/([A-Za-z])/(.*)", p)
+    if m:
+        drive, rest = m.group(1).upper(), m.group(2)
+        rest = rest.replace('/', '\\')
+        return f"{drive}:\\{rest}"
+
+    return path_str
+
+
 FIRST_REPLY_NOTICE = """<first-reply-notice>
 On the first visible assistant reply in this session, begin with exactly one short Chinese sentence:
 Trellis SessionStart 已注入：workflow、当前任务状态、开发者身份、git 状态、active tasks、spec 索引已加载。
 Then continue directly with the user's request. This notice is one-shot: do not repeat it after the first assistant reply in the same session.
 </first-reply-notice>"""
 
-# IMPORTANT: Force stdout to use UTF-8 on Windows
-# This fixes UnicodeEncodeError when outputting non-ASCII characters
+# Force UTF-8 on stdin/stdout/stderr on Windows. Default codepage there is
+# cp936 / cp1252 / etc. — non-ASCII content (Chinese task names, prd snippets)
+# both in stdin (hook payload from host CLI) and stdout (our emitted blocks)
+# raises UnicodeDecodeError / UnicodeEncodeError. Equivalent to `python -X utf8`
+# but applied per-stream so we don't depend on host CLI's command wiring.
 if sys.platform.startswith("win"):
     import io as _io
-    if hasattr(sys.stdout, "reconfigure"):
-        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
-    elif hasattr(sys.stdout, "detach"):
-        sys.stdout = _io.TextIOWrapper(sys.stdout.detach(), encoding="utf-8", errors="replace")  # type: ignore[union-attr]
+    for _stream_name in ("stdin", "stdout", "stderr"):
+        _stream = getattr(sys, _stream_name, None)
+        if _stream is None:
+            continue
+        if hasattr(_stream, "reconfigure"):
+            try:
+                _stream.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
+            except Exception:
+                pass
+        elif hasattr(_stream, "detach"):
+            try:
+                setattr(sys, _stream_name, _io.TextIOWrapper(_stream.detach(), encoding="utf-8", errors="replace"))
+            except Exception:
+                pass
 
 
 
@@ -60,7 +122,13 @@ def _has_curated_jsonl_entry(jsonl_path: Path) -> bool:
 
 
 def should_skip_injection() -> bool:
-    """Check if any platform's non-interactive flag is set."""
+    """Check if any platform's non-interactive flag is set, or if Trellis
+    hooks are explicitly disabled via TRELLIS_HOOKS=0 / TRELLIS_DISABLE_HOOKS=1.
+    """
+    if os.environ.get("TRELLIS_HOOKS") == "0":
+        return True
+    if os.environ.get("TRELLIS_DISABLE_HOOKS") == "1":
+        return True
     non_interactive_vars = [
         "CLAUDE_NON_INTERACTIVE",
         "QODER_NON_INTERACTIVE",
@@ -315,6 +383,10 @@ def _get_task_status(trellis_dir: Path, input_data: dict) -> str:
         "Sub-agent roster: `trellis-implement` (writes code), `trellis-check` (verifies + self-fixes), "
         "`trellis-research` (persists findings to `research/*.md` — use when you'd otherwise do "
         "multiple WebFetch/WebSearch inline).\n"
+        "Sub-agent self-exemption: if you are reading this as a `trellis-implement` or "
+        "`trellis-check` sub-agent (your own role / agent name reflects that), this dispatch "
+        "instruction does NOT apply to you — you are already the dispatched sub-agent. "
+        "Implement / check directly without spawning another sub-agent of the same kind.\n"
         "User override (per-turn escape hatch): if the user's CURRENT message explicitly tells the "
         "main session to handle it directly (\"你直接改\" / \"别派 sub-agent\" / \"main session 写就行\" / "
         "\"do it inline\" / \"不用 sub-agent\"), honor it for this turn and edit code directly. "
@@ -588,10 +660,10 @@ def main():
     for var in project_dir_env_vars:
         val = os.environ.get(var)
         if val:
-            project_dir = Path(val).resolve()
+            project_dir = Path(_normalize_windows_shell_path(val)).resolve()
             break
     if project_dir is None:
-        project_dir = Path(hook_input.get("cwd", ".")).resolve()
+        project_dir = Path(_normalize_windows_shell_path(hook_input.get("cwd", "."))).resolve()
 
     trellis_dir = project_dir / ".trellis"
     context_key = _resolve_context_key(trellis_dir, hook_input)
@@ -641,7 +713,11 @@ Read and follow all instructions below carefully.
         "`trellis-implement` and `trellis-check` (so JSONL context is loaded by "
         "the sub-agents) rather than editing code in the main session. "
         "Honor a per-turn user override only if the user's current message "
-        "explicitly opts out (see <task-status> below for override phrases).\n\n"
+        "explicitly opts out (see <task-status> below for override phrases).\n"
+        "- Sub-agent self-exemption: if you are reading this as a `trellis-implement` "
+        "or `trellis-check` sub-agent, the \"dispatch trellis-implement / trellis-check\" "
+        "rule above does NOT apply to you — you are already the dispatched sub-agent. "
+        "Do NOT spawn another sub-agent of the same kind; implement / check directly.\n\n"
     )
 
     # guides/ is cross-package thinking — always include inline (small, broadly useful)
@@ -702,11 +778,15 @@ When the user sends the first message, follow <task-status> and the workflow gui
 If a task is READY, execute its Next required action without asking whether to continue.
 </ready>""")
 
+    context_text = output.getvalue()
     result = {
+        # Claude Code / Qoder / CodeBuddy / Droid / Gemini / Copilot format
         "hookSpecificOutput": {
             "hookEventName": "SessionStart",
-            "additionalContext": output.getvalue(),
-        }
+            "additionalContext": context_text,
+        },
+        # Cursor sessionStart format (top-level snake_case per Cursor docs)
+        "additional_context": context_text,
     }
 
     # Output JSON - stdout is already configured for UTF-8
