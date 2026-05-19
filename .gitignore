@@ -10,3 +10,6 @@ tools/target/
 
 # Runtime metadata (per research/translation-table-format.md)
 translations/.lock.json
+
+# Claude Code runtime lock (PID + session id)
+.claude/scheduled_tasks.lock
