@@ -1,0 +1,2 @@
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Test/lint/fmt expectations for the bug fix"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "Verify the shared ignore list contract still holds for extractor"}

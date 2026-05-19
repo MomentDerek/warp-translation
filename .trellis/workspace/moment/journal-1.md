@@ -418,3 +418,35 @@ Translated 103 auto_ui new entries in app/src/settings_view/teams_page.rs (Setti
 ### Next Steps
 
 - None - task complete
+
+---
+
+## Session 8: Fix builder skipping .cargo hidden dir
+
+**Date**: 2026-05-19
+**Task**: fix-builder-skipping-cargo-hidden-dir
+**Branch**: `main`
+
+### Summary
+
+`tools/extractor/src/walk.rs::is_ignored_dir` listed `.cargo` alongside truly generated dirs (`target`, `.git`, `node_modules`, `build`, `dist`). Builder reuses this predicate via `collect_all_files`, so `.cargo/config.toml` got silently dropped from `build/warp-zh/`, losing registry / target build config the translated copy needs to compile. Removed `.cargo` from the ignore list and added regression tests at both layers.
+
+### Main Changes
+
+- `tools/extractor/src/walk.rs`: drop `.cargo` from `is_ignored_dir`; add 3 unit tests (ignored dirs, `.cargo` regression case, normal dirs).
+- `tools/builder/tests/build_safety.rs`: extend `build_succeeds_and_drops_marker` to write `.cargo/config.toml` into the fake source and assert it is mirrored verbatim.
+
+### Testing
+
+- `cargo test -p warp-zh-extractor` — 26 passed (3 new walk:: tests)
+- `cargo test -p warp-zh-builder` — 21 passed (4 build_safety + 10 edge_cases + 7 lib)
+- `cargo clippy --all-targets -- -D warnings` — clean
+- `rustfmt --check` on touched files — clean
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
