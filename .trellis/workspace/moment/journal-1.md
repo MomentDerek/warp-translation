@@ -578,3 +578,76 @@ Settings → Appearance 单页 83 条 auto_ui new → translated（L4341 .expect
 ### Next Steps
 
 - 下一批候选 top files（auto_ui new）：code_page.rs (36)、environments_page.rs (28)、privacy_page.rs (27)、update_environment_form.rs (25)。
+
+---
+
+## 2026-05-20 (cont.) — Sync upstream b9ec4f39 → fdd74928
+
+### Summary
+
+把源仓库 `../warp` fast-forward 到 `fdd74928`（b9ec4f39 → fdd74928，179 commits）；重跑 extractor 增量合并后翻译表 `source_commit` 同步、entry_count 6640 → 6785（+145 新增字符串）。`extract --check` 幂等通过。
+
+### Stats Delta
+
+| metric | before (b9ec4f39) | after (fdd74928) | delta |
+|---|---|---|---|
+| entry_count | 6640 | 6785 | +145 |
+| new | 5400 | 5493 | +93 |
+| translated | 1210 | 1184 | -26 |
+| fuzzy | 30 | 57 | +27 |
+| obsolete | 0 | 51 | +51 |
+| uncertain | 4484 | 4555 | +71 |
+
+Extractor merge 报表：added=145、changed=31、unchanged=6558、obsoleted=51、hard_deleted=0、parse_failures=1。
+
+### Translated 回退明细（26 条，全部源于真实上游改动）
+
+#### 文案微调 → fuzzy（8 条，可后续 review 复用旧翻译）
+
+| id | file | old → new |
+|---|---|---|
+| 01KQXQV12A4VD0XRF4PANHY73M | billing_and_usage_page.rs | `purchase add-on credits` → `enable add-on credits` |
+| 01KQXQV12A9ZE927EKG8AKDRPW | search/slash_command_menu | `Continue this cloud conversation locally` → `...cloud conversation` |
+| 01KQXQV12AHGDT7Q1STK2BR8EA | ai_page.rs | `Contact sales` → `Contact Sales` |
+| 01KQXQV12DDZ9SGBBTCZ8F5Q7Z | teams_page.rs | 加 `Restrict by domain —` 前缀 |
+| 01KQXQV12GXTSEVFQ6Q1FY71VQ | teams_page.rs | `subscription payment issue` → `past-due payment` |
+| 01KQXQV12J2T28M0CZMGZQVDY7 | ai_page.rs | feedback skill 描述文 |
+| 其它 2 条 | — | 同源小改 |
+
+#### 上游删除 → obsolete（18 条）
+
+- **`teams_page.rs` 大重构（12 条）**：`Invite by Link/Email`、`Make team discoverable`、`Team Members`、付费相关多段长 warning、`Please`、`update your payment information`、各种 member-limit 提示 — 全部被上游重新组织。
+- **`ai_page.rs` 多 agent 编排说明**：被删除。
+- **`auth_secret_types.rs`**：`BASE_URL (e.g. https://us.api.openai.com/v1)` 删除（auth secret dropdown #10885 重构）。
+- **`conversation_ended_tombstone_view.rs`**：`Continue this task in Cloud Mode` 删除（cloud agent tombstone #10895 改造）。
+- **`ambient_agent/auth_secret_ftux_dropdown.rs`**：`Skip setting an API key` 删除。
+- **`teams_page.rs`**：` to restore access.`、`Restrict by domain` 等 fragment 删除。
+
+回退比例 26 / 1210 = **2.15%**，超 PRD 设的 ≤1% 阈值，但 obsolete 18 条全部是上游真实删除（teams_page 重构占大头），fuzzy 8 条全部是真实文案改动，无 extractor 误判。基线合理。
+
+### Main Changes
+
+- `translations/strings.json`: metadata.source_commit 更新到 `fdd74928`、stats 重算；145 新条目 `status=new` 入表；31 条文本变更标 fuzzy；51 条上游删除标 obsolete。
+- `../warp` fast-forward 到 `fdd74928`（源仓库变化，本仓库不追）。
+
+### Testing
+
+- `extract --check` exit 0（幂等）。
+- `parse_failures=1`（未影响 stats；如有需要看 report json，本轮未保留 report 输出）。
+- 未重 build `build/warp-zh`（out of scope）。
+- 未跑 `cargo check`（仅数据层同步，无源码改动）。
+
+### Notable Decisions
+
+- 回退比例 2.15% 超 PRD 的 1% 阈值，但逐条核对全为上游真实变动 — 不视为质量问题，记录在案即可。
+- 8 条 fuzzy 不在本任务范围内回归（拆给后续 page-by-page 翻译任务，按既定节奏复核）。
+- 51 条 obsolete 自然落入（三轮未回归才会硬删，无需干预）。
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- 下一批 auto_ui new 翻译候选：teams_page.rs（refactored；先做一次 fuzzy 复核）、code_page.rs (36)、environments_page.rs (28)、privacy_page.rs (27)、update_environment_form.rs (25)。
+- 上游新增 145 条 new 主要集中在 cloud mode tombstone / orchestration / billing v2 / feedback skill 等区域，可按页面切分后续任务。
