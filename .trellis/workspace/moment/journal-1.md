@@ -497,3 +497,36 @@ Translated 103 auto_ui new entries in app/src/settings_view/teams_page.rs (Setti
 ### Next Steps
 
 - 下一批候选 top files（auto_ui new）：billing_and_usage_page.rs (64)、code_page.rs (37)、privacy_page.rs (32)、environments_page.rs (30)。
+
+
+## Session 8: translate 83 appearance_page.rs auto_ui entries
+
+**Date**: 2026-05-20
+**Task**: translate 83 appearance_page.rs auto_ui entries
+**Branch**: `main`
+
+### Summary
+
+Settings → Appearance 单页 83 条 auto_ui new → translated（L4341 .expect panic msg defer）。Glossary +5 terms（cursor/font/opacity/blur/padding）。Stats: translated 1065→1148, new 5545→5462。extract --check 幂等, cargo check -p warp PASS。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `9891d25` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

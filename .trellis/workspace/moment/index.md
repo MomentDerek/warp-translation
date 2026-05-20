@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 7
-- **Last Active**: 2026-05-19
+- **Total Sessions**: 8
+- **Last Active**: 2026-05-20
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~420 | Active |
+| `journal-1.md` | ~532 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 8 | 2026-05-20 | translate 83 appearance_page.rs auto_ui entries | `9891d25` | `main` |
 | 7 | 2026-05-19 | Translate teams_page.rs batch (103 auto_ui entries) | `2257b5c` | `main` |
 | 6 | 2026-05-19 | Translate features_page.rs batch (114 auto_ui entries) | - | `main` |
 | 5 | 2026-05-18 | Translate next batch of new entries after upstream sync | `1adb63b` | `main` |
