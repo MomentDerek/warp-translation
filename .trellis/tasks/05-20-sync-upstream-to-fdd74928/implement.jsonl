@@ -1,0 +1,4 @@
+{"file": ".trellis/tasks/05-20-sync-upstream-to-fdd74928/prd.md", "reason": "本任务 PRD：纯表同步流程、Acceptance Criteria、Implementation Plan 五步走"}
+{"file": "README.md", "reason": "项目根 README「1. 抽取并合并到翻译表」段落写清了增量合并语义和 --check 用法"}
+{"file": ".trellis/tasks/archive/2026-05/05-15-sync-upstream-b9ec4f39/prd.md", "reason": "前序同类 sync 任务模板，可直接照搬节奏"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "extractor 的核心约定；本轮只调用不修改，但若结果反常需对照"}
