@@ -450,3 +450,50 @@ Translated 103 auto_ui new entries in app/src/settings_view/teams_page.rs (Setti
 ### Next Steps
 
 - None - task complete
+
+---
+
+## Session 9: Translate next batch of new auto_ui entries (settings_view appearance_page)
+
+**Date**: 2026-05-19
+**Task**: translate-next-batch-of-new-auto-ui-entries-settings-view-appearance-page
+**Branch**: `main`
+
+### Summary
+
+继续 features → teams 序列的第三批：`app/src/settings_view/appearance_page.rs` 84 条 auto_ui new 中翻译 83 条（L4341 `.expect("Cursor does not exist")` 为 panic msg，按 translation-contract defer 不译；建议日后调整 extractor heuristic 把 `.expect(...)` 排出 auto_ui pool）。新增 5 个 glossary 术语（cursor / font / opacity / blur / padding），术语数 43 → 48。
+
+### Stats Delta
+
+| metric | before | after | delta |
+|---|---|---|---|
+| translated | 1065 | 1148 | +83 |
+| new | 5545 | 5462 | -83 |
+| auto_ui new | 1135 | ~1052 | -83 |
+| glossary terms | 43 | 48 | +5 |
+
+### Main Changes
+
+- `translations/strings.json`: 83 条 entries `new → translated`, 全部标 `pr-settings-appearance-batch`。
+- `translations/glossary.json`: +5 terms（cursor 光标 / font 字体 / opacity 不透明度 / blur 模糊 / padding 内边距）。
+- 翻译范围：cursor / font / tab bar / vertical tabs / opacity / blur / theme sync / app icon / DPI / padding / zoom 等 Appearance 设置 label & helper text。
+- Glossary lock：`tab → 标签页` 全文应用（`tab bar → 标签页栏`、`tab indicators → 标签页指示器` 等）；`Warp` 保留英文（`Warp mode`）；`Classic` 作为输入模式名保留英文；`Reverse` 描述性，译为「反向」；`Oz` 保留英文。
+
+### Testing
+
+- `extract --check` exit 0（幂等）。
+- `warp-zh-builder` 重建：copied=4992 modified=206 replaced=1700。
+- `cargo check -p warp` 在 `build/warp-zh/` 通过（3m13s）。
+- Spot check：placeholder integrity 100%、无「你」混用、glossary 一致性（tab/Agent）clean。
+
+### Deferred
+
+- L4341 「Cursor does not exist」— `.expect()` panic msg，按 translation-contract 不应进入 auto_ui pool；当前 status 保持 `new`，留待 extractor heuristic 修正。
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- 下一批候选 top files（auto_ui new）：billing_and_usage_page.rs (64)、code_page.rs (37)、privacy_page.rs (32)、environments_page.rs (30)。

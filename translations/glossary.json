@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 43,
+    "term_count": 48,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -263,6 +263,36 @@
       "en": "discoverable",
       "zh": "可发现",
       "notes": "Team discovery 功能：是否允许同域用户搜索到团队。'Make team discoverable' → '允许团队被发现'；'team discoverability' → '团队可发现性'；'Toggle Team Discoverability' → '切换团队可发现性'。",
+      "do_not_translate": false
+    },
+    "cursor": {
+      "en": "cursor",
+      "zh": "光标",
+      "notes": "终端/输入区域的光标。'cursor blink' → '光标闪烁'；'Cursor type' → '光标类型'；'Blinking cursor' → '闪烁光标'。",
+      "do_not_translate": false
+    },
+    "font": {
+      "en": "font",
+      "zh": "字体",
+      "notes": "字体相关 UI 标签。'Terminal font' → '终端字体'；'Agent font' → 'Agent 字体'；'Font weight' → '字重'；'Font size' → '字号'。size 译为 '字号'，weight 译为 '字重'，更贴合中文排版用语。",
+      "do_not_translate": false
+    },
+    "opacity": {
+      "en": "opacity",
+      "zh": "不透明度",
+      "notes": "窗口/UI 的不透明度。'Window Opacity' → '窗口不透明度'。",
+      "do_not_translate": false
+    },
+    "blur": {
+      "en": "blur",
+      "zh": "模糊",
+      "notes": "窗口背景模糊效果。'Window Blur' → '窗口模糊'；'Window Blur Radius' → '窗口模糊半径'。",
+      "do_not_translate": false
+    },
+    "padding": {
+      "en": "padding",
+      "zh": "内边距",
+      "notes": "UI 元素内边距设置。'custom padding' → '自定义内边距'；'Uniform padding' → '统一内边距'。",
       "do_not_translate": false
     }
   }

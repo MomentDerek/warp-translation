@@ -1,0 +1,3 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "UI 翻译契约：placeholder/快捷键/glossary/语态规则——本批 84 条逐条要校验"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "理解 strings.json 抽取格式与字段含义（audit/reasons/verdict）"}
+{"file": "translations/glossary.json", "reason": "43 个术语强约束；新增 appearance 相关条目必须先查阅"}
