@@ -530,3 +530,51 @@ Settings → Appearance 单页 83 条 auto_ui new → translated（L4341 .expect
 ### Next Steps
 
 - None - task complete
+
+
+## Session 10: Translate next batch of new auto_ui entries (settings_view billing_and_usage_page)
+
+**Date**: 2026-05-20
+**Task**: translate-next-batch-of-new-auto-ui-entries-settings-view-billing-and-usage-page
+**Branch**: `main`
+
+### Summary
+
+继续 features → teams → appearance 序列的第四批：`app/src/settings_view/billing_and_usage_page.rs` 62 条 auto_ui new → translated。新增 5 个 glossary 术语（overage / add-on / billing_cycle / spending_limit / prorated），术语数 48 → 53。
+
+### Stats Delta
+
+| metric | before | after | delta |
+|---|---|---|---|
+| translated | 1148 | 1210 | +62 |
+| new | 5462 | 5400 | -62 |
+| auto_ui new | ~1052 | ~990 | -62 |
+| glossary terms | 48 | 53 | +5 |
+
+### Main Changes
+
+- `translations/strings.json`: 62 条 entries `new → translated`，全部标 `pr-settings-billing-batch`。
+- `translations/glossary.json`: +5 terms（overage 超额 / add-on 附加 / billing cycle 计费周期 / spending limit 支出限额 / prorated 按比例计算）。
+- 翻译范围：付费套餐升级、自动充值、超额支出限额、附加积分、用量历史、企业版用量提示、月度/周度积分上限等 Billing & Usage 设置 label、helper text 与 warning 字符串。
+- Glossary lock：`credit → 积分` 沿用；`overage → 超额`；`add-on credits → 附加积分`；产品名 `Warp / Enterprise / Build / Max` 保留英文；`Agent` 保留英文（新建 Agent / Agent 任务）。
+
+### Testing
+
+- `extract --check` exit 0（一次性 canonical 重写后通过）。
+- `warp-zh-builder` 重建：copied=4992 modified=206 replaced=1788。
+- `cargo check -p warp` 在 `build/warp-zh/` 通过（3m40s）。
+- Spot check（脚本）：placeholder integrity 100%、`你` 占比 0、CJK 后半角句号 0。
+
+### Notable Decisions
+
+- `{refresh_duration}` 占位符按 translation-contract §2 处理：substitute 为英文形容词（weekly/monthly），用 `这是您账户的 {refresh_duration} AI 积分上限。` 避免「每{}的」类断句。
+- 9 条带 leading-space 的尾部 fragment（如 ` for more credits.`）沿用前轮先例，转为 `以...` 开头并丢弃前导空格；仅 `Reloading would exceed your monthly limit. ` 保留尾随空格（与后续 fragment 拼接）。
+- L109 Enterprise prefix 以 `...，请` 结尾，等待 L110 `visit the admin panel` 与 L111 `.` 后续翻译时拼接。
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- 下一批候选 top files（auto_ui new）：code_page.rs (36)、environments_page.rs (28)、privacy_page.rs (27)、update_environment_form.rs (25)。
