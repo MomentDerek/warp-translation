@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 48,
+    "term_count": 53,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -293,6 +293,36 @@
       "en": "padding",
       "zh": "内边距",
       "notes": "UI 元素内边距设置。'custom padding' → '自定义内边距'；'Uniform padding' → '统一内边距'。",
+      "do_not_translate": false
+    },
+    "overage": {
+      "en": "overage",
+      "zh": "超额",
+      "notes": "billing 上下文中的超额使用与计费。'premium model usage overages' → '高级模型超额使用'；'Overage spending limit' → '超额支出限额'；'Total overages' → '超额总计'。",
+      "do_not_translate": false
+    },
+    "add_on": {
+      "en": "add-on",
+      "zh": "附加",
+      "notes": "billing 上下文中的附加产品。'add-on credits' → '附加积分'；'Purchased add-on credits' → '购买的附加积分'；'add-on package' → '附加套餐'。区别于 plan-internal credits（基础套餐积分）。",
+      "do_not_translate": false
+    },
+    "billing_cycle": {
+      "en": "billing cycle",
+      "zh": "计费周期",
+      "notes": "订阅计费周期。'midway through the billing cycle' → '计费周期中途'；'roll over each billing cycle' → '在每个计费周期内结转'。",
+      "do_not_translate": false
+    },
+    "spending_limit": {
+      "en": "spending limit",
+      "zh": "支出限额",
+      "notes": "billing 中的支出上限。'Monthly spending limit' → '月度支出限额'；'Overage spending limit' → '超额支出限额'；'Monthly spend limit' 同义同译。",
+      "do_not_translate": false
+    },
+    "prorated": {
+      "en": "prorated",
+      "zh": "按比例计算",
+      "notes": "用户中途加入团队/计费周期时的额度计算。'Your credit limit is prorated' → '您的积分限额按比例计算'。",
       "do_not_translate": false
     }
   }
