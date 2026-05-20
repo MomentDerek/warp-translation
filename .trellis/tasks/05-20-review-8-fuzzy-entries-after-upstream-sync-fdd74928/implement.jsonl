@@ -1,0 +1,4 @@
+{"file": ".trellis/tasks/05-20-review-8-fuzzy-entries-after-upstream-sync-fdd74928/prd.md", "reason": "本任务 PRD：5 条 fuzzy 的逐条 Per-entry decisions 与 Implementation Plan"}
+{"file": "README.md", "reason": "项目根 README「4. 翻译条目（PR3 翻译流）」段落写清 list-batch / apply-batch 用法与 batch JSON 格式"}
+{"file": "translations/glossary.json", "reason": "术语锁，复核翻译时核对 add-on credits / Sales / domain 等用词"}
+{"file": ".trellis/tasks/archive/2026-05/05-20-sync-upstream-to-fdd74928/prd.md", "reason": "前置 sync 任务，提供 fuzzy 起源上下文（上游真实改动列表）"}

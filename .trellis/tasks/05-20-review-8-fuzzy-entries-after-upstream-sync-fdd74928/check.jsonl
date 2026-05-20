@@ -1,0 +1,3 @@
+{"file": ".trellis/tasks/05-20-review-8-fuzzy-entries-after-upstream-sync-fdd74928/prd.md", "reason": "对照 Acceptance Criteria 核查（5 条转 translated、--check 通过、stats 增减、flag 命名）"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "通用质量门槛（幂等、commit 规范、CJK 标点等）"}
+{"file": "translations/glossary.json", "reason": "术语一致性核查"}
