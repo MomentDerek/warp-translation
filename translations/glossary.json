@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 75,
+    "term_count": 77,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -455,6 +455,18 @@
       "en": "workspace root",
       "zh": "工作区根目录",
       "notes": "Setup commands 的工作目录基准。'workspace root' → '工作区根目录'；'/workspace' 路径字面值保留不译。",
+      "do_not_translate": false
+    },
+    "referral": {
+      "en": "referral",
+      "zh": "推荐",
+      "notes": "Warp 推荐计划相关。'referral program' → '推荐计划'；'referral code' → '推荐码'；'Current referral(s)' → '当前推荐 / 当前推荐数'；'Invite a friend' → '邀请好友'。统一译 '推荐'，避免与 'recommend / 推荐' 混淆时按上下文消歧。",
+      "do_not_translate": false
+    },
+    "upgrade": {
+      "en": "upgrade",
+      "zh": "升级",
+      "notes": "套餐升级动作。'Upgrade to grow your team' → '升级以扩充您的团队'；'Upgrade plan' → '升级套餐'。与 'downgrade / 降级' 对应。",
       "do_not_translate": false
     }
   }
