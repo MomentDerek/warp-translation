@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 59,
+    "term_count": 66,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -359,6 +359,48 @@
       "en": "diff",
       "zh": "diff",
       "notes": "代码差异。短语中保留英文 'diff'：'diff stats' → 'diff 统计'；'accepted diff' → '接受 diff'。带 'code' 修饰的长短语沿既有翻译 'code diffs' → '代码差异'。",
+      "do_not_translate": false
+    },
+    "secret_redaction": {
+      "en": "secret redaction",
+      "zh": "保密信息脱敏",
+      "notes": "Privacy 设置中的敏感信息扫描与遮蔽功能。'Secret redaction' → '保密信息脱敏'；'Custom secret redaction' → '自定义保密信息脱敏'；'Enterprise secret redaction' → '企业保密信息脱敏'；'Secret visual redaction mode' → '保密信息显示模式'。secret 不译为 '秘密'，避免与日常含义混淆；redaction 取 '脱敏' 以贴近数据保护术语。",
+      "do_not_translate": false
+    },
+    "regex": {
+      "en": "regex",
+      "zh": "regex",
+      "notes": "正则表达式术语在 UI/技术语境中保留英文 'regex'。'Add regex' → '添加 regex'；'Add regex pattern' → '添加 regex 模式'；'enterprise regexes' → '企业 regex'。开发者更熟悉英文短形式，避免 '正则' 与 '正则表达式' 译名摇摆。",
+      "do_not_translate": false
+    },
+    "telemetry": {
+      "en": "telemetry",
+      "zh": "使用分析",
+      "notes": "Privacy 设置中的产品使用数据收集功能。'App analytics' / 'usage analytics' → 'App 使用分析' / '使用分析'。避免 '遥测'（过于技术化）与 '统计'（语义过宽）。'analytics' 与 'telemetry' 在该上下文同义同译。",
+      "do_not_translate": false
+    },
+    "crash_reports": {
+      "en": "crash reports",
+      "zh": "崩溃报告",
+      "notes": "应用崩溃信息上报功能。'Send crash reports' → '发送崩溃报告'；'crash reporting' 同译。",
+      "do_not_translate": false
+    },
+    "zero_data_retention": {
+      "en": "zero data retention",
+      "zh": "零数据保留",
+      "notes": "企业级隐私选项 (ZDR)：用户生成内容不被收集存储。'zero data retention' → '零数据保留'；徽章 'ZDR' 保留英文缩写。",
+      "do_not_translate": false
+    },
+    "data_management": {
+      "en": "data management",
+      "zh": "数据管理",
+      "notes": "账户级数据管理页与入口。'Manage your data' → '管理您的数据'；'data management page' → '数据管理页面'。",
+      "do_not_translate": false
+    },
+    "privacy_policy": {
+      "en": "privacy policy",
+      "zh": "隐私政策",
+      "notes": "法律文档名。'Privacy policy' → '隐私政策'；'Read Warp's privacy policy' → '阅读 Warp 的隐私政策'。",
       "do_not_translate": false
     }
   }
