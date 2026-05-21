@@ -1,0 +1,2 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "Check 阶段对照翻译契约 spot-check（placeholder / 全角标点 / 「您」register）"}
+{"file": "translations/glossary.json", "reason": "校验术语一致性（environments 域 + 本批新增 Docker 镜像 / GitHub 仓库，Warp/Agent/AI 复用）"}
