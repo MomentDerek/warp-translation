@@ -1,0 +1,5 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "UI 翻译契约：placeholder/快捷键/glossary/语态/全角标点规则 —— 本批 36 条逐条要校验"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "理解 strings.json 抽取格式与字段含义（audit/reasons/verdict）"}
+{"file": "translations/glossary.json", "reason": "约束术语；本批可能新增 team / subscription / referral / upgrade 等"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-update-environment-form-rs-auto-ui-new-entries/apply_translations.py", "reason": "上批 apply 脚本模板（含全角标点 invariant），本批基于此改写"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-update-environment-form-rs-auto-ui-new-entries/prd.md", "reason": "上批 PRD 决策与脚本结构，本批沿用 settings 区域 register"}
