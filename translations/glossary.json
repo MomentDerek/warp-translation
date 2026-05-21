@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 66,
+    "term_count": 72,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -401,6 +401,42 @@
       "en": "privacy policy",
       "zh": "隐私政策",
       "notes": "法律文档名。'Privacy policy' → '隐私政策'；'Read Warp's privacy policy' → '阅读 Warp 的隐私政策'。",
+      "do_not_translate": false
+    },
+    "environment": {
+      "en": "environment",
+      "zh": "环境",
+      "notes": "Environments 设置页中的核心概念：ambient agent 的运行环境。'environment' → '环境'；'Environments' (页面/区域标题) → '环境'；'environment variables' → '环境变量' (与本术语并存，按上下文区分)；'create environment' → '创建环境'；'shared environment' → '共享环境'。",
+      "do_not_translate": false
+    },
+    "ambient_agent": {
+      "en": "ambient agent",
+      "zh": "ambient agent",
+      "notes": "Warp 的云端常驻 Agent 概念，与本地交互式 Agent 区分。保留英文小写形式 'ambient agent'，避免 '环境 Agent'/'常驻 Agent' 等译名摇摆；与 'Agent' 术语并列出现时不会产生歧义。",
+      "do_not_translate": true
+    },
+    "repository": {
+      "en": "repository",
+      "zh": "仓库",
+      "notes": "代码仓库（通常指 GitHub repository）。'repository' / 'repo' / 'repos' → '仓库'；'GitHub repositories' → 'GitHub 仓库'。与 'codebase/代码库' 区分：repository 强调存储/版本系统单位。",
+      "do_not_translate": false
+    },
+    "base_image": {
+      "en": "base image",
+      "zh": "基础镜像",
+      "notes": "Environment 配置中的容器基础镜像（Docker base image）。'base image' → '基础镜像'；'Image: {}' → '镜像：{}'。短 'image' 在 environment 上下文同译为 '镜像'。",
+      "do_not_translate": false
+    },
+    "setup_commands": {
+      "en": "setup commands",
+      "zh": "设置命令",
+      "notes": "Environment 启动时执行的初始化命令序列。'Setup commands: {}' → '设置命令：{}'。与 'Initialization Block / 初始化命令块' 区分：setup commands 是 environment 容器级别的预置命令。",
+      "do_not_translate": false
+    },
+    "launch_agent": {
+      "en": "launch agent",
+      "zh": "启动 Agent",
+      "notes": "Environments 页 'Use the agent' 流程中的动作按钮。'Launch agent' → '启动 Agent'。与 'Use the agent / 使用 Agent' 配对：前者描述功能类别，后者是触发按钮。",
       "do_not_translate": false
     }
   }
