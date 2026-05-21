@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 72,
+    "term_count": 75,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -437,6 +437,24 @@
       "en": "launch agent",
       "zh": "启动 Agent",
       "notes": "Environments 页 'Use the agent' 流程中的动作按钮。'Launch agent' → '启动 Agent'。与 'Use the agent / 使用 Agent' 配对：前者描述功能类别，后者是触发按钮。",
+      "do_not_translate": false
+    },
+    "docker_image": {
+      "en": "Docker image",
+      "zh": "Docker 镜像",
+      "notes": "Environment 配置中的容器镜像。'Docker image' → 'Docker 镜像'；'Docker image reference' → 'Docker 镜像引用'；'Suggest image' → '建议镜像'；'custom Docker image' → '自定义 Docker 镜像'。'Docker' 保留英文产品名。与 'base_image / 基础镜像' 区分：base image 是 environment 的基础层，docker image 是 environment 整体可指向的镜像引用。",
+      "do_not_translate": false
+    },
+    "github_repos": {
+      "en": "GitHub repos",
+      "zh": "GitHub 仓库",
+      "notes": "GitHub 仓库的简写形式 'repos'。'GitHub repos' / 'GitHub repositories' → 'GitHub 仓库'；'Browse GitHub repos' → '浏览 GitHub 仓库'；'Auth with GitHub' → '通过 GitHub 授权'；'Configure access on GitHub' → '在 GitHub 上配置访问权限'。沿用 repository 词族；'GitHub' 保留英文产品名。",
+      "do_not_translate": false
+    },
+    "workspace_root": {
+      "en": "workspace root",
+      "zh": "工作区根目录",
+      "notes": "Setup commands 的工作目录基准。'workspace root' → '工作区根目录'；'/workspace' 路径字面值保留不译。",
       "do_not_translate": false
     }
   }
