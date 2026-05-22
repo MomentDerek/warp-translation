@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 81,
+    "term_count": 83,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -491,6 +491,18 @@
       "en": "template",
       "zh": "模板",
       "notes": "MCP / Workflow 模板。'Template sync id' → '模板同步 ID'；'cloud template' → '云端模板'。",
+      "do_not_translate": false
+    },
+    "fork": {
+      "en": "fork",
+      "zh": "派生",
+      "notes": "Git/Agent 上下文动词。'Fork conversation' → '派生会话'；'Fork branch' → '派生分支'。与 'branch / 分支' 区分：fork 强调从某点复制出独立副本，branch 强调既有线索的分叉。",
+      "do_not_translate": false
+    },
+    "rule": {
+      "en": "rule",
+      "zh": "规则",
+      "notes": "Warp Rules 功能，约束 Agent 行为的规则文件。'Suggested rule' → '建议的规则'；'Rules' (页面标题) → '规则'。",
       "do_not_translate": false
     }
   }
