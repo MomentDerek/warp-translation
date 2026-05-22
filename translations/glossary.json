@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 94,
+    "term_count": 95,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -569,6 +569,12 @@
       "en": "rewind",
       "zh": "倒带",
       "notes": "Warp UI 动词，将对话/代码回退到先前节点。译为 '倒带' 以区别于 undo（撤销）/ revert（还原）。",
+      "do_not_translate": false
+    },
+    "reasoning_level": {
+      "en": "reasoning level",
+      "zh": "推理强度",
+      "notes": "AI 模型可控的「思考深度」参数滑杆。提高时消耗更多 credit 并增加延迟，但复杂任务表现更佳。与 'reasoning model'（推理模型）区分：reasoning level 是某些模型的可调节强度参数，reasoning model 是模型类别。",
       "do_not_translate": false
     }
   }
