@@ -1,0 +1,260 @@
+[
+  {
+    "id": "01KQXQV1287FDC313QYNG54JCT",
+    "file": "app/src/ai/blocklist/inline_action/code_diff_view.rs",
+    "line": 132,
+    "source": "Accept and continue with agent"
+  },
+  {
+    "id": "01KQXQV1292EHGACR4T8JHQPKQ",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 32,
+    "source": "At Limit -"
+  },
+  {
+    "id": "01KQXQV12944FTP80VKGJJGS6W",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3121,
+    "source": "Bad response"
+  },
+  {
+    "id": "01KQXQV1298873MRTHYJ5T0377",
+    "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+    "line": 26,
+    "source": "Allow automatic indexing"
+  },
+  {
+    "id": "01KQXQV129C3YQ0E0R21A9FAAG",
+    "file": "app/src/ai/blocklist/summarization_cancel_dialog.rs",
+    "line": 173,
+    "source": "Cancel summarization?"
+  },
+  {
+    "id": "01KQXQV129H31SZBXYD5HYTBKE",
+    "file": "app/src/ai/blocklist/history_model.rs",
+    "line": 2622,
+    "source": "Cancelled by user"
+  },
+  {
+    "id": "01KQXQV129WHK8JYJ41SNCT74C",
+    "file": "app/src/ai/blocklist/view_util.rs",
+    "line": 39,
+    "source": "Attach as agent context"
+  },
+  {
+    "id": "01KQXQV12A1XNRCFJSM8YZHTB0",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3193,
+    "source": "Continue conversation"
+  },
+  {
+    "id": "01KQXQV12B3NHG5DTQ4JPX4EEY",
+    "file": "app/src/ai/blocklist/inline_action/code_diff_view.rs",
+    "line": 2543,
+    "source": "Don't show me suggested code banners again"
+  },
+  {
+    "id": "01KQXQV12B4NA0N3F0C3NH6XA9",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 38,
+    "source": "Enable premium overages"
+  },
+  {
+    "id": "01KQXQV12B6KXFP6NKMJTWK4GK",
+    "file": "app/src/ai/blocklist/inline_action/code_diff_view.rs",
+    "line": 214,
+    "source": "Edit Code Diff"
+  },
+  {
+    "id": "01KQXQV12BYE7HTMXEFX8PW4P3",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 1327,
+    "source": "Don't show again"
+  },
+  {
+    "id": "01KQXQV12C02FP5ZYJHY91E1T9",
+    "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+    "line": 21,
+    "source": "Indexing helps agents quickly understand context and provide targeted solutions. Code is never stored on the server."
+  },
+  {
+    "id": "01KQXQV12CBV8ZM3FZWH7D1FAV",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3100,
+    "source": "Good response"
+  },
+  {
+    "id": "01KQXQV12CCBDM50YPXEMRRESR",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 671,
+    "source": "Hide details"
+  },
+  {
+    "id": "01KQXQV12CFQ6JKTWK9XH74KD1",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3217,
+    "source": "Fork conversation"
+  },
+  {
+    "id": "01KQXQV12CP5S88KXT7P5TEFTC",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 39,
+    "source": "Increase monthly spend limit"
+  },
+  {
+    "id": "01KQXQV12CWN9WZ2RAJ9GVNZP1",
+    "file": "app/src/ai/blocklist/view_util.rs",
+    "line": 93,
+    "source": "Follow up with existing conversation"
+  },
+  {
+    "id": "01KQXQV12CXJA6EDFESEX11YPJ",
+    "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+    "line": 25,
+    "source": "Index codebase"
+  },
+  {
+    "id": "01KQXQV12D2EWMKD1SZS4HF1AK",
+    "file": "app/src/ai/blocklist/telemetry_banner.rs",
+    "line": 136,
+    "source": "Manage privacy settings"
+  },
+  {
+    "id": "01KQXQV12D5CHGREEZAH40M473",
+    "file": "app/src/ai/blocklist/inline_action/code_diff_view.rs",
+    "line": 133,
+    "source": "Iterate with agent"
+  },
+  {
+    "id": "01KQXQV12DHSMYZ5NV2GW4A95R",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 244,
+    "source": "No results found"
+  },
+  {
+    "id": "01KQXQV12DK67EYY3RVR51PQ3G",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 30,
+    "source": "No internet connection"
+  },
+  {
+    "id": "01KQXQV12E48R5BG6FHCPY8V5K",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 569,
+    "source": "Open in GitHub"
+  },
+  {
+    "id": "01KQXQV12E4TA3XX4ZT1N26JND",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2095,
+    "source": "Resume conversation"
+  },
+  {
+    "id": "01KQXQV12E7DS7EXV4FFFRZP9B",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 1301,
+    "source": "Review changes"
+  },
+  {
+    "id": "01KQXQV12EDT3MXSBTXJW0QM3F",
+    "file": "app/src/ai/blocklist/inline_action/code_diff_view.rs",
+    "line": 3148,
+    "source": "Requested Edit"
+  },
+  {
+    "id": "01KQXQV12EKF26J0TX4W29M9R7",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 1340,
+    "source": "Rewind to before this block"
+  },
+  {
+    "id": "01KQXQV12ERWC85VMHAYSABGY1",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1368,
+    "source": "Questions skipped"
+  },
+  {
+    "id": "01KQXQV12ES14AQWY1W857RKG7",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 34,
+    "source": "Out of credits"
+  },
+  {
+    "id": "01KQXQV12EZSYX37Z750ENH8K0",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 33,
+    "source": "Restricted due to payment issue"
+  },
+  {
+    "id": "01KQXQV12F064RGSRQVZB297TK",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3393,
+    "source": "Show credit usage details"
+  },
+  {
+    "id": "01KQXQV12G0728CH3CQMT2V08K",
+    "file": "app/src/ai/blocklist/action_model/execute/get_files.rs",
+    "line": 173,
+    "source": "The search failed. Try another way to locate the relevant files."
+  },
+  {
+    "id": "01KQXQV12G1WE20V680GNWPMWA",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 36,
+    "source": "Sign up for more AI credits"
+  },
+  {
+    "id": "01KQXQV12GA9V4K6SXXZFSVQZX",
+    "file": "app/src/ai/blocklist/block/cli.rs",
+    "line": 181,
+    "source": "Take control of running command"
+  },
+  {
+    "id": "01KQXQV12GBYJ3ZMZ24TMT2PJW",
+    "file": "app/src/ai/blocklist/prompt/prompt_alert.rs",
+    "line": 26,
+    "source": "To use AI features,"
+  },
+  {
+    "id": "01KQXQV12GHJKK27R8XCAF5334",
+    "file": "app/src/ai/blocklist/suggested_rule_modal.rs",
+    "line": 48,
+    "source": "Suggested rule"
+  },
+  {
+    "id": "01KQXQV12GHRB9WC07DNCS2612",
+    "file": "app/src/ai/blocklist/action_model/execute/read_files.rs",
+    "line": 253,
+    "source": "These files do not exist: {missing_files}"
+  },
+  {
+    "id": "01KQXQV12GJB5SEX6RWTJEDX0Q",
+    "file": "app/src/ai/blocklist/action_model/execute/search_codebase.rs",
+    "line": 237,
+    "source": "The search failed because the codebase is not available. Try another way to locate the relevant files."
+  },
+  {
+    "id": "01KQXQV12H7YTGQQRTVMXXM47J",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 277,
+    "source": "Warp is temporarily overloaded. Please try again shortly."
+  },
+  {
+    "id": "01KQXQV12HVBX03QKTQ4XYBRVF",
+    "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+    "line": 30,
+    "source": "View status"
+  },
+  {
+    "id": "01KQXQV12J2BY125KRQ0774SA7",
+    "file": "app/src/ai/blocklist/block/toggleable_items.rs",
+    "line": 180,
+    "source": "to toggle selection"
+  },
+  {
+    "id": "01KS2GEQ2S2MMVRFYAY8GZ0KGP",
+    "file": "app/src/ai/blocklist/inline_action/host_picker.rs",
+    "line": 53,
+    "source": "Custom host…"
+  }
+]

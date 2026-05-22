@@ -1,0 +1,6 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "UI 翻译契约：placeholder/快捷键/glossary/语态/全角标点规则 —— 本批 43 条，关键校验 L253 `{missing_files}` 占位符、L26/L32 拼接片段、L180 前导空格、GitHub/Warp 品牌字面"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "理解 strings.json 抽取格式与字段含义（audit/reasons/verdict）"}
+{"file": "translations/glossary.json", "reason": "约束术语；本批新增 fork / rule / credit 三个候选条目，先增补再翻译"}
+{"file": ".trellis/tasks/05-22-translate-ai-blocklist-remaining-43-auto-ui-new-entries-batch-2-of-2-sweep/candidates.json", "reason": "已固化的 43 条 entry id + file + line + source，作为唯一权威候选清单"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-ai-blocklist-auto-ui-new-entries-batch-1-of-50/apply_translations.py", "reason": "batch 1 apply 脚本模板，本批沿用结构并新增 `{missing_files}` 占位符断言 + 拼接片段尾随字符断言（L26 `, ` / L32 ` - ` / L180 前导空格）+ GitHub 字面保护"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-ai-blocklist-auto-ui-new-entries-batch-1-of-50/prd.md", "reason": "batch 1 PRD 决策结构与控制权语义锚点（接管控制权 / 您正在控制）作为参考"}
