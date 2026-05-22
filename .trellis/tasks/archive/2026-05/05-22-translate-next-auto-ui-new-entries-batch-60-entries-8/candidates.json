@@ -1,0 +1,549 @@
+[
+  {
+    "id": "01KS2GEPQVP33JYKBB3H99NN59",
+    "source": "Auto reload is disabled due to recent failed reload. Contact your team admin to update their payment method.",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 89,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage_page_v2.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEPRAD00RC94NVCF09D6K",
+    "source": "Auto-reload is enabled",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 81,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage_page_v2.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQC5EVC4YW6D9JSY85JK",
+    "source": "Managed by your admin",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 82,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage_page_v2.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQKJXXA5M7BJGZN9XRQP",
+    "source": "Restricted due to billing issue. Contact your team admin to update their payment method.",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 87,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage_page_v2.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQQT37VQQJPZFR5CNYAB",
+    "source": "Your admin has enabled auto-reload for add-on credits. When your personal add-on credit balance runs low, Warp will automatically purchase add-on credits and add them to your balance.",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 1209,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage_page_v2.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQQZS6AABN0KPWFXQ430",
+    "source": "Your admin has enabled auto-reload for add-on credits. When your personal add-on credit balance runs low, Warp will automatically purchase {credits} credits for {price} and add them to your balance.",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 1205,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage_page_v2.rs"
+    ]
+  },
+  {
+    "id": "01KRBDMFSV95Z6WRHX832P25B9",
+    "source": "Other",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 2549,
+    "all_files": [
+      "app/src/settings_view/ai_page.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEPR2B1NQRKQ7P9SFD1NJ",
+    "source": "Auto-handoff before sleep",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6860,
+    "all_files": [
+      "app/src/settings_view/ai_page.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQ3E562RX0CHZQ9R6BEM",
+    "source": "Enable built-in feedback skill",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6182,
+    "all_files": [
+      "app/src/settings_view/ai_page.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQA5WEEPDTH6D3H7FY1X",
+    "source": "Let Oz use Warp's built-in skill for turning Warp product feedback into GitHub issues.",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6191,
+    "all_files": [
+      "app/src/settings_view/ai_page.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQQ1905GTK5TEXC0YGTZ",
+    "source": "When macOS is about to sleep, automatically moves the most recently focused running local Warp Agent conversation to Cloud Mode so it can keep working.",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6873,
+    "all_files": [
+      "app/src/settings_view/ai_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DD3X7KN6GSY0R0DY3",
+    "source": "Note that AI credits made near your chosen limit may exceed it by a few dollars.",
+    "file": "app/src/settings_view/billing_and_usage/overage_limit_modal.rs",
+    "line": 211,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage/overage_limit_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EHDA5VX44WRG5S1RC",
+    "source": "Please enter a price between $0.01 and $10,000,000",
+    "file": "app/src/settings_view/billing_and_usage/overage_limit_modal.rs",
+    "line": 163,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage/overage_limit_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EYRM8N45SBRV21C6C",
+    "source": "Please enter a valid currency amount",
+    "file": "app/src/settings_view/billing_and_usage/overage_limit_modal.rs",
+    "line": 160,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage/overage_limit_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12H99WBF2WB0TDTK62Z",
+    "source": "Update",
+    "file": "app/src/settings_view/billing_and_usage/overage_limit_modal.rs",
+    "line": 271,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage/overage_limit_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12HM377NKCEPVFPQEJW",
+    "source": "Warp will prevent use of premium models when this dollar limit is reached. Resets on a monthly basis.",
+    "file": "app/src/settings_view/billing_and_usage/overage_limit_modal.rs",
+    "line": 203,
+    "all_files": [
+      "app/src/settings_view/billing_and_usage/overage_limit_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV1292G1SEEB09WKC9DNS",
+    "source": "Choose an agent model",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 92,
+    "all_files": [
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129NXPTYW2ZX419YZT6",
+    "source": "Choose an AI execution profile",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 91,
+    "all_files": [
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DJN9NDM0AC21XZE2W",
+    "source": "Manage API keys",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 551,
+    "all_files": [
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12ESJKCXC8VH17X4CC0",
+    "source": "Request edit access to change model",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 94,
+    "all_files": [
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQ6WVTDWBZNQNF0RJ48B",
+    "source": "Follow-ups use the original run's model",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 93,
+    "all_files": [
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CDMG6139PZME36CDR",
+    "source": "Introducing 'auto (open-weights)'",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 65,
+    "all_files": [
+      "app/src/workspace/view/openwarp_launch_modal/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DTPFMQC4H7M2D7FC4",
+    "source": "Open Automated Development",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 56,
+    "all_files": [
+      "app/src/workspace/view/openwarp_launch_modal/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12G4Z3MQ0Z3CRGH49M0",
+    "source": "The Warp repo is managed by an agent-first workflow powered by Oz, our cloud agent orchestration platform.",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 57,
+    "all_files": [
+      "app/src/workspace/view/openwarp_launch_modal/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12H5WQFD8MBDRZ7AMEY",
+    "source": "Warp's client code is now open source. Get started by using the /feedback skill to open an issue, and follow the contribution guidelines here.",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 48,
+    "all_files": [
+      "app/src/workspace/view/openwarp_launch_modal/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12HWRB38E719TAGQHD6",
+    "source": "We've added a new auto model that picks the best open weight model for a task, like Kimi or MiniMax.",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 66,
+    "all_files": [
+      "app/src/workspace/view/openwarp_launch_modal/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12C2PNMTSFT38KTSP2X",
+    "source": "FocusReportingEnabled failed to serialize",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1509,
+    "all_files": [
+      "app/src/settings_view/features_page.rs",
+      "app/src/workspace/global_actions.rs",
+      "app/src/workspace/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DXXQC7SEPS215WFHH",
+    "source": "MouseReportingEnabled failed to serialize",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1491,
+    "all_files": [
+      "app/src/settings_view/features_page.rs",
+      "app/src/workspace/global_actions.rs",
+      "app/src/workspace/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EHTWCWMMH0N5A5WK7",
+    "source": "Pin position should exist in default size percentages",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 3082,
+    "all_files": [
+      "app/src/settings_view/features_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12FX8XS6ETE4SEAZ41A",
+    "source": "ScrollReportingEnabled failed to serialize",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1500,
+    "all_files": [
+      "app/src/settings_view/features_page.rs",
+      "app/src/workspace/global_actions.rs",
+      "app/src/workspace/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12BD9NCXCPSKVRXE6M7",
+    "source": "Embed code copied.",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 549,
+    "all_files": [
+      "app/src/terminal/share_block_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EN40A6E8KN07QGWPA",
+    "source": "Redact secrets (API keys, passwords, IP addresses, PII etc.)",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 1062,
+    "all_files": [
+      "app/src/terminal/share_block_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12G2WCQ6G9SJK9T3G4T",
+    "source": "Show prompt",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 961,
+    "all_files": [
+      "app/src/terminal/share_block_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12GT0RBYJN03R87CZK6",
+    "source": "Title (optional)",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 71,
+    "all_files": [
+      "app/src/terminal/share_block_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129Q59M106JGCEJ93FG",
+    "source": "Aliases allow you to create short strings to execute workflows. Each alias can have different argument values and environment variables, and aliases are personal to you.",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 185,
+    "all_files": [
+      "app/src/workflows/workflow_view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12BR2H003YSFQHY3J2S",
+    "source": "Enter your prompt here... (e.g., 'Create a function to sort an array of objects by date' or 'Help me debug this React component').",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 151,
+    "all_files": [
+      "app/src/workflows/workflow_view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EHP2J9T6X1CJ6V99R",
+    "source": "Restore workflow from trash",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 2890,
+    "all_files": [
+      "app/src/workflows/workflow_view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12F8478CX9WKXTTZ74D",
+    "source": "Run in Warp",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 187,
+    "all_files": [
+      "app/src/workflows/workflow_view.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEPRFSPACWTVGS21FHV3T",
+    "source": "Bearer token",
+    "file": "app/src/ai/auth_secret_types.rs",
+    "line": 140,
+    "all_files": [
+      "app/src/ai/auth_secret_types.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQMAH941Z850D71GPS4E",
+    "source": "Secret access key",
+    "file": "app/src/ai/auth_secret_types.rs",
+    "line": 165,
+    "all_files": [
+      "app/src/ai/auth_secret_types.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQMXYMSC5W9HWG8Q88FJ",
+    "source": "Session token (temporary credentials only)",
+    "file": "app/src/ai/auth_secret_types.rs",
+    "line": 171,
+    "all_files": [
+      "app/src/ai/auth_secret_types.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12F22MSZT48D1M0WRFF",
+    "source": "Rules enhance the agent by providing structured guidelines that help maintain consistency, enforce best practices, and adapt to specific workflows, including codebases or broader tasks.",
+    "file": "app/src/ai/facts/view/rule.rs",
+    "line": 53,
+    "all_files": [
+      "app/src/ai/facts/view/rule.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12F8RBZRA0EZDNFSCSB",
+    "source": "Search rules",
+    "file": "app/src/ai/facts/view/rule.rs",
+    "line": 55,
+    "all_files": [
+      "app/src/ai/facts/view/rule.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12J576KNDCXA9QGQPYG",
+    "source": "Your rules are disabled and won't be used as context in sessions. You can ",
+    "file": "app/src/ai/facts/view/rule.rs",
+    "line": 62,
+    "all_files": [
+      "app/src/ai/facts/view/rule.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12FTR0BMEHSJHBR9X4T",
+    "source": "Save all unsaved files in code review",
+    "file": "app/src/code_review/mod.rs",
+    "line": 61,
+    "all_files": [
+      "app/src/code_review/mod.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12GSWZQ1VT3MX084G9M",
+    "source": "Show find bar in code review",
+    "file": "app/src/code_review/mod.rs",
+    "line": 68,
+    "all_files": [
+      "app/src/code_review/mod.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQNZYXKY53YQ760DH3CS",
+    "source": "Toggle file navigation in code review",
+    "file": "app/src/code_review/mod.rs",
+    "line": 76,
+    "all_files": [
+      "app/src/code_review/mod.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129TMAXVMG1QN3RXSV1",
+    "source": "Blocks containing secrets cannot be saved.",
+    "file": "app/src/terminal/block_list_element.rs",
+    "line": 159,
+    "all_files": [
+      "app/src/terminal/block_list_element.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12F58T1CPER1N3P755M",
+    "source": "Save as Workflow",
+    "file": "app/src/terminal/block_list_element.rs",
+    "line": 158,
+    "all_files": [
+      "app/src/terminal/block_list_element.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12GAHH57BFV1W2VAKT3",
+    "source": "Tag agent for assistance",
+    "file": "app/src/terminal/block_list_element.rs",
+    "line": 156,
+    "all_files": [
+      "app/src/terminal/block_list_element.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129119ACA14M6A60TV2",
+    "source": "Change role",
+    "file": "app/src/terminal/shared_session/participant_avatar_view.rs",
+    "line": 587,
+    "all_files": [
+      "app/src/terminal/shared_session/participant_avatar_view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DBWZ3Z3JSFWMBHYFR",
+    "source": "Make editor",
+    "file": "app/src/terminal/shared_session/participant_avatar_view.rs",
+    "line": 167,
+    "all_files": [
+      "app/src/terminal/shared_session/participant_avatar_view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DJXGZBA98P80C79YG",
+    "source": "Make viewer",
+    "file": "app/src/terminal/shared_session/participant_avatar_view.rs",
+    "line": 173,
+    "all_files": [
+      "app/src/terminal/shared_session/participant_avatar_view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129CA62RTCM0AZ6R3DW",
+    "source": "Agent Mode",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 1020,
+    "all_files": [
+      "app/src/terminal/universal_developer_input.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129RS9H82VPZY0SPYKW",
+    "source": "Attach context",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 205,
+    "all_files": [
+      "app/src/terminal/universal_developer_input.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12GQ4YJ14BBJ05GH1S9",
+    "source": "Slash commands",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 405,
+    "all_files": [
+      "app/src/terminal/universal_developer_input.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV1292NF7H8KQJB5VXZ1Y",
+    "source": "Auto-reload settings updated",
+    "file": "app/src/terminal/enable_auto_reload_modal.rs",
+    "line": 102,
+    "all_files": [
+      "app/src/terminal/enable_auto_reload_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12B31H1V0TEX2HP3AHR",
+    "source": "Failed to enable auto-reload. Please try updating your settings in Billing & usage.",
+    "file": "app/src/terminal/enable_auto_reload_modal.rs",
+    "line": 112,
+    "all_files": [
+      "app/src/terminal/enable_auto_reload_modal.rs",
+      "app/src/workspace/view/build_plan_migration_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DPNFAKTT1AY6S0QNF",
+    "source": "Oops, something went wrong; your team's data could not be found.",
+    "file": "app/src/terminal/enable_auto_reload_modal.rs",
+    "line": 390,
+    "all_files": [
+      "app/src/terminal/enable_auto_reload_modal.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12GW8HDJFCH918XTJNJ",
+    "source": "Toggle Maximize Code Review Panel",
+    "file": "app/src/workspace/view/right_panel.rs",
+    "line": 389,
+    "all_files": [
+      "app/src/workspace/view/right_panel.rs"
+    ]
+  }
+]
