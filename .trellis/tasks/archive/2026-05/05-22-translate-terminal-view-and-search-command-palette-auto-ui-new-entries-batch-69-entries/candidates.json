@@ -1,0 +1,470 @@
+[
+  {
+    "id": "01KQXQV11DHKQ2ANR2J8SCGGX9",
+    "file": "app/src/search/command_palette/view.rs",
+    "line": 60,
+    "source": " Set of hardcoded action names that we want to show in the command palette zero state."
+  },
+  {
+    "id": "01KQXQV128MAG6HTV32740TCQ1",
+    "file": "app/src/search/command_palette/conversations/data_source.rs",
+    "line": 30,
+    "source": "Active pane conversations"
+  },
+  {
+    "id": "01KQXQV128P8RQ2MEPJER8HZ00",
+    "file": "app/src/terminal/view/inline_banner/aws_cli_not_installed.rs",
+    "line": 80,
+    "source": "AWS CLI Not Installed"
+  },
+  {
+    "id": "01KQXQV1293QMWC8361MHHEE20",
+    "file": "app/src/terminal/view/ambient_agent/model_selector.rs",
+    "line": 62,
+    "source": "Choose agent model"
+  },
+  {
+    "id": "01KQXQV1296DBNH11HSH9KT25W",
+    "file": "app/src/terminal/view/ssh_file_upload.rs",
+    "line": 419,
+    "source": "Clear upload"
+  },
+  {
+    "id": "01KQXQV129FN4B3H6KVEEA7JQC",
+    "file": "app/src/terminal/view/use_agent_footer/mod.rs",
+    "line": 1101,
+    "source": "Ask the Warp agent to assist"
+  },
+  {
+    "id": "01KQXQV129H89KFD8TMEJDBEFH",
+    "file": "app/src/search/command_palette/view.rs",
+    "line": 846,
+    "source": "Cannot switch conversations while agent is monitoring a command."
+  },
+  {
+    "id": "01KQXQV129V8ZS7N0VYHWRC658",
+    "file": "app/src/terminal/view/use_agent_footer/mod.rs",
+    "line": 1115,
+    "source": "Ask the Warp agent to resume"
+  },
+  {
+    "id": "01KQXQV12A3AHJEWXWNFM4HZW4",
+    "file": "app/src/search/command_palette/conversations/search_item.rs",
+    "line": 417,
+    "source": "Conversation: {}"
+  },
+  {
+    "id": "01KQXQV12A3REN118GFVRW3BQ0",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 198,
+    "source": "Create file: {}"
+  },
+  {
+    "id": "01KQXQV12A98W4CR2HKN410MBV",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 100,
+    "source": "Directory: {}"
+  },
+  {
+    "id": "01KQXQV12ABCGFQPVRTHAPM57Q",
+    "file": "app/src/search/command_palette/navigation/render.rs",
+    "line": 107,
+    "source": "Current"
+  },
+  {
+    "id": "01KQXQV12ADRAS0MY3JJYDVE5H",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 164,
+    "source": "Create {}…"
+  },
+  {
+    "id": "01KQXQV12AED476QV0AEAGHDA2",
+    "file": "app/src/terminal/view/shared_session/view_impl.rs",
+    "line": 1885,
+    "source": "Copy session sharing link"
+  },
+  {
+    "id": "01KQXQV12AEQGCSMGNET3XZRQS",
+    "file": "app/src/search/command_palette/navigation/render.rs",
+    "line": 357,
+    "source": "Completed over 1 hour ago"
+  },
+  {
+    "id": "01KQXQV12AEW6AF2BXPSAKWG71",
+    "file": "app/src/search/command_palette/new_session/new_session_option.rs",
+    "line": 84,
+    "source": "Create New Tab: {}"
+  },
+  {
+    "id": "01KQXQV12AGGKAFQ24AMBQTB30",
+    "file": "app/src/search/command_palette/navigation/render.rs",
+    "line": 358,
+    "source": "Completed {mins} minute ago"
+  },
+  {
+    "id": "01KQXQV12AS75YBD535WNGBWEP",
+    "file": "app/src/search/command_palette/navigation/render.rs",
+    "line": 359,
+    "source": "Completed {mins} minutes ago"
+  },
+  {
+    "id": "01KQXQV12AV8XXGYRAPBDRMPWC",
+    "file": "app/src/search/command_palette/new_session/new_session_option.rs",
+    "line": 86,
+    "source": "Create New Window: {}"
+  },
+  {
+    "id": "01KQXQV12B8VMVJAZ2CVP94VNH",
+    "file": "app/src/search/command_palette/navigation/render.rs",
+    "line": 377,
+    "source": "Empty Session"
+  },
+  {
+    "id": "01KQXQV12BDYYRP40RCPVNXE7C",
+    "file": "app/src/terminal/view/ambient_agent/host_selector.rs",
+    "line": 42,
+    "source": "Execution host"
+  },
+  {
+    "id": "01KQXQV12BJVRRM87DECFYHE8X",
+    "file": "app/src/terminal/view/block_banner/warpify.rs",
+    "line": 163,
+    "source": "Do not show again"
+  },
+  {
+    "id": "01KQXQV12BKQ7SQGSHT2HCCXV4",
+    "file": "app/src/search/command_palette/warp_drive/env_var_collection_search_item.rs",
+    "line": 166,
+    "source": "Environment Variables: {}"
+  },
+  {
+    "id": "01KQXQV12BQFQFGKH12T79WG7G",
+    "file": "app/src/terminal/view/inline_banner/vim_mode.rs",
+    "line": 49,
+    "source": "Enable Warp's Vim keybindings?"
+  },
+  {
+    "id": "01KQXQV12BZ2MMEKXRNQAXYYFN",
+    "file": "app/src/terminal/view/use_agent_footer/warpify_footer.rs",
+    "line": 39,
+    "source": "Enable Warp shell integration in this session"
+  },
+  {
+    "id": "01KQXQV12C249K78664Y6KEHE6",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 41,
+    "source": "Great - let's begin setting up this project! Would you like to give me permission to index this codebase? It allows me to quickly understand context and provide more targeted solutions when working in this codebase. No code is stored on Warp servers."
+  },
+  {
+    "id": "01KQXQV12C7KYGP1F5SFEHYYPE",
+    "file": "app/src/search/command_palette/conversations/search_item.rs",
+    "line": 422,
+    "source": "Fork current conversation ({title})"
+  },
+  {
+    "id": "01KQXQV12CBQGRAF898Y17X7JP",
+    "file": "app/src/search/command_palette/conversations/search_item.rs",
+    "line": 90,
+    "source": "Fork current conversation"
+  },
+  {
+    "id": "01KQXQV12CC8RSNMWNN82TX2MA",
+    "file": "app/src/terminal/view/shell_terminated_banner.rs",
+    "line": 18,
+    "source": "File issue"
+  },
+  {
+    "id": "01KQXQV12CHRDSQTYCKKS65XAH",
+    "file": "app/src/terminal/view/init_environment/mod.rs",
+    "line": 22,
+    "source": "If you want to create an environment with repos, rerun this command and pass in file paths or GitHub links as arguments, e.g. \"/create-environment <filepath> <GitHub URL>\"."
+  },
+  {
+    "id": "01KQXQV12CSW6FQYXH4ZGH91AR",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 218,
+    "source": "Fork this conversation locally"
+  },
+  {
+    "id": "01KQXQV12CV3N89CFA3BTK583C",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 102,
+    "source": "File: {}"
+  },
+  {
+    "id": "01KQXQV12D6EEZ1ZA3FJXV2KSN",
+    "file": "app/src/search/command_palette/conversations/search_item.rs",
+    "line": 69,
+    "source": "New conversation"
+  },
+  {
+    "id": "01KQXQV12D7TEX6CJ268SR3QTS",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_prompt_block.rs",
+    "line": 243,
+    "source": "Let us know."
+  },
+  {
+    "id": "01KQXQV12DAGVGQXYDTRXTQ2W0",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 42,
+    "source": "It looks like this project has already been initialized. You can re-generate the AGENTS.md for this codebase by clicking the button below."
+  },
+  {
+    "id": "01KQXQV12DDX6N2PD44E4EGS2Q",
+    "file": "app/src/terminal/view/ambient_agent/model_selector.rs",
+    "line": 64,
+    "source": "No results"
+  },
+  {
+    "id": "01KQXQV12DE04QKJ27N6T91SXZ",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_prompt_block.rs",
+    "line": 241,
+    "source": "No existing prompt."
+  },
+  {
+    "id": "01KQXQV12DFP07NGH9P8JA6EZV",
+    "file": "app/src/search/command_palette/warp_drive/notebook_search_item.rs",
+    "line": 144,
+    "source": "Notebook: {}"
+  },
+  {
+    "id": "01KQXQV12DTKSCC9QGMXTPPQZ5",
+    "file": "app/src/search/command_palette/navigation/render.rs",
+    "line": 360,
+    "source": "No timestamp found"
+  },
+  {
+    "id": "01KQXQV12DTP2APYH27P4CKN7P",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_prompt_block.rs",
+    "line": 242,
+    "source": "Look incorrect? "
+  },
+  {
+    "id": "01KQXQV12DWCXJAC3Q0Z99Z5JJ",
+    "file": "app/src/terminal/view/ambient_agent/block/entry.rs",
+    "line": 35,
+    "source": "New cloud agent"
+  },
+  {
+    "id": "01KQXQV12E55XMNNZP3ZVZMK0H",
+    "file": "app/src/search/command_palette/conversations/search_item.rs",
+    "line": 431,
+    "source": "Press enter to navigate to conversation \"{}\"."
+  },
+  {
+    "id": "01KQXQV12E5K4S41M9SQK4395C",
+    "file": "app/src/search/command_palette/conversations/search_item.rs",
+    "line": 437,
+    "source": "Press enter to create a new conversation."
+  },
+  {
+    "id": "01KQXQV12E7QNM1ESQ9JF7QF9G",
+    "file": "app/src/terminal/view/shared_session/view_impl.rs",
+    "line": 1999,
+    "source": "Request edit access"
+  },
+  {
+    "id": "01KQXQV12E8PH3TG7KZ1X1S5K3",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 108,
+    "source": "Press Enter to navigate to this directory"
+  },
+  {
+    "id": "01KQXQV12EBSG8HNNTJ440M371",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 203,
+    "source": "Press Enter to create {} in the current directory"
+  },
+  {
+    "id": "01KQXQV12ECC9M93ESEGZ9B1QK",
+    "file": "app/src/search/command_palette/repos/repo_search_item.rs",
+    "line": 139,
+    "source": "Repo: {}"
+  },
+  {
+    "id": "01KQXQV12ECVJ1H8PBXYWZ1KX3",
+    "file": "app/src/search/command_palette/conversations/search_item.rs",
+    "line": 435,
+    "source": "Press enter to fork the current conversation into a new conversation."
+  },
+  {
+    "id": "01KQXQV12EEG21GMVWKNJ66VC4",
+    "file": "app/src/search/command_palette/new_session/search_item.rs",
+    "line": 82,
+    "source": "Press enter to launch this session."
+  },
+  {
+    "id": "01KQXQV12EGFVQX2ERG2HVMWQ8",
+    "file": "app/src/search/command_palette/launch_config/search_item.rs",
+    "line": 77,
+    "source": "Press enter to use this launch configuration."
+  },
+  {
+    "id": "01KQXQV12EK37SBQ9K28WZCVD7",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 110,
+    "source": "Press Enter to open this file"
+  },
+  {
+    "id": "01KQXQV12ENBWYRAMMJQKXFX4W",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 520,
+    "source": "Re-generate AGENTS.md file"
+  },
+  {
+    "id": "01KQXQV12ERJZSPPB3PT3A6E8E",
+    "file": "app/src/search/command_palette/conversations/data_source.rs",
+    "line": 31,
+    "source": "Other active conversations"
+  },
+  {
+    "id": "01KQXQV12EXYM7WNE04ZHKXY49",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 239,
+    "source": "Open this conversation in the Warp desktop app"
+  },
+  {
+    "id": "01KQXQV12EZ6S316TBPEW2FVW0",
+    "file": "app/src/search/command_palette/conversations/data_source.rs",
+    "line": 32,
+    "source": "Past conversations"
+  },
+  {
+    "id": "01KQXQV12F9NZHDT3GMXFFY9TZ",
+    "file": "app/src/search/command_palette/launch_config/search_item.rs",
+    "line": 73,
+    "source": "Selected {}."
+  },
+  {
+    "id": "01KQXQV12FEFBE589DYQSMPE63",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+    "line": 54,
+    "source": "Sharing in Warp Drive"
+  },
+  {
+    "id": "01KQXQV12FJM9KD6W54S1QWM94",
+    "file": "app/src/search/command_palette/separator_search_item.rs",
+    "line": 69,
+    "source": "Section: {}"
+  },
+  {
+    "id": "01KQXQV12FMPST7DGVYJFTWHA8",
+    "file": "app/src/search/command_palette/view.rs",
+    "line": 289,
+    "source": "Search for a command"
+  },
+  {
+    "id": "01KQXQV12FN442A0Q2N8TM1Z3J",
+    "file": "app/src/terminal/view/inline_banner/shell_process_terminated.rs",
+    "line": 18,
+    "source": "Shell process exited prematurely!"
+  },
+  {
+    "id": "01KQXQV12FN56WRDD0PRYM2530",
+    "file": "app/src/terminal/view/pane_impl.rs",
+    "line": 833,
+    "source": "Show details"
+  },
+  {
+    "id": "01KQXQV12FRWY7F1P6QB94SSPA",
+    "file": "app/src/terminal/view/inline_banner/shell_process_terminated.rs",
+    "line": 37,
+    "source": "Shell process exited"
+  },
+  {
+    "id": "01KQXQV12FVBRV4M91VNH1PCHK",
+    "file": "app/src/terminal/view/shared_session/view_impl.rs",
+    "line": 1866,
+    "source": "Share session..."
+  },
+  {
+    "id": "01KQXQV12FX0WDB0XA6BYKYVTZ",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_prompt_block.rs",
+    "line": 240,
+    "source": "Shell prompt (PS1)"
+  },
+  {
+    "id": "01KQXQV12G2NC0N66Z8M7V48R7",
+    "file": "app/src/terminal/view/inline_banner/anonymous_user_ai_sign_up.rs",
+    "line": 23,
+    "source": "Sign Up"
+  },
+  {
+    "id": "01KQXQV12G2P77PMR4BBVT6RN2",
+    "file": "app/src/terminal/view/init_project/lsp_server_selector.rs",
+    "line": 166,
+    "source": "Skip for now"
+  },
+  {
+    "id": "01KQXQV12G7CWD80SVDMD2TPMW",
+    "file": "app/src/search/command_palette/new_session/new_session_option.rs",
+    "line": 89,
+    "source": "Split Pane {direction}: {}"
+  },
+  {
+    "id": "01KQXQV12G9YMV60NJ9HP4BY5M",
+    "file": "app/src/terminal/view/pane_impl.rs",
+    "line": 685,
+    "source": "Stop sharing session"
+  },
+  {
+    "id": "01KQXQV12H311MX2K8HX84XAY0",
+    "file": "app/src/terminal/view/inline_banner/alias_expansion.rs",
+    "line": 94,
+    "source": "Warp can auto-expand aliases."
+  },
+  {
+    "id": "01KQXQV12HK098WCTQ90XCJYER",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 680,
+    "source": "View index status"
+  },
+  {
+    "id": "01KQXQV12HVFGXE07FMWE04PSZ",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_prompt_block.rs",
+    "line": 329,
+    "source": "Warp prompt"
+  },
+  {
+    "id": "01KQXQV12HY01HK18P0NVRJ6A6",
+    "file": "app/src/terminal/view/inline_banner/aws_bedrock_login.rs",
+    "line": 77,
+    "source": "Use AWS Bedrock?"
+  },
+  {
+    "id": "01KQXQV12HYCKG7PRHRF9XK350",
+    "file": "app/src/terminal/view/inline_banner/agent_mode_setup.rs",
+    "line": 20,
+    "source": "Unlock smarter, more consistent responses by letting the Agent understand your codebase and generate rules for it. You can also do this at any point by running /init"
+  },
+  {
+    "id": "01KQXQV12J0PB6JXJG1V5JV2XE",
+    "file": "app/src/search/command_palette/warp_drive/workflow_search_item.rs",
+    "line": 151,
+    "source": "Workflow: {}"
+  },
+  {
+    "id": "01KQXQV12JCSAFFZYZ0ZAA45A2",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+    "line": 56,
+    "source": "You can now share drive objects, in Warp or on the web, with anyone - Warp user or not. Click Share in the Warp Drive menu or the pane header to share via link or email."
+  },
+  {
+    "id": "01KQXQV12JDGVDTRH191CAZ4P8",
+    "file": "app/src/terminal/view/init_project/lsp_server_selector.rs",
+    "line": 133,
+    "source": "Would you like to enable available language support for this codebase? This will give you smarter code navigation and inline error checking."
+  },
+  {
+    "id": "01KQXQV12JTEW5G26MBDB1QH11",
+    "file": "app/src/terminal/view/init_environment/mod.rs",
+    "line": 21,
+    "source": "Would you like to create an environment for this project so you can run cloud agents in it? The agent will guide you through choosing GitHub repos, configuring a Docker image, and specifying startup commands."
+  },
+  {
+    "id": "01KQXQV12JX3DRNN3DAF4G6HQA",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+    "line": 57,
+    "source": "You’ll be able to modify the access permissions any time."
+  }
+]
