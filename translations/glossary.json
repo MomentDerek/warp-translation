@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 83,
+    "term_count": 89,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -504,6 +504,42 @@
       "zh": "规则",
       "notes": "Warp Rules 功能，约束 Agent 行为的规则文件。'Suggested rule' → '建议的规则'；'Rules' (页面标题) → '规则'。",
       "do_not_translate": false
+    },
+    "shell_prompt": {
+      "en": "shell prompt",
+      "zh": "提示符",
+      "notes": "Shell PS1 提示符；与既有 'prompt → 提示词'（AI prompt 语境）按上下文严格区分。'Shell prompt (PS1)' → 'Shell 提示符（PS1）'；'Warp prompt' → 'Warp 提示符'；'No existing prompt' (shell 上下文) → '无现有提示符'。",
+      "do_not_translate": false
+    },
+    "execution_host": {
+      "en": "execution host",
+      "zh": "执行主机",
+      "notes": "ambient agent 的运行主机选择。'Execution host' → '执行主机'；'Choose execution host' → '选择执行主机'。",
+      "do_not_translate": false
+    },
+    "alias": {
+      "en": "alias",
+      "zh": "别名",
+      "notes": "Shell alias 命令别名。'auto-expand aliases' → '自动展开别名'。",
+      "do_not_translate": false
+    },
+    "vim": {
+      "en": "Vim",
+      "zh": "Vim",
+      "notes": "编辑器品牌名。保留英文。'Vim keybindings' → 'Vim 键位映射'。",
+      "do_not_translate": true
+    },
+    "aws": {
+      "en": "AWS",
+      "zh": "AWS",
+      "notes": "Amazon Web Services 品牌缩写。保留英文。配套：'AWS Bedrock' / 'AWS CLI' 全字面保留。",
+      "do_not_translate": true
+    },
+    "agents_md": {
+      "en": "AGENTS.md",
+      "zh": "AGENTS.md",
+      "notes": "项目 Agent 配置文件名。文件名字面保留。'Re-generate AGENTS.md file' → '重新生成 AGENTS.md 文件'。",
+      "do_not_translate": true
     }
   }
 }
