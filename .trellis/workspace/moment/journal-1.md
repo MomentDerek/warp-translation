@@ -1728,3 +1728,97 @@ After this batch, auto_ui-new 余量 = **192**（按 ID 计；按 file-occurrenc
 建议下一批：**Strategy A — billing/ai_page 集群**（billing_and_usage_page_v2 + overage_limit_modal + ai_page，覆盖订阅/计费/Auto-handoff 全家桶）；或 **Strategy B — workspace launch_modal + profile_model_selector + workflows/share_block 集群**（用户高频对话框 + 工作流）；或 **Strategy C — 跨文件复用条目优先**（`Don't show again.` × 3 文件 / `New tab` × 4 文件 / 其他单独成簇的 leftover）。
 
 main loop archive 后即可挑下一批。
+
+---
+
+## 2026-05-22 — Batch-8 of `05-22-translate-next-auto-ui-new-entries-batch-60-entries-{1..N}`
+
+延续 batch-7。本批清扫 **16 个 auto_ui-new 热点文件共 60 条**，全部 16 个目标文件清零；外溢副作用清零 3 个共享文件（`workspace/global_actions.rs` × 3 / `workspace/view.rs` × 3 / `workspace/view/build_plan_migration_modal.rs` × 1）。
+
+### Strategy
+
+Billing/AI settings 集群（11） + workspace launch modal（5） + profile_model_selector（5） + features_page panic（4） + share_block_modal（4） + workflow_view（4） + universal_developer_input（3） + enable_auto_reload_modal（3） + block_list_element（3） + participant_avatar_view（3） + auth_secret_types（3） + facts/view/rule（3） + code_review/mod（3） + right_panel 收尾（1）。
+
+| 文件 | 数量 |
+|---|---|
+| `app/src/settings_view/billing_and_usage_page_v2.rs` | 6 |
+| `app/src/settings_view/ai_page.rs` | 5 |
+| `app/src/settings_view/billing_and_usage/overage_limit_modal.rs` | 5 |
+| `app/src/terminal/profile_model_selector.rs` | 5 |
+| `app/src/workspace/view/openwarp_launch_modal/view.rs` | 5 |
+| `app/src/settings_view/features_page.rs` | 4 |
+| `app/src/terminal/share_block_modal.rs` | 4 |
+| `app/src/workflows/workflow_view.rs` | 4 |
+| `app/src/ai/auth_secret_types.rs` | 3 |
+| `app/src/ai/facts/view/rule.rs` | 3 |
+| `app/src/code_review/mod.rs` | 3 |
+| `app/src/terminal/block_list_element.rs` | 3 |
+| `app/src/terminal/shared_session/participant_avatar_view.rs` | 3 |
+| `app/src/terminal/universal_developer_input.rs` | 3 |
+| `app/src/terminal/enable_auto_reload_modal.rs` | 3 |
+| `app/src/workspace/view/right_panel.rs` | 1 |
+
+继 batch-7 之后，auto_ui-new 余量 201 → **141**（-60 主清扫，+3+3+1=7 条副作用外溢，净下降 60，16 个目标文件全清零，外加 3 个 workspace 共享文件清零）。`translated` 2040 → 2100；`new` 4642 → 4582；`fuzzy` 52 不变。
+
+### Decisions / Anomalies
+
+- **`credit / credits` 沿用 glossary**：所有出现统一译为「积分」（与 `add_on → 附加` 组合为「附加积分」），与既有 ~90% 翻译保持一致。
+- **`Auto-reload / auto-reload`** → 沿用 glossary `auto_reload → 自动充值`（指余额自动补充）。
+- **`Profile / execution profile` (profile_model_selector L91, ai 子树)** → 保留英文 `Profile`（产品功能名，事实标准；尚未入 glossary）。`Choose an AI execution profile → 选择 AI 执行 Profile`。
+- **`Follow-ups` (profile_model_selector L93)** → `后续追问`：对话流中的后续提问语境。
+- **`auto (open-weights)` (openwarp_launch_modal L65)**：模型选项代号，整体保留原文不译；外层引导词 `Introducing` 译为「隆重推出」，配中文方角引号 `『』`（源使用 ASCII `'`）。
+- **`auto model` (openwarp_launch_modal L66)** → 保留小写英文代号 `auto 模型`；`open weight model` → `开源权重模型`；`Kimi` / `MiniMax` 模型名保留英文。
+- **`Oz` (openwarp_launch_modal L57, ai_page L6191)** → 保留英文（Warp 的云端 Agent 编排平台产品名）。
+- **`Cloud Mode` (ai_page L6873)** → `云端模式`（与 Local Mode 对应的 Warp Agent 运行模式）。
+- **`GitHub issues` (ai_page L6191)** → `GitHub Issue`（保留 Issue 作为业内事实专有名词单数形式）。
+- **`PII` (share_block_modal L1062)** → 保留英文缩写（Personally Identifiable Information）。
+- **`Bearer / Secret / Session` (auth_secret_types)** → 凭证字段名前缀保留英文（OAuth / AWS 协议术语）：`Bearer 令牌` / `Secret 访问密钥` / `Session 令牌（仅限临时凭证）`。
+- **`.expect` panic 串（4 条，features_page.rs）**：
+  - `MouseReportingEnabled failed to serialize` → `MouseReportingEnabled 序列化失败`
+  - `ScrollReportingEnabled failed to serialize` → `ScrollReportingEnabled 序列化失败`
+  - `FocusReportingEnabled failed to serialize` → `FocusReportingEnabled 序列化失败`
+  - `Pin position should exist in default size percentages` → `Pin 位置应存在于默认尺寸百分比中`
+  沿用 batch-7 翻译 panic 消息惯例（`Should have command bindings vector → 应有命令绑定向量`）。Rust 类型名 `*ReportingEnabled` / Quake Mode 概念 `Pin` 保留英文，叙述部分译中文。这些 panic 串外溢清零至 `workspace/global_actions.rs` 与 `workspace/view.rs`（每文件 -3 条共享）。
+- **`Tag agent for assistance` (block_list_element L156)** → `标记 Agent 协助`（`tag` 此处为动词「@」/「标记」）。
+- **`Slash commands` (universal_developer_input L405)** → `斜杠命令`（`/` 开头的命令）。
+- **`Make editor` / `Make viewer` (participant_avatar_view)** → `设为编辑者` / `设为查看者`（中文菜单动词搭配更自然）。
+- **`Restore workflow from trash` (workflow_view L2890)** → `从回收站恢复工作流`（参照 macOS 系统术语）。
+- **`Billing & usage` (enable_auto_reload_modal L112)** → `计费与用量`（标准设置导航项；ASCII `&` 替换为「与」）。
+- **`Toggle Maximize Code Review Panel` (right_panel L389)** → `切换代码审查面板最大化`：与同文件其他 `Toggle Maximize *` keybinding 命名风格保持一致。
+- **示例 prompt 单引号字符串 (workflow_view L151)** → 源使用 ASCII `'...'` 包裹示例 prompt，译文转为中文方角引号 `『...』`；行内三点省略号 `...` → `……`。
+- **占位符（1 条）**：`{credits}` / `{price}`（billing_and_usage_page_v2 L1205），中文调整词序后字面保留：`...将以 {price} 自动购买 {credits} 积分...`。
+
+### Glossary delta
+
+无新增术语。`term_count` 保持 95。
+
+### Verification
+
+- `python3 .trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries-8/apply_translations.py` → `applied 60/60`，无 invariant 错误；stats: `new=4582, translated=2100, fuzzy=52`；pre_translated=2040 → post_translated=2100。
+- `cd tools && cargo run -p warp-zh-extractor -- extract --source ../../warp`（规范化）→ `added=0 changed=0 unchanged=6734`。
+- `cd tools && cargo run -p warp-zh-extractor -- extract --source ../../warp --check` → `--check passed`，exit 0。
+- `cd tools && cargo run -p warp-zh-builder -- build --source ../../warp` → `copied=4914 modified=368 parse_failed=1 replaced=2969 kept_english=6502`，exit 0。
+- `cd build/warp-zh && cargo check -p warp` → 仅 1 条预先存在 warning（`settings_view/mod.rs:379` `unreachable_patterns`，非本批引入），exit 0。
+
+### Files
+
+- `translations/strings.json`（60 条 status: new → translated）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries-8/candidates.json`（新建）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries-8/prd.md`（新建）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries-8/apply_translations.py`（新建）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries-8/task.json`（status=completed, completedAt=2026-05-22）
+- `.trellis/workspace/moment/journal-1.md`（本条记录）
+
+### Next Steps / Remaining auto_ui-new hotspots
+
+剩 141 条 auto_ui-new，按 file-occurrence 计已大幅碎片化。下一批前重新查询热点；当前粗排候选：
+
+- `app/src/ai/auth_secret_types.rs` ≈ 0（已清）；下一批应转向更分散的 2-count / 1-count 长尾。
+- 仍有 4-count：`crates/warp_completer/src/signatures/testing/legacy.rs`（2 条 + 共享）。
+- 仍有 3-count：（无）— 几乎全部 ≤2。
+- 大量 2-count 候选（35 个文件 × 2）：drive/mod.rs、launch_configs/save_modal.rs、notebooks/link.rs、notebooks/notebook/details_bar.rs、settings/import/view.rs、settings_view/billing_and_usage/usage_history_model.rs（1）、code_review/comment_list_view.rs 等。
+- 大量 1-count 长尾约 100 个文件 × 1。
+
+建议下一批 **Strategy A — 2-count 集群（30 个文件 × 2 = 60 条）** 用最小 selection 清零最多文件；或 **Strategy B — 主题/语义聚类**（如全部 `Don't show again.` × 多文件、notebooks/code_review 集群等）保持上下文一致性。
+
+main loop archive 后即可挑下一批。
