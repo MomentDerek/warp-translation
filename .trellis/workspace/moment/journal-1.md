@@ -927,3 +927,293 @@ Translated 30 status=new + audit.verdict=auto_ui entries from app/src/settings_v
 ### Next Steps
 
 - None - task complete
+
+---
+
+## 2026-05-22 — Task: translate-ai-blocklist-auto-ui-batch-1 (51 entries)
+
+### Theme
+
+启动 `app/src/ai/blocklist/` 翻译推进。本批 51 条 `status=new` + `audit.verdict=auto_ui`，集中在 Agent 输入栏 + 内联 Agent 控制面板簇（9 文件）。
+
+### Files Touched (mutations)
+
+- `translations/strings.json` — 51 条 `new → translated`，flag `pr-ai-blocklist-agent-control-batch`。
+- `build/warp-zh/` — 由 `warp-zh-builder` 重建（modified=265, replaced=2178, kept_english=7293）。
+
+### Stats Delta
+
+| | before | after |
+|---|---|---|
+| translated | 1417 | **1468** (+51) |
+| new | 5265 | **5214** (-51) |
+| fuzzy | 52 | 52 |
+
+### Key Decisions
+
+1. **控制权语义自洽**：
+   - `Agent is in control` → `Agent 正在控制` (L28)
+   - `User is in control` / `User in control` → `您正在控制` (L29/L92)
+   - `Paused agent. User is in control.` → `已暂停 Agent。您正在控制。` (L91)
+   - `Agent ran into an issue. Take over control.` → `Agent 遇到问题。请接管控制权。` (L93)
+2. **特殊字面值保留**：
+   - L369 `Hand off to cloud (or type &)` → `移交至云端（或键入 &）` — `&` 半角保留（Rich Input mode-switch 字符）。
+   - L136 `/remote-control` 字面保留（斜杠命令）。
+   - L409/L425 `Oz` 代号保留：`新建 Oz Agent 会话` / `新建 Oz 云端 Agent 会话`。
+   - L77 `New API key…` → `新建 API 密钥…`（U+2026 已存在于源，保留）。
+3. **省略号统一**：所有 ASCII `...` → `……`（U+2026 ×2）。
+4. **glossary 复用**：`Rich Input` (rich_input) / `agent` / `mcp` / `api` / `api_key` / `harness` 均已存在，无新增。`Agent harness` 译 `Agent 执行环境` 与既有 harness 词条一致。
+
+### Verification
+
+- `apply_translations.py` invariants：全角标点、placeholder 完整、`Oz`/`API`/`&`/`/remote-control`/`…` 字面保留 — all pass。
+- `warp-zh-extractor extract --check` exit 0（幂等）。
+- `warp-zh-builder build` 完成：copied=5017, modified=265, replaced=2178, kept_english=7293, parse_failed=1（与上批一致）。
+- `cargo check -p warp` 在 `build/warp-zh/` 通过（3m 06s）。
+
+### Remaining ai/blocklist Budget
+
+- 本批前：94 条 auto_ui new。
+- 本批后：43 条 auto_ui new 待翻译（block.rs / requested_command 余项、prompt_alert.rs、codebase_index_speedbump_banner.rs、code_diff_view.rs 等）— 留 batch 2。
+- ai/blocklist `verdict=uncertain` 200+ 条留专项 sweep（不在 auto_ui 流水线）。
+
+### Status
+
+[OK] **Completed** — 51 entries translated, build green.
+
+### Next Steps
+
+- main loop: archive task；batch 2（剩余 43 条 ai/blocklist auto_ui new）。
+
+---
+
+## 2026-05-22 — `05-22-translate-ai-blocklist-remaining-43-auto-ui-new-entries-batch-2-of-2-sweep`
+
+ai/blocklist 长尾扫荡：清扫剩余 43 条 `status=new` + `audit.verdict=auto_ui` 条目，横跨 20 个叶节点文件（action_model / block / code_diff / prompt_alert / codebase_index / cancel / telemetry / view_util 等）。**ai/blocklist 子目录 auto_ui-new 余量归零**（batch 1: 51 + batch 2: 43 = 94 全清）。
+
+### Stats Delta
+
+| Metric | Before | After |
+|---|---|---|
+| translated | 1468 | **1511** (+43) |
+| new | 5214 | **5171** (-43) |
+| fuzzy | 52 | 52 |
+| ai/blocklist auto_ui new | 43 | **0** (cleared) |
+
+### Glossary Delta (+2)
+
+- `fork` → 「派生」（Git/Agent 上下文动词；`Fork conversation` → `派生会话`）
+- `rule` → 「规则」（Warp Rules 功能；`Suggested rule` → `建议的规则`）
+- `credit`：**已存在**，PRD 草案误判。沿用既有译法 `积分`（非 PRD 草拟的 `额度`）：
+  - L34 `Out of credits` → `积分不足`
+  - L36 `Sign up for more AI credits` → `注册以获取更多 AI 积分`
+  - L3393 `Show credit usage details` → `显示积分使用详情`
+- `spending_limit`（既有）应用于 L39 `Increase monthly spend limit` → `提升每月支出限额`（非 PRD 草拟的 `每月消费上限`）。
+
+glossary `term_count`: 81 → **83**。
+
+### Key Decisions
+
+1. **拼接片段字面保留**（与 mcp_servers L69 经验一脉相承）：
+   - L26 (prompt_alert) `To use AI features,` → `要使用 AI 功能, ` —— **target 末尾保留 ASCII `", "`**（半角逗号 + 半角空格），不切全角逗号。
+   - L32 (prompt_alert) `At Limit -` → `已达上限 - ` —— **target 末尾保留 ASCII `" - "`**（空格-连字符-空格全半角）。
+   - L180 (toggleable_items) `to toggle selection` → `" 切换选中"` —— **target 首字符为半角空格**（拼接前缀，前面可能是快捷键 `Space `）。
+   - 这三条 source 本身无 trailing/leading 空格，但 target 添加这些空格以匹配运行时拼接对端的预期。
+2. **占位符完整性**：L253 `These files do not exist: {missing_files}` → `以下文件不存在：{missing_files}`，`{missing_files}` 原样保留一次。
+3. **品牌/术语字面保留**：L569 `GitHub`、L277 `Warp`、Agent 词族大写、`MCP` 大写、`API` 大写。
+4. **控制权语义续接 batch 1**：L181 `Take control of running command` → `接管运行中的命令`（与 batch 1 L93 `Take over control` → `接管控制权` 同词族）。
+5. **省略号统一**：L21 `solutions...` → `解决方案。`（中文化收尾，不保留 ASCII `...`）；L53 单字符 `…` U+2026 原样保留为 `自定义主机…`。
+6. **新词族复用**：
+   - `Fork conversation` 应用新 glossary `fork → 派生` → `派生会话`（L3217）。
+   - `Suggested rule` 应用新 glossary `rule → 规则` → `建议的规则`（L48）。
+7. **Whitespace 校验放宽为单向**：apply 脚本的 `check_whitespace_preservation` 从对称改为单向（source 有 ws → target 必有；target 可比 source 多），以容纳本批 3 条拼接片段案例。三个拼接 ID 在 `check_invariants` 中单独断言精确边界。
+
+### Verification
+
+- `apply_translations.py` invariants：全角标点、placeholder 完整、拼接片段精确边界、`GitHub`/`Warp`/`Agent` 字面、U+2026 单字符省略号 —— all pass。
+- `warp-zh-extractor extract --check` exit 0（**首轮幂等**，无双轮）。本批 stats 写到 `metadata.stats`，未触发上批的 stats-position 已知问题。
+- `warp-zh-builder build` 完成：copied=4993, modified=289, replaced=2252, kept_english=7219, parse_failed=1（一致历史项）。
+- `cargo check -p warp` 在 `build/warp-zh/` 通过（3m 20s）。
+
+### ai/blocklist Subdirectory Cleared
+
+ai/blocklist 子目录 auto_ui-new 余量：**0 条**（再次过滤验证）。两批合计 94 条全部 translated。该子目录的 `verdict=uncertain` 条目（~200+）留 uncertain 专项 sweep。
+
+### Next Steps
+
+- main loop: archive task；下一热点 terminal/view (37 条 auto_ui new) 或 command_palette (32 条 auto_ui new)。
+
+---
+
+## 2026-05-22 — Task: translate-terminal-view-and-search-command-palette-auto-ui-new-entries-batch-69-entries (Combined Sweep)
+
+### Outcome
+
+合并扫荡 `app/src/terminal/view/*` (41) + `app/src/search/command_palette/*` (37) 两个最大剩余热点，共 **77 条**写回 `target` + `status=translated`，**1 条** (L60 view.rs) 标记为 `do_not_translate` + `extractor_false_positive_doc_comment`（详见下方决策记录）。
+
+### Stats delta
+
+- translated: 1511 → 1589（**+78**：77 条正常翻译 + 1 条 do-not-translate 但 status=translated）
+- new: 5171 → 5093（**-78**）
+- fuzzy: 52（不变）
+- uncertain: 4531（不变）
+- entry_count: 6734（不变）
+- glossary terms: 83 → 89（+6 全新）
+
+### Subdirectory clearance ✅
+
+`app/src/terminal/view/*` + `app/src/search/command_palette/*` 中 `status=new` + `audit.verdict=auto_ui` 余量：**0**（已过滤验证）。两子目录 auto_ui-new 清零。
+
+### Glossary additions (+6 全新)
+
+1. `shell_prompt` → 提示符 — 与既有 `prompt → 提示词`（AI prompt 语境）按上下文严格区分。Shell PS1 语境用提示符，AI prompt 用提示词。
+2. `execution_host` → 执行主机
+3. `alias` → 别名
+4. `vim` → Vim (do_not_translate=true)
+5. `aws` → AWS (do_not_translate=true)
+6. `agents_md` → AGENTS.md (do_not_translate=true)
+
+`metadata.term_count` 同步：83 → 89。
+
+### L60 view.rs verdict — **extractor false positive (`///` doc comment in `lazy_static!` body)**
+
+源代码上下文（`app/src/search/command_palette/view.rs:59-67`）：
+
+```rust
+lazy_static! {
+    /// Set of hardcoded action names that we want to show in the command palette zero state.
+    static ref SUGGESTED_ACTIONS: HashSet<&'static str> = HashSet::from_iter([...]);
+}
+```
+
+`///` 是 Rust 文档注释，被 `lazy_static!` 宏的 `$(#[$attr:meta])*` 模式捕获为 `#[doc = "..."]` 属性。**这不是运行时 UI 文案**，是开发者文档。
+
+**为何被误抓**：`warp-zh-extractor` 的 macro-body token-scan 阶段直接遍历宏 token stream，未应用 `Visit::visit_attribute` 的 doc-attr 跳过逻辑（见 `.trellis/spec/backend/rust-syn-extraction.md` 的 `skip_depth` pattern）。属于 macro-token-scan 路径上的 doc-attr 过滤缺失。
+
+**应对**：
+1. 翻译过 → builder 写回 → `cargo check` 立刻报错 `no rules expected ... while trying to match keyword 'static'`（lazy_static 宏匹配失败，因为 doc 注释位置被替换成了普通字符串字面量）。
+2. 回退：`target=null`，`status=translated`（保持本批 stats 一致），追加 flags `do_not_translate` + `extractor_false_positive_doc_comment`。
+3. 重新 build + `cargo check -p warp` → 通过。
+
+**Upstream fix tracked**: 应在 `tools/extractor/src/extract.rs::scan_macro_tokens` 中复用同一份 doc-attr 跳过逻辑（识别 `# [ doc = "..." ]` token 模式或者 `///`-origin 标记，按 `skip_depth` 跳过）。本批不做修复，仅在 entry 上打 flag 标记。
+
+### Shell-prompt vs AI-prompt 语义分叉决策
+
+PRD 锁定的 shell-prompt 语义（`Shell prompt (PS1)` / `Warp prompt` / `No existing prompt`）使用「提示符」。AI prompt 上下文（既有 glossary `prompt → 提示词`）保留「提示词」。本批 3 条 shell-prompt 条目（L240/L241/L329）已通过 `check_invariants` 强断言「`提示符` ∈ target ∧ `提示词` ∉ target」。
+
+### Special-character / brand 字面保留检查清单（全部通过）
+
+- L242 末尾半角空格 `" "` 保留 ✓
+- L60 首字半角空格 `" "` 保留 ✓ (do_not_translate 后 source 字面留存)
+- L164 末尾 U+2026 `…` 保留 ✓
+- L1866 包含 `……`（U+2026 ×2）✓
+- L56 包含 ASCII `" - "`（空格-连字符-空格）✓
+- 占位符 `{}` / `{title}` / `{mins}` / `{direction}` 计数与命名一致 ✓
+- 品牌字面：`AGENTS.md` (L42/L520) / `AWS Bedrock` (L77) / `AWS CLI` (L80) / `Vim` (L49) / `Warp` / `Warp Drive` / `GitHub` / `Docker` 全部保留 ✓
+- 无小写孤立 `agent` 单词（全部 `Agent`）✓
+- L57 `'` (U+2019): 源文本 `You'll be able...` 中的弯撇号在中文译文「您可以随时修改访问权限。」中自然消失。**PRD 中 U+2019 断言被降级**：纯中文译文不应人为引入弯撇号；assertion 在 apply 脚本中已移除，理由记录在该 entry 注释。
+
+### Verification pipeline (all green)
+
+- `apply_translations.py` exit 0 ✓
+- `cargo run -p warp-zh-extractor -- extract --check` exit 0 (kept=8414, total=53017) ✓
+- `cargo run -p warp-zh-builder -- build` exit 0 (copied=4957, modified=325, replaced=2360, kept_english=7111) ✓
+- `cargo check -p warp` exit 0（首次因 L60 doc-comment 失败 → 修复后通过）✓
+
+### Files modified
+
+- `translations/strings.json` (78 entries: 77 translated + 1 do_not_translate; stats updated)
+- `translations/glossary.json` (+6 terms; term_count 83 → 89)
+- `.trellis/tasks/05-22-translate-terminal-view-and-search-command-palette-auto-ui-new-entries-batch-69-entries/apply_translations.py` (new)
+- `.trellis/workspace/moment/journal-1.md` (this entry)
+
+### Next Steps / Remaining auto_ui-new hotspots
+
+After this batch, auto_ui-new 余量（5093 总数下的子集）的下一档热点（top 6 估计，按子目录路径前缀粗排）：
+
+- `app/src/cli_agent_sessions/*` ≈ 31
+- `crates/remote_server/server_model.rs` ≈ 23
+- `app/src/notebooks/editor/*` ≈ 23
+- `app/src/resource_center/sections.rs` ≈ 22
+- `crates/warpui/src/rendering/*` ≈ 22
+- `app/src/settings_view/billing_and_usage/*` ≈ 21
+
+main loop archive 后即可挑下一批。Extractor doc-attr fix（macro-token-scan path）建议单开 task 修复，影响范围 = 所有 `lazy_static!` / `paste!` 等含 doc-attr 的宏体。
+
+---
+
+## 2026-05-22 — Task: translate-next-auto-ui-new-entries-batch-60-entries (Top-3 hotspot files)
+
+### Outcome
+
+Strategy 1 单批清空 Top-3 热点文件中的两个，外加第三个文件的 deterministic head-cut：
+
+- `app/src/remote_server/server_model.rs` — **23 / 23**（全部清空）
+- `app/src/resource_center/sections.rs` — **22 / 22**（全部清空）
+- `app/src/notebooks/editor/view.rs` — **15 / 20**（按 id 字典序取前 15）
+
+总计 **60 条** `status=new` + `audit.verdict=auto_ui` → `target` 中文 + `status=translated`，加批次 flag `pr-remote-server-resource-center-notebooks-editor-batch`。
+
+### Stats delta
+
+- translated: 1620 → **1680**（+60）
+- new: 5062 → **5002**（-60）
+- fuzzy: 52（不变）
+- uncertain: 4531（不变）
+- entry_count: 6734（不变）
+- glossary terms: 93（不变，本批无新增）
+- auto_ui-new 余量: 621 → **561**（-60）
+
+### Subdirectory clearance
+
+- `app/src/remote_server/server_model.rs` auto_ui-new 余量：**0** ✓
+- `app/src/resource_center/sections.rs` auto_ui-new 余量：**0** ✓
+- `app/src/notebooks/editor/view.rs` auto_ui-new 余量：5（剩余按 id 字典序后段，下一批可继续）
+
+### Glossary additions
+
+无新增；本批所有术语均沿用现有 glossary（plugin/notebook/block/command_palette/theme/workflow/pane/tab/shell_prompt/keybinding/repository/buffer 等）。`metadata.term_count` 保持 93。
+
+### Decisions / 注意点
+
+1. **protobuf 字段名 / 类型名字面保留**：`server_model.rs` 是 remote-server 协议层错误回包，所有 protobuf 字段名（`repo_path`, `dir_path`, `mode`）与消息类型名（`ClientMessage`, `DiscardFiles`, `DiscardFilesRequest`, `GetDiffState`）在中文译文中字面保留，对应英文标识符同时是开发者文档与日志的搜索锚点。`check_invariants` 单独断言每条 entry 的 protobuf 字面集合。
+2. **占位符富集**：23 条 server_model 条目中 17 条带占位符；命名占位符（`{err}`/`{e}`/`{error}`/`{file_id:?}`/`{session_id:?}`/`{dir_path}`/`{repo_path}`）与位置占位符（`{}`/`{:?}`）混用。`check_placeholders` 对每条 entry 按 `\{[^{}]*\}` 排序集合比对。
+3. **PS1 / IDE 字面保留**：resource_center L64 `Set up Warp to honor your PS1 setting` 中 `PS1` 是 shell 环境变量名，与产品名同等字面；L69 `IDE` 是通用缩写，按 do-not-translate 惯例保留。
+4. **"shell command" 固定写法**：notebooks/editor 中两条 `shell command` 译为「shell 命令」（小写 shell + 中文「命令」），与 search/command_palette 批次的「shell 提示符」保持术语轴一致。
+5. **block → 命令块**：resource_center 多处用到 `block`，全部按 glossary 译为「命令块」（不是「区块」/「方块」），与 Warp 终端命令块抽象一致。
+6. **复合占位符消息排版**：`No active diff state model for repo={} mode={:?}` → `未找到活动的 diff 状态模型：repo={} mode={:?}`，等号 + 位置占位符的诊断风格在中文译文中原样延续（便于开发者按文本片段 grep 源码）。
+7. **head-cut 选择稳定性**：notebooks/editor 取前 15 条时按 `id` 字典序排序确保可复现；剩余 5 条 ID 已记录在 candidates.json 比对集，可由下一批从 `01KQXQV12G…`-`01KQXQV12H…` 范围继续。
+
+### Verification pipeline (all green)
+
+- `python3 .trellis/tasks/05-22-.../apply_translations.py` → exit 0（updated 60；prior 1620 byte-identical 校验通过）✓
+- `cargo run -p warp-zh-extractor -- extract --source ../../warp --check` → exit 0 (kept=8414, total=53017；首轮幂等)✓
+- `cargo run -p warp-zh-builder -- build --source ../../warp` → exit 0 (copied=4950, modified=332, replaced=2459, kept_english=7012, parse_failed=1 一致历史项)✓
+- `cd build/warp-zh && cargo check -p warp` → exit 0 (3m 08s)✓
+
+### Files modified
+
+- `translations/strings.json`（60 entries translated；stats 重算）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries/candidates.json`（新建）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries/prd.md`（新建）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries/apply_translations.py`（新建）
+- `.trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries/task.json`（status=completed, completedAt=2026-05-22）
+- `.trellis/workspace/moment/journal-1.md`（本条记录）
+
+### Next Steps / Remaining auto_ui-new hotspots
+
+After this batch, auto_ui-new 余量 = **561**。下一档热点（按文件粗排，热度可重新查询）：
+
+- `app/src/workspace/view.rs` ≈ 17
+- `app/src/quit_warning/mod.rs` ≈ 16
+- `app/src/settings_view/execution_profile_view.rs` ≈ 16
+- `app/src/settings_view/main_page.rs` ≈ 14
+- `app/src/settings_view/mod.rs` ≈ 14
+- `app/src/settings_view/agent_assisted_environment_modal.rs` ≈ 13
+- `app/src/settings_view/warpify_page.rs` ≈ 12
+- `app/src/notebooks/editor/view.rs` 剩 5 条
+- `app/src/ai_assistant/panel.rs` ≈ 10
+
+建议下一批：Strategy 2 子目录簇 — 整个 `app/src/settings_view/*` 剩余热点（execution_profile_view 16 + main_page 14 + mod.rs 14 + agent_assisted_environment_modal 13 + warpify_page 12 = 69）裁剪到 60，或 Strategy 3 UI domain（workspace/view + quit_warning + notebooks/editor 剩 5 + ai_assistant/panel ≈ 48，配 settings_view/main_page 14 = 62 → 60）。
+
+main loop archive 后即可挑下一批。
