@@ -1,0 +1,542 @@
+[
+  {
+    "id": "01KQXQV10N8SEYP4AK21K7JH87",
+    "source": " Ask a question...",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 84,
+    "kind": "literal",
+    "context_hint": "const:INIT_PLACEHOLDER_TEXT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV11RY5TZDZC609BR8PZZ",
+    "source": " Type a response or click one above...",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 85,
+    "kind": "literal",
+    "context_hint": "const:FOLLOWUP_PLACEHOLDER_TEXT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV129PBQSABCH6PCP0D15",
+    "source": "Close Warp AI",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 154,
+    "kind": "literal",
+    "context_hint": "FixedBinding::custom",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12AV1ZXW9WG7SC66JH1",
+    "source": "Copy transcript to clipboard",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 791,
+    "kind": "literal",
+    "context_hint": ".tool_tip",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12C1N3119STH7GVT0M0",
+    "source": "Focus Terminal Input From Warp AI",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 161,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12C89VWPZMG13WCNF6V",
+    "source": "How do I find all files containing specific text?",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 81,
+    "kind": "literal",
+    "context_hint": "const:FILES_ZERO_STATE_PROMPT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12CNPXDTB8AGHBBKNTD",
+    "source": "How do I undo the most recent commits in git?",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 80,
+    "kind": "literal",
+    "context_hint": "const:GIT_ZERO_STATE_PROMPT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12EZWW21FZF0C6S6BMB",
+    "source": "Restart Warp AI",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 168,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12FW7Q2QGQDNC215Q23",
+    "source": "Shift + ctrl + space a block or text selection to ask Warp AI.",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 78,
+    "kind": "literal",
+    "context_hint": "const:ZERO_STATE_HELP_TEXT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12JS3KGSTC6VKT00EKY",
+    "source": "Write a script to connect to an AWS EC2 instance.",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 79,
+    "kind": "literal",
+    "context_hint": "const:SCRIPT_ZERO_STATE_PROMPT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV1290B2BXXHGAW9NJ3BT",
+    "source": "By continuing, you agree to Warp's ",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 335,
+    "kind": "literal",
+    "context_hint": ".span",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV1292TSY727D48NX2B0X",
+    "source": "Already have an account? ",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 493,
+    "kind": "literal",
+    "context_hint": ".span",
+    "audit_score": 9
+  },
+  {
+    "id": "01KQXQV129D8BRAV7D4JNGAGDR",
+    "source": "Auth Token",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 52,
+    "kind": "literal",
+    "context_hint": "const:AUTH_TOKEN_INPUT_PLACEHOLDER_TEXT",
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12B4F2C86ZTHRCA527D",
+    "source": "Don't want to sign in right now? ",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 521,
+    "kind": "literal",
+    "context_hint": ".span",
+    "audit_score": 9
+  },
+  {
+    "id": "01KQXQV12CY05JA1GFN0TRPNY9",
+    "source": "If your browser hasn't launched, ",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 776,
+    "kind": "literal",
+    "context_hint": ".span",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12ETVKKPMD9RWW4GEQ7",
+    "source": "Privacy Settings",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 363,
+    "kind": "literal",
+    "context_hint": ".link",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12J5C5PW6HDC6PXGMB0",
+    "source": "are only available to logged-in users. ",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 566,
+    "kind": "literal",
+    "context_hint": ".span",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12JEED5P4BERYQ53CQ4",
+    "source": "and open the page manually.",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 802,
+    "kind": "literal",
+    "context_hint": ".span",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12E5NBF8QGVAVWFA1H0",
+    "source": "Resize pane > Move divider up",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 440,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12EJRJKTMXRVW3QNTG3",
+    "source": "Resize pane > Move divider down",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 449,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12EPRHFYEY7H5KRBW9Y",
+    "source": "Resize pane > Move divider left",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 422,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12EW9MTGTB8A4MKFMZJ",
+    "source": "Resize pane > Move divider right",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 431,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12G799CZN2BB2CV0JF3",
+    "source": "Switch panes right",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 389,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12G8Z673T24F40VTWC1",
+    "source": "Switch panes up",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 398,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12GADARX32XQW4452RY",
+    "source": "Switch panes down",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 407,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12GV9FBN6S4FC692C5R",
+    "source": "Switch panes left",
+    "file": "app/src/pane_group/mod.rs",
+    "line": 380,
+    "kind": "literal",
+    "context_hint": "EditableBinding::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV1214YS0CEYDTVSRMY0K",
+    "source": " in this pane.",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 298,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV1218WA166R3H2J2GQR2",
+    "source": " in this tab.",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 296,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV1219N114H9S3RBQGXTD",
+    "source": " in this window.",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 297,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12925HR740VRWK5AJ78",
+    "source": "Close pane?",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 434,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV129AK83JY7SDE5M8D0H",
+    "source": "Close tabs?",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 436,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV129B2PS6DRWYKVRTH41",
+    "source": "Close window?",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 437,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV129X5H48ERD6BQ7FTWD",
+    "source": "Close tab?",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 435,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12BENEB9F66SD21PTEN",
+    "source": "Don't Save",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 415,
+    "kind": "literal",
+    "context_hint": "ModalButton::for_app",
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12BQA1F5QJRWM4RK3NN",
+    "source": "Do you want to save the changes you made to {}? Your changes will be discarded if you don't save them.",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 335,
+    "kind": "macro_arg",
+    "context_hint": ".push > macro:format",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12EMNR98FHHNCHEY8Y4",
+    "source": "Quit Warp?",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 438,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12FJQ0ZK9J5HHG6S6WJ",
+    "source": "Save changes?",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 439,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12J0PQZVBFH3DQ2722R",
+    "source": "You are sharing {} {}{scope_suffix}",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 327,
+    "kind": "macro_arg",
+    "context_hint": ".push > macro:format",
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12J7KY0GS918HEK548F",
+    "source": "Yes, close",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 403,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12JC2PRPCA2759RC9R8",
+    "source": "You have unsaved file changes{scope_suffix}",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 337,
+    "kind": "macro_arg",
+    "context_hint": ".push > macro:format",
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12JEGPQCCRDJFP56J6F",
+    "source": "You have {} {} running",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 304,
+    "kind": "macro_arg",
+    "context_hint": "macro:format",
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12JR7NCZBTWYP95A19R",
+    "source": "Yes, quit",
+    "file": "app/src/quit_warning/mod.rs",
+    "line": 404,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV128X02B566DEG5G692P",
+    "source": "Access your tab configs here.",
+    "file": "app/src/workspace/view.rs",
+    "line": 625,
+    "kind": "literal",
+    "context_hint": "const:SESSION_CONFIG_TAB_CONFIG_CHIP_TEXT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12AEXSNW2MXMYTA1W0A",
+    "source": "Current version is {version}",
+    "file": "app/src/workspace/view.rs",
+    "line": 6736,
+    "kind": "macro_arg",
+    "context_hint": "MenuItemFields::new > macro:format",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12CCQ7M2ENMDZYBB463",
+    "source": "Install update ({})",
+    "file": "app/src/workspace/view.rs",
+    "line": 6743,
+    "kind": "macro_arg",
+    "context_hint": "MenuItemFields::new > macro:format",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12CXTS869VN5NFC0BE6",
+    "source": "Invite a friend",
+    "file": "app/src/workspace/view.rs",
+    "line": 8586,
+    "kind": "literal",
+    "context_hint": "MenuItemFields::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12DJK6HZMSEXMZX05RT",
+    "source": "New tab config",
+    "file": "app/src/workspace/view.rs",
+    "line": 6382,
+    "kind": "literal",
+    "context_hint": "MenuItemFields::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12DQ7CE410CG9EK27PV",
+    "source": "New worktree config",
+    "file": "app/src/workspace/view.rs",
+    "line": 6375,
+    "kind": "literal",
+    "context_hint": "MenuItemFields::new_submenu",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12ERYY4NW1GVXPZC2P0",
+    "source": "Please sign in again to restore access to cloud-based features.",
+    "file": "app/src/workspace/view.rs",
+    "line": 19747,
+    "kind": "literal",
+    "context_hint": "Some > field:description",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12G09JYFD9W5TBDH2B9",
+    "source": "Some Warp features may not work as expected without updating immediately, but Warp is unable to perform the update.",
+    "file": "app/src/workspace/view.rs",
+    "line": 611,
+    "kind": "literal",
+    "context_hint": "const:VERSION_DEPRECATION_WITHOUT_PERMISSIONS_BANNER_TEXT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12HBVS7DATJMHYT07FE",
+    "source": "Updating to ({})",
+    "file": "app/src/workspace/view.rs",
+    "line": 6748,
+    "kind": "macro_arg",
+    "context_hint": "MenuItemFields::new > macro:format",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12HDNQAXWM6MY7J3WMX",
+    "source": "Tools panel",
+    "file": "app/src/workspace/view.rs",
+    "line": 17991,
+    "kind": "literal",
+    "context_hint": null,
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12HVC242QKJ7511HJ0C",
+    "source": "Update Warp",
+    "file": "app/src/workspace/view.rs",
+    "line": 582,
+    "kind": "literal",
+    "context_hint": "const:UPDATE_READY_TEXT",
+    "audit_score": 6
+  },
+  {
+    "id": "01KQXQV12HW07YW7RJC7Z3K76N",
+    "source": "Update and relaunch Warp",
+    "file": "app/src/workspace/view.rs",
+    "line": 8489,
+    "kind": "literal",
+    "context_hint": "MenuItemFields::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12HZ6N0JD4ZQAKM3EMJ",
+    "source": "What's new",
+    "file": "app/src/workspace/view.rs",
+    "line": 8523,
+    "kind": "literal",
+    "context_hint": "MenuItemFields::new",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12J0MFA5NBATN92M6VB",
+    "source": "Your login has expired.",
+    "file": "app/src/workspace/view.rs",
+    "line": 19746,
+    "kind": "literal",
+    "context_hint": "Some > field:heading",
+    "audit_score": 8
+  },
+  {
+    "id": "01KQXQV12J6TT5MZQ6A82DHSHT",
+    "source": "Your app is out of date and some features may not work as expected. Please update immediately.",
+    "file": "app/src/workspace/view.rs",
+    "line": 609,
+    "kind": "literal",
+    "context_hint": "const:VERSION_DEPRECATION_BANNER_TEXT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12JYMEDV8JZZAC7PXJ3",
+    "source": "Your app is out of date and needs to update.",
+    "file": "app/src/workspace/view.rs",
+    "line": 19837,
+    "kind": "literal",
+    "context_hint": ".then > field:description",
+    "audit_score": 8
+  },
+  {
+    "id": "01KS2GEQ04DAXQX46KH3M3FDVZ",
+    "source": "Continue this local Warp Agent task in the cloud from the current conversation state.",
+    "file": "app/src/workspace/view.rs",
+    "line": 685,
+    "kind": "literal",
+    "context_hint": "const:AUTO_CLOUD_HANDOFF_PROMPT",
+    "audit_score": 7
+  },
+  {
+    "id": "01KQXQV12937TNH3NRP95VRDQ9",
+    "source": "Close panel",
+    "file": "app/src/workspace/view/left_panel.rs",
+    "line": 797,
+    "kind": "literal",
+    "context_hint": ".tool_tip_with_sublabel",
+    "audit_score": 8
+  }
+]
