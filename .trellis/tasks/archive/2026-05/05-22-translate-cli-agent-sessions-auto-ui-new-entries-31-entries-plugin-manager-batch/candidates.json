@@ -1,0 +1,188 @@
+[
+  {
+    "id": "01KQXQV12HYG74G91P81QF3ZC6",
+    "file": "app/src/terminal/cli_agent_sessions/mod.rs",
+    "line": 207,
+    "source": "Waiting for your answer"
+  },
+  {
+    "id": "01KQXQV12E59XTZMWNJMMBMMQR",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 117,
+    "source": "Plugin update did not take effect"
+  },
+  {
+    "id": "01KQXQV12CQ0FNF23JJFN1V9NZ",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 166,
+    "source": "Install Warp Plugin for Claude Code"
+  },
+  {
+    "id": "01KQXQV12B8MM7QMB2X905YC2W",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 167,
+    "source": "Ensure that jq is installed on your machine. Then, run these commands."
+  },
+  {
+    "id": "01KQXQV129FFV60ZGCNSNDAY6M",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 170,
+    "source": "Add the Warp plugin marketplace repository"
+  },
+  {
+    "id": "01KQXQV12C604BA0EWG44TK58H",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 176,
+    "source": "Install the Warp plugin"
+  },
+  {
+    "id": "01KQXQV12HBW4841JZQVK6RB5S",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 191,
+    "source": "Update Warp Plugin for Claude Code"
+  },
+  {
+    "id": "01KQXQV12FS80SZGBB398NERME",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 192,
+    "source": "Run the following commands."
+  },
+  {
+    "id": "01KQXQV12E28NPEM6VVP6KX7Q8",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 195,
+    "source": "Remove the existing marketplace (if present)"
+  },
+  {
+    "id": "01KQXQV12EFN2RF3423Z91AWP9",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 201,
+    "source": "Re-add the marketplace"
+  },
+  {
+    "id": "01KQXQV12CZM9SG0KCP7ZQ0Z6W",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 207,
+    "source": "Install the latest plugin version"
+  },
+  {
+    "id": "01KQXQV12BDCN4B1GE3K7XTSJ9",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 34,
+    "source": "Enable Warp Notifications for Codex"
+  },
+  {
+    "id": "01KQXQV12HRBYNMB9NCVXEMFH3",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 35,
+    "source": "Update Codex to the latest version, then enable in-focus notifications so Warp can display them while you work."
+  },
+  {
+    "id": "01KQXQV12H7A3XM2Z93QSXE2VK",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 38,
+    "source": "Update Codex to the latest version."
+  },
+  {
+    "id": "01KQXQV12FZKCV68H4ZY5TY3KS",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 44,
+    "source": "Set the notification condition to \"always\" in your Codex config. Open or create ~/.codex/config.toml and add:"
+  },
+  {
+    "id": "01KQXQV12CXMCYSD4B5WT54M3T",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 127,
+    "source": "Install Warp Plugin for Gemini CLI"
+  },
+  {
+    "id": "01KQXQV12FVTB8HB8ZQRE5D7AD",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 128,
+    "source": "Run the following command, then restart Gemini CLI."
+  },
+  {
+    "id": "01KQXQV12CWQ13HKHYJP3YPQT4",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 130,
+    "source": "Install the Warp extension"
+  },
+  {
+    "id": "01KQXQV12HWCA7EZQKNGH9NR49",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 140,
+    "source": "Update Warp Plugin for Gemini CLI"
+  },
+  {
+    "id": "01KQXQV12HYY33P2VNCCW1RRQH",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 143,
+    "source": "Update the Warp extension"
+  },
+  {
+    "id": "01KQXQV128Z5122440P1FG89Z2",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/mod.rs",
+    "line": 124,
+    "source": "'{display_cmd}' failed"
+  },
+  {
+    "id": "01KQXQV12JAMSJJSXBAPVT5BZ3",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/mod.rs",
+    "line": 131,
+    "source": "failed to run '{display_cmd}'"
+  },
+  {
+    "id": "01KQXQV129EZX54YTP1NANQVSX",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/mod.rs",
+    "line": 167,
+    "source": "Auto-install not supported for this agent"
+  },
+  {
+    "id": "01KQXQV129K0Q1HY8ZGWT5EB2E",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/mod.rs",
+    "line": 176,
+    "source": "Auto-update not supported for this agent"
+  },
+  {
+    "id": "01KQXQV12CGSHC5ZMCCM64WZE8",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 36,
+    "source": "Install Warp Plugin for OpenCode"
+  },
+  {
+    "id": "01KQXQV129P101081EVWKSS4Y9",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 38,
+    "source": "Add the Warp plugin to your OpenCode configuration, then restart OpenCode."
+  },
+  {
+    "id": "01KQXQV12EFPWFASWBW6VA524V",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 41,
+    "source": "Open or create your opencode.json. This can be in your project root, or the global config path:"
+  },
+  {
+    "id": "01KQXQV128DVVFHJ3Y1GN47B05",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 47,
+    "source": "Add \"@warp-dot-dev/opencode-warp\" to the \"plugin\" array in the top-level JSON object:"
+  },
+  {
+    "id": "01KQXQV12HMGGG6BFRYJYBAFHE",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 59,
+    "source": "Update Warp Plugin for OpenCode"
+  },
+  {
+    "id": "01KQXQV12ESZYEXKJXH4E52YRX",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 60,
+    "source": "Pin the plugin to the latest version in your opencode.json. OpenCode caches plugins per version spec, so changing the pin forces it to re-fetch on restart."
+  },
+  {
+    "id": "01KQXQV12EAFR46CAZAG0Q1FXX",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 69,
+    "source": "Replace the existing \"@warp-dot-dev/opencode-warp\" entry in the \"plugin\" array with the explicit version:"
+  }
+]

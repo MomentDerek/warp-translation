@@ -1,0 +1,6 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "UI 翻译契约：placeholder/快捷键/glossary/语态/全角标点；本批 31 条，关键校验 {display_cmd} + 包围单引号、JSON 字面值（\"plugin\"/\"@warp-dot-dev/opencode-warp\"/\"always\"）、文件路径 ~/.codex/config.toml & opencode.json、jq/Codex/Claude Code/Gemini CLI/OpenCode/Warp 字面"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "理解 strings.json 抽取格式与字段含义（audit/reasons/verdict）"}
+{"file": "translations/glossary.json", "reason": "约束术语；本批新增 plugin/extension/marketplace/notification 4 候选条目；现有 Warp/Codex/Gemini CLI 等品牌名字面规则沿用"}
+{"file": ".trellis/tasks/05-22-translate-cli-agent-sessions-auto-ui-new-entries-31-entries-plugin-manager-batch/candidates.json", "reason": "已固化 31 条 entry id + file + line + source，唯一权威候选清单"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-terminal-view-and-search-command-palette-auto-ui-new-entries-batch-69-entries/apply_translations.py", "reason": "上一批 apply 脚本模板，本批沿用结构（check_invariants/check_placeholders/check_whitespace/pre_snapshot/stats 重算），并针对 {display_cmd} 占位符 + JSON 字面值 + 品牌字面追加专项断言"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-terminal-view-and-search-command-palette-auto-ui-new-entries-batch-69-entries/prd.md", "reason": "上一批 PRD 的占位符/字面/拼接保护写法作为参考"}
