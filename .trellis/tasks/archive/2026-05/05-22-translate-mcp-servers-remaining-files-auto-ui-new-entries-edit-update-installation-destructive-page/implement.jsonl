@@ -1,0 +1,5 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "UI 翻译契约：placeholder/快捷键/glossary/语态/全角标点规则 —— 本批 32 条逐条要校验，注意 L67 模板字面值豁免"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "理解 strings.json 抽取格式与字段含义（audit/reasons/verdict）"}
+{"file": "translations/glossary.json", "reason": "约束术语；上批已加 mcp_server/tool/gallery/template，本批以复用为主，按需小幅增补"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-list-page-rs-server-card-rs-auto-ui-new-entries/apply_translations.py", "reason": "上批 mcp_servers apply 脚本模板，本批沿用并加入 L67 模板字面值原样处理 + L69 末尾空格保留"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-list-page-rs-server-card-rs-auto-ui-new-entries/prd.md", "reason": "上批 PRD 决策与 glossary 注释，本批沿用 MCP 词族"}
