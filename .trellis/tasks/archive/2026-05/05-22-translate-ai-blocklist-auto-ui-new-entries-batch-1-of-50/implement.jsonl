@@ -1,0 +1,6 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "UI 翻译契约：placeholder/快捷键/glossary/语态/全角标点规则 —— 本批 51 条逐条校验，注意 L369 `&` 字面/L136 `/remote-control` 斜杠命令/Oz 代号豁免"}
+{"file": ".trellis/spec/backend/rust-syn-extraction.md", "reason": "理解 strings.json 抽取格式与字段含义（audit/reasons/verdict）"}
+{"file": "translations/glossary.json", "reason": "约束术语；本批可能新增 take over control / in control / Rich Input 三个候选条目，先增补再翻译以保证一致性"}
+{"file": ".trellis/tasks/05-22-translate-ai-blocklist-auto-ui-new-entries-batch-1-of-50/candidates.json", "reason": "已固化的 51 条 entry id + file + line + source，作为唯一权威候选清单（避免重新过滤产生差异）"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-remaining-files-auto-ui-new-entries-edit-update-installation-destructive-page/apply_translations.py", "reason": "上批 apply 脚本模板，本批沿用结构并删除模板字面值/末尾空格的特化逻辑，新增 `Oz` 代号 + `/remote-control` + `&` 字面保护断言"}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-remaining-files-auto-ui-new-entries-edit-update-installation-destructive-page/prd.md", "reason": "上批 PRD 决策结构与 glossary 增补节奏作为参考"}

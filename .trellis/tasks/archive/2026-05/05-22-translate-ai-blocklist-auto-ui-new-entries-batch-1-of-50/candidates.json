@@ -1,0 +1,308 @@
+[
+  {
+    "id": "01KQXQV128PWB53MZD7361S155",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 451,
+    "source": "A new version of the Warp plugin is available"
+  },
+  {
+    "id": "01KQXQV1292BMXZR4M3ZS48398",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 971,
+    "source": "Ask the agent to check this command now, skipping its timer."
+  },
+  {
+    "id": "01KQXQV1292YHX77G9CQJ1V4YY",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 341,
+    "source": "Attach file"
+  },
+  {
+    "id": "01KQXQV1297EB0P4DK2QDYQ9PV",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 93,
+    "source": "Agent ran into an issue. Take over control."
+  },
+  {
+    "id": "01KQXQV1299Z0FEMXTX31WTQ46",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 133,
+    "source": "Auto-approve all agent actions for this task"
+  },
+  {
+    "id": "01KQXQV129B7GJ5X9XEVAXMJR6",
+    "file": "app/src/ai/blocklist/agent_view/inline_agent_view_header.rs",
+    "line": 28,
+    "source": "Agent is in control"
+  },
+  {
+    "id": "01KQXQV129C35Q4GDEA83K3WEP",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 89,
+    "source": "Agent needs your input to continue"
+  },
+  {
+    "id": "01KQXQV129DEK0YWVGJMC3BK5V",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 88,
+    "source": "Agent is monitoring command..."
+  },
+  {
+    "id": "01KQXQV129K3RCYTD9Y8NC17SX",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs",
+    "line": 210,
+    "source": "Choose an environment"
+  },
+  {
+    "id": "01KQXQV129KXEYPTB9YMSNE3PH",
+    "file": "app/src/ai/blocklist/agent_view/inline_agent_view_header.rs",
+    "line": 25,
+    "source": "Agent is waiting on instructions"
+  },
+  {
+    "id": "01KQXQV129KYSYWSZ6VXKHGC51",
+    "file": "app/src/ai/blocklist/agent_view/inline_agent_view_header.rs",
+    "line": 27,
+    "source": "Agent needs your permission to continue"
+  },
+  {
+    "id": "01KQXQV129M23QZR4QCQNFM8SQ",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 1866,
+    "source": "Agent harness"
+  },
+  {
+    "id": "01KQXQV129NFSYMEC1JM4QGHPE",
+    "file": "app/src/ai/blocklist/agent_view/inline_agent_view_header.rs",
+    "line": 26,
+    "source": "Agent is waiting for command to exit"
+  },
+  {
+    "id": "01KQXQV129QW4VSYTKAN7WFN14",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 127,
+    "source": "Agent waiting for instructions..."
+  },
+  {
+    "id": "01KQXQV12ABGVS72CF13CK58R0",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 603,
+    "source": "Context window usage"
+  },
+  {
+    "id": "01KQXQV12AF9KJKPDD358TR2ZY",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 130,
+    "source": "Disable terminal command autodetection"
+  },
+  {
+    "id": "01KQXQV12AG7Y6ASSS5A35T2AB",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 70,
+    "source": "Default model"
+  },
+  {
+    "id": "01KQXQV12B53GKD5QQNMPWZ89J",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 129,
+    "source": "Enable terminal command autodetection"
+  },
+  {
+    "id": "01KQXQV12B6BMHPM78CH99ATZQ",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 3131,
+    "source": "Edit API Keys"
+  },
+  {
+    "id": "01KQXQV12BSDCXJNWXG23AMQ5M",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 161,
+    "source": "Edit requested command"
+  },
+  {
+    "id": "01KQXQV12C1JV0QKRDSTQ7WVB0",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 130,
+    "source": "I'm sorry, I couldn't complete that request."
+  },
+  {
+    "id": "01KQXQV12CBT6YK4CA3Y5VJT77",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 424,
+    "source": "Install the Warp plugin to enable rich agent notifications within Warp"
+  },
+  {
+    "id": "01KQXQV12CSEB58PF860SKZDC8",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 85,
+    "source": "Generating command..."
+  },
+  {
+    "id": "01KQXQV12CZN9H5HBPRXW7CSXH",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 48,
+    "source": "Generating title..."
+  },
+  {
+    "id": "01KQXQV12CZV0G33NHMTWKABXR",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 380,
+    "source": "File explorer"
+  },
+  {
+    "id": "01KQXQV12D036XXR8M50PAT4T6",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 87,
+    "source": "OK if I call this MCP tool?"
+  },
+  {
+    "id": "01KQXQV12D0DVSW9D1WSP880Q9",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 86,
+    "source": "OK if I run this command and read the output?"
+  },
+  {
+    "id": "01KQXQV12D2PE32AQ6AHS8MTA3",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 397,
+    "source": "Open Rich Input"
+  },
+  {
+    "id": "01KQXQV12D4V7N8JX6XPXHSDC1",
+    "file": "app/src/ai/blocklist/agent_view/zero_state_block.rs",
+    "line": 425,
+    "source": "New Oz agent conversation"
+  },
+  {
+    "id": "01KQXQV12DBHY90DM6XJTTW0MW",
+    "file": "app/src/ai/blocklist/agent_view/zero_state_block.rs",
+    "line": 409,
+    "source": "New Oz cloud agent conversation"
+  },
+  {
+    "id": "01KQXQV12DME5MT1WTGN4Q8AKQ",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 136,
+    "source": "Log in to use /remote-control"
+  },
+  {
+    "id": "01KQXQV12DZGTQ7YWBMQAW18VD",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 1285,
+    "source": "No plugin manager available"
+  },
+  {
+    "id": "01KQXQV12E2FKM0QJ84C7NB318",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 91,
+    "source": "Paused agent. User is in control."
+  },
+  {
+    "id": "01KQXQV12E8FT85ZW9DRVXH4SM",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 412,
+    "source": "Open coding agent settings"
+  },
+  {
+    "id": "01KQXQV12E9CYB7SVR0N9MREX0",
+    "file": "app/src/ai/blocklist/agent_view/orchestration_pill_bar.rs",
+    "line": 448,
+    "source": "Open in new tab"
+  },
+  {
+    "id": "01KQXQV12EJ0XE2YY1CPQN598C",
+    "file": "app/src/ai/blocklist/agent_view/inline_agent_view_header.rs",
+    "line": 24,
+    "source": "Prompt agent to interact with"
+  },
+  {
+    "id": "01KQXQV12EMWX7AGAE9YMP5QCY",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 382,
+    "source": "Open file explorer"
+  },
+  {
+    "id": "01KQXQV12EWAE3QAB303S76YHC",
+    "file": "app/src/ai/blocklist/agent_view/orchestration_pill_bar.rs",
+    "line": 443,
+    "source": "Open in new pane"
+  },
+  {
+    "id": "01KQXQV12GNWPKPDN4M2987SVS",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 135,
+    "source": "Start remote control"
+  },
+  {
+    "id": "01KQXQV12H1X6MCDXYF4Y55M9F",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 463,
+    "source": "View instructions to update the Warp plugin"
+  },
+  {
+    "id": "01KQXQV12H3SV1JKJFEFBRTB2M",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 92,
+    "source": "User in control"
+  },
+  {
+    "id": "01KQXQV12H9RP2MPWR01NJBWWB",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 305,
+    "source": "Voice input"
+  },
+  {
+    "id": "01KQXQV12HBVGXVQTRJ9K8J70A",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 132,
+    "source": "Turn off auto-approve all agent actions"
+  },
+  {
+    "id": "01KQXQV12HDD11WBRGN1X8080X",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 95,
+    "source": "Viewing MCP tool call detail"
+  },
+  {
+    "id": "01KQXQV12HDGD4MYTE180CA703",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 90,
+    "source": "User is in control."
+  },
+  {
+    "id": "01KQXQV12HSMATTEGWCXJ20TC9",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 437,
+    "source": "View instructions to install the Warp plugin"
+  },
+  {
+    "id": "01KQXQV12HVB76STNHVMBGFCRP",
+    "file": "app/src/ai/blocklist/agent_view/inline_agent_view_header.rs",
+    "line": 29,
+    "source": "User is in control"
+  },
+  {
+    "id": "01KQXQV12HXE2J3C81F6G115Q6",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 94,
+    "source": "Viewing command detail"
+  },
+  {
+    "id": "01KS2GEQ79W7Z5BTQXS7VRYC52",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 369,
+    "source": "Hand off to cloud (or type &)"
+  },
+  {
+    "id": "01KS2GEQCDHKRTZFXJ6CZ9ZSKW",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 77,
+    "source": "New API key…"
+  },
+  {
+    "id": "01KS2GEQN05YWQ8W476E2484V0",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 74,
+    "source": "Skip (advanced)"
+  }
+]

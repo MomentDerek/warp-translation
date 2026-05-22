@@ -1,0 +1,3 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "Check 阶段对照翻译契约 spot-check（placeholder / 全角标点 / 「您」register / `&` `/remote-control` `Oz` `API` 字面保留 / 控制权语义自洽）"}
+{"file": "translations/glossary.json", "reason": "校验术语一致性（Agent/MCP/API/命令块/窗格/标签页/模型/take over control/in control/Rich Input 不混译）"}
+{"file": ".trellis/tasks/05-22-translate-ai-blocklist-auto-ui-new-entries-batch-1-of-50/candidates.json", "reason": "Check 时核对 51 条全部从 new → translated，无遗漏、无越界"}
