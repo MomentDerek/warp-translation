@@ -1,0 +1,422 @@
+[
+  {
+    "id": "01KQXQV128PFQ5AFK0FESE8YFG",
+    "source": "A new version of Warp is available but can't be installed",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 891,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV128PXP78HN1KFKG6GSY",
+    "source": "A new version of Warp is installed but can't be launched.",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 902,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12923JXHA3EHXY1FPAA",
+    "source": "Call web tools:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 355,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV1292BJYESSV75ZAXMDP",
+    "source": "Added commands",
+    "file": "app/src/settings_view/warpify_page.rs",
+    "line": 605,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV1294SJYA4BHZEK96BJE",
+    "source": "Ask questions:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 301,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV1297SK5MV3Z7CNFJ0QT",
+    "source": "Available indexed repos",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 417,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV1299SQKF7F5JK05STFE",
+    "source": "Base model:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 163,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV129E1CXPXZ83DXWENJZ",
+    "source": "Call MCP servers:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 311,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV129FY142Y3RKVV23R2D",
+    "source": "Add repo",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 104,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV129GND90HDFJ080ZV5Y",
+    "source": "Ask unless auto-approve",
+    "file": "app/src/ai/execution_profiles/editor/mod.rs",
+    "line": 453,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV129MX3NZBYP0BN10EG3",
+    "source": "Apply code diffs:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 211,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV129PA1ANEG2JBCT6T84",
+    "source": "All locally indexed repos are already selected.",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 512,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV129QKG9E377RQ7JVPZF",
+    "source": "Auto-sync plans to Warp Drive:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 366,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV129XYDGWMD5FS8MK60R",
+    "source": "Cloud platform",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 1243,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12A6BPC67G5VQ2TGX4A",
+    "source": "Directory allowlist:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 764,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12ACFJB9KY0H8QPBS31",
+    "source": "Command allowlist:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 778,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12AH4B2RZDK5VAB5F2C",
+    "source": "Computer use:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 182,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12AYE4MHP2ZZNQ323DG",
+    "source": "Disable {description_suffix}",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 707,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12AYYXW0288A2ABKN1B",
+    "source": "Command denylist:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 792,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12B1VV84DZS932QNY2C",
+    "source": "Execute commands:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 240,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12BKV2WVXPZQ7HMWWYT",
+    "source": "Earn rewards by sharing Warp with friends & colleagues",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 59,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12BR15VM7NRA5GR7DQV",
+    "source": "Enable {description_suffix}",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 706,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12C9V5VEQP0S9QAES32",
+    "source": "Hide in-band command blocks",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 568,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12CJ738FSDJX95KQGTR",
+    "source": "Indexing and projects",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 281,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12CJSMSASBC8SG41W76",
+    "source": "Hide initialization block",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 554,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12CR7TV3FD4TN32X1CD",
+    "source": "Interact with running commands:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 279,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12CSMMN5ZFGS6MR947R",
+    "source": "Installed update",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 881,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12CTVMHTJV38EQ13SQ3",
+    "source": "Full terminal use:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 172,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12D40VG9SQ0RYSF6YDA",
+    "source": "No locally indexed repos found yet. Index a repo, then try again.",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 439,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12D4FX1WTJW2HSGGSWJ",
+    "source": "Never ask",
+    "file": "app/src/ai/execution_profiles/editor/mod.rs",
+    "line": 447,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12D4MQ8KC17WSW1MHEA",
+    "source": "No repos selected yet",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 341,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12D6VR3M1DVNSBPRDC1",
+    "source": "MCP allowlist:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 807,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12DBR65M54B5Y2DHCK1",
+    "source": "Loading locally indexed repos…",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 437,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12DC7DAFTPT804R1KJE",
+    "source": "MCP denylist:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 823,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12DP2QY1C1NEDH0F18D",
+    "source": "MCP servers",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 278,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12DP37CKVX2AY8V0846",
+    "source": "No settings match your search.",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 2280,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12DQZE9GVM3T9S3ZRF7",
+    "source": "No directory selected",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 599,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12DR7QS44JSSM5P20XX",
+    "source": "Keyboard shortcuts",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 272,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12DX2EG8CTZW4T0H7EP",
+    "source": "Local repo selection is unavailable in this build.",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 442,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12E293FNJGNZ32F0CGR",
+    "source": "Oz Cloud API Keys",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 284,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12E833RN1JM1M1S4RVX",
+    "source": "Relaunch Warp",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 868,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12EPA026PJKS4BSYBM5",
+    "source": "Refer a friend",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 790,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12EVAARTTG38JKYVMZZ",
+    "source": "Read files:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 220,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12F3HS6GQP4F8MFWBHM",
+    "source": "Select locally indexed repos to provide context for the environment creation agent.",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 617,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12F5NDPA97S8WW9V9RT",
+    "source": "Same_Line_Prompt_Enabled",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 442,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12F6NEKWMWV40AFA3CW",
+    "source": "Settings sync",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 706,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12FBFFMWXRJZ3T43KAB",
+    "source": "Select repos to provide context for the environment creation agent.",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 619,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12FJN1QQ78F5PZ9MF7X",
+    "source": "Shared blocks",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 273,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12FN53SNC6M29ZJ6F6R",
+    "source": "Selected folder is not a Git repository: {path}",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 555,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12FXMRX59C2MTR1NAR6",
+    "source": "Select repos for your environment",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 643,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12FZ8DGXSKV3901AR9M",
+    "source": "Selected repos",
+    "file": "app/src/settings_view/agent_assisted_environment_modal.rs",
+    "line": 336,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12GHVXM3NSB5GEFJ248",
+    "source": "Toggle Settings Sync",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 153,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12GX4TCE2XTY78X1N6P",
+    "source": "Show in-band command blocks",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 567,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12H8018GM5Z90XKZHCQ",
+    "source": "Up to date",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 840,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12HM1K9BVGK0X0JPYZ2",
+    "source": "Update available",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 864,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12HV8X3WGHXS07HE802",
+    "source": "Update Warp manually",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 895,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12J1CBQFWWKX9WF7EBH",
+    "source": "checking for update...",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 850,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12JQCP6BMWT8JPAX1V5",
+    "source": "You may want to try using different keywords or checking for any possible typos.",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 2288,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12JRNY42E1Q850ZF289",
+    "source": "settings sync",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 93,
+    "verdict": "auto_ui"
+  },
+  {
+    "id": "01KQXQV12JZ7MW66KDEAJC29ZQ",
+    "source": "downloading update...",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 857,
+    "verdict": "auto_ui"
+  }
+]
