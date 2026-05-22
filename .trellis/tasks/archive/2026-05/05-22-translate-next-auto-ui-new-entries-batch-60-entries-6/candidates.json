@@ -1,0 +1,362 @@
+[
+  {
+    "id": "01KQXQV12DYHB1JYEZY64PBG3W",
+    "file": "app/src/auth/auth_override_warning_body.rs",
+    "line": 31,
+    "source": "It looks like you logged into a Warp account through a web browser. If you continue, any personal Warp drive objects and preferences from this anonymous session with be permanently deleted."
+  },
+  {
+    "id": "01KQXQV12BX5F2BHDM3YY4148Z",
+    "file": "app/src/auth/auth_override_warning_body.rs",
+    "line": 36,
+    "source": "Export your data"
+  },
+  {
+    "id": "01KQXQV127223FBVARD86DQQMT",
+    "file": "app/src/auth/auth_override_warning_body.rs",
+    "line": 37,
+    "source": " to import later."
+  },
+  {
+    "id": "01KQXQV12CY723VVKF8RS22MPG",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 469,
+    "source": "If you'd like to opt out of analytics, you can adjust your "
+  },
+  {
+    "id": "01KQXQV11XDPA63Q5CES42MENF",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 711,
+    "source": " and open"
+  },
+  {
+    "id": "01KQXQV12JKQ2308RBVNNW8D46",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 720,
+    "source": "the page manually."
+  },
+  {
+    "id": "01KQXQV12D7WG3VZKSEVPM8C8Z",
+    "file": "app/src/auth/needs_sso_link_view.rs",
+    "line": 57,
+    "source": "Link SSO"
+  },
+  {
+    "id": "01KQXQV12J4EM1HV0EQTA43XCY",
+    "file": "app/src/auth/needs_sso_link_view.rs",
+    "line": 78,
+    "source": "Your organization has enabled SSO for your account"
+  },
+  {
+    "id": "01KQXQV12942ERGYGFHE8F2GDE",
+    "file": "app/src/auth/needs_sso_link_view.rs",
+    "line": 79,
+    "source": "Click the button below to link your Warp account to your SSO provider."
+  },
+  {
+    "id": "01KQXQV12B6PN1T9QFPDV1KN8K",
+    "file": "app/src/cloud_object/grab_edit_access_modal.rs",
+    "line": 13,
+    "source": "Edit anyway"
+  },
+  {
+    "id": "01KQXQV12CAXJWZR5Z2BPGE662",
+    "file": "app/src/cloud_object/grab_edit_access_modal.rs",
+    "line": 16,
+    "source": "If you take edit controls, the current editor will be forced into view mode"
+  },
+  {
+    "id": "01KQXQV12G03W29SRR7AK0PA72",
+    "file": "app/src/cloud_object/grab_edit_access_modal.rs",
+    "line": 17,
+    "source": "This notebook is currently being edited"
+  },
+  {
+    "id": "01KQXQV12D45F4FBCBHBMJDJ9R",
+    "file": "app/src/drive/cloud_object_naming_dialog.rs",
+    "line": 35,
+    "source": "Notebook name"
+  },
+  {
+    "id": "01KQXQV12C0GTVH82SHJ1EJMTE",
+    "file": "app/src/drive/cloud_object_naming_dialog.rs",
+    "line": 36,
+    "source": "Folder name"
+  },
+  {
+    "id": "01KQXQV12AWFBFNRW28MS236MS",
+    "file": "app/src/drive/cloud_object_naming_dialog.rs",
+    "line": 37,
+    "source": "Collection name"
+  },
+  {
+    "id": "01KQXQV129A95591A60H6ZGYYY",
+    "file": "app/src/drive/empty_trash_confirmation_dialog.rs",
+    "line": 19,
+    "source": "Are you sure you want to empty the trash?"
+  },
+  {
+    "id": "01KQXQV12G9P8C77RT5J7NADYY",
+    "file": "app/src/drive/empty_trash_confirmation_dialog.rs",
+    "line": 20,
+    "source": "This action cannot be undone."
+  },
+  {
+    "id": "01KQXQV12JAWWKWPEEXPX1Q3V1",
+    "file": "app/src/drive/empty_trash_confirmation_dialog.rs",
+    "line": 21,
+    "source": "Yes, empty trash"
+  },
+  {
+    "id": "01KQXQV12D2RBHV39FWV7HTTKY",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 80,
+    "source": "No access"
+  },
+  {
+    "id": "01KQXQV12JADQ6Z191DXT389PS",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1763,
+    "source": "Who has access"
+  },
+  {
+    "id": "01KQXQV12DRPMKAFQS2P2MFXXX",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2182,
+    "source": "Only invited teammates"
+  },
+  {
+    "id": "01KQXQV12GX5M5KBJPVBYBDSBG",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2188,
+    "source": "Teammates with the link"
+  },
+  {
+    "id": "01KQXQV12CVTCAW72890PSRYXP",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 222,
+    "source": "Focus Terminal Input from File"
+  },
+  {
+    "id": "01KQXQV12EKQ2PRFHVFXTQX10Q",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 229,
+    "source": "Reload file"
+  },
+  {
+    "id": "01KQXQV12E11K8EKAE415X13NM",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 950,
+    "source": "Refresh file"
+  },
+  {
+    "id": "01KS2GEQDT3RJHEPFPH6BN6KJ0",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 142,
+    "source": "Other members"
+  },
+  {
+    "id": "01KS2GEQNVE139ZHZDKJ26W49T",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 354,
+    "source": "This is an automated agent on your team."
+  },
+  {
+    "id": "01KS2GEQRA6MKG7EFGFEMMHWYY",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 666,
+    "source": "Your usage"
+  },
+  {
+    "id": "01KS2GEQE9F18FAJQCCM8PQSEC",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+    "line": 66,
+    "source": "Overall usage"
+  },
+  {
+    "id": "01KS2GEQBA0JJWTXZ5HB3HTC65",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+    "line": 90,
+    "source": "Local agent usage"
+  },
+  {
+    "id": "01KS2GEQA89VHY1S55KCRVZHM6",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+    "line": 244,
+    "source": "Limit: {}"
+  },
+  {
+    "id": "01KQXQV12DT0NM0EKP3X6V9XPA",
+    "file": "app/src/settings_view/features/working_directory.rs",
+    "line": 148,
+    "source": "New window"
+  },
+  {
+    "id": "01KQXQV12GPGPE6SA2436H22RC",
+    "file": "app/src/settings_view/features/working_directory.rs",
+    "line": 162,
+    "source": "Split pane"
+  },
+  {
+    "id": "01KQXQV12ATMXSBBHCHYPRYRNS",
+    "file": "app/src/settings_view/features/working_directory.rs",
+    "line": 373,
+    "source": "Directory path"
+  },
+  {
+    "id": "01KQXQV12DBHJ42PRG0YWPXKVT",
+    "file": "app/src/settings_view/privacy/add_regex_modal.rs",
+    "line": 193,
+    "source": "Name (optional)"
+  },
+  {
+    "id": "01KQXQV12EBRY3AY2KXCAZRNDP",
+    "file": "app/src/settings_view/privacy/add_regex_modal.rs",
+    "line": 201,
+    "source": "Regex pattern"
+  },
+  {
+    "id": "01KQXQV12C25HBXT5WA7Z5Z5Q1",
+    "file": "app/src/settings_view/privacy/add_regex_modal.rs",
+    "line": 235,
+    "source": "Invalid regex"
+  },
+  {
+    "id": "01KQXQV129EYGQ2D4FJ8JY0YKW",
+    "file": "app/src/workspace/close_session_confirmation_dialog.rs",
+    "line": 109,
+    "source": "Close session"
+  },
+  {
+    "id": "01KQXQV129DYGPVTBHVF6RR4NW",
+    "file": "app/src/workspace/close_session_confirmation_dialog.rs",
+    "line": 134,
+    "source": "Close session?"
+  },
+  {
+    "id": "01KQXQV12J3SV3CZESK93GN0VX",
+    "file": "app/src/workspace/close_session_confirmation_dialog.rs",
+    "line": 136,
+    "source": "You are about to close a session that is currently being shared. Closing it will end sharing for everyone."
+  },
+  {
+    "id": "01KQXQV12ATG9DV1DCXJ57S53D",
+    "file": "app/src/workspace/delete_conversation_confirmation_dialog.rs",
+    "line": 106,
+    "source": "Delete '{}'?"
+  },
+  {
+    "id": "01KQXQV12AC2RGSJTQ39THPP56",
+    "file": "app/src/workspace/delete_conversation_confirmation_dialog.rs",
+    "line": 107,
+    "source": "Delete conversation?"
+  },
+  {
+    "id": "01KQXQV12GVBQZ9F6Q9TNKVEDT",
+    "file": "app/src/workspace/delete_conversation_confirmation_dialog.rs",
+    "line": 112,
+    "source": "This conversation will be permanently deleted. This action cannot be undone."
+  },
+  {
+    "id": "01KQXQV12E2JCG7BF6Q3JPVHC6",
+    "file": "app/src/workspace/rewind_confirmation_dialog.rs",
+    "line": 191,
+    "source": "Rewinding does not affect files edited manually or via shell commands."
+  },
+  {
+    "id": "01KQXQV12E7BCH9C5P1RKMRXRC",
+    "file": "app/src/workspace/rewind_confirmation_dialog.rs",
+    "line": 202,
+    "source": "Rewind"
+  },
+  {
+    "id": "01KQXQV129GFC4A82CCE36854Y",
+    "file": "app/src/workspace/rewind_confirmation_dialog.rs",
+    "line": 204,
+    "source": "Are you sure you want to rewind? This will restore your code and conversation to before this point, and cancel any commands the agent is currently running. A copy of the original conversation will be saved in your conversation history."
+  },
+  {
+    "id": "01KQXQV12HA3S3G62QPXMTWWVF",
+    "file": "app/src/workspace/view/conversation_list/view.rs",
+    "line": 56,
+    "source": "View all"
+  },
+  {
+    "id": "01KQXQV12CN3TKVXJH7MSBJCXE",
+    "file": "app/src/workspace/view/conversation_list/view.rs",
+    "line": 957,
+    "source": "Fork in new pane"
+  },
+  {
+    "id": "01KQXQV12CNA9Q14EPDF9SCV36",
+    "file": "app/src/workspace/view/conversation_list/view.rs",
+    "line": 965,
+    "source": "Fork in new tab"
+  },
+  {
+    "id": "01KQXQV10K08VKM1PTG55SSRGM",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 31,
+    "source": " A mac-menu-specific map of key names to special characters used for the keyboard shortcuts"
+  },
+  {
+    "id": "01KQXQV12FC5SBSAXZ4GY98E09",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 198,
+    "source": "Show All"
+  },
+  {
+    "id": "01KQXQV129YDKRM2XKH2AY5XPC",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 201,
+    "source": "Bring All to Front"
+  },
+  {
+    "id": "01KQXQV12AP6S38RJP1W8AKSY9",
+    "file": "crates/warpui/src/rendering/wgpu/renderer.rs",
+    "line": 21,
+    "source": "Command encoder"
+  },
+  {
+    "id": "01KQXQV12C8BKH2Q9W1GQD5YMY",
+    "file": "crates/warpui/src/rendering/wgpu/renderer.rs",
+    "line": 203,
+    "source": "Frame capture staging buffer"
+  },
+  {
+    "id": "01KQXQV12CSGCKT3VYQ3HT8YC6",
+    "file": "crates/warpui/src/rendering/wgpu/renderer.rs",
+    "line": 210,
+    "source": "Frame capture encoder"
+  },
+  {
+    "id": "01KQXQV12EG44FXM3F1C25N0GX",
+    "file": "crates/warpui/src/rendering/wgpu/resources/quad.rs",
+    "line": 40,
+    "source": "Quad Index Buffer"
+  },
+  {
+    "id": "01KQXQV12E35NPKXJ1SWMXXMR2",
+    "file": "crates/warpui/src/rendering/wgpu/resources/quad.rs",
+    "line": 46,
+    "source": "Quad Vertex Buffer"
+  },
+  {
+    "id": "01KQXQV12EG48VSPTAX8RZ997G",
+    "file": "crates/warpui/src/rendering/wgpu/resources/uniforms.rs",
+    "line": 17,
+    "source": "Quad Uniforms Bind Group Layout"
+  },
+  {
+    "id": "01KQXQV12H6RT5M0NY1GBXSFYQ",
+    "file": "crates/warpui/src/rendering/wgpu/resources/uniforms.rs",
+    "line": 33,
+    "source": "Uniforms buffer"
+  },
+  {
+    "id": "01KQXQV12H9WNMRS299SQ5FR7G",
+    "file": "crates/warpui/src/rendering/wgpu/resources/uniforms.rs",
+    "line": 40,
+    "source": "Uniforms Bind Group"
+  }
+]
