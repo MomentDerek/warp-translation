@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 89,
+    "term_count": 93,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -540,6 +540,30 @@
       "zh": "AGENTS.md",
       "notes": "项目 Agent 配置文件名。文件名字面保留。'Re-generate AGENTS.md file' → '重新生成 AGENTS.md 文件'。",
       "do_not_translate": true
+    },
+    "plugin": {
+      "en": "plugin",
+      "zh": "插件",
+      "notes": "Agent CLI 插件（Claude Code / OpenCode plugin 等）。'Warp Plugin' → 'Warp 插件'；'Install the Warp plugin' → '安装 Warp 插件'；'plugin marketplace' → '插件市场'。与 'extension/扩展' 同义但按源文本用词分别译，避免术语漂移。",
+      "do_not_translate": false
+    },
+    "extension": {
+      "en": "extension",
+      "zh": "扩展",
+      "notes": "Gemini CLI 上下文的 Warp 扩展，与 plugin 同义但源用词不同。'Warp extension' → 'Warp 扩展'；'Install the Warp extension' → '安装 Warp 扩展'；'Update the Warp extension' → '更新 Warp 扩展'。按源文本用词分译，避免与 plugin 撞译。",
+      "do_not_translate": false
+    },
+    "marketplace": {
+      "en": "marketplace",
+      "zh": "插件市场",
+      "notes": "Claude Code 的 plugin marketplace 概念。'Warp plugin marketplace' → 'Warp 插件市场'；'Add the Warp plugin marketplace repository' → '添加 Warp 插件市场仓库'；'Remove the existing marketplace' → '移除现有插件市场'；'Re-add the marketplace' → '重新添加插件市场'。",
+      "do_not_translate": false
+    },
+    "notification": {
+      "en": "notification",
+      "zh": "通知",
+      "notes": "Codex / 系统通知功能。'Warp Notifications' → 'Warp 通知'；'Enable Warp Notifications for Codex' → '为 Codex 启用 Warp 通知'；'in-focus notifications' → '前台通知'；'notification condition' → '通知条件'。",
+      "do_not_translate": false
     }
   }
 }
