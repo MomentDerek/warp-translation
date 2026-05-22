@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 93,
+    "term_count": 94,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -563,6 +563,12 @@
       "en": "notification",
       "zh": "通知",
       "notes": "Codex / 系统通知功能。'Warp Notifications' → 'Warp 通知'；'Enable Warp Notifications for Codex' → '为 Codex 启用 Warp 通知'；'in-focus notifications' → '前台通知'；'notification condition' → '通知条件'。",
+      "do_not_translate": false
+    },
+    "rewind": {
+      "en": "rewind",
+      "zh": "倒带",
+      "notes": "Warp UI 动词，将对话/代码回退到先前节点。译为 '倒带' 以区别于 undo（撤销）/ revert（还原）。",
       "do_not_translate": false
     }
   }
