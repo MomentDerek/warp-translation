@@ -1,0 +1,2599 @@
+{
+  "count": 60,
+  "entries": [
+    {
+      "id": "01KQXQV1286B8Q8WPKVHHMYT6Y",
+      "source": "%a, %b %-d %Y at %-I:%M %p",
+      "source_hash": "40318e9d53a30a49",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 251,
+          "kind": "macro_arg",
+          "context_hint": ".label > macro:format"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 10,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:label",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV128B5TXF8V5RR2QJ5CT",
+      "source": "+ Create API Key",
+      "source_hash": "0d641bbb337df7cc",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 502,
+          "kind": "literal",
+          "context_hint": ".with_text_label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 10,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:with_text_label",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV128PGXE7SYFTK2NTTQ6",
+      "source": "API key deleted",
+      "source_hash": "2a2e2a1a36449833",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 306,
+          "kind": "literal",
+          "context_hint": "crate::view_components::DismissibleToast::success"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV129316WW0W2VTSS8E39",
+      "source": "Agent inbox",
+      "source_hash": "d7836e0c19c2ebbf",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 41,
+          "kind": "literal",
+          "context_hint": "field:title > const:FEATURE_ITEMS"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_field:title",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV129S50CY44D1SF9J90C",
+      "source": "Always open {object_kind} on the web?",
+      "source_hash": "89937b322999d614",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 227,
+          "kind": "macro_arg",
+          "context_hint": "Dialog::new > macro:format"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 12,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_ctor:Dialog::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV129WZVNVZKD9KE2CJ5F",
+      "source": "Are you sure you want to unshare this block?\n\nIt will no longer be accessible by link and will be permanently deleted from Warp servers.",
+      "source_hash": "e472cb184f8ae6d1",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 42,
+          "kind": "literal",
+          "context_hint": "const:UNSHARE_BLOCK_CONFIRMATION_DIALOG_TEXT"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 10,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_const:_TEXT",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV129ZR47KG5XC6Z3CWYD",
+      "source": "Block was successfully unshared.",
+      "source_hash": "83745db52488170e",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 556,
+          "kind": "literal",
+          "context_hint": ".emit > field:message"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 11,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_field:message",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12A0QVMZPECAQ5KQ4FR",
+      "source": "Denylisted hosts",
+      "source_hash": "deb0af992a0c869f",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 813,
+          "kind": "literal",
+          "context_hint": ".build_input_list"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12A63Z0AP7X3R8F8C9A",
+      "source": "Controls the installation behavior for Warp's SSH extension when a remote host doesn't have it installed.",
+      "source_hash": "110742d14cc2f70b",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 86,
+          "kind": "literal",
+          "context_hint": "const:SSH_EXTENSION_INSTALL_MODE_DESCRIPTION"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 10,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_const:_DESCRIPTION",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12A7WJDDVFQNCHRPE9B",
+      "source": "Create key",
+      "source_hash": "b6cde9030cefae03",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 648,
+          "kind": "literal",
+          "context_hint": ".with_text_label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 11,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:with_text_label",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12A931HZTN58F1HF6QD",
+      "source": "Create a key to manage external access to Warp",
+      "source_hash": "a7d8b42b409c2855",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 814,
+          "kind": "literal",
+          "context_hint": "Text::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12AA5HFSP8A2E90ZSGD",
+      "source": "Creating…",
+      "source_hash": "c79ed9492e3c1719",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 646,
+          "kind": "literal",
+          "context_hint": ".with_text_label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 9,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:with_text_label",
+            "delta": 5
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12AFMXXE6YRZ9A36X5H",
+      "source": "Create and manage API keys to allow other Oz cloud agents to access your Warp account.\nFor more information, visit the ",
+      "source_hash": "7fba9582d6b01f6f",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 454,
+          "kind": "macro_arg",
+          "context_hint": "macro:vec"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12AKPEZ2XAK7MY3X8Y2",
+      "source": "Denylisted commands",
+      "source_hash": "0c87fd381f0e10ec",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 617,
+          "kind": "literal",
+          "context_hint": ".build_input_list"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12APT990HJ9QC8TSAJ2",
+      "source": "Configure whether Warp attempts to “Warpify” (add support for blocks, input modes, etc) certain shells. ",
+      "source_hash": "539afcaaecaf9ec6",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 540,
+          "kind": "macro_arg",
+          "context_hint": "macro:vec"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12AXS3W4P5NJDXJRKKS",
+      "source": "Deleting...",
+      "source_hash": "685ecb984ac29ce8",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 171,
+          "kind": "literal",
+          "context_hint": ".label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 9,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:label",
+            "delta": 5
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12BHEPA72MWPXQ4EZDX",
+      "source": "Done",
+      "source_hash": "11a6767d5674c7e4",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 548,
+          "kind": "literal",
+          "context_hint": ".with_text_label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:with_text_label",
+            "delta": 5
+          },
+          {
+            "code": "regex:camel_case:warn",
+            "delta": -2
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12BQK83WR2B1AJD0SRQ",
+      "source": "Failed to create API key. Please try again.",
+      "source_hash": "2ef25b0f0fa06cd2",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 399,
+          "kind": "literal",
+          "context_hint": ".emit > field:message"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 11,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_field:message",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12BSK3WHYKZTCH1Y04P",
+      "source": "Executed on: {}",
+      "source_hash": "9c3c12fbaa66848d",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 248,
+          "kind": "macro_arg",
+          "context_hint": ".label > macro:format"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 11,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:label",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12BSSMZ1EW4SM59JDKD",
+      "source": "Download Warp Desktop?",
+      "source_hash": "48f57e74d4cdc9d6",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 168,
+          "kind": "literal",
+          "context_hint": "Dialog::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 12,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_ctor:Dialog::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12BSZSP23M2F6NDM421",
+      "source": "Expires at",
+      "source_hash": "b613b9ece0d42862",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 568,
+          "kind": "literal",
+          "context_hint": ".render_header_cell"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12C2BKYKX1Z2KHTF51B",
+      "source": "Install SSH extension",
+      "source_hash": "3e37c0fbc031a5de",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 725,
+          "kind": "literal",
+          "context_hint": "render_dropdown_item"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12CQXYBJ0Z8DZ2NF4N9",
+      "source": "Getting blocks...",
+      "source_hash": "2871607dc6f67d59",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 313,
+          "kind": "literal",
+          "context_hint": ".label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 12,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:label",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12CTXF3JNFJA2CBAMFQ",
+      "source": "Future links will automatically open on desktop.",
+      "source_hash": "06dcf165e3501950",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 158,
+          "kind": "literal",
+          "context_hint": "Some"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12D2H8V771GZP5RVX1Y",
+      "source": "Notifications when any agent needs your attention, also accessible in a central inbox",
+      "source_hash": "6de31f0f27b62d3b",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 42,
+          "kind": "literal",
+          "context_hint": "field:description > const:FEATURE_ITEMS"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_field:description",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12DBEXNTRFATG0RS7B5",
+      "source": "New API key",
+      "source_hash": "e520a082286bb152",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 178,
+          "kind": "literal",
+          "context_hint": "Some"
+        },
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 226,
+          "kind": "literal",
+          "context_hint": "Some"
+        },
+        {
+          "file": "app/src/workspace/view.rs",
+          "line": 13400,
+          "kind": "literal"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12DFES18YEDDS5XWPCA",
+      "source": "Native code review",
+      "source_hash": "6238a04611120714",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 46,
+          "kind": "literal",
+          "context_hint": "field:title > const:FEATURE_ITEMS"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_field:title",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12DRZJXRKSJ9N11Q436",
+      "source": "Last used",
+      "source_hash": "830ec7f812f9d862",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 565,
+          "kind": "literal",
+          "context_hint": ".render_header_cell"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12DV31TTWCAZA4K7PTV",
+      "source": "No API Keys",
+      "source_hash": "b3f5db65c63ee5ca",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 800,
+          "kind": "literal",
+          "context_hint": "Text::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12ENPCYVT3Y24N6EYWX",
+      "source": "Open in Warp Desktop?",
+      "source_hash": "3666297a744713d1",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 157,
+          "kind": "literal",
+          "context_hint": "Dialog::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 12,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_ctor:Dialog::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12F1GYA968XRC8SSJ9B",
+      "source": "Save your key",
+      "source_hash": "26a3c115ad6bce2a",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform_page.rs",
+          "line": 255,
+          "kind": "literal",
+          "context_hint": "Some"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12F1SPQHXKS9BDFSJDR",
+      "source": "Secret key copied.",
+      "source_hash": "ba07cc1d346a158a",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 838,
+          "kind": "literal",
+          "context_hint": "crate::view_components::DismissibleToast::success"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12FCBVERKF8DT3A7RJ0",
+      "source": "Send inline comments from Warp's code review directly to Claude Code, Codex, or OpenCode",
+      "source_hash": "d75776aec2806434",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 47,
+          "kind": "literal",
+          "context_hint": "field:description > const:FEATURE_ITEMS"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_field:description",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12FKG10XFG7TN8AZCEA",
+      "source": "SSH session detection for Warpification",
+      "source_hash": "e2da80afe0adbdf9",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 65,
+          "kind": "literal",
+          "context_hint": "ToggleSettingActionPair::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 11,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_ctor:SettingActionPair::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12FMDZ005X1VVFCWT5Q",
+      "source": "Rich tab titles and metadata like git branch, worktree, and PR. Fully customizable.",
+      "source_hash": "208a68243694ad73",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 32,
+          "kind": "literal",
+          "context_hint": "field:description > const:FEATURE_ITEMS"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 8,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_field:description",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12GGBV8HR8JK1TEB6K8",
+      "source": "This secret key is shown only once. Copy and store it securely.",
+      "source_hash": "a5f87d96449408f1",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 475,
+          "kind": "literal",
+          "context_hint": "Text::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12GHQXP2CB4RB5XDN8Y",
+      "source": "The tmux ssh wrapper works in many situations where the default one does not, but may require you to hit a button to warpify. Takes effect in new tabs.",
+      "source_hash": "fabed001412e461e",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 83,
+          "kind": "literal",
+          "context_hint": "const:SSH_TMUX_WARPIFICATION_DESCRIPTION"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 10,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_const:_DESCRIPTION",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12GNPS9HA9T01RTJP76",
+      "source": "Tab configs",
+      "source_hash": "1b1ceda9f609fd7e",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 36,
+          "kind": "literal",
+          "context_hint": "field:title > const:FEATURE_ITEMS"
+        },
+        {
+          "file": "app/src/workspace/view.rs",
+          "line": 18970,
+          "kind": "literal"
+        },
+        {
+          "file": "app/src/workspace/view/vertical_tabs.rs",
+          "line": 1446,
+          "kind": "literal",
+          "context_hint": ".tool_tip_with_sublabel"
+        },
+        {
+          "file": "app/src/workspace/view/vertical_tabs.rs",
+          "line": 1451,
+          "kind": "literal",
+          "context_hint": ".tool_tip"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 8,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_method:tool_tip",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12GPXCC8BFSN5DNSYP0",
+      "source": "Subshells supported: bash, zsh, and fish.",
+      "source_hash": "6b529242dc5b6c70",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 182,
+          "kind": "macro_arg",
+          "context_hint": "macro:vec"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12GQ6TKPBD7Y8394RZR",
+      "source": "This API key is tied to your user and can make requests against your Warp account.",
+      "source_hash": "d58934497a1cddc7",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 47,
+          "kind": "literal"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12GQQV67RVC3ACEAQWT",
+      "source": "Tab-level schema to set your directory, startup commands, theme, and worktree with one click",
+      "source_hash": "25dc94fdf395eba6",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 37,
+          "kind": "literal",
+          "context_hint": "field:description > const:FEATURE_ITEMS"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_field:description",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12H1V42P6CGWAFDK4EA",
+      "source": "Toggle strikethrough styling",
+      "source_hash": "042238de8e400b49",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/notebooks/editor/view.rs",
+          "line": 696,
+          "kind": "literal",
+          "context_hint": "EditableBinding::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 8,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_ctor:EditableBinding::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12H6RHXQGZDMWBHXNS7",
+      "source": "Warpify your interactive SSH sessions.",
+      "source_hash": "e08a1dd775edb674",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 193,
+          "kind": "literal",
+          "context_hint": ".with_subtitle"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 12,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:with_subtitle",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12H7ZGBDP07J8QHQNT6",
+      "source": "Use Tmux Warpification",
+      "source_hash": "dd5f6fc01d6317be",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 760,
+          "kind": "literal",
+          "context_hint": "render_body_item"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12H80E93FRQ5RK6JVYY",
+      "source": "Warp AI",
+      "source_hash": "c97a58e36c0bf27e",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/ai_assistant/mod.rs",
+          "line": 37,
+          "kind": "literal",
+          "context_hint": "const:AI_ASSISTANT_FEATURE_NAME"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_const:_NAME",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12H8XXMJ1F989V4CKW5",
+      "source": "Vertical tabs",
+      "source_hash": "ded350520fbac279",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "line": 31,
+          "kind": "literal",
+          "context_hint": "field:title > const:FEATURE_ITEMS"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_field:title",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HA4JDYS5TZQC7S564",
+      "source": "Unshare",
+      "source_hash": "43b9683230757f62",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 716,
+          "kind": "literal",
+          "context_hint": ".with_text_label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:with_text_label",
+            "delta": 5
+          },
+          {
+            "code": "regex:camel_case:warn",
+            "delta": -2
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HAE5T5F4JCCSWXNX5",
+      "source": "Warp is the intelligent terminal with AI and your dev team's knowledge built-in.",
+      "source_hash": "3366f8d9b696b1ca",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 176,
+          "kind": "literal",
+          "context_hint": ".span"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 12,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:span",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HBD36ZG3TH3S4ET0Z",
+      "source": "Unable to create a team API key because there is no current team.",
+      "source_hash": "074718ca12e4a85a",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 368,
+          "kind": "literal",
+          "context_hint": ".emit > field:message"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 11,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_field:message",
+            "delta": 4
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HCFDFAD1QAWBH4FAH",
+      "source": "Warp API Key",
+      "source_hash": "02ed89ae176e614e",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 161,
+          "kind": "literal",
+          "context_hint": ".set_placeholder_text"
+        },
+        {
+          "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "line": 326,
+          "kind": "literal"
+        },
+        {
+          "file": "app/src/terminal/model/secrets.rs",
+          "line": 613,
+          "kind": "literal",
+          "context_hint": "field:name > const:DEFAULT_REGEXES_WITH_NAMES"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HF6EY8HPTWBH2BABV",
+      "source": "Unshare block",
+      "source_hash": "e7f52b9e8cddee62",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 663,
+          "kind": "literal",
+          "context_hint": ".label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 11,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:label",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HFJB5FT6QJ682MR2A",
+      "source": "Warp links",
+      "source_hash": "7c349e8eb49e77ad",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 223,
+          "kind": "literal"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HMZ6GYMTEZ3Y15VSM",
+      "source": "Warp Drive objects",
+      "source_hash": "15d374cacfd29b7b",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 221,
+          "kind": "literal"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HNPJGADJ4023478BH",
+      "source": "Toggle inline code styling",
+      "source_hash": "2020c8ebe37806a9",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/notebooks/editor/view.rs",
+          "line": 685,
+          "kind": "literal",
+          "context_hint": "EditableBinding::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 8,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_ctor:EditableBinding::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HPG683H3RK81F2KX9",
+      "source": "Warpify SSH Sessions",
+      "source_hash": "2b69633a0a3690c0",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/warpify_page.rs",
+          "line": 690,
+          "kind": "literal",
+          "context_hint": "render_body_item"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 6,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HV3QY5TDYC45QR7RT",
+      "source": "Toggle regular expression search",
+      "source_hash": "c1f19ccd00975b69",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/notebooks/editor/view.rs",
+          "line": 734,
+          "kind": "literal",
+          "context_hint": "EditableBinding::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 8,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_ctor:EditableBinding::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HVG1TESJQBG7E6AHP",
+      "source": "Toggle rich-text debug mode",
+      "source_hash": "037b9bc265042c83",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/notebooks/editor/view.rs",
+          "line": 383,
+          "kind": "literal",
+          "context_hint": "EditableBinding::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 8,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_ctor:EditableBinding::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12HXY3S33XH8N05X2X6",
+      "source": "Toggle underline styling",
+      "source_hash": "dda816bf23d4304d",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/notebooks/editor/view.rs",
+          "line": 703,
+          "kind": "literal",
+          "context_hint": "EditableBinding::new"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 8,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "ui_ctor:EditableBinding::new",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12J87DHB67B5PA6GNNG",
+      "source": "You don't have any shared blocks yet.",
+      "source_hash": "5962500269d640ee",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 309,
+          "kind": "literal",
+          "context_hint": ".label"
+        },
+        {
+          "file": "app/src/settings_view/show_blocks_view.rs",
+          "line": 369,
+          "kind": "literal",
+          "context_hint": ".label"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 12,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "ui_method:label",
+            "delta": 5
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    },
+    {
+      "id": "01KQXQV12JH0ZE1CWNDRGYS0H9",
+      "source": "You can change this at any time in settings.",
+      "source_hash": "2e5a8621e82502b1",
+      "target": null,
+      "status": "new",
+      "occurrences": [
+        {
+          "file": "app/src/wasm_nux_dialog.rs",
+          "line": 228,
+          "kind": "literal",
+          "context_hint": "Some"
+        }
+      ],
+      "notes": null,
+      "flags": [],
+      "history": [],
+      "audit": {
+        "score": 7,
+        "verdict": "auto_ui",
+        "reasons": [
+          {
+            "code": "path_whitelist",
+            "delta": 3
+          },
+          {
+            "code": "sentence_shape",
+            "delta": 2
+          },
+          {
+            "code": "terminal_punct",
+            "delta": 1
+          },
+          {
+            "code": "title_case_phrase",
+            "delta": 1
+          }
+        ]
+      },
+      "first_seen_commit": "25652d73a83220be9df36fb0e1cf0047d0be7f74",
+      "last_seen_commit": "fdd74928de30add61f15b7cc60c316f2da98a555",
+      "created_at": "2026-05-06T04:13:20Z",
+      "updated_at": "2026-05-20T10:56:10Z"
+    }
+  ]
+}
