@@ -1,0 +1,371 @@
+[
+  {
+    "id": "01KQXQV12HSGVFPE2QRFK8FHE6",
+    "source": "Untitled workflow",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 102
+  },
+  {
+    "id": "01KQXQV1281ZWHHWZF7BPR5MMA",
+    "source": "Add a description",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 103
+  },
+  {
+    "id": "01KQXQV12D2HZ9YKHQCW5SBTKC",
+    "source": "New argument",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 106
+  },
+  {
+    "id": "01KQXQV12A6AZPG0305YYCPF0N",
+    "source": "Default value (optional)",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 108
+  },
+  {
+    "id": "01KQXQV12FT6BJ59B1Q2GWNZHZ",
+    "source": "Save workflow",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 109
+  },
+  {
+    "id": "01KQXQV12J87PQNW8QNA5XFXRS",
+    "source": "You have unsaved changes.",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 113
+  },
+  {
+    "id": "01KQXQV12DNC2K24X9Q844YX7D",
+    "source": "Keep editing",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 114
+  },
+
+  {
+    "id": "01KQXQV12CXVG5KN85CVS19XFM",
+    "source": "Group files into single editor pane",
+    "file": "app/src/settings_view/features/external_editor.rs",
+    "line": 28
+  },
+  {
+    "id": "01KQXQV12H98VQ8VHZ2D69E567",
+    "source": "When this setting is on, any files opened in the same tab will be automatically grouped into a single editor pane.",
+    "file": "app/src/settings_view/features/external_editor.rs",
+    "line": 29
+  },
+  {
+    "id": "01KQXQV12AKP15Q77BX3B1TC31",
+    "source": "Default App",
+    "file": "app/src/settings_view/features/external_editor.rs",
+    "line": 149
+  },
+  {
+    "id": "01KQXQV1292ZEWS1JA2ZFSD8NQ",
+    "source": "Choose an editor to open file links",
+    "file": "app/src/settings_view/features/external_editor.rs",
+    "line": 283
+  },
+  {
+    "id": "01KQXQV129F49S92XA0VHCFDA5",
+    "source": "Choose an editor to open files from the code review panel, project explorer, and global search",
+    "file": "app/src/settings_view/features/external_editor.rs",
+    "line": 298
+  },
+  {
+    "id": "01KQXQV129SV75C8035770V94J",
+    "source": "Choose a layout to open files in Warp",
+    "file": "app/src/settings_view/features/external_editor.rs",
+    "line": 313
+  },
+  {
+    "id": "01KQXQV12D7EH88EJQQA0NMXY6",
+    "source": "Open Markdown files in Warp's Markdown Viewer by default",
+    "file": "app/src/settings_view/features/external_editor.rs",
+    "line": 361
+  },
+
+  {
+    "id": "01KQXQV12G6ZKB2CYEPTV5X14Z",
+    "source": "The Project Explorer requires access to your local workspace, which isn’t supported in remote sessions.",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 75
+  },
+  {
+    "id": "01KQXQV12GHQ0RRKWYPVX4ZA4M",
+    "source": "The Project Explorer requires access to your local workspace. Open a new session or navigate to an active session to view.",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 76
+  },
+  {
+    "id": "01KQXQV12GS082X8GXFBTKN84Y",
+    "source": "The Project Explorer doesn't currently work in WSL.",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 77
+  },
+  {
+    "id": "01KQXQV12DMH981WWXM3M23B7P",
+    "source": "New file",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2347
+  },
+  {
+    "id": "01KRBDMFW6WXRTD2HWA7DT2GB1",
+    "source": "cd to directory",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2356
+  },
+  {
+    "id": "01KQXQV1294KDXV6CDXSSPXHPQ",
+    "source": "Attach as context",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2406
+  },
+  {
+    "id": "01KQXQV12AY1P143VX80C5CYZB",
+    "source": "Copy relative path",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2419
+  },
+
+  {
+    "id": "01KS2GEQJRYS4Z9459JS6FDMT6",
+    "source": "Resets %b %d, %-I:%M %p",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 392
+  },
+  {
+    "id": "01KS2GEQS0C7FHH4N1WGTTD2PB",
+    "source": "to see team-level credit usage.",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 676
+  },
+  {
+    "id": "01KS2GEQPK7KCYT8MRMY4JZC3K",
+    "source": "Upgrade to Business",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 681
+  },
+  {
+    "id": "01KS2GEQRZRDD94EET1BZ5ZWEC",
+    "source": "to see per-user credit attribution.",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 682
+  },
+  {
+    "id": "01KS2GEQRYV1T4NQ8JQ3M69V3K",
+    "source": "to see fine-grained credit attribution and set per-user spend limits.",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 688
+  },
+  {
+    "id": "01KS2GEQS17KEK10MJ368CYH3Q",
+    "source": "to set per-user spend limits.",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 696
+  },
+  {
+    "id": "01KS2GEQE6HWJRJ0CBCEMJAZRJ",
+    "source": "Other team members' usage across add-on, pay-as-you-go, and cloud-only credits.",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 717
+  },
+
+  {
+    "id": "01KQXQV12FE27129PB0GHKSD95",
+    "source": "Save file",
+    "file": "app/src/code/view.rs",
+    "line": 96
+  },
+  {
+    "id": "01KQXQV12F3HMZSHZDZW1XVWWZ",
+    "source": "Save file as",
+    "file": "app/src/code/view.rs",
+    "line": 113
+  },
+  {
+    "id": "01KQXQV129WFPMXK2XMK8JZ2X6",
+    "source": "Close all tabs",
+    "file": "app/src/code/view.rs",
+    "line": 120
+  },
+  {
+    "id": "01KQXQV129BHXPQ0JJ8P7DFGMB",
+    "source": "Close saved tabs",
+    "file": "app/src/code/view.rs",
+    "line": 127
+  },
+  {
+    "id": "01KQXQV128DBE6DHP7HKX7Z59G",
+    "source": "Accept and save",
+    "file": "app/src/code/view.rs",
+    "line": 1087
+  },
+  {
+    "id": "01KQXQV12H2B0SEKFBAJ9M4DGW",
+    "source": "View Markdown preview",
+    "file": "app/src/code/view.rs",
+    "line": 2047
+  },
+
+  {
+    "id": "01KQXQV12CF92SBBMP1Q4795XE",
+    "source": "How do I fix this?",
+    "file": "app/src/ai_assistant/transcript.rs",
+    "line": 63
+  },
+  {
+    "id": "01KQXQV12FEKDF16JG7WRRDANS",
+    "source": "Show examples.",
+    "file": "app/src/ai_assistant/transcript.rs",
+    "line": 64
+  },
+  {
+    "id": "01KQXQV12H4ZCJ2DFAKCHA1324",
+    "source": "What should I do next?",
+    "file": "app/src/ai_assistant/transcript.rs",
+    "line": 65
+  },
+  {
+    "id": "01KQXQV12CB22K3WDC4KH5W4SR",
+    "source": "Generating answer...",
+    "file": "app/src/ai_assistant/transcript.rs",
+    "line": 66
+  },
+  {
+    "id": "01KQXQV128EYTNG5GEM6KABSRM",
+    "source": "AI responses can be inaccurate.",
+    "file": "app/src/ai_assistant/transcript.rs",
+    "line": 67
+  },
+  {
+    "id": "01KQXQV12HJQ8JQTWJCE6XR2XC",
+    "source": "Warp AI might forget earlier answers as conversations get long.",
+    "file": "app/src/ai_assistant/transcript.rs",
+    "line": 69
+  },
+
+  {
+    "id": "01KQXQV129XN6ZCDWSCQDZR6K7",
+    "source": "Are you sure you want to delete this team?",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 28
+  },
+  {
+    "id": "01KQXQV129PS980CXV1ZZF3N15",
+    "source": "Are you sure you want to leave this team?",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 29
+  },
+  {
+    "id": "01KQXQV12A7J40EGJMA10YEAK8",
+    "source": "Deleting this team will permanently delete it and all of its related content, including billing information or credits. You will not be able to restore them.",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 31
+  },
+  {
+    "id": "01KQXQV12J5X827743SAS7TRG0",
+    "source": "You will need to be reinvited in order to rejoin.",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 32
+  },
+  {
+    "id": "01KQXQV12JZD3VJVK14963H941",
+    "source": "Yes, delete",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 34
+  },
+  {
+    "id": "01KQXQV12JQ9Q4MXX7M0YAT33F",
+    "source": "Yes, leave",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 35
+  },
+
+  {
+    "id": "01KQXQV12EBP82BPC0XBDS31X1",
+    "source": "Planning document",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 148
+  },
+  {
+    "id": "01KQXQV12G0V0BPPHWAD4ZCVT9",
+    "source": "Show version history",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 393
+  },
+  {
+    "id": "01KQXQV12FMW5EGKZ6BPHCE3PY",
+    "source": "Save and auto-sync this plan to your Warp Drive",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 675
+  },
+  {
+    "id": "01KQXQV12G6WQ76XWX56V8K3X4",
+    "source": "Show in Warp Drive",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 1327
+  },
+  {
+    "id": "01KQXQV12FRDE6N9N39Z0G8ZJA",
+    "source": "Save as markdown file",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 1337
+  },
+  {
+    "id": "01KQXQV12AWMXQ3W55AASYZYWX",
+    "source": "Copy plan ID",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 1354
+  },
+
+  {
+    "id": "01KQXQV12FF2YDGK2QQ3YMNG0D",
+    "source": "Search by name or by keys (ex. \"cmd d\")",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 60
+  },
+  {
+    "id": "01KQXQV12GZNS8K1SH5EEQBY1F",
+    "source": "This shortcut conflicts with other keybinds",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 61
+  },
+  {
+    "id": "01KQXQV129ZEF1W5T9CJXNG960",
+    "source": "Add your own custom keybindings to existing actions below.",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 986
+  },
+  {
+    "id": "01KQXQV12J4ZP4SNXWQCW51RAQ",
+    "source": "to reference these keybindings in a side pane at anytime.",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 1041
+  },
+  {
+    "id": "01KQXQV12D2B3807CY030V11B3",
+    "source": "Keyboard shortcuts are not synced to the cloud",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 1121
+  },
+  {
+    "id": "01KQXQV12AKE5CXQ0KT2HREYMM",
+    "source": "Configure keyboard shortcuts",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 1129
+  },
+
+  {
+    "id": "01KS2GEQN6CFV21S1T1XEDC350",
+    "source": "Suggested code diffs",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_common.rs",
+    "line": 114
+  },
+  {
+    "id": "01KS2GEQP1QSVQW6RBH1DFPR99",
+    "source": "Total usage",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_common.rs",
+    "line": 293
+  }
+]
