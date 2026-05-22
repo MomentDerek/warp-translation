@@ -1,0 +1,362 @@
+[
+  {
+    "id": "01KQXQV129YE5SV2X0SFG65NCY",
+    "source": "Add repository",
+    "file": "app/src/pane_group/pane/welcome_view.rs",
+    "line": 47
+  },
+  {
+    "id": "01KQXQV12DWNATNY8DP90KAS8T",
+    "source": "New tab",
+    "file": "app/src/pane_group/pane/welcome_view.rs",
+    "line": 74
+  },
+  {
+    "id": "01KQXQV12DDCRKH4YF8RJXZTV2",
+    "source": "New session",
+    "file": "app/src/notebooks/link.rs",
+    "line": 59
+  },
+  {
+    "id": "01KQXQV12EXFSBZ214R8DYQ7CJ",
+    "source": "Open a new terminal session in this directory",
+    "file": "app/src/notebooks/link.rs",
+    "line": 60
+  },
+  {
+    "id": "01KQXQV12EZHDB4HX2CJ2GR16Q",
+    "source": "Platform not supported",
+    "file": "app/src/external_secrets/mod.rs",
+    "line": 254
+  },
+  {
+    "id": "01KQXQV12JAFW2RET2GTWW19N1",
+    "source": "{} didn't return secrets (likely not configured or authenticated)",
+    "file": "app/src/external_secrets/mod.rs",
+    "line": 246
+  },
+  {
+    "id": "01KQXQV12G0D94MTASCJ3B1557",
+    "source": "Sign in to edit",
+    "file": "app/src/notebooks/notebook/details_bar.rs",
+    "line": 140
+  },
+  {
+    "id": "01KQXQV12JFMEE7JN5211E4T19",
+    "source": "{editor} is editing",
+    "file": "app/src/notebooks/notebook/details_bar.rs",
+    "line": 191
+  },
+  {
+    "id": "01KQXQV12DD16TNDK158CBP5SJ",
+    "source": "Launch a java application",
+    "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+    "line": 243
+  },
+  {
+    "id": "01KQXQV12JNKJG2HMK0YGZMAHH",
+    "source": "the stupid content tracker",
+    "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+    "line": 91
+  },
+  {
+    "id": "01KQXQV12CSTW7ZM6BXAVMFYMR",
+    "source": "Hold <keybinding> to speak your prompt directly to the agent.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 456
+  },
+  {
+    "id": "01KQXQV12EAT3JZ6ZKZKADPBGA",
+    "source": "Out of credits. Upgrade your Warp plan to continue running cloud agents.",
+    "file": "app/src/ai/ambient_agents/mod.rs",
+    "line": 22
+  },
+  {
+    "id": "01KQXQV12B3FNZNMTDKT02HB1X",
+    "source": "Failed to load",
+    "file": "app/src/ai/artifacts/mod.rs",
+    "line": 364
+  },
+  {
+    "id": "01KQXQV12H4F64EQMQ1YT7YMH0",
+    "source": "View this run in the Oz web app",
+    "file": "app/src/ai/conversation_details_panel.rs",
+    "line": 652
+  },
+  {
+    "id": "01KQXQV12E6J0T8261C86J0HHV",
+    "source": "Profile Editor",
+    "file": "app/src/ai/execution_profiles/editor/mod.rs",
+    "line": 137
+  },
+  {
+    "id": "01KQXQV12J8GPMAJA2T0738VRM",
+    "source": "You are offline. Some rules will be read only.",
+    "file": "app/src/ai/facts/view/mod.rs",
+    "line": 34
+  },
+  {
+    "id": "01KQXQV12H9SVCYQ5QTEGXY8SE",
+    "source": "Using Warp Offline",
+    "file": "app/src/auth/auth_view_shared_helpers.rs",
+    "line": 194
+  },
+  {
+    "id": "01KQXQV12GE2WJJHTM7SZ85BAC",
+    "source": "Show running processes",
+    "file": "app/src/auth/mod.rs",
+    "line": 114
+  },
+  {
+    "id": "01KQXQV12B29CTTYFFPR1Q1PZH",
+    "source": "Don't show me again",
+    "file": "app/src/banner/view.rs",
+    "line": 179
+  },
+  {
+    "id": "01KQXQV12E4MNDMW3RMP26KSAH",
+    "source": "Restore default",
+    "file": "app/src/chip_configurator/modal_shell.rs",
+    "line": 32
+  },
+  {
+    "id": "01KQXQV12CCJQ62V1YQJPMTPKF",
+    "source": "Hunk:",
+    "file": "app/src/code/editor/nav_bar.rs",
+    "line": 155
+  },
+  {
+    "id": "01KQXQV12ETWGSCWZ695BH0J2J",
+    "source": "Restart server",
+    "file": "app/src/code/footer.rs",
+    "line": 1201
+  },
+  {
+    "id": "01KQXQV12BYVJDHJD8MEZCG9QX",
+    "source": "Discard this version",
+    "file": "app/src/code/local_code_editor.rs",
+    "line": 2380
+  },
+  {
+    "id": "01KQXQV12AWVXA1NZXXB4XF3F6",
+    "source": "Create new project",
+    "file": "app/src/coding_entrypoints/project_buttons.rs",
+    "line": 40
+  },
+  {
+    "id": "01KQXQV12AR8PY9NRSFM4MXNZK",
+    "source": "Copy {}",
+    "file": "app/src/context_chips/current_prompt.rs",
+    "line": 1368
+  },
+  {
+    "id": "01KQXQV12GXPGZEKGRG28JG57E",
+    "source": "Something went wrong. Please try again.",
+    "file": "app/src/drive/workflows/ai_assist.rs",
+    "line": 75
+  },
+  {
+    "id": "01KQXQV12C9J5R9QFER0N1PKRC",
+    "source": "Ignore this suggestion",
+    "file": "app/src/editor/autosuggestion_ignore_view.rs",
+    "line": 142
+  },
+  {
+    "id": "01KQXQV12E40PQDKX5VBK3DBPE",
+    "source": "Restore environment variables from trash",
+    "file": "app/src/env_vars/view/fixed_view_components.rs",
+    "line": 122
+  },
+  {
+    "id": "01KQXQV12CEV403SQG6G9RFQZT",
+    "source": "Insert block",
+    "file": "app/src/notebooks/editor/block_insertion_menu.rs",
+    "line": 318
+  },
+  {
+    "id": "01KQXQV12GTM7E3H5Y6TA1Y1VY",
+    "source": "Terminal session",
+    "file": "app/src/pane_group/pane/get_started_view.rs",
+    "line": 41
+  },
+  {
+    "id": "01KQXQV12GBWQGSHRKR37GCXK8",
+    "source": "This conversation cannot be shared because it is not stored in the cloud.\nTo sync to cloud and share, enable the setting under Settings > Privacy, and then make another request.",
+    "file": "app/src/pane_group/pane/view/header/sharing.rs",
+    "line": 31
+  },
+  {
+    "id": "01KQXQV12BR2R3YFXS1P2H047P",
+    "source": "Failed with error: {e:?}",
+    "file": "app/src/plugin/host/native/service_impl.rs",
+    "line": 49
+  },
+  {
+    "id": "01KQXQV12F77EVSADBBG5JJ588",
+    "source": "Same line prompt",
+    "file": "app/src/prompt/editor_modal.rs",
+    "line": 602
+  },
+  {
+    "id": "01KRNVKAHP6X6DJWZB6WMHTKY3",
+    "source": "Response could not be delivered: {e}",
+    "file": "app/src/remote_server/unix/mod.rs",
+    "line": 225
+  },
+  {
+    "id": "01KQXQV12DX5JAF61C5KM4N0ZY",
+    "source": "Mark all as read",
+    "file": "app/src/resource_center/main_page.rs",
+    "line": 436
+  },
+  {
+    "id": "01KQXQV12HY1G02NQWC1DMVR6J",
+    "source": "Try it out!",
+    "file": "app/src/reward_view.rs",
+    "line": 32
+  },
+  {
+    "id": "01KQXQV12FWHBNN91SCSCW99ND",
+    "source": "Search for a secret",
+    "file": "app/src/search/external_secrets/view.rs",
+    "line": 44
+  },
+  {
+    "id": "01KQXQV12D14D490A426HC4CRV",
+    "source": "Not visible to other users",
+    "file": "app/src/search/notebook_embedding/notebooks/notebook_search_item.rs",
+    "line": 110
+  },
+  {
+    "id": "01KQXQV12FKQXKHXDPQ92RPSHD",
+    "source": "Search for a reference",
+    "file": "app/src/search/notebook_embedding/view.rs",
+    "line": 29
+  },
+  {
+    "id": "01KQXQV12GAMCYJJKD7RFRXHK9",
+    "source": "Slash command: {}",
+    "file": "app/src/search/slash_command_menu/static_commands/bindings.rs",
+    "line": 34
+  },
+  {
+    "id": "01KS2GEPZFKZ2SNVWY5R9QK9ZA",
+    "source": "Continue this cloud conversation locally",
+    "file": "app/src/search/slash_command_menu/static_commands/commands.rs",
+    "line": 455
+  },
+  {
+    "id": "01KQXQV12DK9N5D3YWRBBBDEK0",
+    "source": "Local Docker Sandbox",
+    "file": "app/src/settings/ai.rs",
+    "line": 333
+  },
+  {
+    "id": "01KQXQV12E1GJRGTZKQTP0STK4",
+    "source": "Profile: {name}",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 764
+  },
+  {
+    "id": "01KQXQV12AAYJXHVJ0JYES5AP9",
+    "source": "Cursor does not exist",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4341
+  },
+  {
+    "id": "01KQXQV12BJQ1DDCRH4S1A5X0R",
+    "source": "Failed to fetch conversation usage",
+    "file": "app/src/settings_view/billing_and_usage/usage_history_model.rs",
+    "line": 132
+  },
+  {
+    "id": "01KS2GEPXVXH0WJWVHY8APJVAS",
+    "source": "Contact a team admin to purchase add-on credits.",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1745
+  },
+  {
+    "id": "01KQXQV12FM0QMHQBF2XV44TTB",
+    "source": "Save",
+    "file": "app/src/settings_view/custom_inference_modal.rs",
+    "line": 838
+  },
+  {
+    "id": "01KQXQV12BK5KK5B8PRDFF171Z",
+    "source": "Executable path",
+    "file": "app/src/settings_view/features/startup_shell.rs",
+    "line": 101
+  },
+  {
+    "id": "01KQXQV12J15JGA4N071MZBCKE",
+    "source": "Window should have corresponding settings view",
+    "file": "app/src/settings_view/pane_manager.rs",
+    "line": 32
+  },
+  {
+    "id": "01KQXQV12BG7YE73MAGJB8QEJD",
+    "source": "Failed to delete API key. Please try again.",
+    "file": "app/src/settings_view/platform/expire_api_key_button.rs",
+    "line": 76
+  },
+  {
+    "id": "01KQXQV12JH96FDFWJWAJSESV0",
+    "source": "secret redaction",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 2020
+  },
+  {
+    "id": "01KQXQV12CSKHKXXYW6F8GM2SG",
+    "source": "Fix with Oz",
+    "file": "app/src/settings_view/settings_file_footer.rs",
+    "line": 252
+  },
+  {
+    "id": "01KQXQV129V5WWB7TQVYZDDFX5",
+    "source": "Already the default",
+    "file": "app/src/tab_configs/action_sidecar.rs",
+    "line": 142
+  },
+  {
+    "id": "01KQXQV12CXKAXZ0D29QMPBWNY",
+    "source": "Fetching branches…",
+    "file": "app/src/tab_configs/branch_picker.rs",
+    "line": 19
+  },
+  {
+    "id": "01KQXQV128GWRY9RFMCEKNHV43",
+    "source": "+ Add new repo...",
+    "file": "app/src/tab_configs/repo_picker.rs",
+    "line": 22
+  },
+  {
+    "id": "01KQXQV12FB4XKYZKK1SYDVBQ7",
+    "source": "Sharing link copied",
+    "file": "app/src/terminal/shared_session/mod.rs",
+    "line": 39
+  },
+  {
+    "id": "01KQXQV12H0E6FZGNRCZ7MFHDJ",
+    "source": "View plans",
+    "file": "app/src/terminal/shared_session/share_modal/denied_body.rs",
+    "line": 13
+  },
+  {
+    "id": "01KQXQV12DS1J28R6DT4YVGKZ0",
+    "source": "No matching themes!",
+    "file": "app/src/themes/theme_chooser.rs",
+    "line": 752
+  },
+  {
+    "id": "01KQXQV12DQY59HQFQWDKQ8KGQ",
+    "source": "No matches found.",
+    "file": "app/src/view_components/filterable_dropdown.rs",
+    "line": 563
+  },
+  {
+    "id": "01KQXQV12CXMZ9YCS71XZSFN0R",
+    "source": "Glyph atlas texture",
+    "file": "crates/warpui/src/rendering/wgpu/texture_with_bind_group.rs",
+    "line": 26
+  }
+]

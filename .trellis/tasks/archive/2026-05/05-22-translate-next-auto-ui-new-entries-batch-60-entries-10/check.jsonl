@@ -1,0 +1,1 @@
+{"file": ".trellis/tasks/05-22-translate-next-auto-ui-new-entries-batch-60-entries-10/apply_translations.py", "reason": "Self-check via embedded invariants: placeholders/whitespace/brand literals enforced; <keybinding> custom-marker preservation enforced via BRAND_LITERALS; ASCII '...' -> '……' transform validated; pre_snapshot byte-identical guard for non-batch entries."}

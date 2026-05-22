@@ -1,0 +1,4 @@
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-next-auto-ui-new-entries-batch-60-entries-9/prd.md", "reason": "Previous batch PRD — established structure/conventions/glossary continuity for batch 10."}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-next-auto-ui-new-entries-batch-60-entries-9/apply_translations.py", "reason": "Script template — adapted for batch 10 (placeholders/whitespace/brand invariants)."}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-next-auto-ui-new-entries-batch-60-entries-8/prd.md", "reason": "Two-batch lookback for panic-message and DO_NOT_TRANSLATE disposition conventions."}
+{"file": ".trellis/tasks/archive/2026-05/05-22-translate-next-auto-ui-new-entries-batch-60-entries-7/apply_translations.py", "reason": "Reference for wgpu_debug_label DO_NOT_TRANSLATE handling (Glyph atlas texture)."}
