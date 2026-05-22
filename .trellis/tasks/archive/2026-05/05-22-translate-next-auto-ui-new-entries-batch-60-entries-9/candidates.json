@@ -1,0 +1,394 @@
+[
+  {
+    "id": "01KQXQV11XYQABRZQ4D93W92AZ",
+    "source": " and open the page manually. ",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 1219
+  },
+  {
+    "id": "01KQXQV127FAV6VBFE25X67P3D",
+    "source": " to paste your token from the browser.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 1227
+  },
+  {
+    "id": "01KQXQV12ECK18X04M2X5MC9BB",
+    "source": "Plan successfully activated. All premium models are available.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 1273
+  },
+  {
+    "id": "01KQXQV129RJ5FHZPPG57RF85F",
+    "source": "Add a workflow argument",
+    "file": "app/src/workflows/workflow_view/argument_editor.rs",
+    "line": 591
+  },
+  {
+    "id": "01KQXQV12CBYYERR41832VYPF2",
+    "source": "Fill out the arguments in this workflow and copy it to run in your terminal session",
+    "file": "app/src/workflows/workflow_view/argument_editor.rs",
+    "line": 605
+  },
+  {
+    "id": "01KQXQV12HPPKKV7W1GPMNF4CY",
+    "source": "Value (optional)",
+    "file": "app/src/workflows/workflow_view/argument_editor.rs",
+    "line": 48
+  },
+  {
+    "id": "01KQXQV12DPG4EWFR6WW4792X1",
+    "source": "Keyboard Shortcuts",
+    "file": "app/src/resource_center/view.rs",
+    "line": 334
+  },
+  {
+    "id": "01KQXQV12F7V39Q83KS16MNGQX",
+    "source": "Should have a valid page",
+    "file": "app/src/resource_center/view.rs",
+    "line": 204
+  },
+  {
+    "id": "01KQXQV12H13BSTEQ1T1NG3TY0",
+    "source": "Warp Essentials",
+    "file": "app/src/resource_center/view.rs",
+    "line": 339,
+    "all_files": [
+      "app/src/resource_center/view.rs",
+      "app/src/workspace/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV128795HD9Y1RTAPYN8W",
+    "source": "+ Add directory…",
+    "file": "app/src/settings_view/directory_color_add_picker.rs",
+    "line": 29
+  },
+  {
+    "id": "01KQXQV1295KZN6K5N88K92TE0",
+    "source": "Add directory color",
+    "file": "app/src/settings_view/directory_color_add_picker.rs",
+    "line": 30
+  },
+  {
+    "id": "01KQXQV1288YA2VRN0K94DMEEB",
+    "source": "Accept Autosuggestion",
+    "file": "app/src/editor/accept_autosuggestion_keybinding_view.rs",
+    "line": 225,
+    "all_files": [
+      "app/src/editor/accept_autosuggestion_keybinding_view.rs",
+      "app/src/settings_view/features_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV1291DG3EMESBRVPB372",
+    "source": "Change keybinding",
+    "file": "app/src/editor/accept_autosuggestion_keybinding_view.rs",
+    "line": 348,
+    "all_files": [
+      "app/src/editor/accept_autosuggestion_keybinding_view.rs",
+      "app/src/settings_view/features_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV128MYXRDJ77F0NETEDA",
+    "source": "A to Z",
+    "file": "app/src/drive/mod.rs",
+    "line": 355,
+    "all_files": [
+      "app/src/drive/mod.rs",
+      "app/src/settings_view/billing_and_usage_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12JEX64PJSW1S7ZZPTB",
+    "source": "Z to A",
+    "file": "app/src/drive/mod.rs",
+    "line": 356,
+    "all_files": [
+      "app/src/drive/mod.rs",
+      "app/src/settings_view/billing_and_usage_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV1292KS1XH52EB2393Q6",
+    "source": "Agent conversations stored in the cloud can be shared with anyone with one click, and allow conversations to be continued across devices and on logout.",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 175
+  },
+  {
+    "id": "01KQXQV12GV6SR8S1NSFWT8YSS",
+    "source": "Sync conversations to cloud",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 174
+  },
+  {
+    "id": "01KQXQV1295MKB31WX5JNVZ5C7",
+    "source": "Add secret or command. Warp never stores external secrets",
+    "file": "app/src/env_vars/view/env_var_collection.rs",
+    "line": 83
+  },
+  {
+    "id": "01KQXQV129R3KK8TA76DV1HG52",
+    "source": "Add a title",
+    "file": "app/src/env_vars/view/env_var_collection.rs",
+    "line": 94,
+    "all_files": [
+      "app/src/env_vars/view/env_var_collection.rs",
+      "app/src/workflows/workflow_view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV1298ZJXC3JE4NZXW0PK",
+    "source": "Are you sure you want to transfer team ownership to {}? You will no longer be the owner and will not be able to take any administrative actions for this team.",
+    "file": "app/src/settings_view/transfer_ownership_confirmation_modal.rs",
+    "line": 57
+  },
+  {
+    "id": "01KQXQV12HTQWVMTYHVED4NWHV",
+    "source": "Transfer",
+    "file": "app/src/settings_view/transfer_ownership_confirmation_modal.rs",
+    "line": 91
+  },
+  {
+    "id": "01KQXQV1299G1QQQ11ZRE8X732",
+    "source": "Are you sure you want to remove the {} environment?",
+    "file": "app/src/settings_view/delete_environment_confirmation_dialog.rs",
+    "line": 88
+  },
+  {
+    "id": "01KQXQV12ADE5CCXQ3WSMRBX12",
+    "source": "Delete environment?",
+    "file": "app/src/settings_view/delete_environment_confirmation_dialog.rs",
+    "line": 93
+  },
+  {
+    "id": "01KQXQV129SB4G1381FMC8ACFK",
+    "source": "Click to learn more in docs",
+    "file": "app/src/settings_view/settings_page.rs",
+    "line": 557
+  },
+  {
+    "id": "01KQXQV12GF6T8MGNDT00TPD4J",
+    "source": "This setting is not synced to your other devices",
+    "file": "app/src/settings_view/settings_page.rs",
+    "line": 615
+  },
+  {
+    "id": "01KQXQV129XQE3T9X77F1P0RAB",
+    "source": "Ask Warp AI for command suggestions",
+    "file": "app/src/search/command_search/warp_ai.rs",
+    "line": 39
+  },
+  {
+    "id": "01KQXQV12HSQSG7ZM7CZQYNVPG",
+    "source": "Translate into shell command using Warp AI",
+    "file": "app/src/search/command_search/warp_ai.rs",
+    "line": 40
+  },
+  {
+    "id": "01KQXQV12B65N8GJEVNKWZMXAK",
+    "source": "Enable reopening of closed sessions",
+    "file": "app/src/settings_view/features/undo_close.rs",
+    "line": 181
+  },
+  {
+    "id": "01KQXQV12CFV16K20FE5Z88JHQ",
+    "source": "Grace period (seconds)",
+    "file": "app/src/settings_view/features/undo_close.rs",
+    "line": 140
+  },
+  {
+    "id": "01KQXQV12BH5BB2KGD84P8GR4M",
+    "source": "Failed to execute git clone: {e}",
+    "file": "app/src/ai/skills/resolve_skill_spec.rs",
+    "line": 191
+  },
+  {
+    "id": "01KQXQV12GD1ZQ6D9JNH5WSSC2",
+    "source": "Target directory {} already exists but is not a git repository",
+    "file": "app/src/ai/skills/resolve_skill_spec.rs",
+    "line": 168
+  },
+  {
+    "id": "01KQXQV12BWHCWANGH2SAEYS91",
+    "source": "FamilyId set",
+    "file": "app/src/ui_components/dialog.rs",
+    "line": 108
+  },
+  {
+    "id": "01KQXQV12C94X07P38ED0YA7XK",
+    "source": "Font size set",
+    "file": "app/src/ui_components/dialog.rs",
+    "line": 109
+  },
+  {
+    "id": "01KQXQV12C1DM1C6G5D67JQ7Z8",
+    "source": "Install with {package_manager}",
+    "file": "app/src/terminal/ssh/install_tmux.rs",
+    "line": 260
+  },
+  {
+    "id": "01KQXQV12CJ05PK5XPRR99CFWF",
+    "source": "Install to ~/.warp",
+    "file": "app/src/terminal/ssh/install_tmux.rs",
+    "line": 264
+  },
+  {
+    "id": "01KQXQV12C2428FHA0E5YSA32P",
+    "source": "Generating commit message…",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 76
+  },
+  {
+    "id": "01KQXQV12H72EA4W15E9AC28RC",
+    "source": "Type a commit message",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 80
+  },
+  {
+    "id": "01KQXQV12C7ZP4DJKD092N2BMS",
+    "source": "In remote subshells, Warp runs commands in the background to power completions, syntax highlighting, and other features.",
+    "file": "app/src/terminal/warpify/success_block.rs",
+    "line": 121
+  },
+  {
+    "id": "01KQXQV12FJSPACWM6PN6XVY6C",
+    "source": "Run the following to automatically Warpify in the future:",
+    "file": "app/src/terminal/warpify/success_block.rs",
+    "line": 119
+  },
+  {
+    "id": "01KQXQV12C8HR63KT0AM6VXK1R",
+    "source": "Focus previous match",
+    "file": "app/src/notebooks/editor/find_bar.rs",
+    "line": 559,
+    "all_files": [
+      "app/src/notebooks/editor/find_bar.rs",
+      "app/src/notebooks/editor/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CPTH0YSQ9TV20P6CK",
+    "source": "Focus next match",
+    "file": "app/src/notebooks/editor/find_bar.rs",
+    "line": 558,
+    "all_files": [
+      "app/src/notebooks/editor/find_bar.rs",
+      "app/src/notebooks/editor/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CE79C0FF9EBHBV2XB",
+    "source": "Go to Warp to see your new tab.",
+    "file": "app/src/uri/mod.rs",
+    "line": 1090
+  },
+  {
+    "id": "01KQXQV12D9B7ARH10MWBAFRJ0",
+    "source": "New tab created",
+    "file": "app/src/uri/mod.rs",
+    "line": 1089
+  },
+  {
+    "id": "01KQXQV12CTM18YDM0DXJMC9PX",
+    "source": "Invert filter",
+    "file": "app/src/terminal/block_filter.rs",
+    "line": 55
+  },
+  {
+    "id": "01KQXQV12FATG2W881N8J0379R",
+    "source": "Show context lines around matches",
+    "file": "app/src/terminal/block_filter.rs",
+    "line": 52
+  },
+  {
+    "id": "01KQXQV12D7H1Y8CPAF9F62SB4",
+    "source": "Open YAML File",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 41
+  },
+  {
+    "id": "01KQXQV12FVKV9WA97AT280CJJ",
+    "source": "Save Configuration",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 40
+  },
+  {
+    "id": "01KQXQV12DSPRFAWTM2H6Z5H9S",
+    "source": "Looking for settings to import...",
+    "file": "app/src/settings/import/view.rs",
+    "line": 974
+  },
+  {
+    "id": "01KQXQV12FJKN2DMQ7R7KYPG83",
+    "source": "Select a settings profile to import:",
+    "file": "app/src/settings/import/view.rs",
+    "line": 973
+  },
+  {
+    "id": "01KQXQV12E7832S4J9DYTBY9PC",
+    "source": "RedNotificationDot requires width",
+    "file": "app/src/ui_components/red_notification_dot.rs",
+    "line": 17
+  },
+  {
+    "id": "01KQXQV12EEMQ80P7ZD85AASHA",
+    "source": "RedNotificationDot requires height",
+    "file": "app/src/ui_components/red_notification_dot.rs",
+    "line": 18
+  },
+  {
+    "id": "01KQXQV12EJQSQ2XDV81N2W8QQ",
+    "source": "Read all changelogs",
+    "file": "app/src/resource_center/section_views/changelog_section.rs",
+    "line": 368
+  },
+  {
+    "id": "01KQXQV12HYC0AGWGXV96BBN8D",
+    "source": "Unable to fetch the latest changelog.",
+    "file": "app/src/resource_center/section_views/changelog_section.rs",
+    "line": 32
+  },
+  {
+    "id": "01KQXQV12FVG8M9S7WJ93FAC2F",
+    "source": "Send to Agent",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 955
+  },
+  {
+    "id": "01KQXQV12H137VMVYJ5V0PDK0J",
+    "source": "View in GitHub",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 1084
+  },
+  {
+    "id": "01KQXQV12GV98JWH1XJ5GJDN3W",
+    "source": "To use Warp Drive, please create an account.",
+    "file": "app/src/settings_view/warp_drive_page.rs",
+    "line": 142
+  },
+  {
+    "id": "01KQXQV12HWY53Z9CPN3A6NJSF",
+    "source": "Warp Drive is a workspace in your terminal where you can save Workflows, Notebooks, Prompts, and Environment Variables for personal use or to share with a team.",
+    "file": "app/src/settings_view/warp_drive_page.rs",
+    "line": 251
+  },
+  {
+    "id": "01KQXQV12GKJ8CCZ0GHTHPDFFV",
+    "source": "Toggle Case Sensitivity",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 668
+  },
+  {
+    "id": "01KQXQV12GT9XNKF39ZES7R2CT",
+    "source": "Toggle Regex",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 678
+  },
+  {
+    "id": "01KQXQV12ADK90JYEGZ1CD1FG1",
+    "source": "Delete theme",
+    "file": "app/src/themes/theme_deletion_body.rs",
+    "line": 31
+  }
+]
