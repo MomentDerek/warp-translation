@@ -1,0 +1,551 @@
+[
+  {
+    "id": "01KQXQV12929FE9119VXJVRWDP",
+    "source": "Classic 3",
+    "file": "app/src/settings/app_icon.rs",
+    "line": 78,
+    "all_files": [
+      "app/src/settings/app_icon.rs",
+      "app/src/settings_view/appearance_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12963N6Y7BHKFQJ0R07",
+    "source": "Classic 2",
+    "file": "app/src/settings/app_icon.rs",
+    "line": 77,
+    "all_files": [
+      "app/src/settings/app_icon.rs",
+      "app/src/settings_view/appearance_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129EMX64ARZNHHPMB7Q",
+    "source": "Classic 1",
+    "file": "app/src/settings/app_icon.rs",
+    "line": 76,
+    "all_files": [
+      "app/src/settings/app_icon.rs",
+      "app/src/settings_view/appearance_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129Q7FVW4JTAN9RK948",
+    "source": "Change git branch",
+    "file": "app/src/context_chips/display_chip.rs",
+    "line": 1097,
+    "all_files": [
+      "app/src/context_chips/display_chip.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129TJH7WHKY2MRAWWR8",
+    "source": "Change working directory",
+    "file": "app/src/context_chips/display_chip.rs",
+    "line": 1344,
+    "all_files": [
+      "app/src/context_chips/display_chip.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129X24N8Y3CHG0FRG0J",
+    "source": "Code review",
+    "file": "crates/onboarding/src/slides/customize_slide.rs",
+    "line": 375,
+    "all_files": [
+      "app/src/workspace/view/right_panel.rs",
+      "crates/onboarding/src/slides/customize_slide.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV129YFCJEAF4FPK98DAX",
+    "source": "Advanced Setup",
+    "file": "app/src/resource_center/section_views/feature_section.rs",
+    "line": 44,
+    "all_files": [
+      "app/src/resource_center/section_views/feature_section.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12A336C8B2AKQAA1FD2",
+    "source": "Conversation history",
+    "file": "crates/onboarding/src/slides/customize_slide.rs",
+    "line": 261,
+    "all_files": [
+      "crates/onboarding/src/slides/customize_slide.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12AMF66QMG4ZVGR7QKK",
+    "source": "Create theme",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 44,
+    "all_files": [
+      "app/src/themes/theme_creator_body.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12AV4DWGVXP35C2YJWY",
+    "source": "Dialog Title",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 481,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12BGSPZV4G35275SEXV",
+    "source": "Enable Natural Language Detection",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 151,
+    "all_files": [
+      "crates/onboarding/src/callout/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12BN7NPBRA40FKW32ZV",
+    "source": "Disabled / Small",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 425,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12BT624KA7W9P4KNC3E",
+    "source": "Disabled / Default",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 337,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12BY7N9Z5FEHFQAB3T4",
+    "source": "Expected valid mouse state",
+    "file": "app/src/resource_center/section_views/feature_section.rs",
+    "line": 280,
+    "all_files": [
+      "app/src/resource_center/section_views/feature_section.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12C572J0YNHZMNKFE23",
+    "source": "Glass Sky",
+    "file": "app/src/settings/app_icon.rs",
+    "line": 80,
+    "all_files": [
+      "app/src/settings/app_icon.rs",
+      "app/src/settings_view/appearance_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12C5PD6VQ2E8N7168WR",
+    "source": "Image render pipeline",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/image.rs",
+    "line": 86,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/image.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12C6A9S0RPMW1FAR9ZN",
+    "source": "Increased reasoning levels consume more credits and have higher latency, but higher performance for complicated tasks.",
+    "file": "app/src/terminal/input/models/model_spec_scores.rs",
+    "line": 22,
+    "all_files": [
+      "app/src/terminal/input/models/model_spec_scores.rs",
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12C6DS6GF9VB3XYFEWE",
+    "source": "Image instance buffer",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/image.rs",
+    "line": 190,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/image.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12C924X9AXRHEZ0F90H",
+    "source": "Getting Started",
+    "file": "app/src/resource_center/section_views/feature_section.rs",
+    "line": 42,
+    "all_files": [
+      "app/src/resource_center/section_views/feature_section.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12C9T9YCDNB9C09ANRQ",
+    "source": "Image Shader",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/image.rs",
+    "line": 45,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/image.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CCXC28ACBQD7TYPEK",
+    "source": "Glyph Render pipeline",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/glyph.rs",
+    "line": 93,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/glyph.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CDCGTMNJNR49Q493Y",
+    "source": "File-Based MCP Id: {uuid}",
+    "file": "app/src/settings_view/mcp_servers/mod.rs",
+    "line": 54,
+    "all_files": [
+      "app/src/settings_view/mcp_servers/mod.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CFK12FTD49TP8BHXE",
+    "source": "Glyph pipeline layout",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/glyph.rs",
+    "line": 84,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/glyph.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CJ917PS9ZCTDPEA33",
+    "source": "Gallery MCP Id: {uuid}",
+    "file": "app/src/settings_view/mcp_servers/mod.rs",
+    "line": 53,
+    "all_files": [
+      "app/src/settings_view/mcp_servers/mod.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CJEE825FXPHGR2JTD",
+    "source": "Input Editor",
+    "file": "app/src/resource_center/keybindings_page.rs",
+    "line": 427,
+    "all_files": [
+      "app/src/resource_center/keybindings_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CMW2H6QXNSBKFEJPC",
+    "source": "Glyph instance buffer",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/glyph.rs",
+    "line": 256,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/glyph.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CRJN06NPE2YRY55PV",
+    "source": "Go to settings > keyboard shortcuts to configure custom keybindings",
+    "file": "app/src/resource_center/keybindings_page.rs",
+    "line": 397,
+    "all_files": [
+      "app/src/resource_center/keybindings_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CWBYYYHJNYDMDD3ZJ",
+    "source": "Image texture",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/image.rs",
+    "line": 253,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/image.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CYQBQT5J5XKXDDSHW",
+    "source": "Image pipeline layout",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/image.rs",
+    "line": 77,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/image.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12CZ2E3Z32C083P9T4F",
+    "source": "Glyph Shader",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/glyph.rs",
+    "line": 51,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/glyph.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12D1YS80AH7NB4NM9EF",
+    "source": "Maximize Warp",
+    "file": "app/src/resource_center/section_views/feature_section.rs",
+    "line": 43,
+    "all_files": [
+      "app/src/resource_center/section_views/feature_section.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DS2S5S98KPQ8H3RJ5",
+    "source": "Meet the Warp input",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 63,
+    "all_files": [
+      "crates/onboarding/src/callout/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12DXX99614GYH8SDJ7F",
+    "source": "Model Specs",
+    "file": "app/src/terminal/input/models/model_spec_scores.rs",
+    "line": 18,
+    "all_files": [
+      "app/src/terminal/input/models/model_spec_scores.rs",
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12E7BHT4K6Q32RPNPSR",
+    "source": "Primary / Small",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 378,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EG5SFZHRRNBQRXPH8",
+    "source": "Rect instance buffer",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/rect.rs",
+    "line": 203,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/rect.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EHYCE096TDE762WRW",
+    "source": "Rect Shader",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/rect.rs",
+    "line": 38,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/rect.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EK33PHJH7XPJ10QEW",
+    "source": "Reasoning level",
+    "file": "app/src/terminal/input/models/model_spec_scores.rs",
+    "line": 21,
+    "all_files": [
+      "app/src/terminal/input/models/model_spec_scores.rs",
+      "app/src/terminal/profile_model_selector.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EN1R207VXGECMQ60J",
+    "source": "Rect pipeline layout",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/rect.rs",
+    "line": 45,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/rect.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EVY74SVMEZ7DKZTS9",
+    "source": "Primary / Default",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 292,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12EZZA8H2H82VHK76WB",
+    "source": "Rect render pipeline",
+    "file": "crates/warpui/src/rendering/wgpu/renderer/rect.rs",
+    "line": 51,
+    "all_files": [
+      "crates/warpui/src/rendering/wgpu/renderer/rect.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12F4QZ24AGJBPTZB3HP",
+    "source": "Secondary / Default",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 314,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12F54CX3039EVN9QZ9C",
+    "source": "Should have command bindings vector",
+    "file": "app/src/resource_center/keybindings_page.rs",
+    "line": 246,
+    "all_files": [
+      "app/src/resource_center/keybindings_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12FH78FBKPH4TSZZHGS",
+    "source": "Secondary / Small",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 401,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12FPYDEDEYCXHV532QV",
+    "source": "Select a new image",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 42,
+    "all_files": [
+      "app/src/themes/theme_creator_body.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12FR51ZYHA71E2CC9VH",
+    "source": "Select an image",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 40,
+    "all_files": [
+      "app/src/themes/theme_creator_body.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12FYYA8P2D3GTVC1P95",
+    "source": "Selecting image...",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 41,
+    "all_files": [
+      "app/src/themes/theme_creator_body.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12G0N1SN2NBGFWMFBHZ",
+    "source": "Templatable MCP Id: {template_uuid}",
+    "file": "app/src/settings_view/mcp_servers/mod.rs",
+    "line": 48,
+    "all_files": [
+      "app/src/settings_view/mcp_servers/mod.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12G14692SJMYKNJWJZG",
+    "source": "Talk to the agent",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 78,
+    "all_files": [
+      "crates/onboarding/src/callout/view.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12G2D6X6EKEGV6SHX18",
+    "source": "To toggle this panel",
+    "file": "app/src/resource_center/keybindings_page.rs",
+    "line": 359,
+    "all_files": [
+      "app/src/resource_center/keybindings_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12GCYCTMKAPZC2XAK8V",
+    "source": "Templatable MCP Installation Id: {uuid}",
+    "file": "app/src/settings_view/mcp_servers/mod.rs",
+    "line": 51,
+    "all_files": [
+      "app/src/settings_view/mcp_servers/mod.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12GYA6HSB3RTKNZJE34",
+    "source": "Tab styling",
+    "file": "crates/onboarding/src/slides/customize_slide.rs",
+    "line": 219,
+    "all_files": [
+      "crates/onboarding/src/slides/customize_slide.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12HA8QDY151P3TTT988",
+    "source": "Warp 1",
+    "file": "app/src/settings/app_icon.rs",
+    "line": 90,
+    "all_files": [
+      "app/src/settings/app_icon.rs",
+      "app/src/settings_view/appearance_page.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12HP9GQEM8DSH2QMP6D",
+    "source": "Tooltip label",
+    "file": "crates/ui_components/examples/library.rs",
+    "line": 261,
+    "all_files": [
+      "crates/ui_components/examples/library.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12HRT7YPZ5AGHANHJ4P",
+    "source": "View pull request",
+    "file": "app/src/context_chips/display_chip.rs",
+    "line": 1164,
+    "all_files": [
+      "app/src/context_chips/display_chip.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12HS80GB87ADA8XXZYF",
+    "source": "What's New?",
+    "file": "app/src/resource_center/section_views/feature_section.rs",
+    "line": 41,
+    "all_files": [
+      "app/src/resource_center/section_views/feature_section.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12HZ5S50MNVBDA0YYF2",
+    "source": "Warp's benchmarks for how well a model performs in our harness, the rate at which it consumes credits, and task speed.",
+    "file": "app/src/terminal/input/models/model_spec_scores.rs",
+    "line": 19,
+    "all_files": [
+      "app/src/terminal/input/models/model_spec_scores.rs"
+    ]
+  },
+  {
+    "id": "01KQXQV12J5QMZ3GR9JB3D0Q03",
+    "source": "Working directory",
+    "file": "app/src/context_chips/display_chip.rs",
+    "line": 1391,
+    "all_files": [
+      "app/src/context_chips/display_chip.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQPT9EPFMY0MF14ETFHF",
+    "source": "Welcome to terminal mode",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 121,
+    "all_files": [
+      "crates/onboarding/src/callout/view.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQQE7EZTCPM1C68A9P73",
+    "source": "You're in agent mode",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 160,
+    "all_files": [
+      "crates/onboarding/src/callout/view.rs"
+    ]
+  },
+  {
+    "id": "01KS2GEQRBWDSBPT1NBV40YT49",
+    "source": "You’re in terminal mode",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 138,
+    "all_files": [
+      "crates/onboarding/src/callout/view.rs"
+    ]
+  }
+]
