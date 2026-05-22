@@ -1,0 +1,362 @@
+[
+  {
+    "id": "01KQXQV129DAJB5Q49MYY4X8GB",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 757,
+    "source": "ClientMessage had no message variant set"
+  },
+  {
+    "id": "01KQXQV12BF9FECWH1XTQQ5BPG",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1880,
+    "source": "Failed to initiate write: {err}"
+  },
+  {
+    "id": "01KQXQV12BHFZYBXX5W0GJP0DP",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1923,
+    "source": "Failed to initiate delete: {err}"
+  },
+  {
+    "id": "01KQXQV12BQP6G2BBEFSRA56HC",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1823,
+    "source": "Failed to load directory: {e}"
+  },
+  {
+    "id": "01KQXQV12BVFFD5SD28B1XJMC9",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1613,
+    "source": "Failed to execute command: {e}"
+  },
+  {
+    "id": "01KQXQV12C4T5XHVWBR2ESEB42",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1789,
+    "source": "Invalid repo_path: {e}"
+  },
+  {
+    "id": "01KQXQV12CA5B7QDR41HHVQR6V",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1799,
+    "source": "Invalid dir_path: {e}"
+  },
+  {
+    "id": "01KQXQV12CTA3S9V5A9ES6N7EK",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1652,
+    "source": "Invalid path: {e}"
+  },
+  {
+    "id": "01KQXQV12CW9E4YAFTASHY256M",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2757,
+    "source": "File not found or could not be read"
+  },
+  {
+    "id": "01KQXQV12DECSP36TKA66KT9AH",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1551,
+    "source": "No executor for session {session_id:?}"
+  },
+  {
+    "id": "01KQXQV12J2KY0M1BQK79RDN0F",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1809,
+    "source": "dir_path {dir_path} is not a descendant of repo_path {repo_path}"
+  },
+  {
+    "id": "01KRNVK98997K44JR1Z3H83ED4",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 397,
+    "source": "Buffer loaded but content or sync clock unavailable for file {file_id:?}"
+  },
+  {
+    "id": "01KRNVK98KDYFZBYEYHTVJ39W2",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2073,
+    "source": "Buffer loaded but has no file content"
+  },
+  {
+    "id": "01KRNVK98W263ZRDHJQQ3C8GMF",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2088,
+    "source": "Buffer loaded but has no sync clock"
+  },
+  {
+    "id": "01KRNVK997ZCG12YNVVJAVAV8V",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2161,
+    "source": "Buffer not open: {}"
+  },
+  {
+    "id": "01KRNVK9PV3EFC2BY8AWTVB8ZS",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 531,
+    "source": "Failed to load buffer: {error}"
+  },
+  {
+    "id": "01KRNVK9RVGJCMWXCKA9AX1QF8",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2241,
+    "source": "Failed to resolve conflict: {err}"
+  },
+  {
+    "id": "01KRNVK9SNGTX3DXHED6NZX9J7",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2186,
+    "source": "Failed to save: {err}"
+  },
+  {
+    "id": "01KRNVK9Z55GBBCT0MKGE5TP0F",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2553,
+    "source": "Missing mode in DiscardFiles"
+  },
+  {
+    "id": "01KRNVK9ZA1Z3EG7ACKFPWB66E",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2275,
+    "source": "Missing mode in GetDiffState"
+  },
+  {
+    "id": "01KRNVKA05R5MKM5BVFK1Q0CB2",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2570,
+    "source": "No active diff state model for repo={} mode={:?}"
+  },
+  {
+    "id": "01KRNVKA1HF3TBAJQAS2DC7Q28",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2582,
+    "source": "No files specified in DiscardFilesRequest"
+  },
+  {
+    "id": "01KRNVKA2S0991RPRNGWKV57PX",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2604,
+    "source": "No valid files after path validation"
+  },
+  {
+    "id": "01KQXQV128AQBVB4Z0H24227M7",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 39,
+    "source": "Access all of Warp via the keyboard."
+  },
+  {
+    "id": "01KQXQV129C9DHQBSS8G6W9WFE",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 27,
+    "source": "Click to select a block and navigate with arrow keys."
+  },
+  {
+    "id": "01KQXQV12AD39WNKYHDNA75HES",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 70,
+    "source": "Configure Warp to launch from your most used development tools"
+  },
+  {
+    "id": "01KQXQV12AYDMTHHJYCXQS4NVW",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 20,
+    "source": "Create your first block"
+  },
+  {
+    "id": "01KQXQV12C5527GXQXM6RWZ370",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 92,
+    "source": "Find and run previously executed commands, workflows, and more."
+  },
+  {
+    "id": "01KQXQV12C69RNQ1RF2T3C009E",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 69,
+    "source": "Integrate Warp with your IDE"
+  },
+  {
+    "id": "01KQXQV12CFTDDZ6H67VE9H5W4",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 75,
+    "source": "How Warp uses Warp"
+  },
+  {
+    "id": "01KQXQV12D4DR0N4J8RHAHPWPC",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 76,
+    "source": "Learn how Warp's engineering team uses their favorite features"
+  },
+  {
+    "id": "01KQXQV12D7WYHZCAWQ367TMYG",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 115,
+    "source": "Launch configuration"
+  },
+  {
+    "id": "01KQXQV12D9YR6VNBPNZ1ENMEQ",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 45,
+    "source": "Make Warp your own by choosing a theme."
+  },
+  {
+    "id": "01KQXQV12DYNZC1700Z5HXRY4J",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 26,
+    "source": "Navigate blocks"
+  },
+  {
+    "id": "01KQXQV12E6QS51BKQ7CHX23MK",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 78,
+    "source": "Read article"
+  },
+  {
+    "id": "01KQXQV12E7BC8QYENFND3438D",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 38,
+    "source": "Open command palette"
+  },
+  {
+    "id": "01KQXQV12F09EWC1HQ8SG8T46Z",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 44,
+    "source": "Set your theme"
+  },
+  {
+    "id": "01KQXQV12FBJ2SEVRYK7FC54CA",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 116,
+    "source": "Save your current configuration of windows, tabs, and panes."
+  },
+  {
+    "id": "01KQXQV12FC0G2W2V0A4JSCKAA",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 64,
+    "source": "Set up Warp to honor your PS1 setting"
+  },
+  {
+    "id": "01KQXQV12FEKZW144XGZTSZRSW",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 21,
+    "source": "Run a command to see your command and output grouped."
+  },
+  {
+    "id": "01KQXQV12FQ1TGWJ35D74PW83N",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 33,
+    "source": "Right click on a block to copy/paste, share, more."
+  },
+  {
+    "id": "01KQXQV12GBD6TCYS0YR2JFNEZ",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 106,
+    "source": "Split panes"
+  },
+  {
+    "id": "01KQXQV12GQRBNSDGSF40G94DV",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 32,
+    "source": "Take an action on block"
+  },
+  {
+    "id": "01KQXQV12H1S0VX0CY165JVDT2",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 63,
+    "source": "Use your custom prompt"
+  },
+  {
+    "id": "01KQXQV12HBZR54842AX1BC34B",
+    "file": "app/src/resource_center/sections.rs",
+    "line": 66,
+    "source": "View documentation"
+  },
+  {
+    "id": "01KQXQV12A0WG966STTN65H689",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 397,
+    "source": "Copy rich-text selection"
+  },
+  {
+    "id": "01KQXQV12A5XA7FJ64WPF08B1C",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 678,
+    "source": "Create or edit link"
+  },
+  {
+    "id": "01KQXQV12A60QRZBM4PJ6R944N",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 318,
+    "source": "De-select shell commands"
+  },
+  {
+    "id": "01KQXQV12AEZCGXD6QRZFFD7TH",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 390,
+    "source": "Copy rich-text buffer"
+  },
+  {
+    "id": "01KQXQV12C789ZKVKADRXWRXX4",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 714,
+    "source": "Find in Notebook"
+  },
+  {
+    "id": "01KQXQV12DCAAJRSGTF6T5H1SM",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 471,
+    "source": "Move to start of paragraph"
+  },
+  {
+    "id": "01KQXQV12DG2RN2PFB2YSQ6863",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 404,
+    "source": "Log editor state"
+  },
+  {
+    "id": "01KQXQV12DT9W8CE5Q0HZMWB2R",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 487,
+    "source": "Move to end of paragraph"
+  },
+  {
+    "id": "01KQXQV12F35W520BV3FM2GC4X",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 336,
+    "source": "Select previous command"
+  },
+  {
+    "id": "01KQXQV12F3MRGTVVZBNN0D1E0",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 325,
+    "source": "Select shell command at cursor"
+  },
+  {
+    "id": "01KQXQV12F4ESNNSR3Q11FFY56",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 560,
+    "source": "Select to end of paragraph"
+  },
+  {
+    "id": "01KQXQV12FESMXGE27Z0PP9MW8",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 350,
+    "source": "Run selected commands"
+  },
+  {
+    "id": "01KQXQV12FMNKGH61P4C7PNP4F",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 553,
+    "source": "Select to start of paragraph"
+  },
+  {
+    "id": "01KQXQV12FQD38ZXZBGXWKRJBJ",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 343,
+    "source": "Select next command"
+  },
+  {
+    "id": "01KQXQV12G5EEWMBRBRAWJSGKR",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 740,
+    "source": "Toggle case-sensitive search"
+  }
+]
