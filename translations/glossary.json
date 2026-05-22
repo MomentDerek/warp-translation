@@ -3,7 +3,7 @@
   "metadata": {
     "tool_version": "warp-zh-builder 0.1.0",
     "created_at": "2026-05-08T00:00:00Z",
-    "term_count": 77,
+    "term_count": 81,
     "philosophy": "产品名 (Warp / Warp Drive / Warp Agent / MCP / AI / GPU / API / SSH / CLI / IDE / OS) 保留英文；行为概念给中文；UI 动词/名词给中文；快捷键修饰符（⌘/⌥/⇧/⌃）原样保留；占位符（{name}、%s 等）原样保留。"
   },
   "terms": {
@@ -467,6 +467,30 @@
       "en": "upgrade",
       "zh": "升级",
       "notes": "套餐升级动作。'Upgrade to grow your team' → '升级以扩充您的团队'；'Upgrade plan' → '升级套餐'。与 'downgrade / 降级' 对应。",
+      "do_not_translate": false
+    },
+    "mcp_server": {
+      "en": "MCP server",
+      "zh": "MCP 服务器",
+      "notes": "Model Context Protocol 服务器，作为 Agent 与数据源/工具之间的桥梁。'MCP server' → 'MCP 服务器'；'MCP servers' → 'MCP 服务器'；'Search MCP Servers' → '搜索 MCP 服务器'；'MCP server updated' → 'MCP 服务器已更新'。'MCP' 保留英文，'server' 统一译 '服务器'。",
+      "do_not_translate": false
+    },
+    "tool": {
+      "en": "tool",
+      "zh": "工具",
+      "notes": "MCP / Agent 上下文中的工具能力。'No tools available' → '暂无可用工具'；'tools' 译 '工具'。区别于通用 '工具栏 / toolbar' 等 UI 用语。",
+      "do_not_translate": false
+    },
+    "gallery": {
+      "en": "Gallery",
+      "zh": "模板库",
+      "notes": "MCP server 模板库（cloud-hosted gallery of MCP templates）。'Gallery Id' → '模板库 ID'；'Gallery Id: None' → '模板库 ID：无'。沿用 'cloud template / 云端模板' 词族。",
+      "do_not_translate": false
+    },
+    "template": {
+      "en": "template",
+      "zh": "模板",
+      "notes": "MCP / Workflow 模板。'Template sync id' → '模板同步 ID'；'cloud template' → '云端模板'。",
       "do_not_translate": false
     }
   }
