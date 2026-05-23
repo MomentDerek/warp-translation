@@ -97,15 +97,75 @@ Use `您` (formal) throughout this project. Do NOT mix with `你`. The PR3 batch
 
 ### 8. Decide when to mark `do_not_translate`
 
-Set `flags: ["pr*_first_batch", "do_not_translate"]` and leave `target` null when:
+Set `flags: ["do_not_translate", "<sub-flag>"]`, `target: null`, `status: "translated"` when:
 
 - Brand or product names: `Warp`, `Warp Drive`, `MCP`, `AWS Bedrock`, `Wispr Flow`
-- Search-keyword strings (lowercase multi-word, used for in-app search match — translation breaks search)
 - Format placeholder shells: `"{}"`, `"%b %d"`, `"v#.##.###"`
 - Editor placeholder hints showing literal commands: `"e.g. ls .*"`, `"aws login"`
 - Copyright / version strings
+- See the `do_not_translate` sub-flag taxonomy below for category-specific rules
 
-Do NOT use `do_not_translate` as a workaround for entries the heuristic should have rejected (panic strings, action IDs). Flag those upstream for a heuristic fix instead.
+**Note on search-keyword strings**: these are NOT `do_not_translate` anymore — see the bilingual-append technique below.
+
+### 9. `do_not_translate` sub-flag taxonomy
+
+Always pair `do_not_translate` with exactly one sub-flag that names the reason. This keeps the flag namespace clean and lets future audits filter by category. Current sub-flags:
+
+| Sub-flag | Use for | Rationale |
+|---|---|---|
+| `extractor_false_positive_doc_comment` | Rust `///` doc comments captured inside macro bodies (`lazy_static!`, `mod regexes { }`, etc.) by `scan_macro_tokens` bypassing the doc-attr gate | Not user-facing; extractor bug |
+| `test_fixture` | Real string literals living in unit-test fixtures (`*/testing/*.rs`, `*/tests/*.rs`, `*_test.rs`, hardcoded sample data) | Never shipped to users |
+| `wgpu_debug_label` | wgpu `TextureDescriptor.label`, `BufferDescriptor.label`, etc. — graphics-API debug names | Visible only in graphics debuggers, not the app UI |
+| `panic_message` | `.expect("...")`, `panic!("...")`, `unreachable!("...")` strings — internal assertion messages | See §10 |
+| `telemetry_payload` | String literals that flow into telemetry / log events (event names, dimension values, format strings consumed by tracing macros that don't render to UI) | See §11 |
+
+A target-less entry MUST set `status: "translated"` (so it leaves the `new` queue) and `target: null`. The `do_not_translate` flag plus the sub-flag together communicate "intentionally untranslated".
+
+### 10. Panic / `.expect` strings — keep English
+
+Per project policy as of 2026-05-23, `.expect("...")` / `panic!("...")` / `unreachable!("...")` / `debug_assert!(_, "...")` string literals are **not translated**. Flag them `["do_not_translate", "panic_message"]` and leave `target: null`.
+
+**Why**: panic strings are surfaced only when a crash occurs. They serve as diagnostic context for developers reading crash reports, stack traces, and minidumps — audiences that work in English regardless of UI locale. A Chinese panic string adds friction for those audiences without benefiting users (who never see panic text unless we ship a bug, and even then a localized panic doesn't make the crash less broken).
+
+Earlier batches (7–11) translated some panic strings before this policy was set. They're frozen as-is for now; a future audit batch can convert them if needed. Going forward: flag.
+
+### 11. Telemetry payload strings — keep English
+
+String literals that flow into telemetry, logging, or analytics events (without being rendered in the UI) are **not translated**. Flag them `["do_not_translate", "telemetry_payload"]` and leave `target: null`.
+
+Examples that qualify:
+- Event names and dimension values passed to `tracing::info!`, `telemetry::record!`, `track_event!`-style macros without `format!` rendering for the user
+- Format strings consumed by structured logging where the output goes to a logfile, not a UI surface (`width: {:?}, height: {:?}`, `{}s`, etc.)
+- `1 million` / `10 million` style range bucket names used as analytics dimensions
+
+When in doubt: trace the literal to its sink. If the sink is `eprintln!` to stderr that surfaces in a user-visible toast/dialog → translate. If the sink is a telemetry pipeline, log file, or developer console → flag.
+
+### 12. Search-keyword strings (`fn search_terms`) — bilingual append
+
+Settings widgets implement `fn search_terms(&self) -> &str` returning a space-separated lowercase keyword string. The matcher at `app/src/settings_view/settings_page.rs:1405` does `terms.to_lowercase()` then for each query word `terms_lower.contains(word)`. This means **appending Chinese keywords to the English keyword string preserves English search and unlocks Chinese search** simultaneously.
+
+**Pattern**:
+
+| Original (source) | Target (translation) |
+|---|---|
+| `link open desktop native redirect url intent deep link deeplink` | `link open desktop native redirect url intent deep link deeplink 链接 打开 桌面 原生 重定向 网址 意图 深度 跳转` |
+
+**Rules**:
+
+1. Keep every English keyword in the original order and spelling. Do not delete, reorder, or "correct" the source list — it represents the original author's UX intent for the English locale.
+2. After the last English keyword, append one space then the Chinese keywords space-separated, lowercase (Chinese has no case but Latin acronyms mixed in must stay lowercase to match the `to_lowercase()` step).
+3. Mirror the semantic content. Don't pad with marketing words; don't invent unrelated synonyms. Each Chinese keyword should correspond to at least one English keyword's meaning.
+4. No punctuation (no `，` no `,` no `；`). The matcher splits on whitespace; punctuation becomes part of a "word" and breaks matching.
+5. No duplicates. If a Chinese rendering happens to equal an English one (rare — maybe `mcp` → `mcp`), don't repeat it.
+6. Optional but recommended: add `search_terms_bilingual` flag (alongside the normal `status: "translated"`, with the bilingual string in `target`) for future audits. This is **not** a `do_not_translate` flag — the entry IS translated, just using an additive technique.
+
+**Why this works**: every English query word continues to match because the original keywords are still verbatim in the target. Chinese queries match because the Chinese keywords are now present too. Mixed queries (`"link 链接"`) also work — every whitespace-delimited word from the query must appear in the terms string, and both halves do.
+
+**Anti-patterns**:
+
+- Replacing English with Chinese only (`"链接 打开 桌面 ..."`) → breaks English search.
+- Translating individual English words in place (`"链接 open desktop ..."`) → unreadable mid-string, partial coverage, easy to drift.
+- Adding commas or full-width punctuation (`"link, open, desktop, 链接, 打开"`) → matcher sees `"link,"` as one word; `"link"` query fails to match.
 
 ---
 
