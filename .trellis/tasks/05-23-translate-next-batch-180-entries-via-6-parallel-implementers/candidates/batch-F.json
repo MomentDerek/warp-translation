@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01KQXQV129GXTVBJ3BMN339QSM",
+    "source": "Cannot discard changes while a git operation (merge, rebase, etc.) is in progress",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 331,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12DS812SY1Y5C2H3NE5",
+    "source": "No changes to discard",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 334,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12BT9CYDEQ1T3JE0TPQ",
+    "source": "Discard uncommitted changes?",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 528,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12BKFV4XNJ393C0NC8S",
+    "source": "Discard all uncommitted changes to file?",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 531,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12BWDXZK6H7NJR0X614",
+    "source": "Discard all changes?",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 533,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12BMJ8KBM4ZZMZVA3CZ",
+    "source": "Discard all changes to file?",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 535,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12JC3NJAKYEH5FQ495P",
+    "source": "You're about to discard all local changes that haven't been committed.",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 542,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12G2ES0QC2BRX14SAFP",
+    "source": "This will restore this file to the last committed version and discard local edits.",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 543,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12JMFEV3K4REC72CX74",
+    "source": "You're about to discard all committed and uncommitted changes.",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 544,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12GN634GFT27PXCS8RD",
+    "source": "This will restore this file to the main branch version and discard all committed and uncommitted edits.",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 545,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12GFTKKFSNRAW4BSFD9",
+    "source": "This will reset this file to the {branch} branch version and discard all committed and uncommitted edits.",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 547,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12A6K22E0XYN8MG9M17",
+    "source": "CodeReviewView dropped during render",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 1082,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12C2FM4VYM0WAP832AD",
+    "source": "Initialize codebase",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 1314,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12HRPX2X120TB03BQCG",
+    "source": "Uncommitted changes",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 1511,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV129CG05JVQFSBXRQVER",
+    "source": "Code Review: Set available_branches with {} branches",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 2365,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV1292VNTT39NCX8YK927",
+    "source": "Code Review: Set available_branches for repo {:?} with {} branches",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 2367,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12DW7V3ND0E8PPCX2XE",
+    "source": "Loading open changes...",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 3629,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12BY2MP8TAKFH9PW1Z6",
+    "source": "Error loading diffs",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 3783,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV129XRADKSYPV37TBGJX",
+    "source": "Cannot detect diffs for this folder",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 3893,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12D1H2GHV24733N4DGD",
+    "source": "No open changes",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 4141,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12999SZ4NK652K133VC",
+    "source": "As you or the Agent make changes, you'll be able to track them here.",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 4149,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12EB3YW3831A4ZR6QHR",
+    "source": "Repo is initialized with a {file_name} file.",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 4192,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12A5KN663ZDGQJST9ZT",
+    "source": "Comments sent to agent",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 4338,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12AH1SP65DRM18SBZBT",
+    "source": "Could not submit comments to the agent",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 4346,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12GW9EEDYNPFGYWQTQC",
+    "source": "This file has unsaved changes. {save_shortcut} to save",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5010,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12A9JMBC3BYCYAKEVZ0",
+    "source": "Diff is too large to render",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5246,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV1293VS3DVNKREW67NQN",
+    "source": "Binary file - no diff available",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5259,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12DZKXD00K24622TB77",
+    "source": "New empty file",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5281,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12HZWD47B1HFT6FE8A9",
+    "source": "Unable to load file content",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5311,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  },
+  {
+    "id": "01KQXQV12DK58TEFF0NAWXQ9VD",
+    "source": "No file selected",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5403,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "code_review_ui"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01KS7TBZWSPBM9HRG9Z53QJ3ZM",
+    "source": "Start character in selection buffer should exist",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 976,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWMX3S9KGK3XFDH4ZPN",
+    "source": "End character in selection buffer should exist",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 980,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJM7PQ524B73CD0PZH",
+    "source": "Buffer should contain character at start index of selection",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 983,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJZNHYQXDVHQHYAZQM",
+    "source": "Autocompleted symbol should have at least one character",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1072,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWSENMPN1Q1PA3QBBAA",
+    "source": "Start of selection should exist",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1114,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWR318G0AYZHTZR0H7W",
+    "source": "Selection head must be valid CharOffset",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1686,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRTWRPP577VG4X8Z91",
+    "source": "Selection head must be valid Point",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1691,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWR4S51R8JD583M37C2",
+    "source": "Selection head row should have a length",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1701,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJYQA848WMDYF6K4R7",
+    "source": "Buffer::max_point must be valid CharOffset",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1719,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJF7SH9Y24RXSPXC7V",
+    "source": "Buffer must have characters at the current head.",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1752,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJ14QKV97F3WJM85QF",
+    "source": "Buffer must have characters at the current selection head.",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1771,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRQN21TR8G00T851X6",
+    "source": "Selection head must be a valid Point",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 1818,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRWTNTGS3YYEAAW7QY",
+    "source": "Should be able to get point",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2150,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRBCCR2TV0AF7W83FB",
+    "source": "Should be able to get start point of word",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2162,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRFN800WVFKEAJN24Z",
+    "source": "Should be able to get anchor",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2166,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRK59DARGSSR025K35",
+    "source": "Selection head should exist",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2218,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWKXXT7MNQBFZA5J1ZF",
+    "source": "Delete offset should exist",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2223,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWQ4F7NJS06JSH3GH63",
+    "source": "Offset should be in range",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2225,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWR926RF69D6E49140G",
+    "source": "Selection offset should be in range",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2277,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWR5Y8HGHQWF0ERYDDP",
+    "source": "Selection start - 1 (checked subtraction) should be a valid Anchor",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2634,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRVMJ6EQBGTE5V8PQS",
+    "source": "Selection end - 1 (checked subtraction) should be a valid Anchor",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2648,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWR2NWXKD0Q9PVGJ1JY",
+    "source": "Selection end must be valid Point",
+    "file": "app/src/editor/view/model/mod.rs",
+    "line": 2807,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJW848SBN0881HSJ6R",
+    "source": "Anchors should be comparable",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 3833,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRCDQ2A23SK12XCTWX",
+    "source": "Should be able to get point from cursor",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 3838,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJT964QHCX2KCKR2EP",
+    "source": "Anchor should exist",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 3854,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWR6HXB1JNB8J9ADSKV",
+    "source": "Selection must be convertible to byte offset",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 4243,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWPGNHC2DJ47D5Z495N",
+    "source": "Last selection's end must be a valid Point",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5584,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWMEAB0P5VFZERJFAPQ",
+    "source": "DisplayPoint should convert to an Anchor",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5662,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWR3V3RXWWGV49F5X1X",
+    "source": "Should be able to get end point of selection.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5968,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRASEJZP3TNBW1GRA2",
+    "source": "Should be able to get length of line at selection end.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5974,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "editor view/mod.rs panic"
+  }
+]

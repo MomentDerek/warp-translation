@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01KS7TBZWPCEW4JNN69EF6CAS2",
+    "source": "MouseReportingEnabled failed to serialize",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1491,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWRT6BGWV8WWZR7P27B",
+    "source": "ScrollReportingEnabled failed to serialize",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1500,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWNZV91XSWGVYN2C6H5",
+    "source": "FocusReportingEnabled failed to serialize",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1509,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWV86KA2QPW1NEZB2YA",
+    "source": "failed to serialize VimMode",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1718,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWV8HAWEMZPQNC44CBG",
+    "source": "failed to serialize VimUnnamedSystemClipboard",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1726,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWV8GXKGA0C5YM84HN5",
+    "source": "failed to serialize VimStatusBar",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1735,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWVTGEXE461QXQSB1VP",
+    "source": "failed to serialize EnableAutosuggestions",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1765,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWV0A3TDVP6J0GJZK7K",
+    "source": "failed to serialize HideAutosuggestionKeybindingHint",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1774,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWV2GD50Z6R9XYEDWE3",
+    "source": "failed to serialize ShowAutosuggestionIgnoreButton",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1783,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWVMD7ESM5FM3NM0QGR",
+    "source": "failed to serialize ShouldConfirmCloseSession",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1815,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWQGVQTSGR2NNTKKKFA",
+    "source": "Pin position should exist in default size percentages",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 3082,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic"
+  },
+  {
+    "id": "01KS7TBZWJ39J7089JK2VQM11Z",
+    "source": "Active Screen",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 889,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "flag_telemetry_payload",
+    "category": "features_page.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWV9Z3DMNEQ66SB2FDZ",
+    "source": "width: {:?}, height: {:?}",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 899,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "features_page.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWV0JQB9HRQ68G55ZDW",
+    "source": "{}s",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 930,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "features_page.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWPZ3A6EESTKX57N9PH",
+    "source": "Left Option key is Meta",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 118,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWRJYZ4CBHD3EMT2V15",
+    "source": "Right Option key is Meta",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 119,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWP3W1KBH28K5Q1CM93",
+    "source": "Left Alt key is Meta",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 121,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWRQT6GEGXCHN41R530",
+    "source": "Right Alt key is Meta",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 122,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVXYMX19Y5A3QFTZ0F",
+    "source": "copy on select within the terminal",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 136,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVXFGSJ03D5C539S7Q",
+    "source": "linux selection clipboard",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 144,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVCCVEFE5EW1C8EBXF",
+    "source": "autocomplete quotes, parentheses, and brackets",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 157,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWV0S6R951MXSHSHVHD",
+    "source": "restore windows, tabs, and panes on startup",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 170,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVFPASC59V3JEXYWDA",
+    "source": "scroll reporting",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 204,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWV68QXBBGCE5KHTYDJ",
+    "source": "completions while typing",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 217,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVYT1VDGQEX4Q874DH",
+    "source": "command corrections",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 230,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVPHQ7J24E4C7E09R3",
+    "source": "error underlining",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 243,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVRJE5CCN5DGAE649C",
+    "source": "syntax highlighting",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 256,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVFR1Y4V147WG6KKWC",
+    "source": "audible terminal bell",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 269,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVQM2Q1M79NSWR33EA",
+    "source": "autosuggestion keybinding hint",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 290,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWTTAAEVPNSA68556W9",
+    "source": "Warp SSH wrapper",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 301,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  }
+]

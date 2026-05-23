@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01KS7TBZWV372HM4DH7AV4F42X",
+    "source": "outline codebase symbols context menu code indexing",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6041,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVSB44F08RRPTQQT20",
+    "source": "terminal input message line bar agent",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6093,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVVJ026MVC6GT4ZG3H",
+    "source": "autosuggestion ignore button hide",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6196,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVHQV2GFKZFH5DVNXF",
+    "source": "completions autosuggestions tab keybinding arrow accept",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6326,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVH5446W38VN10BH0P",
+    "source": "ctrl tab behavior pane switch session recent",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6384,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV2VEKDKEA4BVY4MFX",
+    "source": "mouse reporting",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6431,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVP0VZPYKMBH6WPR90",
+    "source": "audible bell",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6591,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVVANCJZBMAY6ZPPB8",
+    "source": "word smart select semantic separator",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6695,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV6GDFVN8MWGY54E69",
+    "source": "zero state new conversation terminal block welcome output first",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6768,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV87Z8R28J2YFZ64NP",
+    "source": "copy on select",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6814,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV0EF88T704CX5W072",
+    "source": "new tab placement",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6859,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVPRMXK8KG8Z4MZPZD",
+    "source": "default session mode agent terminal new pane tab open config",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6895,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVQ46W6TJS1YS3EE03",
+    "source": "global workflows command search",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6947,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVEA7RH1TXMFNKM93D",
+    "source": "linux selection clipboard middle click",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7004,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV1712BC85TNMKTV7B",
+    "source": "render integrated discrete gpu graphics",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7057,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVJXWQKFXJ1CXY8D55",
+    "source": "wayland x11 window system compositor",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7126,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV1VKMPY9NA27A6GA0",
+    "source": "gpu graphics backend vulkan dx12 directx12 opengl driver",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7202,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVQK9MRAE5F9RDFEWJ",
+    "source": "show tooltip on click on links",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 313,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVFA25VY7G1TZARCBD",
+    "source": "quit warning modal",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 323,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVHRHTRA5Q0CSBQ7B1",
+    "source": "alias expansion",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 339,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWV5XYZ1KB9RN15XZY6",
+    "source": "middle-click paste",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 355,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVF2Q3FPTVWTX652WE",
+    "source": "code as default editor",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 371,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVWBKKZS34X5VFKHG1",
+    "source": "input hint text",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 387,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVRZ1QW65DKSH0N5K4",
+    "source": "editing commands with Vim keybindings",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 403,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWTDVDYS5JPR7MV02EV",
+    "source": "Vim unnamed register as system clipboard",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 419,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWTBFB9N9JZWZFTZM51",
+    "source": "Vim status bar",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 435,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWV98NFCRM2CKEVZWP3",
+    "source": "focus reporting",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 451,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWV80R4EHH5AY1WFBJV",
+    "source": "smart select",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 466,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVN8K8ND01E62ZM99E",
+    "source": "terminal input message line",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 476,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  },
+  {
+    "id": "01KS7TBZWVH9VWXZEM16YNRHSM",
+    "source": "slash commands in terminal mode",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 489,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "features_page.rs UI label"
+  }
+]

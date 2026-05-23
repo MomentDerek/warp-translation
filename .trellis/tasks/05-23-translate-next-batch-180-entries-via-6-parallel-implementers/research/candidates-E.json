@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01KS7TBZWRR77TQ4X87CATWQ5H",
+    "source": "Scroll {{ delta: {delta} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 478,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWJSTHY3M2QC3KQRAEH",
+    "source": "AltScroll {{ delta: {delta} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 479,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWRQFG0YETFKTQ7W1VD",
+    "source": "SharedSessionViewerAltScroll {{ new_scroll_top: {new_scroll_top} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 482,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWPWSB07KG79PTWWPZA",
+    "source": "JumpToPreviousCommand {{ topmost_block: {topmost_block} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 486,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWRBHK4532CX2BQXKYF",
+    "source": "ScrollToBottomOfOverhangingBlock {overhanging_block:?}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 491,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWJMQ6Q6F6S3W0109WB",
+    "source": "BlockSnackbarHover{{ is_hovered {is_hovered} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 497,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWJM1BRWD47C06SQBWW",
+    "source": "BlockNearSnackbarHover{{ is_hovered {is_hovered} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 500,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWKETKXFABGNAPM9MR8",
+    "source": "ClickOnGrid {{ position: {position:?}, modifiers: {modifiers:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 507,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWPK1V8XWZK4RCMT0YQ",
+    "source": "MaybeLinkHover {{ position: {position:?}, from_editor: {from_editor:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 514,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWP44CN2WQAYJ4XB7G4",
+    "source": "MaybeHoverSecret {{ secret_handle: {secret_handle:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 517,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWPZ61K7JVRE26FJ7X8",
+    "source": "MaybeDismissToolTip {{ from_keybinding: {from_keybinding:?}}}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 521,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWJGQG638XVH724GPW0",
+    "source": "AltScreenContextMenu {{ position: {position:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 527,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWQ9Y8E9K5TZ48XXVGF",
+    "source": "PromptContextMenu {{ position_offset_from_prompt: {position_offset_from_prompt:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 571,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWQ9B4CXZ728QXY5VVE",
+    "source": "OpenInputContextMenu {{ position: {position:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 574,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWSFTWTWWMS9WRMBTCD",
+    "source": "ToggleGridSecret {show_secret:?}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 598,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWSQ7FMSJY1P1ADWQSH",
+    "source": "ToggleRichContentSecret {show_secret:?}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 600,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWP9ARPD2W166SN1K60",
+    "source": "MakeAllParticipantsReaders {{ reason: {reason:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 644,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWPQTVVT5WKE32N6DAY",
+    "source": "MiddleClickonGrid {{ position: {position:?} }}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 649,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWRV12CMNEYKWEF2C72",
+    "source": "SetMarkedText {{{marked_text:?}, {selected_range:?}}}",
+    "file": "app/src/terminal/view/action.rs",
+    "line": 676,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/view/action.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWJERA6ZT1GGCGXWD5C",
+    "source": "BlockStarted({:?}, Done bootstrapping: {:?})",
+    "file": "app/src/terminal/event.rs",
+    "line": 411,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWQ1KPGMJ576EJR8QPD",
+    "source": "Pre-Interactive SSH Session",
+    "file": "app/src/terminal/event.rs",
+    "line": 424,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWRJBP8FF4PRPFSZKMW",
+    "source": "SSH(remote shell: {remote_shell}",
+    "file": "app/src/terminal/event.rs",
+    "line": 425,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWRQJCZQXD3J7F4HDWY",
+    "source": "SSH ControlMaster error",
+    "file": "app/src/terminal/event.rs",
+    "line": 426,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWS1MB9ESWJSNY9GZTH",
+    "source": "Terminal mode swapped",
+    "file": "app/src/terminal/event.rs",
+    "line": 427,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWSY7HMR3PD5S2KHR73",
+    "source": "TmuxControlModeReady(primary_pane: {primary_pane})",
+    "file": "app/src/terminal/event.rs",
+    "line": 429,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWK36K0CNWJP5Z6EGB2",
+    "source": "DetectedEndOfSshLogin: {check_type:?}",
+    "file": "app/src/terminal/event.rs",
+    "line": 432,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWSZM8SCNVMNKPK3FRS",
+    "source": "TmuxInstallFailed(line: {line}, command: {command})",
+    "file": "app/src/terminal/event.rs",
+    "line": 441,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWMS0C3SMWNNW237X9T",
+    "source": "Executed in-band command with ID {} and exit code {}",
+    "file": "app/src/terminal/event.rs",
+    "line": 445,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWJ5K0WWYC07PQQFZEG",
+    "source": "AgentTaggedInChanged(is_tagged_in: {is_tagged_in})",
+    "file": "app/src/terminal/event.rs",
+    "line": 461,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  },
+  {
+    "id": "01KS7TBZWQS1AAR0YW6YYJPQA1",
+    "source": "RemoteServerReady(session: {session_id:?})",
+    "file": "app/src/terminal/event.rs",
+    "line": 465,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "terminal/event.rs telemetry"
+  }
+]

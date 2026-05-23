@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01KS7TBZWVBY8KD0F5VVPXYZ78",
+    "source": "link open desktop native redirect url intent deep link deeplink",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4183,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV0XXGT6N23E6NSAM3",
+    "source": "restore session window tab pane startup",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4243,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVZX14KXQHCPQVFW2Z",
+    "source": "sticky command block header snackbar",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4338,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVRSEVXVGSHFAYDBVJ",
+    "source": "link tooltip click open",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4391,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVTDJBV679QS8NK4M8",
+    "source": "editor open files markdown AI conversations layout pane tab",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4437,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVRZ962HSTB76AJCTQ",
+    "source": "warning popup modal dialog quit logout log out close",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4459,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVA218FWZ8A7QWTDNJ",
+    "source": "login item startup start mac windows app restart automatic",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4506,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVYJDJQPGER7ZFZRN5",
+    "source": "quit all windows closed",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4557,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVCG2H2Z13FXEPJMJJ",
+    "source": "changelog updates",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4604,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV28065R9K8X54RR6D",
+    "source": "mouse scroll wheel multiplier lines",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4651,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVBD5QT4VE1GT9YBKQ",
+    "source": "warp default terminal application",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4784,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVKV1YPBV6F17R7Z5Q",
+    "source": "max block size lines maximum limit memory",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4829,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVY9G0G16H8BRM9JEG",
+    "source": "ssh wrapper",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4890,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV1V8WAWZDC89GNHF8",
+    "source": "desktop notifications",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 4949,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWV084XACY7REB0G29Q",
+    "source": "startup shell session",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5134,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVAKABMT50SSSJRK3M",
+    "source": "starting working directory pwd session",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5173,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVZBK7W8V81YS8KE8A",
+    "source": "reopen restore recover closed tab session",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5210,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVJEFTZJKB3Q4CH07F",
+    "source": "warning popup modal dialog shared session close",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5232,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVW5AXHYVGYJKHRZ4M",
+    "source": "extra meta key alt option",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5280,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVE9JW8AKAPPTQQ67Z",
+    "source": "global hotkey quake mode keybinding quick terminal",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5349,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVTKPX6986TBHAB193",
+    "source": "autocomplete autoclose symbol bracket quote parentheses braces",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5494,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVX7TQNN7VYZV6KQB7",
+    "source": "error underline editor",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5540,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVRH3MS3T53J1F3PXW",
+    "source": "syntax highlighting editor",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5586,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVCZEF3J867828YWF5",
+    "source": "completions menu type typing",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5632,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVW0QJ4E32Y6YFBZQ1",
+    "source": "suggest command corrections",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5682,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVSY555KKNS6QS4PVH",
+    "source": "expand alias expansion",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5728,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVHR9E3N8DBYYA1188",
+    "source": "middle click paste clipboard",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5775,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVAEE8A8JXWDG22YGS",
+    "source": "vim mode keybindings",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5824,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWJD7C5R8WWVPG0JAS4",
+    "source": "@ at sign context menu terminal mode AI assistant",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5933,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  },
+  {
+    "id": "01KS7TBZWVDAC97QA8TN7ZJ4FH",
+    "source": "slash commands terminal mode input menu",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5985,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms"
+  }
+]

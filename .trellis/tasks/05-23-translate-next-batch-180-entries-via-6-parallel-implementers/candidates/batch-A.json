@@ -1,0 +1,311 @@
+[
+  {
+    "id": "01KQXQV12J1XN9X5P8EP8G832C",
+    "source": "failed to serialize VimMode",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1718,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "b4e2309802d9fe53"
+  },
+  {
+    "id": "01KQXQV12JZKAXJSPS50BCM41C",
+    "source": "failed to serialize VimUnnamedSystemClipboard",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1726,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "031884d340a97909"
+  },
+  {
+    "id": "01KQXQV12JHAMW6QGM136HQYQR",
+    "source": "failed to serialize VimStatusBar",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1735,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "977bc7164d8e9f48"
+  },
+  {
+    "id": "01KQXQV12JS09K3ARMDPC119W6",
+    "source": "failed to serialize EnableAutosuggestions",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1765,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "6cefe5a88e821200"
+  },
+  {
+    "id": "01KQXQV12J65H7MJYW31KCX9SR",
+    "source": "failed to serialize HideAutosuggestionKeybindingHint",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1774,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "8f276d118e59835b"
+  },
+  {
+    "id": "01KQXQV12J1MFJ8N1HN896VXHX",
+    "source": "failed to serialize ShowAutosuggestionIgnoreButton",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1783,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "72e6400eb7643199"
+  },
+  {
+    "id": "01KQXQV12J56Z4K1K2ADQ0ZRR1",
+    "source": "failed to serialize ShouldConfirmCloseSession",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1815,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "181fe92917cd5a1e"
+  },
+  {
+    "id": "01KQXQV12JZQR8NQD7X9C2WVJ7",
+    "source": "width: {:?}, height: {:?}",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 899,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "features_page.rs telemetry",
+    "source_hash": "5a535014657e2d17"
+  },
+  {
+    "id": "01KQXQV12J4KW1B8WT0AVXKQXF",
+    "source": "{}s",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 930,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "features_page.rs telemetry",
+    "source_hash": "6ac13a41542fa685"
+  },
+  {
+    "id": "01KQXQV12824MGBVM0SAKNRQ0A",
+    "source": "$0.00",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 2186,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV1282XSXHFQE33RXPJW4",
+    "source": "${:.2}",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1385,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV1283K0QAG56VA9MA1MC",
+    "source": "0 credits",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 2186,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV1287N7AX0A0CTH2QNWT",
+    "source": "1 credit",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1852,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV128C1ZF7SW0Z3HXPE3X",
+    "source": "$200.00",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1812,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV128CQ79SM5MA541MWXS",
+    "source": "${price_dollars:.2}",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1973,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV128M23WF08HGY9WM4PN",
+    "source": "%b %d at %-I:%M %p",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 2217,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV128NJ9FG6AKSSKXTD5Q",
+    "source": "1 credit remaining",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1132,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV128VQ01TKWJW3PJWJHW",
+    "source": "${cost_dollars:.2}",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1869,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV1299NYRZCZRW7AB53S3",
+    "source": "Buying…",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 2000,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV12E5VMVTG7XHH0RTTH1",
+    "source": "Overview",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 103,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV12J42SGG689AW4GKJD4",
+    "source": "{ADDON_CREDITS_DESCRIPTION} {ADDITIONAL_ADDON_CREDITS_DESCRIPTION_FOR_TEAM}",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1782,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV12J5S79VF5S6HFBNC74",
+    "source": "{}/Unlimited",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 2299,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV12J612QX6B51AA5YSY2",
+    "source": "your selected",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1913,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV12JHRNCHTFPAXVV851W",
+    "source": "{} credits remaining",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1135,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV12JJEVB10SHQA4QJNS9",
+    "source": "{discount}% off",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 132,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV12JK9710467AYSZVGKN",
+    "source": "bring your own key",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 3123,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KS2GEQS35DFC5QQJWA11N5GD",
+    "source": "visit the admin panel",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 109,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KS2GEQSEKYWDBCBA4GPVY2M6",
+    "source": "{} credits",
+    "file": "app/src/settings_view/billing_and_usage_page.rs",
+    "line": 1854,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV1285VJPAA4HXDPRDVX3",
+    "source": "1 million",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 701,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  },
+  {
+    "id": "01KQXQV128AS7EAB2YQBAF3Z2H",
+    "source": "10 million",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 699,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "settings_billing_ui"
+  }
+]

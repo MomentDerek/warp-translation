@@ -1,0 +1,35 @@
+[
+  {
+    "id": "01KQXQV12BM97K5TN0AWAER0TK",
+    "source": "Environments",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 85,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI",
+    "source_hash": "07437cd651bed86e"
+  },
+  {
+    "id": "01KQXQV12JKHXW03581SJYJ2GS",
+    "source": "{owner}/{repo}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 185,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI",
+    "source_hash": "a0811bd0962f14fb"
+  },
+  {
+    "id": "01KQXQV12JGDVH7J56D3E70ZXA",
+    "source": "{} · {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 206,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI",
+    "source_hash": "b4caf63a003db9c1"
+  }
+]

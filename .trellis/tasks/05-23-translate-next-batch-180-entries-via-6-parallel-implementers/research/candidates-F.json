@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01KS7TBZWMDWBKAMABQ9XDWYEE",
+    "source": "Environments",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 85,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWM8K3Z64DFVAEH0SMK",
+    "source": "Environments define where your ambient agents run. Set one up in minutes via GitHub (recommended), Warp-assisted setup, or manual configuration.",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 86,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWVNQNZ4CAJN5ER3JXQ",
+    "source": "{owner}/{repo}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 185,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWPKJC3VEST790JBVH8",
+    "source": "Last edited: {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 194,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWPRHMCW52BZ4TJ8EES",
+    "source": "Last used: {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 200,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWP17N9EZC45QKWQVW4",
+    "source": "Last used: never",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 203,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWVRPQPX99RV6ZZXEF8",
+    "source": "{} · {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 206,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWSJB23EW2SHZDW0E8J",
+    "source": "Successfully updated environment",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 639,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWSM676AMVE1WNHXY35",
+    "source": "Successfully created environment",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 657,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWMGHV5F6BK2H2FYSWH",
+    "source": "Environment deleted successfully",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 674,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWS2DS95Z8VAW7DSM9Y",
+    "source": "Successfully shared environment",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 697,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWNMCEVTDM3YJX84235",
+    "source": "Failed to share environment with team",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 699,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWS01TSFKQC8DZB48CY",
+    "source": "Unable to create environment: not logged in.",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 769,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWS6XR7EJYGTWSK3N5R",
+    "source": "Unable to save: environment no longer exists.",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 796,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWSVWQ1K9WRWX0XC84M",
+    "source": "Unable to share environment: you are not currently on a team.",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 965,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWSAKA7WZWDRCH68SYK",
+    "source": "Unable to share environment: environment is not yet synced.",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 973,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWPFR832AK5FBPV0QQG",
+    "source": "No environments match your search.",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1290,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWRPXVHHKTC4H3GKN59",
+    "source": "Shared by Warp and {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1320,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWRT1PE483Q7WE4ZNXR",
+    "source": "Shared by Warp and your team",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1321,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWPSCTR0BH7ZB9ST4QZ",
+    "source": "Launch agent",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1433,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWQ7T7KHZWGMFGRN4E2",
+    "source": "Quick setup",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1452,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWRPBQMG1CCR30A95HY",
+    "source": "Select the GitHub repositories you’d like to work with and we’ll suggest a base image and config",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1455,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWTAFT2KNQEHS2WFR1T",
+    "source": "Use the agent",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1466,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWKZRTXPVQ35FDY37JG",
+    "source": "Choose a locally set up project and we’ll help you set up an environment based on it",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1469,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWTA3SMNFQ35WSSRHX1",
+    "source": "You haven’t set up any environments yet.",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1488,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWKA11DEXAZGGM9F5X3",
+    "source": "Choose how you’d like to set up your environment:",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1497,
+    "occurrences_kind": "literal",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWMTVD2WV9N77HCF5D5",
+    "source": "Env ID: {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1762,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWNN35MM2M5HQM0J4FG",
+    "source": "Image: {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1817,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWQQXZGTQVKSEHPC2T8",
+    "source": "Repos: {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1825,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  },
+  {
+    "id": "01KS7TBZWRX0Y3TEFE14P67XET",
+    "source": "Setup commands: {}",
+    "file": "app/src/settings_view/environments_page.rs",
+    "line": 1830,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "auto_ui",
+    "action_hint": "translate",
+    "category": "environments_page.rs UI"
+  }
+]

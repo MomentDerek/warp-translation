@@ -1,0 +1,101 @@
+[
+  {
+    "id": "01KQXQV12J1XN9X5P8EP8G832C",
+    "source": "failed to serialize VimMode",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1718,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "b4e2309802d9fe53"
+  },
+  {
+    "id": "01KQXQV12JZKAXJSPS50BCM41C",
+    "source": "failed to serialize VimUnnamedSystemClipboard",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1726,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "031884d340a97909"
+  },
+  {
+    "id": "01KQXQV12JHAMW6QGM136HQYQR",
+    "source": "failed to serialize VimStatusBar",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1735,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "977bc7164d8e9f48"
+  },
+  {
+    "id": "01KQXQV12JS09K3ARMDPC119W6",
+    "source": "failed to serialize EnableAutosuggestions",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1765,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "6cefe5a88e821200"
+  },
+  {
+    "id": "01KQXQV12J65H7MJYW31KCX9SR",
+    "source": "failed to serialize HideAutosuggestionKeybindingHint",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1774,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "8f276d118e59835b"
+  },
+  {
+    "id": "01KQXQV12J1MFJ8N1HN896VXHX",
+    "source": "failed to serialize ShowAutosuggestionIgnoreButton",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1783,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "72e6400eb7643199"
+  },
+  {
+    "id": "01KQXQV12J56Z4K1K2ADQ0ZRR1",
+    "source": "failed to serialize ShouldConfirmCloseSession",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 1815,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_panic_message",
+    "category": "features_page.rs panic",
+    "source_hash": "181fe92917cd5a1e"
+  },
+  {
+    "id": "01KQXQV12JZQR8NQD7X9C2WVJ7",
+    "source": "width: {:?}, height: {:?}",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 899,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "features_page.rs telemetry",
+    "source_hash": "5a535014657e2d17"
+  },
+  {
+    "id": "01KQXQV12J4KW1B8WT0AVXKQXF",
+    "source": "{}s",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 930,
+    "occurrences_kind": "macro_arg",
+    "audit_verdict": "uncertain",
+    "action_hint": "flag_telemetry_payload",
+    "category": "features_page.rs telemetry",
+    "source_hash": "6ac13a41542fa685"
+  }
+]

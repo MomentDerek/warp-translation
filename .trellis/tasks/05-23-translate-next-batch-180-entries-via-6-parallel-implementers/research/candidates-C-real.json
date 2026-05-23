@@ -1,0 +1,189 @@
+[
+  {
+    "id": "01KQXQV12JS9NKESRG8DDABGNF",
+    "source": "outline codebase symbols context menu code indexing",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6041,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "8d01f8d6a41e2ea6"
+  },
+  {
+    "id": "01KQXQV12JKNZMPPQ8DAFQAG8A",
+    "source": "terminal input message line bar agent",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6093,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "afa16ead2c88d51b"
+  },
+  {
+    "id": "01KQXQV12JM1FMN5ZEQF238NN5",
+    "source": "autosuggestion ignore button hide",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6196,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "37ef50e8d89bb72d"
+  },
+  {
+    "id": "01KQXQV12JYV9Y0VF8E4X5CBB2",
+    "source": "completions autosuggestions tab keybinding arrow accept",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6326,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "2c037b0a12ac08e9"
+  },
+  {
+    "id": "01KQXQV12J5HTKYAG7D26PZWV8",
+    "source": "ctrl tab behavior pane switch session recent",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6384,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "b3155b8c4d7e305e"
+  },
+  {
+    "id": "01KQXQV12JMMNHTRAAEY2DXDEN",
+    "source": "mouse reporting",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6431,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "71db407b586ba307"
+  },
+  {
+    "id": "01KQXQV12J79CSQRRGWJB0JF4J",
+    "source": "audible bell",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6591,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "105560cb7019953a"
+  },
+  {
+    "id": "01KQXQV12JE3QB2BDE35RMJBS8",
+    "source": "word smart select semantic separator",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6695,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "9032cc478e9d8cec"
+  },
+  {
+    "id": "01KQXQV12JKFYN9S6V3QGBJAXX",
+    "source": "zero state new conversation terminal block welcome output first",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6768,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "0e95645fdcdaf857"
+  },
+  {
+    "id": "01KQXQV12J8J6X6036HCB9SH87",
+    "source": "copy on select",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6814,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "6a7a77aee73c8db8"
+  },
+  {
+    "id": "01KQXQV12JZJ5HNFM570NE0XZ8",
+    "source": "new tab placement",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6859,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "c54b12e9db1975ce"
+  },
+  {
+    "id": "01KQXQV12J8ZZ3RC1YA78696Q4",
+    "source": "default session mode agent terminal new pane tab open config",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6895,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "3afe19bd73562a67"
+  },
+  {
+    "id": "01KQXQV12JQRZ0DFN04E9G565V",
+    "source": "global workflows command search",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6947,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "5c3ade97dc82af01"
+  },
+  {
+    "id": "01KQXQV12J4YHN62QZFEYW366D",
+    "source": "linux selection clipboard middle click",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7004,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "c352736265cea293"
+  },
+  {
+    "id": "01KQXQV12J753MERGJ3B000MCY",
+    "source": "render integrated discrete gpu graphics",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7057,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "73a8f52d472fee8f"
+  },
+  {
+    "id": "01KQXQV12J0QVKGD3B1NH5JEXP",
+    "source": "wayland x11 window system compositor",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7126,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "107c22703e6c2157"
+  },
+  {
+    "id": "01KQXQV12J3JFVPM3W8DQ60RD2",
+    "source": "gpu graphics backend vulkan dx12 directx12 opengl driver",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7202,
+    "occurrences_kind": "literal",
+    "audit_verdict": "uncertain",
+    "action_hint": "bilingual_search_terms",
+    "category": "features_page.rs search_terms",
+    "source_hash": "dfa7f59f83f30b34"
+  }
+]

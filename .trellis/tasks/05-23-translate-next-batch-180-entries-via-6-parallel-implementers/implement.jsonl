@@ -1,0 +1,4 @@
+{"file": ".trellis/workflow.md", "reason": "Project workflow + translation conventions."}
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "Authoritative translation policy: glossary, §10 panic_message, §11 telemetry_payload, §12 search_terms bilingual."}
+{"file": ".trellis/tasks/archive/2026-05/05-23-translate-next-uncertain-new-entries-batch-60-entries-12/prd.md", "reason": "Immediately prior batch — glossary baseline, deferred-work list."}
+{"file": ".trellis/tasks/archive/2026-05/05-23-translate-next-uncertain-new-entries-batch-60-entries-12/apply_translations.py", "reason": "Apply-script template: invariants, flag flow, idempotency."}
