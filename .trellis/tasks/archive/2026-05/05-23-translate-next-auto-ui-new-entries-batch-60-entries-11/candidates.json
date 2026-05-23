@@ -1,0 +1,386 @@
+[
+  {
+    "id": "01KQXQV128JN2JRX0BYNZV0B9S",
+    "source": "*Secrets are not sent to Warp's server.",
+    "file": "app/src/util/tooltips.rs",
+    "line": 206
+  },
+  {
+    "id": "01KQXQV129M97YSH8GF78FRBAZ",
+    "source": "CLI agent toolbar",
+    "file": "crates/onboarding/src/slides/third_party_slide.rs",
+    "line": 180
+  },
+  {
+    "id": "01KQXQV12AS0865E39T56FM7P4",
+    "source": "Current Directory",
+    "file": "app/src/terminal/input/conversations/view.rs",
+    "line": 45
+  },
+  {
+    "id": "01KQXQV12B71JN4J8FYR2SAQMM",
+    "source": "Don't show again.",
+    "file": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+    "line": 149
+  },
+  {
+    "id": "01KQXQV12BBZABG9EX7CJ1G757",
+    "source": "Edit toolbar",
+    "file": "app/src/workspace/header_toolbar_editor.rs",
+    "line": 20
+  },
+  {
+    "id": "01KQXQV12CCJQ8ZWXH2XX6YDXH",
+    "source": "Full Terminal Use",
+    "file": "app/src/terminal/input/models/view.rs",
+    "line": 85
+  },
+  {
+    "id": "01KQXQV12CW7VPTP38A0BJJN80",
+    "source": "Find in selected block",
+    "file": "app/src/view_components/find.rs",
+    "line": 50
+  },
+  {
+    "id": "01KQXQV12DB8AVGNF99AKWQZNZ",
+    "source": "Meet your Warp input",
+    "file": "crates/onboarding/examples/callout.rs",
+    "line": 84
+  },
+  {
+    "id": "01KQXQV12DBGSZW0210MK25N47",
+    "source": "Oops, something went wrong; your team data could not be found.",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 792
+  },
+  {
+    "id": "01KQXQV12DR2R2QYFB7EFQWFCD",
+    "source": "Modal button mouse state should be set",
+    "file": "app/src/workspace/native_modal.rs",
+    "line": 163
+  },
+  {
+    "id": "01KQXQV12DV0KBS22B01725PKC",
+    "source": "Manage profiles",
+    "file": "app/src/terminal/input/profiles/search_item.rs",
+    "line": 17
+  },
+  {
+    "id": "01KQXQV12DY82VRSRV726VYXKT",
+    "source": "New worktree branch name",
+    "file": "app/src/tab_configs/session_config.rs",
+    "line": 134
+  },
+  {
+    "id": "01KQXQV12DYXPJJM484CRV3TZ4",
+    "source": "No images",
+    "file": "crates/ui_components/src/lightbox.rs",
+    "line": 167
+  },
+  {
+    "id": "01KQXQV12FT2BFZVMW8NACFB8B",
+    "source": "Share from selected block and onwards",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 216
+  },
+  {
+    "id": "01KQXQV12FVH966QDG3WH3YCQQ",
+    "source": "Session sharing usage exceeded for the day. Please try again later.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1245
+  },
+  {
+    "id": "01KQXQV12GZVF44C24JS1S2MQ2",
+    "source": "Shows the diagnostic log of shell commands run by prompt context chips (dogfood only)",
+    "file": "app/src/workflows/local_workflows.rs",
+    "line": 222
+  },
+  {
+    "id": "01KQXQV12H2YXM451D0MCNZS56",
+    "source": "Type text or Markdown, or '/' to insert content",
+    "file": "crates/editor/src/render/element/paragraph.rs",
+    "line": 15
+  },
+  {
+    "id": "01KQXQV12H3PHF5THXE9BRGJ3R",
+    "source": "We detected a crash during application startup, and adjusted your settings to use Xwayland for windowing. This can result in blurry text if you are using fractional scaling.",
+    "file": "app/src/workspace/view/crash_recovery.rs",
+    "line": 19
+  },
+  {
+    "id": "01KQXQV12H7YBWXR56KZ4Q64HV",
+    "source": "View options",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 1373
+  },
+  {
+    "id": "01KQXQV12HJKGBMP0EY7RRC3SH",
+    "source": "View Tree Debugger",
+    "file": "crates/warpui_core/src/core/app.rs",
+    "line": 4250
+  },
+  {
+    "id": "01KQXQV12HQZAW4PS4Z87DVANT",
+    "source": "Welcome to Warp on Web",
+    "file": "app/src/workspace/home.rs",
+    "line": 11
+  },
+  {
+    "id": "01KQXQV12BNGHWDFE4B49YAD7K",
+    "source": "Enable servers",
+    "file": "app/src/code/footer.rs",
+    "line": 684
+  },
+  {
+    "id": "01KQXQV12BRZ68XRATEWWFGEQC",
+    "source": "Enable AI to use the /update-tab-config skill",
+    "file": "app/src/code/footer.rs",
+    "line": 321
+  },
+  {
+    "id": "01KQXQV12BSHTS1PH6M74KY7PV",
+    "source": "Enable {}",
+    "file": "app/src/code/footer.rs",
+    "line": 373
+  },
+  {
+    "id": "01KQXQV12C61KWYKWMEGAS3922",
+    "source": "Installing {}...",
+    "file": "app/src/code/footer.rs",
+    "line": 1618
+  },
+  {
+    "id": "01KQXQV12CDC500EDAPPTJE31N",
+    "source": "Install servers",
+    "file": "app/src/code/footer.rs",
+    "line": 682
+  },
+  {
+    "id": "01KQXQV12CGHH5BNS3055Y45AQ",
+    "source": "Install {}",
+    "file": "app/src/code/footer.rs",
+    "line": 660
+  },
+  {
+    "id": "01KQXQV12D0QZ2EYGD6P5STFBV",
+    "source": "Language support is unavailable for {root_name}",
+    "file": "app/src/code/footer.rs",
+    "line": 1664
+  },
+  {
+    "id": "01KQXQV12D38BV4S4CG5WZAY0V",
+    "source": "Manage servers",
+    "file": "app/src/code/footer.rs",
+    "line": 1375
+  },
+  {
+    "id": "01KQXQV12DB2FPQTKNDX2NM1KH",
+    "source": "Language support is not currently enabled for {}",
+    "file": "app/src/code/footer.rs",
+    "line": 1600
+  },
+  {
+    "id": "01KQXQV12DG4T2AQB4D9YDJB5Z",
+    "source": "Language server is unavailable for this codebase",
+    "file": "app/src/code/footer.rs",
+    "line": 1606
+  },
+  {
+    "id": "01KQXQV12DJYRT6000GJKNW1B5",
+    "source": "Language support is not currently enabled for {root_name}",
+    "file": "app/src/code/footer.rs",
+    "line": 1525
+  },
+  {
+    "id": "01KQXQV12DP7BDAZGYY0DS8JFZ",
+    "source": "Language support is unavailable for this file type",
+    "file": "app/src/code/footer.rs",
+    "line": 1594
+  },
+  {
+    "id": "01KQXQV12E1BWXJJ6S64NPG107",
+    "source": "Restart all servers",
+    "file": "app/src/code/footer.rs",
+    "line": 1292
+  },
+  {
+    "id": "01KQXQV12EH3BY4XWTVSJ3KA1D",
+    "source": "Open logs",
+    "file": "app/src/code/footer.rs",
+    "line": 1179
+  },
+  {
+    "id": "01KQXQV12ENYZHN0VMM2MJ464F",
+    "source": "Open agent input with the /update-tab-config skill",
+    "file": "app/src/code/footer.rs",
+    "line": 319
+  },
+  {
+    "id": "01KQXQV12EYWK584GRN3X0SHTP",
+    "source": "Remove server",
+    "file": "app/src/code/footer.rs",
+    "line": 1268
+  },
+  {
+    "id": "01KQXQV12G3GMVHPJN979CKVY3",
+    "source": "Start all stopped servers",
+    "file": "app/src/code/footer.rs",
+    "line": 1350
+  },
+  {
+    "id": "01KQXQV12GCY62C8BAXYDP3JRQ",
+    "source": "Stop all servers",
+    "file": "app/src/code/footer.rs",
+    "line": 1320
+  },
+  {
+    "id": "01KQXQV12GEKM8K6VWV6VYM8V7",
+    "source": "Stop server",
+    "file": "app/src/code/footer.rs",
+    "line": 1224
+  },
+  {
+    "id": "01KQXQV12GRJNJ102A44ZQXPS5",
+    "source": "Start all servers",
+    "file": "app/src/code/footer.rs",
+    "line": 1352
+  },
+  {
+    "id": "01KQXQV12GRRRCHFSXKVP44T83",
+    "source": "Start server",
+    "file": "app/src/code/footer.rs",
+    "line": 1246
+  },
+  {
+    "id": "01KQXQV12HWCEMYF6TFGDZ51DN",
+    "source": "Use Oz to update this config",
+    "file": "app/src/code/footer.rs",
+    "line": 1736
+  },
+  {
+    "id": "01KQXQV129YS0P2BPCBK4K6EDH",
+    "source": "Change code block language to {code_block_type}",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3261
+  },
+  {
+    "id": "01KQXQV12A1ZMWYR17S9FY6RHA",
+    "source": "Delete line left",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3168
+  },
+  {
+    "id": "01KQXQV12A6CVNCN3S0XFG5QF8",
+    "source": "Cut line left",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3192
+  },
+  {
+    "id": "01KQXQV12AE1P84YPW3JHEGX81",
+    "source": "Copy code block",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3265
+  },
+  {
+    "id": "01KQXQV12AG0HQ8QD6EVSRJ2W2",
+    "source": "De-select command",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3253
+  },
+  {
+    "id": "01KQXQV12ANKTQQWEE623CM7D3",
+    "source": "Copy Link",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3148
+  },
+  {
+    "id": "01KQXQV12ARM95N3SDAGGFV77A",
+    "source": "Delete line right",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3174
+  },
+  {
+    "id": "01KQXQV12AX4FC87Q5XZ8KQWB9",
+    "source": "Cut line right",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3195
+  },
+  {
+    "id": "01KQXQV12BZV7PTD470RXQY5Z5",
+    "source": "Edit Link",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3143
+  },
+  {
+    "id": "01KQXQV12C1N173BJ4TA04Z4HB",
+    "source": "Insert {} block",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3227
+  },
+  {
+    "id": "01KQXQV12D219137720CXV0ZB9",
+    "source": "Just checked above",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 2103
+  },
+  {
+    "id": "01KQXQV12DCJ1V9QZ39WJE5F0M",
+    "source": "Link copied",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 2837
+  },
+  {
+    "id": "01KQXQV12E5H16FRVFP3J0NX5M",
+    "source": "Open block-insertion menu",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3215
+  },
+  {
+    "id": "01KQXQV12E77KCFF82TZ3HFZ06",
+    "source": "Open embedded object search menu",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3221
+  },
+  {
+    "id": "01KQXQV12EA2QXCD68T69GA7T1",
+    "source": "Open folder",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 2506
+  },
+  {
+    "id": "01KQXQV12EB92XBTVY6BQGMASY",
+    "source": "Open link: {}",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3152
+  },
+  {
+    "id": "01KQXQV12F26VTYD04PPVQC8XZ",
+    "source": "Show find bar",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3211
+  },
+  {
+    "id": "01KQXQV12FPPYRQ9VY2CYZDFS6",
+    "source": "Show character palette",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3206
+  },
+  {
+    "id": "01KQXQV12FSEEQ7DRXK027SBWB",
+    "source": "Secondary click on {}",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3158
+  },
+  {
+    "id": "01KQXQV12GRHY9YSZBKVFC8V0Y",
+    "source": "Switch from selecting commands to selecting text",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3254
+  },
+  {
+    "id": "01KQXQV12HK69JYGVCPKDSM4C9",
+    "source": "Toggle task list",
+    "file": "app/src/notebooks/editor/view.rs",
+    "line": 3270
+  }
+]
