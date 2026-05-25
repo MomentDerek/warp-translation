@@ -1855,3 +1855,36 @@ Dispatched 6 parallel trellis-implement (opus) sub-agents to handle 180 status=n
 ### Next Steps
 
 - None - task complete
+
+
+## Session 12: Batch 14 — 360 entries via 6-way parallel by-file dispatch
+
+**Date**: 2026-05-25
+**Task**: Batch 14 — 360 entries via 6-way parallel by-file dispatch
+**Branch**: `main`
+
+### Summary
+
+First 360-entry batch (6 implementers × 60 entries, one file each). Action mix: 235 UI translate + 60 test_fixture (warpui table-sample examples) + 34 panic + 18 doc-comment false positive + 13 telemetry. All apply-script invariants + per-batch verification passed: placeholder/strftime/whitespace/brand preserved, flag closure holds, untouched-translated entries unchanged. Translated 2569→2929, new 4113→3753.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `f3ab4ce` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
