@@ -1954,3 +1954,36 @@ First 360-entry batch (6 implementers × 60 entries, one file each). Action mix:
 ### Next Steps
 
 - None - task complete
+
+
+## Session 15: Translate batch-17: 383 entries via 6 parallel opus implementers
+
+**Date**: 2026-05-25
+**Task**: Translate batch-17: 383 entries via 6 parallel opus implementers
+**Branch**: `main`
+
+### Summary
+
+6-way parallel file-pinned translation batch covering 17 source files: 259 UI translations + 116 flag_telemetry_payload + 8 flag_panic_message. status=new 3051→2668, status=translated 3631→4014. Mid-flight fix for 2 leading-whitespace mismatches in orchestration.rs concat fragments (' locally.' / ' remotely.'). trellis-check verified zero regressions across 16 dimensions.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `8b751a2` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
