@@ -1,0 +1,479 @@
+[
+  {
+    "id": "01KQXQV12CVCCNR0J0NT2DQC9V",
+    "source": "Grant access to upload this artifact?",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 149,
+    "occurrences_kind": "literal",
+    "source_hash": "5ddc16f0ba3a6ca2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GG4SCPHGH4RR9R6KA",
+    "source": "Thought for {}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 377,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c4ab6a978808e9fd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BFSAGWV4CKFQS1NHN",
+    "source": "Failed to read files",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 477,
+    "occurrences_kind": "literal",
+    "source_hash": "0fd935017078435d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AZB580K9N480RS92Z",
+    "source": "Conversation summarized",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 869,
+    "occurrences_kind": "literal",
+    "source_hash": "6c2d35dcb905fe13",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G8EGJ6B0R2ENX3D21",
+    "source": "Sorry you had a bad experience with this interaction. We've refunded you 1 credit. We appreciate your feedback!",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1133,
+    "occurrences_kind": "literal",
+    "source_hash": "92dbffd31a3659ea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GCN97FZH1WG7SS6Z8",
+    "source": "Sorry you had a bad experience with this interaction. We've refunded you {request_refunded_count} credits. We appreciate your feedback!",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1145,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8803b65b708fa2b7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G33GECJZ1233HF8AG",
+    "source": "This response won't count towards your usage.",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1186,
+    "occurrences_kind": "literal",
+    "source_hash": "3c1ab398b928e3e7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12919TP829VSE3FQ368",
+    "source": "Always allow file access for coding tasks",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1340,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fe1e5c1fdf8ddaf9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129NX9TK4Z36T55SG59",
+    "source": "Always allow file access for this repo",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1342,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "33cd9359fff61028",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DRY6VVFZQVY3FSDJ1",
+    "source": "Manage AI Autonomy permissions",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1384,
+    "occurrences_kind": "literal",
+    "source_hash": "f03cf64667b71fc0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F75EWF4BQKATGJ0TA",
+    "source": "Search in {}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1432,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e69a471b0aa2f64c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129YE4XMHH00HR52VDM",
+    "source": "Button states must exist for each requested action.",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1449,
+    "occurrences_kind": "literal",
+    "source_hash": "a01e36b81bb75d05",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FY58ZZMHC9DWBZRDY",
+    "source": "Searching in {}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1482,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b90eb355402ea66a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DGA8PKD2T8A2KEG9J",
+    "source": "No relevant files found.",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1508,
+    "occurrences_kind": "literal",
+    "source_hash": "0f88fcca64d8616c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F81JA7QP1F6DZDBZF",
+    "source": "Search in {} failed because the codebase isn't indexed",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1539,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1be536c8b7777e63",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FCQMSK43KHFE0EYQX",
+    "source": "Search in {} failed",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1543,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d29ffa2c727a3a3d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FE7J758ACXJVMGRCK",
+    "source": "Search in {} cancelled",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1563,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3c309fd8591d97d3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EAXXJB3BKE9FG1FQS",
+    "source": "Open skill",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1771,
+    "occurrences_kind": "literal",
+    "source_hash": "e3a1f94238089061",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GF723SG82N77DDBTZ",
+    "source": "Stopped task {}/{}: \"{}\"",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1988,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "98563dc95e57bf9b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G65EPK0JSVNA806CR",
+    "source": "Stopped task: \"{task_name}\"",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 1998,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b1cbaca4f7a46cc5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G90VMTPWYAGERZVVM",
+    "source": "Stopped task",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2000,
+    "occurrences_kind": "literal",
+    "source_hash": "fbaeaf94372281cc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AG7NT3RV4X5Z0T5N7",
+    "source": "Could not apply changes to file.",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2148,
+    "occurrences_kind": "literal",
+    "source_hash": "32256f25dced5ff1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GVY2ES0J8AYSCD6MM",
+    "source": "This suggestion is being edited in another tab.",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2157,
+    "occurrences_kind": "literal",
+    "source_hash": "15fe5eded60cd4b9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DRZNMEE5XRXBQ3NWR",
+    "source": "New conversation started",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2267,
+    "occurrences_kind": "literal",
+    "source_hash": "7e97de1de2da378d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ASRG3FSC3P4RB502J",
+    "source": "Continuing current conversation",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2271,
+    "occurrences_kind": "literal",
+    "source_hash": "27aa3e892a497952",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DBQVBD073XCHQ351V",
+    "source": "New conversation suggestion cancelled",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2279,
+    "occurrences_kind": "literal",
+    "source_hash": "068a362522126633",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D9PBPYRGF2CPEXPFX",
+    "source": "It seems like the topic changed. Would you like to make a new conversation?",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2317,
+    "occurrences_kind": "literal",
+    "source_hash": "3d6fc33b1a56e21d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E20TW63BQK1TTKGEJ",
+    "source": "Queries slice should have an element",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2372,
+    "occurrences_kind": "literal",
+    "source_hash": "1ad6ba2408a7b5d8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C74J8M0TC3HWTHT0Z",
+    "source": "Grep for ",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2375,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fc351a6b482cb7a6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CEVPSZTTH3PJAQ92H",
+    "source": "Grepping for ",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2380,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "feaf4bd6a91ea62b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129M5E06JR7XP8F003K",
+    "source": "Cancelled grep for the following patterns in {display_path}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2396,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d1ff824a15e3d3a3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CXSMH2BR24Q8C9ZSH",
+    "source": "Grep for the following patterns in {display_path}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2402,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6821fcd8c5460f9f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CTJJK3J4RKV23F6CN",
+    "source": "Grepping for the following patterns in {display_path}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2406,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8b92b1f20e6f2edd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E80AHQ2B87XJ0EFB9",
+    "source": "Patterns slice should have an element",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2468,
+    "occurrences_kind": "literal",
+    "source_hash": "8af90264cd1a833a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FDF7Z0GBC5PWR64DC",
+    "source": "Search for files that match ",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2472,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e44417df298cc150",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CMBG6VMKFMMFE54BC",
+    "source": "Finding files that match ",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2477,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "77bb36d9112cd16e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129SGJTMMPDAFSB56MA",
+    "source": "Cancelled search for files that match the following patterns in {path}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2493,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "614bdd4f0f461eef",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C66QXV7X82PDG7VX5",
+    "source": "Find files that match the following patterns in {path}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2499,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "268e2c1ef4cc42ee",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CYCJDM0EGHDKTQF87",
+    "source": "Finding files that match the following patterns in {path}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2503,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "81bb8954f73e1927",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12APMCQYSQ02HEESWXT",
+    "source": "Comment addressed: \"{content}\"",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2632,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5076742a3a2151d7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D5WR3DKJ34VWV78RE",
+    "source": "OK if I read this MCP resource?",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2678,
+    "occurrences_kind": "literal",
+    "source_hash": "9d386e96a50d7a8b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H6KRW04VKP0F8A5DY",
+    "source": "Upload artifact: {}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2708,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cfd3fc3549034a96",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ANMBCC2FRKJ9CPQ5X",
+    "source": "Description: {description}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2711,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a14d52161827cef4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G3Z424KNA8G91XTFN",
+    "source": "Status: uploaded artifact {artifact_uid}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2720,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ca7e7ccd2b186107",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HY3DH45AH805XYCKJ",
+    "source": "Uploaded file: {filepath}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2722,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f9ce7aabb914cc56",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G7N59EZY6BKME3PX6",
+    "source": "Status: upload failed: {error}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2726,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0d328d87a9e2edc4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HM30HTWPC9T8WMV1F",
+    "source": "View screenshot",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2821,
+    "occurrences_kind": "literal",
+    "source_hash": "acf862e2739fddb8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DDSBXH57W1H3J116X",
+    "source": "OK if I use computer control for this task?",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 2864,
+    "occurrences_kind": "literal",
+    "source_hash": "5c236518e9e3150b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AT99V0F1M2JF5EK03",
+    "source": "Debug output",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3727,
+    "occurrences_kind": "literal",
+    "source_hash": "5f623ee6cdd90553",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DTFTFEEWHAYH4FSDD",
+    "source": "Listing messages",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3870,
+    "occurrences_kind": "literal",
+    "source_hash": "3bd4182e5cfd4103",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CFXF39DXDFF6NAAYR",
+    "source": "Grepping for patterns",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3873,
+    "occurrences_kind": "literal",
+    "source_hash": "730675d043c14410",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C1B1V33YNJTRF1CF2",
+    "source": "Grepping for patterns: {joined}",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3876,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1c27cac0bd1b314f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E1X2R26S87Q2EPJCT",
+    "source": "Reading {count} messages",
+    "file": "app/src/ai/blocklist/block/view_impl/output.rs",
+    "line": 3879,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "57f3ac9dc1f3d725",
+    "audit_verdict": "uncertain"
+  }
+]

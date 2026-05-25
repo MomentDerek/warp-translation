@@ -1,0 +1,398 @@
+[
+  {
+    "id": "01KQXQV12DSDD4CNAM08WAQQR7",
+    "source": "LRC command completed",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 118,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4c58bf2e89cfd887",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B8CC79503GZE9ETKD",
+    "source": "Error: {error}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 172,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "51ac2e272de0cdc5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DHXK8VCGD9Q0P1370",
+    "source": "Message {}: {}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 414,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f938a64add25f5a4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129KNNAA9NVATDMFKR3",
+    "source": "Addressed {} comments",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 561,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "92d5201b27f3d0a0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E9K6RWKKQECDWWMSD",
+    "source": "Received {} messages",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 575,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "25e0b5756e93b7ff",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EY9JC5NJ9YGN140T1",
+    "source": "Received {} agent events",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 579,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1664f3243924455a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EE23XFWAE945M9ZXW",
+    "source": "Request failed with error: {value:?}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 676,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "598e555c4c207422",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EN1DVW8AHEVPC84QZ",
+    "source": "Quota limit reached.",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 693,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c02ad647fc8964fc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H56KAXKP06RRZ026Q",
+    "source": "Warp is currently overloaded. Please try again later.",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 697,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0af66198ce5987af",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C2VRWV68BYCWMQ7MA",
+    "source": "Internal Warp error.",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 699,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "380b25f0d5dc47f1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A050JJSQ89G8J4238",
+    "source": "Context window exceeded: {message}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 701,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a4f8520f0fc4b49b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C4S4PXZM704AEQ6G0",
+    "source": "Invalid API key for {provider}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 704,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2b5c9700d2af0838",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128T5603MDNS6Y5WTQP",
+    "source": "AWS Bedrock credentials expired or invalid for {model_name}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 709,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0cf0eb9cac9edeec",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV10G5GBNF57NYK2HK10F",
+    "source": "\nCommand ({command}) was on denylist and so was not allowed to run",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1018,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fb479c8e7da46820",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H264NCN93BWGX8S3Z",
+    "source": "UpdateTodos: {} items",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1523,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "eadc488adddf6d82",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D0KVZ877DJW9CMKZ1",
+    "source": "MarkAsCompleted: {} items",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1526,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b758afec8f5da89a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GJ8NRXXP03G4CYG70",
+    "source": "Subagent: {}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1560,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a753f42bc54db97c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DM16KVTNWKTSBDJF1",
+    "source": "InvokedSkill: {}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1581,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "07404054fdc93ca9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D97P7JHSNQWKYSZN4",
+    "source": "LLM Reasoning: ",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1721,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2aafbb18d0189447",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A7X0CJSS54VET34FA",
+    "source": "Conversation Summary: ",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1723,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76ceb921c1e28ffe",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128SHP7HEZ856WF5K39",
+    "source": "Action: {action}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1773,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "422f61a397bce68f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GEMA9N70M3MXP2D0R",
+    "source": "Todo: {todo}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1774,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b72d19d2ba5fad2b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GJY4WW2MHK16CY47Q",
+    "source": "Subagent: {subagent}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1775,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "42ae9999fe5bea40",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FA4C1WWD3F9RASEQQ",
+    "source": "Searching web for: {q}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1778,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a9d42b6fde2d13c9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F3825T6SMW0Q3HASH",
+    "source": "Searching web",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1779,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8978ff889fdd111b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F9QDG9NCKB6QXR5J8",
+    "source": "Searched web for: {query} ({} results)",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1782,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f50a81a7ebd0908d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HQXFSKA36QJPB9JBJ",
+    "source": "Web search failed for: {query}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1784,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9af1fa62ab725362",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C4DACAXT5F2PSHRRQ",
+    "source": "Fetching {} web pages...",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1788,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "50cdefab5fa91fc7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C0PQFTTFF19J2WS1S",
+    "source": "Fetched {} web pages",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1791,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "64be1fc7a3fea0ed",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HBHJQCCKHRQAGRWCM",
+    "source": "Web fetch failed",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1793,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1d65cf6da942c189",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AHDEYH9AYHN5JES6V",
+    "source": "Created PR: {url} (branch: {branch})",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1801,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "65196ffb2b96178e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F6GS1HN200E9892QX",
+    "source": "Screenshot captured (artifact: {artifact_uid})",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1804,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4ccd4df06e080bb8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CHVYKFW3T9ZXYGZJ1",
+    "source": "File artifact uploaded: {filepath} (artifact: {artifact_uid})",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1812,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e26dddacb95cde76",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GVPFRH0NQV0N949KY",
+    "source": "Skill Invoked: {}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 1816,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5bda80293a7a732e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AR8ZF8TB9YS4KGTNB",
+    "source": "Commit {short}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2144,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "304d600ad29c3496",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129GDNE9HS7EWFXBN50",
+    "source": "Clone {url}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2577,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5eb34faee0e9327d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H4BSXJBKCT8F0CZFX",
+    "source": "UserQuery: {}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2591,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "922bcf78090f6a71",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129AEKVCQACSWASSXGC",
+    "source": "AutoCodeDiffQuery: {query}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2594,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f21d71e367b6faa6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1281M6YQTZD0X2WR28S",
+    "source": "ActionResult: {result}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2596,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fdc5ad578ccce441",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D9NG0ZZB497S60Z7R",
+    "source": "InvokeSkill: {}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2611,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3fcd64762b1542cc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DCYFTBWRBY7P9WQGQ",
+    "source": "InvokeSkill: {} {}",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2613,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0b96970a81877eca",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DGG79VT5TYPZ65K00",
+    "source": "MessagesReceivedFromAgents({} messages)",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2621,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ec70dce60bbf0da5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BWK8C0VJ4FTWBG7F5",
+    "source": "EventsFromAgents({} events)",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2624,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f0df900c1539fe38",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129P0NWJPEFTSRGR8JY",
+    "source": "Address these comments",
+    "file": "app/src/ai/agent/mod.rs",
+    "line": 2647,
+    "occurrences_kind": "literal",
+    "source_hash": "45d97ada0cbf94b8",
+    "audit_verdict": "uncertain"
+  }
+]

@@ -1,0 +1,533 @@
+[
+  {
+    "id": "01KQXQV12GPAGJ8E1EDWQWAVCF",
+    "source": "Starting shell...",
+    "file": "app/src/terminal/view.rs",
+    "line": 12355,
+    "occurrences_kind": "literal",
+    "source_hash": "97711a99ed0bae9a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CD3VD0DZY2PGZXT8R",
+    "source": "Insert into input",
+    "file": "app/src/terminal/view.rs",
+    "line": 16013,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d24faaffe8b51ecc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BTPHCH9ZPXZ28Y9DV",
+    "source": "Expected at least one block to be selected.",
+    "file": "app/src/terminal/view.rs",
+    "line": 16052,
+    "occurrences_kind": "literal",
+    "source_hash": "110f672334f5343f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AS3RTYV7NZJ256QC2",
+    "source": "Copy commands",
+    "file": "app/src/terminal/view.rs",
+    "line": 16071,
+    "occurrences_kind": "literal",
+    "source_hash": "e614ef1572da969a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CGVEFCM7R111GDCDZ",
+    "source": "Find within block",
+    "file": "app/src/terminal/view.rs",
+    "line": 16075,
+    "occurrences_kind": "literal",
+    "source_hash": "65e9cf9afc414f42",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C61ASJZKM79ACK6BD",
+    "source": "Find within blocks",
+    "file": "app/src/terminal/view.rs",
+    "line": 16077,
+    "occurrences_kind": "literal",
+    "source_hash": "d18998ca61896667",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F8DDVN6YEMAM413D2",
+    "source": "Scroll to top of block",
+    "file": "app/src/terminal/view.rs",
+    "line": 16080,
+    "occurrences_kind": "literal",
+    "source_hash": "63e5221f1ddfa2b7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FFP2CTV2F845KSA0R",
+    "source": "Scroll to top of blocks",
+    "file": "app/src/terminal/view.rs",
+    "line": 16082,
+    "occurrences_kind": "literal",
+    "source_hash": "cd9c8781f4c3de17",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FH4V0ST5ZKPF2RHRH",
+    "source": "Scroll to bottom of block",
+    "file": "app/src/terminal/view.rs",
+    "line": 16085,
+    "occurrences_kind": "literal",
+    "source_hash": "110821562beac988",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FYG13TFZHREZ4CCFE",
+    "source": "Scroll to bottom of blocks",
+    "file": "app/src/terminal/view.rs",
+    "line": 16087,
+    "occurrences_kind": "literal",
+    "source_hash": "0207cf6274f3f2f8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FXH3E96WYNPVX98EV",
+    "source": "Share block...",
+    "file": "app/src/terminal/view.rs",
+    "line": 16104,
+    "occurrences_kind": "literal",
+    "source_hash": "e60a1594b6f661dd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G0V6EG6YQ8VYK61ZP",
+    "source": "Toggle block filter",
+    "file": "app/src/terminal/view.rs",
+    "line": 16259,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dc47e5ae53be6b92",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GHVD2XEZDQVXFK6DT",
+    "source": "Toggle bookmark",
+    "file": "app/src/terminal/view.rs",
+    "line": 16268,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e90b220bc4703c4d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFRBB00BC34M2TARHH2J",
+    "source": "Cut",
+    "file": "app/src/terminal/view.rs",
+    "line": 16782,
+    "occurrences_kind": "literal",
+    "source_hash": "1f45f02561f41db9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFR8SHCDZGEE0H9YTXCZ",
+    "source": "Copy",
+    "file": "app/src/terminal/view.rs",
+    "line": 16787,
+    "occurrences_kind": "literal",
+    "source_hash": "e21f935f11d7e966",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFT0KV9N38NPXY476EH7",
+    "source": "Paste",
+    "file": "app/src/terminal/view.rs",
+    "line": 16815,
+    "occurrences_kind": "literal",
+    "source_hash": "f3380f7b44bd70af",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BBC9SG1VJQQJV6Y0F",
+    "source": "Explain the following:\n",
+    "file": "app/src/terminal/view.rs",
+    "line": 18767,
+    "occurrences_kind": "literal",
+    "source_hash": "793a0bb447765fed",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H1RGRAEAXTCXXMY63",
+    "source": "What is the command to: ",
+    "file": "app/src/terminal/view.rs",
+    "line": 18786,
+    "occurrences_kind": "literal",
+    "source_hash": "4eea4ae2c29cb918",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FDFJRGDXWD8HJP2DY",
+    "source": "Share Block",
+    "file": "app/src/terminal/view.rs",
+    "line": 20145,
+    "occurrences_kind": "literal",
+    "source_hash": "63f9757325bbcd0d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AC7GP4NTZ76BD2J1K",
+    "source": "Command is waiting for a password",
+    "file": "app/src/terminal/view.rs",
+    "line": 20381,
+    "occurrences_kind": "literal",
+    "source_hash": "95b3a679c723969e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9G3RMNMMXWY4VRBJ718",
+    "source": "Couldn't continue this cloud task.",
+    "file": "app/src/terminal/view.rs",
+    "line": 20454,
+    "occurrences_kind": "literal",
+    "source_hash": "1b2036487db1333e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EPNRGS0PFG5SMQNAR",
+    "source": "Powerlevel10k now supports Warp!  ",
+    "file": "app/src/terminal/view.rs",
+    "line": 21381,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "34341cd70f9bfa23",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JT7CZYJW3AFR03J1A",
+    "source": "You seem to be running an older (unsupported) version, please follow ",
+    "file": "app/src/terminal/view.rs",
+    "line": 21383,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9b6663e94c61e703",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV127RV38SZKJFT16G5BW",
+    "source": " to update to the latest version.",
+    "file": "app/src/terminal/view.rs",
+    "line": 21389,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d00293101f4599c1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EEARYK5XTZA637ABJ",
+    "source": "Pure is not yet supported in Warp. You might consider one of the supported prompts as an alternative.  ",
+    "file": "app/src/terminal/view.rs",
+    "line": 21394,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4f83960ef133445e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G8YZK66Z249BZGQDQ",
+    "source": "Started at: {}",
+    "file": "app/src/terminal/view.rs",
+    "line": 22188,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9bd1a4db1da5828a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV10G00T8P52E7FV49ERV",
+    "source": "\nCompleted at: {}",
+    "file": "app/src/terminal/view.rs",
+    "line": 22191,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c115cf5412669d52",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DMK4MKNK94N65XDNT",
+    "source": "Lock scrolling at bottom of block",
+    "file": "app/src/terminal/view.rs",
+    "line": 22473,
+    "occurrences_kind": "literal",
+    "source_hash": "600dde7c5a17389f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DM76AHWDSC6WY5PTQ",
+    "source": "Jump to the bottom of this block",
+    "file": "app/src/terminal/view.rs",
+    "line": 22475,
+    "occurrences_kind": "literal",
+    "source_hash": "da155e1fcdccd76c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D8MPHFV9QDHEEG6MZ",
+    "source": "Loading session...",
+    "file": "app/src/terminal/view.rs",
+    "line": 22958,
+    "occurrences_kind": "literal",
+    "source_hash": "7c766ca3da5dffea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CZD0MXZHM9QXM3VN4",
+    "source": "Handle should be available",
+    "file": "app/src/terminal/view.rs",
+    "line": 23539,
+    "occurrences_kind": "literal",
+    "source_hash": "5023c45cb27c2fae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129EM10G1F0EY1AEDJ2",
+    "source": "Block {index}: {}, {}.\n",
+    "file": "app/src/terminal/view.rs",
+    "line": 24026,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0d5850b6496a34c3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EA2WPV8YTE6A43TYZ",
+    "source": "Press cmd-C to read and copy both command and output, and cmd-option-shift-C to read and copy output only. Press cmd-B to bookmark the block: you could navigate between bookmarked blocks quickly using option-up and option-down.",
+    "file": "app/src/terminal/view.rs",
+    "line": 24029,
+    "occurrences_kind": "literal",
+    "source_hash": "5c4bec057f29acdc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129TVW9YY73MYR0HN7P",
+    "source": "Can not invoke environment variable subshell in a non-local session",
+    "file": "app/src/terminal/view.rs",
+    "line": 24418,
+    "occurrences_kind": "literal",
+    "source_hash": "c93a98c92d8e29ec",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E9411EW7DDGAHMT7F",
+    "source": "PowerShell subshells not supported",
+    "file": "app/src/terminal/view.rs",
+    "line": 24556,
+    "occurrences_kind": "literal",
+    "source_hash": "5c58a4e77afe6807",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GMFKFTYMJTGR7BKPH",
+    "source": "Toggle Bookmark block",
+    "file": "app/src/terminal/view.rs",
+    "line": 25073,
+    "occurrences_kind": "literal",
+    "source_hash": "5af350f4acf395e2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FAC9QDWSDMYN2EMZY",
+    "source": "Selected {} blocks.",
+    "file": "app/src/terminal/view.rs",
+    "line": 25084,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8d42277feeb0e342",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F4P9MAY6X8CB80P6D",
+    "source": "Selected all {} blocks.",
+    "file": "app/src/terminal/view.rs",
+    "line": 25093,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "383f2956603e7dfd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F1RHRVV6PWX4TCAXZ",
+    "source": "Scrolled to bottom of selected block",
+    "file": "app/src/terminal/view.rs",
+    "line": 25099,
+    "occurrences_kind": "literal",
+    "source_hash": "4fec3a15edc0c7f1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FKBH19T1Q6S66CSXT",
+    "source": "Scrolled to top of selected block",
+    "file": "app/src/terminal/view.rs",
+    "line": 25103,
+    "occurrences_kind": "literal",
+    "source_hash": "3e073b9112871907",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FPZX244WK05ASXK0A",
+    "source": "Scrolled to bottom of bottommost visible block",
+    "file": "app/src/terminal/view.rs",
+    "line": 25107,
+    "occurrences_kind": "literal",
+    "source_hash": "2293125e01705afd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129D3GYW57BY1QX7Y2V",
+    "source": "Block {}.\nOutput: {}",
+    "file": "app/src/terminal/view.rs",
+    "line": 25115,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e41651417a9e0c2a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AFS739S1H5CQZEX4Z",
+    "source": "Copied {} block outputs.\n{}",
+    "file": "app/src/terminal/view.rs",
+    "line": 25123,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ce1ba166b76c9c33",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12992H27G71KDNR8D8Y",
+    "source": "Block {}: {}. Output: {}",
+    "file": "app/src/terminal/view.rs",
+    "line": 25137,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ed0378fd581f2ba6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AJCEN5AAEW33C5V7V",
+    "source": "Copied {} blocks.\n{}",
+    "file": "app/src/terminal/view.rs",
+    "line": 25145,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0394171adf06f366",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EFFWM3TC7SXQ88KG0",
+    "source": "Open block filter editor for block {block_index}",
+    "file": "app/src/terminal/view.rs",
+    "line": 25171,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "42448ec20e1f3bac",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GXX98HXG74EWHZZH9",
+    "source": "Showed initialization block",
+    "file": "app/src/terminal/view.rs",
+    "line": 25175,
+    "occurrences_kind": "literal",
+    "source_hash": "009dc2717e171228",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EW7M3579S3SAYM1PK",
+    "source": "Opened Warpify Settings",
+    "file": "app/src/terminal/view.rs",
+    "line": 25179,
+    "occurrences_kind": "literal",
+    "source_hash": "d79b32f64cd45c56",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E6B5DEKBWJDXJFCCF",
+    "source": "Opened file search palette",
+    "file": "app/src/terminal/view.rs",
+    "line": 25183,
+    "occurrences_kind": "literal",
+    "source_hash": "1a5882dc61db9f78",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EEN5G4004VQ09PF02",
+    "source": "Open list of blocks attached as context to this AI query.",
+    "file": "app/src/terminal/view.rs",
+    "line": 25252,
+    "occurrences_kind": "literal",
+    "source_hash": "e484e27777d3d3f0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EM0BZGF3HY8025JN5",
+    "source": "Open overflow menu with copy options for this AI block.",
+    "file": "app/src/terminal/view.rs",
+    "line": 25256,
+    "occurrences_kind": "literal",
+    "source_hash": "eb35cfd51dfd1f24",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F2G48CY758PM0E9ZW",
+    "source": "Show confirmation dialog to rewind to before this point in the AI conversation.",
+    "file": "app/src/terminal/view.rs",
+    "line": 25260,
+    "occurrences_kind": "literal",
+    "source_hash": "686c9d67ab6314b5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BE4C18SZTP55H4J69",
+    "source": "Execute rewind to before this point in the AI conversation.",
+    "file": "app/src/terminal/view.rs",
+    "line": 25265,
+    "occurrences_kind": "literal",
+    "source_hash": "1e581684386981d8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129JDKYNJ0Y46AM3PFA",
+    "source": "Click on a block attached as context to this AI query.",
+    "file": "app/src/terminal/view.rs",
+    "line": 25269,
+    "occurrences_kind": "literal",
+    "source_hash": "45b5306bd1ec2819",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HP44RYS9PVSHPNQKZ",
+    "source": "Use file picker to select a git repository",
+    "file": "app/src/terminal/view.rs",
+    "line": 25273,
+    "occurrences_kind": "literal",
+    "source_hash": "ecfcf9ede8604866",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F1XH07EYSN478J2MM",
+    "source": "SSH Session",
+    "file": "app/src/terminal/view.rs",
+    "line": 25735,
+    "occurrences_kind": "literal",
+    "source_hash": "2f3a14f2967016cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FM5PQJC66AS1QBNN0",
+    "source": "SSH session",
+    "file": "app/src/terminal/view.rs",
+    "line": 25736,
+    "occurrences_kind": "literal",
+    "source_hash": "254930059267a694",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129CGFK5ZYSM1SJFZ53",
+    "source": "Bundled skills cannot be edited",
+    "file": "app/src/terminal/view.rs",
+    "line": 26262,
+    "occurrences_kind": "literal",
+    "source_hash": "26977708dea6d281",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B1HPKXZVYBFZQ5K97",
+    "source": "Editing skills is not supported in this build",
+    "file": "app/src/terminal/view.rs",
+    "line": 26279,
+    "occurrences_kind": "literal",
+    "source_hash": "14e9c60b9f5c577d",
+    "audit_verdict": "uncertain"
+  }
+]

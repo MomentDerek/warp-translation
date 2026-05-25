@@ -1,0 +1,587 @@
+[
+  {
+    "id": "01KQXQV12DQ9C6EFXZQHZMB6WG",
+    "source": "Looks like you're out of AI credits.",
+    "file": "app/src/workspace/view.rs",
+    "line": 9671,
+    "occurrences_kind": "literal",
+    "source_hash": "8a2f6b2bcdd48dce",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HPX5E4RAWH2DG9QJM",
+    "source": "Upgrade for more credits.",
+    "file": "app/src/workspace/view.rs",
+    "line": 9673,
+    "occurrences_kind": "literal",
+    "source_hash": "3f515d38febc24f7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HFS6Z957CMJ4JE11X",
+    "source": "View changelog",
+    "file": "app/src/workspace/view.rs",
+    "line": 13042,
+    "occurrences_kind": "literal",
+    "source_hash": "84b91cacd9b03c52",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9NAM4KXGAAPXWVMB8SR",
+    "source": "Failed to create environment: {error_message}",
+    "file": "app/src/workspace/view.rs",
+    "line": 13357,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0ea556a8fd1432f1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EM0MSSXH18AXZNCDK",
+    "source": "Resource not found or access denied",
+    "file": "app/src/workspace/view.rs",
+    "line": 14360,
+    "occurrences_kind": "literal",
+    "source_hash": "9b16433f594a41a6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E6JJQGNXZGMZ4VDJD",
+    "source": "Plan synced to your Warp Drive",
+    "file": "app/src/workspace/view.rs",
+    "line": 16326,
+    "occurrences_kind": "literal",
+    "source_hash": "7c174d11b52c608a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129TWCNJWNAKT2YSPTR",
+    "source": "Check out the latest version and try again.",
+    "file": "app/src/workspace/view.rs",
+    "line": 16403,
+    "occurrences_kind": "literal",
+    "source_hash": "b7f130341f9d6938",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BKVCM49GXWRM58JMW",
+    "source": "Expect server id on success",
+    "file": "app/src/workspace/view.rs",
+    "line": 16489,
+    "occurrences_kind": "literal",
+    "source_hash": "e230bb8f402add0e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JZ6VM7EEWRJKCASEN",
+    "source": "You {verb} mouse reporting.",
+    "file": "app/src/workspace/view.rs",
+    "line": 16927,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "10582796833380e3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV116NHDHJVQA94EAAH79",
+    "source": " Press {} to undo.",
+    "file": "app/src/workspace/view.rs",
+    "line": 16931,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c3f175b34e4eb27f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ANPH6XVWZE6ERFMFH",
+    "source": "Command from Warp AI",
+    "file": "app/src/workspace/view.rs",
+    "line": 17069,
+    "occurrences_kind": "literal",
+    "source_hash": "217bc773ae0bfc98",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C85M47ASV5ZQZMGQ4",
+    "source": "Hello, Agent Mode x Codex!",
+    "file": "app/src/workspace/view.rs",
+    "line": 17237,
+    "occurrences_kind": "literal",
+    "source_hash": "7554dd9dac9ad7c1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DYZ97SJCZKPDZXP9H",
+    "source": "Linear Issue",
+    "file": "app/src/workspace/view.rs",
+    "line": 17385,
+    "occurrences_kind": "literal",
+    "source_hash": "a96d1d05da1cd39b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129BPQE91MPCTRP41VA",
+    "source": "Ask Warp AI to explain errors, suggest commands or write scripts.",
+    "file": "app/src/workspace/view.rs",
+    "line": 17806,
+    "occurrences_kind": "literal",
+    "source_hash": "3e67e4bdd83e0fde",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129J66W96T1EZGTV3SF",
+    "source": "Agent management panel",
+    "file": "app/src/workspace/view.rs",
+    "line": 17942,
+    "occurrences_kind": "literal",
+    "source_hash": "c22be8ae300527bc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G3BRDT0DAVPRJVA36",
+    "source": "Tabs panel",
+    "file": "app/src/workspace/view.rs",
+    "line": 17972,
+    "occurrences_kind": "literal",
+    "source_hash": "dd5bd400a002482b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CWWDZEHMZD4NJ0H83",
+    "source": "Global search",
+    "file": "app/src/workspace/view.rs",
+    "line": 17986,
+    "occurrences_kind": "literal",
+    "source_hash": "f72cf4a27b8ce0c7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129Q9G0RDNRNVKTQAC6",
+    "source": "Agent conversations",
+    "file": "app/src/workspace/view.rs",
+    "line": 17988,
+    "occurrences_kind": "literal",
+    "source_hash": "d0c27207bc7376b6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AYSSG2Q7JYT0FCCES",
+    "source": "Code review panel",
+    "file": "app/src/workspace/view.rs",
+    "line": 18202,
+    "occurrences_kind": "literal",
+    "source_hash": "20e4fc6484c234b5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FZZY7TC7FYYNX1WCJ",
+    "source": "Search sessions, agents, files...",
+    "file": "app/src/workspace/view.rs",
+    "line": 18295,
+    "occurrences_kind": "literal",
+    "source_hash": "53b1a6bdf606fa62",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GHYWDSAA4C6HVQDAD",
+    "source": "Some features may be unavailable offline",
+    "file": "app/src/workspace/view.rs",
+    "line": 19348,
+    "occurrences_kind": "literal",
+    "source_hash": "d4192458da0f2792",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GVFDTKFVZDDQB837R",
+    "source": "Sign in",
+    "file": "app/src/workspace/view.rs",
+    "line": 19750,
+    "occurrences_kind": "literal",
+    "source_hash": "bfd402b2f6f38125",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128W8XF37T2A3B47ZZ4",
+    "source": "A new version is available but Warp is unable to perform the update.",
+    "file": "app/src/workspace/view.rs",
+    "line": 19769,
+    "occurrences_kind": "literal",
+    "source_hash": "4834bf25c52c8dd1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HQF7N13ZSRSVX2N0B",
+    "source": "Warp was unable to launch the new installed version.",
+    "file": "app/src/workspace/view.rs",
+    "line": 19795,
+    "occurrences_kind": "literal",
+    "source_hash": "c68d40d9aab44350",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HA4GJKJA39PTBK9MF",
+    "source": "Update now",
+    "file": "app/src/workspace/view.rs",
+    "line": 19823,
+    "occurrences_kind": "literal",
+    "source_hash": "63bf045213cebbaf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ECHYBHN4V51KX6S20",
+    "source": "Restart app and update now",
+    "file": "app/src/workspace/view.rs",
+    "line": 19841,
+    "occurrences_kind": "literal",
+    "source_hash": "b223bdd310106f33",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C7DTCSTB97BCEYTCV",
+    "source": "Introducing Oz",
+    "file": "app/src/workspace/view.rs",
+    "line": 20960,
+    "occurrences_kind": "literal",
+    "source_hash": "5d0a28f0d46d4603",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CMQMY75N6XSBP37HT",
+    "source": "Have Warp installed but redirecting to download page?\nEnable Local Network Access for {} in your browser.",
+    "file": "app/src/workspace/view.rs",
+    "line": 21064,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d06177c4d93b1e04",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DDYBKNWEQ27XY9HQ4",
+    "source": "My settings.toml file has an error: {error_description}. Please fix it.",
+    "file": "app/src/workspace/view.rs",
+    "line": 21433,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "efc2e43f3eef057e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JAARKG5CEHZT182SZ",
+    "source": "You {verb} synchronized inputs in all tabs.",
+    "file": "app/src/workspace/view.rs",
+    "line": 22177,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "296998701512718c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JZ1CJ5WEC83EEPXPX",
+    "source": "You {verb} synchronized inputs in this tab.",
+    "file": "app/src/workspace/view.rs",
+    "line": 22210,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2a08a3c89e44f923",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BDEB1KMDEJRTMPFBA",
+    "source": "Disabled all synchronized inputs.",
+    "file": "app/src/workspace/view.rs",
+    "line": 22235,
+    "occurrences_kind": "literal",
+    "source_hash": "622e5d845f5a0d41",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AT20K2W2E3SZBSACP",
+    "source": "Command from Oz",
+    "file": "app/src/workspace/view.rs",
+    "line": 22345,
+    "occurrences_kind": "literal",
+    "source_hash": "cdce7858333c0b59",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B83467TJH5D0JSNYG",
+    "source": "Failed to determine home directory",
+    "file": "app/src/workspace/view.rs",
+    "line": 22908,
+    "occurrences_kind": "literal",
+    "source_hash": "e920f16a0b6fda31",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FGES8FQYFKWE8GPA5",
+    "source": "Sampling process for 3 seconds...",
+    "file": "app/src/workspace/view.rs",
+    "line": 22928,
+    "occurrences_kind": "literal",
+    "source_hash": "35e01bcd8425111a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JSH6BQ3EFTE5VXNBD",
+    "source": "[FOR PERFORMANCE BOT] Dev took performance sample with results: ",
+    "file": "app/src/workspace/view.rs",
+    "line": 22981,
+    "occurrences_kind": "literal",
+    "source_hash": "562b8d2803503764",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EYDNYXFYX7MY9GNJX",
+    "source": "Process sample saved to {output_path}",
+    "file": "app/src/workspace/view.rs",
+    "line": 22989,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5abfd203087ef0b8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BYM3CDD9N3CH2WYKK",
+    "source": "Failed to sample process (check logs)",
+    "file": "app/src/workspace/view.rs",
+    "line": 22994,
+    "occurrences_kind": "literal",
+    "source_hash": "629215657f162b5b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B3F4ARASTTV401BB5",
+    "source": "Failed to delete conversation. Please exit the agent view and try again.",
+    "file": "app/src/workspace/view.rs",
+    "line": 23151,
+    "occurrences_kind": "literal",
+    "source_hash": "909f673e2ae20114",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AVTA7SGSWFK8RBMYY",
+    "source": "Conversation deleted",
+    "file": "app/src/workspace/view.rs",
+    "line": 23166,
+    "occurrences_kind": "literal",
+    "source_hash": "09d6990a101a6722",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B1EY2A0FCYZ8X52G1",
+    "source": "Failed to parse opencode.json: {e}",
+    "file": "app/src/workspace/view.rs",
+    "line": 25429,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4fd5e82ea02b271b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BDMGZD84SKNR010EH",
+    "source": "Failed to read opencode.json: {e}",
+    "file": "app/src/workspace/view.rs",
+    "line": 25431,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e0b20a068e9bd09a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BWEA4HPD6NN0144YV",
+    "source": "Failed to create config directory: {e}",
+    "file": "app/src/workspace/view.rs",
+    "line": 25458,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c7dd865311f96924",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E2GHJ7PCEPVN8JT0Z",
+    "source": "OpenCode plugin set to: {new_entry}",
+    "file": "app/src/workspace/view.rs",
+    "line": 25463,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "286dd15a4badd909",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BT02QXPXFRCD8V0E0",
+    "source": "Failed to write opencode.json: {e}",
+    "file": "app/src/workspace/view.rs",
+    "line": 25464,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4b47399509efa230",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BZAGRE6SYFME8J48M",
+    "source": "Failed to serialize opencode.json: {e}",
+    "file": "app/src/workspace/view.rs",
+    "line": 25466,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1758d6712bb30a1c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D7P4HPNGPP0BSPDG5",
+    "source": "No tabs open",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 1555,
+    "occurrences_kind": "literal",
+    "source_hash": "27c78044f2382ad5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D11BYGHG8HFV6XRJK",
+    "source": "No tabs match your search.",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 1683,
+    "occurrences_kind": "literal",
+    "source_hash": "62c27b6c4621aa50",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HA56S5CE6EXVG3GVW",
+    "source": "Untitled tab",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 2303,
+    "occurrences_kind": "literal",
+    "source_hash": "aab98c30ca3fe7f8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129KS7N4YQW645607X9",
+    "source": "Code Diff",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 2619,
+    "occurrences_kind": "literal",
+    "source_hash": "bc06b65977edf4cd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BRBDDAMDS61WHH24W",
+    "source": "Environment Variables",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 2624,
+    "occurrences_kind": "literal",
+    "source_hash": "1124ecc667c5f22e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BQEZM6PYGJGRT8S7M",
+    "source": "Execution Profile",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 2628,
+    "occurrences_kind": "literal",
+    "source_hash": "9ab814677ae6a57f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C4WC7V5BJ7QGZJEGZ",
+    "source": "IPaneType::Terminal must correspond to a TerminalPane",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 3220,
+    "occurrences_kind": "literal",
+    "source_hash": "fec80ea688416adb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CT6TNGP94NTHTTSV1",
+    "source": "IPaneType::Code must correspond to a CodePane",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 3224,
+    "occurrences_kind": "literal",
+    "source_hash": "a5ae4d062350a612",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JXVFTV63E0ED1T9BG",
+    "source": "Working Directory",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4578,
+    "occurrences_kind": "literal",
+    "source_hash": "3a95cb58adaafa25",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A5MQG55ED0WK5979C",
+    "source": "Command / Conversation",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4585,
+    "occurrences_kind": "literal",
+    "source_hash": "38646b699375acf4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H38KSWXA8WRCKFR8J",
+    "source": "View as",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4638,
+    "occurrences_kind": "literal",
+    "source_hash": "5787b5eda2ab9604",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GGTBJ56TM2Z3C154Q",
+    "source": "Tab item",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4697,
+    "occurrences_kind": "literal",
+    "source_hash": "b377cab0d671b35c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CHPCPMPN971CMFW4P",
+    "source": "Focused session",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4709,
+    "occurrences_kind": "literal",
+    "source_hash": "3867a74d04b1b8a8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EPBEZXA31J3R279VN",
+    "source": "Pane title as",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4812,
+    "occurrences_kind": "literal",
+    "source_hash": "564e561cff73dee4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129Q9GKBSZZ5G2GNZ1Q",
+    "source": "Additional metadata",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4883,
+    "occurrences_kind": "literal",
+    "source_hash": "a89bda3cdfee176c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EK6DWP07QA6H6ERGK",
+    "source": "Requires the GitHub CLI to be installed and authenticated",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4934,
+    "occurrences_kind": "literal",
+    "source_hash": "3bccc0ad15c30245",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQEBM2J8ZAMS6NDK55X6",
+    "source": "PR link",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4941,
+    "occurrences_kind": "literal",
+    "source_hash": "05c9337182596dc4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AX222T8F8XC794Q5S",
+    "source": "Diff stats",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4950,
+    "occurrences_kind": "literal",
+    "source_hash": "6e15ac7b4a829306",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F8QC5R0698Z33591Z",
+    "source": "Show details on hover",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 4963,
+    "occurrences_kind": "literal",
+    "source_hash": "f3d0cd3df232c657",
+    "audit_verdict": "uncertain"
+  }
+]

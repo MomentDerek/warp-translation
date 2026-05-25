@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "Verification reference: placeholder/strftime/whitespace/brand invariants, punctuation, register, flag taxonomy."}
+{"file": ".trellis/tasks/05-25-translate-next-batch-345-entries-via-6-parallel-implementers-batch-15/apply_translations.py", "reason": "Apply script with embedded invariant checks (placeholders, strftime, whitespace, brand literals, bilingual format, sub-flag whitelist, idempotency)."}
+{"file": ".trellis/tasks/05-25-translate-next-batch-345-entries-via-6-parallel-implementers-batch-15/prd.md", "reason": "Expected per-batch counts and post-apply totals."}
+{"file": "translations/strings.json", "reason": "Apply target — verify post-merge stats and untouched-translated invariants."}

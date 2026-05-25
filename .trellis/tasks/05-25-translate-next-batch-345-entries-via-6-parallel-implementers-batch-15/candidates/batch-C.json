@@ -1,0 +1,488 @@
+[
+  {
+    "id": "01KQXQV12FCX0MWJGVX2VAGW55",
+    "source": "Run command: {command}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 393,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d79485c4b7c7e682",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JK8CN03GFKKF0KG5S",
+    "source": "Write to long running shell command",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 396,
+    "occurrences_kind": "literal",
+    "source_hash": "17fb583d7a27ab31",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H7XVREV1NQFZ5AGC6",
+    "source": "Upload artifact",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 399,
+    "occurrences_kind": "literal",
+    "source_hash": "9188ef232c202a5b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FV0YAR15RDMRGSRZ8",
+    "source": "Search codebase",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 400,
+    "occurrences_kind": "literal",
+    "source_hash": "a6c2d055eb03a4b0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BYMG3ECCA17BKVG8Z",
+    "source": "Edit {file_names}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 403,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3f9eaf2ec7ba4fa6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C7DGETYQE2K1X335Q",
+    "source": "File glob",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 406,
+    "occurrences_kind": "literal",
+    "source_hash": "f891ccfdb79e80cd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EZPKKR7D4876DK1ZZ",
+    "source": "Read mcp resource",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 407,
+    "occurrences_kind": "literal",
+    "source_hash": "3bbc22831c19e510",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1297BS3W2J97Y3XE49A",
+    "source": "Call mcp tool",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 408,
+    "occurrences_kind": "literal",
+    "source_hash": "3ac17018518b4bfb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G6QWNE411F856XN0Y",
+    "source": "Suggest new conversation",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 409,
+    "occurrences_kind": "literal",
+    "source_hash": "8e9c27fee3c3443c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G9RQM7YYQWB27VSBA",
+    "source": "Suggest prompt",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 410,
+    "occurrences_kind": "literal",
+    "source_hash": "bd78a3186159cbd0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CESWD8PBKV1R59HKQ",
+    "source": "Init project",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 411,
+    "occurrences_kind": "literal",
+    "source_hash": "20b50b3e985a5099",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E86V63HGJDXRVE2R3",
+    "source": "Read documents",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 413,
+    "occurrences_kind": "literal",
+    "source_hash": "9b85ed06c40598ba",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BY3Z4YKAP0DZ8Q8ZY",
+    "source": "Edit documents",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 414,
+    "occurrences_kind": "literal",
+    "source_hash": "c06bd912bae68342",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AQ5A0W1VAZMQ91SYK",
+    "source": "Create documents",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 415,
+    "occurrences_kind": "literal",
+    "source_hash": "5d56864089970e3f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ETVMQCCG47Y7GCHVY",
+    "source": "Read shell command output",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 416,
+    "occurrences_kind": "literal",
+    "source_hash": "88404da13a4f08f9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HD1VJFXHBJCNHH3JH",
+    "source": "Use computer",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 417,
+    "occurrences_kind": "literal",
+    "source_hash": "33bbbaf4ea5d6101",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CBHX2JW02W4J40DQC",
+    "source": "Insert {} code review comments",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 419,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc53dc85d1892656",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EKFQ64ZAMC8VS02V5",
+    "source": "Request computer use",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 421,
+    "occurrences_kind": "literal",
+    "source_hash": "ceba8c3da5c6a131",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ESM6BQ0VXFM3R87CS",
+    "source": "Read skill",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 422,
+    "occurrences_kind": "literal",
+    "source_hash": "23f2892a8062578c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C9M960BWZHCK86ZEG",
+    "source": "Fetch conversation",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 423,
+    "occurrences_kind": "literal",
+    "source_hash": "c076ecbc622394e5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GDVWRMBX9486QT6B7",
+    "source": "Start agent: {name}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 424,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5cc7d564fb4766a1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FJKSDFZXPPBPBZP7Q",
+    "source": "Send message: {subject}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 425,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "591f53459013c256",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HNNNA0F73G10ZFC5G",
+    "source": "Transfer shell command control to user",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 427,
+    "occurrences_kind": "literal",
+    "source_hash": "61dbeb71d43129c6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129H6CXMMZMH16FV4V6",
+    "source": "Ask user {} question(s)",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 430,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3bd75dcd0169990a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA4B8RYFW0Y13RC8560T",
+    "source": "Orchestrate {} agent(s)",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 433,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6ecefb0153c04c59",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EJPN8ZA56A059JRNB",
+    "source": "RequestCommandOutput: {command} (read_only: {is_read_only:?}, pager: {uses_pager:?})",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 450,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4a0cd0be693da4c4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J3Q80D217K86YDYQD",
+    "source": "WriteToLongRunningShellCommand (block id: {block_id}): {input:?}, {mode:?}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 460,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e423edddba632b54",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EDW4KP20CCW7NNXHT",
+    "source": "RequestFileEdits '{title}': [{file_names}]",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 479,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6fe03d83f27b14ab",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EVP9BWMGWF78B95EC",
+    "source": "RequestFileEdits: [{file_names}]",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 481,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "04fea2b3b83ac9f6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CRFPKWYCWHWC0SGM1",
+    "source": "Grep: [{}] in {}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 485,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "21329ce021cdc71f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CBG0JRHSTWMJV9BY0",
+    "source": "FileGlob: [{}] in {}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 489,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "488dceb3aa5cd9bb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C0EJVF2WX7VPTS7XB",
+    "source": "FileGlobV2: [{}] in {}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 496,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0b1890eec4343000",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E7P4XXHPCY4GEYGKK",
+    "source": "ReadMCPResource: {name} ({uri})",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 504,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "228180d8b5afb0ce",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EMRJ8VA6WY8YQEQ9K",
+    "source": "ReadMCPResource: {name}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 506,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6c4757d229c195f2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129E9KRE7G47RPGRNDK",
+    "source": "CallMCPTool: {name} with input {input:?}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 514,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a294bcb824190155",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GAYXP3E8Z0G4SFM0N",
+    "source": "SuggestNewConversation: {message_id}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 517,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e6b917d7a3764a17",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GW6RAG0YH36ZXT8WY",
+    "source": "SuggestPrompt: {request:?}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 520,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "41a5836eed196e15",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EH5G3MT1723E7F1C5",
+    "source": "ReadDocuments: [{}]",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 534,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "86eb0e8b0d09e305",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BEBYD1C5XN94N4JJY",
+    "source": "EditDocuments: {} diffs",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 537,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "179693c6ccfd5e36",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A4RTZFYZ7K1GBDKKQ",
+    "source": "CreateDocuments: {} documents",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 540,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1f4064a81f652b16",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EK55TCW8KJHEQ5NGH",
+    "source": "ReadShellCommandOutput (block id: {block_id}): with {delay} delay",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 552,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4831c73f424dc43a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HBR40DJ3X1XNZVQ63",
+    "source": "UseComputer: {} actions, screenshot_params={:?}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 558,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "be2a085ad91f4a62",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CGVKPH1V5FA3V50WT",
+    "source": "InsertCodeReviewComments: {} comments on [{}]",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 575,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7d482749c1eb2a92",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E7YCZ8MRJCQBCK8SA",
+    "source": "RequestComputerUse: {}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 581,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "24f9c8a077eeafa6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EH3PZ1GVS0JWKABD5",
+    "source": "ReadSkill: {}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 584,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d054554e47ea242f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C359NB7WY98CWBW46",
+    "source": "FetchConversation: {conversation_id}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 587,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2beb66f8184856e1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GRGRWYC45K72YB91G",
+    "source": "StartAgent: {name}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 590,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "489df4e76fc8b650",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F8VE1WS2P18SFZ99E",
+    "source": "SendMessageToAgent: to=[{}] subject={subject}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 597,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "324ba7cdcfe51f98",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HMBG0PYNGE2NE89W5",
+    "source": "TransferShellCommandControlToUser: {reason}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 602,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2831cc67c758da56",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129B8V7HG1S7G7KT0VT",
+    "source": "AskUserQuestion: {} question(s)",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 605,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "90122359d9308792",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA4JG6CBVD2EQGW90QGH",
+    "source": "Orchestrate: summary='{}' agents=[{names}]",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 614,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "04c7a12c503c905e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E93D3YTRNHVRX8WTD",
+    "source": "ReadFiles: [{file_names}]",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 681,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "71b46be7d008cd1c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HSCE412B6GSQR4AE9",
+    "source": "UploadArtifact: {}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 693,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "de28d7a1040ff04b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F1ZYWG4ZBB8PR7P18",
+    "source": "SearchCodebase: {}",
+    "file": "crates/ai/src/agent/action/mod.rs",
+    "line": 712,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ae7f4871a50ef17a",
+    "audit_verdict": "uncertain"
+  }
+]
