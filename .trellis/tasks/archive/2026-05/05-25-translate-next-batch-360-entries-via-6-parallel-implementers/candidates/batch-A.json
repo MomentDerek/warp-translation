@@ -1,0 +1,542 @@
+[
+  {
+    "id": "01KQXQV12AV8PGSWFGMA5R18W3",
+    "source": "Command '{}' completed with exit code {}:\n{}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 230,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c7a5df299e462965",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AGASBF2HT5YWV4HFS",
+    "source": "Command '{command}' is long-running",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 237,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7a530d8013d6383e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AQ858112VJ44Q5MR5",
+    "source": "Command output cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 240,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a683976c3980f2b3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AX6G3HV1WRJBJKSMK",
+    "source": "Command output was on denylist",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 243,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "788f520bbe44c582",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FPYFRPDSWYTX1WN43",
+    "source": "Sent snapshot of long-running shell command to agent",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 278,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9fbce704100cd517",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DWZ3BBJ1NHJ9W6HBB",
+    "source": "Long-running shell command finished with exit code {}:\n{output}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 284,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a7da37d14bd14732",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J21GHQ7DYBADBKH9Z",
+    "source": "Writing to long-running shell command cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 287,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3bc41ab929131cb7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JKDR16K02BKDFR97E",
+    "source": "Write to long-running shell command failed: {e:?}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 288,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "46f49cf1a919a6ad",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G9Z03X72Y6PHSPJRK",
+    "source": "Suggest new conversation accepted for message {message_id}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 306,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8fbc81e1bae0626b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GDSDA0KTXZJ6NCYXX",
+    "source": "Suggest new conversation rejected for message",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 310,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7ef7fd1e45981cf3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G8QH3WM43K32ZHJNN",
+    "source": "Suggest new conversation cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 312,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2d6ea7c1299e540b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ED0SW9MNXF3E8JM99",
+    "source": "Read files: {}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 416,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "482a62960ba458a7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E8A3KCP182A8GMNNT",
+    "source": "Read files error: {error}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 418,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0218b1e79d23b69c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EM7MFVWG9PNB95YAX",
+    "source": "Read files cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 419,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6d5e43d5df5149c8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HTC6SWN364NAGZNAV",
+    "source": "Uploaded artifact {artifact_uid} from {filepath}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 445,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0554932b50c7d0be",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HTBXTCVVSHD9XFA7Z",
+    "source": "Uploaded artifact {artifact_uid}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 446,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "56415c89aef80884",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HZ4GD3QG8PRWKMGFM",
+    "source": "Upload artifact error: {error}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 448,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0f2264aa88a068d0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HZZNAA6FXJ7JZ93MN",
+    "source": "Upload artifact cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 449,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2772ed9d563d005e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B23CDC8T40ZZXTAQB",
+    "source": "Document {}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 465,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2cc81b8e5863f757",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BX2PFYGKKHFD70RVH",
+    "source": "Document {} ({})",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 475,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "28f0465b9d9f8d0e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E7PVR1F22MHD4M39T",
+    "source": "Read documents: {}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 493,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f7b418c898c039fa",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EQAQZ1NT4SMAAJP69",
+    "source": "Read documents error: {error}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 495,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "627901b42ef432f1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ENHZ5KXXA184S0Y0C",
+    "source": "Read documents cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 496,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ffd7a43884db3bf2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BX39R2W9NXZCG8VWV",
+    "source": "Edited documents: {}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 516,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "119859533b4ea3e3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BV6GC8QWPGRA9N44P",
+    "source": "Edit documents error: {error}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 520,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b7f38e38636f5082",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BR6ZPX2HFZ4QGH488",
+    "source": "Edit documents cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 521,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "49d73b942bc49e13",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A4P1PCKWP13C5MYXA",
+    "source": "Created documents: {}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 541,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f03a9834cfbd8f37",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AM8TKD2TN6HRJTZ0J",
+    "source": "Create documents error: {error}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 545,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1053e9ee4640d479",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ABYT115RRR04HK7BS",
+    "source": "Create documents cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 546,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ca330674a9ce1381",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FHBX4HBG92JZDTTR5",
+    "source": "Shell command output finished with exit code{}:\n{output}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 581,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "aac8db602aa106ff",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EDBF9DKZCPVDR9J5K",
+    "source": "Read shell command output cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 589,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d6b5ce3c45c45be0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E2RNQ00ZWXK08AD37",
+    "source": "Read shell command output failed: {e:?}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 592,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cf151a88e1c73855",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AQ4MV0ZR13MVEN6QW",
+    "source": "Codebase search found: {}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 625,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ef5dda442c8c2c31",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ATHRXNKA0SXHNZM8E",
+    "source": "Codebase search failed ({reason:?}): {message}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 628,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ef47c559ae0c71cb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AYKWF0WJKJKCBYZ4P",
+    "source": "Codebase search cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 630,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2fe2384aaa73549f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CXYJ9QPGVXPJV6ECJ",
+    "source": "File edits completed:\n\tDiff:\n{diff}\n\tUpdatedFiles: [{}]",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 693,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d1234d3758ee68ab",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C9B1GYFH9EWT7ZRE5",
+    "source": "File edits cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 697,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1c71f89153592e23",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CVRSFQFCZFTX4HXR6",
+    "source": "File edits failed: {error}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 699,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9cac121730c4ab8a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G0DS7KKKB8GP0G2AP",
+    "source": "Suggest prompt accepted: {query}",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 715,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e97397a01f90ac2d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GG17MJ7KCBRWZW1G1",
+    "source": "Suggest prompt cancelled",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 717,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e9c8efffb7477b8b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GQFE9FNPJ5W25FHT0",
+    "source": "The output of your last command executed by Agent Mode",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 729,
+    "occurrences_kind": "literal",
+    "source_hash": "2fea60d2200a9331",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128W5C3MF6ZXZ55AJEN",
+    "source": "A snapshot of the command currently being executed by Agent Mode",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 732,
+    "occurrences_kind": "literal",
+    "source_hash": "e3e5f50721af325d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G20GT4P7Z8FP12FQX",
+    "source": "The diff from editing the last file in Agent Mode",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 735,
+    "occurrences_kind": "literal",
+    "source_hash": "604a38a60f071852",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GA2ES9CC20MQKHCHF",
+    "source": "The requested file content",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 737,
+    "occurrences_kind": "literal",
+    "source_hash": "92eba44358978807",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GG8S0WFM8TJ703XQE",
+    "source": "The uploaded artifact metadata",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 738,
+    "occurrences_kind": "literal",
+    "source_hash": "fd571cabdf87affb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GYPT7R87R3P55YSWN",
+    "source": "The codebase search results",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 739,
+    "occurrences_kind": "literal",
+    "source_hash": "923874c1366bf6c2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G31DV5DW7RS5MCG1N",
+    "source": "The results of the grep operation",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 740,
+    "occurrences_kind": "literal",
+    "source_hash": "5327fa2a74fc252e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G9K7N03W2W212FMZE",
+    "source": "The results of the file glob operation",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 741,
+    "occurrences_kind": "literal",
+    "source_hash": "9048ff36a5252084",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GTBQPNMKNGKR6T00W",
+    "source": "The MCP tool call",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 743,
+    "occurrences_kind": "literal",
+    "source_hash": "70d0ba0f014f279c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GBSQTT9CG3QACRX06",
+    "source": "The results of reading a skill from file",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 744,
+    "occurrences_kind": "literal",
+    "source_hash": "a56168b740e77767",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G5459W7KTW3NMSCHM",
+    "source": "The MCP resource",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 745,
+    "occurrences_kind": "literal",
+    "source_hash": "c0eeff4c7a15aa07",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J7MNZGJWXV9H44105",
+    "source": "Your decision on whether to start a new conversation",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 747,
+    "occurrences_kind": "literal",
+    "source_hash": "07e255ea99ea9031",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GSJDEPS4NZEPJNF82",
+    "source": "The suggested prompt",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 749,
+    "occurrences_kind": "literal",
+    "source_hash": "c63b1947b9f2bd73",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CYTEWE944REBGSV02",
+    "source": "Insert code review comments",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 751,
+    "occurrences_kind": "literal",
+    "source_hash": "634e81980d074313",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CFHP4XVG5206ZTDDR",
+    "source": "Initialize project",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 752,
+    "occurrences_kind": "literal",
+    "source_hash": "b34607b402ceaaba",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G311MQBH3BB2RKJ4M",
+    "source": "The requested document content",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 753,
+    "occurrences_kind": "literal",
+    "source_hash": "03ea5e14c53767cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GWGKKMR2H9KAHGFR1",
+    "source": "The edited document content",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 754,
+    "occurrences_kind": "literal",
+    "source_hash": "7ed0419d07d3bb73",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GN2N48V5EMK7XQZF2",
+    "source": "The newly created documents",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 755,
+    "occurrences_kind": "literal",
+    "source_hash": "1624e170b162416e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G3N8D7A9QQJTS2H6H",
+    "source": "The shell command output",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 756,
+    "occurrences_kind": "literal",
+    "source_hash": "c1d5be0615a34f28",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GFN5J4ZGHEV5VG241",
+    "source": "The computer use result",
+    "file": "crates/ai/src/agent/action_result/mod.rs",
+    "line": 757,
+    "occurrences_kind": "literal",
+    "source_hash": "a49b65aa1e127771",
+    "audit_verdict": "uncertain"
+  }
+]

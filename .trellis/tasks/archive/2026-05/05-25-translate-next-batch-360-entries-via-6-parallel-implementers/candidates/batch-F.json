@@ -1,0 +1,542 @@
+[
+  {
+    "id": "01KQXQV12C4060A065QP9R5SF8",
+    "source": "Input your shell command, press enter to execute. Press cmd-up to navigate to output of previously executed commands. Press cmd-l to re-focus command input.",
+    "file": "app/src/terminal/input.rs",
+    "line": 443,
+    "occurrences_kind": "literal",
+    "source_hash": "7c170ed222a3b346",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HX1MNRN9WFTJ2072D",
+    "source": "Warp anything e.g. Deploy my React app to Vercel and set up environment variables",
+    "file": "app/src/terminal/input.rs",
+    "line": 450,
+    "occurrences_kind": "literal",
+    "source_hash": "b12c58555c616ca9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HV5GW0DQZQQ8QH0CW",
+    "source": "Warp anything e.g. Help me debug why my Python tests are failing in CI",
+    "file": "app/src/terminal/input.rs",
+    "line": 451,
+    "occurrences_kind": "literal",
+    "source_hash": "f181b430ddea839e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HP05Q2EYWP4W6VVAP",
+    "source": "Warp anything e.g. Set up a new microservice with Docker and create the deployment pipeline",
+    "file": "app/src/terminal/input.rs",
+    "line": 452,
+    "occurrences_kind": "literal",
+    "source_hash": "48b745b5c43b096e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HSKVKRENMWEMAECTR",
+    "source": "Warp anything e.g. Find and fix the memory leak in my Node.js application",
+    "file": "app/src/terminal/input.rs",
+    "line": 453,
+    "occurrences_kind": "literal",
+    "source_hash": "19be3ee7592476dd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HY4781H3CMA9NYDCR",
+    "source": "Warp anything e.g. Create a backup script for my PostgreSQL database and schedule it",
+    "file": "app/src/terminal/input.rs",
+    "line": 454,
+    "occurrences_kind": "literal",
+    "source_hash": "9da1f50343f6a3af",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HA707AX5P03NB8S2D",
+    "source": "Warp anything e.g. Help me migrate my data from MySQL to PostgreSQL",
+    "file": "app/src/terminal/input.rs",
+    "line": 455,
+    "occurrences_kind": "literal",
+    "source_hash": "7e15f8bd9ab8df2f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H1BYMETT7CTXY28YM",
+    "source": "Warp anything e.g. Set up monitoring and alerts for my AWS infrastructure",
+    "file": "app/src/terminal/input.rs",
+    "line": 456,
+    "occurrences_kind": "literal",
+    "source_hash": "185a7c5bcd09a8be",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HJP8QWJH5PSNEZHXS",
+    "source": "Warp anything e.g. Build a REST API for my mobile app using FastAPI",
+    "file": "app/src/terminal/input.rs",
+    "line": 457,
+    "occurrences_kind": "literal",
+    "source_hash": "817465d6b914d55a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H3YAZ69HBRR33FY71",
+    "source": "Warp anything e.g. Help me optimize my SQL queries that are running slowly",
+    "file": "app/src/terminal/input.rs",
+    "line": 458,
+    "occurrences_kind": "literal",
+    "source_hash": "bebe2c1f174d99ae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HFSHYBX259A85PEDD",
+    "source": "Warp anything e.g. Create a GitHub Actions workflow to automatically deploy on merge",
+    "file": "app/src/terminal/input.rs",
+    "line": 459,
+    "occurrences_kind": "literal",
+    "source_hash": "ce98b2376c5964c2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HJHZPE5F7EV1QW2HF",
+    "source": "Warp anything e.g. Set up Redis caching for my web application",
+    "file": "app/src/terminal/input.rs",
+    "line": 460,
+    "occurrences_kind": "literal",
+    "source_hash": "7f8e7d0f9c6ad0dc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HW1R61K2C2YHQATTP",
+    "source": "Warp anything e.g. Help me troubleshoot why my Kubernetes pods keep crashing",
+    "file": "app/src/terminal/input.rs",
+    "line": 461,
+    "occurrences_kind": "literal",
+    "source_hash": "bd3c6cc8d57528d8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HX2QFKR0FB17GHJ91",
+    "source": "Warp anything e.g. Build a data pipeline to process CSV files and load them into BigQuery",
+    "file": "app/src/terminal/input.rs",
+    "line": 462,
+    "occurrences_kind": "literal",
+    "source_hash": "cfd06a7f89f33dc3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HD49T9WFTM2GGX82V",
+    "source": "Warp anything e.g. Set up SSL certificates and configure HTTPS for my domain",
+    "file": "app/src/terminal/input.rs",
+    "line": 463,
+    "occurrences_kind": "literal",
+    "source_hash": "4ae9b43cf66b9fa1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H0QES0G50AG9CTBN0",
+    "source": "Warp anything e.g. Help me refactor this legacy code to use modern design patterns",
+    "file": "app/src/terminal/input.rs",
+    "line": 464,
+    "occurrences_kind": "literal",
+    "source_hash": "c83bab980796d5a6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H72Y669WF2SC02CH4",
+    "source": "Warp anything e.g. Create unit tests for my authentication service",
+    "file": "app/src/terminal/input.rs",
+    "line": 465,
+    "occurrences_kind": "literal",
+    "source_hash": "a58184df1e83a4c5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H7607S40ACFP95YDB",
+    "source": "Warp anything e.g. Set up log aggregation with ELK stack for my distributed system",
+    "file": "app/src/terminal/input.rs",
+    "line": 466,
+    "occurrences_kind": "literal",
+    "source_hash": "7e2a5af55717dd87",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HPRWJXX830JDDAP32",
+    "source": "Warp anything e.g. Help me implement OAuth2 authentication in my Express.js app",
+    "file": "app/src/terminal/input.rs",
+    "line": 467,
+    "occurrences_kind": "literal",
+    "source_hash": "0031fd4ddd99dcb7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HSZ3C7AJ2PCCPMFPA",
+    "source": "Warp anything e.g. Optimize my Docker images to reduce build times and size",
+    "file": "app/src/terminal/input.rs",
+    "line": 468,
+    "occurrences_kind": "literal",
+    "source_hash": "256a4ac2757e0573",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H1FYV5CKXR1TSKVEG",
+    "source": "Warp anything e.g. Set up A/B testing infrastructure for my web application",
+    "file": "app/src/terminal/input.rs",
+    "line": 469,
+    "occurrences_kind": "literal",
+    "source_hash": "52db4645c2d8f7a3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G5GWAVF209STZAPM3",
+    "source": "Steer the running agent",
+    "file": "app/src/terminal/input.rs",
+    "line": 490,
+    "occurrences_kind": "literal",
+    "source_hash": "9e71b8cea1936b7b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GZRQBTFK0PPVXRBFC",
+    "source": "Steer the running agent, or backspace to exit",
+    "file": "app/src/terminal/input.rs",
+    "line": 492,
+    "occurrences_kind": "literal",
+    "source_hash": "2fe96d87cc868f79",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1293RTK4ZYR7H19S0HE",
+    "source": "Ask a follow up",
+    "file": "app/src/terminal/input.rs",
+    "line": 493,
+    "occurrences_kind": "literal",
+    "source_hash": "8b64739533e3db92",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129CH1SZRS971GF7T5J",
+    "source": "Ask a follow up, or backspace to exit",
+    "file": "app/src/terminal/input.rs",
+    "line": 495,
+    "occurrences_kind": "literal",
+    "source_hash": "ae0fa157df8f31a3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FYFJ36ZAY68D2BTH8",
+    "source": "Search queries",
+    "file": "app/src/terminal/input.rs",
+    "line": 816,
+    "occurrences_kind": "literal",
+    "source_hash": "ce4982451b9a6820",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FGE87RKBZH0NFYWHF",
+    "source": "Search queries to rewind to",
+    "file": "app/src/terminal/input.rs",
+    "line": 820,
+    "occurrences_kind": "literal",
+    "source_hash": "afda96501251434c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FGRW2KM1XAS8SRNXD",
+    "source": "Search profiles",
+    "file": "app/src/terminal/input.rs",
+    "line": 824,
+    "occurrences_kind": "literal",
+    "source_hash": "f37deb7771e628fe",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FHQG0957WM97ZQT45",
+    "source": "Search indexed repos",
+    "file": "app/src/terminal/input.rs",
+    "line": 829,
+    "occurrences_kind": "literal",
+    "source_hash": "d7c76232fcbc827f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV10TH90Q9RSATJAAJ7P0",
+    "source": " Define the regex patterns that we show completions-as-you-type in AI input on.",
+    "file": "app/src/terminal/input.rs",
+    "line": 1474,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9263b1e3cccbc410",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11S0HP5S2YJA8T1VHYY",
+    "source": " We only show file completions - as such, we match on the following patterns:",
+    "file": "app/src/terminal/input.rs",
+    "line": 1475,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3d6e9adf88ff18a8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11SESSXFE9WD7Y5DCKV",
+    "source": " We combine all the regex patterns for performance reasons (one string scan).",
+    "file": "app/src/terminal/input.rs",
+    "line": 1480,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e4e30e6468aef011",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV113MXSA4QK3XEJETXDF",
+    "source": " NOTE: this assumes Unix-style paths. When we expand to Windows, we'll want to update this!",
+    "file": "app/src/terminal/input.rs",
+    "line": 1481,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "707a9b914d0d885d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9Q5BQGKPV6XDY52YHYJ",
+    "source": "Failed to prepare cloud handoff: {error_message}",
+    "file": "app/src/terminal/input.rs",
+    "line": 2228,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a78654da3a2a5caa",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129JT25SHQWSP8NR8RS",
+    "source": "Attached images were removed — the selected model does not support images.",
+    "file": "app/src/terminal/input.rs",
+    "line": 3230,
+    "occurrences_kind": "literal",
+    "source_hash": "abf88f92aade24f7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JGZ7DAADDTMZA138C",
+    "source": "{} was not attached — exceeds 10MB limit.",
+    "file": "app/src/terminal/input.rs",
+    "line": 4023,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e7db0afab3cc8389",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J5KQ4HHHN5JVSTAC4",
+    "source": "{} files were not attached — exceed 10MB limit.",
+    "file": "app/src/terminal/input.rs",
+    "line": 4028,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3fa7608022971cbd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G4BGZF7CK8XPYCFVH",
+    "source": "Skill not found: {}",
+    "file": "app/src/terminal/input.rs",
+    "line": 5232,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bb4fb9eb18c2af73",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DZ8A9XVE5GXP3E1YC",
+    "source": "No active conversation to export",
+    "file": "app/src/terminal/input.rs",
+    "line": 5295,
+    "occurrences_kind": "literal",
+    "source_hash": "e9e59c8e15466a2b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C1GHJ9G509VMTSBRV",
+    "source": "File {display_path} already exists and will be overwritten",
+    "file": "app/src/terminal/input.rs",
+    "line": 5360,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5ed4123e46670db5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A8KFNEJ2SS0KMKV4P",
+    "source": "Conversation exported to {display_path}",
+    "file": "app/src/terminal/input.rs",
+    "line": 5374,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e7269b13566bddc6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ETGT2NB7Z63XBNDE9",
+    "source": "Permission denied writing to {}. Check file permissions.",
+    "file": "app/src/terminal/input.rs",
+    "line": 5384,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f550fa7e76dc60b4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AR8X051EKKDN88Y11",
+    "source": "Directory not found: {}",
+    "file": "app/src/terminal/input.rs",
+    "line": 5390,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3ecb8a04bd2c52aa",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CVNB55MJ8AMVC0DRJ",
+    "source": "File {} already exists",
+    "file": "app/src/terminal/input.rs",
+    "line": 5398,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4c1d9ec66a90fa87",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BJJHF46G7FNQ9KFKB",
+    "source": "Failed to export to {}: {}",
+    "file": "app/src/terminal/input.rs",
+    "line": 5401,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3b78ca1c9c1fcea6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128C65D6F9K3RGPBQJ6",
+    "source": "1 image was removed - limit is 20 per conversation.",
+    "file": "app/src/terminal/input.rs",
+    "line": 5453,
+    "occurrences_kind": "literal",
+    "source_hash": "77e7f4c432b4befe",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J48P95W4DQGG56C6R",
+    "source": "{images_removed} images were removed - limit is 20 per conversation.",
+    "file": "app/src/terminal/input.rs",
+    "line": 5455,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "18723f3a09cf13dc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H6ZAEAG66H4SK8992",
+    "source": "Tried to open file in code editor without a session id",
+    "file": "app/src/terminal/input.rs",
+    "line": 5698,
+    "occurrences_kind": "literal",
+    "source_hash": "5f97cc2b3f439c7d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HR5YSA960FGP249F8",
+    "source": "Tried to open file in code editor without a session",
+    "file": "app/src/terminal/input.rs",
+    "line": 5702,
+    "occurrences_kind": "literal",
+    "source_hash": "6bd24e59895f2010",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H82V211CRB1F1DH8D",
+    "source": "Tried to open file in code editor for a remote session",
+    "file": "app/src/terminal/input.rs",
+    "line": 5706,
+    "occurrences_kind": "literal",
+    "source_hash": "e9f39e810336ac58",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BXCHZVNRDFEMMHFAD",
+    "source": "Failed to get current working directory",
+    "file": "app/src/terminal/input.rs",
+    "line": 5717,
+    "occurrences_kind": "literal",
+    "source_hash": "526105b2d3edfbb0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B2D0V0M8NVHXDYASQ",
+    "source": "Enter prompt for {}...",
+    "file": "app/src/terminal/input.rs",
+    "line": 6308,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f985fee9a8e6a32c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9XCH8TZPBKJQZXDKRJ0",
+    "source": "Hand off to {}",
+    "file": "app/src/terminal/input.rs",
+    "line": 6334,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bd095484341e9711",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9XGBN8F0EXB377Q6X9F",
+    "source": "Handoff to cloud",
+    "file": "app/src/terminal/input.rs",
+    "line": 6335,
+    "occurrences_kind": "literal",
+    "source_hash": "d8a3f3e6d1b8b516",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129Z7TPJDBRPT9682K9",
+    "source": "Cannot run `{truncated_command}` (command already running).",
+    "file": "app/src/terminal/input.rs",
+    "line": 6738,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1d7586d54acf99ce",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JJ4QC400FJJ4CWZ5K",
+    "source": "Workflow command {} inserted.",
+    "file": "app/src/terminal/input.rs",
+    "line": 7441,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9b81d850be18af96",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E1372XX2VTRGMRJCQ",
+    "source": "Press shift-tab to select the next workflow argument",
+    "file": "app/src/terminal/input.rs",
+    "line": 7447,
+    "occurrences_kind": "literal",
+    "source_hash": "628c42ec9b7967c5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F3A354ND5KFDY21AM",
+    "source": "Selected Workflow argument {}",
+    "file": "app/src/terminal/input.rs",
+    "line": 7547,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "53c930c23bb564c0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BWD9ZNQBFVGRWYT54",
+    "source": "Executed: {command}",
+    "file": "app/src/terminal/input.rs",
+    "line": 7799,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "220599cae892ec57",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12802SVSW8AV7A6A6ZV",
+    "source": "1 image wasn't attached - limit is {limit_value} images {limit_name}.",
+    "file": "app/src/terminal/input.rs",
+    "line": 10843,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9e3441a91bbf8f60",
+    "audit_verdict": "uncertain"
+  }
+]

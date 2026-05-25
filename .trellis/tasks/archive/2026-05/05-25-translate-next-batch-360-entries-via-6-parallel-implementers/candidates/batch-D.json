@@ -1,0 +1,542 @@
+[
+  {
+    "id": "01KQXQV12GF3ZNZDVFHWXDT3JT",
+    "source": "The key used to toggle voice input.",
+    "file": "app/src/settings/ai.rs",
+    "line": 154,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6997a4bd1d0a7b6d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A5QSPK6NV21T9B2NH",
+    "source": "Control (Left)",
+    "file": "app/src/settings/ai.rs",
+    "line": 192,
+    "occurrences_kind": "literal",
+    "source_hash": "4c10e6548bea9d6b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AR2GFPQBG0ZNETP07",
+    "source": "Control (Right)",
+    "file": "app/src/settings/ai.rs",
+    "line": 193,
+    "occurrences_kind": "literal",
+    "source_hash": "0750d3a2a8494555",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FVMTQ8ZCVFPHEX88K",
+    "source": "Shift (Left)",
+    "file": "app/src/settings/ai.rs",
+    "line": 200,
+    "occurrences_kind": "literal",
+    "source_hash": "411ba026453562ce",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F60JF548B5FET8EPT",
+    "source": "Shift (Right)",
+    "file": "app/src/settings/ai.rs",
+    "line": 201,
+    "occurrences_kind": "literal",
+    "source_hash": "601a95bbe3fd4235",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H322F5YR87TWR214K",
+    "source": "Voice input (hold {key_name} key)",
+    "file": "app/src/settings/ai.rs",
+    "line": 271,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "314a20a9371b05d9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GH8EMMW7YY593YXGD",
+    "source": "The default mode for new terminal sessions.",
+    "file": "app/src/settings/ai.rs",
+    "line": 322,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e5a8fb1a892e6107",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129G2WSX0ZSC8WBA8HM",
+    "source": "Cloud Oz",
+    "file": "app/src/settings/ai.rs",
+    "line": 331,
+    "occurrences_kind": "literal",
+    "source_hash": "126a9cabb8619922",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GJXX23H0DAQTMEYB4",
+    "source": "Tab Config",
+    "file": "app/src/settings/ai.rs",
+    "line": 332,
+    "occurrences_kind": "literal",
+    "source_hash": "3bfd2ba828ef3a38",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A6RRXN9AAJAB9F5RF",
+    "source": "Controls how agent thinking traces are displayed after streaming.",
+    "file": "app/src/settings/ai.rs",
+    "line": 372,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ef9c66a107f982a1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FCSZYW61HE4KXYJAY",
+    "source": "Show & collapse",
+    "file": "app/src/settings/ai.rs",
+    "line": 379,
+    "occurrences_kind": "literal",
+    "source_hash": "d511221f1e6b5242",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1292FTVS50X4W40JQ5C",
+    "source": "Always show",
+    "file": "app/src/settings/ai.rs",
+    "line": 380,
+    "occurrences_kind": "literal",
+    "source_hash": "281b63ba336e0102",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D8FRRX40V8K8CKY9A",
+    "source": "Never show",
+    "file": "app/src/settings/ai.rs",
+    "line": 381,
+    "occurrences_kind": "literal",
+    "source_hash": "8777874c7f170853",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FQHRMXT8P5BTTZAWT",
+    "source": "Set agent thinking display: show & collapse",
+    "file": "app/src/settings/ai.rs",
+    "line": 387,
+    "occurrences_kind": "literal",
+    "source_hash": "054f7866d6658d4c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FY6Z05WQ3J5JNTMTT",
+    "source": "Set agent thinking display: always show",
+    "file": "app/src/settings/ai.rs",
+    "line": 388,
+    "occurrences_kind": "literal",
+    "source_hash": "d6dc8208c9a64ef5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FJH3VRVR6AB6QBMW7",
+    "source": "Set agent thinking display: never show",
+    "file": "app/src/settings/ai.rs",
+    "line": 389,
+    "occurrences_kind": "literal",
+    "source_hash": "c88f60c1c86524f7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129G8FMCVQFT558NF8Z",
+    "source": "Can parse optional args regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 588,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9350f7ade2db26be",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12957525EEEF9ANJY5M",
+    "source": "Can parse default cat rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 602,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b98f21d7e3d594bf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129B4D62FHGBKH9SF7Q",
+    "source": "Can parse default echo rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 603,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0125ff4d9b28172e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129S1KFDTKG0CGRBD79",
+    "source": "Can parse default find rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 604,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "19721a92a97ae86e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129E989KQ7FA9Y06AAA",
+    "source": "Can parse default grep rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 605,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b6102e44891a0133",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1292KV0M20634MK6VRK",
+    "source": "Can parse default ls rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 606,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bf6a1b02ae5a0943",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1294YZ11H04Q479BF7Q",
+    "source": "Can parse default which rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 607,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c39134a498a2bfeb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129HS78DY2G4HTJAEQS",
+    "source": "Can parse default bash rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 611,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d100041d1591cb03",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129N280NT2NA4A57966",
+    "source": "Can parse default fish rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 612,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d18ff76746f2a29a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129Q7C73MX24M7H1SE2",
+    "source": "Can parse default pwsh rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 613,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b4f479d096b9fc9e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12984D4ZPDXDPJ5WZ6X",
+    "source": "Can parse default sh rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 614,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3aded4fb765a0af0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129XYKG5ZRVVFRT3B8F",
+    "source": "Can parse default zsh rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 615,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2228c9ca84215e1a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129BCGFAX0MSYA9A55J",
+    "source": "Can parse default curl rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 616,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c7aa61628c2f260c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129HAK1P6ARGQGFRH7C",
+    "source": "Can parse default eval rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 617,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "340124c9fc1f9867",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129QB87YXDW4J17HEF3",
+    "source": "Can parse default exec rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 618,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a593a72b3ada8979",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129XXVZQGWA8WZY23SH",
+    "source": "Can parse default source rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 619,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4127f901fc17c2f8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12992C88RAETDNAA3AD",
+    "source": "Can parse default wget rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 620,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "560b4f91e13b9b7a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1296CXMWR88ZTXN68V4",
+    "source": "Can parse default dig rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 621,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76ffb203fd895281",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129A8PR1FQK19TCS268",
+    "source": "Can parse default nslookup rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 622,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7f6ea6d12c90abca",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129ZNR3GH5BJ1D9KBDE",
+    "source": "Can parse default host rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 623,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "88d4a1b905702da7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129P7VP8GA3D5EYYQ53",
+    "source": "Can parse default ssh rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 624,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0c53fa431709f41b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129P4CXHV28G9MEDNKA",
+    "source": "Can parse default scp rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 625,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "88b61892e9329cc1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129QT4AYD5HVBWJG6HP",
+    "source": "Can parse default rsync rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 626,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "905d793c4c17d188",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129DE4BECFKEW00VGV0",
+    "source": "Can parse default telnet rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 627,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "58dc2b7a36a4a395",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129FE8BNRVGNV1GE4Z6",
+    "source": "Can parse default rm rule into regex",
+    "file": "app/src/settings/ai.rs",
+    "line": 628,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e7e4bdbd7dd55e83",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AXZA65AHXCDATFBM6",
+    "source": "Controls whether all AI features are enabled.",
+    "file": "app/src/settings/ai.rs",
+    "line": 724,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ecbdf8066a6c5680",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A8GSKHM9W339FAGB1",
+    "source": "Controls whether proactive AI features like suggestions are enabled.",
+    "file": "app/src/settings/ai.rs",
+    "line": 735,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4d798bfeb54c67c5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AH85ACYPQP48PTJAH",
+    "source": "Controls whether AI automatically detects natural language input.",
+    "file": "app/src/settings/ai.rs",
+    "line": 746,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8da61458fffa711",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A0F5JETGPKNWPMKXD",
+    "source": "Controls whether natural language detection is enabled in the terminal input.",
+    "file": "app/src/settings/ai.rs",
+    "line": 760,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2edabcff494f2ce8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AJ2CW7X8EGX9RNMK8",
+    "source": "Commands to exclude from AI natural language autodetection.",
+    "file": "app/src/settings/ai.rs",
+    "line": 769,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "270a6be05c9fffdb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AA3Y8TK468SNPG8AX",
+    "source": "Controls whether AI-powered intelligent autosuggestions are enabled.",
+    "file": "app/src/settings/ai.rs",
+    "line": 780,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "27bb1197b1946808",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ABZJXCSBVF1D697GJ",
+    "source": "Controls whether prompt suggestions are shown in agent mode.",
+    "file": "app/src/settings/ai.rs",
+    "line": 794,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "37cb1cb153295d7d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AD9XVKZNT4ZZW4JGC",
+    "source": "Controls whether AI code suggestions are enabled.",
+    "file": "app/src/settings/ai.rs",
+    "line": 806,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "56e193962ce70dad",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A2MCQT4CSM0YF157K",
+    "source": "Controls whether ghosted text autosuggestions are shown for AI input queries.",
+    "file": "app/src/settings/ai.rs",
+    "line": 818,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6563fdc70805d698",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A05B1XK2JH1M2PMQB",
+    "source": "Controls whether titles are auto-generated when sharing blocks.",
+    "file": "app/src/settings/ai.rs",
+    "line": 831,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "333e83b36d811885",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AFWW0CZ38ZMQH91A1",
+    "source": "Controls whether AI auto-generates commit messages and PR title/body in the code review dialogs.",
+    "file": "app/src/settings/ai.rs",
+    "line": 842,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c3e77d3ea31e2865",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12APJPAF1RYB7GF24T8",
+    "source": "Controls whether the agent suggests rules to save after responses.",
+    "file": "app/src/settings/ai.rs",
+    "line": 853,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d9f69d73117243d2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AT2PE0J0J4CHB4CAS",
+    "source": "Controls whether voice input is enabled for AI interactions.",
+    "file": "app/src/settings/ai.rs",
+    "line": 865,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "73c40ec014a0ed78",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A31VYV8EV1C07M95M",
+    "source": "Commands that the agent can execute without explicit permission.",
+    "file": "app/src/settings/ai.rs",
+    "line": 911,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a3c3b4c485072aa9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AF868FBA2WRJG605J",
+    "source": "Commands that the agent must always ask before executing.",
+    "file": "app/src/settings/ai.rs",
+    "line": 925,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c598d89ba6c713d3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H9336GD1DW0WKRE7E",
+    "source": "Whether the agent can auto-execute read-only commands without asking.",
+    "file": "app/src/settings/ai.rs",
+    "line": 938,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "164c72e6a436b8c9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GH6P0J8QD5H96K8E0",
+    "source": "The file read permission level for the agent.",
+    "file": "app/src/settings/ai.rs",
+    "line": 953,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "153c857ab9022f31",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CGTDPT2W2AN7D9AZV",
+    "source": "File paths the agent can read without asking for permission.",
+    "file": "app/src/settings/ai.rs",
+    "line": 969,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "811c0e779b492b80",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HQNY1Z2K45XSMJK8H",
+    "source": "Whether Warp should use your local AWS credentials for Bedrock-enabled requests.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1036,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3911abbaf9e1a687",
+    "audit_verdict": "uncertain"
+  }
+]

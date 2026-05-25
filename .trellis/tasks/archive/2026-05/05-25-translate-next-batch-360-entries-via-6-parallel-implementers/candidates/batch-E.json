@@ -1,0 +1,542 @@
+[
+  {
+    "id": "01KQXQV12A188ZZRJJWP9ZAFBA",
+    "source": "Demo {}/{} - {}",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 248,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5d65323a0dd4d742",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HKX6W1ZXDYES23Q9C",
+    "source": "Use ← → arrow keys to navigate between demos",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 262,
+    "occurrences_kind": "literal",
+    "source_hash": "341f3aba29d93976",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129H6K6JGT4VGY6WS3Y",
+    "source": "Auto-sized content",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 285,
+    "occurrences_kind": "literal",
+    "source_hash": "0372e38b676484cd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DFZ9EMWHHZXPN3H4A",
+    "source": "More flexible",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 289,
+    "occurrences_kind": "literal",
+    "source_hash": "e035b58d0dbfb03b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CCAYFQP7NW5CKXETE",
+    "source": "Fits content width",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 291,
+    "occurrences_kind": "literal",
+    "source_hash": "a2fcf7f90ad3363b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AX4G4Q2J2652GRNR6",
+    "source": "Column Width Types",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 319,
+    "occurrences_kind": "literal",
+    "source_hash": "76d32ebe8e822cb8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AV7R50N8MR5QYYEC4",
+    "source": "Demonstrates Fixed, Flex, Fraction, and Intrinsic column widths",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 320,
+    "occurrences_kind": "literal",
+    "source_hash": "3507c202a3f89b91",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A8PMRCP4XWHCRDE5W",
+    "source": "Column A",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 334,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8ed083f703e346af",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A3F8YC9KHH9M5ZV9H",
+    "source": "Column B",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 335,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0d25b5a3ca189456",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F8F27JNZDM3VDGE3G",
+    "source": "Row {}",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 341,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "29b720af337ea898",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A6P6P9XCG6M9GN1NG",
+    "source": "Data A-{}",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 344,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2e51e584595cbe79",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AGW33T5VQJZS7W8FR",
+    "source": "Data B-{}",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 347,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6a7b9e522db327a9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H9HVGVG7QFJSH17BK",
+    "source": "Value: {}",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 350,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e73ebdb9a8d141b5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HP3ZW1XX17688VTQ1",
+    "source": "Virtualized Table (Scrolling Header)",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 379,
+    "occurrences_kind": "literal",
+    "source_hash": "ea5ff9f8a083df18",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1286YSA9GJTX1K458BT",
+    "source": "1000 rows with scroll-based virtualization. Header scrolls with body.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 380,
+    "occurrences_kind": "literal",
+    "source_hash": "80d21c20f2802cc1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HEAT1Z89N5ZW6PZGD",
+    "source": "Virtualized Table (Fixed Header)",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 453,
+    "occurrences_kind": "literal",
+    "source_hash": "1e2a7de4d3ebae3d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12895KRX9DD1RHQ3N74",
+    "source": "1000 rows with scroll-based virtualization. Header stays fixed at top.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 454,
+    "occurrences_kind": "literal",
+    "source_hash": "2f856f7e1fbec369",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1298HRS8HRQVE9RASM8",
+    "source": "Alice Johnson",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 479,
+    "occurrences_kind": "literal",
+    "source_hash": "4fa8c1cdf83eb36e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129ZAZNVWAM2P0EHYES",
+    "source": "Bob Smith",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 480,
+    "occurrences_kind": "literal",
+    "source_hash": "7e3d89811312ed29",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12994R08DS8P246642Q",
+    "source": "Carol Williams",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 481,
+    "occurrences_kind": "literal",
+    "source_hash": "f94107301d425e2b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AC4E6MD31EKFXCAKB",
+    "source": "David Brown",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 482,
+    "occurrences_kind": "literal",
+    "source_hash": "d622a4539b476f3a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BDZ3D8WKSJS8YFNQS",
+    "source": "Eve Davis",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 483,
+    "occurrences_kind": "literal",
+    "source_hash": "f102ef8b6e0e1c17",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FS03MADVRG5VCN0NT",
+    "source": "Selection (Non-Virtualized)",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 514,
+    "occurrences_kind": "literal",
+    "source_hash": "5877a55f05449ba9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1292QR2EBN5QCC98WJF",
+    "source": "Click and drag to select text. Selection is logged to console.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 515,
+    "occurrences_kind": "literal",
+    "source_hash": "659aaeb4a02c8389",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D80NX425VSF0CDCY3",
+    "source": "Item {}",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 536,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6312912948695426",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AYTDAVG6SSFVAA29E",
+    "source": "Description for item {}",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 540,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "550710fd9b8aad72",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FTQA6E47ADCBXKFY1",
+    "source": "Selection (Virtualized)",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 571,
+    "occurrences_kind": "literal",
+    "source_hash": "406558afba53fc46",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128ACVVBD45WTJE3PJZ",
+    "source": "50 rows with visible range 5-25. Selection includes gap placeholders.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 572,
+    "occurrences_kind": "literal",
+    "source_hash": "8aa517b42054303a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1280SDH0H7XXVPBE8PG",
+    "source": "A brief description",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 593,
+    "occurrences_kind": "literal",
+    "source_hash": "d18fa4795d7e25ca",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C0HBNZJAR4JWNYJWA",
+    "source": "In Progress",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 594,
+    "occurrences_kind": "literal",
+    "source_hash": "b4cc4b07c300103a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DAEWWCWGZPSEB0WMR",
+    "source": "Medium Length",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 594,
+    "occurrences_kind": "literal",
+    "source_hash": "ff2cfed030e92295",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G6ARCMAB0FGVC5GE9",
+    "source": "This is a longer description that should wrap to multiple lines when the column width is constrained.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 594,
+    "occurrences_kind": "literal",
+    "source_hash": "b501632282d40f22",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D02GERKYQJQM6QRPH",
+    "source": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 595,
+    "occurrences_kind": "literal",
+    "source_hash": "09a8e2cfb20c5694",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HMFEBM6BH5764VB48",
+    "source": "Very Long Title Here",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 595,
+    "occurrences_kind": "literal",
+    "source_hash": "14b05f24b3633d98",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EN12RKXVTHAQ69XXR",
+    "source": "Rich Cells - Text Wrapping",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 610,
+    "occurrences_kind": "literal",
+    "source_hash": "371c916e06011ed7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129MF8H50TGMWTAJVN4",
+    "source": "Cells with varying text lengths. Row heights adjust to fit content.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 611,
+    "occurrences_kind": "literal",
+    "source_hash": "60eb3e9398fa91e4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CKMFHXZ3J0QQRYSQT",
+    "source": "Icon + Text",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 625,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "28b4ca86c15774d5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EMT1TM4W6T5CHSBQX",
+    "source": "Rich Cells - Mixed Elements",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 676,
+    "occurrences_kind": "literal",
+    "source_hash": "b3b678ba3d07ca84",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1295CEKGPGTPV6AZD8Q",
+    "source": "Cells with emojis, icons, and colored text",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 677,
+    "occurrences_kind": "literal",
+    "source_hash": "906209d5bc781e4f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12995NSG4SERAWM16XY",
+    "source": "Cell 2",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 705,
+    "occurrences_kind": "literal",
+    "source_hash": "4caf9c626666666d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129A9H7M1ZK2T193Y8V",
+    "source": "Cell 4",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 705,
+    "occurrences_kind": "literal",
+    "source_hash": "fc300fe808e3b642",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129J530WRMXJCKNYM3Z",
+    "source": "Cell 1",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 705,
+    "occurrences_kind": "literal",
+    "source_hash": "32fd6bc9a9778d22",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129NZ6W7HBK6SXKXJBS",
+    "source": "Cell 3",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 705,
+    "occurrences_kind": "literal",
+    "source_hash": "11e022e12341dfc1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129GYDWJY9A95NFY0FQ",
+    "source": "Cell Padding Comparison",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 776,
+    "occurrences_kind": "literal",
+    "source_hash": "0861d1c7d5b5a333",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FAEEG7B0ASPNSQYFN",
+    "source": "Same table with different cell_padding values: 4px, 8px (default), 16px. Scroll horizontally if needed.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 777,
+    "occurrences_kind": "literal",
+    "source_hash": "4fe1fd2c89ec6060",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JSGDCF3JJ2A2Z1HZ3",
+    "source": "Widget A",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 803,
+    "occurrences_kind": "literal",
+    "source_hash": "92a8bae235ced318",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CFXZP2DF0846MT67J",
+    "source": "Gadget B",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 804,
+    "occurrences_kind": "literal",
+    "source_hash": "b0094817aa2023df",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HWSJJW4V6X3YNENZN",
+    "source": "Tool C",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 805,
+    "occurrences_kind": "literal",
+    "source_hash": "5a136f99c78231a0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AGCNPEWV94MC2B09W",
+    "source": "Device D",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 806,
+    "occurrences_kind": "literal",
+    "source_hash": "e9e2e5268b4cbdea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EKZXCYV9K44KZGTRD",
+    "source": "Part E",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 807,
+    "occurrences_kind": "literal",
+    "source_hash": "9ab53b938507a906",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AS0D3R64DVE02MDKJ",
+    "source": "Component F",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 808,
+    "occurrences_kind": "literal",
+    "source_hash": "af908964e493a9d7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1299N7RQS019C0Y3D17",
+    "source": "Alternate Row Banding",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 832,
+    "occurrences_kind": "literal",
+    "source_hash": "dacdb7a7911a3c89",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J99FD7S5VSMF64HJ2",
+    "source": "Zebra striping with alternate_row_background set",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 833,
+    "occurrences_kind": "literal",
+    "source_hash": "96ca7b0a70059d20",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GFHGZ1QV0TSW74A40",
+    "source": "Thicker borders",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 870,
+    "occurrences_kind": "literal",
+    "source_hash": "1be72942d829390b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AA9KKCB690MNZRBDS",
+    "source": "Dark gray borders",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 871,
+    "occurrences_kind": "literal",
+    "source_hash": "3c9bfaca0fa6e4bd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A0MVW1YMWKAQB2W08",
+    "source": "Dark header",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 872,
+    "occurrences_kind": "literal",
+    "source_hash": "d535c6a1087e4d72",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H5NG8QKPDFY828NY2",
+    "source": "Very dark rows",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 873,
+    "occurrences_kind": "literal",
+    "source_hash": "f66dbf3c864b89ba",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1294X9QW8WDA651EPZW",
+    "source": "Border and Colors (Dark Theme)",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 894,
+    "occurrences_kind": "literal",
+    "source_hash": "842c4d6f0c697a9d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AFS49X1803VNFFV9N",
+    "source": "Custom theming with modified border, header, and row colors",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 895,
+    "occurrences_kind": "literal",
+    "source_hash": "249ca35379957964",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G8B6B8WMJH06938ZY",
+    "source": "Single Column",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 938,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "054da89bd4c9d720",
+    "audit_verdict": "uncertain"
+  }
+]

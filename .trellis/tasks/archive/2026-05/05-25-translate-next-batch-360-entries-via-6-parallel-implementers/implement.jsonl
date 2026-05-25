@@ -1,0 +1,7 @@
+{"file": ".trellis/workflow.md", "reason": "Project workflow + translation conventions."}
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "Authoritative translation policy: glossary, §1-12 covering placeholders, glossary, punctuation, register, panic_message, telemetry_payload, search_terms bilingual, doc-comment false positive, test_fixture, wgpu_debug_label."}
+{"file": "translations/glossary.json", "reason": "Glossary for brand literals and recurring terms."}
+{"file": ".trellis/tasks/archive/2026-05/05-23-translate-next-batch-180-entries-via-6-parallel-implementers/prd.md", "reason": "Immediately prior 6-parallel batch — glossary baseline + composition pattern."}
+{"file": ".trellis/tasks/archive/2026-05/05-23-translate-next-batch-180-entries-via-6-parallel-implementers/apply_translations.py", "reason": "Apply-script lineage: invariants, flag flow, idempotency."}
+{"file": ".trellis/tasks/05-25-translate-next-batch-360-entries-via-6-parallel-implementers/prd.md", "reason": "Current batch PRD with per-batch file assignment + decision flow."}
+{"file": ".trellis/tasks/05-25-translate-next-batch-360-entries-via-6-parallel-implementers/apply_translations.py", "reason": "Current apply script — invariants the implementer outputs must satisfy."}

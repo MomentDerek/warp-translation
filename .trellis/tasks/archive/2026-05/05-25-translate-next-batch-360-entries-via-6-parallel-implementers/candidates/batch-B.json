@@ -1,0 +1,542 @@
+[
+  {
+    "id": "01KQXQV128R7M250J8WMPC077N",
+    "source": "(?m)^channel (\\d)+: open failed:",
+    "file": "app/src/terminal/view.rs",
+    "line": 602,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e7196adb83f4da24",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G461E84D5M37ZVVPT",
+    "source": "The regex should compile",
+    "file": "app/src/terminal/view.rs",
+    "line": 603,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7d968c65cbbde4da",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV10KA7XKEHKCCFPTSTG6",
+    "source": " A regex to detect Unix- or Windows-style line feeds in text.",
+    "file": "app/src/terminal/view.rs",
+    "line": 605,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2df28f4802cf62d7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11ENF0W1MG9CS4ERZTV",
+    "source": " Show the jump to bottom of block button if more than this height of the block is in view.",
+    "file": "app/src/terminal/view.rs",
+    "line": 608,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a7aa84a063222635",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11HZE2HM8KHZQY5H61D",
+    "source": " The delay between receiving the RC file snippet for subshell bootstrap and writing the",
+    "file": "app/src/terminal/view.rs",
+    "line": 623,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e90266c96937f1b5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV125NC7C61ZXH45YPZ28",
+    "source": " subshell InitShell command to the PTY.",
+    "file": "app/src/terminal/view.rs",
+    "line": 624,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "14cb31dd0825de75",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11PBFV8JF6CNZP6ETAQ",
+    "source": " This is necessary because some subshells may execute initialization commands (for example,",
+    "file": "app/src/terminal/view.rs",
+    "line": 626,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "704ba7b7c0164763",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1270PMSTVX4A532Q311",
+    "source": " want to submit the InitShell command _after_ those commands have finished execution.",
+    "file": "app/src/terminal/view.rs",
+    "line": 628,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8a6934273ec60725",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11PSHMCJP57V684F90X",
+    "source": " This is purely a heuristic and may be subject to change based on user reports.",
+    "file": "app/src/terminal/view.rs",
+    "line": 630,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8a88ce3c34a5c8a2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV10KGF10WHXFWG1NCVM8",
+    "source": " A list of alt-screen apps that are known to cause problems when resizing",
+    "file": "app/src/terminal/view.rs",
+    "line": 637,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "03bf3dcd22d84493",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV120PFB5YQHV838JED8A",
+    "source": " during initialization.",
+    "file": "app/src/terminal/view.rs",
+    "line": 638,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "66a1c67bc921bffd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11CDRY6HRQPE7EKHF7K",
+    "source": " See [`TerminalView::resize_alt_screen_redundantly`] for more details.",
+    "file": "app/src/terminal/view.rs",
+    "line": 640,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8bd9c14a454db19",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV10K964G14A91YBCSGWA",
+    "source": " A list of alt-screen apps that should never use custom-padding in the alt-screen",
+    "file": "app/src/terminal/view.rs",
+    "line": 643,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4e3534bf294c5050",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11XAXF47FEREF9Q0B0V",
+    "source": " and should instead match blocklist padding.",
+    "file": "app/src/terminal/view.rs",
+    "line": 644,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4173d616e5d8b714",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11KSB7T1871G1NSBSZX",
+    "source": " The padding between the left of the element and where the grid contents (either via the",
+    "file": "app/src/terminal/view.rs",
+    "line": 759,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5c1d8cfe6995e6c3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11WCQ1NW6GJ89QS3SQB",
+    "source": " `BlockList` or the `AltScreen`) should be rendered.",
+    "file": "app/src/terminal/view.rs",
+    "line": 760,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9cfcfc43ee65fc24",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HVZ372XRA2XQFW990",
+    "source": "Warp can notify you when long-running commands finish.",
+    "file": "app/src/terminal/view.rs",
+    "line": 820,
+    "occurrences_kind": "literal",
+    "source_hash": "39b2e6e9ec11ffb1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H5Q6TDMTAEP9146HF",
+    "source": "Warp can notify you when an agent finishes responding.",
+    "file": "app/src/terminal/view.rs",
+    "line": 823,
+    "occurrences_kind": "literal",
+    "source_hash": "24739780d6a56711",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HBAF22FVHTB14B41N",
+    "source": "Warp can notify you when a command or agent needs your attention.",
+    "file": "app/src/terminal/view.rs",
+    "line": 826,
+    "occurrences_kind": "literal",
+    "source_hash": "03e175389330eaa4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HG27G8NP9SV0DMR2T",
+    "source": "Warp can notify you when you're prompted to enter a password.",
+    "file": "app/src/terminal/view.rs",
+    "line": 829,
+    "occurrences_kind": "literal",
+    "source_hash": "bba6cb1eda531966",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DCNN4HBM6PKCYCW8C",
+    "source": "Latest output: ",
+    "file": "app/src/terminal/view.rs",
+    "line": 872,
+    "occurrences_kind": "literal",
+    "source_hash": "d3383384c1254ffb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BM1TWWCEMPZ173F4H",
+    "source": "Error: ",
+    "file": "app/src/terminal/view.rs",
+    "line": 879,
+    "occurrences_kind": "literal",
+    "source_hash": "8eecdde079a90927",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JX5VHM2E78DRW7XHP",
+    "source": "{title_prefix}{title_suffix}",
+    "file": "app/src/terminal/view.rs",
+    "line": 944,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ed58338d90b800a4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JWPYVY32Y36KS2A5X",
+    "source": "{body_prefix}{body_suffix}",
+    "file": "app/src/terminal/view.rs",
+    "line": 945,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1694a280cefcb75f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EH6VZAJ3MMXS0JDGP",
+    "source": "OpenShareModal {{ block_index: {block_index} }}",
+    "file": "app/src/terminal/view.rs",
+    "line": 1517,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e60bb807954c4adf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AGMEN5EN355YXKCWB",
+    "source": "CopyPrompt {{ position: {position:?}, part: {part:?} }}",
+    "file": "app/src/terminal/view.rs",
+    "line": 1524,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8d8451a8aa0d19b6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F8SPQB4HD376182MA",
+    "source": "Seems like your shell is taking a while to start...  ",
+    "file": "app/src/terminal/view.rs",
+    "line": 3846,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6f81e3242169f5f5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FXEY8WNXCGRY5VK6F",
+    "source": "Seems like your completions are not working (",
+    "file": "app/src/terminal/view.rs",
+    "line": 3871,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "95311d20640321a7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV122NCEPZ69XFXQNS9RA",
+    "source": " may resolve this issue.",
+    "file": "app/src/terminal/view.rs",
+    "line": 3878,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c21235c6886e58ec",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J7MSW0KZ6HTBMZTNX",
+    "source": "Your shell configuration is incompatible with Warp...  ",
+    "file": "app/src/terminal/view.rs",
+    "line": 3889,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "47803c68506dfa21",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A378S3H6W58M0HNSZ",
+    "source": "Did you intend ",
+    "file": "app/src/terminal/view.rs",
+    "line": 3902,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3be29ccc85ce5f99",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12750XNVQETC0KGG651",
+    "source": " to move the cursor?",
+    "file": "app/src/terminal/view.rs",
+    "line": 3906,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ebfdea3c7cf7d635",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JVKN001GNRAPAZ51B",
+    "source": "Yes, use Emacs-style bindings",
+    "file": "app/src/terminal/view.rs",
+    "line": 3913,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f0b54e98bfcf3bb3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DT1CSK5HJ1MXE9VN4",
+    "source": "No, keep IDE bindings",
+    "file": "app/src/terminal/view.rs",
+    "line": 3921,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "65c32341ca45e934",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DSNFXFQYSY0FTMSJ8",
+    "source": "No conversation ID found for command with ID: {:?}",
+    "file": "app/src/terminal/view.rs",
+    "line": 6727,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "718f2093d82a95b9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DTWH6S2NRP24EYDJX",
+    "source": "No conversation ID found for requested command: ID: {:?}, command: {command}",
+    "file": "app/src/terminal/view.rs",
+    "line": 6729,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e31d82d89557b16f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E2ENC592CHY7N6VJZ",
+    "source": "Oz needs your permission to run `{command}`",
+    "file": "app/src/terminal/view.rs",
+    "line": 6904,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1d360cb180fdeb15",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EGEQCPBKCG4G12WBA",
+    "source": "Oz needs your permission to read files",
+    "file": "app/src/terminal/view.rs",
+    "line": 6907,
+    "occurrences_kind": "literal",
+    "source_hash": "1adcfb3776eb5170",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ECZZ4JEGKRFC40DYH",
+    "source": "Oz needs your permission to search your codebase",
+    "file": "app/src/terminal/view.rs",
+    "line": 6910,
+    "occurrences_kind": "literal",
+    "source_hash": "0c958d5c5781d5a5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E70WYFFGJWYH7QT37",
+    "source": "Oz needs your permission to edit a file",
+    "file": "app/src/terminal/view.rs",
+    "line": 6913,
+    "occurrences_kind": "literal",
+    "source_hash": "816f37724d7032b7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EJS300HWEJ1KE9EAJ",
+    "source": "Oz needs your permission to interact with a running shell command",
+    "file": "app/src/terminal/view.rs",
+    "line": 6916,
+    "occurrences_kind": "literal",
+    "source_hash": "02f2038216a2da33",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ENVQ0EHYD4S0CRTVD",
+    "source": "Oz needs your confirmation to continue",
+    "file": "app/src/terminal/view.rs",
+    "line": 6919,
+    "occurrences_kind": "literal",
+    "source_hash": "fa4483bcf396bff8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JYWEV6PV8XX2F4MHF",
+    "source": "command not long-running. ignoring control seq on terminal.",
+    "file": "app/src/terminal/view.rs",
+    "line": 8120,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3b064b73d7592fc3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JJZWBZ94JFHE97X22",
+    "source": "You can press {} to Warpify this {} for more Warp features.",
+    "file": "app/src/terminal/view.rs",
+    "line": 9337,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "85886362cf08fcfc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JBBT5FY3C474D7RQF",
+    "source": "You can Warpify this {lowercase_title} for more Warp features.",
+    "file": "app/src/terminal/view.rs",
+    "line": 9341,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6744412c3b21f1dc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JXMBG7K6965KGGHZ8",
+    "source": "{title} recognized.",
+    "file": "app/src/terminal/view.rs",
+    "line": 9351,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c8367fd09cc24218",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JAYGZAKZN311R973P",
+    "source": "You can enable notifications through the command palette.",
+    "file": "app/src/terminal/view.rs",
+    "line": 9465,
+    "occurrences_kind": "literal",
+    "source_hash": "ff44625a2e0574ae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BWZ4Y87EMS0JYE07B",
+    "source": "Error sending notification",
+    "file": "app/src/terminal/view.rs",
+    "line": 9500,
+    "occurrences_kind": "literal",
+    "source_hash": "af3cbcdbec0c963b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DSR1WX755MPEM1K32",
+    "source": "Make sure you have enabled access for Warp notifications in System Preferences.",
+    "file": "app/src/terminal/view.rs",
+    "line": 9504,
+    "occurrences_kind": "literal",
+    "source_hash": "b1c47ad10f0337c0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CH9YZ9D9QET8PCY02",
+    "source": "Installing... ({p}%)",
+    "file": "app/src/terminal/view.rs",
+    "line": 12349,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7033d072d7b7b176",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E9T7YFQJ9MQ9YQR5W",
+    "source": "Project setup",
+    "file": "app/src/terminal/view.rs",
+    "line": 13386,
+    "occurrences_kind": "literal",
+    "source_hash": "54ea83289e2f1ad0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ANPTJBCCQG6PSQ6DH",
+    "source": "Create environment using the supplied repos: {}",
+    "file": "app/src/terminal/view.rs",
+    "line": 13636,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "746c2be2860af93a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AYKTB87AQZ2XP3FF1",
+    "source": "Create environment using the current working dir as repo",
+    "file": "app/src/terminal/view.rs",
+    "line": 13661,
+    "occurrences_kind": "literal",
+    "source_hash": "829a08ff4cd37c8c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A9DHDNEQTN6Q0N93A",
+    "source": "Create environment without any repos",
+    "file": "app/src/terminal/view.rs",
+    "line": 13665,
+    "occurrences_kind": "literal",
+    "source_hash": "9bc9a961a7bb457a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CT3PQC3VKVEFNW5HM",
+    "source": "Fork from last query",
+    "file": "app/src/terminal/view.rs",
+    "line": 14020,
+    "occurrences_kind": "literal",
+    "source_hash": "1c3f4d80f0a61158",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CAZYZC0Z6NGR6J1XY",
+    "source": "Fork from \"{truncated}{suffix}\"",
+    "file": "app/src/terminal/view.rs",
+    "line": 14029,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5a7b3e5f40df6ce1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G7BYSTBT7D70BRWP8",
+    "source": "Suggested corrected command: {}",
+    "file": "app/src/terminal/view.rs",
+    "line": 14468,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "247f487b6c2f02fd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EKHRKCESKFQM609AX",
+    "source": "Press right arrow to insert or keep editing to ignore",
+    "file": "app/src/terminal/view.rs",
+    "line": 14469,
+    "occurrences_kind": "literal",
+    "source_hash": "62ed8f89d12d5bd9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G5VMBW3PSQJN3MCZB",
+    "source": "Show in Finder",
+    "file": "app/src/terminal/view.rs",
+    "line": 15954,
+    "occurrences_kind": "literal",
+    "source_hash": "c2a9c77acf9b329f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FJBXDMTBY2VAWXKPG",
+    "source": "Show containing folder",
+    "file": "app/src/terminal/view.rs",
+    "line": 15956,
+    "occurrences_kind": "literal",
+    "source_hash": "972ca289791d8979",
+    "audit_verdict": "uncertain"
+  }
+]

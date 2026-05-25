@@ -1,0 +1,542 @@
+[
+  {
+    "id": "01KQXQV12FDQZ95EMX7TQFPCEA",
+    "source": "Search repos",
+    "file": "app/src/workspace/view.rs",
+    "line": 1283,
+    "occurrences_kind": "literal",
+    "source_hash": "82d25824a3e54863",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAK751P4F5N88AD6GR8G",
+    "source": "Search tabs...",
+    "file": "app/src/workspace/view.rs",
+    "line": 1319,
+    "occurrences_kind": "literal",
+    "source_hash": "f187a254ced908d9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BGYQYHMVFXY8AC3FA",
+    "source": "Failed to remove tab config: {e}",
+    "file": "app/src/workspace/view.rs",
+    "line": 2040,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1f3fa68e0551e417",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G1KQHD4NBM4ESDBNA",
+    "source": "Staging API call failed. Did your IP address change?",
+    "file": "app/src/workspace/view.rs",
+    "line": 2462,
+    "occurrences_kind": "literal",
+    "source_hash": "3f3af7a05832c7f7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BZVP6EEH9JNJ39DG2",
+    "source": "Failed to load tab config {friendly_path}: {}",
+    "file": "app/src/workspace/view.rs",
+    "line": 2542,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b0b6e7144337d628",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GZSQMDVFXD51CQBBQ",
+    "source": "Terminal platform initialized",
+    "file": "app/src/workspace/view.rs",
+    "line": 2646,
+    "occurrences_kind": "literal",
+    "source_hash": "4a29ec8ae63590b2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BFF926ZQRD1A7PVDY",
+    "source": "Failed to load conversation data.",
+    "file": "app/src/workspace/view.rs",
+    "line": 4125,
+    "occurrences_kind": "literal",
+    "source_hash": "9818fe29cb4f4ce4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EDQTB715VEBKXJWSP",
+    "source": "Remote control link copied.",
+    "file": "app/src/workspace/view.rs",
+    "line": 4291,
+    "occurrences_kind": "literal",
+    "source_hash": "34e45675b824e517",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128HEM35E64HF6EKYA7",
+    "source": "Active tab index entry should exist",
+    "file": "app/src/workspace/view.rs",
+    "line": 4959,
+    "occurrences_kind": "literal",
+    "source_hash": "bcfbe3967de4b056",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HKTX943YF52Q8CMZH",
+    "source": "Untitled pane",
+    "file": "app/src/workspace/view.rs",
+    "line": 5394,
+    "occurrences_kind": "literal",
+    "source_hash": "e40aa2c833aeb8d8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ERARBGD22A0V38XN0",
+    "source": "Re-arrange toolbar items",
+    "file": "app/src/workspace/view.rs",
+    "line": 5740,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "885e3a4179aac670",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AYBKW1BJVPXYAQR46",
+    "source": "Describe what's broken, confusing, or missing...",
+    "file": "app/src/workspace/view.rs",
+    "line": 6162,
+    "occurrences_kind": "literal",
+    "source_hash": "c2b773387c0765cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BAXVGSA70SHEMPFWV",
+    "source": "Failed to create log bundle: {err}",
+    "file": "app/src/workspace/view.rs",
+    "line": 6181,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3590e2a2865ff918",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFTJKGSJYDGPBBTFQ3E1",
+    "source": "Terminal",
+    "file": "app/src/workspace/view.rs",
+    "line": 6250,
+    "occurrences_kind": "literal",
+    "source_hash": "e0926fdac700b094",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E5N04ZH9K1NF42C64",
+    "source": "Open: {}",
+    "file": "app/src/workspace/view.rs",
+    "line": 6559,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e197e6f4a4da5374",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EZ8Q04S6CX8F4048Y",
+    "source": "Rename pane",
+    "file": "app/src/workspace/view.rs",
+    "line": 6700,
+    "occurrences_kind": "literal",
+    "source_hash": "405cae1ccaa77495",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EJS3M82HQ4WRR9K5Z",
+    "source": "Reset pane name",
+    "file": "app/src/workspace/view.rs",
+    "line": 6701,
+    "occurrences_kind": "literal",
+    "source_hash": "90269c667331554b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EF2QE1MWVDRRYPPVD",
+    "source": "Rename active pane",
+    "file": "app/src/workspace/view.rs",
+    "line": 6705,
+    "occurrences_kind": "literal",
+    "source_hash": "db5f35a5da1ecd2d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E8KY5MFBF3PBGHQQA",
+    "source": "Reset active pane name",
+    "file": "app/src/workspace/view.rs",
+    "line": 6706,
+    "occurrences_kind": "literal",
+    "source_hash": "e53f6eacce14f569",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G1B07CY4JZJV9DB8M",
+    "source": "Successfully installed the Oz CLI! You can now run '{command_name}' from the command line.",
+    "file": "app/src/workspace/view.rs",
+    "line": 7820,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fbf9a2d1c0251537",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BWQMM6C75NCB331MJ",
+    "source": "Failed to install Oz command: {error}",
+    "file": "app/src/workspace/view.rs",
+    "line": 7832,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d40f327b89c15071",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G2027E12M9GGEK6HW",
+    "source": "Successfully uninstalled the Oz command.",
+    "file": "app/src/workspace/view.rs",
+    "line": 7850,
+    "occurrences_kind": "literal",
+    "source_hash": "696d69e32350df32",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B52A476R2Y0GSF00R",
+    "source": "Failed to uninstall Oz command: {error}",
+    "file": "app/src/workspace/view.rs",
+    "line": 7857,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "62f550820129ca64",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFTD0472FHQTQ3ECBKDX",
+    "source": "Settings",
+    "file": "app/src/workspace/view.rs",
+    "line": 8526,
+    "occurrences_kind": "literal",
+    "source_hash": "74a883a037bc227f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFSEBGJEHCZY27M1P1XN",
+    "source": "Feedback",
+    "file": "app/src/workspace/view.rs",
+    "line": 8536,
+    "occurrences_kind": "literal",
+    "source_hash": "aac77df347205252",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFTFXWF29ZGQHKHHCY84",
+    "source": "Slack",
+    "file": "app/src/workspace/view.rs",
+    "line": 8549,
+    "occurrences_kind": "literal",
+    "source_hash": "b27fb38ba323745c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFTQ6ZEW3DMM889QFMKE",
+    "source": "Upgrade",
+    "file": "app/src/workspace/view.rs",
+    "line": 8579,
+    "occurrences_kind": "literal",
+    "source_hash": "7ec0261b8e8aa3e0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DWRED79YD47M4BNB9",
+    "source": "New worktree: {repo_display_name}, {name}",
+    "file": "app/src/workspace/view.rs",
+    "line": 9400,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dcfcc596c4bd083b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D7EQGR4ACR1MAM8XJ",
+    "source": "New worktree: {repo_display_name}, {base_branch}",
+    "file": "app/src/workspace/view.rs",
+    "line": 9403,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "12e8818482f6d3e7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DVM6Z5KJFVPTJFSB8",
+    "source": "New worktree: {repo_display_name}",
+    "file": "app/src/workspace/view.rs",
+    "line": 9405,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9a63a2bd61b71d89",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JA0VQEQ9566ZWGGJ3",
+    "source": "Worktree: {repo_display_name}",
+    "file": "app/src/workspace/view.rs",
+    "line": 9525,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8d0781ab67e3aa2f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CCZZCRGQP6Y0HM2CE",
+    "source": "Install Update",
+    "file": "app/src/workspace/view.rs",
+    "line": 11242,
+    "occurrences_kind": "literal",
+    "source_hash": "7e08c50fb774dd67",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BGX9JH0PNY7D9M3TC",
+    "source": "Failed to load conversation.",
+    "file": "app/src/workspace/view.rs",
+    "line": 11607,
+    "occurrences_kind": "literal",
+    "source_hash": "ce93ba1c4999b92e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BBCAE3FADH4NZBJ85",
+    "source": "Failed to load conversation for forking.",
+    "file": "app/src/workspace/view.rs",
+    "line": 11847,
+    "occurrences_kind": "literal",
+    "source_hash": "ee7bb9e9c69ba0f9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A7P0ZV6SFD9CKKG30",
+    "source": "Conversation forking failed.",
+    "file": "app/src/workspace/view.rs",
+    "line": 11963,
+    "occurrences_kind": "literal",
+    "source_hash": "2e48a73220b2f5cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CWWVVNA0G1N1SG39W",
+    "source": "Forked \"{title}\"",
+    "file": "app/src/workspace/view.rs",
+    "line": 12206,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "611b9ee3c3e00e52",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HEYYKJMMQZ2D2ZZ88",
+    "source": "Warp doesn't have permission to send desktop notifications.",
+    "file": "app/src/workspace/view.rs",
+    "line": 12384,
+    "occurrences_kind": "literal",
+    "source_hash": "88a143d7be383503",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HAGSKPN984M7D3GZP",
+    "source": "Troubleshoot notifications",
+    "file": "app/src/workspace/view.rs",
+    "line": 12386,
+    "occurrences_kind": "literal",
+    "source_hash": "94882067b48f7c4f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D6KW8VSKAA5F21NSX",
+    "source": "Just retrieved the window_id from the context.",
+    "file": "app/src/workspace/view.rs",
+    "line": 12477,
+    "occurrences_kind": "literal",
+    "source_hash": "8107c70497fb07c1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F8MYMRNA0MN4RGVWA",
+    "source": "Should be able to access OPENING_WARP_DRIVE_ON_START_UP",
+    "file": "app/src/workspace/view.rs",
+    "line": 13009,
+    "occurrences_kind": "literal",
+    "source_hash": "bf65abbea4de0dd8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HV80TVBB1Z0K1YH5F",
+    "source": "Warp updated!",
+    "file": "app/src/workspace/view.rs",
+    "line": 13048,
+    "occurrences_kind": "literal",
+    "source_hash": "193adcc776d4f0de",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAMW93TDN6Q2GWDQZBFG",
+    "source": "Starting cloud environment for this session...",
+    "file": "app/src/workspace/view.rs",
+    "line": 13597,
+    "occurrences_kind": "literal",
+    "source_hash": "c5741422cc228a2b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQ18X9SA3S04BHCQC1X5",
+    "source": "Couldn't open a cloud pane for handoff. Try again, or restart Warp if this keeps happening.",
+    "file": "app/src/workspace/view.rs",
+    "line": 13680,
+    "occurrences_kind": "literal",
+    "source_hash": "ed8c7b8ec5b188ff",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQCWWGDM8HETZSDKA2CQ",
+    "source": "No active terminal session to hand off. Focus a pane and try again.",
+    "file": "app/src/workspace/view.rs",
+    "line": 13739,
+    "occurrences_kind": "literal",
+    "source_hash": "07f5d1af66e4c4cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEPWJMA8CKVS1ER1Y914H",
+    "source": "Cloud handoff isn't available for orchestrated agent conversations.",
+    "file": "app/src/workspace/view.rs",
+    "line": 13829,
+    "occurrences_kind": "literal",
+    "source_hash": "6a05ae926627a4f6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEPSQC1GKR30YEFSBDR9S",
+    "source": "Can't hand off while a command is running. Cancel the command or wait for it to finish.",
+    "file": "app/src/workspace/view.rs",
+    "line": 13886,
+    "occurrences_kind": "literal",
+    "source_hash": "7e2436189ff03867",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQR2BHJ8YFJDXQ37G05A",
+    "source": "Your conversation hasn't synced to the cloud yet. Try sending another message, then hand off again.",
+    "file": "app/src/workspace/view.rs",
+    "line": 13923,
+    "occurrences_kind": "literal",
+    "source_hash": "b78d6defe43c0e44",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQ2EYKSYMDCQ5TJEDZ68",
+    "source": "Couldn't start the handoff. Check your network connection and try again.",
+    "file": "app/src/workspace/view.rs",
+    "line": 13976,
+    "occurrences_kind": "literal",
+    "source_hash": "81cb54d293ce1e9d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQ1YBB0T49A1DBV34X50",
+    "source": "Couldn't save your conversation locally. Try sending another message, then hand off again.",
+    "file": "app/src/workspace/view.rs",
+    "line": 14032,
+    "occurrences_kind": "literal",
+    "source_hash": "8703f3330a34aa19",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DKHFDZG3YCB129PA9",
+    "source": "Local session should map to upload ID",
+    "file": "app/src/workspace/view.rs",
+    "line": 15018,
+    "occurrences_kind": "literal",
+    "source_hash": "0a312094f001a581",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E0KTNCZD6DAK1GYB7",
+    "source": "PaneGroup should find remote pane ID",
+    "file": "app/src/workspace/view.rs",
+    "line": 15024,
+    "occurrences_kind": "literal",
+    "source_hash": "3c61c5ff87c41758",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HAW58A01FV1BTYS4E",
+    "source": "Upload ID should map to a local session",
+    "file": "app/src/workspace/view.rs",
+    "line": 15075,
+    "occurrences_kind": "literal",
+    "source_hash": "7134bd357c35e309",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D5AHD11V0F6QCHGC4",
+    "source": "No terminal pane open. Open a new pane to attach as context.",
+    "file": "app/src/workspace/view.rs",
+    "line": 15774,
+    "occurrences_kind": "literal",
+    "source_hash": "336d2967a18abc7a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G1FAG54580N1GZ9GR",
+    "source": "This plan is already in context.",
+    "file": "app/src/workspace/view.rs",
+    "line": 15794,
+    "occurrences_kind": "literal",
+    "source_hash": "aa4e9cb5dcd0906d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128Z34APNNWRG335NSR",
+    "source": "A command in this session is still running.",
+    "file": "app/src/workspace/view.rs",
+    "line": 15876,
+    "occurrences_kind": "literal",
+    "source_hash": "f5972075dcee5091",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1292XBVQXGGZNPD58NK",
+    "source": "Cannot open a new terminal session",
+    "file": "app/src/workspace/view.rs",
+    "line": 15899,
+    "occurrences_kind": "literal",
+    "source_hash": "b93aaed0e3ea69ee",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J2FA769FHGJJ6MQV2",
+    "source": "{prefix}update-tab-config Update {} to...",
+    "file": "app/src/workspace/view.rs",
+    "line": 15947,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "34d5829bd3efaf10",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FEN5KYWXBSDTR7SSF",
+    "source": "Run Agent Mode Workflow",
+    "file": "app/src/workspace/view.rs",
+    "line": 15980,
+    "occurrences_kind": "literal",
+    "source_hash": "5bf0a4a0e4797c2c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G4CXCQ6CRX9299HAV",
+    "source": "This workflow is no longer available.",
+    "file": "app/src/workspace/view.rs",
+    "line": 16141,
+    "occurrences_kind": "literal",
+    "source_hash": "b054ebeb053c8992",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GYMGHAB64NFRXSTF7",
+    "source": "There must be an active terminal view if the user selected a command search result",
+    "file": "app/src/workspace/view.rs",
+    "line": 16196,
+    "occurrences_kind": "literal",
+    "source_hash": "d91a537975100058",
+    "audit_verdict": "uncertain"
+  }
+]
