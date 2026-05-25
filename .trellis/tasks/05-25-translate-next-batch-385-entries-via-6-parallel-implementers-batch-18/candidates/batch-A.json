@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "01KQXQV10H04EYVXKJYBX39X3Q",
+    "source": "   A command should *not* set both flags to be available in both modes - this results in requirements that cannot be satisfied.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 15,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "73a94392cab598ab",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 15,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10H958A63VN7D9KT4PJ",
+    "source": " * If neither [`Self::AGENT_VIEW`] nor [`Self::TERMINAL_VIEW`] is set, the command is available in all modes.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 14,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "522d8148e8a747cc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 14,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10J0BDT1D5K4GMWFJF9",
+    "source": " A few common cases:",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 13,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bcdc3f0a3d685676",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 13,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10VK4GD1KG0JF2Q03PS",
+    "source": " Each flag represents a requirement that the session context must satisfy. The command is",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 10,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "20d7921f533cf89d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 10,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV113D6YVEK5K7HXEGEB6",
+    "source": " No requirements — always available.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 19,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4280dd944ad484ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 19,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1181G24XZF1PAY5F40V",
+    "source": " Requires the terminal view.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 23,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7c5033e1643b8145",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 23,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1182KVGQMK3S64SGRN2",
+    "source": " Requires an active AI conversation.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 31,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "27df7e0c16da95f1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 31,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11885K1MSVVKQK5V24W",
+    "source": " Requires that the agent is not currently in control of a long-running command.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 29,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8d9925e85bb87e24",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 29,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV118D2DMDKKXK40WX9FB",
+    "source": " Requires a local session (not available in remote/cloud sessions).",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 25,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6ef23a5d263e3458",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 25,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV118JN8R6QEAF65N2JF5",
+    "source": " Requires a git repository.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 27,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ed85b9a2fe5dd0f6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 27,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV118TF5KTACVN4ZDGZEM",
+    "source": " Requires AI to be globally enabled.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 35,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a263b30062a1e975",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 35,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV118V3YJKFRB5K9A068R",
+    "source": " Requires the agent view.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 21,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "de4653930d25b5ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 21,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV118ZHBXARKAFWVCQ4JV",
+    "source": " Requires codebase context to be enabled.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 33,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "51ebee207a4fc020",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 33,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11DZYT95JB5AMFQZ6YG",
+    "source": " Set on the session context iff the slash command data source was constructed via",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 38,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e72bc4f5099b69df",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 38,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11E9QWH819N977A7TGF",
+    "source": " Specifies the requirements for a slash command to be available.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 8,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "528e7df2c346f4a8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 8,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11Y7894RTQHY817ZJHG",
+    "source": " available when the session supports *all* of the command's requirement flags.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 11,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4ba919ea3b636331",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 11,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11ZAB1XAC1321AC06TC",
+    "source": " cloud-mode composing input.",
+    "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+    "line": 41,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "675036f0b7a8b02f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/slash_command_menu/static_commands/mod.rs",
+        "line": 41,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1298HGMKZHRC4D7MZ00",
+    "source": "Cannot show conversation cost: conversation is in progress",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 892,
+    "occurrences_kind": "literal",
+    "source_hash": "faf3a8d07af63759",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 892,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129GVABPZA6P797PMAC",
+    "source": "Cannot show conversation cost: conversation is empty",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 887,
+    "occurrences_kind": "literal",
+    "source_hash": "a362f34571348952",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 887,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129Y7114EZ043CV4RTR",
+    "source": "Cannot show conversation cost: no active conversation",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 882,
+    "occurrences_kind": "literal",
+    "source_hash": "3fd7c4d19b7ca5fd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 882,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AZZV84S0A74B9QR0G",
+    "source": "Conversation exported to clipboard",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 682,
+    "occurrences_kind": "literal",
+    "source_hash": "009d55efdd3cd76e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 682,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B2S2EB5V223NFHCWP",
+    "source": "Export conversation to file unsupported in web",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 698,
+    "occurrences_kind": "literal",
+    "source_hash": "8d70cf685415a1a9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 698,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CH4C0FV0J8466WFC1",
+    "source": "File not found: {}",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 638,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bf9cc30785118b17",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 638,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E2J4X449YZY7VX5PT",
+    "source": "Please describe the project you want to create after /create-new-project",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 568,
+    "occurrences_kind": "literal",
+    "source_hash": "c49956d4f1086172",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 568,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ECB2JBXZP6TQHQ87D",
+    "source": "Please provide a tab name after /rename-tab",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 496,
+    "occurrences_kind": "literal",
+    "source_hash": "2554f7661cfeeb54",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 496,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EZY265F0BN6PP4V5B",
+    "source": "Please provide a color after /set-tab-color ({})",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 520,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "70990316e4bee695",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 520,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FDEVGZJMEQW7KS7A1",
+    "source": "Session is already being shared",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 870,
+    "occurrences_kind": "literal",
+    "source_hash": "dc0b2006979c5482",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 870,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GK7WKB7NXS94Z53JK",
+    "source": "The /open-file command is only available for local sessions",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 595,
+    "occurrences_kind": "literal",
+    "source_hash": "9b751a8ae37677dc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 595,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GVD92NHPR4N1P2HYG",
+    "source": "The /open-file command is not supported in this build",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 656,
+    "occurrences_kind": "literal",
+    "source_hash": "1063536be41e57a6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 656,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GXYH0WX5T8QCG3117",
+    "source": "The /open-file command only works for files, not directories",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 630,
+    "occurrences_kind": "literal",
+    "source_hash": "30dffb627cff6c5f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 630,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HDBWVC4WJ0985SMK8",
+    "source": "Unknown tab color '{arg}'. Use one of: {}.",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 540,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "40b13887dd211b6f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 540,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10TX0B173X8PVQ4MS5D",
+    "source": " Defined as a lazy static to get around the fact that `unwrap` is not a const fn.",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 81,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e6f489d3f8fcbccf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 81,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11JHR6P06TMZ9D7ZXKG",
+    "source": " The maximum number of bytes that can be processed in a single synchronized update.",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 78,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b91596ecb900120f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 78,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11PCEFMH201A0JCCFKJ",
+    "source": " This means that synchronized updates can only be as large before a redraw is forced.",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 79,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "187d42c751bb9d13",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 79,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12982EZZZNB3258D5XZ",
+    "source": "Can create byte size for sync output max buffer size",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 82,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b50655583c3d4dc2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 82,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A2V9PBAZT5TZPA3F7",
+    "source": "Decoded payload string: {:?}",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 682,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5dfaeaf536085f7b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 682,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 714,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AVS4H0DJ4ZQMJDSMC",
+    "source": "Decoded payload",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 681,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76534c63581dc965",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 681,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 713,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B1GT192ZVHXTHN17G",
+    "source": "Error when deserializing escape sequence data",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 641,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "653bc344b393516b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 641,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B79ZNQXQBGYH74B1P",
+    "source": "Error when decoding payload: {:?}",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 693,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8e913cb055e7cdfb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 693,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B7QFEAQH376BNPHWA",
+    "source": "Error when deserializing escape sequence data: {:?}",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 642,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6531efe224d49b8d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 642,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BNH4R4WK319X7VA3Q",
+    "source": "Error when decoding payload",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 692,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "06d66906e24c1b3d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 692,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E1B2F0DHCWZXHR1T7",
+    "source": "Received DCS string",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 794,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d7fcb36ac11c8ec7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 794,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E306JR1321T6PMPCX",
+    "source": "Received DCS string with JSON payload: {:?}",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 795,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc2a8ecaeedec278",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 795,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EB5G6MVD2FPYBRZ4H",
+    "source": "Received Warp OSC string for shell hook with JSON payload: {:?}",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 1114,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e659fcaf92f47de0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 1114,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 1130,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ERA7DHGFR6WJ1ZS60",
+    "source": "Received Warp OSC string for shell hook",
+    "file": "app/src/terminal/model/ansi/mod.rs",
+    "line": 1113,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8fd80bf56870de7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 1113,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/terminal/model/ansi/mod.rs",
+        "line": 1129,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D70WKV64YSM8HHHK9",
+    "source": "No matching workflows found.",
+    "file": "app/src/workflows/categories.rs",
+    "line": 758,
+    "occurrences_kind": "literal",
+    "source_hash": "a05dd53ff0b8005d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 758,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DQZ4BDT991NR2NT2P",
+    "source": "My Workflows",
+    "file": "app/src/workflows/categories.rs",
+    "line": 156,
+    "occurrences_kind": "literal",
+    "source_hash": "a749a3fd4c55303e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 156,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EFACXXHEBXPEJWFF2",
+    "source": "Repository Workflows",
+    "file": "app/src/workflows/categories.rs",
+    "line": 157,
+    "occurrences_kind": "literal",
+    "source_hash": "0aada895fef160a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 157,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FAMEPGGQ51GBJ0SW8",
+    "source": "Selected {} {}",
+    "file": "app/src/workflows/categories.rs",
+    "line": 719,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "74d6b17a3959f5a2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 719,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FDHQD8Z1G9W3K5B5K",
+    "source": "Search or use arrow up and arrow down keys to navigate and find a workflow. Use enter to confirm the workflow and esc to quit.",
+    "file": "app/src/workflows/categories.rs",
+    "line": 1214,
+    "occurrences_kind": "literal",
+    "source_hash": "4cff37b9a882580b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 1214,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G1YMWADF3BHBVBSCX",
+    "source": "Showing workflows with category {}",
+    "file": "app/src/workflows/categories.rs",
+    "line": 167,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fdcac326130dbf79",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 167,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GJG0411DQ5WVGRVZF",
+    "source": "Showing project workflows",
+    "file": "app/src/workflows/categories.rs",
+    "line": 173,
+    "occurrences_kind": "literal",
+    "source_hash": "f284d0a131fac65b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 173,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GKX1KT3Z41WRVMRJQ",
+    "source": "Team Workflows",
+    "file": "app/src/workflows/categories.rs",
+    "line": 158,
+    "occurrences_kind": "literal",
+    "source_hash": "832d986bd6ad301b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 158,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GNX2X3VR2JQXJZMZJ",
+    "source": "Showing team workflows",
+    "file": "app/src/workflows/categories.rs",
+    "line": 174,
+    "occurrences_kind": "literal",
+    "source_hash": "de89f29beb10afd6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 174,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GPBPE73YE9976D2FM",
+    "source": "Showing all workflows",
+    "file": "app/src/workflows/categories.rs",
+    "line": 171,
+    "occurrences_kind": "literal",
+    "source_hash": "73b7bbd5ff5d4e08",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 171,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GWYVAVJB1BFJJWB29",
+    "source": "Showing my workflows",
+    "file": "app/src/workflows/categories.rs",
+    "line": 172,
+    "occurrences_kind": "literal",
+    "source_hash": "115026a943fcf155",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/categories.rs",
+        "line": 172,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10GE46J8C0NQY38ZPFW",
+    "source": "\nThe YAML file is saved to ",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 590,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3dd4ed76c9e8547d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 590,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128VS2MMK7EA7VC7AZD",
+    "source": " with {}.",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 580,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "44b608960c25eceb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 580,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1293D34Z2RKCQK9GV6X",
+    "source": "An issue was encountered while saving.",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 568,
+    "occurrences_kind": "literal",
+    "source_hash": "801618fc24c43fb3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 568,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3YJF12KRVHP0NPRQ",
+    "source": "Failed to save. A launch configuration with the same name already exists.",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 566,
+    "occurrences_kind": "literal",
+    "source_hash": "6efb8440ca788180",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 566,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CAQF21JS03F9XFTBC",
+    "source": "File already exists",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 275,
+    "occurrences_kind": "literal",
+    "source_hash": "ae71a9aa62b31248",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 275,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DBE3J9D7T8Q1FVCEJ",
+    "source": "Link to Documentation",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 531,
+    "occurrences_kind": "literal",
+    "source_hash": "edcd734cbb008fa5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 531,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F4WPYGSCS8F9HFP9F",
+    "source": "Saved successfully to ",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 553,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8a08a199c751353",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 553,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FC5ZC5M4XBAWYV6JS",
+    "source": "Save Config Modal",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 660,
+    "occurrences_kind": "literal",
+    "source_hash": "8a550d6358775c2c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 660,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FSDZYDFZJE621TVBB",
+    "source": "Save Current Configuration",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 442,
+    "occurrences_kind": "literal",
+    "source_hash": "730d82348e964b9a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 442,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GS9F2EB35JBXPJ574",
+    "source": "This will save your current configuration of windows, tabs and panes to a file so you can easily open it again",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 575,
+    "occurrences_kind": "literal",
+    "source_hash": "131c8c05c6ee18c0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 575,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HV5DM3RQXCZ4Z0CWF",
+    "source": "Type the name of the file to which you want to save your\n            current configuration of windows, tabs, and panes. Use enter to save the\n            launch configuration, esc to quit the save configuration modal.",
+    "file": "app/src/launch_configs/save_modal.rs",
+    "line": 661,
+    "occurrences_kind": "literal",
+    "source_hash": "36d2fa3c0c3ea496",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/launch_configs/save_modal.rs",
+        "line": 661,
+        "kind": "literal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "01KQXQV12965GY9CGSRQCYVP4Q",
+    "source": "Browser auth token",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 53,
+    "occurrences_kind": "literal",
+    "source_hash": "958c8a5699ce3791",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 53,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129GT3NYXTWH683J36D",
+    "source": "Are you sure you want to skip login?",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 552,
+    "occurrences_kind": "literal",
+    "source_hash": "6cdb4c2b7f2ee18d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 552,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129HW6B31ABGS9YFDEJ",
+    "source": "Anonymous user initiated sign-up from unexpected AuthView variant",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 931,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc86908a2d352a53",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 931,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129JBXVYEMM33PVWHSX",
+    "source": "Click here to paste your token from the browser",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 262,
+    "occurrences_kind": "literal",
+    "source_hash": "d39d266b406b1a98",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 262,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 774,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CF52KV0K9BMDACZWM",
+    "source": "In order to create more objects in Warp Drive, please create an account.",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 614,
+    "occurrences_kind": "literal",
+    "source_hash": "f636319db1f87f2b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 614,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CHPE13FC7KFABNYD0",
+    "source": "If you'd like to opt out of analytics and AI features,",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 384,
+    "occurrences_kind": "literal",
+    "source_hash": "bb8f38f59526950b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 384,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CVBNHQT1S40SMJCV6",
+    "source": "In order to use Warp’s AI features or collaborate with others, please create an account.",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 611,
+    "occurrences_kind": "literal",
+    "source_hash": "6bd735dda0bcff90",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 611,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CYN6SBJPATN5AJKPR",
+    "source": "In order to share, please create an account.",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 617,
+    "occurrences_kind": "literal",
+    "source_hash": "6ea9a5acf1d6fe4d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 617,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E0MQ7K58Z410H78Z9",
+    "source": "Press enter to open your browser to Sign Up or Sign In.",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 1002,
+    "occurrences_kind": "literal",
+    "source_hash": "80c8e09711bd459a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 1002,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GF5KKQ2JXJB3V3TWB",
+    "source": "Terms of Service",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 343,
+    "occurrences_kind": "literal",
+    "source_hash": "4afa55bf7aec7ddc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 343,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 524,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/onboarding/src/slides/theme_picker_slide.rs",
+        "line": 611,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GK06J2JPM5VHCZP52",
+    "source": "Sign up for Warp",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 646,
+    "occurrences_kind": "literal",
+    "source_hash": "fa53327fa3909c17",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 646,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GMFEQNSEKFEX4FDM8",
+    "source": "Sign in on your browser \nto continue",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 762,
+    "occurrences_kind": "literal",
+    "source_hash": "8a5a5e403575b794",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 762,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HVBACVTGWQ2EKQFYQ",
+    "source": "Welcome to Warp!",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 643,
+    "occurrences_kind": "literal",
+    "source_hash": "0f906b343e700e18",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 643,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 1001,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+        "line": 592,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JATR2GBT8A9ZHFCDF",
+    "source": "You can sign up later, but some features, such as AI,",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 558,
+    "occurrences_kind": "literal",
+    "source_hash": "51dde96d3f7c947d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 558,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JD2GVEDG8BR2RT0DP",
+    "source": "Yes, skip login",
+    "file": "app/src/auth/auth_view_body.rs",
+    "line": 573,
+    "occurrences_kind": "literal",
+    "source_hash": "f655577f34a355f2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_body.rs",
+        "line": 573,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1297CSGPJR2PBQDMP7B",
+    "source": "Are you sure you want to disable AI features?",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 903,
+    "occurrences_kind": "literal",
+    "source_hash": "e26341617e1cd7ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 903,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129TKXN8ABCVQ3N3B9A",
+    "source": "Are you sure you want to disable Warp Drive?",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 901,
+    "occurrences_kind": "literal",
+    "source_hash": "9be49591c47512c2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 901,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AG10MZXZQB5VZFD1H",
+    "source": "Connect your account to save and share notebooks, workflows, and more across devices.",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 494,
+    "occurrences_kind": "literal",
+    "source_hash": "aa2317536aef7340",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 494,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AMSWFP3D6YZQ057SK",
+    "source": "Disable AI features",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 606,
+    "occurrences_kind": "literal",
+    "source_hash": "7872eeb3f7caca76",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 606,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AQJGPNMQH8062NFFH",
+    "source": "Connect your account to enable AI-powered planning, coding, and automation.",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 496,
+    "occurrences_kind": "literal",
+    "source_hash": "7eda6303e8a97eed",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 496,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AV8TEC15WCDHAVHNH",
+    "source": "Disable Warp Drive",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 604,
+    "occurrences_kind": "literal",
+    "source_hash": "990046facadcc619",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 604,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B2YBPGB42SECDSMQS",
+    "source": "Enable AI features",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 994,
+    "occurrences_kind": "literal",
+    "source_hash": "a1a13d307130657c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 994,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B8AG93JHT05ESPHKP",
+    "source": "Enable Warp Drive",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 992,
+    "occurrences_kind": "literal",
+    "source_hash": "526ca46c99914470",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 992,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C0VMW3SYRYT50M822",
+    "source": "Get started with Warp Drive",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 480,
+    "occurrences_kind": "literal",
+    "source_hash": "620e51ae8a4e47c0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 480,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C8HTM94HA9JG2SFEK",
+    "source": "Get started with AI",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 482,
+    "occurrences_kind": "literal",
+    "source_hash": "12cd36a7f0f7f894",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 482,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CM2B5T7K1AK2V793N",
+    "source": "If you'd like to opt out of analytics and AI features, you can adjust your ",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 467,
+    "occurrences_kind": "literal",
+    "source_hash": "3a9fcbc2485a41d0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 467,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HG3K2VSSHVXXKHNBW",
+    "source": "Warp is better with AI. By continuing, you won't have access to any of the following features:",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 939,
+    "occurrences_kind": "literal",
+    "source_hash": "5c0e91d4308928b9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 939,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HPB5A2DPJ8WJ694TC",
+    "source": "Warp Drive lets you save workflows and knowledge across devices and share them with your team. By continuing, you won't have access to the following features:",
+    "file": "app/src/auth/login_slide.rs",
+    "line": 937,
+    "occurrences_kind": "literal",
+    "source_hash": "d80cf8f42ad5f93e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_slide.rs",
+        "line": 937,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F3TNN42NP1CCZKPZX",
+    "source": "Shared {object_type}s have been restricted due to a subscription payment issue.\n\nPlease update your payment information to restore access.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 100,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f1d3317053863661",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 100,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F9SY3QKG2XT1932ZD",
+    "source": "Shared {object_type}s have been restricted due to a subscription payment issue.\n\nPlease contact a team admin to restore access.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 105,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ec394e6513a27a0a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 105,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FW41Z7B0GXE6N4GGD",
+    "source": "Shared drive objects have been restricted due to a subscription payment issue.\n\nPlease contact a team admin to restore access.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 23,
+    "occurrences_kind": "literal",
+    "source_hash": "2a37018b09780749",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 23,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FYCGW06CWWNAJ4MA8",
+    "source": "Shared drive objects have been restricted due to a subscription payment issue.\n\nPlease update your payment information to restore access.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 21,
+    "occurrences_kind": "literal",
+    "source_hash": "a2919d409828c252",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 21,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FZHW3PGS30N15GXXX",
+    "source": "Shared {object_type}s have been restricted due to a subscription payment issue.\n\nPlease contact support@warp.dev to restore access.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 102,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "458909ee4a8e865b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 102,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FZM2ZSHMBGTWS3WAY",
+    "source": "Shared drive objects have been restricted due to a subscription payment issue.\n\nPlease contact support@warp.dev to restore access.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 22,
+    "occurrences_kind": "literal",
+    "source_hash": "144cff65dc94467e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 22,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H0AKJX4EEZNM45HJ6",
+    "source": "Warp's Pro plan comes with a limited number of shared drive objects.\n\nFor access to unlimited shared drive objects, upgrade to the Turbo plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 24,
+    "occurrences_kind": "literal",
+    "source_hash": "eb8aa6ad1bb08b9b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 24,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H1A714J98G8HPE319",
+    "source": "Warp's free plan comes with a limited number of shared drive objects.\n\nFor access to unlimited shared drive objects, upgrade to a paid plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 26,
+    "occurrences_kind": "literal",
+    "source_hash": "a3958d7d31d3b652",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 26,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HEBB5BXBK58Z9GT7W",
+    "source": "Warp's free plan comes with a limited number of shared drive objects.\n\nFor access to unlimited shared drive objects, contact a team admin to upgrade to a paid plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 27,
+    "occurrences_kind": "literal",
+    "source_hash": "7b005cc91debad03",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 27,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJ8XF54YZRD53PCF4",
+    "source": "Warp's free plan comes with a limited number of shared {object_type}s.\n\nFor access to unlimited shared {object_type}s, upgrade to a paid plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 112,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "30f43c47e99e6698",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 112,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJV2FAA7WQPD13P7Q",
+    "source": "Warp's Pro plan comes with a limited number of shared {object_type}s.\n\nFor access to unlimited shared {object_type}s, contact a team admin to upgrade to the Build plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 110,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "07134ea211963155",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 110,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HYG8J693RAW1QTMB4",
+    "source": "Warp's Pro plan comes with a limited number of shared {object_type}s.\n\nFor access to unlimited shared {object_type}s, upgrade to the Build plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 107,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4d3862ce68004271",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 107,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HYY7EXF2K0SDXNRW9",
+    "source": "Warp's Pro plan comes with a limited number of shared drive objects.\n\nFor access to unlimited shared drive objects, contact a team admin to upgrade to the Turbo plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 25,
+    "occurrences_kind": "literal",
+    "source_hash": "2acecac6fdfcd25a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 25,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HZGV5Y9W06JMCMZT2",
+    "source": "Warp's free plan comes with a limited number of shared {object_type}s.\n\nFor access to unlimited shared {object_type}s, contact a team admin to upgrade to a paid plan.",
+    "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+    "line": 113,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "12a88760f4dc8129",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/billing/shared_objects_creation_denied_body.rs",
+        "line": 113,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128483DTA5D8G0MYP6B",
+    "source": "1 teammate",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 4054,
+    "occurrences_kind": "literal",
+    "source_hash": "8d0b22e43a7f42f7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 4054,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1287S2P34EYFZ6E5MBX",
+    "source": "/team/",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 114,
+    "occurrences_kind": "literal",
+    "source_hash": "75200d6cf8507031",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 114,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A5TN4YABC2EPJTK24",
+    "source": "Create",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 97,
+    "occurrences_kind": "literal",
+    "source_hash": "4759498ac2a719c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 97,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C657PV4AZHPPVKM0Y",
+    "source": "Invite",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 101,
+    "occurrences_kind": "literal",
+    "source_hash": "1fd9ae1607aa3d80",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 101,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EH5JKHG9FZTMW3584",
+    "source": "PAST DUE",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2310,
+    "occurrences_kind": "literal",
+    "source_hash": "6530475fcc39e48e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2310,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FBDJSC7C9QP5SDRXH",
+    "source": "Set",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 100,
+    "occurrences_kind": "literal",
+    "source_hash": "b6f6f3ad07b3c05f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 100,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J3328Z0ACW3M63TH2",
+    "source": "{} teammates",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 4056,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ff151ad98ab819be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 4056,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J9T271Y0J22K608XD",
+    "source": "^([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\\.)+[a-zA-Z0-9]{2,}$",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 132,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "55e70a9e0d9f7d70",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 132,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JSEXXYP5FHCF0PSFA",
+    "source": "regex should not fail to compile",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 133,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "99839b3d90fc437c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 133,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JWQS4FRWY1CPTNDS2",
+    "source": "invites teams team members",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 4287,
+    "occurrences_kind": "literal",
+    "source_hash": "bdeabcfc6fc94699",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 4287,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQS6SHXXDMZ1N795T4V1",
+    "source": "{body_prefix} {cta_sentence}",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 1978,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "80a48b1bdb7f282b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 1978,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQS82SJ4W0J2AYEW4Z8E",
+    "source": "{count} team members",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2861,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4f7069948601f247",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2861,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128A3W1000WTPKQA4Q0",
+    "source": " {count}",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 715,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f3d1f3417f74c57c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 715,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J1EYJWN097QC8VN40",
+    "source": "privacy policy terms",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 1953,
+    "occurrences_kind": "literal",
+    "source_hash": "ef0e1bbfac0a14ea",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 1953,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J49QWSAYYB3BDCR41",
+    "source": "app analytics",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 2002,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fe9f3c1a8a43ecd6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 2002,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J78A0KX110ATVVN3H",
+    "source": "{}/data_management",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 116,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a31c20c8ba4ccd7c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 116,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J7V791X1Q7SNX4KCC",
+    "source": "data management delete account",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 1877,
+    "occurrences_kind": "literal",
+    "source_hash": "9f53ed479f890f7a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 1877,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JHM9WSR11KCNPDH3C",
+    "source": "{}/data_management?customToken={}",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 112,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3fa4b9cb5a085fbf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 112,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JHMDECR8SMDQ8N5V4",
+    "source": "crash reporting",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 2010,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "48d1db05fd32f940",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 2010,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JMBGWVWA2VH3R40N5",
+    "source": "secret redaction safe mode hide",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 1162,
+    "occurrences_kind": "literal",
+    "source_hash": "df8e0618678afc0e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 1162,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JSE633PNGQ01ZA6QY",
+    "source": "sync cloud conversation store storage ai agent",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 1685,
+    "occurrences_kind": "literal",
+    "source_hash": "aa80be1a734009bd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 1685,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JTTK62Y0X6S9TE4W5",
+    "source": "network log audit console data collection",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 1799,
+    "occurrences_kind": "literal",
+    "source_hash": "6dbd91d6cdd0df08",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 1799,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JY9VANZE8PY48CZXP",
+    "source": "telemetry usage analytics data collection",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 1442,
+    "occurrences_kind": "literal",
+    "source_hash": "88bf39cdbfc6c030",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 1442,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JYZPKY5NH0DX7875N",
+    "source": "telemetry crash reports stability data collection",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 1610,
+    "occurrences_kind": "literal",
+    "source_hash": "f67f81467d52c4d7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 1610,
+        "kind": "literal"
+      }
+    ]
+  }
+]

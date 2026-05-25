@@ -1,0 +1,1075 @@
+[
+  {
+    "id": "01KQXQV10JJHFHJP86MWHEA2RN",
+    "source": " 22.1.2, in practice, Warp windows don't render properly until 24.0.2.",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 40,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4b6107a5a1172949",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 40,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV112X4HWJ23BEA0P07BQ",
+    "source": " Mesa changelog mentions a fix for flickering on Intel UHD:",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 47,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "53eaeab77078af7a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 47,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1142KHASS94D6S2NA2Z",
+    "source": " Nvidia drivers version 535 have problems with Wayland window managers, e.g. PLAT-667 and",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 52,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "399abe1745c22201",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 52,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11EPYQVJH814NXBKT2N",
+    "source": " Some issues we've seen: PLAT-744 and PLAT-599.",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 46,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3dbeecda66087017",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 46,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11J7BNG3G82CPGGCEHY",
+    "source": " The minimum supported driver version for Vulkan-backed Intel UHD integrated graphics.",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 44,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3ee6bb4ade3631b1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 44,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11JWZ70KWF9SN07D63M",
+    "source": " The minimum supported driver version for lavapipe, the Vulkan version",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 36,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c2dbca98354e6298",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 36,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11V48QZMGZ4E9A09PSN",
+    "source": " While lavapipe is theoretically Vulkan 1.3 compatible starting in version",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 39,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c291283713db6021",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 39,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1231QTDYF8N7BZWJNYQ",
+    "source": " of Mesa's llvmpipe software renderer.",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 37,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f5274a8a3772a97d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 37,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C5N0BNF1K95VYFWVX",
+    "source": "Intel(R) HD Graphics 4600",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 526,
+    "occurrences_kind": "literal",
+    "source_hash": "dd77ce3438d42324",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 526,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CBQH2BD5HK2ZFSJ8P",
+    "source": "Intel(R) UHD Graphics 620",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 499,
+    "occurrences_kind": "literal",
+    "source_hash": "f3e424d46941cf19",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 499,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CDR1G7EYXX0E3E9D1",
+    "source": "Intel(R) Iris(TM) Pro Graphics 5200",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 529,
+    "occurrences_kind": "literal",
+    "source_hash": "c86c5228166467f9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 529,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CFVWAC2MC8GWY842H",
+    "source": "Intel(R) HD Graphics 4000",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 524,
+    "occurrences_kind": "literal",
+    "source_hash": "4f2733331896aae4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 524,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CHYVXGG7K6TTC6G3X",
+    "source": "Intel(R) HD Graphics 5500",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 527,
+    "occurrences_kind": "literal",
+    "source_hash": "67e6bd8027bbf8f9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 527,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CTKAX5HCMQWFNE3N2",
+    "source": "Intel(R) Iris(TM) Graphics 6100",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 530,
+    "occurrences_kind": "literal",
+    "source_hash": "e2d519e76bfbff7e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 530,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CXQF8K30WG3FX9EHH",
+    "source": "Intel(R) HD Graphics 4400",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 525,
+    "occurrences_kind": "literal",
+    "source_hash": "34f41e12260b9f02",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 525,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CYXRE46HA3NZ7QT4B",
+    "source": "Intel(R) HD Graphics 620",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 475,
+    "occurrences_kind": "literal",
+    "source_hash": "c7d3696956b772ea",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 475,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 500,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZ6A4QKJYB80ZWNH9",
+    "source": "Intel(R) HD Graphics P4600",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 528,
+    "occurrences_kind": "literal",
+    "source_hash": "743c7c851ea69942",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 528,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128HA4X13MPRE4X86WR",
+    "source": "500 rows with different content lengths. Rows have intrinsic heights based on text wrapping. Try scrolling and selecting text across rows.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1091,
+    "occurrences_kind": "literal",
+    "source_hash": "2ea32b9c995f5202",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1091,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128WFTZDZ09MGAR1G1R",
+    "source": "500 rows with fixed header. Columns: Fixed(50), Intrinsic, Flex(1), Intrinsic, Fraction(0.12). Try scrolling - header stays fixed.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1177,
+    "occurrences_kind": "literal",
+    "source_hash": "37d17a00804f79b9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1177,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BBPKXFN94PEQNSQ4P",
+    "source": "Empty table, single row, single column, many columns. Scroll horizontally if needed.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1014,
+    "occurrences_kind": "literal",
+    "source_hash": "5522b75c4864804e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1014,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BCHCQB4XAVBD2VYD1",
+    "source": "Edge Cases",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1013,
+    "occurrences_kind": "literal",
+    "source_hash": "52ca8287f7cca4ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1013,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BYQA0MGXE33SZCR70",
+    "source": "Empty (headers only)",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 970,
+    "occurrences_kind": "literal",
+    "source_hash": "448c06feb15c4d20",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 970,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C7RDFYXQ3NXMDS8F4",
+    "source": "Fixed Header with Mixed Column Types",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1176,
+    "occurrences_kind": "literal",
+    "source_hash": "7b35122961483c8f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1176,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DZ4Q9KXKVTEGQS0DV",
+    "source": "Many columns (10)",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1021,
+    "occurrences_kind": "literal",
+    "source_hash": "9673394f4169028b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1021,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FAZM1MYAPNA6ACZWY",
+    "source": "Row {} - Another short one",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1055,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "347e2c423ca32002",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1055,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1132,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FD5G3FM8HJ8T6S08G",
+    "source": "Row {} - Very long description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1054,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ea6a9043a1172939",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1054,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1131,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FE6540J6BH3TE9QSD",
+    "source": "Row {} - This is a medium length description that will wrap to multiple lines in a constrained column",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1053,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9618580bdd372d88",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1053,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1130,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FRRC1CJREC2FMG71Y",
+    "source": "Row {} - Short",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1052,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "87a86480802f0c8c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1052,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1129,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FYH9YFYQJ69575FD6",
+    "source": "Row {} - Medium text here with some more content to make it wrap and create varying row heights throughout the virtualized table.",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1056,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "132795f94fb918da",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1056,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1133,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GH1TTAC6JPVVFN2XG",
+    "source": "Single row",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 981,
+    "occurrences_kind": "literal",
+    "source_hash": "2b1850ab978d91f9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 981,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GP972K3SBE21RR7BR",
+    "source": "Single column",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 992,
+    "occurrences_kind": "literal",
+    "source_hash": "e664b8c68380ccfa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 992,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HES1BZE4NH4H28MX0",
+    "source": "Virtualized with Varying Heights",
+    "file": "crates/warpui/examples/table-sample/root_view.rs",
+    "line": 1090,
+    "occurrences_kind": "literal",
+    "source_hash": "653c2507ce9be179",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/table-sample/root_view.rs",
+        "line": 1090,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B4W1NPHJY0PNZXFZ8",
+    "source": "Expanded - FlexFit::Tight",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 326,
+    "occurrences_kind": "literal",
+    "source_hash": "bccbb005f19b2b19",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 326,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C1QAWXETZ0NZ7VB4W",
+    "source": "Flex: 1.0",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 139,
+    "occurrences_kind": "literal",
+    "source_hash": "3af3ed2780f35937",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 139,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CA91AQJK89SC0VN9Q",
+    "source": "Fixed 100",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 36,
+    "occurrences_kind": "literal",
+    "source_hash": "97732288f10e48e4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 4,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 36,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 66,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 83,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 113,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CKFP1QNGYPG55YPCP",
+    "source": "Flex: 3.0",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 130,
+    "occurrences_kind": "literal",
+    "source_hash": "3318696312db1737",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 130,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CM8EKG3SJT8NF0KFZ",
+    "source": "Flex: 2.0",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 148,
+    "occurrences_kind": "literal",
+    "source_hash": "4fd7551b45bddeba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 148,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D15NE6B65FKV9BTTT",
+    "source": "Min 100, Max 200",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 164,
+    "occurrences_kind": "literal",
+    "source_hash": "02939093d393cd9d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 164,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 181,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 198,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D1JJAY67FBERWZ0PW",
+    "source": "Note that this results in children beginning to shrink at different times and rates",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 339,
+    "occurrences_kind": "literal",
+    "source_hash": "3a195776ffff6332",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 339,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D1Z7AVEB4DY8M0BCF",
+    "source": "Multiple Expanded with varying flex amounts",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 334,
+    "occurrences_kind": "literal",
+    "source_hash": "e0a03bea09daa367",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 334,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D1ZY5ZBDKNQQCPDVQ",
+    "source": "Multiple Expanded with constraints and varying flex amounts in Flex with MainAxisSize::Min",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 338,
+    "occurrences_kind": "literal",
+    "source_hash": "4d851195531e3061",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 338,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D8KD9VY489Z4WEC3N",
+    "source": "Min 100, Max 200, Flex: 2.0",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 255,
+    "occurrences_kind": "literal",
+    "source_hash": "9fc5ffdb9d422ab6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 255,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D911XSP6XS52MY8QK",
+    "source": "Min 100, Max 200, Flex: 3.0",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 219,
+    "occurrences_kind": "literal",
+    "source_hash": "7753a6557947bca3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 219,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DEXFC6NQSXKAKP380",
+    "source": "Min 100, Max 200, Flex: 1.0",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 237,
+    "occurrences_kind": "literal",
+    "source_hash": "d357ebeeab73cec2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 237,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DP5V8P96W2AKPA7SS",
+    "source": "Multiple Expanded with constraints in Flex with MainAxisSize::Min",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 336,
+    "occurrences_kind": "literal",
+    "source_hash": "eb01c6690afa31cd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 336,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DRV0S3N6EYP1K9V2T",
+    "source": "Max Width 500, Min 200",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 50,
+    "occurrences_kind": "literal",
+    "source_hash": "2c55b76841e90ecc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 50,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 97,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G9BDD64PGDCWGENAV",
+    "source": "Shrinkable (Old Expanded) - FlexFit::Loose ",
+    "file": "crates/warpui/examples/flex-expand/root_view.rs",
+    "line": 330,
+    "occurrences_kind": "literal",
+    "source_hash": "7e57a00333d4ea5f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex-expand/root_view.rs",
+        "line": 330,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV121YZSK257JMKWJ6J73",
+    "source": " in the mac menus",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 32,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5ef8146e7c66e198",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 32,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129XK8BXAFJN9WDXPNM",
+    "source": "C-unwind",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 120,
+    "occurrences_kind": "literal",
+    "source_hash": "317af92e36d3e68c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 120,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 144,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 150,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J478X695HBTWRSXZB",
+    "source": "hide:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 194,
+    "occurrences_kind": "literal",
+    "source_hash": "a05aca9a0c5657a4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 194,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J5F87B728QCY0PSY8",
+    "source": "performClose:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 192,
+    "occurrences_kind": "literal",
+    "source_hash": "b387962b834f1ef6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 192,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J8VBQKB4E8A3DE8QJ",
+    "source": "toggleFullScreen:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 203,
+    "occurrences_kind": "literal",
+    "source_hash": "52ff282a02f8a3cd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 203,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JA2PJ9PZ5NR8B70XB",
+    "source": "unhideAllApplications:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 198,
+    "occurrences_kind": "literal",
+    "source_hash": "05a69d69e341b0ff",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 198,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JHZD3S5D772A7EN41",
+    "source": "hideOtherApplications:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 196,
+    "occurrences_kind": "literal",
+    "source_hash": "8acfff9c40043d74",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 196,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JJF32N7DTCYFW1TJ2",
+    "source": "arrangeInFront:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 201,
+    "occurrences_kind": "literal",
+    "source_hash": "3ee814b268f5a7e7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 201,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JND3T5259MNBN8AN4",
+    "source": "performZoom:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 200,
+    "occurrences_kind": "literal",
+    "source_hash": "84e9313fd0068334",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 200,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JRXQFGM73F1EZGRHC",
+    "source": "terminate:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 193,
+    "occurrences_kind": "literal",
+    "source_hash": "6c8bc07995b02bdd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 193,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JYH3MSJPPD8WDCGPQ",
+    "source": "performMiniaturize:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 199,
+    "occurrences_kind": "literal",
+    "source_hash": "35b0225bb3a2212f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 199,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JYHAWSBPMPFJ16PFW",
+    "source": "paste:",
+    "file": "crates/warpui/src/platform/mac/menus.rs",
+    "line": 205,
+    "occurrences_kind": "literal",
+    "source_hash": "9a4d2cf8b7f87517",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/menus.rs",
+        "line": 205,
+        "kind": "literal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "01KQXQV12B247PKFXWQZ5HDABQ",
+    "source": "Failed to parse screenshot URI: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 104,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "64b1d556dead4177",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 104,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B2YA2QZ24AVKAT8GP",
+    "source": "Failed to get response arguments: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 82,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "42dafc6c9c194e27",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 82,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B54F5QP982CNNT6M1",
+    "source": "Failed to request screenshot: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 59,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "808190878e19003e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 59,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/computer_use/src/linux/x11/screenshot.rs",
+        "line": 39,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BA7HMDDXT6EVYSB2H",
+    "source": "Failed to create request proxy: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 67,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "12a67515ad92120d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 67,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BBTRW9G7FKDMSB6QY",
+    "source": "Failed to connect to D-Bus session bus: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 46,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9c622d9d80bde689",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 46,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BC5CABPWTES6D3FJS",
+    "source": "Failed to open screenshot file: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 110,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "886a225d330f1aa1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 110,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/computer_use/src/screenshot_utils.rs",
+        "line": 21,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BDDKAY0R4M4GV6STG",
+    "source": "Failed to decode screenshot: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 112,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d36e06d1589d9867",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 112,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/computer_use/src/screenshot_utils.rs",
+        "line": 23,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BG53CD5XXATF4ATRN",
+    "source": "Failed to build request proxy: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 64,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "63466812af5cef7d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 64,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BHCS3QQZHQMXVMPRR",
+    "source": "Failed to subscribe to response signal: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 72,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8984af641d2cee8c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 72,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BTDFZ049Y59Q5KZBR",
+    "source": "Failed to get URI from response: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 100,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "965d938f51c4e3be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 100,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BXCQX0CDTJ0H4K81B",
+    "source": "Failed to create screenshot portal proxy: {e}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 50,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "21eb70bb094a4d46",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 50,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F2HCB2273HE0ZPX01",
+    "source": "Screenshot request failed with response code: {}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 87,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1d8f61ddfa0756cc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 87,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FJNWVFTPS3XW7PW79",
+    "source": "Screenshot request was cancelled or timed out",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 78,
+    "occurrences_kind": "literal",
+    "source_hash": "61f26ff546d2839a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 78,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FPNECA5EZFXN21F31",
+    "source": "Screenshot response missing 'uri' field",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 96,
+    "occurrences_kind": "literal",
+    "source_hash": "1e87af568bad4a23",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 96,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FVF70NQDEXD9JWNRX",
+    "source": "Screenshot URI is not a valid file path: {uri}",
+    "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+    "line": 106,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "578c2180b1434a6b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/screenshot.rs",
+        "line": 106,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B5CVC1GQPQZHWH9SP",
+    "source": "Failed to select screencast sources: {e}",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 71,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "709bf44f851f3872",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 71,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BB4XH8T91J7PEWCPZ",
+    "source": "Failed to start session request: {e}",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 77,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "46994e60ed6bf4a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 77,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BE0TCWEEM6C7FYG76",
+    "source": "Failed to create Screencast proxy: {e}",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 38,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fae846f639a07a5d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 38,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BJVRHEFTGCK2AXV10",
+    "source": "Failed to create RemoteDesktop proxy: {e}",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 34,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "acc34bfb52f4ba03",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 34,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BRR0RW3DHKVNZ6D4Z",
+    "source": "Failed to create RemoteDesktop session: {e}",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 44,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f0ea2b561e510586",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 44,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BSC3E7MV1EFA4MKA9",
+    "source": "Failed to select devices: {e}",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 57,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "164d3d577a240b21",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 57,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D6F5FQ4XN5YSNJ0TT",
+    "source": "No monitors available for screen casting",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 87,
+    "occurrences_kind": "literal",
+    "source_hash": "dfb2779e7f8020b1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 87,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DEF1HNJ5QBXBDFNJC",
+    "source": "No streams returned from ScreenCast",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 84,
+    "occurrences_kind": "literal",
+    "source_hash": "0978f2ac0b37e997",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 84,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DFSDSW2FPXXH2PXW8",
+    "source": "Keyboard input permission was not granted. The user must allow keyboard input in the portal dialog to perform keyboard actions.",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 130,
+    "occurrences_kind": "literal",
+    "source_hash": "86537b6d9e3a671d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 130,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DFWN8KXQESXC1FDG0",
+    "source": "Mouse input permission was not granted. The user must allow mouse input in the portal dialog to perform mouse actions.",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 144,
+    "occurrences_kind": "literal",
+    "source_hash": "03caa8b5ed626317",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 144,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FDQQ1YWWWD985X1WY",
+    "source": "Session start failed: {e}",
+    "file": "crates/computer_use/src/linux/wayland/session.rs",
+    "line": 79,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "42c9b1b5b3722dc8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/session.rs",
+        "line": 79,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10G8XGBY6Q5Y25TYFGP",
+    "source": "\nThe command below includes a one-time configuration of the Warp package repository and PGP signing key.",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 224,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "624ca80ce1ebd654",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 224,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10GWCN84XZRPVNPNSDW",
+    "source": "\nReview the command below, then ",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 245,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c6b12488803ce654",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 245,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11FRN91PMS9634D96G2",
+    "source": " Stores the path to the current executable.",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 17,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6d8da4756696d26c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 17,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11SSZR050AWAVM6H7CW",
+    "source": " We cache this before running auto-update because the returned path for",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 19,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "99b0018314e47bbc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 19,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV120DY0VJ7SZGC1WC57R",
+    "source": " function ensures the Warp package repository is enabled, as we've detected you recently upgraded your distribution.",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 239,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cbd3493194df189d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 239,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV123WJ2NT8G13Y9597QP",
+    "source": " or a compatible tool, the pre-filled command will update Warp for you.",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 216,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4169ad4dbfa11258",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 216,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1263YT9KHQC9TA29FVC",
+    "source": " the relaunch logic.",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 21,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "05a51ad725ad941e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 21,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1278K34A3HC9ZDY3DSS",
+    "source": " to install the update and re-launch Warp.  ",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 247,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bf87c13f96a2c9d7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 247,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3DKEF4P1P2C38X6S",
+    "source": "Failed to run package manager detection script",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 503,
+    "occurrences_kind": "literal",
+    "source_hash": "548c3a5e7c790084",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 503,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B4G0B2Y2B09G11KGQ",
+    "source": "FAiled to parse apt sources directory script output",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 583,
+    "occurrences_kind": "literal",
+    "source_hash": "39a1774ad398e223",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 583,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CPCE2PXF9K8TH2P7M",
+    "source": "If you installed Warp using ",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 213,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b9cb9624f120e691",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 213,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ECFQK5DF7CVC41EG3",
+    "source": "Please report any issues",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 249,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "67143f72c857489e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 249,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FXZFFWD5NSEEPWMXN",
+    "source": "Run {package_manager_name} to update",
+    "file": "app/src/autoupdate/linux.rs",
+    "line": 209,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8c3c940a26ebf68c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/linux.rs",
+        "line": 209,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C1WQ1ZPN7CGNNCJ6C",
+    "source": "Hack Nerd Font",
+    "file": "app/src/font_fallback.rs",
+    "line": 19,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3082900870bc6bfc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 19,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D4ZKQV16AV84VSKGX",
+    "source": "Noto Sans Devanagari",
+    "file": "app/src/font_fallback.rs",
+    "line": 49,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1c5acf301920c09e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 49,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D6V9NTRJ6SH018413",
+    "source": "Noto Sans Symbols 2",
+    "file": "app/src/font_fallback.rs",
+    "line": 84,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "54004fa195ffd08b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 84,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D7G67TSSMNZDXR4TQ",
+    "source": "Noto Sans TC",
+    "file": "app/src/font_fallback.rs",
+    "line": 98,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "61946e0cbb773cf3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 98,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D7RSRZ1M82J9JF7TK",
+    "source": "Noto Sans Symbols",
+    "file": "app/src/font_fallback.rs",
+    "line": 91,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c1955af81e720e0c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 91,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DF05WKMH05FZMB4PW",
+    "source": "Noto Color Emoji",
+    "file": "app/src/font_fallback.rs",
+    "line": 28,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e2727c20c7bf4d2b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 28,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DFFR4Z09TTB5WJSC4",
+    "source": "Noto Sans SC",
+    "file": "app/src/font_fallback.rs",
+    "line": 77,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "21b5d8d35d659cad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 77,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DP3T7QH7MA77S9NTE",
+    "source": "Noto Sans KR",
+    "file": "app/src/font_fallback.rs",
+    "line": 70,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "96ad2640b188bf04",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 70,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DQBXZT3X94GMGZEX8",
+    "source": "Noto Sans HK",
+    "file": "app/src/font_fallback.rs",
+    "line": 56,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3b87b0357e3eff93",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 56,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DVXM1T8540GEMKD74",
+    "source": "Noto Sans Bengali",
+    "file": "app/src/font_fallback.rs",
+    "line": 42,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7045910afbea1e70",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 42,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DZM443PH2T7JQZFQK",
+    "source": "Noto Sans JP",
+    "file": "app/src/font_fallback.rs",
+    "line": 63,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e65ad37825ae15f7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 63,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DZSYPEQZXEH2E5HBV",
+    "source": "Noto Sans Arabic",
+    "file": "app/src/font_fallback.rs",
+    "line": 35,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c08098074ff9372e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/font_fallback.rs",
+        "line": 35,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10H9A7D9VCRSB6VCJ7H",
+    "source": " * `\\` - Backslashes are not escape characters in PowerShell.",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 33,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b45ec3d7ceee6af2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 33,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10HPFNC14X9WST8QDNA",
+    "source": " * `@` - The `@` sigil creates array and object literals.",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 40,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cfa472911335a833",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 40,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10MTVQCZN50W33A7BNE",
+    "source": " Added:",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 39,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc5df12f982b6c9f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 39,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV114Q25EW6DPJN72Y2F6",
+    "source": " Omitted:",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 32,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1961b821edb1175c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 32,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11623NND9RN1QEQDVD1",
+    "source": " Regex for valid line and column number formats.",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 46,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "df10ee8ad444a22a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 46,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11E7YP55A4Q1A7JHQPB",
+    "source": " Special characters to escape in PowerShell. Mostly the same as [`POSIX_SHELL_ESCAPE_PATTERN`]",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 29,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dd8a49da0039774a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 29,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11EQX3VTSYDVHWQ6RT0",
+    "source": " Special characters to escape in POSIX-based shells. Check for the full list here:",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 24,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9faeaa694393c6a0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 24,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11G4MPX7MZ7GK3F4VT9",
+    "source": " Test home directory value for tests.",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 20,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8eb57535274c96f9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 20,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11Y47VMG8QHDQA0KG22",
+    "source": " array.",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 42,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "be47c3a3f160cc39",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 42,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11YYD6W6V2CQ188E4NR",
+    "source": " but with the following differences:",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 30,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0ed0ec88bd282450",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 30,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV120F4786JAKZ1C8RJAS",
+    "source": " exansion. It has to be quoted to suppress conversion to the HOME dir.",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 37,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "da2114e05047300d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 37,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV125GWQKSFJ01ECN2GXE",
+    "source": " text. Actually \"?\" is a built-in alias for `Where-Object`.",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 35,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "81e02a6d6fe01b6e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 35,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C95X5FW76P3AFP0PC",
+    "source": "First group always exists",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 166,
+    "occurrences_kind": "literal",
+    "source_hash": "edac31734bfb5317",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 166,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 171,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FV3AY8TNP01PH4WS0",
+    "source": "Shell escape regex should be valid",
+    "file": "crates/warp_util/src/path.rs",
+    "line": 27,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "11b64b6356c1698a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 27,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 44,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]
