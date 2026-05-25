@@ -1888,3 +1888,36 @@ First 360-entry batch (6 implementers × 60 entries, one file each). Action mix:
 ### Next Steps
 
 - None - task complete
+
+
+## Session 13: Batch-15 translation: 331 entries via 6 parallel implementers
+
+**Date**: 2026-05-25
+**Task**: Batch-15 translation: 331 entries via 6 parallel implementers
+**Branch**: `main`
+
+### Summary
+
+6-way parallel trellis-implement (opus) translated 331 entries pinned to single files / clusters: terminal/view.rs (59), action_result/mod.rs (56), agent/action/mod.rs (54), blocklist/output.rs (53), workspace/view + vertical_tabs (65), ai/agent/mod.rs (44). Mix: 264 UI translate + 59 telemetry_payload flag + 8 panic_message flag. Status: new 3753→3422, translated 2929→3260, fuzzy 52 unchanged. Apply caught 1 brand-literal violation ('Execution Profile' → '执行配置'); fixed in batch-E output to '执行 Profile' and re-applied. Verification (general-purpose agent, since trellis-check hit a 'prompt too long' error): all invariants pass — placeholders/strftime/whitespace/brand/flag closure/no collateral mutation/id-set equality.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `7c16963` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
