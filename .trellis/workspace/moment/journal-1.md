@@ -1921,3 +1921,36 @@ First 360-entry batch (6 implementers × 60 entries, one file each). Action mix:
 ### Next Steps
 
 - None - task complete
+
+
+## Session 14: batch-16 translation — 371 entries via 6 parallel implementers
+
+**Date**: 2026-05-25
+**Task**: batch-16 translation — 371 entries via 6 parallel implementers
+**Branch**: `main`
+
+### Summary
+
+6-way parallel trellis-implement (opus) translation batch. File-pinned sub-batches across 10 files: A passive_suggestions/static_prompt_suggestions.rs (46 UI); B block/view_impl/common.rs + settings/ai.rs (64 UI); C agent_tips.rs + ambient_agent/tips.rs (80 UI); D editor/view/mod.rs + appearance_page.rs (28 UI + 13 panic + 3 telemetry + 20 bilingual); E iterm_parser.rs + init_project/mod.rs (26 UI + 36 telemetry/protocol-key + 3 doc-comment-fp); F drive/index.rs + search/data_source.rs (50 UI + 2 panic). Status: new 3422→3051 (−371); translated 3260→3631 (+371); fuzzy 52 unchanged. All 6 invariants verified (placeholders, strftime, whitespace, brand literals, flag closure, no collateral mutation). Notable: 34 iTerm plist dict keys tagged flag_telemetry_payload as fallback — sub-flag taxonomy lacks a protocol_key bucket; recorded in project memory for future spec work. trellis-check sub-agent rejected dispatch with 'Prompt is too long' (likely heavy auto-injection); verification ran inline as a one-shot Python invariant suite.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `f3bd4b8` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
