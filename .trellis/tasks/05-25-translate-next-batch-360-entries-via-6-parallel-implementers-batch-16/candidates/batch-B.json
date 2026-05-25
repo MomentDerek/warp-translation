@@ -1,0 +1,578 @@
+[
+  {
+    "id": "01KQXQV12HTXFYB4H5EE21K55G",
+    "source": "Warping...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 133,
+    "occurrences_kind": "literal",
+    "source_hash": "c95954d507026b93",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129TN2QKAQRS4SRM909",
+    "source": "Adjusting tasks...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 134,
+    "occurrences_kind": "literal",
+    "source_hash": "dccd095735b5c792",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C9BZ700XSNSCK7BSS",
+    "source": "Generating fix...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 135,
+    "occurrences_kind": "literal",
+    "source_hash": "24673d3d7ad2948c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A7M039E8RP21M22FD",
+    "source": "Creating diff...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 136,
+    "occurrences_kind": "literal",
+    "source_hash": "a6b2daa11c8d8b17",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EBB15D4G640MDH23T",
+    "source": "Preparing question...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 137,
+    "occurrences_kind": "literal",
+    "source_hash": "60da7e00331f7724",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CKX4ZWNEQKR07WF3Z",
+    "source": "Generating plan...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 138,
+    "occurrences_kind": "literal",
+    "source_hash": "73426fca9b8ed125",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H5DCYMDAZ1BPV1B85",
+    "source": "Updating plan...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 139,
+    "occurrences_kind": "literal",
+    "source_hash": "f36c26d48805e89e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GKPMH1B8EHVZMD76D",
+    "source": "Summarizing conversation...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 140,
+    "occurrences_kind": "literal",
+    "source_hash": "f02cbecd1d6c8d7a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GG9T6EJHFH2725XC8",
+    "source": "Summarizing command output...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 142,
+    "occurrences_kind": "literal",
+    "source_hash": "a21d2ea9f75ce602",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FWJBKJWY2FNHEYNKR",
+    "source": "Searching codebase...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 143,
+    "occurrences_kind": "literal",
+    "source_hash": "e0171c28c4ca3801",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EKQMRN8D1ZXR65PDR",
+    "source": "Reading files...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 144,
+    "occurrences_kind": "literal",
+    "source_hash": "9d0129a8e3ee72e5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CV3YK43J2J2RFE5AE",
+    "source": "Finding files...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 146,
+    "occurrences_kind": "literal",
+    "source_hash": "024f0de84d082d8c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BB1TJPN3QQPBHEN4S",
+    "source": "Executing command...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 147,
+    "occurrences_kind": "literal",
+    "source_hash": "a2bc2c08c5b395f6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JA620XABT2RZX2TDP",
+    "source": "Writing command input...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 148,
+    "occurrences_kind": "literal",
+    "source_hash": "52711eb85951b21b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HPH5A9TCKTF555HA1",
+    "source": "Waiting for command to exit...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 150,
+    "occurrences_kind": "literal",
+    "source_hash": "4cbbfb68f063496e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F706N0F8RE2PR6CHV",
+    "source": "Searching the web...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 151,
+    "occurrences_kind": "literal",
+    "source_hash": "b1dde6ec2941d32f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CVCMYQGCNHD08D2RW",
+    "source": "Fetching PR comments...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 152,
+    "occurrences_kind": "literal",
+    "source_hash": "3b9a68229cd331de",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1297ZT0VDKKWCEKM877",
+    "source": "Can I write the following to this running command?",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 158,
+    "occurrences_kind": "literal",
+    "source_hash": "83780e743136e534",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CEWJ67T4WX3ZQT0VM",
+    "source": "Grant access to the following files?",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 159,
+    "occurrences_kind": "literal",
+    "source_hash": "21d128287c8f4065",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CATFWHRYJ6D01RYFP",
+    "source": "Grant access to the following repository?",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 161,
+    "occurrences_kind": "literal",
+    "source_hash": "148da3ae58a2fd74",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DR6F6TDD517Z27FCR",
+    "source": "OK if I search the files in this directory?",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 163,
+    "occurrences_kind": "literal",
+    "source_hash": "ed0b3a3c1850eab2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12987294KQP548E1BFZ",
+    "source": "Calling \"{name}\" MCP tool...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 358,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f2a85cfc6a661d29",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EBHMMAQC7DWBXP2N9",
+    "source": "Reading \"{name}\" MCP resource...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 361,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c8ceeecae585d7a0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GBFB6KJ51V3BA736G",
+    "source": "Take over control of the command",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 451,
+    "occurrences_kind": "literal",
+    "source_hash": "4d1aabee33914db0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G071VPBHK5ZNPX2AP",
+    "source": "Show responses",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 761,
+    "occurrences_kind": "literal",
+    "source_hash": "964634b6a1ef56ca",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C41FVPRGN22C8MB4R",
+    "source": "Hide responses",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 763,
+    "occurrences_kind": "literal",
+    "source_hash": "860546874f29e021",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F6ZW9SS02R7AVV0H0",
+    "source": "Show agent responses",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 777,
+    "occurrences_kind": "literal",
+    "source_hash": "8f8d4f52860edb1c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CBEX02QKXHKG3TTMD",
+    "source": "Hide agent responses",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 779,
+    "occurrences_kind": "literal",
+    "source_hash": "343350388bf36d08",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G0ATEG0ABNVZSS21A",
+    "source": "Stop agent task",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 841,
+    "occurrences_kind": "literal",
+    "source_hash": "5aef99ccec2e6823",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129S5C630TWY438E98C",
+    "source": "Auto-queue is on: your next prompt will be queued",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 868,
+    "occurrences_kind": "literal",
+    "source_hash": "c0c3f7dba94c5344",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129DW0R4MK18D165YDQ",
+    "source": "Auto-queue next prompt while agent is responding",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 870,
+    "occurrences_kind": "literal",
+    "source_hash": "5a2590cfd9d3db92",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DCMVBZK80CCTYV2C3",
+    "source": "Mermaid diagram",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 2113,
+    "occurrences_kind": "literal",
+    "source_hash": "0f082e133791d7da",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JX4GVZKZY8Q99Y3MF",
+    "source": "{ERROR_APOLOGY_TEXT}\n\nYou've reached your credit limit. Your credit limit resets on {formatted_next_refresh_time}.",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 2969,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "154eb62b5a0ca4df",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J2ZMH5FK919KJC934",
+    "source": "{error_message}\n\nWill resume conversation when network connectivity is restored...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 2987,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "deb4166d36989ddd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JE693D5PRXKABD10K",
+    "source": "{error_message}\n\nAttempting to resume conversation...",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 2990,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "516549ed39523afe",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J0Y5EKFMJ7T55EQB0",
+    "source": "{ERROR_APOLOGY_TEXT}\n\nAWS credentials expired or missing for {model_name}. Please refresh your AWS credentials.",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 3021,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "34c42fd1ca7ecec1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EG6MTSDZPJNSJ7FPT",
+    "source": "Provided API key is not valid",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 3090,
+    "occurrences_kind": "literal",
+    "source_hash": "b95d4da6e57495bd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B9ZKRB3GHG4THYCSY",
+    "source": "Failed to authenticate with {provider} when using {model_name}. Double-check that your API key is correct.",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 3100,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e53e981fedc42977",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F5CA297VCSJ32SSQ9",
+    "source": "Send Feedback",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 3264,
+    "occurrences_kind": "literal",
+    "source_hash": "84195de9375af87c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A67VQBG4K34R6QG8V",
+    "source": "Debug information: {debug_info}",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 3280,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ebf54e0440a571d9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AAXW51WJ1Z4R5CJ3Q",
+    "source": "Copy debug ID",
+    "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+    "line": 3324,
+    "occurrences_kind": "literal",
+    "source_hash": "969f3c3ded6fff2e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HZCD9T37DKJFWNVVH",
+    "source": "Whether to automatically run the AWS login command when Bedrock credentials expire.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1049,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "601e14fb5823741c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G8G857SBAY2T51SGE",
+    "source": "The command to run to refresh AWS credentials for Bedrock.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1059,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e6883cd6f7956c80",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G6G8KFHRWW0E5V4RT",
+    "source": "The AWS profile name to use for Bedrock credentials.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1069,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ea3cd9fbc2f98d64",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HQZJ1NY28AT98DPJ2",
+    "source": "Whether the agent uses your saved rules during requests.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1089,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7b7b3a8f87da13f7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HV5RXKDAW53E7E6C8",
+    "source": "Whether Warp Drive context is included in AI requests.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1099,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5971a2138b3a749b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HWQK70QN5PXY7QPDW",
+    "source": "Whether the \"What's new\" section is shown in the agent view.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1223,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3c8043d61829f649",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQQC3ATGAQQ1BDVYAHAF",
+    "source": "Whether Warp's built-in feedback skill is available to the Warp Agent.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1233,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e0cbc50532d30363",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQQ9AGME4FJHGF3KQY4X",
+    "source": "Whether Warp credits can be used as a fallback for user-provided models.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1245,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1d330a0a5e2696c5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HW7H84C2XKE77DHVV",
+    "source": "Whether to show the \"Use Agent\" footer for terminal commands.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1255,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "defc5cc6232494f5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HWBNENVGNW99XZKRR",
+    "source": "Whether to show the CLI agent footer for coding agent commands.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1267,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "69f9738ddec8e471",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HY5QG93EYQXYVT3CN",
+    "source": "Whether CLI agent Rich Input automatically closes and reopens based on the agent's blocked state.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1279,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ce8b9c63515a6d51",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H2ZGHE3PDEB0PPMH5",
+    "source": "Whether CLI agent Rich Input automatically opens when a CLI agent session starts.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1291,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d8e40cef22e9e982",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HBKTRTNN5NRKFS1MK",
+    "source": "Whether CLI agent Rich Input automatically closes after the user submits a prompt.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1305,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5521d0f6602b8b82",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D3PQNFFJ9NH2HD1BA",
+    "source": "Maps custom toolbar command patterns to specific CLI agents.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1320,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b310097759078707",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H65EFHVXH1SYX2PG0",
+    "source": "Whether computer use is enabled for cloud agent conversations.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1398,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "991daa83d3948714",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HQJFY6JG0HEBXQZVW",
+    "source": "Whether third-party file-based MCP servers are automatically detected.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1412,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "66d91cce5683fc96",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HKMRKXGRNWV8PHZ5H",
+    "source": "Whether agent-executed commands are included in command history.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1428,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1a5ca36505168b84",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H0CCJTTPSY8GDWZ38",
+    "source": "Whether conversation history appears in the tools panel.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1439,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "96680fed7132b426",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HC0VJ6F0KZSGQTV1C",
+    "source": "Whether agent notifications are shown.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1451,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ce4ce277be902469",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HH1KRBMRENVWHZXNS",
+    "source": "Whether the Warp Agent adds an attribution co-author line to commit messages and pull requests it creates.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1488,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7c97aa14493001d2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKATARY2S75T4FYZW08FM",
+    "source": "Whether to force-disable local-to-cloud handoff.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1498,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7f59435cd59e2ac9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKATDXN0G27E4TQYNHH2N",
+    "source": "Whether to force-disable the & prefix for cloud handoff compose mode.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1508,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8405f979e2417284",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQQ5GMY3Q8BMV7VJVJDT",
+    "source": "Whether Warp automatically hands off local agent conversations to cloud when the computer is about to sleep.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1518,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4f44e321cc8c3a3e",
+    "audit_verdict": "uncertain"
+  }
+]

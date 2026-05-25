@@ -1,0 +1,416 @@
+[
+  {
+    "id": "01KQXQV1292ZCSXQEBQXKQDY05",
+    "source": "Code a feature or fix a bug in {1}",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 69,
+    "occurrences_kind": "literal",
+    "source_hash": "4cda7b09c192c9c4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CYQ5BG20SQGXV3T60",
+    "source": "Implement a feature or fix a bug in {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 71,
+    "occurrences_kind": "literal",
+    "source_hash": "7d5098afa88d404b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CZJGPCMPSP01S0GHZ",
+    "source": "Help me code a feature or fix a bug in {1}",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 77,
+    "occurrences_kind": "literal",
+    "source_hash": "a3deaf16a0d196b1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CR6QK20RDVD8WW2JS",
+    "source": "Help me create a pull request.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 94,
+    "occurrences_kind": "literal",
+    "source_hash": "4b5af69c13a93a81",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CAETF5TGFTM0ZK0P5",
+    "source": "Help me start a new project",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 100,
+    "occurrences_kind": "literal",
+    "source_hash": "7a836d9879339186",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CHP577MW89B26399G",
+    "source": "Help me start a new project. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 101,
+    "occurrences_kind": "literal",
+    "source_hash": "4484c3bf00af210b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C1R8VFYPKB7SVNQ1P",
+    "source": "Help me start a Node.js project",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 107,
+    "occurrences_kind": "literal",
+    "source_hash": "a18ffd1c3d39664c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C5DB8V8JPA15M8G4N",
+    "source": "Help me start a Node.js project. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 108,
+    "occurrences_kind": "literal",
+    "source_hash": "0e63f65de18b36b3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C09ZTNGRH9A25MVED",
+    "source": "Help me create a new React app",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 114,
+    "occurrences_kind": "literal",
+    "source_hash": "0848265bbf942752",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CEQE6B89DF072K3WV",
+    "source": "Help me create a new React app called {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 116,
+    "occurrences_kind": "literal",
+    "source_hash": "d552c031c241dce5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C6KDYAX5AGAYCE07S",
+    "source": "Help me create a new Next.js app",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 122,
+    "occurrences_kind": "literal",
+    "source_hash": "bc133f7d129a7c6c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CDA65RQ3ZPDYHVCTF",
+    "source": "Help me create a new Next.js app called {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 124,
+    "occurrences_kind": "literal",
+    "source_hash": "662e358f9b00679d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C54VXY42CQ9PCM4QE",
+    "source": "Help me start a Rust project for {1}",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 130,
+    "occurrences_kind": "literal",
+    "source_hash": "9aee1feb6c2a969a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C8J4FC114H2Z6VHSA",
+    "source": "Help me start a Rust project for {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 132,
+    "occurrences_kind": "literal",
+    "source_hash": "e0932bb4a835708d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C5TT31SHYN0JGTRR7",
+    "source": "Help me start a Poetry project for {1}",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 138,
+    "occurrences_kind": "literal",
+    "source_hash": "e6c48b3e62e06dc1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CNZHTTVPCH0YDKS48",
+    "source": "Help me start a Poetry project for {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 140,
+    "occurrences_kind": "literal",
+    "source_hash": "657fcd8218b84c9f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C2R8YJA8X6DCWB1DK",
+    "source": "Help me start a Django project for {1}",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 146,
+    "occurrences_kind": "literal",
+    "source_hash": "2e9be95c3501bf3d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CZGH24MVSVPCFK1E6",
+    "source": "Help me start a Django project for {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 148,
+    "occurrences_kind": "literal",
+    "source_hash": "58967733b338cc09",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C1AFXDDTP3GY4FTM6",
+    "source": "Help me start a Rails app for {1}",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 154,
+    "occurrences_kind": "literal",
+    "source_hash": "fa1dfffed31f62c8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CDSJ7PQPKJJE9NGB5",
+    "source": "Help me start a Rails app for {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 155,
+    "occurrences_kind": "literal",
+    "source_hash": "ece2a7ea72752865",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CA94K8JF069G07ZHK",
+    "source": "Help me start a Gradle/Maven project",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 161,
+    "occurrences_kind": "literal",
+    "source_hash": "ce9924b4588a8cdc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CJQHDQX27TQDREFDF",
+    "source": "Help me start a Gradle/Maven project. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 163,
+    "occurrences_kind": "literal",
+    "source_hash": "5ee8d5b193bc90e5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CJMQ944CWE5JK1DBM",
+    "source": "Help me start a Go project for {1}",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 169,
+    "occurrences_kind": "literal",
+    "source_hash": "6f00bb42ff2e01a6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CT8SAFAYC13ZAY7JT",
+    "source": "Help me start a Go project for {1}. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 170,
+    "occurrences_kind": "literal",
+    "source_hash": "ed4e253afde8a5fd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C1B8ZN8H9W5GN8QM5",
+    "source": "Help me start a Swift project",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 176,
+    "occurrences_kind": "literal",
+    "source_hash": "d30f7ff67ee0b576",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CQCM5S9YK4ZNVXWAJ",
+    "source": "Help me start a Swift project. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 177,
+    "occurrences_kind": "literal",
+    "source_hash": "12f5258d8da32e8e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CXCM2ARRMR8NBVMHP",
+    "source": "Help me start a Terraform configuration",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 183,
+    "occurrences_kind": "literal",
+    "source_hash": "eccfe4372d31f404",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C09TG9Z42BF01KSPF",
+    "source": "Help me start a Terraform configuration. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 185,
+    "occurrences_kind": "literal",
+    "source_hash": "44ac969ebb03871f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CFMDWF2267A8QZ0BK",
+    "source": "Help me set up Prisma in this project",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 191,
+    "occurrences_kind": "literal",
+    "source_hash": "a1263b61b779ec54",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CF8ABTFTD0FK9NZYR",
+    "source": "Help me set up Prisma in this project.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 192,
+    "occurrences_kind": "literal",
+    "source_hash": "7c7841cdcfee2e92",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CQK12748RGK7XMR9V",
+    "source": "Help me install dependencies for {1}.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 199,
+    "occurrences_kind": "literal",
+    "source_hash": "97e93a177f362e7a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CH1WZG07666X9REYC",
+    "source": "Help me set up a new Ruby project",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 205,
+    "occurrences_kind": "literal",
+    "source_hash": "acee075d904bd108",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CC9VBZ16MNG0M26EP",
+    "source": "Help me set up a new Ruby project. Ask me for all the details you need.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 206,
+    "occurrences_kind": "literal",
+    "source_hash": "6ab52e82b5003639",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CV8ZQVFNEQNM5PM5J",
+    "source": "Help me set up a Modelfile for {1}.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 213,
+    "occurrences_kind": "literal",
+    "source_hash": "3cd2ad3b5ff22c2b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C0KPQ1CSAV2QA87ZG",
+    "source": "Help me understand resource utilization in my cluster.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 220,
+    "occurrences_kind": "literal",
+    "source_hash": "9dd57df3c8391ba7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CQ1GAFMQ1FXK4BF1T",
+    "source": "Help me inspect Kubernetes resources.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 234,
+    "occurrences_kind": "literal",
+    "source_hash": "84b06432efb99bd9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CHQYH9V8M7J9Z81ST",
+    "source": "Help me manage running containers.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 241,
+    "occurrences_kind": "literal",
+    "source_hash": "179247858b4f6cd8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CF4TW8H681YWKCEEA",
+    "source": "Help me manage Docker images.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 248,
+    "occurrences_kind": "literal",
+    "source_hash": "ede9b4d40291414e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C9WKGSBYW678E1BPX",
+    "source": "Help me manage or troubleshoot {1} with Docker Compose",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 254,
+    "occurrences_kind": "literal",
+    "source_hash": "eee1cb2a0ba1dee8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CVJFXTW777FDGVTR8",
+    "source": "Help me manage or troubleshoot {1} with Docker Compose.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 255,
+    "occurrences_kind": "literal",
+    "source_hash": "d61e294969537ab1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CF8KWFT6MW68Y1W06",
+    "source": "Help me configure containers to use {1}.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 262,
+    "occurrences_kind": "literal",
+    "source_hash": "4f476f0db1dca923",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CE4KS3PQYPGT75E3P",
+    "source": "Help me set up or customize a Vagrant box {1}.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 269,
+    "occurrences_kind": "literal",
+    "source_hash": "880df317ecbc7d22",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C9FXPZEWE5XGPVZY5",
+    "source": "Help me provision my environment or troubleshoot Vagrant startup.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 276,
+    "occurrences_kind": "literal",
+    "source_hash": "5ac0c758db9489ff",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CX9B7W2MRVKY2Q6W5",
+    "source": "Help me search code across files for {1}.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 284,
+    "occurrences_kind": "literal",
+    "source_hash": "3507385dc964f235",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CR6GYT0EA53NTHBXN",
+    "source": "Help me search code across files with {1}.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 293,
+    "occurrences_kind": "literal",
+    "source_hash": "d35e4cda7292236e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HW84X2KCHQ85HPARF",
+    "source": "Walk me through generating an SSH key.",
+    "file": "app/src/ai/blocklist/passive_suggestions/static_prompt_suggestions.rs",
+    "line": 303,
+    "occurrences_kind": "literal",
+    "source_hash": "24d2776ec8d31208",
+    "audit_verdict": "uncertain"
+  }
+]

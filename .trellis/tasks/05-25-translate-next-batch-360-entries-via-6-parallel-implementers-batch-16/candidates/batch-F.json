@@ -1,0 +1,470 @@
+[
+  {
+    "id": "01KQXQV12HQS0NZM1FWH7E5M96",
+    "source": "Upgrade for access to more notebooks, workflows, shared sessions, and AI credits.",
+    "file": "app/src/drive/index.rs",
+    "line": 198,
+    "occurrences_kind": "literal",
+    "source_hash": "d855fcb7a29ca7a4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FS16DR1AAN8ZW213D",
+    "source": "Shared objects have been restricted due to a subscription payment issue.",
+    "file": "app/src/drive/index.rs",
+    "line": 201,
+    "occurrences_kind": "literal",
+    "source_hash": "7c825955ded61aec",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E3M9CQCVCN4233KHC",
+    "source": "Please update your payment information to restore access.",
+    "file": "app/src/drive/index.rs",
+    "line": 204,
+    "occurrences_kind": "literal",
+    "source_hash": "46e9b5a6bb6426a1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQF0W457CX9NPJ1ZPHKM",
+    "source": "Please contact support@warp.dev to restore access.",
+    "file": "app/src/drive/index.rs",
+    "line": 207,
+    "occurrences_kind": "literal",
+    "source_hash": "d19ec7cc63c0be78",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HKWSFW66J4MXR88Y4",
+    "source": "View Plans",
+    "file": "app/src/drive/index.rs",
+    "line": 420,
+    "occurrences_kind": "literal",
+    "source_hash": "a865d424b461a7fd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DX0AXET10KT61S0GA",
+    "source": "Manage Billing",
+    "file": "app/src/drive/index.rs",
+    "line": 421,
+    "occurrences_kind": "literal",
+    "source_hash": "6d3a16f5de31c62f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AHTSD0NQ6XMPQG7VV",
+    "source": "Collaborate with {} of your teammates already on Warp.",
+    "file": "app/src/drive/index.rs",
+    "line": 1732,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "92f6255504a1677c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BRF4GGXNZ04YP6Y2M",
+    "source": "Drag or move a personal workflow or notebook here to share it with your team.",
+    "file": "app/src/drive/index.rs",
+    "line": 2087,
+    "occurrences_kind": "literal",
+    "source_hash": "2782b40725bc4aea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AFKJHHX6S04E21RYC",
+    "source": "Create team",
+    "file": "app/src/drive/index.rs",
+    "line": 2138,
+    "occurrences_kind": "literal",
+    "source_hash": "284ff194f8cf9884",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H2VB42MZVB0JY63P6",
+    "source": "View teams to join",
+    "file": "app/src/drive/index.rs",
+    "line": 2206,
+    "occurrences_kind": "literal",
+    "source_hash": "6f28ff3b10998ec5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H3VMG691QE91J4EJV",
+    "source": "View team to join",
+    "file": "app/src/drive/index.rs",
+    "line": 2208,
+    "occurrences_kind": "literal",
+    "source_hash": "f83ca1f06489745f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FVBJHBGNM278GN40R",
+    "source": "Should be able to lock",
+    "file": "app/src/drive/index.rs",
+    "line": 2307,
+    "occurrences_kind": "literal",
+    "source_hash": "67f392022b393a30",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HCYH8NMWY86FFDKVH",
+    "source": "Trash",
+    "file": "app/src/drive/index.rs",
+    "line": 2550,
+    "occurrences_kind": "literal",
+    "source_hash": "c560122ac4706dcb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DH96Z6Z55BNWRWT79",
+    "source": "Items in the trash will be deleted forever after 30 days.",
+    "file": "app/src/drive/index.rs",
+    "line": 2620,
+    "occurrences_kind": "literal",
+    "source_hash": "f6f42f9dc185e065",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G7EGH44KABNSPNQGE",
+    "source": "Syncing Warp Drive",
+    "file": "app/src/drive/index.rs",
+    "line": 2980,
+    "occurrences_kind": "literal",
+    "source_hash": "27fa1d2166144a01",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GMCW6SJH97P1X25XF",
+    "source": "Sign up for free to increase your storage limit and unlock more features.",
+    "file": "app/src/drive/index.rs",
+    "line": 3975,
+    "occurrences_kind": "literal",
+    "source_hash": "e0443ca04e72824c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129HY08YWDAEAXC0QBW",
+    "source": "Agent Workflows",
+    "file": "app/src/drive/index.rs",
+    "line": 4125,
+    "occurrences_kind": "literal",
+    "source_hash": "92ed9d551c8d39d0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128TGBBEWK0ZBDZPJ25",
+    "source": "AI Fact",
+    "file": "app/src/drive/index.rs",
+    "line": 4126,
+    "occurrences_kind": "literal",
+    "source_hash": "250c10b5fbe99139",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DV48R8QQEWH27S4YP",
+    "source": "MCP Server",
+    "file": "app/src/drive/index.rs",
+    "line": 4128,
+    "occurrences_kind": "literal",
+    "source_hash": "960e444e99771619",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JTNH1ANEE8RJ1MSGV",
+    "source": "You've run out of {object_type}s on your plan.",
+    "file": "app/src/drive/index.rs",
+    "line": 4180,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bc25dfc35f93af04",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFTAZPDJY7BDZV0DG4GR",
+    "source": "Retry",
+    "file": "app/src/drive/index.rs",
+    "line": 4509,
+    "occurrences_kind": "literal",
+    "source_hash": "942087cc2d41e013",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DWZBYZMDC051TQHV9",
+    "source": "Object is workflow",
+    "file": "app/src/drive/index.rs",
+    "line": 4587,
+    "occurrences_kind": "literal",
+    "source_hash": "eecdfe2869614163",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFS237SNPVEBB4W5SN4H",
+    "source": "Duplicate",
+    "file": "app/src/drive/index.rs",
+    "line": 4723,
+    "occurrences_kind": "literal",
+    "source_hash": "02cdaabfca805d6a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFSAAMA8K1YBV0DKGSQ4",
+    "source": "Export",
+    "file": "app/src/drive/index.rs",
+    "line": 4738,
+    "occurrences_kind": "literal",
+    "source_hash": "3664895579f0a7e6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DXF5HKJA60SRDS6MA",
+    "source": "Open",
+    "file": "app/src/drive/index.rs",
+    "line": 4785,
+    "occurrences_kind": "literal",
+    "source_hash": "ed077f3d8125d60d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EQQ0SQ4WY6E41CNP3",
+    "source": "Restore",
+    "file": "app/src/drive/index.rs",
+    "line": 4832,
+    "occurrences_kind": "literal",
+    "source_hash": "a76e13b9839270eb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FPP9DNRCWTCSW00RD",
+    "source": "Share Object",
+    "file": "app/src/drive/index.rs",
+    "line": 4886,
+    "occurrences_kind": "literal",
+    "source_hash": "f86b722a708b263a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FH646JP9ZM45ANJ6P",
+    "source": "Search history",
+    "file": "app/src/search/data_source.rs",
+    "line": 234,
+    "occurrences_kind": "literal",
+    "source_hash": "df165949f5ddf03d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FHK7DTRB96SZ55BKH",
+    "source": "Search workflows",
+    "file": "app/src/search/data_source.rs",
+    "line": 235,
+    "occurrences_kind": "literal",
+    "source_hash": "e827cf3e519feac7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FZ2TTP33NY30EP61Q",
+    "source": "Search prompts",
+    "file": "app/src/search/data_source.rs",
+    "line": 236,
+    "occurrences_kind": "literal",
+    "source_hash": "613d8a7cbd1afa84",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FNKX152DXACGVD8GJ",
+    "source": "Search notebooks",
+    "file": "app/src/search/data_source.rs",
+    "line": 237,
+    "occurrences_kind": "literal",
+    "source_hash": "fe4ab7cd43c9ee88",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FV20VZBA6F7ASZYN9",
+    "source": "Search plans",
+    "file": "app/src/search/data_source.rs",
+    "line": 238,
+    "occurrences_kind": "literal",
+    "source_hash": "1784003a548b496f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F1GN6Y95Q1C561WJ5",
+    "source": "Search actions",
+    "file": "app/src/search/data_source.rs",
+    "line": 240,
+    "occurrences_kind": "literal",
+    "source_hash": "bf47a4060d6469e4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F2TS5H2AJ96SQ1MQR",
+    "source": "Search sessions",
+    "file": "app/src/search/data_source.rs",
+    "line": 241,
+    "occurrences_kind": "literal",
+    "source_hash": "8cb650539ec84aa5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FYVQ0PF5TJ6QBEMNW",
+    "source": "Search conversations",
+    "file": "app/src/search/data_source.rs",
+    "line": 243,
+    "occurrences_kind": "literal",
+    "source_hash": "8abdf3b226e73179",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FXSB8AT1HHKY5N2J5",
+    "source": "Search launch configurations",
+    "file": "app/src/search/data_source.rs",
+    "line": 244,
+    "occurrences_kind": "literal",
+    "source_hash": "a967de7a4ce64e20",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FCEXRS0WETP97T63C",
+    "source": "Search objects in drive",
+    "file": "app/src/search/data_source.rs",
+    "line": 245,
+    "occurrences_kind": "literal",
+    "source_hash": "6e880f63675d3336",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FWD63RJBS7M8B1WWD",
+    "source": "Search environment variables",
+    "file": "app/src/search/data_source.rs",
+    "line": 246,
+    "occurrences_kind": "literal",
+    "source_hash": "db8080a71bed1377",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FG6WMDSR1PFSSZY09",
+    "source": "Search prompt history",
+    "file": "app/src/search/data_source.rs",
+    "line": 247,
+    "occurrences_kind": "literal",
+    "source_hash": "7b86908cdc68210f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FQKG98M3ZP8408B8K",
+    "source": "Search files",
+    "file": "app/src/search/data_source.rs",
+    "line": 248,
+    "occurrences_kind": "literal",
+    "source_hash": "179fed85ec50a433",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FZ0BD8S8HAXKA4Y1C",
+    "source": "Search commands",
+    "file": "app/src/search/data_source.rs",
+    "line": 249,
+    "occurrences_kind": "literal",
+    "source_hash": "00ff7398c308e991",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FKTHA3R456SRFXFMK",
+    "source": "Search blocks",
+    "file": "app/src/search/data_source.rs",
+    "line": 250,
+    "occurrences_kind": "literal",
+    "source_hash": "02cac90aaddbcc07",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FY1VXN94SS1KBQ8TX",
+    "source": "Search code symbols",
+    "file": "app/src/search/data_source.rs",
+    "line": 251,
+    "occurrences_kind": "literal",
+    "source_hash": "8df79aaf41bdc47f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FR0NGKKA1GVF94TM3",
+    "source": "Search AI rules",
+    "file": "app/src/search/data_source.rs",
+    "line": 252,
+    "occurrences_kind": "literal",
+    "source_hash": "ba8d3e11aa763877",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F8CARFGYB2PYC4CWJ",
+    "source": "Search code repos",
+    "file": "app/src/search/data_source.rs",
+    "line": 253,
+    "occurrences_kind": "literal",
+    "source_hash": "78f6a33dedaba67e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FBXD2Z00VSYGCCF46",
+    "source": "Search diff sets",
+    "file": "app/src/search/data_source.rs",
+    "line": 254,
+    "occurrences_kind": "literal",
+    "source_hash": "390fd893dcc7f425",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F3EYHJ1T4470AQJCC",
+    "source": "Search static slash commands",
+    "file": "app/src/search/data_source.rs",
+    "line": 255,
+    "occurrences_kind": "literal",
+    "source_hash": "09e22355b3e951b3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FPKVAYBJGPGCGEBAA",
+    "source": "Search skills",
+    "file": "app/src/search/data_source.rs",
+    "line": 256,
+    "occurrences_kind": "literal",
+    "source_hash": "76c02b7eddcaa320",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F2CXWW9G4DEGEGCN7",
+    "source": "Search base models",
+    "file": "app/src/search/data_source.rs",
+    "line": 257,
+    "occurrences_kind": "literal",
+    "source_hash": "ad4089fbeb40bdfc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FV0M9N8FGK0FAX973",
+    "source": "Search full terminal use models",
+    "file": "app/src/search/data_source.rs",
+    "line": 258,
+    "occurrences_kind": "literal",
+    "source_hash": "5c1f2e2f29265fa8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FR2M01DGJBY9NK4TP",
+    "source": "Search conversations in current directory",
+    "file": "app/src/search/data_source.rs",
+    "line": 260,
+    "occurrences_kind": "literal",
+    "source_hash": "4ce205afef453001",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128XQXYR4C8MSF5BJ3K",
+    "source": "AI command suggestions",
+    "file": "app/src/search/data_source.rs",
+    "line": 305,
+    "occurrences_kind": "literal",
+    "source_hash": "c390a1e82beb4f94",
+    "audit_verdict": "uncertain"
+  }
+]

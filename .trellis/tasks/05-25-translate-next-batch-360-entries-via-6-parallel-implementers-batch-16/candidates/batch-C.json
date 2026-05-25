@@ -1,0 +1,722 @@
+[
+  {
+    "id": "01KQXQV12GFMCX937588E9XX0J",
+    "source": "Tip: {}",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 40,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "afb10a29c4254561",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J0SNYPKR8BQHBP4N5",
+    "source": "`/` to open the slash-command menu and access quick agent actions.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 88,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f19d845e722ed973",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128DWFEXT75983PZQPZ",
+    "source": "<keybinding> to toggle natural language detection and switch between agent and terminal input.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 95,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "269a8794f9322bd4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JR8X49P1RX3CPZRFB",
+    "source": "`/plan` <prompt> to create a plan for the agent before executing.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 102,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7d535d816df9cfad",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128SWXC3YP053VZFB7F",
+    "source": "<keybinding> to open the Command Palette and access Warp actions and shortcuts.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 109,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8d8240fa17af1d9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GA3X0QJB6G77K311B",
+    "source": "Store reusable workflows, notebooks, and prompts in your",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 120,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "814729b48d1c59e8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BZMVWVQ7JN30DJBYP",
+    "source": "Enter a new prompt to redirect the agent while it's running.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 127,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cf10bd4f3ba6a57e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J4S2SQ9G6BB5MNBE9",
+    "source": "`@` to add context from files, blocks, or Warp Drive objects to your prompt.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 134,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "12562dcd1e994d83",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128EWC4RHYKW79WAPK3",
+    "source": "<keybinding> to attach the prior command output as agent context.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 141,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "aed45aafb51a3ff9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J0T3PYBSHEHG0X76T",
+    "source": "`/init` to index the repo so the agent can understand your codebase.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 148,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "59a4fd378423318c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12910GHP96FEXQNRQ2H",
+    "source": "Add agent profiles to customize permissions and models per session.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 155,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "25f5b20ad54658ec",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F9HHMCDK5G1ZNK886",
+    "source": "Right-click a block to fork the conversation from that point.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 162,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7445a94401fa01e1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F7P87H8EMZ7N2E8SB",
+    "source": "Right-click a block to copy a conversation's output.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 169,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "de3ee4d7bc32f4bf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B336V5SBEXCEBG396",
+    "source": "Drag an image into the pane to attach it as agent context.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 176,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ec12fa9c7a61dfea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EEEXBQN8TAA7DGBGR",
+    "source": "Prompt the agent to control interactive tools like node, python, postgres, gdb, or vim.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 183,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "aaded7a5620fc8dd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128NJA1H0C0WH90E7Y5",
+    "source": "<keybinding> to open the code review panel and review the agent's changes.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 190,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e30ce131598f9b0f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JJJKMG7FRP9P0KETX",
+    "source": "`/add-mcp` to add an MCP server to your workspace.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 197,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a89bccb4be966e4a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JN98Q69A3FGYCW3DY",
+    "source": "`/open-mcp-servers` to view and share MCP servers with your team.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 204,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a6520ba6a1c1361a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JM41H1VH40XMQ1MST",
+    "source": "`/create-environment` to turn a repo into a remote docker environment an agent can run in.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 211,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a579c2763f98b96d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JNMKKFPWK5EMGDACT",
+    "source": "`/add-prompt` to create a reusable prompt for repeatable workflows.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 218,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a4409aaa2cef233a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JHMXGGXPG6CPHN1J5",
+    "source": "`/add-rule` to create a global agent rule.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 225,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4d7dd5e50428a36d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JB9D4YKZ2VGD983HP",
+    "source": "`/fork` to create a fresh copy of the current conversation, optionally with a new prompt.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 232,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "30c75fd6a61a6db3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JY97GM8H08T4A61ZR",
+    "source": "`/open-code-review` to open the code review panel and inspect agent-generated diffs.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 239,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "492b33a6ca2af3cc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JRRKXJAT0RB6JJFDD",
+    "source": "`/new` to start a new agent conversation with clean context.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 246,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d9055acd0f43f418",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J8JEE5HT6X633GK3P",
+    "source": "`/compact` to summarize the current conversation and free up space in the context window.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 253,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "170fd896a9ecf323",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JFGH7525RGPKP8EQW",
+    "source": "`/usage` to show your current AI credits usage.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 260,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "44fc5f053b6cd600",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H3VPSSR6QBWGPPPVG",
+    "source": "Use the `oz` command to run an Oz agent in headless mode, useful for remote machines.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 267,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "19a0dfddc3a5f21a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FQF3RKW9S32038XYC",
+    "source": "Right-click selected text to attach it as agent context.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 274,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d14a933034648355",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H4FS2QZMW4BE9GN00",
+    "source": "Use `AGENTS.md` or `CLAUDE.md` to apply project-scoped rules.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 281,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8833bbc4dd43afd8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EV997WC403PRBRQSM",
+    "source": "Paste a URL to attach that webpage as context for the agent.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 288,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "86fa2e5b909ed8bd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H1H3K79075MT9ZB31",
+    "source": "Warpify a remote SSH session to enable Oz inside that environment.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 295,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "da74d5c42e2e5d7c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GN5TSFND8HFVYSG05",
+    "source": "Switch agent profiles to quickly change models and agent permissions.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 302,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cfab8e70e071e053",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J4PSJ4J1EE5DK393W",
+    "source": "`/init` to generate a `WARP.md` file and define project rules for the agent.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 309,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "edd28255dc251a2e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128CQYR4MZXZ0C4WG62",
+    "source": "<keybinding> to auto-approve the agent's commands and diffs for the rest of the session.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 316,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b3e88673bcf4cb4b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQP6V4M5330NDCETFZHD",
+    "source": "Type `&` or use the handoff chip to move a local conversation to the cloud.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 323,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9586a7ea088ac4cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B1TRBANENEH4P6MWX",
+    "source": "Enable desktop notifications to get an alert when an agent needs your attention.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 330,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ab810f94071ea0fb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128Y237GB4DTHVVERNJ",
+    "source": "<keybinding> to cancel the current agent task.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 337,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2dfe2409dd8ed82d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E6AVD411AY7QJ9Q3W",
+    "source": "Open palette",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 439,
+    "occurrences_kind": "literal",
+    "source_hash": "58a4040e893b41a7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HMXP74YPRCGK00VVX",
+    "source": "Warp Drive.",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 440,
+    "occurrences_kind": "literal",
+    "source_hash": "b117b93f4e914013",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FD2466A3XR5QYDM76",
+    "source": "Show diff view",
+    "file": "app/src/ai/agent_tips.rs",
+    "line": 441,
+    "occurrences_kind": "literal",
+    "source_hash": "d68a89859f9c1ff0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CW2Q3X615K537B22G",
+    "source": "Install the Oz Slack integration to trigger agents from any channel or DM.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 43,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c9f4fedcdaf0c4c0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129FY9NBKB9G8976FG2",
+    "source": "Build programmatic agents using Oz's TypeScript and Python SDKs.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 47,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d1a0b7b8a3fae8ae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FRG9V6RWAE58FZ5GJ",
+    "source": "Set team or personal secrets for agents using the `oz secret` command.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 51,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ab786566e9486e99",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HB3SSXM3ZJV1GB8MD",
+    "source": "View all your agent runs and their status in the Oz web app.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 55,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bdb3a1bf61206bc5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DER30NX0NSJFGNH1X",
+    "source": "Join any Oz cloud agent run in real-time using Agent Session Sharing.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 59,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5a40e5d784c1600f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FD413X5AGH1NBGWA3",
+    "source": "Set up recurring agents that run on cron schedules for automated maintenance.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 63,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ecee22b5d0216a6c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AA7QNEPXKGN1BMQ9H",
+    "source": "Create agents that automatically fix bugs when issues are filed in Linear.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 67,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2f89ae18c3ee77be",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129PPMFPDVRQNZQ6YJJ",
+    "source": "Build agents that respond to CI failures and attempt automatic fixes.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 71,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0cecafaf3365f9c7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FM6HE29SQD2R8HG9M",
+    "source": "Run agents from GitHub Actions using the `oz-agent-action`.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 75,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6965c6ca37b95d2e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129WB7F13282EG3VA8X",
+    "source": "Call the Oz REST API to trigger agents from any backend service or internal tool.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 79,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "59d3109be5cb7d51",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A2D0R9H928ST30GYK",
+    "source": "Create reusable environments with Docker images for consistent agent execution.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 83,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5d969e6287621898",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FGE7JPGVKASGF04BV",
+    "source": "Share agent session links with your team for collaborative debugging.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 87,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e600f729b9bc3808",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HE2971HCG238ZF11B",
+    "source": "Use the `--share` flag with the Oz CLI to enable session sharing from anywhere.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 91,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "240739629546f348",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CXZ9T3C7CG6JJ0SHY",
+    "source": "Fork a completed Oz cloud agent session into Warp to continue the work locally.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 95,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c80ed092f0411fea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1293DZSY7FMTDR7YXQ3",
+    "source": "Build internal tools that use agents to answer questions from your databases.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 99,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e972daca796cd0c7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AXF13W651CK60SCHV",
+    "source": "Create a scheduled agent to clean up stale feature flags every week.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 103,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6be47698ff8e938a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G85A7YFMV2BC2X2SX",
+    "source": "Tag @Oz in Linear issues to automatically investigate and propose fixes.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 107,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "86c8e4c6389d4f99",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FC4N1CWYQN83QSG7G",
+    "source": "Run agents on remote dev boxes or CI runners using the Oz CLI.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 111,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a62d5618323640aa",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AW6T37FYVX449ZET4",
+    "source": "Configure MCP servers to give Oz cloud agents access to GitHub, Linear, and Sentry.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 115,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bcc7c3fae5087723",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HXPM6JQJC84PT7Q62",
+    "source": "Use `oz agent run` to kick off tasks without opening the Warp terminal.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 119,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "35e08242adc01f01",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H56E8FN9MX4RCDVE0",
+    "source": "View your teammates' agent runs in the Oz web app for shared visibility.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 123,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8c9d565e0bb79ee0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129XKTJ6T7RCP5EJ1TZ",
+    "source": "Build agents that automatically triage and label incoming GitHub issues.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 127,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a4e46ac3eddaf887",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F591QPWENSN77H9FN",
+    "source": "Set up an agent to generate daily summaries of newly opened issues.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 131,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3ec2736489db9535",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ACQYNT1DN3S7X47RE",
+    "source": "Create an agent that automatically reviews PRs and suggests improvements.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 135,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "860fe977682a60a3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HYJ637YQE0FMHMQBM",
+    "source": "Use `oz environment create` to define reproducible execution contexts.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 139,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "775c66930340ca23",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HW56XQKCAS964GGFM",
+    "source": "Trigger agents from webhooks to respond to production incidents.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 143,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "231bf83e751152dd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129N6FSJWGBBWQ9K2SV",
+    "source": "Build an agent that restarts services or scales deployments when alerts fire.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 147,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4bb9db28cbee7fb8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HBYD4S623P4GS79RB",
+    "source": "Use personal secrets for credentials that should only be used by your agents.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 151,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b90a97706941198b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H8X2KGYERX9ZM2B6N",
+    "source": "Use team secrets for shared infrastructure credentials across all agents.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 155,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0905afa86efd55d5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A93DKRMXA14P8S9PH",
+    "source": "Create an agent that runs nightly to check for dependency updates.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 159,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fea67cf8a3dbd2cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129FA78HEB6MFQGJ8BD",
+    "source": "Build an agent that automatically formats and lints code on a schedule.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 163,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8fdddde643a51840",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HD3PQ477EV17XJ7VN",
+    "source": "Use `oz schedule create` to set up cron-triggered agents.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 167,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9f66f4ea2d41b55a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EY8707PVPDGSKDAKS",
+    "source": "Pause and resume scheduled agents without deleting them using `oz schedule pause`.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 171,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "858fda9f1e1f3564",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HD4D1N6THNTNGKA40",
+    "source": "Use `oz mcp list` to see which MCP servers are available to your agents.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 175,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "52f456835d05ea5d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129T5BTHYW286XWBRJ8",
+    "source": "Build an internal Slack bot that delegates coding tasks to Oz agents.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 179,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d32f097e9baacfe0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AG3B2BZVQK24D88VK",
+    "source": "Create an agent that responds to @mentions in Slack threads with full context.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 183,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ee2be741964ae7ee",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HEXDAXAGA6F0Y8PCQ",
+    "source": "Use the Oz TypeScript SDK to build custom automation pipelines.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 187,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a50d1d2646048463",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HT3HJ9SX305C19DA6",
+    "source": "Use the Oz Python SDK to integrate agents into your data pipelines.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 191,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "580f8e6e175aa5e6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DE0GB1E1PZM5N7RYJ",
+    "source": "Monitor agent success rates and runtimes using the Oz API.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 195,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "adfda9fc57f2de07",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129GQMHG1S983QPYHHS",
+    "source": "Build a dashboard that tracks all agent activity across your team.",
+    "file": "app/src/terminal/view/ambient_agent/tips.rs",
+    "line": 199,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4b72d168c964ff78",
+    "audit_verdict": "uncertain"
+  }
+]

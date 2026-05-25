@@ -1,0 +1,587 @@
+[
+  {
+    "id": "01KQXQV10PPSA7PJJHVGPKD51H",
+    "source": " Bit flags for modifier keys. Bit 17 = shift, bit 18 = ctrl, bit 19 = option,",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 49,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "55262570e9e5c809",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11YHRXB0AYF7N95BDZE",
+    "source": " bit 20 = cmd, bit 21 = numpad (which Warp does not store as a modifier).",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 50,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d243f7a7d2f86b0b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV10PKH0B8555S3HWKE56",
+    "source": " Bit mask for the non-modifier lower bits of iTerm's modifier flag.",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 58,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "882ee1fe465a609e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129C154G2J62Q0XSF43",
+    "source": "Ansi {color_idx} Color{suffix}",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 109,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "383d900c063e5ee3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C2K6WZGVQ399HQT35",
+    "source": "Foreground Color{suffix}",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 114,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "25ed9e66d3cd7500",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1290N7Z12B8PFA7W0MW",
+    "source": "Background Color{suffix}",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 117,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "05ebd0dadb26844c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A1AW3M2G9DC76306S",
+    "source": "Cursor Color{suffix}",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 120,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "69f427b706c1fd35",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CSP4908RDGMTVATB9",
+    "source": "Imported iTerm Theme{suffix}",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 172,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b54fde3be91d1d40",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E16TZCBJQVFRKKYH5",
+    "source": "Red Component",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 180,
+    "occurrences_kind": "literal",
+    "source_hash": "98ebcedb0d9bfd97",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C183H8ZSM2BW7S1WJ",
+    "source": "Green Component",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 183,
+    "occurrences_kind": "literal",
+    "source_hash": "bfddeae240bf5c92",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129S7PTQH58XZDCG29X",
+    "source": "Blue Component",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 186,
+    "occurrences_kind": "literal",
+    "source_hash": "b27c186096253612",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129N5C62XG7ND9A0QKT",
+    "source": "Alpha Component",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 189,
+    "occurrences_kind": "literal",
+    "source_hash": "7b3246b38d98949a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CY067TBWEWFKCT0GF",
+    "source": "HotKey Characters Ignoring Modifiers",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 324,
+    "occurrences_kind": "literal",
+    "source_hash": "0f2389094988ad35",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CC0C536P4Z3W3YR72",
+    "source": "HotKey Modifier Flags",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 329,
+    "occurrences_kind": "literal",
+    "source_hash": "f9951c747831b74f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C04223Q4SBVJB03N8",
+    "source": "HotKey Window AutoHides",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 334,
+    "occurrences_kind": "literal",
+    "source_hash": "02a309ecf940da94",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JSZ0N0DK6FB4XPKH2",
+    "source": "Window Type",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 342,
+    "occurrences_kind": "literal",
+    "source_hash": "9e1b20d1788a4f5d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HE0D8ZXGEEB8VGMJA",
+    "source": "Use Separate Colors for Light and Dark Mode",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 415,
+    "occurrences_kind": "literal",
+    "source_hash": "27af0ebd6ff7414b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DRQGWPR9Z2BM5W7J3",
+    "source": "Mouse Reporting",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 427,
+    "occurrences_kind": "literal",
+    "source_hash": "d4d689994c3258d8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DFK2EMJ95EG3NQDAS",
+    "source": "Normal Font",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 432,
+    "occurrences_kind": "literal",
+    "source_hash": "3bdbfc44f3e5661e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AX4859T2YW5M2DDTM",
+    "source": "Custom Directory",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 445,
+    "occurrences_kind": "literal",
+    "source_hash": "e75e5dd3ec558ff3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1285BQM7BSDK579YW1M",
+    "source": "AWDS Window Option",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 460,
+    "occurrences_kind": "literal",
+    "source_hash": "3542dd34ebcce1a5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1284CXTWMARP4YX0E8G",
+    "source": "AWDS Window Directory",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 463,
+    "occurrences_kind": "literal",
+    "source_hash": "de5b408b26cad8b4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1281401DYNGC9SH9NH4",
+    "source": "AWDS Tab Option",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 468,
+    "occurrences_kind": "literal",
+    "source_hash": "700465d4baa46179",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128K53N7EGPNA59CSVS",
+    "source": "AWDS Tab Directory",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 471,
+    "occurrences_kind": "literal",
+    "source_hash": "cc4b4cd91a49f1ad",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128NAC6ABMQY5T3B4FE",
+    "source": "AWDS Pane Option",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 476,
+    "occurrences_kind": "literal",
+    "source_hash": "7f325d5d8a790199",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128DD1CHR1KZ9DVNKB7",
+    "source": "AWDS Pane Directory",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 479,
+    "occurrences_kind": "literal",
+    "source_hash": "8a55224a22235b8c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C84B969FQ64H3AF3N",
+    "source": "Has Hotkey",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 489,
+    "occurrences_kind": "literal",
+    "source_hash": "4d16e0c098289862",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EPJ4K5YZWJQ68T459",
+    "source": "Option Key Sends",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 500,
+    "occurrences_kind": "literal",
+    "source_hash": "0ebe3365672dee7e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FMJT09YDPBCYMCBBM",
+    "source": "Right Option Key Sends",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 504,
+    "occurrences_kind": "literal",
+    "source_hash": "9d73663433733976",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DWMA9143T9EBECTCQ",
+    "source": "Mouse Reporting allow clicks and drags",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 509,
+    "occurrences_kind": "literal",
+    "source_hash": "eb73aa7187867fa9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DRCS0X4T2H38E8SWN",
+    "source": "Mouse Reporting allow mouse wheel",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 514,
+    "occurrences_kind": "literal",
+    "source_hash": "ac0a3d2aeb530ce7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ATMVDTT3Q727SEFS0",
+    "source": "Custom Command",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 519,
+    "occurrences_kind": "literal",
+    "source_hash": "98d2ce57b2a0bdc6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AJTVDZ3ADZ84KH92S",
+    "source": "Custom Shell",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 521,
+    "occurrences_kind": "literal",
+    "source_hash": "d5a3f0c915c45fb6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129B8RMEWHM83ZPD7AA",
+    "source": "Blur Radius",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 547,
+    "occurrences_kind": "literal",
+    "source_hash": "469f99d0c4881f24",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12APVJGATRH4DDHQMNG",
+    "source": "Default Bookmark Guid",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 594,
+    "occurrences_kind": "literal",
+    "source_hash": "a8d1ca0fcbbdd226",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DK0J2KX6HPKKGW94T",
+    "source": "New Bookmarks",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 601,
+    "occurrences_kind": "literal",
+    "source_hash": "4ccd2d1cd814aae5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12APCJR4FPT1NE8Q622",
+    "source": "Color Space",
+    "file": "app/src/settings/import/iterm_parser.rs",
+    "line": 899,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "140315cd6a9da2f3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BCTGES38832ADTK1N",
+    "source": "Enable {} support",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 375,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3e49203236f748d7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CYTK149SF62YEMK0T",
+    "source": "Install and enable {}",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 378,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3b5ecdcd1ff9e4d5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GWC4WC7346V6W0YZ1",
+    "source": "Skip for now.",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 394,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0d3d957fef3c6289",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J1Y81Y5TXN6FVMQZ6",
+    "source": "Yes, index this codebase.",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 408,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dcab3fb6cb6a8bde",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D1NHK4QXW2FBRVA7W",
+    "source": "Link existing {linkable_file} to my AGENTS.md file",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 431,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9c08802155b788f1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C9RYCMTX7T4AY3136",
+    "source": "Generate AGENTS.md file",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 440,
+    "occurrences_kind": "literal",
+    "source_hash": "a022697cedd0cfe9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GM1M6FQV0S34PFCCF",
+    "source": "Skip AGENTS.md generation for now",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 446,
+    "occurrences_kind": "literal",
+    "source_hash": "407c9355e789bb89",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AN8K96PTH879CVPSK",
+    "source": "Create an environment",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 460,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6085761493992731",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128XPVVSE2TGHXCW2H3",
+    "source": "AGENTS.md already exists",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 543,
+    "occurrences_kind": "literal",
+    "source_hash": "197a68f215b93e1c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GS5G2B6B53JZMDY5D",
+    "source": "Source file has no filename",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 551,
+    "occurrences_kind": "literal",
+    "source_hash": "c2236cc208e96995",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JPXZBKP93SHD0G54T",
+    "source": "Would you like the Agent to index this codebase? This will lead to more efficient and tailored help.",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 635,
+    "occurrences_kind": "literal",
+    "source_hash": "af4cf7a36f2876fc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AZ130S0J9C75EM3XY",
+    "source": "Codebase index started",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 671,
+    "occurrences_kind": "literal",
+    "source_hash": "7b183d76d2b3ea31",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ASHNEQ529PHA0HATD",
+    "source": "Codebase index cancelled",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 694,
+    "occurrences_kind": "literal",
+    "source_hash": "5d5e12cd02ded755",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B8AHVVQTFXD8VCD4V",
+    "source": "Enable {} support for this codebase? This will give you smarter code navigation, inline error checking, and more.",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 744,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f7a4069ea58c4150",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GZBT0K1X569J57V4A",
+    "source": "Started installation for language support",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 789,
+    "occurrences_kind": "literal",
+    "source_hash": "3a0f6f1ccfd75f2c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DR6SH0WQEFY6GB49W",
+    "source": "Language support enabled",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 796,
+    "occurrences_kind": "literal",
+    "source_hash": "64df25df50cce428",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DC6DRZCE6SZH3BKWM",
+    "source": "Language support skipped",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 801,
+    "occurrences_kind": "literal",
+    "source_hash": "5cb92e45e319f2cb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JA9JY41X1KZ48XYM6",
+    "source": "Would you like to create an AGENTS.md file? Warp can create one for you with project specific rules, context, and conventions inferred from your codebase. The agent will use this context as it codes.",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 828,
+    "occurrences_kind": "literal",
+    "source_hash": "fed700613142258e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C4NHQTD28XR4FYDVE",
+    "source": "Generating AGENTS.md...",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 835,
+    "occurrences_kind": "literal",
+    "source_hash": "deec0fb4182cb770",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A3V03H6DDAM6CBJCX",
+    "source": "Creating environment...",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 873,
+    "occurrences_kind": "literal",
+    "source_hash": "6e82f073ac4ea710",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BJGVSKE2SZMV8QBQH",
+    "source": "Environment created",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 896,
+    "occurrences_kind": "literal",
+    "source_hash": "3455fc85b03dbfeb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BJ8SRHGKH2SSJR69D",
+    "source": "Environment creation skipped",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 899,
+    "occurrences_kind": "literal",
+    "source_hash": "d9533b8fc093ce99",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EF39RP5RM6Z2X8C9V",
+    "source": "Project rules linked from {path}",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 922,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "096f8aa9826ba715",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E2GC2HWADHZJ3HQPP",
+    "source": "Project rules configured",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 927,
+    "occurrences_kind": "literal",
+    "source_hash": "f4cc86015949e3ca",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EZ1GRMYWZEZEYS0TJ",
+    "source": "Project rules already configured",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 939,
+    "occurrences_kind": "literal",
+    "source_hash": "4a049b1dfccea3ee",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EZFKACK2MWFR7S8CE",
+    "source": "Project rules skipped",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 951,
+    "occurrences_kind": "literal",
+    "source_hash": "3f6ca1fda7a28f93",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BJ71RFFSZZ3TFTE2G",
+    "source": "Failed to install {}: {e}",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 1016,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1c05b1cb8bb8a8f8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C35R7D888JB7H6S9F",
+    "source": "Installing {} in background...",
+    "file": "app/src/terminal/view/init_project/mod.rs",
+    "line": 1140,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c88236eb4f0072a4",
+    "audit_verdict": "uncertain"
+  }
+]

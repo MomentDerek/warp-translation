@@ -1,0 +1,578 @@
+[
+  {
+    "id": "01KRBDMFSKEEPS3TY26HWEBKKD",
+    "source": "Fold",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 831,
+    "occurrences_kind": "literal",
+    "source_hash": "92c122b5b1e2f8ae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFTNHG1M4KEPS4GQ0MM0",
+    "source": "Unfold",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 834,
+    "occurrences_kind": "literal",
+    "source_hash": "ae11429cfc277402",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CTKQ1P130K0YAXG7Q",
+    "source": "Image attachment isn't supported by this model",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 1694,
+    "occurrences_kind": "literal",
+    "source_hash": "b4a68743c7b39cfd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CJ14DZ3ME7T9332JZ",
+    "source": "Image attachment is disabled — limit is {MAX_IMAGE_COUNT_FOR_QUERY} per query",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 1703,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a190c62f092bbfdb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CGRZ0JCGQ23718JA7",
+    "source": "Image attachment is disabled — limit is {MAX_IMAGES_PER_CONVERSATION} per conversation",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 1710,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c7f1b60bb125cfb2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129ZDWZHDBTXKZ4M3KZ",
+    "source": "Attach images",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 1715,
+    "occurrences_kind": "literal",
+    "source_hash": "b3288c672197bd6c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GDR4A88BZ2KY1380N",
+    "source": "The selected model does not support images as context.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 4980,
+    "occurrences_kind": "literal",
+    "source_hash": "4c7be96d0368d9c6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1287C67WCW4H9JCHK3N",
+    "source": "1 image wasn't attached - {limit_reason}.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5011,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ace74d67a0e4ac00",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J17M8S2SXV1V2YFAQ",
+    "source": "{num_excess_images} images weren't attached - {limit_reason}.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5014,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "305365fe6135e3cd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G9TVFTZS7DHJA266Y",
+    "source": "The selected model does not support images as context",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5086,
+    "occurrences_kind": "literal",
+    "source_hash": "a3d4b377b9d059be",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B5B1ZP7378MEXD1GP",
+    "source": "Failed to read file: {e}",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5131,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9081fbb6cd744876",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B0527ZVZRNM15135S",
+    "source": "Failed to read file {path_str}: {e}",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5132,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fe259b5643035792",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C51R64PWRT0SCHH1A",
+    "source": "Image cannot be attached - supported types are PNG, JPG, GIF, WEBP.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5144,
+    "occurrences_kind": "literal",
+    "source_hash": "7cc726c0d6027101",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128FWPPNRF4D1NY9WNC",
+    "source": "1 image wasn't attached - supported types are PNG, JPG, GIF, WEBP.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5146,
+    "occurrences_kind": "literal",
+    "source_hash": "6cf303a8b9679ec1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J7N6SVH3BDGYZTG5T",
+    "source": "{num_unsupported_images} images weren't attached - supported types are PNG, JPG, GIF, WEBP.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5148,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c9b7b4e3d56af3ea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C9XRZZC28ARREE79D",
+    "source": "Image cannot be attached - failed to read file.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5162,
+    "occurrences_kind": "literal",
+    "source_hash": "d3d81d3c7a2b184f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128R8EQZ2AX4QZR27T0",
+    "source": "1 image wasn't attached - failed to read file.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5164,
+    "occurrences_kind": "literal",
+    "source_hash": "d558e4ca1b064262",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J79N59ARM6WWKY1QA",
+    "source": "{num_read_errors} images weren't attached - failed to read files.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5166,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "da0d4886d60d78da",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CR6MY2PRVGMTBT1VS",
+    "source": "Image cannot be attached - file is too large.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5270,
+    "occurrences_kind": "literal",
+    "source_hash": "da3cd3e6fadb36ec",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12862G2C3839KAANMV6",
+    "source": "1 image wasn't attached — file is too large.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5272,
+    "occurrences_kind": "literal",
+    "source_hash": "473443697fb050fc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JQDKGMWAEXRTB1XC3",
+    "source": "{num_oversized_images} images weren't attached — files are too large.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5275,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "333cc974566fe956",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CAV7PQVD1F3ZZQCRX",
+    "source": "Image cannot be attached - error processing.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5290,
+    "occurrences_kind": "literal",
+    "source_hash": "f608c7e5c782136f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1280Y6N2KJY6M4J0N0B",
+    "source": "1 image wasn't attached - error processing.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5292,
+    "occurrences_kind": "literal",
+    "source_hash": "ad4fc615f2d4387b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JEQWZMH6K3TKHM0BC",
+    "source": "{num_unprocessed_images} images weren't attached - error processing.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 5295,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc4eeb1f3203ba06",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CHVZY3R9RTE48MF0T",
+    "source": "Head offset should exist",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6099,
+    "occurrences_kind": "literal",
+    "source_hash": "d06a0f0b6fd18368",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FERH766GT4B5PNF3C",
+    "source": "Selection head must be convertible to a Point",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6353,
+    "occurrences_kind": "literal",
+    "source_hash": "f8eb93ab27a5fd5e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FJ18R079GE1SB63CK",
+    "source": "Selection end must be convertible to a Point",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6358,
+    "occurrences_kind": "literal",
+    "source_hash": "b01781331dfc7af5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GAP4HB0H8V2T8FR46",
+    "source": "Subword start must be convertible to a DisplayPoint",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6368,
+    "occurrences_kind": "literal",
+    "source_hash": "7b5cea1f59f58bae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FP6H0FVXVW8M3BYNH",
+    "source": "Selection start must be convertible to a Point",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6406,
+    "occurrences_kind": "literal",
+    "source_hash": "0b094e150d631794",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GG50FX96NZ253JWGC",
+    "source": "There is always at least one selection",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6588,
+    "occurrences_kind": "literal",
+    "source_hash": "6aa9274c30c3fd57",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FPYJ5MEBJQ3K1AM3Y",
+    "source": "Should be able to convert selection to display point",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6610,
+    "occurrences_kind": "literal",
+    "source_hash": "27bd46b7612356ef",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F93JCW2DWZB06K6NW",
+    "source": "Should be able to convert selection to point",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6628,
+    "occurrences_kind": "literal",
+    "source_hash": "f0d9db38ce0ff560",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FTAZPHP3GM8S5VRHM",
+    "source": "Should be able to convert Anchor to DisplayPoint",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 6775,
+    "occurrences_kind": "literal",
+    "source_hash": "cc40d91fc93f4f19",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FNQZE3WE94JY69VQ5",
+    "source": "Should be able to get start point of selection.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 7107,
+    "occurrences_kind": "literal",
+    "source_hash": "023cefaed5d6c140",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FZC7DH1F33K551KWB",
+    "source": "Should be able to get end point of selection",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 7111,
+    "occurrences_kind": "literal",
+    "source_hash": "6649f5249a8c956c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FN2R902ENNDFJQN2M",
+    "source": "Should be able to get new start cursor based on new start point.",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 7139,
+    "occurrences_kind": "literal",
+    "source_hash": "b2e7a87f15351b12",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F32HXT4J7EKP3V4Z9",
+    "source": "Should be able to get new end cursor based on new end point",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 7142,
+    "occurrences_kind": "literal",
+    "source_hash": "c76b233fa2b96adf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FYGMW8XBV0QV7MVWY",
+    "source": "Search files and directories",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 8062,
+    "occurrences_kind": "literal",
+    "source_hash": "1fc23042ecd52790",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E0YXWS7MVPZFSNH8B",
+    "source": "Pasting: {}",
+    "file": "app/src/editor/view/mod.rs",
+    "line": 8409,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7b2401d63a9f9419",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JZT2TP5VE4VPZGQP8",
+    "source": "{} (default)",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 133,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "da7222a8a01778f9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JDQ8MKMT4XKHBXZJ2",
+    "source": "compact mode",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 147,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b4917590b253d097",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JP5AH24AV308JXEGB",
+    "source": "themes: sync with OS",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 155,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c3fe2a45fb53be89",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128DBN0ZWKZDS2KJS65",
+    "source": ".0",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 1187,
+    "occurrences_kind": "literal",
+    "source_hash": "ce5829e1a023d49c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J3MN7FEXRZH8QA3FF",
+    "source": "{value}%",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 2448,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "522346dd585b6705",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JWVABN8WCQGQ4FWBY",
+    "source": "create theme create custom theme",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 2593,
+    "occurrences_kind": "literal",
+    "source_hash": "a6d4c67f48abb01a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JBCG16SWAC80MXPMY",
+    "source": "window blur radius",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3151,
+    "occurrences_kind": "literal",
+    "source_hash": "6a25ef588b50d4ac",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JY5NKNBCNNYAYSZ55",
+    "source": "window blur texture acrylic",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3218,
+    "occurrences_kind": "literal",
+    "source_hash": "54c3fab2e3a712c8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JHXHZ83HKBG7JDFX2",
+    "source": "input type warp universal classic style prompt terminal ai developer mode interface shell chips ps1",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3334,
+    "occurrences_kind": "literal",
+    "source_hash": "cb2465c57a108b2c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JDJ0AT6QS5JMJ5K9J",
+    "source": "input mode input position pinned top bottom classic waterfall reverse",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3388,
+    "occurrences_kind": "literal",
+    "source_hash": "386b1c5dd419fdd8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JQXKYBKAK2GR8DGPS",
+    "source": "prompt ps1 terminal warp shell custom",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3423,
+    "occurrences_kind": "literal",
+    "source_hash": "26ea2bf35bdca9f0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JZQP1X4R6HWWBK7GF",
+    "source": "compact mode spacing padding",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3597,
+    "occurrences_kind": "literal",
+    "source_hash": "465f9864cad1e640",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JFY1KWSTGHSXJKMJQ",
+    "source": "show block dividers",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3694,
+    "occurrences_kind": "literal",
+    "source_hash": "8cee5fc34d84b238",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JZMY6SWVJWAVAXYVP",
+    "source": "text terminal font family font size line height monospace",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 3900,
+    "occurrences_kind": "literal",
+    "source_hash": "4f380ce00db7ae5d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JXZWVYN9C9W1B1YD4",
+    "source": "text minimum contrast high",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4191,
+    "occurrences_kind": "literal",
+    "source_hash": "e8398aa12481cc40",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JQKQG30BKQX0NQ7CQ",
+    "source": "text font ligatures",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4227,
+    "occurrences_kind": "literal",
+    "source_hash": "742a17858a6e7c1c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JCMN0BK6BDK29ATCS",
+    "source": "cursor shape cursor type block bar beam underline",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4289,
+    "occurrences_kind": "literal",
+    "source_hash": "25dd1359a180d142",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JBPSZ5C43BXRS9QWC",
+    "source": "blinking cursor",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4362,
+    "occurrences_kind": "literal",
+    "source_hash": "dd791edb63cfc76c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JP1N2YCH2T8VSQ1NJ",
+    "source": "tab indicator",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4440,
+    "occurrences_kind": "literal",
+    "source_hash": "c0a06708c67c82b6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JVHJMNHE7C12MN0D6",
+    "source": "code review button tab bar",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4485,
+    "occurrences_kind": "literal",
+    "source_hash": "6409cc8e795d43a2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JCPFD509KYJQHK60V",
+    "source": "vertical tabs sidebar layout",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4575,
+    "occurrences_kind": "literal",
+    "source_hash": "e0174da3729d985c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JYW5MZ5PYYXF0H8RE",
+    "source": "vertical tabs panel restore window session snapshot",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4620,
+    "occurrences_kind": "literal",
+    "source_hash": "da3c13e7085cdbb5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JREC7NXV1G2A0AFNN",
+    "source": "zen mode minimal tab bar window decoration",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 4974,
+    "occurrences_kind": "literal",
+    "source_hash": "9492c75af0a4ca79",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JG9Z2FGW6JCQ2CXYP",
+    "source": "alt screen padding border space vim",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 5010,
+    "occurrences_kind": "literal",
+    "source_hash": "22eb7e826cbb2de9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JGHVKQPMJW4JYST6G",
+    "source": "zoom level zoom size scale",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 5116,
+    "occurrences_kind": "literal",
+    "source_hash": "49752188335c5c65",
+    "audit_verdict": "uncertain"
+  }
+]
