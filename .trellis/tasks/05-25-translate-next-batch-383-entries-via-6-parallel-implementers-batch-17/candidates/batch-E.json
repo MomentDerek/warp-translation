@@ -1,0 +1,587 @@
+[
+  {
+    "id": "01KQXQV12A7TZVSK6BS7FDYTT2",
+    "source": "Codebase index not found",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2688,
+    "occurrences_kind": "literal",
+    "source_hash": "98167798d45f3f70",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK926WB1ERGZPAZP7DQ4Y",
+    "source": "Authentication credentials for {operation} do not match daemon credentials",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1398,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "14882f18adaf56b0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9D8K72XKGN2BWCHM6P3",
+    "source": "Codebase index has no synced root hash",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2693,
+    "occurrences_kind": "literal",
+    "source_hash": "4b47573494817235",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9DSVX0PA836C72RGCMA",
+    "source": "Codebase index root hash mismatch: requested {requested}, current {current}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2698,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2ec09322cc478baf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9XYRYZ6QNVM3EYR1QB2",
+    "source": "Invalid content hash: {error}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1124,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "91fa4d70cfaaa48c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9Y5WFWM95VKRFGDPYQ5",
+    "source": "Invalid repo_path {repo_path}: {error}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 2644,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a01d0a4005e9a5d0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9YAY8D61DE2HGEEG9EK",
+    "source": "Invalid root_hash: {error}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1108,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "178536d6762264a1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9YQG3N3QM6T1SY0VKCW",
+    "source": "Missing authentication credentials for {operation}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1391,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76e2f6a593082f78",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVK9Z0DM4MYGWSCPM2D14E",
+    "source": "Missing cached authentication credentials for {operation}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1401,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7abc0220042f8417",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA0YD2DVPV9ZNVNTWGZT",
+    "source": "No executor for RunCommand, session was never initialized",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1544,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fc5655264eabbcb4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA1ATBX99VYT3MDKR5Z2",
+    "source": "No executor for RunCommand, session was never initialized: session={session_id:?}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1545,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "218feb8c91895c45",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA1S0MM9R5Y02AEMTMBJ",
+    "source": "No fragment metadata found for content hash",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1155,
+    "occurrences_kind": "literal",
+    "source_hash": "e1032cacb997fe34",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA832Q56BESFWW9DK2WZ",
+    "source": "Received unknown shell_type in SessionBootstrapped: shell_type={:?}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1491,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5773a47bf3678151",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA8EMQBF0KEQTG77PVCE",
+    "source": "Received unknown shell_type in SessionBootstrapped: shell_type={:?} session={session_id:?}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1492,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "57209b2055aa75fa",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA8REDV6G3AQ7QTGXYER",
+    "source": "Remote codebase indexing is not enabled",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1088,
+    "occurrences_kind": "literal",
+    "source_hash": "8419b36c377bbc75",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEPT77FG9Z0CNFMR27R1Q",
+    "source": "Cannot index remote codebase because indexing did not start.",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 927,
+    "occurrences_kind": "literal",
+    "source_hash": "4f9660f06c451fd8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEPTX1K8M6ST7K9XRRK4V",
+    "source": "Cannot index remote codebase because the maximum number of codebase indexes has been reached.",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 914,
+    "occurrences_kind": "literal",
+    "source_hash": "4d46a7e6e36faa89",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEPVEP04ZHZH9HJG5RCZN",
+    "source": "Cannot resync remote codebase because it has not been indexed.",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 1007,
+    "occurrences_kind": "literal",
+    "source_hash": "4ce7f14dac2babce",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQ88NDZ0BWZKJ3QW3AB2",
+    "source": "Invalid ResyncCodebase mode: {mode}",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 965,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7da5046fc8fc4679",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAC1EB3FQ6797JE1CJ51",
+    "source": "Remote server empty result for DiscardFiles",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1080,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2cb988278de23547",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKACF48MWT469AF6CHG74",
+    "source": "Remote server unexpected response for DeleteFile",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 813,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "44881a31c0bffd52",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKACRXCW8VJ8DFSYDVPDA",
+    "source": "Remote server unexpected response for DeleteFile: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 814,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3f6dff47fce156c8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKACZYQWTDHDZ3D983A85",
+    "source": "Remote server unexpected response for DiscardFiles",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1088,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "30e7933d3b1692e1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAD8VX6J348R8WME95EG",
+    "source": "Remote server unexpected response for DiscardFiles: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1089,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f47458e09947429f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAEFZJX74AAW0QYPEMBF",
+    "source": "Remote server unexpected response for LoadRepoMetadataDirectory",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 623,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "934c0d701f407cd5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAETKXR17CB1MAA05GXC",
+    "source": "Remote server unexpected response for LoadRepoMetadataDirectory: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 624,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3a348a77994f6b59",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAF28S90HEMMKKW20WWZ",
+    "source": "Remote server unexpected response for NavigatedToDirectory",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 586,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "659d8c71a02a49a5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAFCWP9PNNKPZ4XGX9ZQ",
+    "source": "Remote server unexpected response for NavigatedToDirectory: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 587,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8a4d6fa6ae3f3af7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAFKCZ8X1SM4H9ZRJZVG",
+    "source": "Remote server unexpected response for ReadFileContext",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 692,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "58b3adaa0be4c8ab",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAFX7ZE5S4Y7KM87BDQ8",
+    "source": "Remote server unexpected response for ReadFileContext: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 693,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c8b3975e538947b0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAG4PSXEQCVK63Z26NPV",
+    "source": "Remote server unexpected response for RunCommand",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1127,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4eb15b9428164630",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAGDJNN07KNQY916ZHA1",
+    "source": "Remote server unexpected response for RunCommand: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1128,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ac52ae4594c33652",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKAR94YXTB7R8YN7THXRB",
+    "source": "Unhandled push message variant",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 938,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9b985bfaef79572d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKARC2CDCDT4HHBB9YEEF",
+    "source": "Unhandled push message variant: {other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 939,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4bcfabfc16062d49",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQFVCZY94P3TQNEKAMJN",
+    "source": "Remote server empty result for GetBranches",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1029,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4d4fd5af7d5a6a08",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQHKXGRS68M69VVXVTPP",
+    "source": "Remote server unexpected response for WriteFile",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 658,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4f8ae2c4d03f4484",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQHW84VB8R0BXGVZ5KB0",
+    "source": "Remote server unexpected response for WriteFile: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 659,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "103c9c30a18bd26f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV123CNRH67SNE9FW2SM3",
+    "source": " on GitHub so we can better identify the problem.",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 242,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "31603d0a7af2be04",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AVDN1YK6MZ7EJJQGW",
+    "source": "Continue without Warpification",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 282,
+    "occurrences_kind": "literal",
+    "source_hash": "74d576cfe39f41a2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BB13WZX30TT80BK0K",
+    "source": "Error Warpifying session",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 177,
+    "occurrences_kind": "literal",
+    "source_hash": "6e6457b14d9c20a5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F5J0JPF8Q9FSHZ073",
+    "source": "SSH tmux bug report: {title:?}",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 53,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "73037a7cb6cc2494",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FSQ0A4AN9DN1CGSWN",
+    "source": "SSH Warpify Timeout",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 85,
+    "occurrences_kind": "literal",
+    "source_hash": "66a74a007d5a8787",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G8H7ME6ZJK8QGY9GM",
+    "source": "The tmux version available on the remote machine is below 3.0. Please install tmux 3.0 or greater using a different method and try again.",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 35,
+    "occurrences_kind": "literal",
+    "source_hash": "cc989758705a819a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GBEV80VKZRKTHQB34",
+    "source": "The tmux install hit an unexpected error. Please install tmux manually and try again.",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 42,
+    "occurrences_kind": "literal",
+    "source_hash": "48988c110b31be52",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H188WGSYEXSJ0Z3R1",
+    "source": "Unsupported Shell",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 88,
+    "occurrences_kind": "literal",
+    "source_hash": "fb7f13bda88dc1d5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H5TWFFE55H8RJWDQK",
+    "source": "Warpify without TMUX",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 261,
+    "occurrences_kind": "literal",
+    "source_hash": "25fe3dce4f7271ea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HBDVHYF00BJW068E8",
+    "source": "Warpifying the session hit a timeout.",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 38,
+    "occurrences_kind": "literal",
+    "source_hash": "27622124e91d1c29",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HFEMPQGHMRKZYEMFW",
+    "source": "Unsupported shell. Please set bash, zsh, or fish as your default shell and try again.",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 40,
+    "occurrences_kind": "literal",
+    "source_hash": "e8cc00466248f51b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HWCBGYRBBS0MBQCJ1",
+    "source": "We are actively working on improving the stability of SSH in Warp. Please consider ",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 240,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8cd1881805018de",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HWDT02YJ0WZ82W76S",
+    "source": "Unsupported Tmux Version",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 76,
+    "occurrences_kind": "literal",
+    "source_hash": "e73e9a30c21aa94f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J3ZMAMAS0ZH0S3EE1",
+    "source": "tmux is not installed on the remote machine. Please install tmux and try again.",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 33,
+    "occurrences_kind": "literal",
+    "source_hash": "4ff5564409b6b2cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JRRWY3YHAP1NBHHXK",
+    "source": "tmux failed to execute on the remote machine. Please re-install tmux and try again.",
+    "file": "app/src/terminal/ssh/error.rs",
+    "line": 37,
+    "occurrences_kind": "literal",
+    "source_hash": "4886f9df0f431931",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129ATR413KX3FTZJ53D",
+    "source": "Block should exist in model",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 1471,
+    "occurrences_kind": "literal",
+    "source_hash": "5853cfb281335eab",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ANX7KBK92VXXR19FC",
+    "source": "Command and Output",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 83,
+    "occurrences_kind": "literal",
+    "source_hash": "77c1672286a53f0e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AT1Z29PGADSC4PNYF",
+    "source": "Creating block...",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 666,
+    "occurrences_kind": "literal",
+    "source_hash": "953ccdf0bd51a4d8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AZQDBMYVW95S39T8B",
+    "source": "Create link",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 629,
+    "occurrences_kind": "literal",
+    "source_hash": "e6b850cff6af76ee",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BS9QTMFQCPE82EGCC",
+    "source": "Error generating embed snippet",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 741,
+    "occurrences_kind": "literal",
+    "source_hash": "5f67ab409e3bbbc9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CMPJMN9XGSDVVGRJZ",
+    "source": "Get embed",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 639,
+    "occurrences_kind": "literal",
+    "source_hash": "f868cc78e2a28f64",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DB3AHB11JW9QEN6J6",
+    "source": "Manage shared blocks",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 767,
+    "occurrences_kind": "literal",
+    "source_hash": "c12e9bcf4cac832c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DKPP3VR7HJD12ADBN",
+    "source": "Model should be set",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 441,
+    "occurrences_kind": "literal",
+    "source_hash": "8faccedb56469e7d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FG7BG4JC6TKPEE2PN",
+    "source": "Share block",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 873,
+    "occurrences_kind": "literal",
+    "source_hash": "4207e307444af8cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G0143XJ1VZQXYX7KG",
+    "source": "SingleBlock size should be set in layout",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 1252,
+    "occurrences_kind": "literal",
+    "source_hash": "3e89e19a66c718e9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G9PTAZQ2SHTEP8SKN",
+    "source": "SingleBlock should not be trying to layout with no block selected",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 1465,
+    "occurrences_kind": "literal",
+    "source_hash": "888316209b771b13",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GT8ATDZP73H9145HR",
+    "source": "SingleBlock should not be trying to paint with no block selected",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 1267,
+    "occurrences_kind": "literal",
+    "source_hash": "0d7418866693d1aa",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JP583FVDVYEGV6RC3",
+    "source": "embedded warp block",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 88,
+    "occurrences_kind": "literal",
+    "source_hash": "b1965f8c0d523331",
+    "audit_verdict": "uncertain"
+  }
+]

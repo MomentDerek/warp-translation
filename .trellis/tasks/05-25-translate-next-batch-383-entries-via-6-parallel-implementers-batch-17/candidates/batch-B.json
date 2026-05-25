@@ -1,0 +1,605 @@
+[
+  {
+    "id": "01KQXQV129EVX4JRPCMTX2QYZ3",
+    "source": "Agent Code tried to create a file that already exists: {absolute_path:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 437,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f3604c556fd531fa",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129GSHX10V1AXAP3C58",
+    "source": "Agent Code tried to create a file that already exists",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 436,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0e4632365d4de634",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A3AHAH472ANNDNFQA",
+    "source": "Could not read {file}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 127,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1ef1754a4b0950d7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A8J4T39N31VG1VHAP",
+    "source": "Could not mutate a deleted file {file}.",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 136,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1f533808e73cde7a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AA715JQKMRH6C26T9",
+    "source": "Could not apply all diffs to {file}.",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 109,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6deb974cac120e97",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AMK5QTN1YN4AESN88",
+    "source": "Could not create {file} because it already exists.",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 124,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1503409bad61ff58",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BGEAVYW35AXT163W5",
+    "source": "Failure(s) applying V4A diff for {absolute_path:?}: {failures:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 690,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "56ec55ed386f926c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BQ410RA5T0NCR2ZNT",
+    "source": "Failure(s) applying V4A diff: {failures:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 689,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3cc0a69a26460e49",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BQGMRY1Z5X8D1HFFV",
+    "source": "Failure(s) applying diff: {failures:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 590,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "08a8e2cffca9e125",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BTKNZETDBJKZSMCQ0",
+    "source": "Failure(s) applying diff for {absolute_path:?}: {failures:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 591,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3bdbff9d562e87b4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D0FJ3DPBFAGE2MDA4",
+    "source": "No diffs could be applied.",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 138,
+    "occurrences_kind": "literal",
+    "source_hash": "c1c0261d7df099d4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D3R3206J1DFE3DHCY",
+    "source": "Matching diffs",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 572,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d599a6983692a307",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D7V8ZK0FQTPZKMVH3",
+    "source": "Matching diffs for: {file_path:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 573,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2e5a231220108497",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DEB3AZCRE50BZ76QX",
+    "source": "Matching V4A diffs for: {file_path:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 648,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4a43cb7a2526581b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DGB740Z7V48H3GDQ8",
+    "source": "Matching V4A diffs",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 647,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9f7cb2dbd491ac20",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G05D34S4QXX7XH04K",
+    "source": "Suggested non-empty diff on non-existent file",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 537,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b6037df49c7dc989",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GA82J5J6TEBRJ79H8",
+    "source": "There can only be one attempt to create {file}.",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 130,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7892549c623a548c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GGWPJ5N6A5SNW7JJ7",
+    "source": "The changes to {file} were already made.",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 116,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7088b0c0a7e34e19",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GQ693VGEASRZ2VHQ5",
+    "source": "Suggested {} diffs on non-existent file: {absolute_path:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 550,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3150996326870122",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GQ69ACQSZK8YEGAV8",
+    "source": "There can only be one attempt to rename {file}.",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 133,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4394ac66f3b87adc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GSNGS0C4V5WHGK40X",
+    "source": "Suggested non-empty diff on non-existent file: {absolute_path:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 538,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0236d8bb329763b3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GZY76M50S1CHHSZHB",
+    "source": "Suggested {} diffs on non-existent file",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 549,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2fa28f54d1b45174",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H63F1Z1SZQ5YFDYJ4",
+    "source": "V4A edits requested on non-existent file: {absolute_path:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 625,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5b8ef1161fd652f1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H6ADGC7T7NBCBM8SP",
+    "source": "Unable to read file for Agent Code: {err}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 496,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "90f43414db5e00a7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HD9YH90ZTZWK9GCGA",
+    "source": "Unable to check if file exists for Agent Code: {absolute_path:?} {err}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 454,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7260001abeb86a6a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HDX0F7ABV3AH52GZA",
+    "source": "Unable to read rename target file: {err}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 663,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7743c6de83435e8c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HF3JW2EVZH5DMGE41",
+    "source": "Unable to read rename target file {target_absolute:?}: {err}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 664,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8a4ee175fcf4c3bf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HKEJ1H0CRQ4E3Q2RV",
+    "source": "V4A edits requested on non-existent file",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 624,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1283ee84017e7815",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HNTEQJNEWZBSFNWV8",
+    "source": "Unable to read file {absolute_path:?} for Agent Code: {err}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 497,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4fe533551888eda7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HXWEVKHQ77VK0TXDS",
+    "source": "Unable to check if file exists for Agent Code: {err}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 453,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0b43fa799d08f7bc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JMJCD83BC4KWNKAZZ",
+    "source": "{file} does not exist. Is the path correct?",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits/diff_application.rs",
+    "line": 121,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fcc03228a2242e67",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A25RBZJQE2RGPP50S",
+    "source": "Connection timed out after {} seconds. The server may be unresponsive.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 156,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "20cde1de9b35edd3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ASXME20TTJQ65702K",
+    "source": "Connection closed unexpectedly. The server may have crashed.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 145,
+    "occurrences_kind": "literal",
+    "source_hash": "5a116124c3bc63fe",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B24FNT1QTXJXP0X99",
+    "source": "Failed to initialize client: {}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 126,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d9a42a9602e64007",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B596NWVMGFR8H9201",
+    "source": "Failed to parse MCP server: {err:#}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 740,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "797116908132eb7d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B6M5NEB350ARH19D0",
+    "source": "Failed to establish connection: {}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 132,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "de3be0efce9b2fe9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B7G1ZRVEH7Y9TJ108",
+    "source": "Failed to initialize server: {}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 129,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f75c110901d67096",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BASHAAZPYE8EAMVMW",
+    "source": "Failed to send data to server. Connection may have been lost.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 142,
+    "occurrences_kind": "literal",
+    "source_hash": "f428536d4c310300",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BRAGFX2SCYJZXV59N",
+    "source": "Failed to register MCP log file for {template_uuid}: {e}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 819,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d1e6a766d6a92042",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BVREPBR3SE1W6DF1T",
+    "source": "Failed to register MCP log file: {}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 818,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cfd22afe64de40d5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CC4CKV6TYTN58WMTF",
+    "source": "Installation not found",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 1611,
+    "occurrences_kind": "literal",
+    "source_hash": "919987285c14a28c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E8C2W8Z5WZWQXEAKF",
+    "source": "PATH not available",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 775,
+    "occurrences_kind": "literal",
+    "source_hash": "acc2bcef9392fa35",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EAXSEYJQSNP0GY1M3",
+    "source": "Operation was cancelled with reason: {}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 151,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "eb3bd453783ea2df",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EEV3Y4BW31R8VCE8N",
+    "source": "PATH required to launch MCP server. Please open a new terminal session to autopopulate PATH.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 763,
+    "occurrences_kind": "literal",
+    "source_hash": "615f41459f0bef69",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F1NVQXGRPXG6F8BG6",
+    "source": "Runtime error: {}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 135,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0a412a067fb39eff",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F1Z14D2FYFK4T3NVF",
+    "source": "Service error: {}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 160,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7e3a60e83d2543bd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FA3VEPTJEHG7BBHJN",
+    "source": "Server returned an error. Please check server logs for details.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 139,
+    "occurrences_kind": "literal",
+    "source_hash": "067bb0b1afecce29",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FMB3158QAANNWJ56C",
+    "source": "Server requires authentication, which is not yet supported.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 2010,
+    "occurrences_kind": "literal",
+    "source_hash": "139e48279b540fc7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FZXCF0G2MNBPD0T49",
+    "source": "Server sent an unexpected response. The server may be incompatible.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 148,
+    "occurrences_kind": "literal",
+    "source_hash": "068955f74b0e3691",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G7R5V86HKA8P14M2V",
+    "source": "Successfully authenticated {server_name} MCP server",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 2035,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d3cc4693858acef0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GWDGB6F6D0C9TNBR0",
+    "source": "Template contains no servers",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 726,
+    "occurrences_kind": "literal",
+    "source_hash": "57718a2f94c0c37a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HCNGAJNPAYVSWB086",
+    "source": "Unexpected status code: {status}",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 2001,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "05c165d079f995e0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JA219X06VWRZK8QRN",
+    "source": "[note] Attention! There may be sensitive information (such as API keys) in these logs. Make sure to redact any secrets before sharing with others.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 1750,
+    "occurrences_kind": "literal",
+    "source_hash": "4957e3e32df70ed7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JHAMMYYK3R9PQ2849",
+    "source": "[error] MCP: Failed to spawn '{server_name}': command '{command_for_log}' not found (cwd: {cwd_display}). If your MCP server depends on a specific working directory, set the `working_directory` field in your config to override the default.",
+    "file": "app/src/ai/mcp/templatable_manager/native.rs",
+    "line": 1810,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d4488af465ba0172",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128436VYX1AQS9155FX",
+    "source": "AWS credentials were not found for {}. Log in with the AWS CLI or update your AWS credentials configuration, then refresh.",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 60,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "21b225fceb16d0c3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128B7XNH4Y5AS2WH0CS",
+    "source": "AWS Bedrock inference requires an ambient task ID before credentials can be minted",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 321,
+    "occurrences_kind": "literal",
+    "source_hash": "a6880eff9e38551a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AVRDZBHQMTA7Q8MAH",
+    "source": "Credential refresh was interrupted",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 296,
+    "occurrences_kind": "literal",
+    "source_hash": "e0299e3ded1f4a73",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B7X098462M4KQZT41",
+    "source": "Failed to mint AWS Bedrock task identity token",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 348,
+    "occurrences_kind": "literal",
+    "source_hash": "b85a90ae453cd01d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BKHJ1A96FGMP7BTTS",
+    "source": "Failed to load AWS credentials: {msg}",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 37,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc97a4b175238198",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D4PT9Y184TJ5BXQR8",
+    "source": "No AWS credentials configured",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 35,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c643de27ef6097e6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FAB6GD7DQZRD2EZ92",
+    "source": "STS response did not include credentials",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 369,
+    "occurrences_kind": "literal",
+    "source_hash": "e889a1cd3e76cf4e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G50V0KS9V17QRAQN1",
+    "source": "Timed out while loading AWS credentials. Refresh and try again.",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 64,
+    "occurrences_kind": "literal",
+    "source_hash": "60efcf1f79f80956",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GVFPQRYFMN80AXNJT",
+    "source": "The default AWS profile",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 47,
+    "occurrences_kind": "literal",
+    "source_hash": "2d2345499b877a39",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H0PVXAX9Z307YD93V",
+    "source": "Unable to load AWS credentials. Refresh your AWS login and try again.",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 78,
+    "occurrences_kind": "literal",
+    "source_hash": "114a2c8e2291f4eb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H8ATZ1FW1TPFNWXKX",
+    "source": "Unable to load AWS credentials from your configured provider. Refresh your AWS login and try again.",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 71,
+    "occurrences_kind": "literal",
+    "source_hash": "0c1dcc43b4592012",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HTAZSN15NDACG2DCD",
+    "source": "Unexpected error while loading AWS credentials. Refresh your AWS login and try again.",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 75,
+    "occurrences_kind": "literal",
+    "source_hash": "0e69215cd8dac066",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J7PKXS2KMTB2FGV22",
+    "source": "{} is invalid or incomplete in your local AWS configuration. Update your AWS profile settings and credentials, then refresh.",
+    "file": "app/src/ai/aws_credentials.rs",
+    "line": 67,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4ee44122c969f88c",
+    "audit_verdict": "uncertain"
+  }
+]

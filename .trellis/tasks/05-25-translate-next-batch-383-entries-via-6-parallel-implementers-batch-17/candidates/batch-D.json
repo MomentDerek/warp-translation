@@ -1,0 +1,515 @@
+[
+  {
+    "id": "01KQXQV12ACHA42C8085FF52JK",
+    "source": "Configuration for the header toolbar chips in the vertical tab panel header.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 285,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b8ebf0ce006bfaa4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BFCY4E22QDTDQCN3R",
+    "source": "Display mode for the vertical tab bar.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 316,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3128eb24158454b3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C2T2V6D51R884BW9R",
+    "source": "Granularity of rows displayed in the vertical tabs panel.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 347,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e89bfa23170d28f1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DNRNHAS1944KRCWGD",
+    "source": "Mapping of directory paths to their tab color assignments.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 198,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5bc46bfb875020a2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E93NHNNZK8BBBH4EQ",
+    "source": "Position of the close button on tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 68,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "27e2fc4a41d7d009",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GD3G47BY5JFN4GY5H",
+    "source": "Tab item display mode in vertical tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 378,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d46aea80835213a2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GPE865FY03J4H1TQJ",
+    "source": "The primary information displayed on vertical tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 410,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4dc7d668c0272fa6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GWN001VZJQEZAXRBR",
+    "source": "Subtitle shown on compact vertical tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 442,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "360e7abc352e3c08",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H19MJ64VSH8NHRM4K",
+    "source": "Whether to show PR links on vertical tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 521,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b762327eccac4b4a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H4Y5ZEMANV5ESAGEE",
+    "source": "When workspace decorations such as the tab bar are visible.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 105,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9a99d57247017249",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H7YZD5F5G98MH27ES",
+    "source": "Whether to show activity indicators on tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 453,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2a93de5a5956d5b9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HAK3FDY5CKBA61EPY",
+    "source": "Whether to display tabs vertically instead of horizontally.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 489,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d8ecf7c0dfa7b742",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HBRF4B3Z7T81K7R6H",
+    "source": "Whether to show diff stats on vertical tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 530,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cfd70be9011eb8e9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HNJDR7YM44PQ4M15C",
+    "source": "Whether to show lines added/removed counts on the code review button.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 471,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d08c091b7468113b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HP1RQDB6B1PR5K151",
+    "source": "When restoring a window, open the vertical tabs panel even if it was closed when the session was saved.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 498,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9c8aa645ffff2d0f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HQVVDA0SATH2N5D5T",
+    "source": "Whether to preserve the active tab's color when switching tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 480,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3ac5aabb35f0fda1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HR2J9TWT4T6XN7G48",
+    "source": "Whether to show a details sidecar when hovering over a vertical tab.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 539,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6ffe2cd55c8b75df",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HTT4GFV3R7JAYZ0NV",
+    "source": "Where new tabs are placed in the tab bar.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 37,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "90ccfe3fc134e649",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JCJBW19DAXEMV5Q1K",
+    "source": "Whether vertical tab names for agent conversations use the latest user prompt.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 507,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d61623465e935d0c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JNXMTD4BE2SQS2YGZ",
+    "source": "Whether to show the code review button on tabs.",
+    "file": "app/src/workspace/tab_settings.rs",
+    "line": 462,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "048e73eeb3560436",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CQ1QSW7R1W6CFMG09",
+    "source": "Generating…",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 3098,
+    "occurrences_kind": "literal",
+    "source_hash": "d20a4476a0a85978",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EYWTNP2XY720KR9CV",
+    "source": "Repo(s)",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 2000,
+    "occurrences_kind": "literal",
+    "source_hash": "8ee2525401d2bf08",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J3HK1NQY3A50AF1Z1",
+    "source": "git@github.com:",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1056,
+    "occurrences_kind": "literal",
+    "source_hash": "15100a204d8602d0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J9RBE7KR1N5CKXWZC",
+    "source": "docker.io/",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 2899,
+    "occurrences_kind": "literal",
+    "source_hash": "c02c0f3995cc95ae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JC5QZ09JDQBJ8E25D",
+    "source": "filtered indices non-empty",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1171,
+    "occurrences_kind": "literal",
+    "source_hash": "1b6218f82d56661d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JEGGQ3WMCQNZ9XSWF",
+    "source": "txId",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1287,
+    "occurrences_kind": "literal",
+    "source_hash": "f9f1a1baf8cd977b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JFZPB622E4TYV1R2M",
+    "source": "e.g. cd my-repo && pip install -r requirements.txt",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 286,
+    "occurrences_kind": "literal",
+    "source_hash": "bdc24a82bbc7a001",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JGVWT7HC73BRWFBC6",
+    "source": "github.com/",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1061,
+    "occurrences_kind": "literal",
+    "source_hash": "7510bdd3e5310ec7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JHQFB06TGYRBYG3FY",
+    "source": "e.g. python:3.11, node:20-alpine",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 284,
+    "occurrences_kind": "literal",
+    "source_hash": "09261307609fdc03",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JRBJ77ERBNWV2Q3J4",
+    "source": "github.com",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1069,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3aeb002460381c6f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JSD89QBWS1QK4GWMN",
+    "source": "{}/oauth/connect/github",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1279,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "542bde47b34b0765",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JT37JK56P2MSXN0BS",
+    "source": "index.docker.io/",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 2900,
+    "occurrences_kind": "literal",
+    "source_hash": "ff4853f7040dc792",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JXS4G08YPEBNK1QEN",
+    "source": "library/",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 2929,
+    "occurrences_kind": "literal",
+    "source_hash": "9680794b397fd2e1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JYZVR2GHEHZ8STSQ5",
+    "source": "www.github.com/",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1061,
+    "occurrences_kind": "literal",
+    "source_hash": "f4e7a43568e95831",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JZPJRJ2PHHB4S42D7",
+    "source": "repos_dropdown_row_{index}",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 779,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "afb2317c3c3f1110",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQRMVHBB6AHV0C7BZAKY",
+    "source": "e.g., dev-env",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 264,
+    "occurrences_kind": "literal",
+    "source_hash": "2950bfb4d250c017",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQRNRABHRGSPFSDNYABX",
+    "source": "e.g., node start",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 270,
+    "occurrences_kind": "literal",
+    "source_hash": "fd045a0b51662312",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQRPWMCY8NT8MXCNRN5K",
+    "source": "e.g., node:20-alpine",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 268,
+    "occurrences_kind": "literal",
+    "source_hash": "277bfaca4962fb7d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEQS7C5CZ7Z9W0NNDMF18",
+    "source": "{char_count} / {DESCRIPTION_MAX_CHARS} characters",
+    "file": "app/src/settings_view/update_environment_form.rs",
+    "line": 1969,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ac69a04adf01a4fb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129QECQGR8XMA39B0M5",
+    "source": "Allow_Native_Wayland",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 492,
+    "occurrences_kind": "literal",
+    "source_hash": "185276e4ae898fed",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ANGCFWADRZMZJ3C2T",
+    "source": "Code_As_Default_Enabled",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 462,
+    "occurrences_kind": "literal",
+    "source_hash": "3cc44f536bd2ee83",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CS6CEX11R97F0KMNA",
+    "source": "FeatureFlag.AgentView",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 521,
+    "occurrences_kind": "literal",
+    "source_hash": "65a4267de899a45d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D6KYGHSXT5AQ7Q1HR",
+    "source": "Log_Out_Warning_Modal",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 451,
+    "occurrences_kind": "literal",
+    "source_hash": "a81eb2fa35b21011",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EBAH426VQMJP4WYM4",
+    "source": "Quit_Warning_Modal",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 448,
+    "occurrences_kind": "literal",
+    "source_hash": "650fdd91a34a51fd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12F6GCPTGZF757TQ67H",
+    "source": "Session_Config_Tab_Config_Chip_Open",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 457,
+    "occurrences_kind": "literal",
+    "source_hash": "4fca71c92bd02b49",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GT0Z3H4Q88KR39VFK",
+    "source": "Thinking_Display_AlwaysShow",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 471,
+    "occurrences_kind": "literal",
+    "source_hash": "3f3f3f71424f785f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GW538J7JY5ZBRMMB9",
+    "source": "Sync_All_Panes_In_Current_Tab",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 464,
+    "occurrences_kind": "literal",
+    "source_hash": "f6818e6f6e54ffb3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GX4ZMY0JB5CZ9EERQ",
+    "source": "Thinking_Display_ShowAndCollapse",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 470,
+    "occurrences_kind": "literal",
+    "source_hash": "b68174259db02e35",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GX6974PK04AWNN0R5",
+    "source": "Thinking_Display_NeverShow",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 472,
+    "occurrences_kind": "literal",
+    "source_hash": "3fc2914019b7e7ae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H5MQP9E0P5P3A8RQ4",
+    "source": "Use `SSH_TMUX_WRAPPER_CONTEXT_FLAG` for new ssh warpification logic",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 425,
+    "occurrences_kind": "literal",
+    "source_hash": "5048156383a69d4c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HEVDCDHZNR4FZTGHE",
+    "source": "Vim_Show_Status_Bar",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 434,
+    "occurrences_kind": "literal",
+    "source_hash": "3f2ad358219048e3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HFFMFKK6R3YGJEYH0",
+    "source": "Vim_Unnamed_System_Clipboard",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 433,
+    "occurrences_kind": "literal",
+    "source_hash": "1c57f058bf2c5e0f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J6AE5CBR260Q8F677",
+    "source": "in-band generators for new sessions",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 594,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "585327dba2244725",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J6WNE2600DYPHK8SS",
+    "source": "debug network status",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 600,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "14b6d549a445b578",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J6X0J48M0HHY6GWPJ",
+    "source": "recording mode",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 588,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "90f3355879f4f221",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JF8APCE7J38SF4Y76",
+    "source": "memory statistics",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 606,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6991924b121744c7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JJZHHY1ZN3J0KBG6B",
+    "source": "warp.settings_page",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 1964,
+    "occurrences_kind": "literal",
+    "source_hash": "1e63afe5701da13c",
+    "audit_verdict": "uncertain"
+  }
+]

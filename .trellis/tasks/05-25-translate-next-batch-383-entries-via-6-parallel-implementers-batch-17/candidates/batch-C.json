@@ -1,0 +1,569 @@
+[
+  {
+    "id": "01KQXQV10MZB3RGBQ24ZNNJN0H",
+    "source": " Agent Mode",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 595,
+    "occurrences_kind": "literal",
+    "source_hash": "55c73e1fbd426279",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ABYNDBNAQGANGWW4Z",
+    "source": "Create a snake game in Python from scratch",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 161,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e9d03e0131558eca",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AXDWARBK4GN6AFK92",
+    "source": "Create a Matrix-styled custom theme",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 181,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e84d3e745b29147a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B62N0RWSQYDBAABMQ",
+    "source": "Explore my git history in {git_repo_path} and provide me a summary.",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 173,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f52b479eacde74ce",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BZC0FXC5PF39T61KF",
+    "source": "Explore git history in {git_repo_trimmed}",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 171,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b118d8a2120483b6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CPE0Z1J3QB3Q09NRA",
+    "source": "First check if {matrix_save_directory} exists, and create this path if it doesn't already exist. Then create a matrix theme for my Warp terminal without a background image field, following exact YAML structure on the warp website without any extra or missing fields. Call it matrix.yaml and save it in the directory we previously created. Once you've verified that the theme is correct and ready to be applied, let me know by only saying 'The matrix theme is now available at <path>.'.",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 183,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "481df37f4a5fe23f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CR5EGD3ZDBZ7ENJ6G",
+    "source": "Have Agent Mode walk you through creating a snake game from end-to-end",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 162,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d5232a86f5c8acd0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CS04CYX0TN9E44WK4",
+    "source": "Here are a few examples of how to leverage the power of AI in your terminal using",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 594,
+    "occurrences_kind": "literal",
+    "source_hash": "d3af30eccff537e8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DEMXMNZ7AFEGEZ2CK",
+    "source": "Make a snake game for playing in the terminal using python. Use the code tool and requested commands to do it for me. Before deciding on a solution, make sure I have all the prerequisites installed. At the end of our conversation, the app should run without any additional steps.",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 163,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b3699172f95aacad",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DY551923TP7QV836W",
+    "source": "Make your terminal look like you entered the Matrix",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 182,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e3474cbc8c4f9fca",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E4KSK5WSA3B0VEFHZ",
+    "source": "Pair with an Agent to accomplish another task",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 192,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "10f8aae85eb22d01",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G2YXDRYE8FGH6G641",
+    "source": "Something else?",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 191,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4cbecb3f90cc3933",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HKBB738RQ2Z7JPDYB",
+    "source": "Valid keystroke expected",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 461,
+    "occurrences_kind": "literal",
+    "source_hash": "9c0b006fdcadbe3d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HS1PCWGYFCRQ3KKEC",
+    "source": "What can you help with me on?",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 193,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a42d03130e5cfd64",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J6NNHBYT3SWE9ENQ1",
+    "source": "the Warp themes directory.",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 156,
+    "occurrences_kind": "literal",
+    "source_hash": "89caddda78f43c2f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JEXFQYDG2QX7NXRAG",
+    "source": "set-location .",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 344,
+    "occurrences_kind": "literal",
+    "source_hash": "521c5d65c4f8d8d9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JHGHT77KCP06S73DA",
+    "source": "Work with Agent Mode to understand recent changes to a git repository",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 172,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9516038870e95a05",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JN6KVB697SH2MK4VJ",
+    "source": "cd .",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 341,
+    "occurrences_kind": "literal",
+    "source_hash": "a1649c60382c4bc2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JNKH3P5878S8XFDKW",
+    "source": "cd ..",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 340,
+    "occurrences_kind": "literal",
+    "source_hash": "ecc78bda27b832c6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JVRZGD71KAT79BW7D",
+    "source": "set-location ..",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_agentic_suggestions_block.rs",
+    "line": 343,
+    "occurrences_kind": "literal",
+    "source_hash": "3c524e9fbd719366",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A0Y08SYMJJTS5CDBP",
+    "source": "Context window used",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 425,
+    "occurrences_kind": "literal",
+    "source_hash": "6e27c3975dd4320d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A52NJHWTF2F4GQBH8",
+    "source": "Diffs applied",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 474,
+    "occurrences_kind": "literal",
+    "source_hash": "b30fdc787c361784",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A7KYCP4FXQ9Z46YEV",
+    "source": "Credits spent (total)",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 304,
+    "occurrences_kind": "literal",
+    "source_hash": "6e163729603c95f2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AA61SV7BEVNQ8AAF0",
+    "source": "Credits spent",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 311,
+    "occurrences_kind": "literal",
+    "source_hash": "894f91f1aec81f5d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ADFQW38FEHPPMGZ0B",
+    "source": "Credits spent (last response)",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 296,
+    "occurrences_kind": "literal",
+    "source_hash": "e56366fbc22528d2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AGEFHQ41YD4DREBPQ",
+    "source": "Commands executed",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 511,
+    "occurrences_kind": "literal",
+    "source_hash": "d73d348528f9b6e0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CKE4C1QT7DFSB0H1B",
+    "source": "Files changed",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 468,
+    "occurrences_kind": "literal",
+    "source_hash": "b42c8ffb89c678e3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D1PG9A30J6SBWJNXJ",
+    "source": "Models ({})",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 351,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d5e68dd1fcdf7c9b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GVJPANAH136PSEQ55",
+    "source": "Show {hidden_count} more",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 781,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "365f07bc96b4fdda",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GZVDY7K7GVZA3B6N7",
+    "source": "Time to first token",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 543,
+    "occurrences_kind": "literal",
+    "source_hash": "0cec400f147f0f13",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HAK97CQCK84CTVG65",
+    "source": "Total time (including tool calls)",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 564,
+    "occurrences_kind": "literal",
+    "source_hash": "1e9d2e7fc4cdc0d2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HJDKX1FEXVSMF5BPJ",
+    "source": "Total agent response time",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 552,
+    "occurrences_kind": "literal",
+    "source_hash": "a90ec0767540e314",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HZDZASM8YK4GTMFDB",
+    "source": "Tool calls",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 327,
+    "occurrences_kind": "literal",
+    "source_hash": "da5122dc0f97b158",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12J2SAS4DZERRC8W8JF",
+    "source": "You can change which model is used for full terminal use in the AI settings page",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 362,
+    "occurrences_kind": "literal",
+    "source_hash": "73a36b7ba58c3b2a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKASG6Q86RYJFA5Y6BQTY",
+    "source": "View details",
+    "file": "app/src/ai/blocklist/usage/conversation_usage_view.rs",
+    "line": 673,
+    "occurrences_kind": "literal",
+    "source_hash": "d1bf045bb524dae5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129CEKPAECFRNC9KC3D",
+    "source": "Agent Mode Eval",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 325,
+    "occurrences_kind": "literal",
+    "source_hash": "a2c708a92fb1c4e9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ANK79XF86AGBNJCCK",
+    "source": "Default (CLI)",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 380,
+    "occurrences_kind": "literal",
+    "source_hash": "80a2072d064d7a28",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AVB0SQTNXQKGYXQVG",
+    "source": "Computer use tools are disabled and will not be available to the Agent.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 121,
+    "occurrences_kind": "literal",
+    "source_hash": "8f9696cc59f17fa9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C3HGFMNH8KFA70TX2",
+    "source": "Give the Agent full autonomy to use computer use tools without approval.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 127,
+    "occurrences_kind": "literal",
+    "source_hash": "cee483f892a701a4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C5YBHDP7SP9VKEWGA",
+    "source": "Give the Agent full autonomy  — no manual approval ever required.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 51,
+    "occurrences_kind": "literal",
+    "source_hash": "434fdeaab09253d0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E46JV63MM828BSYTF",
+    "source": "Require explicit approval before the Agent takes any action.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 52,
+    "occurrences_kind": "literal",
+    "source_hash": "660aa55d88cd4998",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EK7Q14AEYNR8CW77B",
+    "source": "Require explicit approval before the Agent uses computer use tools.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 124,
+    "occurrences_kind": "literal",
+    "source_hash": "cdeaf909ef9f4939",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G3RWT42B0FA3MFBCY",
+    "source": "The Agent may ask a question and pause for your response, but will continue automatically when auto-approve is on.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 211,
+    "occurrences_kind": "literal",
+    "source_hash": "2c3befe7dd299d05",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G5B8S55CRBCE7HM2Z",
+    "source": "The Agent chooses the safest path: acting on its own when confident, and asking for approval when uncertain.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 50,
+    "occurrences_kind": "literal",
+    "source_hash": "5861a1b3fdd28718",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GCK9SBKZ9N3KJM0YB",
+    "source": "The Agent will not ask questions and will continue with its best judgment.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 214,
+    "occurrences_kind": "literal",
+    "source_hash": "1d4d30cca29c4a1c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GGJ7WF1TB11Q3JMKB",
+    "source": "The agent will ask for permission the first time it needs to interact with a running command. After that, it will continue automatically for the rest of that command.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 84,
+    "occurrences_kind": "literal",
+    "source_hash": "34dd25c0e54b37a6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GMVQ28QV924N96SZ1",
+    "source": "The Agent may ask a question and will pause for your response even when auto-approve is on.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 217,
+    "occurrences_kind": "literal",
+    "source_hash": "2ab1fd8abf8504c9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GQ6EY2QHDQBJTRKB2",
+    "source": "The agent will always ask for permission to interact with a running command.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 86,
+    "occurrences_kind": "literal",
+    "source_hash": "8cca291f6b5de015",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H0PSMKR6HE0AEC834",
+    "source": "Unknown setting.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 129,
+    "occurrences_kind": "literal",
+    "source_hash": "dc292f4cab1115c3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11Y3A8MPWXYW1RFRC2D",
+    "source": " cancelled.",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 602,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "396311a5ac112773",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV122VFC1QGYQCXT30MNX",
+    "source": " locally.",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 733,
+    "occurrences_kind": "literal",
+    "source_hash": "d7fde1acbdf26bcb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1244FF13G1K4T087AJE",
+    "source": " remotely.",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 734,
+    "occurrences_kind": "literal",
+    "source_hash": "e2bf3571723de3e5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B0VG6C5MEG138D8QX",
+    "source": "Failed to send message to {recipients}: {error}",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 464,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "eabd8efe32e8e616",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BBD2R9X6M7P093F8W",
+    "source": "Failed to start agent ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 740,
+    "occurrences_kind": "literal",
+    "source_hash": "a95e4beefb246eb0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BC3SWR65A65XAFEQX",
+    "source": "Failed to start remote agent ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 741,
+    "occurrences_kind": "literal",
+    "source_hash": "a234da57d2862869",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FJ5J8KJ79R9FKRDVJ",
+    "source": "Sending message to ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 507,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bf1376fed6909dbe",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FMH70RYSTFYRAMFEQ",
+    "source": "Send message to {recipients} cancelled.",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 481,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f142d088a2fd0220",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G1SMNWRGFVR9QWNGK",
+    "source": "Start agent ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 747,
+    "occurrences_kind": "literal",
+    "source_hash": "3b234fd5b70ebd76",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G239TN257BSQQXDWM",
+    "source": "Started agent ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 584,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bd1068607efe0664",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GAKJ42M54KW7H4ZNR",
+    "source": "Starting agent ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 754,
+    "occurrences_kind": "literal",
+    "source_hash": "7c7c8bb5f2e83ac8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GV0Y8XM87MP5NXJZG",
+    "source": "Start remote agent ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 748,
+    "occurrences_kind": "literal",
+    "source_hash": "883f0cad43dda3f7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GXW9HH4CFG6JQT98D",
+    "source": "Starting remote agent ",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 755,
+    "occurrences_kind": "literal",
+    "source_hash": "e59b04ff699d6b1b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HEH92PM1BBJCFQZ4D",
+    "source": "Unknown agent",
+    "file": "app/src/ai/blocklist/block/view_impl/orchestration.rs",
+    "line": 70,
+    "occurrences_kind": "literal",
+    "source_hash": "342b4ab21e2eb31a",
+    "audit_verdict": "uncertain"
+  }
+]

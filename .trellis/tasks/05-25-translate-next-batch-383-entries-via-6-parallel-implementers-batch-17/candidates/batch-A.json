@@ -1,0 +1,596 @@
+[
+  {
+    "id": "01KQXQV1299P1767BNGK37V888",
+    "source": "Code review find bar opened or closed",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 457,
+    "occurrences_kind": "literal",
+    "source_hash": "a9ed318a60c6299f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129AQHJTJ7AY2N923VY",
+    "source": "Agent insert_code_review_comments tool call received and processed",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 472,
+    "occurrences_kind": "literal",
+    "source_hash": "7527dac5b6dd6bec",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A2HZ43BRT4ZDE3FAQ",
+    "source": "Code review pane minimized or maximized",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 453,
+    "occurrences_kind": "literal",
+    "source_hash": "3ccc73804540ef9e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A8A0QFTB2H9GG2Z12",
+    "source": "Diff base changed in code review",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 454,
+    "occurrences_kind": "literal",
+    "source_hash": "318488e06c87bce7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AXR1T4QSE0FN9KNEN",
+    "source": "Code review pane opened",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 449,
+    "occurrences_kind": "literal",
+    "source_hash": "b47770f706ea87c1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AYS5NW6NJ5CGY01DK",
+    "source": "Content added to AI context from code review",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 450,
+    "occurrences_kind": "literal",
+    "source_hash": "ad1b20e039d73850",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B2BWJ0VYHW9R5FRDE",
+    "source": "Failure when loading diff content",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 456,
+    "occurrences_kind": "literal",
+    "source_hash": "3c1cda1cfd2f84e1",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BWMPKZW3Z26KDKDQ3",
+    "source": "Failure when calculating diff metadata",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 455,
+    "occurrences_kind": "literal",
+    "source_hash": "28c3f0562a76f46f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C1E1T7XP0EVG42D7D",
+    "source": "Inline code review comment list expanded",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 464,
+    "occurrences_kind": "literal",
+    "source_hash": "eacb0d68247356bb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C5M337SJD82SYNM0T",
+    "source": "Git operation dialog reached a terminal state (succeeded, failed, or cancelled)",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 479,
+    "occurrences_kind": "literal",
+    "source_hash": "3c148ca0022cdf93",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C6S9S27CTECVHSPYZ",
+    "source": "Inline code review comment deleted",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 463,
+    "occurrences_kind": "literal",
+    "source_hash": "fbdabf2e3842eba7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12C8J062BT668RD36NC",
+    "source": "Inline code review comment resolved",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 470,
+    "occurrences_kind": "literal",
+    "source_hash": "8f73113e4ac9bd65",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CAKCAJFESAKXCQE02",
+    "source": "Inline code review comment editor opened",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 460,
+    "occurrences_kind": "literal",
+    "source_hash": "31aebbb5fea9e96c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CG9JA5KAKJZXWC2VH",
+    "source": "Inline code review submitted to agent",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 465,
+    "occurrences_kind": "literal",
+    "source_hash": "fd4d773c500245c8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CGCVQYJXV3KG6A9GY",
+    "source": "Inline code review comment list item clicked",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 466,
+    "occurrences_kind": "literal",
+    "source_hash": "371a8882a8906771",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CH6M8J6YX0WXJ3KYJ",
+    "source": "Inline code review comment edited",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 462,
+    "occurrences_kind": "literal",
+    "source_hash": "b946670be4fdedd4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CJX264W0N0KQHN0Z8",
+    "source": "Inline code review comment added",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 461,
+    "occurrences_kind": "literal",
+    "source_hash": "f5d3fdbbca2974b5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CTCBFDKDB26YB9SB7",
+    "source": "Inline code review comment relocation fell back to approximate line",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 468,
+    "occurrences_kind": "literal",
+    "source_hash": "fd66717f0de43c54",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CXFBJ2JG77RFJS7MJ",
+    "source": "File saved in code review pane",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 452,
+    "occurrences_kind": "literal",
+    "source_hash": "3c1e5b275eab1e0a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D2C4VHJS5V2JAGWT5",
+    "source": "Newly-imported comments relocated against editor lines",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 474,
+    "occurrences_kind": "literal",
+    "source_hash": "ae9333e8062ff9bf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DSVD5KH995QXK6GG2",
+    "source": "Navigated to next or previous match in code review find bar",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 459,
+    "occurrences_kind": "literal",
+    "source_hash": "a80b89d79762382a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ENQC3BVW8M4H4YE1P",
+    "source": "Revert hunk button clicked",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 451,
+    "occurrences_kind": "literal",
+    "source_hash": "215641f8b26001ab",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FPBNDJCV65NP76V1J",
+    "source": "Search mode changed in code review find bar",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 458,
+    "occurrences_kind": "literal",
+    "source_hash": "426eac1e94c95161",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H37VRHMP7YNBJKP0D",
+    "source": "User clicked a git operation button in the code review header",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 476,
+    "occurrences_kind": "literal",
+    "source_hash": "58577b6c0ec1725d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129ATD6NJMWQWEMFY85",
+    "source": "Authentication failed. Check your Git credentials.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 172,
+    "occurrences_kind": "literal",
+    "source_hash": "522b225a3fce25de",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A5YQ1F3JGK8DZ9VD4",
+    "source": "Commit your changes",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 659,
+    "occurrences_kind": "literal",
+    "source_hash": "9ed193dedb847616",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ABYMTEFPR1HHXZSEW",
+    "source": "Create pull request",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 667,
+    "occurrences_kind": "literal",
+    "source_hash": "71e2bc1698e68dcf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BE0T5FZGAW0EM6BBS",
+    "source": "ESC",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 593,
+    "occurrences_kind": "literal",
+    "source_hash": "c5b7d0ec4f697629",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CMNHAPCC0DP709A09",
+    "source": "GitHub CLI (gh) not installed. See https://cli.github.com/.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 183,
+    "occurrences_kind": "literal",
+    "source_hash": "39960a1a5144c1a9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CMPTQJKKD5NMPAYDK",
+    "source": "GitHub CLI not authenticated. Run `gh auth login`.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 190,
+    "occurrences_kind": "literal",
+    "source_hash": "eff76a9029f4e4a0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CNYNV2ZB6AJXAH4JE",
+    "source": "Git operation failed.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 192,
+    "occurrences_kind": "literal",
+    "source_hash": "cbd0367557d2f0a6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CQM0EX38M7MJP0Q5N",
+    "source": "Git identity not configured. Set user.name and user.email.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 158,
+    "occurrences_kind": "literal",
+    "source_hash": "36ab3debbde07042",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D8AQ7555B6X82TQ1H",
+    "source": "Network error. Check your connection.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 177,
+    "occurrences_kind": "literal",
+    "source_hash": "bdfeee9c37b5a075",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DEQ019PVB671JNTBZ",
+    "source": "No changes to commit.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 154,
+    "occurrences_kind": "literal",
+    "source_hash": "a0f8b950c8706c51",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DPH3D5RB537HG7AZ9",
+    "source": "No remote configured for this branch.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 168,
+    "occurrences_kind": "literal",
+    "source_hash": "48d3309e39b32eb6",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12E4HDJTQWZCH3TV811",
+    "source": "Publish branch",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 662,
+    "occurrences_kind": "literal",
+    "source_hash": "e1f5968cfa0892b3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EEW0VS1TNBHJ5S0JT",
+    "source": "Remote repository not found.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 179,
+    "occurrences_kind": "literal",
+    "source_hash": "fcb06587ce853c60",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EGSGVBPY7MMBSPH8B",
+    "source": "Remote has new changes — pull before pushing.",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 163,
+    "occurrences_kind": "literal",
+    "source_hash": "9762daf62f766372",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EXNKFDG7YVCB9SWBD",
+    "source": "Push changes",
+    "file": "app/src/code_review/git_dialog/mod.rs",
+    "line": 664,
+    "occurrences_kind": "literal",
+    "source_hash": "a6453f9aba3b6f91",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1293PFZSTAW9P1BWHV4",
+    "source": "Cannot attach diff while input is not available",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5885,
+    "occurrences_kind": "literal",
+    "source_hash": "8c09d1b619cf7832",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129JCYER4DW5PMHCKAP",
+    "source": "Cannot attach context when terminal is running",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5775,
+    "occurrences_kind": "literal",
+    "source_hash": "f8f3096300644c90",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129ZCKRVBSJ558TY6E6",
+    "source": "Add comment",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6709,
+    "occurrences_kind": "literal",
+    "source_hash": "c4d891e9a87e535f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12ACGCCN2YVXQ88P1ST",
+    "source": "Diff removed",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5682,
+    "occurrences_kind": "literal",
+    "source_hash": "7de34d3b5f68d2fb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B3T6FRNKC84VTAXKT",
+    "source": "Failed to save file {}: {err:?}",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6302,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2dcca53810e3d4b8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D5J6HC9GS5055J3YH",
+    "source": "No files to discard",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 5418,
+    "occurrences_kind": "literal",
+    "source_hash": "909a80719434ab8b",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D7JFW625PEH9B1H9H",
+    "source": "No changes to commit",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6493,
+    "occurrences_kind": "literal",
+    "source_hash": "4081b6fc6a559d60",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DZR2QZ85WSTB6H520",
+    "source": "No git actions available",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6502,
+    "occurrences_kind": "literal",
+    "source_hash": "676c09357c9f5374",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EKT3TAJFESKG63RM7",
+    "source": "Reviewing code changes",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 7576,
+    "occurrences_kind": "literal",
+    "source_hash": "6c7a1e1e1f192c60",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EY0F1EB8X53S5GVXG",
+    "source": "PR #{number}",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6541,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "02e9ffb0c8db2bea",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFR6VJBV06TBZGYEHCYN",
+    "source": "Commit",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6582,
+    "occurrences_kind": "literal",
+    "source_hash": "82a9c46ffa478994",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFT2TEFBR2BEZA4W540Z",
+    "source": "Publish",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6600,
+    "occurrences_kind": "literal",
+    "source_hash": "859390eb495b2ead",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRBDMFT49BJ8GR4XRG9SWGYE",
+    "source": "Push",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6594,
+    "occurrences_kind": "literal",
+    "source_hash": "731ce7ed808913b2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KRNVKA8JAZC16N0VEPTHVW09",
+    "source": "Refreshing PR info",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6547,
+    "occurrences_kind": "literal",
+    "source_hash": "12c05e2b89cad497",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV11Z7FZVE1WN8VPVHWX0",
+    "source": " comments will be omitted because they are outdated.",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 65,
+    "occurrences_kind": "literal",
+    "source_hash": "0ee399affddc250c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128JWB37D6YFM4NN9V3",
+    "source": "1 comment will be omitted because it is outdated.",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 61,
+    "occurrences_kind": "literal",
+    "source_hash": "07d46ac2801c06cf",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128MV5SMPK1TMC65ZS7",
+    "source": "AI must be enabled to send comments to Agent",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 912,
+    "occurrences_kind": "literal",
+    "source_hash": "aedf5d7e71374162",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1291YDQ5TVWCZ5EBP4V",
+    "source": "CLI agent",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 908,
+    "occurrences_kind": "literal",
+    "source_hash": "bee572042c6ac7b3",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129CMHG8A8P54AMD468",
+    "source": "All terminals are busy",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 916,
+    "occurrences_kind": "literal",
+    "source_hash": "477305af2e6a7e46",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129HV15MXJNK2Q5M56X",
+    "source": "Agent code review requires AI credits",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 914,
+    "occurrences_kind": "literal",
+    "source_hash": "63286288cdac0ca5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12AR6HZFRZ791XBC04G",
+    "source": "Copy text",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 1064,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b0ac9cea86878b84",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CY1X1WZ25GHA8VTCA",
+    "source": "File-level comments currently can't be edited.",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 1074,
+    "occurrences_kind": "literal",
+    "source_hash": "ff45b0808fbba93e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D9RX76JENPX7K78DA",
+    "source": "No non-outdated comments to send",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 905,
+    "occurrences_kind": "literal",
+    "source_hash": "b724afdda77fb500",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EAYPWRZ05MCTGSREZ",
+    "source": "Remove",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 1094,
+    "occurrences_kind": "literal",
+    "source_hash": "c3812fc4acb861d5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EYCJDB243HQ5EAXPJ",
+    "source": "Outdated comments can't be edited.",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 1076,
+    "occurrences_kind": "literal",
+    "source_hash": "79fec61acd88e6db",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FHC82Y9ERZMR9H44J",
+    "source": "Send diff comments to Agent",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 920,
+    "occurrences_kind": "literal",
+    "source_hash": "7ac30a75f5f145c9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FWMXJA4Z11ZAMRRP7",
+    "source": "Send diff comments to {label}",
+    "file": "app/src/code_review/comment_list_view.rs",
+    "line": 909,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7e8e78066ff31883",
+    "audit_verdict": "uncertain"
+  }
+]

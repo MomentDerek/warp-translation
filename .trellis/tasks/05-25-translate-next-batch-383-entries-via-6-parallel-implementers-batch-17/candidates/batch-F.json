@@ -1,0 +1,587 @@
+[
+  {
+    "id": "01KQXQV128GWMFEA4D7GJ0Y2R0",
+    "source": "Access to Reload credits and volume-based discounts",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 591,
+    "occurrences_kind": "literal",
+    "source_hash": "ffae804ee87cdccd",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1292Y60D42FBAKRYF8T",
+    "source": "Auto-reload will automatically purchase credits at your selected rate when your account balance reaches 100 credits. Your monthly spend limit is set at your legacy plan's monthly cost and can be updated in Settings > Billing & usage.",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 364,
+    "occurrences_kind": "literal",
+    "source_hash": "d774170876e60eb8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1299DQR4SS3VT80AZVJ",
+    "source": "Bring your own API key",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 598,
+    "occurrences_kind": "literal",
+    "source_hash": "75598d8b7f1fbafc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129FET646YCKESC8BGT",
+    "source": "Automatically enforced team-wide Zero Data Retention",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 620,
+    "occurrences_kind": "literal",
+    "source_hash": "9d458b7dd54faf24",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129WQ8M8MNCGV30HNZ7",
+    "source": "And more...",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 629,
+    "occurrences_kind": "literal",
+    "source_hash": "5230b3e8e291100a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129XPHGDKPRV24Z89R4",
+    "source": "Build comes with:",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 571,
+    "occurrences_kind": "literal",
+    "source_hash": "a0866d204490c54f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CPVVXHA6T68187J65",
+    "source": "Get Started",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 308,
+    "occurrences_kind": "literal",
+    "source_hash": "983f311018642b0a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DZCNFBAVGH2CST3Y9",
+    "source": "Learn more on our ",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 633,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ac67b5b3783b7d17",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FXDB0RGKK3XCDNR55",
+    "source": "SAML-based SSO",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 612,
+    "occurrences_kind": "literal",
+    "source_hash": "c061cdfa9591688f",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G1QQ7CQH2TEV852T3",
+    "source": "The new Business plan is a primarily usage-based plan, starting at:",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 539,
+    "occurrences_kind": "literal",
+    "source_hash": "cedca4d80e61f868",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GDRTPP4CZRJA4PE72",
+    "source": "The new Business plan comes with:",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 569,
+    "occurrences_kind": "literal",
+    "source_hash": "515f99b618dc94c0",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H2GW3GEBVZGNDAG16",
+    "source": "Warp Build is a primarily usage-based plan, starting at:",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 541,
+    "occurrences_kind": "literal",
+    "source_hash": "9222ab965dc1fdf7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H7C3MJ2V9Q8J25MST",
+    "source": "Welcome to the New Business Plan",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 516,
+    "occurrences_kind": "literal",
+    "source_hash": "07bd435c5d4215bc",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HAYZ9BZJA29C27V0W",
+    "source": "Welcome to Warp Build",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 518,
+    "occurrences_kind": "literal",
+    "source_hash": "3c4ee9c76a61a203",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HD6HMQB04SERJA8W6",
+    "source": "Use auto-reload to never miss a beat.",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 356,
+    "occurrences_kind": "literal",
+    "source_hash": "aa44a39b00f3d6b5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JGY45MZDNZ904N07C",
+    "source": "Your workspace has been updated to the Warp Build Plan as the legacy Pro, Turbo, and Lightspeed plans are sunset.",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 532,
+    "occurrences_kind": "literal",
+    "source_hash": "09311467a4af2a95",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12JJRM2TMNSE0GVRDTQ",
+    "source": "Your workspace has been updated to the new Warp Business Plan as the legacy Business plan is sunset.",
+    "file": "app/src/workspace/view/build_plan_migration_modal.rs",
+    "line": 530,
+    "occurrences_kind": "literal",
+    "source_hash": "5b1eef259ab7198c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B17TTKYP61EE6HRZB",
+    "source": "Failed to trash {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 63,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fd78a75e14e9b641",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B1JHB6YN6PYZKFEFW",
+    "source": "Failed to restore {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 66,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "40a467c53a655633",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B3EZBVCGQH80CCSNX",
+    "source": "Failed to leave {object_name}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 73,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d223a32252063ec4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12B5VEAM88575NJWXAH",
+    "source": "Failed to update {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 57,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fcda689739546797",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BCJ82E47R03PNT6FG",
+    "source": "Failed to start editing {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 97,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f9ba8150643094c2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BERKCFDEVN2Z74N1G",
+    "source": "Failed to move {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 60,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1de8dcfc493c2e67",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BG1YG2E2Z7D1S0YP6",
+    "source": "Failed to delete {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 70,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "eb99c0b2bc8bf3f2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BKHRG01K8WJPP5DD2",
+    "source": "Environment variables could not be saved because changes were made while you were editing.",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 87,
+    "occurrences_kind": "literal",
+    "source_hash": "0bf652c0d8ee1450",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BMBXZ2VRBQ6G7TW1P",
+    "source": "Failed to create {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 51,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b607035cf8422523",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BQTTQ3E4ZA1W26DJA",
+    "source": "Failed to update permissions for {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 103,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "42b99f9078eb5e53",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12BWRXDN5M73CDQTJAE",
+    "source": "Failed to empty trash",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 132,
+    "occurrences_kind": "literal",
+    "source_hash": "52dfafcd35e3d3c8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D8CPX5GFD1Q8DVYY6",
+    "source": "No objects in trash to empty",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 135,
+    "occurrences_kind": "literal",
+    "source_hash": "4707c94799b83e3d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DG8FC57MT5KZKBNN4",
+    "source": "Left {object_name}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 48,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7b06531f09df4ef8",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12FYBPSMF4AAM7H86TE",
+    "source": "Rule could not be saved because changes were made while you were editing.",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 94,
+    "occurrences_kind": "literal",
+    "source_hash": "3ba2c7eb1d2603a9",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G2A1E695DMWRJHW10",
+    "source": "This workflow could not be saved because changes were made while you were editing.",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 80,
+    "occurrences_kind": "literal",
+    "source_hash": "54526e8de28682ce",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GQTQ2VM1WHE3Y67VF",
+    "source": "Successfully updated permissions for {object_name_lowercase}",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 100,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c077791c7bdcd5fb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H66C6P4MKFDR6PV8K",
+    "source": "Trash emptied: {count_objects_message} deleted forever",
+    "file": "app/src/cloud_object/toast_message.rs",
+    "line": 129,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ed2cc5201d12b585",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129B84XV23P1MQ84HGP",
+    "source": "Agent Plan and Todo List",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 358,
+    "occurrences_kind": "literal",
+    "source_hash": "7e829be969e2cf2d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12A24X1FV46S8634W9W",
+    "source": "Conda Environment",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 243,
+    "occurrences_kind": "literal",
+    "source_hash": "022c6577e4301473",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CHZZKH956GTXP43HD",
+    "source": "Git Diff Stats",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 297,
+    "occurrences_kind": "literal",
+    "source_hash": "94bd4e37717329e7",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CWFGNFGZXNXHZ804Z",
+    "source": "GitHub Pull Request",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 322,
+    "occurrences_kind": "literal",
+    "source_hash": "ec9eef7e6ddf3815",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CYSTJ8NX96S43N03H",
+    "source": "Git Branch",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 290,
+    "occurrences_kind": "literal",
+    "source_hash": "3b0ac356c3e4f998",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DHVW96FH25N663HJT",
+    "source": "July 12, 2023",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 400,
+    "occurrences_kind": "literal",
+    "source_hash": "f6a43c033486541d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DWSJN43Z8HFAF2ZEP",
+    "source": "Node.js Version",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 257,
+    "occurrences_kind": "literal",
+    "source_hash": "69290212a3599d75",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DXN13RE57ZEMDJPMD",
+    "source": "Kubernetes Context",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 330,
+    "occurrences_kind": "literal",
+    "source_hash": "9aa772121137cbae",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EB91HJ6VX4YDAW3MD",
+    "source": "Remote Login",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 348,
+    "occurrences_kind": "literal",
+    "source_hash": "65d3fe0d0c948119",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EGVRMW0BHJ4HZXJC1",
+    "source": "Python Virtualenv",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 229,
+    "occurrences_kind": "literal",
+    "source_hash": "77f90a73fc45babb",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EWHZW807TEVMYRSZY",
+    "source": "Plan and Todo List",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 409,
+    "occurrences_kind": "literal",
+    "source_hash": "a3d6c052485b4e19",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G42ZVESANN64ESYNW",
+    "source": "Svn Branch",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 336,
+    "occurrences_kind": "literal",
+    "source_hash": "3c0e4a7032acbc4c",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12G9FK65KAMY21SX6Z6",
+    "source": "Time (12-hour format)",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 276,
+    "occurrences_kind": "literal",
+    "source_hash": "4d752a9a3d0ec78e",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GA2AFH4W1BRE0TGHY",
+    "source": "Time (24-hour format)",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 281,
+    "occurrences_kind": "literal",
+    "source_hash": "9b4611c90eaff968",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12GAK63JYEZR0PSQD7Z",
+    "source": "Svn Uncommitted File Count",
+    "file": "app/src/context_chips/mod.rs",
+    "line": 342,
+    "occurrences_kind": "literal",
+    "source_hash": "8bb26c9e7d3886f2",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV128935AFHMTC6XXAKMF",
+    "source": "A little gift",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 63,
+    "occurrences_kind": "literal",
+    "source_hash": "e9ee176252e06dff",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV1292Z2NPQR0BXCWTM6W",
+    "source": "Agent automations",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 61,
+    "occurrences_kind": "literal",
+    "source_hash": "52edf15c80f2dab4",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129FJMFNWXCYVCN75PF",
+    "source": "Break out of your laptop with cloud agents",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 78,
+    "occurrences_kind": "literal",
+    "source_hash": "b39649eed4692764",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV129Q0CMKHVPCQCTDT1Q",
+    "source": "Agent management",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 62,
+    "occurrences_kind": "literal",
+    "source_hash": "a69146331130957d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12CCX5V2TSB5JP6W2MR",
+    "source": "Infinitely scalable coding agent — run in local sessions or in the cloud.",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 31,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "81670cddc225d0ba",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12D38BF8VM2SR02B9VD",
+    "source": "Launch credits",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 72,
+    "occurrences_kind": "literal",
+    "source_hash": "8b2912bf6048c92a",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DAQNCYY5XRWFR3HJK",
+    "source": "Non-final slides should have a next",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 142,
+    "occurrences_kind": "literal",
+    "source_hash": "acf67dfc213c4392",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12DYRBWVRBRAQH7ZZGA",
+    "source": "Next: {}",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 143,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "173af595eae37b4d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EP30WCG2M190X42NZ",
+    "source": "Orchestrate agents, turning Skills into automations",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 80,
+    "occurrences_kind": "literal",
+    "source_hash": "5909debd0f0ae666",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12EW5JDAZRQ7S3CYSNM",
+    "source": "Oz agents can be defined using the standard Skills format. You can use the built in scheduler to setup agents to run autonomously at set intervals, or use the Oz SDK or API to programmatically start and manage Oz agents.",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 99,
+    "occurrences_kind": "literal",
+    "source_hash": "6aaf07539bfbb75d",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12H15VHS4EXRWYXAC6J",
+    "source": "Track local and cloud agents seamlessly",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 82,
+    "occurrences_kind": "literal",
+    "source_hash": "6675fce08a0e7550",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HDTWN2JR5SNDMGSJB",
+    "source": "Try it out",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 145,
+    "occurrences_kind": "literal",
+    "source_hash": "c0984dd901f06a85",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HHW72QDA7V8E2F45X",
+    "source": "Upgrade to Build this month and receive 1,000 extra credits to try using Oz. Credits are only eligible for Oz runs in Warp-hosted cloud environments.",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 105,
+    "occurrences_kind": "literal",
+    "source_hash": "cb5457798c8a7cac",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HRR113SEJV3SBPYTM",
+    "source": "Use cloud agents to run many agents in parallel, keep agents working when you close your laptop, or start agents programmatically. Plus, you can check on their work through the web.",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 96,
+    "occurrences_kind": "literal",
+    "source_hash": "3278731b47f5d0df",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KQXQV12HY451YSM5GV4F8EMH",
+    "source": "View all of your agents across local and cloud sessions in the Warp app or at [oz.warp.dev](https://oz.warp.dev). Join live agent sessions, continue tasks locally, and steer agents with one click.",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 102,
+    "occurrences_kind": "literal",
+    "source_hash": "266da96c81f9cea5",
+    "audit_verdict": "uncertain"
+  },
+  {
+    "id": "01KS2GEPVR9VQC7TZQFQB9NNRF",
+    "source": "Cloud agents",
+    "file": "app/src/workspace/view/launch_modal/oz_launch.rs",
+    "line": 60,
+    "occurrences_kind": "literal",
+    "source_hash": "7a3e4fc9a3af5d9f",
+    "audit_verdict": "uncertain"
+  }
+]
