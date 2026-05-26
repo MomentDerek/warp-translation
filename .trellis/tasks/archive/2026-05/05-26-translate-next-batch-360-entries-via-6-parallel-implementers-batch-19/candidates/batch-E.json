@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "01KQXQV12EG43PSAKD5KHTK476",
+    "source": "Replace all",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 187,
+    "occurrences_kind": "literal",
+    "source_hash": "2ebcba96256246be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 187,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E7W3VAW8YN9WQZT6Z",
+    "source": "Result {} of {}.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 376,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d40567d329ae18db",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 376,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/view_components/find.rs",
+        "line": 262,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HYV6XG51T0J0PKQHR",
+    "source": "Use enter and shift-enter to navigate between matches. Escape to quit.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 380,
+    "occurrences_kind": "literal",
+    "source_hash": "5e897a6a5083e6b4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 380,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/view_components/find.rs",
+        "line": 266,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DV7BJXMNYXD0FQEM9",
+    "source": "No results.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 384,
+    "occurrences_kind": "literal",
+    "source_hash": "c9a4ff4843dbab2b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 384,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/view_components/find.rs",
+        "line": 270,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GHK0X35S8004NCV86",
+    "source": "Successfully replaced match. Selected match is {match_index} of {remaining_matches}",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 396,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6577ce02d0f2cfbe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 396,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A6FA136MH68VX7G69",
+    "source": "Continue pressing Enter to replace more matches, or use up/down arrows to navigate.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 398,
+    "occurrences_kind": "literal",
+    "source_hash": "30a6d046454990ed",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 398,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GCXYFJJNWJH0BY2XJ",
+    "source": "Successfully replaced the last match.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 403,
+    "occurrences_kind": "literal",
+    "source_hash": "09cfa00e2aec5c6f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 403,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CN3CP9TW54DJD5CV7",
+    "source": "Find bar for searching text in the editor.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 930,
+    "occurrences_kind": "literal",
+    "source_hash": "a08b3575c054aa08",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 930,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CEC9PD4QAX60NQEZK",
+    "source": "Find bar with {} matches found. Currently on match {} of {}.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 932,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "27ccc3cdf203d1d1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 932,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EG8G1YHC01ND30JX3",
+    "source": "Replace field focused. Type replacement text, press Enter to replace current match, Tab to return to find field. Use up/down arrows to navigate matches, Escape to close.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 941,
+    "occurrences_kind": "literal",
+    "source_hash": "6c127732d22f1154",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 941,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZ0ERK145ADKKWKZ1",
+    "source": "Find field focused. Type to search text. Use Enter and Shift-Enter or up/down arrows to navigate between matches. Press Escape to close find bar.",
+    "file": "app/src/code/editor/find/view.rs",
+    "line": 943,
+    "occurrences_kind": "literal",
+    "source_hash": "e803c63e5c038fd6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/editor/find/view.rs",
+        "line": 943,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EZ8KAD72KE07ED832",
+    "source": "Open in Finder",
+    "file": "app/src/drive/export.rs",
+    "line": 240,
+    "occurrences_kind": "literal",
+    "source_hash": "91fd498d792bd69a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 240,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 408,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E659X3MT363KS809Z",
+    "source": "Open in folder",
+    "file": "app/src/drive/export.rs",
+    "line": 242,
+    "occurrences_kind": "literal",
+    "source_hash": "894bd5f01e758ace",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 242,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 410,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CKDXPN7THJAG3WXX3",
+    "source": "Finished exporting objects",
+    "file": "app/src/drive/export.rs",
+    "line": 253,
+    "occurrences_kind": "literal",
+    "source_hash": "545326b5fba04b50",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 253,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BS5TSGDWZ1EFTR1WV",
+    "source": "Exporting {id:?} failed",
+    "file": "app/src/drive/export.rs",
+    "line": 375,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f9ad2a071c372501",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 375,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B9DFTKRK3NA7DNF48",
+    "source": "Exporting {id:?} failed: {error:#}",
+    "file": "app/src/drive/export.rs",
+    "line": 376,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "42dc50f74d3a1305",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 376,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B25CEE2MVS0ZS2XSW",
+    "source": "Failed to export {name}",
+    "file": "app/src/drive/export.rs",
+    "line": 382,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c2fc7cc5d2586d86",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 382,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BTX26ZEYJA8FE4TPR",
+    "source": "Export failed",
+    "file": "app/src/drive/export.rs",
+    "line": 383,
+    "occurrences_kind": "literal",
+    "source_hash": "e94d3ee06ecf6aac",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 383,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BDC5THCA0EKGV19X2",
+    "source": "Exported {name}",
+    "file": "app/src/drive/export.rs",
+    "line": 403,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dc76e27340a3b0b0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 403,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BG7H9FAAA7AQ3N3TX",
+    "source": "Exported object",
+    "file": "app/src/drive/export.rs",
+    "line": 404,
+    "occurrences_kind": "literal",
+    "source_hash": "5190079bbf0497df",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 404,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1125E9P2ZK1F9ZCQ24F",
+    "source": " Matcher for characters which are forbidden in filenames.",
+    "file": "app/src/drive/export.rs",
+    "line": 519,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d11eec88000ffeca",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 519,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EYMAY235ND41DE6WV",
+    "source": "Path patterns should compile",
+    "file": "app/src/drive/export.rs",
+    "line": 536,
+    "occurrences_kind": "literal",
+    "source_hash": "3201425dcd83390c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/export.rs",
+        "line": 536,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AJAB1QC0K5GVRBYJS",
+    "source": "Copied link to {object_name}.",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 928,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0bd1fcaa7c7d9773",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 928,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129M0WQ22J3TSMGGN5A",
+    "source": "Already shared with {}",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1468,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f0fdd87c584fad16",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 1468,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C9JJR184S6SQPD3FV",
+    "source": "Invalid address: {}",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1476,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a4718c1ba53306dd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 1476,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DG70KGWSW7C3NWS9W",
+    "source": "Live session started at {} on {}",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1793,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0929c242953b1b5b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 1793,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JB1Q230J4W85RRR49",
+    "source": "You must have full access to manage permissions. You have ",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1827,
+    "occurrences_kind": "literal",
+    "source_hash": "860f49608803b9bc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 1827,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11XZQEBBA3NY8NT3WM2",
+    "source": " access.",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1828,
+    "occurrences_kind": "literal",
+    "source_hash": "e524268ebdda7ded",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 1828,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GAAP6A6BB06V8SFBY",
+    "source": "Team objects automatically grant full permissions to team members",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1858,
+    "occurrences_kind": "literal",
+    "source_hash": "c00ebddf5327db1b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 1858,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E856QNRTD2BWASE86",
+    "source": "Owners always have full permissions on their objects",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 1859,
+    "occurrences_kind": "literal",
+    "source_hash": "c50e0923ce10ce40",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 1859,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D919EDXET6V2VGHC5",
+    "source": "Only people invited",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2001,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dd6cd1e45eacda89",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2001,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129NJ3W1TB9VQ4AHDZE",
+    "source": "Anyone with the link",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2007,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5b7f701785be58f4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2007,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/drive/sharing/mod.rs",
+        "line": 113,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AHFXA23Z5S16WF3MA",
+    "source": "Dialog handle must be upgradeable if rendered",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2311,
+    "occurrences_kind": "literal",
+    "source_hash": "aeb5521e370de157",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2311,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GT55F7Z8DVNTD4D6J",
+    "source": "Solarized Light",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 310,
+    "occurrences_kind": "literal",
+    "source_hash": "320515b8209bb75c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 310,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 119,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GKHPJ5K1Z6M8F71HN",
+    "source": "Solarized Dark",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 323,
+    "occurrences_kind": "literal",
+    "source_hash": "84d6cee9d4e85617",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 323,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 118,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C7F6A5CADWQSVV3ZJ",
+    "source": "Gruvbox Dark",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 336,
+    "occurrences_kind": "literal",
+    "source_hash": "50e670345733a356",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 336,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 120,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C243M0D0XD45835NX",
+    "source": "Gruvbox Light",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 349,
+    "occurrences_kind": "literal",
+    "source_hash": "e398b84d2084adb8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 349,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 121,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ASWWF40SBJ4H4WWYN",
+    "source": "Cyber Wave",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 369,
+    "occurrences_kind": "literal",
+    "source_hash": "1a1345819e7ee4b9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 369,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 130,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JK269VHKRKSKQVGFS",
+    "source": "Willow Dream",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 388,
+    "occurrences_kind": "literal",
+    "source_hash": "82508128e963800f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 388,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 131,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BGPFHW3QSCQV78CK4",
+    "source": "Fancy Dracula",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 407,
+    "occurrences_kind": "literal",
+    "source_hash": "aa47a613f13489bd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 407,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 132,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EAT12HAM4G5BRXASJ",
+    "source": "Pink City",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 507,
+    "occurrences_kind": "literal",
+    "source_hash": "4952ba5a85edcca4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 507,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 126,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E95V65RDNHA0ARSZV",
+    "source": "Red Rock",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 547,
+    "occurrences_kind": "literal",
+    "source_hash": "280cf768fd04af03",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 547,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 129,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A3TPKVFZ8TKPY98T8",
+    "source": "Dark City",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 568,
+    "occurrences_kind": "literal",
+    "source_hash": "496f07686808f0f2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 568,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 128,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HCR6C7QNB2P66JCAN",
+    "source": "Warp Referral",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 584,
+    "occurrences_kind": "literal",
+    "source_hash": "31ac0eb590f9291f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 584,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 136,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G6KR6HS9Y50WKYMDS",
+    "source": "Solar Flare",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 600,
+    "occurrences_kind": "literal",
+    "source_hash": "11f481490debfa46",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 600,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 134,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E5KH9VR1ZXXH4GQ3J",
+    "source": "Received Referral Reward",
+    "file": "app/src/themes/default_themes.rs",
+    "line": 629,
+    "occurrences_kind": "literal",
+    "source_hash": "028997221f9b8575",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/default_themes.rs",
+        "line": 629,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H60SFV0W1AMPZ4JKP",
+    "source": "VSCode Insiders",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 115,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "514f51fa37ed624b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 115,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EEJK8DYQQE4S0Q7YK",
+    "source": "PyCharm Community Edition",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 117,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "119a7c2ba1c7bb52",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 117,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CS6PMF5W35TMK11VM",
+    "source": "IntelliJ Community Edition",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 119,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "595d8aeea342590d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 119,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129ZC5AH3TH78ZVW42D",
+    "source": "CLion Community Edition",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 121,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b85d8a1087b34bc6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 121,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GW2J51K6C04HKH5YH",
+    "source": "Sublime 4",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 125,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "470d58a9feb30fa5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 125,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GACW7FDSWASJZR603",
+    "source": "Sublime 3",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 127,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9fd6381e4d0cc227",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 127,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GRE848VEBDGWZDR9S",
+    "source": "Sublime 2",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 129,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "906622a3d272da55",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 129,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JQPR0KBRHA8FMCTYJ",
+    "source": "Zed Preview",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 135,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b24280cef7b90d59",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 135,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12930ZKRNYQES5FJ9ZW",
+    "source": "Android Studio",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 140,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b96858aa7d234ce8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 140,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FH04E6514QFG5MQ60",
+    "source": "Rust Rover (Preview)",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 142,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f21753e20c231c6f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 142,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F9D04AX9YKFDGMXYR",
+    "source": "Rust Rover",
+    "file": "app/src/util/file/external_editor/mod.rs",
+    "line": 143,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a5f32fb827d5b29a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file/external_editor/mod.rs",
+        "line": 143,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CY2DFA1A2BK4ZKN80",
+    "source": "Invalid MembershipRole from server; treating as User",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 112,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "58cd1bc8c230155f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 112,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CRZR45CTZWCEB47DT",
+    "source": "Invalid UgcCollectionEnablementSetting '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 246,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e5866e9c958ac3d3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 246,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CPCRABAZEZ838NYE8",
+    "source": "Invalid AdminEnablementSetting '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 287,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f24e26f062eafacf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 287,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CQCA45F7337926KMZ",
+    "source": "Invalid HostEnablementSetting '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 304,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f0a64327395a84e4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 304,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQPCAQJS4V00SYRBG2WD",
+    "source": "Unexpected maxPriorCycles value '{other}' from server; treating as unlimited",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 479,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a51824aa1be0b3d1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 479,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CWBRTTGT260RX2SWS",
+    "source": "Invalid AiAutonomyValue '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 664,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "77e5eb8ce601778a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 664,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQ97H0SXN5DRHS2D7Q83",
+    "source": "Invalid WriteToPtyAutonomyValue '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 681,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fb2bad41320a6bd4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 681,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C51YRMXGPSFFVZ38G",
+    "source": "Invalid ComputerUseAutonomyValue '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 698,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "461d3dcff8bdb1e8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 698,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A1KHJFHABVYXH5HKH",
+    "source": "Couldn't parse GQL-provided command regex into AgentModeCommandExecutionPredicate",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 717,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4421d677bf996a80",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 717,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H72VF29HBKXYYVX6Z",
+    "source": "Unknown LlmModelHost '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 745,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "594fb3f48f2cef56",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 745,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQ5EAVXT5B812B4K4",
+    "source": "Usage-based pricing has a negative max monthly spend of {} cents",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 891,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "008d1dda57eda668",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 891,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

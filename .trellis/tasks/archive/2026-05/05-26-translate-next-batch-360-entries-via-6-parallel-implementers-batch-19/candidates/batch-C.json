@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "01KQXQV12BS4YECA58NYVXX61Z",
+    "source": "Failed to enable auto-reload for your team. Please try again in Settings > Billing and Usage.",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 220,
+    "occurrences_kind": "literal",
+    "source_hash": "594fa12f2f958cc5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 220,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H38NZP0BNY33RJ8EY",
+    "source": "When enabled, auto reload will purchase {} credits when your credit balance gets low",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 265,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ac0f3bb20d631a1d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 265,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JB2RZPF38ARK9CVWC",
+    "source": "Your monthly spend limit has been reached. Increase it to continue.",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 416,
+    "occurrences_kind": "literal",
+    "source_hash": "b5f641429ceb2d18",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 416,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A9EGQSRY83YRJ7AVV",
+    "source": "Contact a team admin to increase monthly limit.",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 418,
+    "occurrences_kind": "literal",
+    "source_hash": "60a6fa79eb42b568",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 418,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQC9HN9P90WNJJ6C3R6F",
+    "source": "Monthly limit reached",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 425,
+    "occurrences_kind": "literal",
+    "source_hash": "2dfb022e1b2d5b5f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 425,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E1VJC5N4514R5CY4M",
+    "source": "Purchasing these credits would take you over your monthly spend limit. ",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 574,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0907094a8c99563c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 574,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C6R96CZF60B6MWQEP",
+    "source": "Increase it",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 576,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ae5d1cf55d0aa505",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 576,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129WFA3CF06TKDR8M12",
+    "source": "Add more credits to your account to continue using Oz agents.",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 605,
+    "occurrences_kind": "literal",
+    "source_hash": "697cc9e540a084d1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 605,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AN6GMH9Q46JERVB60",
+    "source": "Contact a team admin to purchase more credits to continue.",
+    "file": "app/src/terminal/buy_credits_banner.rs",
+    "line": 607,
+    "occurrences_kind": "literal",
+    "source_hash": "2b0a469d69fe3013",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/buy_credits_banner.rs",
+        "line": 607,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DE75C6PSD8N271S2D",
+    "source": "Matched PTY output as typeahead",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 147,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b74ecc0a24e53332",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 147,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D2YYW8YBQECBNAXYH",
+    "source": "Matched {ch:?} as typeahead",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 148,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "953bdd614a55a391",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 148,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129769DYB9TPS9J4H38",
+    "source": "Clearing accumulated typeahead",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 191,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "099f9bd5bd8acded",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 191,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129FZRMKNJRX4XEJ2ZF",
+    "source": "Clearing accumulated typeahead: {:?}",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 192,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0ae8db54fe84e76c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 192,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EKNYPP9HJ0JEH166B",
+    "source": "Received shell input buffer for typeahead",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 351,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dad301350f08d2f0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 351,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EN9YD16JXFNZQMC97",
+    "source": "Received shell input buffer for typeahead: {:?}",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 352,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4142347af341a8db",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 352,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CK8GPKRKYAZQV7HQ9",
+    "source": "Initializing command grid from matched typeahead",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 372,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ee9595f7f366ec33",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 372,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CCWZDFF9E6JFFWTJY",
+    "source": "Initializing command grid from matched typeahead: {command:?}",
+    "file": "app/src/terminal/model/early_output.rs",
+    "line": 373,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ef0da5f059034baf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/early_output.rs",
+        "line": 373,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E051WKNF4HKHDB2W2",
+    "source": "Received non-% character at the beginning of a line",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 169,
+    "occurrences_kind": "literal",
+    "source_hash": "ed835463237b44e1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 169,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BK1SVA8A57KGKHMCE",
+    "source": "Extraneous byte after %exit",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 241,
+    "occurrences_kind": "literal",
+    "source_hash": "98830fe837902b4b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 241,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DPMD1HXET7X6PPSR3",
+    "source": "Non-digit character in %output pane number",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 325,
+    "occurrences_kind": "literal",
+    "source_hash": "85fd8c6120486699",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 325,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H540E96CKF8SA5XWT",
+    "source": "Unexpected character after %output",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 338,
+    "occurrences_kind": "literal",
+    "source_hash": "884de533dfd44c4e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 338,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DC042CY8HGWVYPNP5",
+    "source": "Non-octal digit found in output escape sequence",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 376,
+    "occurrences_kind": "literal",
+    "source_hash": "917a13b39df6aa13",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 376,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQQ02CY2AD4DJ47TS",
+    "source": "Unescaped character < ASCII 32 found in output",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 399,
+    "occurrences_kind": "literal",
+    "source_hash": "d3c84ecebcb20214",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 399,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DGBC7VP1B49V8CMAQ",
+    "source": "Non-digit character in %window-close window number",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 428,
+    "occurrences_kind": "literal",
+    "source_hash": "c471aeb7cab53e7d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 428,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H5FZJEAA8NNHPKST7",
+    "source": "Unexpected character after %window-close",
+    "file": "app/src/terminal/model/tmux/parser.rs",
+    "line": 443,
+    "occurrences_kind": "literal",
+    "source_hash": "7c55196002e41b99",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/parser.rs",
+        "line": 443,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GCKRCDB2FDNB5H9AW",
+    "source": "The shell to use when Warp starts up.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 288,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4f6f213a50e0776d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 288,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G81KAGJTN49QYZVF0",
+    "source": "The shell to use when opening a new session.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 297,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ee43b51a1cd74e5f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 297,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JPZXJCJNF98TKS0A6",
+    "source": "Whether to use your shell's PS1 prompt instead of the Warp prompt.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 306,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4693e2f6627a22c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 306,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HTJ9DHW2W9KT10082",
+    "source": "Whether to show a confirmation dialog when closing a session.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 329,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d89f9c4e176863ff",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 329,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DKA0K16MWWT80ACCW",
+    "source": "Notification preferences for terminal events.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 347,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4e66783966da2547",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 347,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H9S8ZGPXN8597JGB2",
+    "source": "Whether to show AI model selectors in the input prompt.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 370,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "55f1e3e60bd1afdd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 370,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AEMRA358DPRGECCJS",
+    "source": "Controls the layout of context chips in the Agent Mode toolbar.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 379,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f270878448266e22",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 379,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ACY84C8D909633TZE",
+    "source": "Controls the layout of context chips in the CLI Agent toolbar.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 388,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dc05a31a94b4cc93",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 388,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CJFERXN7ARKAVD6VC",
+    "source": "How long notification toasts are displayed, in seconds.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 397,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "59efdcaa29265e58",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 397,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AZY4K5XM9EZWBAVW8",
+    "source": "Controls the working directory used when opening new sessions.",
+    "file": "app/src/terminal/session_settings.rs",
+    "line": 430,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f58e98c5df5f326c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/session_settings.rs",
+        "line": 430,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FVKH6M6TVN1STD3CW",
+    "source": "Share from current screen",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 164,
+    "occurrences_kind": "literal",
+    "source_hash": "cf3c4eaee84fb411",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 164,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FM1Y3S1D1H1QHYRWC",
+    "source": "Share from current block",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 170,
+    "occurrences_kind": "literal",
+    "source_hash": "b0ac5d8c71ffadeb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 170,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F8RJYKF59ZB2DGB1A",
+    "source": "Share without scrollback",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 172,
+    "occurrences_kind": "literal",
+    "source_hash": "c571d58152af887d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 172,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FCQVW38DCV5R6VERH",
+    "source": "Share from start of session",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 183,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bf7e3f8c2446f872",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 183,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GBAPG2Y5P07CTARY0",
+    "source": "Start sharing",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 247,
+    "occurrences_kind": "literal",
+    "source_hash": "c6cfcaba979dd090",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 247,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GXS5K4GX2N0DFHWB9",
+    "source": "Some options are disabled due to sharing size limits and the presence of agent conversations in the session",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 342,
+    "occurrences_kind": "literal",
+    "source_hash": "7053b53cc66e08cf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 342,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G6YANYMSR01YF0V62",
+    "source": "Some options are disabled due to sharing size limits",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 344,
+    "occurrences_kind": "literal",
+    "source_hash": "5072f0c13d0f97f6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 344,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 351,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FQC50A0CXW40E7FA0",
+    "source": "Sharing without scrollback is disabled because this session has agent conversations",
+    "file": "app/src/terminal/shared_session/share_modal/body.rs",
+    "line": 349,
+    "occurrences_kind": "literal",
+    "source_hash": "8bc95429d8cd0bda",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/share_modal/body.rs",
+        "line": 349,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BR8TX1BJNBYGPM1ZN",
+    "source": "Failed to create shared session",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 663,
+    "occurrences_kind": "literal",
+    "source_hash": "936641b5b10cfdfe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 663,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HWNP0425XBVXVV61E",
+    "source": "Websocket closed before starting session",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 810,
+    "occurrences_kind": "literal",
+    "source_hash": "5619262a2323c887",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 810,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12986P051QRQC1XR7WQ",
+    "source": "Can add durations",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1085,
+    "occurrences_kind": "literal",
+    "source_hash": "5eba3637562b1318",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1085,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/shared_session/viewer/network.rs",
+        "line": 742,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FXDPHH2QNMR1PHC23",
+    "source": "Session limit ({max_bytes}) exceeded. Please reshare to continue.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1259,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9b65ec3c798e2bd3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1259,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FAZWT98X81TA95GV3",
+    "source": "Session ended due to an internal error. Please try sharing again.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1262,
+    "occurrences_kind": "literal",
+    "source_hash": "2cb26346e4dabe4c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1262,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129T4V8M3KVEKB81HH1",
+    "source": "An internal error occurred. Please try sharing again.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1271,
+    "occurrences_kind": "literal",
+    "source_hash": "41b062e7a73f5c4c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1271,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F8MVHMBBE92TS6Q5F",
+    "source": "Scrollback exceeds limit. Try sharing again without scrollback.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1274,
+    "occurrences_kind": "literal",
+    "source_hash": "e2c89861bdf517d1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1274,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J5SPZMZ448VVSW8WK",
+    "source": "You must be logged in to share sessions.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1280,
+    "occurrences_kind": "literal",
+    "source_hash": "5eaf91cf2ef568b6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1280,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DGGK91TB2BXNA8XX6",
+    "source": "One or more emails were not associated with Warp accounts.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1289,
+    "occurrences_kind": "literal",
+    "source_hash": "87356819d1f5e8c1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1289,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DBWQ5TF2ABWYDVC18",
+    "source": "One or more emails have already been added to the session.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1292,
+    "occurrences_kind": "literal",
+    "source_hash": "4992aad21115b426",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1292,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JWR2TY9BGY04PNWJZ",
+    "source": "Your agent is currently running on a {} machine. ",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 158,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "216368d36846888f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 158,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV120H77DY9K031PRHSS5",
+    "source": " for more powerful cloud agents.",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 169,
+    "occurrences_kind": "literal",
+    "source_hash": "b1ec672739540f02",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 169,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BCG74S93VDS8VDFYS",
+    "source": "Failed to start environment",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 237,
+    "occurrences_kind": "literal",
+    "source_hash": "6090de474933c2e7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 237,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C288FZBSAWZVSM9GW",
+    "source": "GitHub Authentication Required",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 327,
+    "occurrences_kind": "literal",
+    "source_hash": "502cbe1f64280d1f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 327,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EX10ENX6H0HSY0F1P",
+    "source": "Please authenticate with GitHub to continue",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 337,
+    "occurrences_kind": "literal",
+    "source_hash": "34560a8f5e4d585d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 337,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129H7GS1SQ2NV6FTPKW",
+    "source": "Authenticate with GitHub",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 349,
+    "occurrences_kind": "literal",
+    "source_hash": "48cd4b06291772e7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 349,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129WC043R8CXT7YV6AM",
+    "source": "Cloud Agent Run Cancelled",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 414,
+    "occurrences_kind": "literal",
+    "source_hash": "220b58447ad18bad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 414,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D2JGSQ2TQ0ATD6A27",
+    "source": "No cloud environment was started",
+    "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+    "line": 424,
+    "occurrences_kind": "literal",
+    "source_hash": "712570c95b3653cc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/loading_screen.rs",
+        "line": 424,
+        "kind": "literal"
+      }
+    ]
+  }
+]

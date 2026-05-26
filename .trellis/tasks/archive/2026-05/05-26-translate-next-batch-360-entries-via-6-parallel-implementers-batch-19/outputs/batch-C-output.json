@@ -1,0 +1,126 @@
+{
+  "translations": {
+    "01KQXQV12BS4YECA58NYVXX61Z": "无法为您的团队启用自动充值。请稍后在“Settings > Billing and Usage”中重试。",
+    "01KQXQV12H38NZP0BNY33RJ8EY": "启用后，当您的额度余额不足时，自动充值将购买 {} 个额度",
+    "01KQXQV12JB2RZPF38ARK9CVWC": "您已达到每月支出上限。请提高上限以继续使用。",
+    "01KQXQV12A9EGQSRY83YRJ7AVV": "请联系团队管理员以提高每月上限。",
+    "01KS2GEQC9HN9P90WNJJ6C3R6F": "已达到每月上限",
+    "01KQXQV12E1VJC5N4514R5CY4M": "购买这些额度将使您超出每月支出上限。 ",
+    "01KQXQV12C6R96CZF60B6MWQEP": "提高上限",
+    "01KQXQV129WFA3CF06TKDR8M12": "向您的账户添加更多额度以继续使用 Oz agent。",
+    "01KQXQV12AN6GMH9Q46JERVB60": "请联系团队管理员以购买更多额度后继续。",
+    "01KQXQV12DE75C6PSD8N271S2D": null,
+    "01KQXQV12D2YYW8YBQECBNAXYH": null,
+    "01KQXQV129769DYB9TPS9J4H38": null,
+    "01KQXQV129FZRMKNJRX4XEJ2ZF": null,
+    "01KQXQV12EKNYPP9HJ0JEH166B": null,
+    "01KQXQV12EN9YD16JXFNZQMC97": null,
+    "01KQXQV12CK8GPKRKYAZQV7HQ9": null,
+    "01KQXQV12CCWZDFF9E6JFFWTJY": null,
+    "01KQXQV12E051WKNF4HKHDB2W2": null,
+    "01KQXQV12BK1SVA8A57KGKHMCE": null,
+    "01KQXQV12DPMD1HXET7X6PPSR3": null,
+    "01KQXQV12H540E96CKF8SA5XWT": null,
+    "01KQXQV12DC042CY8HGWVYPNP5": null,
+    "01KQXQV12HQQ02CY2AD4DJ47TS": null,
+    "01KQXQV12DGBC7VP1B49V8CMAQ": null,
+    "01KQXQV12H5FZJEAA8NNHPKST7": null,
+    "01KQXQV12GCKRCDB2FDNB5H9AW": "Warp 启动时使用的 shell。",
+    "01KQXQV12G81KAGJTN49QYZVF0": "打开新会话时使用的 shell。",
+    "01KQXQV12JPZXJCJNF98TKS0A6": "是否使用您 shell 的 PS1 提示符代替 Warp 提示符。",
+    "01KQXQV12HTJ9DHW2W9KT10082": "关闭会话时是否显示确认对话框。",
+    "01KQXQV12DKA0K16MWWT80ACCW": "终端事件的通知偏好。",
+    "01KQXQV12H9S8ZGPXN8597JGB2": "是否在输入提示符中显示 AI 模型选择器。",
+    "01KQXQV12AEMRA358DPRGECCJS": "控制 Agent Mode 工具栏中上下文 chip 的布局。",
+    "01KQXQV12ACY84C8D909633TZE": "控制 CLI Agent 工具栏中上下文 chip 的布局。",
+    "01KQXQV12CJFERXN7ARKAVD6VC": "通知 toast 的显示时长（秒）。",
+    "01KQXQV12AZY4K5XM9EZWBAVW8": "控制打开新会话时使用的工作目录。",
+    "01KQXQV12FVKH6M6TVN1STD3CW": "从当前屏幕开始分享",
+    "01KQXQV12FM1Y3S1D1H1QHYRWC": "从当前命令块开始分享",
+    "01KQXQV12F8RJYKF59ZB2DGB1A": "分享时不包含回滚内容",
+    "01KQXQV12FCQVW38DCV5R6VERH": "从会话开始处分享",
+    "01KQXQV12GBAPG2Y5P07CTARY0": "开始分享",
+    "01KQXQV12GXS5K4GX2N0DFHWB9": "由于分享大小限制以及会话中存在 agent 对话，部分选项已被禁用",
+    "01KQXQV12G6YANYMSR01YF0V62": "由于分享大小限制，部分选项已被禁用",
+    "01KQXQV12FQC50A0CXW40E7FA0": "由于此会话包含 agent 对话，不包含回滚内容的分享方式已被禁用",
+    "01KQXQV12BR8TX1BJNBYGPM1ZN": null,
+    "01KQXQV12HWNP0425XBVXVV61E": null,
+    "01KQXQV12986P051QRQC1XR7WQ": null,
+    "01KQXQV12FXDPHH2QNMR1PHC23": "会话已超出大小上限（{max_bytes}）。请重新发起分享以继续。",
+    "01KQXQV12FAZWT98X81TA95GV3": "会话因内部错误而结束。请再次尝试分享。",
+    "01KQXQV129T4V8M3KVEKB81HH1": "发生内部错误。请再次尝试分享。",
+    "01KQXQV12F8MVHMBBE92TS6Q5F": "回滚内容超出上限。请重新分享且不包含回滚内容。",
+    "01KQXQV12J5SPZMZ448VVSW8WK": "您必须登录后才能分享会话。",
+    "01KQXQV12DGGK91TB2BXNA8XX6": "一个或多个邮箱未关联到 Warp 账户。",
+    "01KQXQV12DBWQ5TF2ABWYDVC18": "一个或多个邮箱已被添加到会话中。",
+    "01KQXQV12JWR2TY9BGY04PNWJZ": "您的 agent 当前运行在 {} 机器上。 ",
+    "01KQXQV120H77DY9K031PRHSS5": " ，以使用更强大的云端 agent。",
+    "01KQXQV12BCG74S93VDS8VDFYS": "启动环境失败",
+    "01KQXQV12C288FZBSAWZVSM9GW": "需要 GitHub 身份验证",
+    "01KQXQV12EX10ENX6H0HSY0F1P": "请通过 GitHub 进行身份验证以继续",
+    "01KQXQV129H7GS1SQ2NV6FTPKW": "通过 GitHub 进行身份验证",
+    "01KQXQV129WC043R8CXT7YV6AM": "云端 Agent 运行已取消",
+    "01KQXQV12D2JGSQ2TQ0ATD6A27": "未启动云端环境"
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12DE75C6PSD8N271S2D": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12D2YYW8YBQECBNAXYH": [
+      "telemetry_payload"
+    ],
+    "01KQXQV129769DYB9TPS9J4H38": [
+      "telemetry_payload"
+    ],
+    "01KQXQV129FZRMKNJRX4XEJ2ZF": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12EKNYPP9HJ0JEH166B": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12EN9YD16JXFNZQMC97": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12CK8GPKRKYAZQV7HQ9": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12CCWZDFF9E6JFFWTJY": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12E051WKNF4HKHDB2W2": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12BK1SVA8A57KGKHMCE": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12DPMD1HXET7X6PPSR3": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12H540E96CKF8SA5XWT": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12DC042CY8HGWVYPNP5": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12HQQ02CY2AD4DJ47TS": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12DGBC7VP1B49V8CMAQ": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12H5FZJEAA8NNHPKST7": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12BR8TX1BJNBYGPM1ZN": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12HWNP0425XBVXVV61E": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12986P051QRQC1XR7WQ": [
+      "panic_message"
+    ]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "Batch-C (61 entries). Classification:\n- buy_credits_banner.rs (9): all UI banner/tooltip/error text -> translate.\n- model/early_output.rs (8): all are safe_debug! macro args (resolves to log::debug! only) -> flag_telemetry_payload.\n- model/tmux/parser.rs (8): all flow through report_parse_error -> TmuxMessage::ParseError {message, byte}, but the message field is discarded by every consumer (`message: _`) and only `parse_error = true` is set. Strings never reach UI -> flag_telemetry_payload (developer diagnostic only).\n- session_settings.rs (10): all are settings macro `description:` fields surfaced in the settings panel tooltip -> translate.\n- shared_session/share_modal/body.rs (8): pure share-modal UI -> translate.\n- shared_session/sharer/network.rs (10): \n   - 663 'Failed to create shared session' is an anyhow .context() chained into report_error! macro (log only) -> telemetry_payload.\n   - 810 'Websocket closed before starting session' lives in InternalServerError { details } but every consumer discards `details` (`.. ` / `_`) and uses a generic user-facing message instead -> telemetry_payload.\n   - 1085 .expect('Can add durations') -> panic_message.\n   - 1259/1262/1271/1274/1280/1289/1292 are direct user-facing strings returned to UI -> translate.\n- view/ambient_agent/loading_screen.rs (8): all UI Text/Button labels and error dialog text -> translate.\nGlossary: kept `Warp`, `Agent`/`agent`, `GitHub`, `Oz`, `shell`, `chip`, `toast`, `PS1`, `CLI`, `AI` as English brand/identifier terms. Preserved trailing space in 01KQXQV12E1VJC5N4514R5CY4M ('Purchasing these credits would take you over your monthly spend limit. ') -- target also ends with trailing ASCII space because the next fragment is the 'Increase it' hyperlink. Preserved {} placeholder in 01KQXQV12H38NZP0BNY33RJ8EY (selected_credits, a number, so Chinese function-words around it are safe) and 01KQXQV12JWR2TY9BGY04PNWJZ ('Your agent is currently running on a {} machine. ' — {} is a `specs` string description like 'GPU' / '64GB RAM', kept English nominal placement). 01KQXQV12FXDPHH2QNMR1PHC23 preserves {max_bytes}. 01KQXQV120H77DY9K031PRHSS5 ' for more powerful cloud agents.' is the trailing fragment after the 'Upgrade' hyperlink — translated with leading full-width comma '，' so it reads naturally after the link text. Used 您 throughout. ASCII '...' not present in any source."
+}

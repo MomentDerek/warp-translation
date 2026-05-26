@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "01KQXQV12AJKN4X5M0VWEY228Q",
+    "source": "Cursor display type not found in Sequence!",
+    "file": "app/src/settings/editor.rs",
+    "line": 68,
+    "occurrences_kind": "literal",
+    "source_hash": "771ee118a5a5c6db",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 68,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HAEVXTZVY2JVKBZB4",
+    "source": "User defined",
+    "file": "app/src/settings/editor.rs",
+    "line": 96,
+    "occurrences_kind": "literal",
+    "source_hash": "7b5dd629c1b183da",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 96,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HBGQ3J6093Y9KC5NS",
+    "source": "Whether the cursor blinks.",
+    "file": "app/src/settings/editor.rs",
+    "line": 160,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fdc9b2b998243836",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 160,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G4867WZ4PCJWKVRDK",
+    "source": "The visual style of the cursor.",
+    "file": "app/src/settings/editor.rs",
+    "line": 170,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "533529bf1971effb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 170,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HBJCV46HDP6585GTR",
+    "source": "Whether Vim keybindings are enabled.",
+    "file": "app/src/settings/editor.rs",
+    "line": 179,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f0387ebb26211b18",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 179,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HYQXFG85DFM9HSAPS",
+    "source": "Whether the Vim unnamed register uses the system clipboard.",
+    "file": "app/src/settings/editor.rs",
+    "line": 188,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c46332629e5e9c26",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 188,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HWNXC7ATG41M05QNQ",
+    "source": "Whether the Vim status bar is displayed.",
+    "file": "app/src/settings/editor.rs",
+    "line": 197,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6f722e3acbe26dc1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 197,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H2ZH1KKH6Y0RYA52Q",
+    "source": "Whether matching symbols like brackets and quotes are auto-completed.",
+    "file": "app/src/settings/editor.rs",
+    "line": 206,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "71ac6bbde49255e8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 206,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H2BM83MCBFGAGR2MH",
+    "source": "Whether command autosuggestions are shown.",
+    "file": "app/src/settings/editor.rs",
+    "line": 216,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0b34e6784315b192",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 216,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HN1S8TGGJH95VEEBY",
+    "source": "Whether autosuggestion keybinding hints are displayed.",
+    "file": "app/src/settings/editor.rs",
+    "line": 225,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fd1ebcc4e9f6fe04",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 225,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HSQ33SZ30SZTP8HV7",
+    "source": "Whether the ignore button is shown for autosuggestions.",
+    "file": "app/src/settings/editor.rs",
+    "line": 234,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "498fd1d1dfcaebaa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 234,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G60B0ABJW2GCYEMXF",
+    "source": "The monospace font used in the terminal.",
+    "file": "app/src/settings/font.rs",
+    "line": 25,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8a0f3129a9cdf45",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 25,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G90WFWJZP02WJC7VE",
+    "source": "The size of the monospace font in the terminal.",
+    "file": "app/src/settings/font.rs",
+    "line": 35,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "522af25243abf523",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 35,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GYGGRJX3M04H8ASJ0",
+    "source": "The weight of the monospace font in the terminal.",
+    "file": "app/src/settings/font.rs",
+    "line": 45,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dc60c53564762c7d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 45,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GKEWQZK10K4M87BWF",
+    "source": "The line height ratio for terminal text.",
+    "file": "app/src/settings/font.rs",
+    "line": 54,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "eed32804634b72fa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 54,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GJET3FHSXVP8NHDS5",
+    "source": "The font used for AI-generated content.",
+    "file": "app/src/settings/font.rs",
+    "line": 64,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "31d68db2b6225080",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 64,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HFW84NGZ43W0TW9YR",
+    "source": "Whether the AI font automatically matches the terminal font.",
+    "file": "app/src/settings/font.rs",
+    "line": 74,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dcac210cb9790c88",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 74,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GNJAQDZMK5D0YV467",
+    "source": "The font size used in notebooks.",
+    "file": "app/src/settings/font.rs",
+    "line": 83,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "50df5592f061d653",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 83,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HFJDNXMFR01E5XA3A",
+    "source": "Whether the notebook font size matches the terminal font size.",
+    "file": "app/src/settings/font.rs",
+    "line": 92,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9d311286d03c0d2e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 92,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HAC1EH0HM92FX6T9G",
+    "source": "Whether to enforce minimum contrast for text readability.",
+    "file": "app/src/settings/font.rs",
+    "line": 101,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8ea9ec01bacf4bcb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 101,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J4JNDWEJBJJZTS2AY",
+    "source": "Whether to use thin font strokes on macOS.",
+    "file": "app/src/settings/font.rs",
+    "line": 110,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d574dc271d4617c5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/font.rs",
+        "line": 110,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HGH6X68KQM7YKCN45",
+    "source": "Whether hint text is shown in the terminal input.",
+    "file": "app/src/settings/input.rs",
+    "line": 44,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ce3e54c23989f4ea",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 44,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HDHT3JAR41WNHGW8T",
+    "source": "Whether classic completions mode is enabled.",
+    "file": "app/src/settings/input.rs",
+    "line": 53,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8b84423d300e28ce",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 53,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HT8B2BTNHB3P81XA5",
+    "source": "Whether the completions menu opens automatically while typing.",
+    "file": "app/src/settings/input.rs",
+    "line": 62,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dd4493afba3af855",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 62,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HAVFGZ0DDK8F2EG06",
+    "source": "Whether command errors are underlined in the input.",
+    "file": "app/src/settings/input.rs",
+    "line": 71,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a5fd070d97f14049",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 71,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HT3JAXRFFDX84V02K",
+    "source": "Whether syntax highlighting is enabled in the terminal input.",
+    "file": "app/src/settings/input.rs",
+    "line": 80,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "950fe3b0d95f9ecc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 80,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HWAJD0QD3ZSR53HQR",
+    "source": "Whether command corrections are suggested for mistyped commands.",
+    "file": "app/src/settings/input.rs",
+    "line": 89,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "63ca0b3789ffa477",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 89,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GM93V1W210DQSSWAT",
+    "source": "The terminal input style.",
+    "file": "app/src/settings/input.rs",
+    "line": 113,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "92e8c85a574c7a36",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 113,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJ6N04AQS9NP7EC86",
+    "source": "Whether the @ context menu is available in terminal mode.",
+    "file": "app/src/settings/input.rs",
+    "line": 122,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e8c291965209f2c7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 122,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HDJ1KWMVH6J9DX65J",
+    "source": "Whether slash commands are available in the terminal input.",
+    "file": "app/src/settings/input.rs",
+    "line": 131,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "36484fedf3f88a78",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 131,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HMS34XJE3QPV530YD",
+    "source": "Whether codebase symbols appear in the @ context menu.",
+    "file": "app/src/settings/input.rs",
+    "line": 140,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9828ae4139318305",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 140,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HTR40150MADE7NRQK",
+    "source": "Whether agent tips are displayed in the input.",
+    "file": "app/src/settings/input.rs",
+    "line": 163,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5aa7ed47e1f77288",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 163,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HWGNH5AXT5Z02R1SZ",
+    "source": "Whether the terminal input message bar is shown.",
+    "file": "app/src/settings/input.rs",
+    "line": 174,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "069af8d594347d41",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/input.rs",
+        "line": 174,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A7E8TXRCDJGF93YAR",
+    "source": "Couldn't parse due to invalid syntax",
+    "file": "app/src/settings/mod.rs",
+    "line": 83,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1b172b2f73a99e2f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 83,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CC60V71YP50WVQD0Y",
+    "source": "Invalid value for '{key}'",
+    "file": "app/src/settings/mod.rs",
+    "line": 86,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8c257df37cd9a31a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 86,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CD68TRTH3T11VBYW7",
+    "source": "Invalid values for: {}",
+    "file": "app/src/settings/mod.rs",
+    "line": 87,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d5671cb9d2bdca22",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 87,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JMVA20M92D3CR6KQQ",
+    "source": "Your settings file contains an error.",
+    "file": "app/src/settings/mod.rs",
+    "line": 101,
+    "occurrences_kind": "literal",
+    "source_hash": "16d22af09ba048b3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 101,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 106,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JZWTNAT571KMT4TNH",
+    "source": "{self}. Open the file to fix it.",
+    "file": "app/src/settings/mod.rs",
+    "line": 102,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "091f154f7f80be52",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 102,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JHSXGNPW6A5ATDZAE",
+    "source": "{self}. The default value is being used.",
+    "file": "app/src/settings/mod.rs",
+    "line": 107,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9bd8a189edcd8117",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 107,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JDHN6ZHJZHGX0RH57",
+    "source": "Your settings file contains errors.",
+    "file": "app/src/settings/mod.rs",
+    "line": 110,
+    "occurrences_kind": "literal",
+    "source_hash": "832468da779868b1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 110,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JREEMR9K2XG4SJ3DJ",
+    "source": "{self}. Default values are being used.",
+    "file": "app/src/settings/mod.rs",
+    "line": 111,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "23da56f62db7c0ac",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 111,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128SGJM2KZBPD1X4V1W",
+    "source": "Activate previous/next tab",
+    "file": "app/src/settings/mod.rs",
+    "line": 223,
+    "occurrences_kind": "literal",
+    "source_hash": "0feb1346955b677c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 223,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A1KHA66C51KE6VVTB",
+    "source": "Cycle most recent session",
+    "file": "app/src/settings/mod.rs",
+    "line": 224,
+    "occurrences_kind": "literal",
+    "source_hash": "348d86364b052efe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 224,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9HNN06M7RY477QT8E0J",
+    "source": "Cycle most recent tab",
+    "file": "app/src/settings/mod.rs",
+    "line": 225,
+    "occurrences_kind": "literal",
+    "source_hash": "d123c8a864c539c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 225,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12APC8RP8DAVBKCC7XZ",
+    "source": "Dedicated hotkey window",
+    "file": "app/src/settings/mod.rs",
+    "line": 274,
+    "occurrences_kind": "literal",
+    "source_hash": "b3b98a06715c81cc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 274,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G0N1T779NTH3PCDHB",
+    "source": "Show/hide all windows",
+    "file": "app/src/settings/mod.rs",
+    "line": 275,
+    "occurrences_kind": "literal",
+    "source_hash": "c10e5cd9e3f1962c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 275,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ASXVSDKQYTAF5DJPG",
+    "source": "Default should have every pin position",
+    "file": "app/src/settings/mod.rs",
+    "line": 375,
+    "occurrences_kind": "literal",
+    "source_hash": "6232510ea81dae4c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 375,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings/mod.rs",
+        "line": 388,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129F0821ABF745A75G0",
+    "source": "Code",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 93,
+    "occurrences_kind": "literal",
+    "source_hash": "340f463033e0fd5d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 93,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQRR50TYJSAVZ9QXCGDD",
+    "source": "maximum number of codebase indexes has been reached",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 107,
+    "occurrences_kind": "literal",
+    "source_hash": "724be2d96e27b4fd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 107,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JV28K1BFZK43QYQ3Z",
+    "source": "code coding codebase repository index indexing indices context path lsp language server",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 995,
+    "occurrences_kind": "literal",
+    "source_hash": "df0ef62a5316d147",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 995,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAN4T848HZE2TBRJWPFS",
+    "source": "Syncing...",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 1730,
+    "occurrences_kind": "literal",
+    "source_hash": "1567e1dadfa15b87",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 1730,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQ81E6VV16MJEP5T3600",
+    "source": "Indexing...",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 1843,
+    "occurrences_kind": "literal",
+    "source_hash": "f8431131729c7d82",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 1843,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CN0218YR2VG8FZ7SF",
+    "source": "Installing...",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2138,
+    "occurrences_kind": "literal",
+    "source_hash": "07ae7fd684564e68",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2138,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129K9MVN0S78ZEC2A39",
+    "source": "Checking...",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2139,
+    "occurrences_kind": "literal",
+    "source_hash": "2e5f79bb94a8c40b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2139,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JCD8J47Z1KD7Y97KD",
+    "source": "codebase index indexing repository code context embedding auto-index lsp language server",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2465,
+    "occurrences_kind": "literal",
+    "source_hash": "9c8decb885d299fa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2465,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JHVSWVFCA32XE5KW2",
+    "source": "code editor open files markdown AI conversations layout pane tab",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2589,
+    "occurrences_kind": "literal",
+    "source_hash": "8b5706686a247d89",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2589,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JRFC0PJFEQBPYFDA8",
+    "source": "oz auto open code review pane panel agent mode change first time accepted diff view conversation",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2615,
+    "occurrences_kind": "literal",
+    "source_hash": "bd0bdf8499448af5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2615,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 4737,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JDBDAZ85NC9SGD3RK",
+    "source": "code review panel right side diff git",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2691,
+    "occurrences_kind": "literal",
+    "source_hash": "fa3f168208e9314a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2691,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JDD3R6R9BSW1A39HS",
+    "source": "code review diff stats lines added removed counts",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2734,
+    "occurrences_kind": "literal",
+    "source_hash": "41b388beeae92bae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2734,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J86TA7MXJTHAT1K84",
+    "source": "project explorer file tree left panel tools",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2776,
+    "occurrences_kind": "literal",
+    "source_hash": "159924a18ec9e1d9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2776,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JQ81TFX1SD9NNADMT",
+    "source": "global search file search left panel tools",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 2819,
+    "occurrences_kind": "literal",
+    "source_hash": "6c93f8d12b1f0d0d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 2819,
+        "kind": "literal"
+      }
+    ]
+  }
+]

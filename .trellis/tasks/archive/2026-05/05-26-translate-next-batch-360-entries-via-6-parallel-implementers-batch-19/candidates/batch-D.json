@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "01KQXQV12HNH7V3REBXC9CZ497",
+    "source": "Unable to read local notebook file",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 449,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "718e474918ae043a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 449,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HX05NX5NN2HSEJYJ4",
+    "source": "Unable to read local notebook file: {error}",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 450,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "757268d6a69512a2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 450,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DD6ZPZ1D1X54S9FA0",
+    "source": "Local filesystem access is not available in this build",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 475,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8edd16d1d14ca7c1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 475,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DWE3GJFB9GDS66R87",
+    "source": "Local filesystem access is not available in this build (feature \"local_fs\" disabled)",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 476,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "66b4f54ac8b12177",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 476,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ANQ5H1XSREPQ71DEA",
+    "source": "Command from {}",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 608,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "87f2a3d934b11ed4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 608,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/notebooks/notebook.rs",
+        "line": 1832,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AXZN3D11JGDE6ZQEM",
+    "source": "Could not read {}",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 732,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9e01e98f2b00ea28",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 732,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HTZSK8ESVD6PTSPEB",
+    "source": "Try again",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 745,
+    "occurrences_kind": "literal",
+    "source_hash": "d8b8392e2c542950",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 745,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DY8BK2NK7T94S5K0Q",
+    "source": "Loading {}...",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 771,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5fb656dcb0cd0984",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 771,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DE8YF3MPXQ1DQ2RFE",
+    "source": "Missing source file",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 784,
+    "occurrences_kind": "literal",
+    "source_hash": "60f05bd0a77e33c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 784,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129VYY159XK35BGT490",
+    "source": "Close Workflow",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 133,
+    "occurrences_kind": "literal",
+    "source_hash": "ef0b7643d42f7132",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 133,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B1374PGTV8942H3WQ",
+    "source": "Expect server id on success creation",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 578,
+    "occurrences_kind": "literal",
+    "source_hash": "cb37ca36d481b2ac",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 578,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BTRF2PRWYZ7RXJPGZ",
+    "source": "Error saving aliases",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 1596,
+    "occurrences_kind": "literal",
+    "source_hash": "886fa51f51268122",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 1596,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GD8QQN4RJ71TFBV9H",
+    "source": "This workflow cannot be saved because it contains secrets",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 1606,
+    "occurrences_kind": "literal",
+    "source_hash": "3ab483d795071ac1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 1606,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AGS9E89EMWV6FHR4F",
+    "source": "Could not create workflow",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 1640,
+    "occurrences_kind": "literal",
+    "source_hash": "acd496b078f0d119",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 1640,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EKN9DK2RKTR576M7K",
+    "source": "Prompt copied.",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 1751,
+    "occurrences_kind": "literal",
+    "source_hash": "76091bd1c4cf403b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 1751,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ATXMC9ZCVX8YMHCFD",
+    "source": "Command copied.",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 1753,
+    "occurrences_kind": "literal",
+    "source_hash": "35e1ede4872a0aaf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 1753,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JM2BC71M3BK2XBNM6",
+    "source": "You no longer have access to this workflow",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 2834,
+    "occurrences_kind": "literal",
+    "source_hash": "84750dbe84135c27",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 2834,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J8M7C6E5EYE8PANR1",
+    "source": "Workflow moved to trash",
+    "file": "app/src/workflows/workflow_view.rs",
+    "line": 2836,
+    "occurrences_kind": "literal",
+    "source_hash": "3d4e5ac60256885c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 2836,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A1SRF5GQZYK444EA7",
+    "source": "Concurrent cloud agent limit reached",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 130,
+    "occurrences_kind": "literal",
+    "source_hash": "f30647dd017859d3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 130,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G2X0DABSB5SVMCAKQ",
+    "source": "This cloud run is queued because your team has reached the maximum number of concurrent cloud agents. It will start automatically when another cloud run finishes.",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 131,
+    "occurrences_kind": "literal",
+    "source_hash": "0cdafe2a8f01182a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 131,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JX11KXN38Y7NH35CB",
+    "source": "You're out of AI credits",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 134,
+    "occurrences_kind": "literal",
+    "source_hash": "253cb2b83d3f4350",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 134,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GTYGTRTD5S3F21QSS",
+    "source": "This cloud run stopped because your team has used all available AI credits for the current billing period.",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 135,
+    "occurrences_kind": "literal",
+    "source_hash": "ce803c43d69a9748",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 135,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11R46TGM2A44HCXFGW9",
+    "source": " Upgrade your plan for more concurrent cloud agents.",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 151,
+    "occurrences_kind": "literal",
+    "source_hash": "b0d77534cc5abef6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 151,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11RWQYEZA5DD8FAHEV0",
+    "source": " Upgrade your plan to continue running cloud agents.",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 154,
+    "occurrences_kind": "literal",
+    "source_hash": "085206212b16b41b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 154,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EPK8VSSWX2YWB0VRZ",
+    "source": "Paid plans start at ${price}/month and include everything in your free trial plus:",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 187,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "db22106bd963767f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 187,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EHNAMWADZ4CEA7VNR",
+    "source": "Paid plans include everything in your free trial plus:",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 190,
+    "occurrences_kind": "literal",
+    "source_hash": "c15b70e8b8ab82e9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 190,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G6D8V6571P5AV41JC",
+    "source": "The Business plan starts at ${price}/month and includes everything on your current plan plus:",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 195,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d3faba86d47c4bf3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 195,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G0K34VT8VM849WTN6",
+    "source": "The Business plan includes everything on your current plan plus:",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 198,
+    "occurrences_kind": "literal",
+    "source_hash": "76c55a3f5b7e91fc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 198,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BTN3AJ9B59KCT1SNW",
+    "source": "Extended AI credits per month",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 218,
+    "occurrences_kind": "literal",
+    "source_hash": "e74bba0e58e0975a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 218,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJE7HE9ZTSH9J66GW",
+    "source": "Upgrade plan",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 280,
+    "occurrences_kind": "literal",
+    "source_hash": "39b7ec1e84022198",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 280,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 330,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EW2GZH2HAEPEMWZK9",
+    "source": "Open billing",
+    "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+    "line": 282,
+    "occurrences_kind": "literal",
+    "source_hash": "6031897de8936a3a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/cloud_agent_capacity_modal/mod.rs",
+        "line": 282,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FS9PZ9FJJ7N18QYWS",
+    "source": "Search in files",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 654,
+    "occurrences_kind": "literal",
+    "source_hash": "5fcd436a80424b02",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 654,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CNTXR11QRS76H2E3C",
+    "source": "GlobalSearchView handle should be upgradeable",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 1592,
+    "occurrences_kind": "literal",
+    "source_hash": "01991d4db40344c2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 1592,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DYNV83SCMEFT7XP1Z",
+    "source": "No results found. Review your gitignore files.",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 2073,
+    "occurrences_kind": "literal",
+    "source_hash": "2ac4374d3e45b073",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2073,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GJ4JJQFF58D7094R7",
+    "source": "The result set only contains a subset of all matches. Be more specific in your search to narrow down results.",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 2099,
+    "occurrences_kind": "literal",
+    "source_hash": "15d4a52b1006e801",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2099,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FAH500DTQWW0C3F88",
+    "source": "Search in files across your current directories.",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 2251,
+    "occurrences_kind": "literal",
+    "source_hash": "a6fb58d4e19b0ad1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2251,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C935CTCTMQ260ZVMR",
+    "source": "Global search unavailable",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 2259,
+    "occurrences_kind": "literal",
+    "source_hash": "92077cc414dc4ee3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2259,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2268,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2277,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CHGMP5TDWT12DAJ23",
+    "source": "Global search requires access to your local workspace. Open a new session or navigate to an active session to view.",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 2260,
+    "occurrences_kind": "literal",
+    "source_hash": "27438e824e85d7d7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2260,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CWKEJTFKQ5TDCV5YN",
+    "source": "Global search requires access to your local workspace, which isn't supported in remote sessions",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 2269,
+    "occurrences_kind": "literal",
+    "source_hash": "5ddd85deb548c673",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2269,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C8CDF7N645D04T3KQ",
+    "source": "Global search doesn't currently work in Git Bash or WSL.",
+    "file": "app/src/workspace/view/global_search/view.rs",
+    "line": 2278,
+    "occurrences_kind": "literal",
+    "source_hash": "961f33b620406bda",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/view.rs",
+        "line": 2278,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H59GEBV8BASH7VVP7",
+    "source": "Warp agents",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 31,
+    "occurrences_kind": "literal",
+    "source_hash": "6cb73fb27fab24f5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 31,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EFCGJWYWPA87X15F0",
+    "source": "Oz cloud agents platform",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 32,
+    "occurrences_kind": "literal",
+    "source_hash": "22d7d1a71d09dbaa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 32,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D4F0C89C9T955EZGT",
+    "source": "Next command predictions",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 33,
+    "occurrences_kind": "literal",
+    "source_hash": "e7d40e630ecf59ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 33,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EEAVGMWC1D1JH5HCC",
+    "source": "Prompt suggestions",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 34,
+    "occurrences_kind": "literal",
+    "source_hash": "2bbd9dd5afd71f85",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 34,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A6XDXFHGSN61VFA93",
+    "source": "Codebase context",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 35,
+    "occurrences_kind": "literal",
+    "source_hash": "b7654a7037db7a45",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 35,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EZ03SC9WKN3C4A7N4",
+    "source": "Remote control with Claude Code, Codex, and other agents",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 36,
+    "occurrences_kind": "literal",
+    "source_hash": "2beebeefb58cde3c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 36,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129EQV9M0C3GJKEW8NJ",
+    "source": "Agents over SSH",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 37,
+    "occurrences_kind": "literal",
+    "source_hash": "38aad620a549b3d8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 37,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FATJ9P5PBJ21KYFB8",
+    "source": "Session Sharing",
+    "file": "crates/onboarding/src/lib.rs",
+    "line": 44,
+    "occurrences_kind": "literal",
+    "source_hash": "34f2f518bbe0297a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/lib.rs",
+        "line": 44,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A24B8BHJMWK2CM5W2",
+    "source": "Customize your Warp Agent",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 326,
+    "occurrences_kind": "literal",
+    "source_hash": "4c3c5db146eff234",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 326,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F7B7KVNEG9TBP3BYD",
+    "source": "Set by Team Workspace",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 822,
+    "occurrences_kind": "literal",
+    "source_hash": "5edeeba2296465e7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 822,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129A5DXKRSGTANMKVX7",
+    "source": "Autonomy settings are configured as part of your team workspace.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 832,
+    "occurrences_kind": "literal",
+    "source_hash": "d2bcb6a48b294c96",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 832,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F9YJEAN78XTV14YQV",
+    "source": "Runs commands, writes code, and reads files without asking.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 884,
+    "occurrences_kind": "literal",
+    "source_hash": "7c7c705f56a65ebc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 884,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129N4DJ9CDF6K4S4NFA",
+    "source": "Can plan, read files, and execute low-risk commands. Asks before making any changes or executing sensitive commands.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 890,
+    "occurrences_kind": "literal",
+    "source_hash": "696763d1c650df2c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 890,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GAASRPPDGZJKT35CE",
+    "source": "Takes no actions without your approval.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 896,
+    "occurrences_kind": "literal",
+    "source_hash": "bae59e2c33a3a4bb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 896,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A4EZ871DEDJFXTJ4X",
+    "source": "Disable Warp Agent",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 958,
+    "occurrences_kind": "literal",
+    "source_hash": "49961e56cc0b83a9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 958,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HAVEQ3C38GHFM7C7B",
+    "source": "Upgrade for access to premium models.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 1043,
+    "occurrences_kind": "literal",
+    "source_hash": "11bba0a2bfef5dd4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 1043,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G6B6P49TCR6CHY59A",
+    "source": "State-of-the-art models require paid plans.",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 1057,
+    "occurrences_kind": "literal",
+    "source_hash": "f2ae45f29cbe6896",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 1057,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129DCYSFVVVWM4FG2XC",
+    "source": "Click here",
+    "file": "crates/onboarding/src/slides/agent_slide.rs",
+    "line": 1190,
+    "occurrences_kind": "literal",
+    "source_hash": "62dca007a0990ba1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/agent_slide.rs",
+        "line": 1190,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CPAW4XQM1P5VYHVKN",
+    "source": "Highest codebase indexing limits",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 32,
+    "occurrences_kind": "literal",
+    "source_hash": "4dc5d37eecf88aab",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 32,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HK72TTQQFDZC9CXDP",
+    "source": "Unlimited Warp Drive objects and collaboration",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 33,
+    "occurrences_kind": "literal",
+    "source_hash": "85b3079f7a4a4d9b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 33,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E75NBV8DY5RQFD3HG",
+    "source": "Private email support",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 34,
+    "occurrences_kind": "literal",
+    "source_hash": "0e06f4952ba7104f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 34,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H93A0804CVM57FHZ4",
+    "source": "Unlimited cloud conversation storage",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 35,
+    "occurrences_kind": "literal",
+    "source_hash": "b5526e6bdbbb7bca",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 35,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DPSHXS4JXYYRRJ688",
+    "source": "Let's get started.",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 104,
+    "occurrences_kind": "literal",
+    "source_hash": "ee37657c9cbf0bf1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 104,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129W0TPBEMF4W71TPRY",
+    "source": "Agent driven development with Warp's built-in agent",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 124,
+    "occurrences_kind": "literal",
+    "source_hash": "ea2a0c96f0740423",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 124,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DNA2F4F2GR87Z410M",
+    "source": "Iterate, plan, and build with Oz: Warp's built-in agent. Available locally or in the cloud.",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 125,
+    "occurrences_kind": "literal",
+    "source_hash": "8ce508db01a1e2df",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 125,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129ESQWCSZN6BPRXE42",
+    "source": "Classic terminal with third-party agents",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 136,
+    "occurrences_kind": "literal",
+    "source_hash": "816c9dd8223ed84a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 136,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12862G6M2J69YD05QC7",
+    "source": "A modern terminal that supports third-party agents (Claude Code, Codex, Gemini CLI) and classic terminal workflows.",
+    "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+    "line": 137,
+    "occurrences_kind": "literal",
+    "source_hash": "131ce382de7f3cf2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 137,
+        "kind": "literal"
+      }
+    ]
+  }
+]

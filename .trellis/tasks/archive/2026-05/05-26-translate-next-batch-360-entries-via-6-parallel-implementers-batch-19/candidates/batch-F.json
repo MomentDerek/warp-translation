@@ -1,0 +1,1071 @@
+[
+  {
+    "id": "01KQXQV12HS0MJ53YR2Q6Z3Q6D",
+    "source": "Viewport: {viewport_start:.2}px to {viewport_end:.2}px",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 30,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3e4cad3569c0b492",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 30,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FWS3R07V61EHB0DTR",
+    "source": "Selection: {}",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 31,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "add87fadeef216e4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 31,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GMZJSFDBP11JZBHMM",
+    "source": "Text Block",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 95,
+    "occurrences_kind": "literal",
+    "source_hash": "43c57c1f023e9c41",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 95,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129FRY1Y2ZM95G35EHP",
+    "source": "Code Block - {code_block_type}",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 98,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "565442152a5f781e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 98,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DN5JEW1XRPM0008XW",
+    "source": "Mermaid Diagram",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 99,
+    "occurrences_kind": "literal",
+    "source_hash": "c5f1949e37a66b52",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 99,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G85D1AG3NFCB06756",
+    "source": "Temporary Paragraph",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 100,
+    "occurrences_kind": "literal",
+    "source_hash": "079742786d23d1fc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 100,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G36W9RDV4EP8K9M7V",
+    "source": "Task List @ {indent_level} [{}]",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 107,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2cce8cc7ff3bf695",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 107,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H1XHMHZA3N0HJ3NZJ",
+    "source": "Unordered List @ {indent_level}",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 111,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8bf48c0d2133ca6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 111,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ERK40CH4ZP265CXMC",
+    "source": "Ordered List @ {indent_level}",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 114,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6ef2923155fbe22a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 114,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C91QRNSRB5RCP0DP8",
+    "source": "Horizontal Rule",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 117,
+    "occurrences_kind": "literal",
+    "source_hash": "c8a6c39bec76d718",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 117,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C20GMXT2QTY81THHN",
+    "source": "Image: {alt_text}",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 118,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5348f509b1034e87",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 118,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GY8CE1QVKF4PYP7GX",
+    "source": "Table: {}x{}",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 121,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3e3a2f778cf28070",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 121,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HNJW1R41BP0M6G3JY",
+    "source": "Trailing Newline",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 125,
+    "occurrences_kind": "literal",
+    "source_hash": "bdc39f6613f8f7b2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 125,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3GF4BE8Y18QA37W0",
+    "source": "Embedded Item",
+    "file": "crates/editor/src/render/model/debug.rs",
+    "line": 126,
+    "occurrences_kind": "literal",
+    "source_hash": "485c5c9c6330770a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/debug.rs",
+        "line": 126,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CE82WY9R6QXW3ECHN",
+    "source": "HpkeSuite::seal failed: {e:?}",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 52,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4bd330a0027eaa79",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 52,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CN0094DQTQ48CZWK1",
+    "source": "HpkeSuite::open: ciphertext too short",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 74,
+    "occurrences_kind": "literal",
+    "source_hash": "b36aba25f5d32308",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 74,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C68K3WWN4GC6B5A5G",
+    "source": "HpkeSuite::open: invalid encapped key",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 80,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b1453d9cf187a119",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 80,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CY3PNK874240Q3GYB",
+    "source": "HpkeSuite::open failed: {e:?}",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 89,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ba6a66792fa20676",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 89,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CMX4TB104BTJZF2M6",
+    "source": "HpkePublicKeyManager: invalid key",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 117,
+    "occurrences_kind": "literal",
+    "source_hash": "b3cb68f85fd6b4af",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 117,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C845JEF1FVJ47BS43",
+    "source": "HpkePublicKeyManager: invalid public key: {e:#}",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 121,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3c9335819fe03c07",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 121,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C8QT7AE2H8104VYAC",
+    "source": "HpkePublicKeyManager: failed to deserialize public key",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 126,
+    "occurrences_kind": "literal",
+    "source_hash": "074e3babbd5e643e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 126,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CSWDRS8A3G05ZYPVY",
+    "source": "HpkePublicKeyManager: new_key not implemented",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 139,
+    "occurrences_kind": "literal",
+    "source_hash": "dd8001e1cd64357f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 139,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C0H99HG1N1SSEBKRD",
+    "source": "HpkePrivateKeyManager: invalid key",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 177,
+    "occurrences_kind": "literal",
+    "source_hash": "1720cd6e58ce75f0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 177,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CRQPGYGZD0SBMVP2J",
+    "source": "HpkePrivateKeyManager: invalid private key: {e:#}",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 181,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fc288eb8abf8115b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 181,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 221,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CE0A2WKTXEPCS49KA",
+    "source": "HpkePrivateKeyManager: failed to deserialize private key",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 187,
+    "occurrences_kind": "literal",
+    "source_hash": "0c7f39c57c850e92",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 187,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CTQ70J9BQ0BAXBAM8",
+    "source": "HpkePrivateKeyManager: new_key not implemented",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 200,
+    "occurrences_kind": "literal",
+    "source_hash": "47ec54148f3db161",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 200,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CJCFXEDCWAR4M7YM5",
+    "source": "HpkePrivateKeyManager: no public key",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 226,
+    "occurrences_kind": "literal",
+    "source_hash": "8dfb28187d87f2c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 226,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CDDFNRRZFKNDMBJK9",
+    "source": "HpkePrivateKeyManager: invalid public key: {e:#}",
+    "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+    "line": 229,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "618e5a978350d170",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/envelope/hpke_impl.rs",
+        "line": 229,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BW7D5HG9NRPW495B6",
+    "source": "Failed to remove existing Node.js directory",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 196,
+    "occurrences_kind": "literal",
+    "source_hash": "d8103ca6064297ad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 196,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3TTZARWE5WRV1EHG",
+    "source": "Failed to create Node.js containing directory",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 202,
+    "occurrences_kind": "literal",
+    "source_hash": "21bb4c23cca5efce",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 202,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BGYF92P2NB8NGWSVV",
+    "source": "Failed to download Node.js",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 212,
+    "occurrences_kind": "literal",
+    "source_hash": "3b8cf509685e8a65",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 212,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BMJ8ZKMPHDCDBA2VC",
+    "source": "Failed to read Node.js download response",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 225,
+    "occurrences_kind": "literal",
+    "source_hash": "1940a16b6d46f2b0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 225,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3WC3N6HC5ZEG5KA7",
+    "source": "Failed to extract tar.gz archive",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 287,
+    "occurrences_kind": "literal",
+    "source_hash": "dde4a2be23fb9bd0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 287,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BPX3E1GVS0YNE8E6M",
+    "source": "Failed to decompress gzip data",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 300,
+    "occurrences_kind": "literal",
+    "source_hash": "f43de757ae18ed02",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 300,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BYYK5A5MHQWG9T7AQ",
+    "source": "Failed to create file: {:?}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 304,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c8fc4a449e161da3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 304,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 378,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B7D5VVV7PJEDRGZRJ",
+    "source": "Failed to flush {:?}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 310,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fb48d3ec59004600",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 310,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BTT0YGYTYY99G0DGH",
+    "source": "Failed to read zip archive",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 337,
+    "occurrences_kind": "literal",
+    "source_hash": "04dfcae9d3bea62e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 337,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BFVGNVEC48N0GZWBE",
+    "source": "Failed to read zip entry",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 341,
+    "occurrences_kind": "literal",
+    "source_hash": "140cfeadef793fd6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 341,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BKHDYYP9YKNVG02MC",
+    "source": "Failed to read file from zip",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 358,
+    "occurrences_kind": "literal",
+    "source_hash": "85082e67db28477b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 358,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWN6ZHMHRV1XNYWAG",
+    "source": "Failed to flush file: {:?}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 386,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e8c9cf603b5ad2d2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 386,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BGW8RYTRGXPCKJAJS",
+    "source": "Failed to run node --version. Is Node.js installed?",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 463,
+    "occurrences_kind": "literal",
+    "source_hash": "181747941bb63cc5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 463,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 471,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B29XPHHH7P7681MGH",
+    "source": "Failed to parse Node.js version: {}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 483,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "91c176848d8744c0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 483,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BA5CQW4AKM0JPBJW8",
+    "source": "Failed to fetch npm info for {}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 517,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "64ce168dbe0e0a5e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 517,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BVJEBGCT1RMT49GRC",
+    "source": "Failed to parse npm info for {}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 530,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b09cc30972ae2284",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 530,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DNTQECR63PX0APZ71",
+    "source": "No version found for npm package {}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 534,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "795fe35d1651f0c8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 534,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10XDEEDN52KKPXX40Z4",
+    "source": " Flag 1: Disambiguate escape codes.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 32,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "755d9d851bc88d49",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 32,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10V1280W8HCJM3V9B22",
+    "source": " Encodes ambiguous keys using CSI u sequences instead of legacy encodings:",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 33,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c3377d32c4b15ae8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 33,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10XW7FF4EQPCDFMY5BE",
+    "source": " Flag 2: Report event types.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 38,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c0ed971afc17092e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 38,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10VPMGA9JHFKX1PREMQ",
+    "source": " Enables reporting of key press, repeat, and release events, not just key presses.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 39,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b70c0ebd08ecb85f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 39,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10XGJ7QMPJ6APGX6YXR",
+    "source": " Format includes event type in the CSI u sequence.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 40,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9ebeda08e13cdf5d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 40,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10XR2FWC0B5XE70T671",
+    "source": " Flag 4: Report alternate keys.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 43,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8581e886e9bc28ff",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 43,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV117JD7NSTE2N8M04DKD",
+    "source": " Reports the unshifted key alongside the shifted key. For example, when Shift+2 is",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 44,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "be9ae5079898383b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 44,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1225088WDT1MK3M0WYQ",
+    "source": " keybinding support.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 46,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "648955e20a5272a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 46,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10X0XT6A1NM339DY4GP",
+    "source": " Flag 8: Report all keys as escape codes.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 49,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d806408e8a3065ef",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 49,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10X65W8AQ5E55XJAB65",
+    "source": " Forces all keys, including printable characters, to be encoded as CSI u sequences.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 50,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7eee113b1a0483e5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 50,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1166D044VMJM7MV6ZEX",
+    "source": " Provides a uniform encoding format. For example, plain 'a' becomes ESC[97;1u instead",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 51,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "feaa343d37300abc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 51,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV123447CV682YZCVRANG",
+    "source": " of just 0x61. Often combined with flag 1 for \"full CSI u\" mode (flags = 9).",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 52,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a721dada54966d92",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 52,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10XFXYGC49YYK7MSR0X",
+    "source": " Flag 16: Report associated text.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 55,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4ccac1da25267a73",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 55,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11056MR2W961TDRMF09",
+    "source": " Includes the text that would be generated by the key event, useful for applications",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 56,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bd79c597c07bf292",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 56,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV125AHVM1VBAWX0F69A9",
+    "source": " that want both the semantic key information and the resulting text.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 57,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f91711fe1ed5796a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 57,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV111CTS1DZWPM88Z41VG",
+    "source": " Kitty keyboard protocol modes.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 80,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "886082ef0a226914",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 80,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11NF3QBY6M4HGYYM0TE",
+    "source": " These map to the flags sent via CSI > flags u, CSI = flags u, etc.",
+    "file": "crates/warp_terminal/src/model/mode.rs",
+    "line": 81,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "654de7f536d1b6b9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/mode.rs",
+        "line": 81,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

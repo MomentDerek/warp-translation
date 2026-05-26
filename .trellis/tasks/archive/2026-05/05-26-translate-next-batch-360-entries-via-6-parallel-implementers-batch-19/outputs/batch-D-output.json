@@ -1,0 +1,93 @@
+{
+  "translations": {
+    "01KQXQV12HNH7V3REBXC9CZ497": null,
+    "01KQXQV12HX05NX5NN2HSEJYJ4": null,
+    "01KQXQV12DD6ZPZ1D1X54S9FA0": null,
+    "01KQXQV12DWE3GJFB9GDS66R87": null,
+    "01KQXQV12ANQ5H1XSREPQ71DEA": "来自 {} 的命令",
+    "01KQXQV12AXZN3D11JGDE6ZQEM": "无法读取 {}",
+    "01KQXQV12HTZSK8ESVD6PTSPEB": "重试",
+    "01KQXQV12DY8BK2NK7T94S5K0Q": "正在加载 {}……",
+    "01KQXQV12DE8YF3MPXQ1DQ2RFE": "缺少源文件",
+    "01KQXQV129VYY159XK35BGT490": "关闭工作流",
+    "01KQXQV12B1374PGTV8942H3WQ": null,
+    "01KQXQV12BTRF2PRWYZ7RXJPGZ": "保存别名时出错",
+    "01KQXQV12GD8QQN4RJ71TFBV9H": "此工作流包含密钥，无法保存",
+    "01KQXQV12AGS9E89EMWV6FHR4F": "无法创建工作流",
+    "01KQXQV12EKN9DK2RKTR576M7K": "提示词已复制。",
+    "01KQXQV12ATXMC9ZCVX8YMHCFD": "命令已复制。",
+    "01KQXQV12JM2BC71M3BK2XBNM6": "您已无权访问此工作流",
+    "01KQXQV12J8M7C6E5EYE8PANR1": "工作流已移至回收站",
+    "01KQXQV12A1SRF5GQZYK444EA7": "已达到并发云端 Agent 数量上限",
+    "01KQXQV12G2X0DABSB5SVMCAKQ": "此次云端运行已加入队列，因为您的团队已达到并发云端 Agent 的最大数量。当另一次云端运行结束后，它将自动开始。",
+    "01KQXQV12JX11KXN38Y7NH35CB": "您的 AI 额度已用完",
+    "01KQXQV12GTYGTRTD5S3F21QSS": "此次云端运行已停止，因为您的团队已用完当前账单周期的所有可用 AI 额度。",
+    "01KQXQV11R46TGM2A44HCXFGW9": " 升级您的套餐以获得更多并发云端 Agent。",
+    "01KQXQV11RWQYEZA5DD8FAHEV0": " 升级您的套餐以继续运行云端 Agent。",
+    "01KQXQV12EPK8VSSWX2YWB0VRZ": "付费套餐起价为 ${price}/月，包含免费试用套餐的所有内容，外加：",
+    "01KQXQV12EHNAMWADZ4CEA7VNR": "付费套餐包含免费试用套餐的所有内容，外加：",
+    "01KQXQV12G6D8V6571P5AV41JC": "Business 套餐起价为 ${price}/月，包含您当前套餐的所有内容，外加：",
+    "01KQXQV12G0K34VT8VM849WTN6": "Business 套餐包含您当前套餐的所有内容，外加：",
+    "01KQXQV12BTN3AJ9B59KCT1SNW": "每月扩展 AI 额度",
+    "01KQXQV12HJE7HE9ZTSH9J66GW": "升级套餐",
+    "01KQXQV12EW2GZH2HAEPEMWZK9": "打开账单",
+    "01KQXQV12FS9PZ9FJJ7N18QYWS": "在文件中搜索",
+    "01KQXQV12CNTXR11QRS76H2E3C": null,
+    "01KQXQV12DYNV83SCMEFT7XP1Z": "未找到结果。请检查您的 gitignore 文件。",
+    "01KQXQV12GJ4JJQFF58D7094R7": "结果集仅包含所有匹配项的子集。请使搜索更加具体以缩小结果范围。",
+    "01KQXQV12FAH500DTQWW0C3F88": "在您当前的目录中搜索文件。",
+    "01KQXQV12C935CTCTMQ260ZVMR": "全局搜索不可用",
+    "01KQXQV12CHGMP5TDWT12DAJ23": "全局搜索需要访问您的本地工作区。请打开新会话或切换到活动会话以查看。",
+    "01KQXQV12CWKEJTFKQ5TDCV5YN": "全局搜索需要访问您的本地工作区，远程会话不支持此功能",
+    "01KQXQV12C8CDF7N645D04T3KQ": "全局搜索目前在 Git Bash 或 WSL 中不可用。",
+    "01KQXQV12H59GEBV8BASH7VVP7": "Warp Agent",
+    "01KQXQV12EFCGJWYWPA87X15F0": "Oz 云端 Agent 平台",
+    "01KQXQV12D4F0C89C9T955EZGT": "下一条命令预测",
+    "01KQXQV12EEAVGMWC1D1JH5HCC": "提示词建议",
+    "01KQXQV12A6XDXFHGSN61VFA93": "代码库上下文",
+    "01KQXQV12EZ03SC9WKN3C4A7N4": "通过 Claude Code、Codex 及其他 Agent 进行远程控制",
+    "01KQXQV129EQV9M0C3GJKEW8NJ": "通过 SSH 使用 Agent",
+    "01KQXQV12FATJ9P5PBJ21KYFB8": "会话共享",
+    "01KQXQV12A24B8BHJMWK2CM5W2": "自定义您的 Warp Agent",
+    "01KQXQV12F7B7KVNEG9TBP3BYD": "由团队工作区设置",
+    "01KQXQV129A5DXKRSGTANMKVX7": "自治设置已作为团队工作区的一部分进行配置。",
+    "01KQXQV12F9YJEAN78XTV14YQV": "无需询问即可运行命令、编写代码和读取文件。",
+    "01KQXQV129N4DJ9CDF6K4S4NFA": "可以规划、读取文件并执行低风险命令。在做出任何更改或执行敏感命令前会先询问。",
+    "01KQXQV12GAASRPPDGZJKT35CE": "未经您批准不执行任何操作。",
+    "01KQXQV12A4EZ871DEDJFXTJ4X": "禁用 Warp Agent",
+    "01KQXQV12HAVEQ3C38GHFM7C7B": "升级以使用高级模型。",
+    "01KQXQV12G6B6P49TCR6CHY59A": "最先进的模型需要付费套餐。",
+    "01KQXQV129DCYSFVVVWM4FG2XC": "点击此处",
+    "01KQXQV12CPAW4XQM1P5VYHVKN": "最高的代码库索引上限",
+    "01KQXQV12HK72TTQQFDZC9CXDP": "无限制的 Warp Drive 对象与协作",
+    "01KQXQV12E75NBV8DY5RQFD3HG": "私人邮件支持",
+    "01KQXQV12H93A0804CVM57FHZ4": "无限制的云端对话存储",
+    "01KQXQV12DPSHXS4JXYYRRJ688": "开始使用吧。",
+    "01KQXQV129W0TPBEMF4W71TPRY": "使用 Warp 内置 Agent 进行 Agent 驱动开发",
+    "01KQXQV12DNA2F4F2GR87Z410M": "通过 Oz（Warp 内置 Agent）进行迭代、规划与构建。可在本地或云端使用。",
+    "01KQXQV129ESQWCSZN6BPRXE42": "搭配第三方 Agent 的经典终端",
+    "01KQXQV12862G6M2J69YD05QC7": "一款支持第三方 Agent（Claude Code、Codex、Gemini CLI）及经典终端工作流的现代终端。"
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12HNH7V3REBXC9CZ497": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12HX05NX5NN2HSEJYJ4": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12DD6ZPZ1D1X54S9FA0": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12DWE3GJFB9GDS66R87": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12B1374PGTV8942H3WQ": [
+      "panic_message"
+    ],
+    "01KQXQV12CNTXR11QRS76H2E3C": [
+      "panic_message"
+    ]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "Batch-D: 67 entries. Classification: 61 UI translations + 4 telemetry_payload (safe_warn! in notebooks/file/mod.rs L449/450/475/476 → log::warn sink) + 2 panic_message (.expect on workflow_view L578, global_search L1592). 'Warp Agent' kept as glossary brand. 'Warp Drive' / 'Oz' / 'Agent' / 'MCP' / 'Claude Code' / 'Codex' / 'Gemini CLI' / 'Business' / 'SSH' / 'Git Bash' / 'WSL' / 'gitignore' / 'OpenAI' / 'Anthropic' / 'Google' preserved as-is. ASCII '...' converted to '……' (Loading {}...). Toast messages use 您 register. {placeholder} preserved verbatim including ${price}. Note '...build (feature \"local_fs\" disabled)' (4th telemetry entry) keeps embedded escaped quotes and the period as in source — null target so no concern."
+}

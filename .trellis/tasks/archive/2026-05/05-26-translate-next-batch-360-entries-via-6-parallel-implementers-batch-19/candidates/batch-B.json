@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "01KQXQV12DHB80CMR0DTZV4VK5",
+    "source": "Local child harness type is missing.",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 33,
+    "occurrences_kind": "literal",
+    "source_hash": "f5bc026c2d60ccf6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 33,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/pane_group/pane/local_harness_launch.rs",
+        "line": 112,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HE9TB4D0FT1AZ7K25",
+    "source": "Unsupported local child harness '{harness_name}'.",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 35,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ff5a5033c3b315a5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 35,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/pane_group/pane/local_harness_launch.rs",
+        "line": 114,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FHG83DZ0AHFGD9WHV",
+    "source": "Server did not assign an agent identifier",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 149,
+    "occurrences_kind": "literal",
+    "source_hash": "b5aa04cddf429ee9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 149,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 158,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D18G4G9EGHTW5Z7YM",
+    "source": "Local harness child agents require orchestration v2.",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 371,
+    "occurrences_kind": "literal",
+    "source_hash": "124eecdc9478fe96",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 371,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EN1RHD71GRQR36HC7",
+    "source": "Remote child agents require orchestration v2.",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 413,
+    "occurrences_kind": "literal",
+    "source_hash": "0da91d279eb7d45f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 413,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129WF9XNNEZ581J0JJA",
+    "source": "Child agent failed to initialize",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 563,
+    "occurrences_kind": "literal",
+    "source_hash": "ae7929ed3af0d614",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 563,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129PGTX5GQY2645Q4VN",
+    "source": "Child agent was cancelled before initialization",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 567,
+    "occurrences_kind": "literal",
+    "source_hash": "15820072501e4012",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 567,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129KFQASZ6JG0R12YKJ",
+    "source": "Child agent startup was blocked before initialization",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 572,
+    "occurrences_kind": "literal",
+    "source_hash": "33840c071f802504",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 572,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ETZA696EN6B4MT4EY",
+    "source": "Open in code review",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 583,
+    "occurrences_kind": "literal",
+    "source_hash": "ec78a99773e89a26",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 583,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E5ENK7XNA8MQTQ79J",
+    "source": "Open all in code review",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 1310,
+    "occurrences_kind": "literal",
+    "source_hash": "d33b5c5d86126418",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 1310,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DFSWBY57AR1ZYQRM5",
+    "source": "MCP Tool: {name}",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 1994,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3f10e222cf4185bd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 1994,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D4ZGTNV62WATS92JX",
+    "source": "MCP Tool: {name} ({display_input})",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 1996,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3b28efea6a6c9740",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 1996,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12APHBYTZEAJWNVGY20",
+    "source": "Continue current conversation",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 2021,
+    "occurrences_kind": "literal",
+    "source_hash": "b03b13b664d891ef",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 2021,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GFCYTJ717FZAVJMCN",
+    "source": "The matrix theme is now available at",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 2728,
+    "occurrences_kind": "literal",
+    "source_hash": "f63e375c7e910221",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 2728,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DEQ84H5PB6NJ2KC20",
+    "source": "Navigate to {} to open these comments",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 5674,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "70d909196883aa8f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 5674,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A36KMQMPGZA4XQVKS",
+    "source": "Copied to clipboard",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 6088,
+    "occurrences_kind": "literal",
+    "source_hash": "d37078fe6a1faa15",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 6088,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/block/cli.rs",
+        "line": 1447,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/view/plugin_instructions_block.rs",
+        "line": 298,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G8V5Q5T6ANWNGSN5C",
+    "source": "Thank you for the feedback!",
+    "file": "app/src/ai/blocklist/block.rs",
+    "line": 6395,
+    "occurrences_kind": "literal",
+    "source_hash": "9a5e7f6fc7f04754",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block.rs",
+        "line": 6395,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DH1E5P1HX5VPX8PRW",
+    "source": "Missing GitHub authentication. ",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 943,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b390124d269667a8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 943,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1299JHFWYEFJ9KDZ2WM",
+    "source": "Authenticate GitHub",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 947,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "51e63f73a6b323c2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 947,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129SMNZH2F930Z99H5P",
+    "source": "Cloud agent run cancelled",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 962,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a39b8ee85275f0e3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 962,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GHWGZJW24P2VVVZ57",
+    "source": "The primary model ({primary}) failed. Retrying with the fallback model.",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 1086,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e03e1880fa6ad3dd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 1086,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G3791VSPSZ452KSNY",
+    "source": "The primary model failed. Retrying with the fallback model.",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 1088,
+    "occurrences_kind": "literal",
+    "source_hash": "4ba2fa390d080e53",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 1088,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H70J075PM09EQQRW7",
+    "source": "Warping with {name}.",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 1141,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "62f2cca8512c0103",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 1141,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HDF5C5E3259HQTHD1",
+    "source": "Warping with another model.",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 1142,
+    "occurrences_kind": "literal",
+    "source_hash": "319154468763c8d6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 1142,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FENF3EDJWNCWMVSKR",
+    "source": "Setting up environment",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 1180,
+    "occurrences_kind": "literal",
+    "source_hash": "181b5f421f2a6627",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 1180,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BP5Q5GSNQP1KSZQXK",
+    "source": "Exit agent input",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 1213,
+    "occurrences_kind": "literal",
+    "source_hash": "8a44fb87664a58c2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/status_bar.rs",
+        "line": 1213,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GX2F7KB3F3FEF31JV",
+    "source": "Skip all",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 773,
+    "occurrences_kind": "literal",
+    "source_hash": "5fc4280582eed49a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 773,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HS69G7WH6N3Z2ZQ8Q",
+    "source": "Type your answer and press Enter",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1092,
+    "occurrences_kind": "literal",
+    "source_hash": "e7d2bdfaef95cbdb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1092,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129AN9E2Z2Z79GDMWEC",
+    "source": "Agent questions",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1295,
+    "occurrences_kind": "literal",
+    "source_hash": "f7aace177933accb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1295,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EZKVD1DSR2D37HVJ4",
+    "source": "Questions unavailable",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1328,
+    "occurrences_kind": "literal",
+    "source_hash": "f77f8e5b442e10d4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1328,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E5ZMBQHYJV980PMBA",
+    "source": "Questions skipped due to auto-approve",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1373,
+    "occurrences_kind": "literal",
+    "source_hash": "3ff1f4474a6cd53d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1373,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK90FWKSP4TYRSQD0J0AV",
+    "source": "Allow the agent to ask questions:",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1458,
+    "occurrences_kind": "literal",
+    "source_hash": "05a7a20898a8f07f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1458,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129W6XE44CVV0GF71Q1",
+    "source": "Answered question",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1745,
+    "occurrences_kind": "literal",
+    "source_hash": "24bfe61aa8711bcb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1745,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129GKMP6R9JMBFAQAK4",
+    "source": "Answered all {total} questions",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1747,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "87fb657df483b3e4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1747,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129HJB3WX4PRXNJS41F",
+    "source": "Answered {answered_count} of {total} question{}",
+    "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+    "line": 1751,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c41d259c1fb56045",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/ask_user_question_view.rs",
+        "line": 1751,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129VFH3SFBD484H21B8",
+    "source": "CMD_ENTER_ACCEPT_REQUESTED_COMMAND_KEYSTROKE is invalid",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 116,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8f1f082607d85119",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 116,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AWWNQS4AGFYE96FRV",
+    "source": "Copied from",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 662,
+    "occurrences_kind": "literal",
+    "source_hash": "7bd2260afbf350b4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 662,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A772YA9KP7WD6RWBK",
+    "source": "Derived from",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 672,
+    "occurrences_kind": "literal",
+    "source_hash": "fc15099d188bc145",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 672,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1295GFPFAWMGWC8C1AN",
+    "source": "Always allow Oz to execute read-only commands (relies on model)",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 713,
+    "occurrences_kind": "literal",
+    "source_hash": "8a3b689dd3521c84",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 713,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J6746WEYZ6XB1ZDM7",
+    "source": "Your profile is set to always ask for permission to execute commands.",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 770,
+    "occurrences_kind": "literal",
+    "source_hash": "4a80494dc89953fe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 770,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DS9DRSGVPE9XEHGTR",
+    "source": "Manage command execution setting",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 785,
+    "occurrences_kind": "literal",
+    "source_hash": "fe1ba2ce028a85a9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 785,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BBB1D23C8XSVDDBTT",
+    "source": "Error formatting JSON",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 1448,
+    "occurrences_kind": "literal",
+    "source_hash": "dba31b3539dee541",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 1448,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H0QTDQ242M3P81NDN",
+    "source": "Tool call was cancelled",
+    "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+    "line": 1452,
+    "occurrences_kind": "literal",
+    "source_hash": "8583513e7b26be56",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_command.rs",
+        "line": 1452,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FHDM9Z5VET8A9CYHR",
+    "source": "Searched for \"{}\" in {}",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 170,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "43220f9a66f25098",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 170,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FHFW3D6ZMA8NZ0BZP",
+    "source": "Searched for \"{}\"",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 172,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "78f245b1b9c717a0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 172,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FQW1YJQD42WBMZ7GJ",
+    "source": "Searching for \"{}\" in {}",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 476,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dcd4fdb6b84e1385",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 476,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F8SPSQGBKQRGHRK7Z",
+    "source": "Searching codebase for \"{}\"",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 478,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "370ed6f270182e99",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 478,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FNZXAX0VC5DSQNYXB",
+    "source": "Search for \"{}\" in {} cancelled",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 488,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0684971eae910ddc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 488,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F4V3TG432RY0NENFF",
+    "source": "Search for \"{}\" cancelled",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 492,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "14804a977db944fe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 492,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FG7MTAME17367P3EJ",
+    "source": "Searched codebase for \"{}\" in {}",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 506,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3c8d5fef4cbf9683",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 506,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FMDARAYBJF33JNDF0",
+    "source": "Searched codebase for \"{}\"",
+    "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+    "line": 510,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "381b794395aa795b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/search_codebase.rs",
+        "line": 510,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1281EQ8CBA7WC1H1QH9",
+    "source": "AWS credentials not configured",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 75,
+    "occurrences_kind": "literal",
+    "source_hash": "539e8bd0fffd577e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 75,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D0TXK29NEEQKF14EQ",
+    "source": "Log in to the AWS CLI or configure AWS credentials for this profile, then refresh.",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 76,
+    "occurrences_kind": "literal",
+    "source_hash": "03a185c1c0dfec0c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 76,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1285TCTTEJ2EFBE2P9S",
+    "source": "AWS Bedrock Disabled",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 81,
+    "occurrences_kind": "literal",
+    "source_hash": "d662cc8fb4a8e8bc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 81,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQ14CSZJ997WSXX21",
+    "source": "Warp will not load your AWS CLI credentials until AWS Bedrock is enabled by you or your workspace admin",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 82,
+    "occurrences_kind": "literal",
+    "source_hash": "387e9849a5269442",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 82,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EMGAY3WYBRY933PX8",
+    "source": "Refreshing credentials...",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 87,
+    "occurrences_kind": "literal",
+    "source_hash": "f34df942bf09868f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 87,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DVCH76DWXDQ3MY6TJ",
+    "source": "Loading your AWS CLI credentials into Warp",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 88,
+    "occurrences_kind": "literal",
+    "source_hash": "3a266cef7abb0bd2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 88,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A18099VWDMXNZV2ZW",
+    "source": "Credentials loaded",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 95,
+    "occurrences_kind": "literal",
+    "source_hash": "f84cb9c9f5cf98d0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 95,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DYV8WVFGRN0VT6HPN",
+    "source": "Loaded at {}, expires {}",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 98,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0182c15b111e4ca8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 98,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DPPHYEFR3YPNQG8NX",
+    "source": "Loaded at {}",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 102,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6cf6609c96f25a88",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 102,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HGRSPX6S1M9C7Z556",
+    "source": "Unable to load credentials",
+    "file": "crates/ai/src/aws_credentials.rs",
+    "line": 107,
+    "occurrences_kind": "literal",
+    "source_hash": "62d796e6ad4b845a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/aws_credentials.rs",
+        "line": 107,
+        "kind": "literal"
+      }
+    ]
+  }
+]
