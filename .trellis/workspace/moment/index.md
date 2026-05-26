@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-2.md`
-- **Total Sessions**: 16
-- **Last Active**: 2026-05-25
+- **Total Sessions**: 17
+- **Last Active**: 2026-05-26
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-2.md` | ~40 | Active |
+| `journal-2.md` | ~73 | Active |
 | `journal-1.md` | ~1989 | Archived |
 <!-- @@@/auto:active-documents -->
 
@@ -30,6 +30,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 17 | 2026-05-26 | Batch-19 translation: 380 entries via 6 parallel opus implementers | `4cee55c` | `main` |
 | 16 | 2026-05-25 | Batch-18 translation: 385 entries via 6 parallel implementers | `d6c85c4` | `main` |
 | 15 | 2026-05-25 | Translate batch-17: 383 entries via 6 parallel opus implementers | `8b751a2` | `main` |
 | 14 | 2026-05-25 | batch-16 translation — 371 entries via 6 parallel implementers | `f3bd4b8` | `main` |

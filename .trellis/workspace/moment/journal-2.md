@@ -38,3 +38,36 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 17: Batch-19 translation: 380 entries via 6 parallel opus implementers
+
+**Date**: 2026-05-26
+**Task**: Batch-19 translation: 380 entries via 6 parallel opus implementers
+**Branch**: `main`
+
+### Summary
+
+Batch-19 of warp_translation: 380 status=new entries translated via 6 parallel trellis-implement (opus) sub-batches, file-pinned (36 files). Decision flow per translation-contract §1-12. Action mix: 264 UI translate + 8 bilingual_search_terms (settings_view/code_page) + 108 flagged (80 telemetry_payload, 18 extractor_false_positive_doc_comment in warp_terminal/model/mode.rs bitflags!, 8 panic_message, 2 protocol_key). Post-apply counts: new 2283→1903, translated 4399→4779, fuzzy 52 unchanged. apply_translations.py caught two batch-C whitespace mismatches ('…machine. ' trailing space + ' for more powerful…' leading space) which were fixed before merge. trellis-check verdict PASS — 0 invariant violations, collateral isolation confirmed.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `4cee55c` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
