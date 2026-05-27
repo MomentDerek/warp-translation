@@ -71,3 +71,37 @@ Batch-19 of warp_translation: 380 status=new entries translated via 6 parallel t
 ### Next Steps
 
 - None - task complete
+
+
+## Session 18: Batch-20 translation (10 parallel implementers) + reusable batch kit
+
+**Date**: 2026-05-27
+**Task**: Batch-20 translation (10 parallel implementers) + reusable batch kit
+**Branch**: `main`
+
+### Summary
+
+Ran batch-20: 10 parallel trellis-implement (opus) agents translated 602 new entries by file via a background Workflow (translate -> apply -> check, PASS). new 1903->1301, translated 4779->5381. Then generalized the one-off batch scripts into a reusable, batch-number-agnostic kit (tools/translations/kit/: build_batch.py, apply_batch.py, translate_batch.mjs) + RUNBOOK.md, registered in the guides index.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `431db28` | (see git log) |
+| `65d8a90` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
