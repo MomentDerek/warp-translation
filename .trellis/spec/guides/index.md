@@ -24,6 +24,7 @@ These guides help you **ask the right questions before coding**.
 | [Code Reuse Thinking Guide](./code-reuse-thinking-guide.md) | Identify patterns and reduce duplication | When you notice repeated patterns |
 | [Cross-Layer Thinking Guide](./cross-layer-thinking-guide.md) | Think through data flow across layers | Features spanning multiple layers |
 | [Translation Contract](./translation-contract.md) | Checklist for translating UI strings (placeholders, glossary, tone, punctuation) | Before/during translating any batch of `translations/strings.json` entries |
+| [Translation Batch Runbook](../../../tools/translations/kit/RUNBOOK.md) | End-to-end procedure for running one parallel-translation batch (build → workflow → apply → check → commit) | Starting the next translation batch |
 
 ---
 
