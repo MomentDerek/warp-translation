@@ -204,3 +204,36 @@ Ran batch 22 of the parallel translation workflow: 8 trellis-implement agents tr
 ### Next Steps
 
 - None - task complete
+
+
+## Session 22: Translation batch-23 (final): clear remaining 99 new entries
+
+**Date**: 2026-05-27
+**Task**: Translation batch-23 (final): clear remaining 99 new entries
+**Branch**: `main`
+
+### Summary
+
+Ran the parallel-translation workflow for batch-23 (final cleanup batch) per RUNBOOK. 8 trellis-implement agents translated 99 file-pinned status=new entries (1 per file across 99 files). apply_batch delta: new 99->0, translated 6583->6682 (+99). Per-action: translate 41, flag_panic_message 36, flag_telemetry_payload 16, flag_protocol_key 5, flag_test_fixture 1. trellis-check verdict PASS. All status=new entries now cleared; 52 fuzzy entries remain (out of workflow scope).
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `f4dffa1` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

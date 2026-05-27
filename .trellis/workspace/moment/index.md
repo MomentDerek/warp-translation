@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-2.md`
-- **Total Sessions**: 21
+- **Total Sessions**: 22
 - **Last Active**: 2026-05-27
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-2.md` | ~206 | Active |
+| `journal-2.md` | ~239 | Active |
 | `journal-1.md` | ~1989 | Archived |
 <!-- @@@/auto:active-documents -->
 
@@ -30,6 +30,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 22 | 2026-05-27 | Translation batch-23 (final): clear remaining 99 new entries | `f4dffa1` | `main` |
 | 21 | 2026-05-27 | Translation batch 22 — 600 entries via 8 parallel implementers | `d05e303` | `main` |
 | 20 | 2026-05-27 | Align translation kit default parallelism to 8 | `ca80c80` | `main` |
 | 19 | 2026-05-27 | Translation batch-21 via 10 parallel implementers | `7871fd2` | `main` |
