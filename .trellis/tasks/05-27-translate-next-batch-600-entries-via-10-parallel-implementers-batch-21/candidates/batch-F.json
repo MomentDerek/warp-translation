@@ -1,0 +1,1159 @@
+[
+  {
+    "id": "01KRNVK95QT1640R3BCKTP3TT0",
+    "source": "Bedrock API Key",
+    "file": "app/src/ai/auth_secret_types.rs",
+    "line": 134,
+    "occurrences_kind": "literal",
+    "source_hash": "6dabf3e21620ef1c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/auth_secret_types.rs",
+        "line": 134,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK95WN2CKNT5W67F3XJ8Q",
+    "source": "Bedrock Access Key",
+    "file": "app/src/ai/auth_secret_types.rs",
+    "line": 153,
+    "occurrences_kind": "literal",
+    "source_hash": "a22926b4dc7b6b86",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/auth_secret_types.rs",
+        "line": 153,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEPKEMJK1F9BBYFASVZDK",
+    "source": "AKIA...",
+    "file": "app/src/ai/auth_secret_types.rs",
+    "line": 159,
+    "occurrences_kind": "literal",
+    "source_hash": "4c450e6290eb9456",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/auth_secret_types.rs",
+        "line": 159,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQS27JR8C4JQAP78F7ZF",
+    "source": "us-east-1",
+    "file": "app/src/ai/auth_secret_types.rs",
+    "line": 146,
+    "occurrences_kind": "literal",
+    "source_hash": "487d653406a6aebc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/auth_secret_types.rs",
+        "line": 146,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/auth_secret_types.rs",
+        "line": 177,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129XYJEE31RNRZ0R80R",
+    "source": "Block context attachment regex should be parsed",
+    "file": "app/src/ai/blocklist/controller/input_context.rs",
+    "line": 41,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a86ccbae38f7016c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller/input_context.rs",
+        "line": 41,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AXKFD2Z2YSVQ8WWC7",
+    "source": "Diff hunk attachment regex should be parsed",
+    "file": "app/src/ai/blocklist/controller/input_context.rs",
+    "line": 47,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bd8f0170ce76f9f9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller/input_context.rs",
+        "line": 47,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B1NV1AZRN657WX684",
+    "source": "Drive object attachment regex should be parsed",
+    "file": "app/src/ai/blocklist/controller/input_context.rs",
+    "line": 44,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8cf2a3e1b090a257",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller/input_context.rs",
+        "line": 44,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK8ZBC0WPEV2NTVG9NVJM",
+    "source": "Agent location",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 1729,
+    "occurrences_kind": "literal",
+    "source_hash": "a85ecfc094df0b7e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+        "line": 1729,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKA3BXBZN6ECP3ZFRQ8HN",
+    "source": "OpenCode is not supported on Cloud yet. Switch to Local or pick a different harness.",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 248,
+    "occurrences_kind": "literal",
+    "source_hash": "97f3391d4f7295d0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+        "line": 248,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKASTV9ND3H9QPRFS7XDF",
+    "source": "We recommend creating an environment for cloud agents.",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 2035,
+    "occurrences_kind": "literal",
+    "source_hash": "f2b93d66aa3ebe0e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+        "line": 2035,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKASXXPR578VAJZ524AAZ",
+    "source": "We recommend selecting an environment for cloud agents.",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 2033,
+    "occurrences_kind": "literal",
+    "source_hash": "29997f9d47b9d23c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+        "line": 2033,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQMG7C2PFVN07W814BE5",
+    "source": "Select an API key for this harness to continue.",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 1085,
+    "occurrences_kind": "literal",
+    "source_hash": "9e5b261ead74b1bc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+        "line": 1085,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A2QPQYYHB2246D07X",
+    "source": "Delete personal Warp Drive objects and preferences?",
+    "file": "app/src/auth/auth_override_warning_body.rs",
+    "line": 35,
+    "occurrences_kind": "literal",
+    "source_hash": "11e886e926b0f1c9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_override_warning_body.rs",
+        "line": 35,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DF2R6W66FEC46CQX7",
+    "source": "New login detected",
+    "file": "app/src/auth/auth_override_warning_body.rs",
+    "line": 33,
+    "occurrences_kind": "literal",
+    "source_hash": "8d7ca388a54b9c98",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_override_warning_body.rs",
+        "line": 33,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/auth/auth_override_warning_body.rs",
+        "line": 379,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GBYV9XV59PF63GZAK",
+    "source": "This cannot be undone.",
+    "file": "app/src/auth/auth_override_warning_body.rs",
+    "line": 32,
+    "occurrences_kind": "literal",
+    "source_hash": "b545dd165128ac73",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_override_warning_body.rs",
+        "line": 32,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJTSECKZQG3Y7YC6Z",
+    "source": "Warp has detected a new login from a web browser. Press escape to cancel and continue using Warp without login.",
+    "file": "app/src/auth/auth_override_warning_body.rs",
+    "line": 380,
+    "occurrences_kind": "literal",
+    "source_hash": "93852e982d449c93",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_override_warning_body.rs",
+        "line": 380,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129S6D1JACNBNQ9FVR9",
+    "source": "Branch successfully published.",
+    "file": "app/src/code_review/git_dialog/push.rs",
+    "line": 163,
+    "occurrences_kind": "literal",
+    "source_hash": "d4f091b7171bb22a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/push.rs",
+        "line": 163,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129THAMTKCX3NP2SBDG",
+    "source": "Changes successfully pushed.",
+    "file": "app/src/code_review/git_dialog/push.rs",
+    "line": 165,
+    "occurrences_kind": "literal",
+    "source_hash": "374f1ad22e586694",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/push.rs",
+        "line": 165,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZRQHZZ6Z9G9P392C",
+    "source": "Included commits",
+    "file": "app/src/code_review/git_dialog/push.rs",
+    "line": 216,
+    "occurrences_kind": "literal",
+    "source_hash": "298c23fcf1281f69",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/push.rs",
+        "line": 216,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F37VP2C0TANKK3CWF",
+    "source": "Ruby on Rails",
+    "file": "app/src/notebooks/editor/notebook_command.rs",
+    "line": 89,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "87771745c9412ed0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 4,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/editor/notebook_command.rs",
+        "line": 89,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/editor/src/content/text.rs",
+        "line": 745,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/text.rs",
+        "line": 804,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/text.rs",
+        "line": 849,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKA7TXAP5J38R04S5S9K5",
+    "source": "Raw",
+    "file": "app/src/notebooks/editor/notebook_command.rs",
+    "line": 681,
+    "occurrences_kind": "literal",
+    "source_hash": "848123d14f84faa2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/editor/notebook_command.rs",
+        "line": 681,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAHBHSRRG41259PNVSBJ",
+    "source": "Rendered",
+    "file": "app/src/notebooks/editor/notebook_command.rs",
+    "line": 706,
+    "occurrences_kind": "literal",
+    "source_hash": "331e25aab7ff4d49",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/editor/notebook_command.rs",
+        "line": 706,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129P9MDKS1HQ4024YVN",
+    "source": "Closing notebook on termination",
+    "file": "app/src/notebooks/manager.rs",
+    "line": 352,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3d8e559ffeec2800",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/manager.rs",
+        "line": 352,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129VQCMR5KR51BD41JZ",
+    "source": "Closing notebook {} on termination",
+    "file": "app/src/notebooks/manager.rs",
+    "line": 353,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2c598abc3449e1c5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/manager.rs",
+        "line": 353,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CP63D5GQYRRKN3PYM",
+    "source": "Ignoring duplicate notebook pane registration",
+    "file": "app/src/notebooks/manager.rs",
+    "line": 241,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "70e809f7bdf8e299",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/manager.rs",
+        "line": 241,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CWFZP5PX5AKFDSDMT",
+    "source": "Ignoring duplicate notebook pane registration for {notebook_id}",
+    "file": "app/src/notebooks/manager.rs",
+    "line": 242,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e53dd1c0b2b04d71",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/manager.rs",
+        "line": 242,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A29PGMCB3872K59BZ",
+    "source": "Could not resolve activate() function",
+    "file": "app/src/plugin/host/native/runner.rs",
+    "line": 70,
+    "occurrences_kind": "literal",
+    "source_hash": "ea2c5b6902caa766",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/plugin/host/native/runner.rs",
+        "line": 70,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AC0Q4SD1BK049P8Z9",
+    "source": "Could not compile plugin source",
+    "file": "app/src/plugin/host/native/runner.rs",
+    "line": 62,
+    "occurrences_kind": "literal",
+    "source_hash": "84c9d73e78311078",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/plugin/host/native/runner.rs",
+        "line": 62,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AKS2BB6MCHABZT4RP",
+    "source": "Could not instantiate runtime",
+    "file": "app/src/plugin/host/native/runner.rs",
+    "line": 38,
+    "occurrences_kind": "literal",
+    "source_hash": "e00305a1cb627130",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/plugin/host/native/runner.rs",
+        "line": 38,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AY0VW3DKQC3PG9Y3Y",
+    "source": "Could not instantiate context.",
+    "file": "app/src/plugin/host/native/runner.rs",
+    "line": 39,
+    "occurrences_kind": "literal",
+    "source_hash": "07ac8d9cd39be675",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/plugin/host/native/runner.rs",
+        "line": 39,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BH5KCR4NAA8X9FTVQ",
+    "source": "Failed to call activate() function",
+    "file": "app/src/plugin/host/native/runner.rs",
+    "line": 73,
+    "occurrences_kind": "literal",
+    "source_hash": "2037d8f39e5a74c7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/plugin/host/native/runner.rs",
+        "line": 73,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ERZRQEBWCEM75SJT1",
+    "source": "Press enter to open the theme chooser or escape to dismiss.",
+    "file": "app/src/reward_view.rs",
+    "line": 37,
+    "occurrences_kind": "literal",
+    "source_hash": "ee586426f097ed52",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/reward_view.rs",
+        "line": 37,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J3ANC2TA34YHB51MA",
+    "source": "You earned an exclusive Warp theme for referring someone to Warp.",
+    "file": "app/src/reward_view.rs",
+    "line": 26,
+    "occurrences_kind": "literal",
+    "source_hash": "d75715efccc1886b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/reward_view.rs",
+        "line": 26,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JT1YJP63S9TH685A6",
+    "source": "You earned an exclusive Warp theme for being referred to Warp.",
+    "file": "app/src/reward_view.rs",
+    "line": 28,
+    "occurrences_kind": "literal",
+    "source_hash": "ed3534222e53fa9c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/reward_view.rs",
+        "line": 28,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EKR4TDJK8VJ0HB76M",
+    "source": "Restart Gemini CLI to activate the update.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 148,
+    "occurrences_kind": "literal",
+    "source_hash": "7643a9d53f8a8f5e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 148,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EP3989X9YDQBQMP84",
+    "source": "Restart Gemini CLI to activate the plugin.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 136,
+    "occurrences_kind": "literal",
+    "source_hash": "7b3d245aabd3e73a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 136,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H3F8YS8XSM5WDDREK",
+    "source": "Warp plugin updated. Please restart Gemini CLI to activate.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 114,
+    "occurrences_kind": "literal",
+    "source_hash": "ce06474877928b5e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 114,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HRV34Q0KZKBYC869M",
+    "source": "Warp plugin installed. Please restart Gemini CLI to activate.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 110,
+    "occurrences_kind": "literal",
+    "source_hash": "4425be81113984ba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 110,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10KMZ2AVWS5PHRC2MCZ",
+    "source": " A set of commands that perform minimal work that we use as a baseline to measure the latency of blocks.",
+    "file": "app/src/terminal/model/block.rs",
+    "line": 131,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e6ee17a203b4b568",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/block.rs",
+        "line": 131,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV113T40DK4XJVPQWND8B",
+    "source": " Note that while the empty command doesn't invoke pre-exec, it still does get a newline from",
+    "file": "app/src/terminal/model/block.rs",
+    "line": 132,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "034fbb2ec3fd9b9a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/block.rs",
+        "line": 132,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1264Q22H124YGADF8BC",
+    "source": " the shell, and runs precmd.",
+    "file": "app/src/terminal/model/block.rs",
+    "line": 133,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "473f4148d2b72fed",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/block.rs",
+        "line": 133,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128MZTQJVJHMJVZYXXT",
+    "source": "Active grid should exist",
+    "file": "app/src/terminal/model/block.rs",
+    "line": 2163,
+    "occurrences_kind": "literal",
+    "source_hash": "88eba6d2f702572b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/block.rs",
+        "line": 2163,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/model/block.rs",
+        "line": 2169,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/model/block.rs",
+        "line": 2175,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ER59ABZYTR8SNP13Q",
+    "source": "Prompt end point should be defined.",
+    "file": "app/src/terminal/model/block.rs",
+    "line": 2318,
+    "occurrences_kind": "literal",
+    "source_hash": "e2556795f11b81bf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/block.rs",
+        "line": 2318,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129F3NG7PYMRGSRSAMA",
+    "source": "Auto will select the best model for the task. Cost-efficiency optimizes for cost, Responsiveness optimizes for response speed.",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 2055,
+    "occurrences_kind": "literal",
+    "source_hash": "d443895b12f74613",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/profile_model_selector.rs",
+        "line": 2055,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129Y2HZ8GB8JDT9CTHF",
+    "source": "Auto mode",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 2054,
+    "occurrences_kind": "literal",
+    "source_hash": "9ba1e1b64aa5543e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/profile_model_selector.rs",
+        "line": 2054,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DP971YQ4C0F3EA80H",
+    "source": "New models available",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 371,
+    "occurrences_kind": "literal",
+    "source_hash": "674c0f94bb2b0e48",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/profile_model_selector.rs",
+        "line": 371,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H71GYZDR05W9S78YD",
+    "source": "Warp’s benchmarks for how well a model performs in our harness, the rate at which it consumes credits, and task speed.",
+    "file": "app/src/terminal/profile_model_selector.rs",
+    "line": 2015,
+    "occurrences_kind": "literal",
+    "source_hash": "5171e76f587332be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/profile_model_selector.rs",
+        "line": 2015,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B263BSSJJ7NCB2DST",
+    "source": "Failed to execute osascript for admin privileges",
+    "file": "app/src/workspace/cli_install.rs",
+    "line": 41,
+    "occurrences_kind": "literal",
+    "source_hash": "ce08d92391eb18a5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/cli_install.rs",
+        "line": 41,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workspace/cli_install.rs",
+        "line": 77,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B83R4B7VNX0CMDGQF",
+    "source": "Failed to remove symlink even with admin privileges",
+    "file": "app/src/workspace/cli_install.rs",
+    "line": 168,
+    "occurrences_kind": "literal",
+    "source_hash": "4e4ba41da711fd6c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/cli_install.rs",
+        "line": 168,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BKD8XJN39KN1TRNG7",
+    "source": "Failed to get current executable path",
+    "file": "app/src/workspace/cli_install.rs",
+    "line": 102,
+    "occurrences_kind": "literal",
+    "source_hash": "9de81cd60d7c1e52",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/cli_install.rs",
+        "line": 102,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZZE38T2W70WNAJ9Y",
+    "source": "Failed to create symlink even with admin privileges",
+    "file": "app/src/workspace/cli_install.rs",
+    "line": 127,
+    "occurrences_kind": "literal",
+    "source_hash": "1ddc72418a611335",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/cli_install.rs",
+        "line": 127,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HFGK0Q2168ZBWZ6BC",
+    "source": "User canceled",
+    "file": "app/src/workspace/cli_install.rs",
+    "line": 45,
+    "occurrences_kind": "literal",
+    "source_hash": "01f215a34407e87e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/cli_install.rs",
+        "line": 45,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workspace/cli_install.rs",
+        "line": 81,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FGZGWEWQFD72X8NKA",
+    "source": "Rich text element must have a size before painting",
+    "file": "crates/editor/src/render/element/mod.rs",
+    "line": 1066,
+    "occurrences_kind": "literal",
+    "source_hash": "b2f96ffc68ed609d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/element/mod.rs",
+        "line": 1066,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H42C0AMHMAG6HWKAQ",
+    "source": "Viewport size must be set before painting",
+    "file": "crates/editor/src/render/element/mod.rs",
+    "line": 1070,
+    "occurrences_kind": "literal",
+    "source_hash": "12913e65d302c12f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/element/mod.rs",
+        "line": 1070,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H7YNS19CFR35WEYX1",
+    "source": "Viewport size should exist",
+    "file": "crates/editor/src/render/element/mod.rs",
+    "line": 488,
+    "occurrences_kind": "literal",
+    "source_hash": "53b4a33a048b8c85",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/element/mod.rs",
+        "line": 488,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HHYHQ8YDJWTQTH802",
+    "source": "Viewport state should be set",
+    "file": "crates/editor/src/render/element/mod.rs",
+    "line": 1096,
+    "occurrences_kind": "literal",
+    "source_hash": "f5032072a7015471",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/element/mod.rs",
+        "line": 1096,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129J708EG9D83P38TH1",
+    "source": "Clone a repository into a new directory",
+    "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+    "line": 128,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "37b579d7284c35d7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 128,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 492,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129WY8Y64Q9D2RESYCK",
+    "source": "Add file contents to the index",
+    "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+    "line": 97,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "464d695260677c5f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 97,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 473,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DR8QV2W940BAZ9Z9K",
+    "source": "List, create, or delete branches",
+    "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+    "line": 138,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76190a16366ed3b8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 138,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 497,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GQ4J3YG4B9C963228",
+    "source": "Switch branches or restore working tree files",
+    "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+    "line": 107,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "460c9afd91ab9887",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 107,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 478,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J2F7JKMXHWN1RQ2W0",
+    "source": "testing...",
+    "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+    "line": 293,
+    "occurrences_kind": "literal",
+    "source_hash": "ac7f7b633623e170",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 12,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 293,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 314,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 755,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 805,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 832,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/legacy.rs",
+        "line": 882,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 65,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 356,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 386,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 450,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 611,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warp_completer/src/signatures/testing/v2.rs",
+        "line": 641,
+        "kind": "literal"
+      }
+    ]
+  }
+]

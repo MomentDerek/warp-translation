@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "01KQXQV129QGZP6EA8BA5JZRRC",
+    "source": "Changes to document {} were already made",
+    "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+    "line": 89,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "706948e147d91022",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+        "line": 89,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A8EMMFFX6H2EC3VTN",
+    "source": "Could not apply diff to document {}: content mismatch",
+    "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+    "line": 85,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7ccd8b55c42f3a2a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+        "line": 85,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWJRSFAQV88TQQ736",
+    "source": "Failed to apply diff to document {}",
+    "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+    "line": 91,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8737762bd3733b66",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+        "line": 91,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZ86TMB8YNN94Q1QK",
+    "source": "Document {} does not exist.",
+    "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+    "line": 62,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "95246fa830f524e2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+        "line": 62,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQDHN84CAE0665KN5",
+    "source": "Unknown diff failure for document {}",
+    "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+    "line": 94,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "224bdac3422f6a0a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/edit_documents.rs",
+        "line": 94,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV112FW2Q65VNAHK6RA24",
+    "source": " Matches control code values specified in hex format delimited by angle brackets, e.g. <0x1B>.",
+    "file": "app/src/ai/control_code_parser.rs",
+    "line": 8,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ce179e12deeb2ee4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/control_code_parser.rs",
+        "line": 8,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV112QX5BV735MX039XS9",
+    "source": " Matches an incomplete control code at the end of the response stream.",
+    "file": "app/src/ai/control_code_parser.rs",
+    "line": 11,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "239214406b6c669c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/control_code_parser.rs",
+        "line": 11,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EGR76YBQYWJV0VQYN",
+    "source": "Regex is valid.",
+    "file": "app/src/ai/control_code_parser.rs",
+    "line": 9,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ad46d73ac23df611",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/control_code_parser.rs",
+        "line": 9,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/ai/control_code_parser.rs",
+        "line": 12,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B5RJD3GZ9GQQ0BC1C",
+    "source": "Failed to save file: {e:?}",
+    "file": "app/src/code/inline_diff.rs",
+    "line": 339,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "47e60b81f2489cf8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/inline_diff.rs",
+        "line": 339,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/code/local_code_editor.rs",
+        "line": 2121,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWDNRM36EY2EZXY00",
+    "source": "Failed to delete file: {e:?}",
+    "file": "app/src/code/inline_diff.rs",
+    "line": 318,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "18f607534a73c233",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/inline_diff.rs",
+        "line": 318,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DJBRENPXJM6XJR7H1",
+    "source": "Missing base content",
+    "file": "app/src/code/inline_diff.rs",
+    "line": 331,
+    "occurrences_kind": "literal",
+    "source_hash": "6862bfa200f1e0cb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/inline_diff.rs",
+        "line": 331,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/code/local_code_editor.rs",
+        "line": 2108,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9MJJ6X900SZBXVG0QNM",
+    "source": "Failed to convert StandardizedPath to local path: {file_path}; diff will be read-only",
+    "file": "app/src/code/inline_diff.rs",
+    "line": 137,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc449a34026a0722",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/inline_diff.rs",
+        "line": 137,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9N050DANHASHZYADGBN",
+    "source": "Failed to convert StandardizedPath to local path; diff will be read-only",
+    "file": "app/src/code/inline_diff.rs",
+    "line": 133,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "aba0c0daa3d52d5c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/inline_diff.rs",
+        "line": 133,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129BCG5S61NC704R23C",
+    "source": "Cannot edit inherited permissions",
+    "file": "app/src/drive/sharing/dialog/inheritance.rs",
+    "line": 86,
+    "occurrences_kind": "literal",
+    "source_hash": "eb12d54278a5b716",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/inheritance.rs",
+        "line": 86,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BTHFDH15V58E1F4CX",
+    "source": "Edit inherited permissions on the parent folder",
+    "file": "app/src/drive/sharing/dialog/inheritance.rs",
+    "line": 79,
+    "occurrences_kind": "literal",
+    "source_hash": "3ac50f30217b2a3e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/inheritance.rs",
+        "line": 79,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C8H980486Q5EHGQVM",
+    "source": "Inherited from ",
+    "file": "app/src/drive/sharing/dialog/inheritance.rs",
+    "line": 53,
+    "occurrences_kind": "literal",
+    "source_hash": "5be69657d4a4de81",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/inheritance.rs",
+        "line": 53,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CJR4F82D2T64MRQSP",
+    "source": "Inherited permission",
+    "file": "app/src/drive/sharing/dialog/inheritance.rs",
+    "line": 83,
+    "occurrences_kind": "literal",
+    "source_hash": "e281c68c663ef6a9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/inheritance.rs",
+        "line": 83,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ANKPQ9KKPVK1KC8TN",
+    "source": "Cycle suggestions",
+    "file": "app/src/editor/view/element.rs",
+    "line": 1522,
+    "occurrences_kind": "literal",
+    "source_hash": "b9540cf575962a96",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/editor/view/element.rs",
+        "line": 1522,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F5THZ4HSD79FXHTGH",
+    "source": "Should have layout line",
+    "file": "app/src/editor/view/element.rs",
+    "line": 2251,
+    "occurrences_kind": "literal",
+    "source_hash": "3737e348a714ee98",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/editor/view/element.rs",
+        "line": 2251,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FWSSEM0B2D92499DW",
+    "source": "Should be clamped to last possible line",
+    "file": "app/src/editor/view/element.rs",
+    "line": 2360,
+    "occurrences_kind": "literal",
+    "source_hash": "8cb5eda880df303f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/editor/view/element.rs",
+        "line": 2360,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1292GYKGR8N30X4EQ6T",
+    "source": "Branch {branch:?}",
+    "file": "app/src/pane_group/tree.rs",
+    "line": 1538,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0a04ab088e3e846e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/tree.rs",
+        "line": 1538,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E4KQG03KK8JPAZBY6",
+    "source": "PaneGroup has no nodes when moving focus.",
+    "file": "app/src/pane_group/tree.rs",
+    "line": 814,
+    "occurrences_kind": "literal",
+    "source_hash": "fff18da79d103fcf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/tree.rs",
+        "line": 814,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ETGKA61HEA0MG3YXJ",
+    "source": "PaneBranch has no nodes when moving focus.",
+    "file": "app/src/pane_group/tree.rs",
+    "line": 820,
+    "occurrences_kind": "literal",
+    "source_hash": "b3712110657efdc2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/tree.rs",
+        "line": 820,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12APRNJ41XJMABF2ARX",
+    "source": "Currently running {running_command}",
+    "file": "app/src/session_management.rs",
+    "line": 87,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "40d7d3568da96ef2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/session_management.rs",
+        "line": 87,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AVCXPXHZX0Q9RMKZ1",
+    "source": "Currently running AI interaction: {prompt}",
+    "file": "app/src/session_management.rs",
+    "line": 90,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f54922cb52e468ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/session_management.rs",
+        "line": 90,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D2GEE42819RZB4RZV",
+    "source": "Last run command {}",
+    "file": "app/src/session_management.rs",
+    "line": 84,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fa9de3962bbdccd4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/session_management.rs",
+        "line": 84,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DSB9ERPBFC51SYBV5",
+    "source": "Last AI interaction: {prompt}",
+    "file": "app/src/session_management.rs",
+    "line": 85,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "afd1e91bf93b0448",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/session_management.rs",
+        "line": 85,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQS4877GQDXAZGNFCZ5A",
+    "source": "{:?}:unknown-{unknown_counter}",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 181,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ad5990909e39d88f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+        "line": 181,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQS56TVTBQNXA9TEWXB2",
+    "source": "{:?}:{uid}",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 178,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a6879d2aa35f241b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+        "line": 178,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQSHSMY8EJMDHGWBK7Q7",
+    "source": "{}/agents/{}",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 400,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6b31eeae63279aad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+        "line": 400,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQSJHXBBRXFNGM032SHF",
+    "source": "{}__agent_info",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 433,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dcf25140311b7c54",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+        "line": 433,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+        "line": 561,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQSMRNPPNSXRTVM40NPQ",
+    "source": "{}__agent_link",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+    "line": 411,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8afced98a5c0c918",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_rows.rs",
+        "line": 411,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A2WZPRN40X9CZ3W0G",
+    "source": "Did not find valid binaries when attempting to load fallback shell (not bash, fish, or zsh).",
+    "file": "app/src/terminal/local_tty/shell.rs",
+    "line": 212,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f9dec3e0c887c5c5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/local_tty/shell.rs",
+        "line": 212,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AJNCVM2R652HYCWHA",
+    "source": "Did not find valid binaries when attempting to load fallback shell (not PowerShell or WSL).",
+    "file": "app/src/terminal/local_tty/shell.rs",
+    "line": 236,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ebbcbe5a3f0c4d00",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/local_tty/shell.rs",
+        "line": 236,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CF83G3QQXPGSQNMZC",
+    "source": "Git Bash",
+    "file": "app/src/terminal/local_tty/shell.rs",
+    "line": 279,
+    "occurrences_kind": "literal",
+    "source_hash": "a0e092c677f178e2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/local_tty/shell.rs",
+        "line": 279,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E3ARK05SHN6DZ5MRV",
+    "source": "PowerShell Core",
+    "file": "app/src/terminal/local_tty/shell.rs",
+    "line": 456,
+    "occurrences_kind": "literal",
+    "source_hash": "c2d974d8e2157da4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/local_tty/shell.rs",
+        "line": 456,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A8BNTQPAVWWDGD1A8",
+    "source": "Copy debugging link",
+    "file": "app/src/terminal/view/context_menu.rs",
+    "line": 267,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "da245cd2148abae4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/context_menu.rs",
+        "line": 267,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AAAF4G8A2EPTW46RA",
+    "source": "Copy debugging ID",
+    "file": "app/src/terminal/view/context_menu.rs",
+    "line": 282,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "21f128b2433d5c5a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/context_menu.rs",
+        "line": 282,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AH20ZRJJ6KKCY9E82",
+    "source": "Copy output as Markdown",
+    "file": "app/src/terminal/view/context_menu.rs",
+    "line": 33,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b10c1050f32681cd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/context_menu.rs",
+        "line": 33,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AWND1E1RZ0KAY0JT9",
+    "source": "Copy conversation ID",
+    "file": "app/src/terminal/view/context_menu.rs",
+    "line": 274,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3f82e951bb42b54d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/context_menu.rs",
+        "line": 274,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9W7GWFT9MZTM1PRAS4S",
+    "source": "Fork",
+    "file": "app/src/terminal/view/context_menu.rs",
+    "line": 345,
+    "occurrences_kind": "literal",
+    "source_hash": "8e5b1a73152cf01c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/context_menu.rs",
+        "line": 345,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1294MPFNBMH6XJQJ9Y4",
+    "source": "Code Review",
+    "file": "app/src/workspace/header_toolbar_item.rs",
+    "line": 43,
+    "occurrences_kind": "literal",
+    "source_hash": "4ab8b478f7fc978e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/header_toolbar_item.rs",
+        "line": 43,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129E9Z8467TYH6NNVKB",
+    "source": "Agent Management",
+    "file": "app/src/workspace/header_toolbar_item.rs",
+    "line": 42,
+    "occurrences_kind": "literal",
+    "source_hash": "1501a898a9d8652d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/header_toolbar_item.rs",
+        "line": 42,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GXXPCS15VSJP73SEW",
+    "source": "Tabs Panel",
+    "file": "app/src/workspace/header_toolbar_item.rs",
+    "line": 40,
+    "occurrences_kind": "literal",
+    "source_hash": "c50bfbca377ac60e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/header_toolbar_item.rs",
+        "line": 40,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HCND3X1979NQGY77F",
+    "source": "Tools Panel",
+    "file": "app/src/workspace/header_toolbar_item.rs",
+    "line": 41,
+    "occurrences_kind": "literal",
+    "source_hash": "74cc5c5f7fd3aa20",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/header_toolbar_item.rs",
+        "line": 41,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129MR6VF1A9GBTRK69H",
+    "source": "Can't get window hostname",
+    "file": "crates/http_client/src/lib.rs",
+    "line": 235,
+    "occurrences_kind": "literal",
+    "source_hash": "9d8f13c892f1c7fe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/http_client/src/lib.rs",
+        "line": 235,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BAENTF7Z9W8QY7T1K",
+    "source": "Failed to serialize JSON request payload.",
+    "file": "crates/http_client/src/lib.rs",
+    "line": 383,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9bfc238feb624813",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/http_client/src/lib.rs",
+        "line": 383,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BQP4MMPEK9YBY7V3K",
+    "source": "Failed to serialize url-encoded form payload",
+    "file": "crates/http_client/src/lib.rs",
+    "line": 545,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5468005bba5decf3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/http_client/src/lib.rs",
+        "line": 545,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EW0CNKJ904RZN95XS",
+    "source": "Request type for SSE endpoint must be cloneable.",
+    "file": "crates/http_client/src/lib.rs",
+    "line": 419,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "eec6c3093563957d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/http_client/src/lib.rs",
+        "line": 419,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/http_client/src/lib.rs",
+        "line": 440,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J0K3JJCX6A21NQPJB",
+    "source": "X-Warp-OS-Name",
+    "file": "crates/http_client/src/lib.rs",
+    "line": 34,
+    "occurrences_kind": "literal",
+    "source_hash": "2b15dc1bc4ba65fa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/http_client/src/lib.rs",
+        "line": 34,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AEBR57EWBQBP5T2GH",
+    "source": "Custom header had field {param_name} with an invalid value of {value}",
+    "file": "crates/warpui_core/src/image_cache.rs",
+    "line": 95,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "819abc0067c4ef6b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/image_cache.rs",
+        "line": 95,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AS20Q46WM0XKSKHPN",
+    "source": "Custom header had {param_name} field missing",
+    "file": "crates/warpui_core/src/image_cache.rs",
+    "line": 98,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "78eebc1255ff5e32",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/image_cache.rs",
+        "line": 98,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CGVXXJVGHP99P2JBP",
+    "source": "Image did not contain the 'warp-img:' prefix.",
+    "file": "crates/warpui_core/src/image_cache.rs",
+    "line": 101,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "837a7f8472f9fa30",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/image_cache.rs",
+        "line": 101,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GBD11ZYK13E0MKPDW",
+    "source": "The custom image's expected bytes ({expected_bytes}) did not match the actual number of bytes ({actual_bytes}).",
+    "file": "crates/warpui_core/src/image_cache.rs",
+    "line": 91,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fb97b6651fabf793",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/image_cache.rs",
+        "line": 91,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HG08YYW6288TMMBJ6",
+    "source": "Unable to parse utf8",
+    "file": "crates/warpui_core/src/image_cache.rs",
+    "line": 199,
+    "occurrences_kind": "literal",
+    "source_hash": "a2d8ad0fa4ef63b8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/image_cache.rs",
+        "line": 199,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/image_cache.rs",
+        "line": 224,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/image_cache.rs",
+        "line": 249,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BA40FD6FYT9XH6HYQ",
+    "source": "Error setting Ctrl-C handler",
+    "file": "crates/warpui_core/src/integration/driver.rs",
+    "line": 307,
+    "occurrences_kind": "literal",
+    "source_hash": "38f796b2645f74a6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/driver.rs",
+        "line": 307,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ERAA8BB38RYJP121B",
+    "source": "Recording started (auto via env var)",
+    "file": "crates/warpui_core/src/integration/driver.rs",
+    "line": 396,
+    "occurrences_kind": "literal",
+    "source_hash": "d55fcdda12d8f278",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/driver.rs",
+        "line": 396,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G4ZG8SW1DP6KA03RV",
+    "source": "Step succeeded: {}",
+    "file": "crates/warpui_core/src/integration/driver.rs",
+    "line": 607,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6f608d67ec757842",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/driver.rs",
+        "line": 607,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G5HH77W6SRNJ4B1K3",
+    "source": "Step started: {}",
+    "file": "crates/warpui_core/src/integration/driver.rs",
+    "line": 582,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7bcbc96e5e16d2ba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/driver.rs",
+        "line": 582,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

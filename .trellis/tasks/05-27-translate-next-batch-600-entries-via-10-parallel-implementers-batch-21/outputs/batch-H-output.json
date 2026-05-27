@@ -1,0 +1,129 @@
+{
+  "translations": {
+    "01KQXQV12C8F13GYB0Z9E79GC1": null,
+    "01KQXQV12CNN0QESJP3C0RTZA7": null,
+    "01KQXQV12DB6XV2RMWYWQGFH3X": null,
+    "01KQXQV12HYPK6FHJ47FNB6X4Z": null,
+    "01KQXQV129K4GCW0RV68ZN50FZ": "添加规则",
+    "01KQXQV12B4ZAS7B981KANZXF8": "编辑规则",
+    "01KQXQV12BF9H8T45BR7WR8QGB": "离线时无法编辑。",
+    "01KQXQV11X0GR2DEBBBNYNPR71": " 重新启用。",
+    "01KQXQV12CJW5JHXR18KBYTJ75": "初始化项目",
+    "01KQXQV12D2MZYJ08KQCQGPMF9": "为项目生成 WARP.md 规则文件后，它将显示在此处。",
+    "01KQXQV12E6Y50MYJ8ZWEHDGD8": "基于项目",
+    "01KQXQV12J0Q8GBGBM3RTC15GV": "重新开启",
+    "01KQXQV129PHAPP6C0Y043SDGE": "关闭已保存项",
+    "01KQXQV12B20NS9FKCJ2R69RZ6": "加载文件失败。",
+    "01KQXQV12BWKHBH51QJ9SZFCQJ": "保存文件失败。",
+    "01KQXQV12C5WFZS9HNJ190SDQQ": "文件已保存。",
+    "01KQXQV129E9PK70YEBP5PMVJ9": null,
+    "01KQXQV12BRJMXKJ5N5D55HANV": null,
+    "01KQXQV12F954ZNAAYW68XRRQT": null,
+    "01KQXQV113GKV4H4B255G0BER8": " 在 {} 中新建会话  {}",
+    "01KQXQV12G8TY6X7BTWNF1709K": "Agentic 开发环境",
+    "01KQXQV12HRAVD4D39D88C8Z9B": "欢迎使用 Warp",
+    "01KQXQV1291PBX20NQQZGNTJH4": "工作目录中所有未提交的更改",
+    "01KQXQV129412KXKD607T82MRA": "与 main 分支的差异",
+    "01KQXQV129DRGJCY3BX80VXGVX": "与 {branch} 的差异",
+    "01KQXQV129K4WAYC0RVF3547HS": "与 {branch} 相比的所有更改",
+    "01KQXQV129VXB3C4BR2DV1YKNP": "与 main 分支相比的所有更改",
+    "01KQXQV1252YMB0HCTMEFGTG1J": " 个标签页",
+    "01KQXQV125DJCHHGBB1WPEEV72": " 个标签页 ",
+    "01KQXQV1289SB7B7HD49FE6Q60": " 个窗口 ",
+    "01KQXQV128ADB58HCMS8YHVMBT": " 个窗口",
+    "01KQXQV12BV8FTWX3E5XT7T162": "查找结果时出错",
+    "01KQXQV12DGK1P8K48HT952Y4H": "正在加载 {} 建议",
+    "01KQXQV12FXDJ4Z8CP8AC0M5ZH": "已选择 {}",
+    "01KQXQV12D17YB7GBXFVCBNSY8": "模型：{}",
+    "01KQXQV12DX8G61YVZNC1YC6NH": "管理",
+    "01KQXQV12J7Z528ACNTFT2V9AK": "{display_name} 不向免费用户开放。 ",
+    "01KQXQV12JCVJ9Q97SVQEJNT6T": "{}% 优惠！",
+    "01KQXQV12AA046GGGKWJYMK0EJ": "控制终端命令块之间的间距。",
+    "01KQXQV12AZ6DN731JAMXJMMBW": "控制全屏终端应用程序周围的内边距。",
+    "01KQXQV12GG3KPQV5QHK780XZ1": "终端网格中的最大行数。",
+    "01KQXQV12H6SV6JPCD4WQPBG4R": "是否在新终端会话中显示 AI 零状态命令块。",
+    "01KQXQV12HFZ1KPG2VV445NP16": "是否在终端响铃事件时播放提示音。",
+    "01KQXQV12BP67VBMHTK3K3FWNP": "上传失败",
+    "01KQXQV12CK71X9E3EGSE2STX7": "文件上传",
+    "01KQXQV12FGE63DFBRH14XVNQM": null,
+    "01KQXQV12HT3B0ND89J8VJE8FC": "正在等待输入密码",
+    "01KQXQV12BAHZ260H2632B49NG": null,
+    "01KQXQV12BEXYXPW43HS90T5TZ": null,
+    "01KQXQV12BRRMVG1F4RTA76DQ0": null,
+    "01KQXQV12BWJGACERB59B55RZ0": null,
+    "01KQXQV12FQS6QN6A4KXVJRYFV": null,
+    "01KQXQV1297VCFTDFY2KYAF5M8": null,
+    "01KQXQV129826S1VQ98TXSTJ2P": null,
+    "01KQXQV129D2XDE8GFBK2P1MSG": null,
+    "01KQXQV129JKC905YPE1F3NPBS": null,
+    "01KQXQV128V19132RK6WHQF02H": null,
+    "01KQXQV1294CGDXWHCP2SMKQ2E": null,
+    "01KQXQV12B4395F8QWX55NDJVB": "Docker 沙盒（{image}）",
+    "01KQXQV12BF05GAATXKZ6FNN1A": "Docker 沙盒",
+    "01KQXQV12C0257KAZ04S5B7ZEB": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12C8F13GYB0Z9E79GC1": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12CNN0QESJP3C0RTZA7": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12DB6XV2RMWYWQGFH3X": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12HYPK6FHJ47FNB6X4Z": [
+      "telemetry_payload"
+    ],
+    "01KQXQV129E9PK70YEBP5PMVJ9": [
+      "panic_message"
+    ],
+    "01KQXQV12BRJMXKJ5N5D55HANV": [
+      "panic_message"
+    ],
+    "01KQXQV12F954ZNAAYW68XRRQT": [
+      "panic_message"
+    ],
+    "01KQXQV12FGE63DFBRH14XVNQM": [
+      "protocol_key"
+    ],
+    "01KQXQV12BAHZ260H2632B49NG": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12BEXYXPW43HS90T5TZ": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12BRRMVG1F4RTA76DQ0": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12BWJGACERB59B55RZ0": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12FQS6QN6A4KXVJRYFV": [
+      "panic_message"
+    ],
+    "01KQXQV1297VCFTDFY2KYAF5M8": [
+      "panic_message"
+    ],
+    "01KQXQV129826S1VQ98TXSTJ2P": [
+      "panic_message"
+    ],
+    "01KQXQV129D2XDE8GFBK2P1MSG": [
+      "panic_message"
+    ],
+    "01KQXQV129JKC905YPE1F3NPBS": [
+      "panic_message"
+    ],
+    "01KQXQV128V19132RK6WHQF02H": [
+      "protocol_key"
+    ],
+    "01KQXQV1294CGDXWHCP2SMKQ2E": [
+      "protocol_key"
+    ],
+    "01KQXQV12C0257KAZ04S5B7ZEB": [
+      "protocol_key"
+    ]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "apply_diff_model.rs: 'File exceeds...', 'File is binary', 'Not found', 'Unknown error' all flow into FileReadResult::ReadError -> safe_warn! telemetry + DiffApplicationError::ReadFailed whose Display discards the message ({ file, .. } -> 'Could not read {file}'); never UI-rendered -> telemetry_payload. suggested_rule_modal.rs: ActionButton labels 'Add rule'/'Edit rule' and offline tooltip 'Editing is disabled while offline.' are UI -> translate. rule.rs: ' anytime.' (DISABLED_BANNER_TEXT_2), 'turn it back on' (link text), 'Initialize Project' button, ZERO_STATE_TEXT_PROJECT, 'Project based' tab label -> UI translate. code/view.rs: 'Failed to load file.'/'Failed to save file.'/'File saved.' are DismissibleToast text; 'Close saved' is a MenuItem label -> translate. queue.rs: 'Client id entry should exist'/'Server id entry should exist'/'Expect id' are .expect() panic strings -> panic_message. get_started_view.rs: paragraphs 'Welcome to Warp', 'The Agentic Development Environment', and ' New session in {}  {}' (placeholders=home dir + keybinding, kept double-space + leading space) are onboarding UI -> translate. search_item.rs: DiffSetSearchItem name/description shown in AI context menu -> translate; {branch} preserved; 'main' kept as literal branch name. renderer.rs: ' window '/' windows'/' tab '/' tabs' are pill suffixes appended to a numeric count in launch-config description; preserved leading/trailing space, rendered as '<n> 个窗口/个标签页'. search_bar.rs: 'Loading {} suggestions'/'Error finding results'/'Selected {}' are AccessibilityContent (screen-reader UI) -> translate, placeholders preserved. data_source.rs: '{}% off!' discount chip, 'Manage' button, '{display_name} is not available for free users. ' (trailing space preserved, followed by 'Upgrade' hyperlink), 'Model: {}' a11y label -> translate. settings.rs: five description: fields shown in settings UI -> translate. ssh_file_upload.rs: 'Waiting for password input'/'Failed to upload' status text, 'File Uploads' header -> translate; 'SSH File Upload' is fn ui_name() used only as keymap::Context identifier (id! / context.set.insert) -> protocol_key. codebase_index.rs: lines 403/404/1910/1911 flow into safe_error! safe/full logging -> telemetry_payload; 'Should be syncing' is .expect() -> panic_message. assertions.rs: all four strings live in safe_assert!/safe_assert_eq! macro bodies that combine debug_assert! with log::error! diagnostics -> panic_message (debug_assert family per policy 10). shell/mod.rs: '- cmd: ' is a fish-history YAML line prefix used in strip_prefix (external format parse) -> protocol_key; compgen bash one-liner and 'Get-Command ... Select-Object' are shell command strings executed by the shell, not UI -> protocol_key; shell_detail() doc says 'How to present this data to the user for error messages' and flows into shell_terminated_banner UI, so 'Docker sandbox ({image})' / 'Docker sandbox' -> translate (Docker brand kept, {image} preserved, full-width parens around Chinese-adjacent code identifier)."
+}
