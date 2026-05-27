@@ -138,3 +138,36 @@ Ran batch-21 of the parallel translation kit: built 10 file-pinned bins (602 can
 ### Next Steps
 
 - None - task complete
+
+
+## Session 20: Align translation kit default parallelism to 8
+
+**Date**: 2026-05-27
+**Task**: Align translation kit default parallelism to 8
+**Branch**: `main`
+
+### Summary
+
+Changed translation kit default parallelism from 10 to 8 to match the Workflow concurrency cap min(16, cores-2) on this machine, so all implementers run in one wave with no queueing. build_batch.py --num-batches default 10->8 (≈75 entries each at target-total 600); RUNBOOK.md + README.md examples updated to 8 letters (A–H), added a 'Why 8' note. translate_batch.mjs unchanged (derives letters from manifest at runtime).
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `ca80c80` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
