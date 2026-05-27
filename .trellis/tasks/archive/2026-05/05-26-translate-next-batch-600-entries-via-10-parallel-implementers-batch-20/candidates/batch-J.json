@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "01KQXQV12BJY8G3D4MB79WBQJ8",
+    "source": "Failed to construct symbols outline for repo: {:?}",
+    "file": "app/src/ai/outline/native.rs",
+    "line": 287,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1eeebe0d1a1f8ddc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/outline/native.rs",
+        "line": 287,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BXGFQ33XPCZF8BH5D",
+    "source": "Failed to construct symbols outline for repo at {}: {:?}",
+    "file": "app/src/ai/outline/native.rs",
+    "line": 289,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "861238577541d23b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/outline/native.rs",
+        "line": 289,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ESXFZQD1MMJ2YNBMD",
+    "source": "Parsing symbols for repo outline.",
+    "file": "app/src/ai/outline/native.rs",
+    "line": 225,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "895122d420f02a31",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/outline/native.rs",
+        "line": 225,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EW21ZWZGD23F9HVDA",
+    "source": "Parsing symbols for repo at {}",
+    "file": "app/src/ai/outline/native.rs",
+    "line": 226,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "df1b73c6a84c538e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/outline/native.rs",
+        "line": 226,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G6C82WTG401H07V2T",
+    "source": "Successfully constructed symbols outline for repo.",
+    "file": "app/src/ai/outline/native.rs",
+    "line": 248,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "63026385b8d4bfe0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/outline/native.rs",
+        "line": 248,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G6KP00TJTQFKEFZDR",
+    "source": "Successfully constructed symbols outline for repo: {}",
+    "file": "app/src/ai/outline/native.rs",
+    "line": 250,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "918311be7894811d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/outline/native.rs",
+        "line": 250,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B6CK500W3TY7NVETF",
+    "source": "Error checking for new version",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 277,
+    "occurrences_kind": "literal",
+    "source_hash": "4262e1f709b6d42f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 277,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWRBTS610BYGGETP8",
+    "source": "Error applying installed update",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 987,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "909dff1b278e207e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 987,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D71KS1WM3RRC1CG27",
+    "source": "No autoupdate support on this platform!",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 1032,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b60b27c5d0ef6f98",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 1032,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DNTNG8Q6TZPZWDZZS",
+    "source": "Not implemented",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 825,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "73aee24ff6d2e3b4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 4,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 825,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 857,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 1086,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/default_terminal/mod.rs",
+        "line": 25,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EFQJJMBRRCVEF29XK",
+    "source": "Pending update applied successfully",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 978,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c92b074a2de797d2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 978,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HGS6CCXZHEFR64KAB",
+    "source": "Use the command palette to install and relaunch Warp",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 742,
+    "occurrences_kind": "literal",
+    "source_hash": "0f19708b335784c0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 742,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HHDZ31TPTDJXC07HM",
+    "source": "Trying to apply an update without AutoupdateState being UpdateReady!",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 852,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ec99def571c30637",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 852,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HKQ80R098WDQHVXQJ",
+    "source": "Update available.",
+    "file": "app/src/autoupdate/mod.rs",
+    "line": 741,
+    "occurrences_kind": "literal",
+    "source_hash": "7ede54f512da0fb1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mod.rs",
+        "line": 741,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129ADRC5Q3RXKY23A43",
+    "source": "Broken file link",
+    "file": "app/src/notebooks/link.rs",
+    "line": 416,
+    "occurrences_kind": "literal",
+    "source_hash": "b0e1e654c6234703",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/link.rs",
+        "line": 416,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BKVBEH94RYY0MXX50",
+    "source": "Edit Markdown file",
+    "file": "app/src/notebooks/link.rs",
+    "line": 68,
+    "occurrences_kind": "literal",
+    "source_hash": "ad33f4129ed752e2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/link.rs",
+        "line": 68,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CT1NAH6B7ESGPX0B3",
+    "source": "File not found",
+    "file": "app/src/notebooks/link.rs",
+    "line": 414,
+    "occurrences_kind": "literal",
+    "source_hash": "3521021a2e875fbc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/link.rs",
+        "line": 414,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D2Q8J8GB2RQDEZ511",
+    "source": "No base directory",
+    "file": "app/src/notebooks/link.rs",
+    "line": 415,
+    "occurrences_kind": "literal",
+    "source_hash": "abb7323e1a96c26b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/link.rs",
+        "line": 415,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EK3QR0AJXH00HD5DM",
+    "source": "Open in terminal session",
+    "file": "app/src/notebooks/link.rs",
+    "line": 61,
+    "occurrences_kind": "literal",
+    "source_hash": "c21dcbbe50ebe979",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/link.rs",
+        "line": 61,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FJ7QCBXTRPE2647MP",
+    "source": "Session launch data should exist",
+    "file": "app/src/notebooks/link.rs",
+    "line": 175,
+    "occurrences_kind": "literal",
+    "source_hash": "9f5968d231a4a75b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/link.rs",
+        "line": 175,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12APXZBA9KQDWQX19RR",
+    "source": "Configuration options for Quake Mode window behavior.",
+    "file": "app/src/terminal/keys_settings.rs",
+    "line": 24,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f087fe16fe315dfb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/keys_settings.rs",
+        "line": 24,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AQ686VQNCKWAF1959",
+    "source": "Controls which additional keys are treated as meta keys.",
+    "file": "app/src/terminal/keys_settings.rs",
+    "line": 60,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "152300adfeea909a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/keys_settings.rs",
+        "line": 60,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ASFGAA1KV5GC65HKX",
+    "source": "Controls the behavior of Ctrl+Tab.",
+    "file": "app/src/terminal/keys_settings.rs",
+    "line": 69,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "335226156cbb30a6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/keys_settings.rs",
+        "line": 69,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G0F2CVTF8MRW1F82T",
+    "source": "The keybinding used for the global activation hotkey. Format: modifiers (cmd, ctrl, alt, shift, meta) and a key joined by '-', e.g. \"cmd-shift-a\" or \"alt-enter\". Bindings are case-sensitive: when shift is present, the key must be its shifted form (e.g., \"ctrl-shift-E\", not \"ctrl-shift-e\").",
+    "file": "app/src/terminal/keys_settings.rs",
+    "line": 51,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "28315928ac5974ff",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/keys_settings.rs",
+        "line": 51,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HF1ACJYYKFVF8WD2G",
+    "source": "Whether the dedicated hotkey window is enabled. Mutually exclusive with `global_hotkey.toggle_all_windows.enabled`; only one should be true at a time.",
+    "file": "app/src/terminal/keys_settings.rs",
+    "line": 33,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "538f37a4bf6398c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/keys_settings.rs",
+        "line": 33,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HTYXM4HCMAQ6TXMKP",
+    "source": "Whether the hotkey that toggles visibility of all windows is enabled. Mutually exclusive with `global_hotkey.dedicated_window.enabled`; only one should be true at a time.",
+    "file": "app/src/terminal/keys_settings.rs",
+    "line": 42,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7cdb5c0607fe8a02",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/keys_settings.rs",
+        "line": 42,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B5DQ9922YDZKZF84D",
+    "source": "Failed to send key release: {e}",
+    "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+    "line": 110,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c1dfe4a0ee218fc5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+        "line": 110,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/computer_use/src/linux/x11/keyboard.rs",
+        "line": 166,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B64YB46A9M4PRQM3C",
+    "source": "Failed to send key down: {e}",
+    "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+    "line": 60,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "20f9c08390c34948",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+        "line": 60,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BAV63RF8ZHST3SX9H",
+    "source": "Failed to release shift: {e}",
+    "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+    "line": 153,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "09d02c9eeb8d99de",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+        "line": 153,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BBFQP4DPVGFE7ZR52",
+    "source": "Failed to press shift: {e}",
+    "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+    "line": 142,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "355dea0f5dd3bfa0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+        "line": 142,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BHGPYHQHSADZRVB65",
+    "source": "Failed to send key press: {e}",
+    "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+    "line": 105,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "458446cadc4e0c0a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+        "line": 105,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/computer_use/src/linux/x11/keyboard.rs",
+        "line": 146,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BXE0D8GGDJ5KJGYQR",
+    "source": "Failed to send key up: {e}",
+    "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+    "line": 78,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "73059fad26b57dcf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/wayland/keyboard.rs",
+        "line": 78,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129A2NV0N2CM7ZWJXYM",
+    "source": "At least one style range should exist.",
+    "file": "crates/editor/src/content/buffer.rs",
+    "line": 4400,
+    "occurrences_kind": "literal",
+    "source_hash": "5ef547a684319cba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 4400,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129C053WMSQFJHY1HBH",
+    "source": "Anchor should be valid",
+    "file": "crates/editor/src/content/buffer.rs",
+    "line": 4340,
+    "occurrences_kind": "literal",
+    "source_hash": "df79e3f7c80766f5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 5,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 4340,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 4346,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 4447,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/selection_model.rs",
+        "line": 321,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/selection_model.rs",
+        "line": 330,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BP0T7S6JGKPS0MACA",
+    "source": "Failed to parse markdown to start notebook",
+    "file": "crates/editor/src/content/buffer.rs",
+    "line": 848,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "64892843edfb98de",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 848,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZJ4Y01BNNV808QP5",
+    "source": "Failed to parse markdown to start notebook: {e}",
+    "file": "crates/editor/src/content/buffer.rs",
+    "line": 849,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a64b2c8510d47aee",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 849,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DRCRNR5P8QXKFW9KG",
+    "source": "Line ending is set to LF",
+    "file": "crates/editor/src/content/buffer.rs",
+    "line": 2272,
+    "occurrences_kind": "literal",
+    "source_hash": "bf776f85ed1e98eb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 2272,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DVDRSS040GHQBGVX9",
+    "source": "Link should exist",
+    "file": "crates/editor/src/content/buffer.rs",
+    "line": 3318,
+    "occurrences_kind": "literal",
+    "source_hash": "64fbbff056a03fc4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 6,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 3318,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 3321,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 3324,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 3441,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 3444,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 3447,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HN6MTE6CNEE2K0T0D",
+    "source": "Unexpected block item",
+    "file": "crates/editor/src/content/buffer.rs",
+    "line": 5677,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "50072517cbfb4ab3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/buffer.rs",
+        "line": 5677,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129WSEG0SE7SA7Y467Y",
+    "source": "Center ->",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 457,
+    "occurrences_kind": "literal",
+    "source_hash": "8f24c902b10c5802",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 457,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B385EJFYGW9KBGCHD",
+    "source": "End ->",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 463,
+    "occurrences_kind": "literal",
+    "source_hash": "2d95a3fbf35422a7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 463,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GMAKA0QGKQMW777DC",
+    "source": "Space Between",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 428,
+    "occurrences_kind": "literal",
+    "source_hash": "60d377008192461f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 428,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GSE49HJVMHMPRRT9H",
+    "source": "Space Evenly",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 431,
+    "occurrences_kind": "literal",
+    "source_hash": "9391a61e3df99379",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 431,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GVBQSF67GWQFAEQZ5",
+    "source": "Space Between ->",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 451,
+    "occurrences_kind": "literal",
+    "source_hash": "34a211bcf996400c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 451,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GXMS7GD1Q5C5M3QBS",
+    "source": "Start ->",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 460,
+    "occurrences_kind": "literal",
+    "source_hash": "d69540f5a0195895",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 460,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GZAAD7K33M2XR6BMG",
+    "source": "Space Evenly ->",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 454,
+    "occurrences_kind": "literal",
+    "source_hash": "ede527cd66057cc2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 454,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JR7Y0DB48S7ZB8FAD",
+    "source": "Wrap Row",
+    "file": "crates/warpui/examples/flex/root_view.rs",
+    "line": 443,
+    "occurrences_kind": "literal",
+    "source_hash": "ce10ef036b06adf8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/flex/root_view.rs",
+        "line": 443,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128MRT3518BXTPKCQ8G",
+    "source": "Action executed",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 805,
+    "occurrences_kind": "literal",
+    "source_hash": "7cc29ccd432d0e8a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 805,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12958WZYZXVK82RYZ5K",
+    "source": "AssertionOutcome must be returned to the test runner to allow retrying",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 108,
+    "occurrences_kind": "literal",
+    "source_hash": "76a36d35b08b1e89",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 108,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129B7EN1MA1AZTN948M",
+    "source": "Assertion failed: {name}: {msg}",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 961,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "426ff28f8750c6f3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 961,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129ERVYHEBFDF4QZB72",
+    "source": "Assertion passed: {name}",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 855,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "778de91511f50df5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 855,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 862,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129H5CCA7HE9781GYGD",
+    "source": "Assertion started: {name}",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 843,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "858fdfbef86b2c78",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 843,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BYCTHA8MEJTADF6QC",
+    "source": "Event: {}",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 657,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3e9ee8a8798aa1e9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 657,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D8WDH171XAQ8N3YDC",
+    "source": "No position for {position_id}",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 714,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c04f50fe78c76848",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 714,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E48FR0ZMV9QRHE6PG",
+    "source": "Recording stopped",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 588,
+    "occurrences_kind": "literal",
+    "source_hash": "7105c577db089128",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 588,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EDCT7GD0NYHASBD08",
+    "source": "Recording started",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 575,
+    "occurrences_kind": "literal",
+    "source_hash": "be3f4838b198b77b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 575,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GQH7H645252EDAA9B",
+    "source": "Test step failed because no frames were rendered",
+    "file": "crates/warpui_core/src/integration/step.rs",
+    "line": 1026,
+    "occurrences_kind": "literal",
+    "source_hash": "4d2181c0f8bd2c52",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/step.rs",
+        "line": 1026,
+        "kind": "literal"
+      }
+    ]
+  }
+]

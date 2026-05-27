@@ -1,0 +1,1011 @@
+[
+  {
+    "id": "01KQXQV129CEA0P5TR4YZTF3DJ",
+    "source": "Cannot send lifecycle event with unspecified type",
+    "file": "app/src/ai/blocklist/orchestration_events.rs",
+    "line": 285,
+    "occurrences_kind": "literal",
+    "source_hash": "a731048ce2111d4e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 285,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 876,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DSD492QEHN527SKE3",
+    "source": "No target agents provided",
+    "file": "app/src/ai/blocklist/orchestration_events.rs",
+    "line": 791,
+    "occurrences_kind": "literal",
+    "source_hash": "e583838d1d0823b2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 791,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GH6P2N4YKZ89KMG07",
+    "source": "Source conversation has no server token — cannot send events",
+    "file": "app/src/ai/blocklist/orchestration_events.rs",
+    "line": 338,
+    "occurrences_kind": "literal",
+    "source_hash": "94cf86201a7bce72",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 338,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 726,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HEEC4TSH3WZ433FPK",
+    "source": "Unknown agent address: {agent_id}",
+    "file": "app/src/ai/blocklist/orchestration_events.rs",
+    "line": 760,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5dae8f215ce08672",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 760,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9AV2HY95QVVFY9AGA5Z",
+    "source": "Child conversation has no agent identifier",
+    "file": "app/src/ai/blocklist/orchestration_events.rs",
+    "line": 214,
+    "occurrences_kind": "literal",
+    "source_hash": "51ac04c9da602364",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 214,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAKZ1897VFRSWW3PXMAP",
+    "source": "Source conversation not found",
+    "file": "app/src/ai/blocklist/orchestration_events.rs",
+    "line": 312,
+    "occurrences_kind": "literal",
+    "source_hash": "b8f10e71ffa2818e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 312,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 695,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129K5GVS8VW4BPT054N",
+    "source": "Cannot start MCP servers from {} - missing required environment variables: {}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 694,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4ded25cd869ffbe6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 694,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129T4WZ31KBBXA2734X",
+    "source": "Cannot start MCP servers - missing required environment variables: {}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 690,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6559bad15da16865",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 690,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BKAQA1YJ8ET7N186V",
+    "source": "Failed to read MCP config file {}: {}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 655,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "08f5bfc5d320fb3b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 655,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BKCSSSDZRD34AR2V8",
+    "source": "Failed to parse MCP servers: {:#}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 708,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1318242fc5c1ff9c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 708,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWEN9WSQKCBSCVR4T",
+    "source": "Failed to read MCP config file: {}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 651,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9d7436665cf0e550",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 651,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BYW11CBJCVCWYS0CB",
+    "source": "Failed to normalize Codex TOML {}: {:#}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 674,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "521a308ac4516696",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 674,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BYYQQ42S7Y1KSH040",
+    "source": "Failed to normalize Codex TOML: {:#}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 670,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "afada64e7731a70e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 670,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZXZAVYGF46K0JVTK",
+    "source": "Failed to parse MCP servers from {}: {:#}",
+    "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+    "line": 712,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6eb9e4dbb814f249",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 712,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12969XNTASNN3BW359J",
+    "source": "Application Support",
+    "file": "app/src/context_chips/node_version_popup.rs",
+    "line": 501,
+    "occurrences_kind": "literal",
+    "source_hash": "7ef6ff258c723081",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/node_version_popup.rs",
+        "line": 501,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CPV4JWSA29STYM343",
+    "source": "Install nvm to enable version switching",
+    "file": "app/src/context_chips/node_version_popup.rs",
+    "line": 184,
+    "occurrences_kind": "literal",
+    "source_hash": "a12440e71e702eb0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/node_version_popup.rs",
+        "line": 184,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZKB6N43Q5D1ETZS6",
+    "source": "Install nvm",
+    "file": "app/src/context_chips/node_version_popup.rs",
+    "line": 80,
+    "occurrences_kind": "literal",
+    "source_hash": "7da49faea0a507f2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/node_version_popup.rs",
+        "line": 80,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DSH51A0R9Z5RR8FME",
+    "source": "No node versions installed",
+    "file": "app/src/context_chips/node_version_popup.rs",
+    "line": 245,
+    "occurrences_kind": "literal",
+    "source_hash": "31cc383d390d6298",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/node_version_popup.rs",
+        "line": 245,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GF2V2EMJS8MT6HA0F",
+    "source": "This menu helps you switch between Node.js versions — but it requires nvm to be installed.",
+    "file": "app/src/context_chips/node_version_popup.rs",
+    "line": 196,
+    "occurrences_kind": "literal",
+    "source_hash": "d19b8780b87acaea",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/node_version_popup.rs",
+        "line": 196,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJ5273ZMJJR6BM97N",
+    "source": "Try installing versions with nvm",
+    "file": "app/src/context_chips/node_version_popup.rs",
+    "line": 258,
+    "occurrences_kind": "literal",
+    "source_hash": "c048963c13ad2bb0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/node_version_popup.rs",
+        "line": 258,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H1X3F81YQHD56GGTM",
+    "source": "Whether to show a warning dialog before quitting Warp.",
+    "file": "app/src/terminal/general_settings.rs",
+    "line": 16,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1498a2aa1e1581d2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/general_settings.rs",
+        "line": 16,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H2XST0R7BZZW72PKH",
+    "source": "Whether to quit Warp when the last window is closed.",
+    "file": "app/src/terminal/general_settings.rs",
+    "line": 25,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5a53eb9349eff37b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/general_settings.rs",
+        "line": 25,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJRE18185SAGJAE69",
+    "source": "Whether to automatically open the code review pane when the agent makes its first change.",
+    "file": "app/src/terminal/general_settings.rs",
+    "line": 166,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0ebeefef7d8dbc35",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/general_settings.rs",
+        "line": 166,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HP21ARQN4PAXGXQAX",
+    "source": "Whether to restore the previous session when Warp starts up.",
+    "file": "app/src/terminal/general_settings.rs",
+    "line": 34,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2879efe037525d59",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/general_settings.rs",
+        "line": 34,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HPQKB5T0CT3B9J6Z0",
+    "source": "Whether to launch Warp automatically when you log in.",
+    "file": "app/src/terminal/general_settings.rs",
+    "line": 46,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9d2e47e66400bf2e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/general_settings.rs",
+        "line": 46,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HXZNTA12DEWJJ55NY",
+    "source": "Whether to show a tooltip when hovering over links.",
+    "file": "app/src/terminal/general_settings.rs",
+    "line": 70,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8cc3cf0db179fcd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/general_settings.rs",
+        "line": 70,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1280CZYHWDE7Q7QEHPM",
+    "source": "Access to ",
+    "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+    "line": 231,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "86ce28d975f67230",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 231,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128XTNCJETFF37JE3RG",
+    "source": "Access to frontier OpenAI, Anthropic, and Google models",
+    "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+    "line": 220,
+    "occurrences_kind": "literal",
+    "source_hash": "1a172a9c789de368",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 220,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 29,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3HQBYFC5K1130G61",
+    "source": "Extended cloud agents access",
+    "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+    "line": 276,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7989fe9da061d9e2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 276,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/onboarding/src/slides/free_user_no_ai_slide.rs",
+        "line": 31,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWK6QR14E5ADYZG7W",
+    "source": "Extended Credits per month",
+    "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+    "line": 210,
+    "occurrences_kind": "literal",
+    "source_hash": "ec6f14a566d4c4c5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 210,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E29DV9Z9YY7NCDNM0",
+    "source": "Reload Credits",
+    "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+    "line": 233,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "255fc68a99086e4d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 233,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G5HX6MHFN0FXPWH4S",
+    "source": "The Build plan is ${price}/month which includes everything in the free tier plus:",
+    "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+    "line": 184,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c117a501f67563bb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 184,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GE86C75RGH6P3CSE5",
+    "source": "The Build plan includes everything in the free tier plus:",
+    "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+    "line": 186,
+    "occurrences_kind": "literal",
+    "source_hash": "6464cc1c234e6897",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/free_tier_limit_hit_modal.rs",
+        "line": 186,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV116JZF81MNY3QYSZQ4Q",
+    "source": " Regex to parse a line number from a string in the format \"{number}|{line}\"",
+    "file": "crates/ai/src/diff_validation/mod.rs",
+    "line": 14,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "19046176cfb0969e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 14,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A2ZF305751BRGT5F4",
+    "source": "DiffDelta {{\nreplacement_line_range: {:?},",
+    "file": "crates/ai/src/diff_validation/mod.rs",
+    "line": 178,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "faba50db7ec22fe5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 178,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZDF19G6YB8ZFDECT",
+    "source": "Indentation Agnostic",
+    "file": "crates/ai/src/diff_validation/mod.rs",
+    "line": 843,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bc1ca1b6297c9db7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 843,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ES29WWVYAGX5QYHBS",
+    "source": "Prefix Tail",
+    "file": "crates/ai/src/diff_validation/mod.rs",
+    "line": 914,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2b235083e744649e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 914,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FKEB3C86JBEG8SFRJ",
+    "source": "SearchAndReplace {\n--search--\n",
+    "file": "crates/ai/src/diff_validation/mod.rs",
+    "line": 199,
+    "occurrences_kind": "literal",
+    "source_hash": "2a8f3be875c35bb5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 199,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HCVK3RAX3J7MVZDFK",
+    "source": "We checked there is a line",
+    "file": "crates/ai/src/diff_validation/mod.rs",
+    "line": 1072,
+    "occurrences_kind": "literal",
+    "source_hash": "8653fae8fe2a6679",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 1072,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 1073,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10T5JJGZB1H6MMHYHSC",
+    "source": " Duration between filesystem watch events in seconds",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 41,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e4fc2ae33913a492",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 41,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B5M953W844PNS8HD7",
+    "source": "Failed to build file tree for repository: {e:?}",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 1005,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f6ead392e7130ca2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 1005,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BA7MP33TCKNYMK8H2",
+    "source": "Failed to index directory {repo_path}: {e}",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 250,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8b16edf8d05be6a6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 250,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BN5FHBVS9DSQBKDW2",
+    "source": "Failed to build file tree for repository {repo_path_str}: {e:?}",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 1006,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "659f2021565608b5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 1006,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E9AMJSAP5PQY22J24",
+    "source": "Path must be a directory",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 515,
+    "occurrences_kind": "literal",
+    "source_hash": "7976e91ed6de35f8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 515,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EP5ZJXA1G00P1540Z",
+    "source": "Repository path must be a directory",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 393,
+    "occurrences_kind": "literal",
+    "source_hash": "d53cf4ecbbacd2a2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 393,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 858,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/repo_metadata/src/watcher.rs",
+        "line": 266,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQJ4RPBDK9G2M4028D0G",
+    "source": "Repository exceeded max file limit; indexed in degraded mode",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 991,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5fc8056b73c6bc87",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 991,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQJMYM71DPAH6WMJKGMW",
+    "source": "Repository {repo_path_str} exceeded max file limit ({MAX_FILES_PER_REPO}); indexed only first level — subdirectories load on expand",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 992,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d70d25f5a22db394",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 992,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10V7YRV9SD1ZK0KFF3Y",
+    "source": " Encodes a batch of raw frames to H.264 on the calling (background)",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 304,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8ec84ade9b5ec221",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 304,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV126T1CW682DF13VE6JP",
+    "source": " thread. Writes results back into `SharedState` under the lock.",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 305,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a35fd61e558c347f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 305,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1292B4DNR6EBVXJV86Q",
+    "source": "CaptureRecorder: encode error: {e}",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 359,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1b915a8e37819d3d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 359,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1292EGTYQTA6J62JAPY",
+    "source": "CaptureRecorder: MP4 muxing failed ({e})",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 180,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cc7223ad3efc9f23",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 180,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12956EE3FR7DYJPG6EV",
+    "source": "CaptureRecorder: saved {} PNGs to {}",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 442,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "48f18ee54853b676",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 442,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1295RJQM7EDE2935RH9",
+    "source": "CaptureRecorder: background-encoded {batch_encoded} H.264 frames from {} raw frames",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 376,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5dc9e7acd89e6f49",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 376,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1299X4CS4TA1SHBYM20",
+    "source": "CaptureRecorder: no frames captured, nothing to finalize",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 414,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1995b74af928c286",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 414,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129AZCH9QKB3WTCS3WF",
+    "source": "CaptureRecorder: failed to create encoder on background thread: {e}",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 318,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b9e5052a3a9f213a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 318,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129EPEFHPHNQ2V9MRRG",
+    "source": "CaptureRecorder: wrote {total} frames to {}",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 175,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f5f63b9da580135e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 175,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129T15GXXN8SDA04GCJ",
+    "source": "CaptureRecorder: no frames encoded, nothing to finalize",
+    "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+    "line": 167,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e4861bef6fe33db3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/capture_recorder.rs",
+        "line": 167,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

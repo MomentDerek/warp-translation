@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "01KQXQV12CV7JKFD1BA350EF5R",
+    "source": "I've updated the plan.",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 1252,
+    "occurrences_kind": "literal",
+    "source_hash": "38c7aa6dacbb26ee",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ai_document_view.rs",
+        "line": 1252,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D3T7XRQAK460GRSXB",
+    "source": "Link copied to clipboard",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 1158,
+    "occurrences_kind": "literal",
+    "source_hash": "e2a627b4134a5455",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ai_document_view.rs",
+        "line": 1158,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/notebooks/notebook.rs",
+        "line": 2336,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EEXD0W77R0G29BCNB",
+    "source": "Plan ID copied to clipboard",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 1171,
+    "occurrences_kind": "literal",
+    "source_hash": "d20f98a762091f32",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ai_document_view.rs",
+        "line": 1171,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G8662S0M0HMPK62WY",
+    "source": "This plan is synced to your Warp Drive and will auto save any edits you make.",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 728,
+    "occurrences_kind": "literal",
+    "source_hash": "c1a97c3a69eb4a48",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ai_document_view.rs",
+        "line": 728,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GCK2CAC73RZNFNBGD",
+    "source": "This plan has changes the agent isn't aware of. {save_action} to stop the agent's current task and send the updated plan",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 417,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "691909f170586e52",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ai_document_view.rs",
+        "line": 417,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HN6MHQK3DW9M7E05S",
+    "source": "Update Agent",
+    "file": "app/src/ai/ai_document_view.rs",
+    "line": 419,
+    "occurrences_kind": "literal",
+    "source_hash": "e31cad8ec925cecb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ai_document_view.rs",
+        "line": 419,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128AN03VGEZBVCZV1RY",
+    "source": "Add Rule",
+    "file": "app/src/ai/facts/view/rule_editor.rs",
+    "line": 261,
+    "occurrences_kind": "literal",
+    "source_hash": "968c3cb8fb70b2d1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/rule_editor.rs",
+        "line": 261,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AFSFK1W4QMBDT3E3S",
+    "source": "Delete rule",
+    "file": "app/src/ai/facts/view/rule_editor.rs",
+    "line": 148,
+    "occurrences_kind": "literal",
+    "source_hash": "075d11395e22e588",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/rule_editor.rs",
+        "line": 148,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B2KDRWC5C003HNR66",
+    "source": "Edit Rule",
+    "file": "app/src/ai/facts/view/rule_editor.rs",
+    "line": 263,
+    "occurrences_kind": "literal",
+    "source_hash": "257ceefcf23f0dc0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/rule_editor.rs",
+        "line": 263,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D78AR5MS65SC27EQ9",
+    "source": "Name",
+    "file": "app/src/ai/facts/view/rule_editor.rs",
+    "line": 336,
+    "occurrences_kind": "literal",
+    "source_hash": "dcd1d5223f73b3a9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/rule_editor.rs",
+        "line": 336,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FV7AN4JZREVY0NJ2G",
+    "source": "Rule",
+    "file": "app/src/ai/facts/view/rule_editor.rs",
+    "line": 342,
+    "occurrences_kind": "literal",
+    "source_hash": "62845f31a2fe00be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/rule_editor.rs",
+        "line": 342,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J7JQG1D1CSQ4A60S1",
+    "source": "e.g. Never use unwrap in Rust",
+    "file": "app/src/ai/facts/view/rule_editor.rs",
+    "line": 32,
+    "occurrences_kind": "literal",
+    "source_hash": "c36ba9e9afa5e793",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/rule_editor.rs",
+        "line": 32,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JBA2MTYFHBKW6TS46",
+    "source": "e.g. Rust rules",
+    "file": "app/src/ai/facts/view/rule_editor.rs",
+    "line": 31,
+    "occurrences_kind": "literal",
+    "source_hash": "51e826329fb5d594",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/rule_editor.rs",
+        "line": 31,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DPBPB25AYW796RFFX",
+    "source": "Log out?",
+    "file": "app/src/auth/mod.rs",
+    "line": 187,
+    "occurrences_kind": "literal",
+    "source_hash": "88474d9dd1be650a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/mod.rs",
+        "line": 187,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J5HX8HQ07ZG1G9HTS",
+    "source": "Yes, log out",
+    "file": "app/src/auth/mod.rs",
+    "line": 99,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "54bd93d4093fd9e9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/mod.rs",
+        "line": 99,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J5MVX93SKD034SB7A",
+    "source": "You have {num_shared_sessions} shared {plural}.",
+    "file": "app/src/auth/mod.rs",
+    "line": 152,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9a55a2c6d8b5771d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/mod.rs",
+        "line": 152,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JHCJ636CZT029RGME",
+    "source": "You have {num_unsaved_objects} unsynced Warp Drive {plural}. Logging out will cause you to lose the {plural}.",
+    "file": "app/src/auth/mod.rs",
+    "line": 162,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "193225fac0316a4d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/mod.rs",
+        "line": 162,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JQV88G5A5F0E54MKT",
+    "source": "You have {num_long_running_commands} {plural} running.",
+    "file": "app/src/auth/mod.rs",
+    "line": 111,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "32f12b463c478bde",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/mod.rs",
+        "line": 111,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JYDB1FSWH1QR9HXCZ",
+    "source": "You have {num_unsaved_files} unsaved {plural}. Logging out will cause you to lose the {plural}.",
+    "file": "app/src/auth/mod.rs",
+    "line": 174,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "edc30dbbf7e7cce8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/mod.rs",
+        "line": 174,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1299FW8CCYKA3GFVAT6",
+    "source": "An LSP server installation finished",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 187,
+    "occurrences_kind": "literal",
+    "source_hash": "721a22ffc37dcf44",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 187,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CBH1K8709EW9PD21G",
+    "source": "Hover tooltip displayed with LSP content or diagnostics",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 189,
+    "occurrences_kind": "literal",
+    "source_hash": "b44f7cc68a37de57",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 189,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZQRQ33V5BDVQGGCK",
+    "source": "Find references card displayed via LSP",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 191,
+    "occurrences_kind": "literal",
+    "source_hash": "7269aba89aa980a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 191,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D30C2EJQ18MTPR2QX",
+    "source": "LSP server successfully started and is available",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 193,
+    "occurrences_kind": "literal",
+    "source_hash": "f1b2ddcf95d0b4c1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 193,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DV860NRFMN512EVD9",
+    "source": "LSP server failed to start",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 194,
+    "occurrences_kind": "literal",
+    "source_hash": "cb13c7e5ee8fe1e5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 194,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H6MCDNFE5VV61RCRP",
+    "source": "User triggered goto definition via LSP",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 190,
+    "occurrences_kind": "literal",
+    "source_hash": "ca598f8c58751c89",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 190,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HFMFJKVJ34B6WVWZ9",
+    "source": "User removed an LSP server",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 188,
+    "occurrences_kind": "literal",
+    "source_hash": "b6ef409863e2a484",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 188,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HH5SPNV691FJ272Z1",
+    "source": "User performed an LSP control action from the footer menu",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 192,
+    "occurrences_kind": "literal",
+    "source_hash": "1c2fc45827adf6bc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 192,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HSTP3694E6EP41FT9",
+    "source": "User enabled an LSP server for a workspace",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 185,
+    "occurrences_kind": "literal",
+    "source_hash": "5da5ff4861b54937",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 185,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HSVDPMPREX3RQ1T68",
+    "source": "User skipped LSP enablement during /init",
+    "file": "app/src/code/lsp_telemetry.rs",
+    "line": 186,
+    "occurrences_kind": "literal",
+    "source_hash": "8b6623172ea790ad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/lsp_telemetry.rs",
+        "line": 186,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AA3JDD0NEQZWSB1DY",
+    "source": "Diff sets",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 139,
+    "occurrences_kind": "literal",
+    "source_hash": "3eddc73f4d3dd915",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 139,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AN6VSVKX8HEXJCW6C",
+    "source": "Code symbols indexing...",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 1423,
+    "occurrences_kind": "literal",
+    "source_hash": "010c7a0ba6705a3e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 1423,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C53N8RKAYJ2KWPEWA",
+    "source": "Files and folders",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 122,
+    "occurrences_kind": "literal",
+    "source_hash": "f78cb14a525d9ab2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 122,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 123,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D8HR4YSP1PHF3WZGS",
+    "source": "Most recent block",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 137,
+    "occurrences_kind": "literal",
+    "source_hash": "08f59831d6339110",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 137,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D9BJA2DRQPKG1ZZ8F",
+    "source": "Most recent diff",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 136,
+    "occurrences_kind": "literal",
+    "source_hash": "6739fe48c0dcf2ef",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 136,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DZY1YEJPQ3MMAMBG3",
+    "source": "Loading results...",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 1406,
+    "occurrences_kind": "literal",
+    "source_hash": "b00da16333ce9b6f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 1406,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E3W307JWQ37PH1T6G",
+    "source": "Past tasks",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 131,
+    "occurrences_kind": "literal",
+    "source_hash": "6a3d280ed8548dff",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 131,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FKK1ADGFSP7QX3737",
+    "source": "Servers and integrations",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 133,
+    "occurrences_kind": "literal",
+    "source_hash": "6eb48c2fec81bc56",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 133,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HDN2GAQDRPS9MTYHH",
+    "source": "View handle should be upgradeable.",
+    "file": "app/src/search/ai_context_menu/view.rs",
+    "line": 1446,
+    "occurrences_kind": "literal",
+    "source_hash": "1e1c89681000fff7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/view.rs",
+        "line": 1446,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/search/search_results_menu/view.rs",
+        "line": 128,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1296MDBK1X68HVBDY7P",
+    "source": "Auto-generate worktree branch name",
+    "file": "app/src/tab_configs/session_config_rendering.rs",
+    "line": 540,
+    "occurrences_kind": "literal",
+    "source_hash": "d80db8f70f61610c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/session_config_rendering.rs",
+        "line": 540,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129KCBPW86ER8Z9FBZQ",
+    "source": "Automatically create a worktree when opening a new tab",
+    "file": "app/src/tab_configs/session_config_rendering.rs",
+    "line": 406,
+    "occurrences_kind": "literal",
+    "source_hash": "258986fe7bc74d63",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/session_config_rendering.rs",
+        "line": 406,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F510ZTQESS9PPWP1T",
+    "source": "Select a git repository to enable worktree support",
+    "file": "app/src/tab_configs/session_config_rendering.rs",
+    "line": 362,
+    "occurrences_kind": "literal",
+    "source_hash": "82ba32b9a0ce98a3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/session_config_rendering.rs",
+        "line": 362,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FMN3CPZRKV4M1PFD9",
+    "source": "Select directory",
+    "file": "app/src/tab_configs/session_config_rendering.rs",
+    "line": 230,
+    "occurrences_kind": "literal",
+    "source_hash": "c0fd2e02956312d0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/session_config_rendering.rs",
+        "line": 230,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FSS5YAAGBSCCQS4D5",
+    "source": "Session type",
+    "file": "app/src/tab_configs/session_config_rendering.rs",
+    "line": 93,
+    "occurrences_kind": "literal",
+    "source_hash": "c2edfba65cdd90fb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/session_config_rendering.rs",
+        "line": 93,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JMW83A6HE4HNC583C",
+    "source": "You must select that you want to automatically create a worktree in order to select this",
+    "file": "app/src/tab_configs/session_config_rendering.rs",
+    "line": 493,
+    "occurrences_kind": "literal",
+    "source_hash": "68f3b799be360f9a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/session_config_rendering.rs",
+        "line": 493,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B8NTA2X321XNFB6N2",
+    "source": "Disabled in terminal mode, re-enable in settings",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 115,
+    "occurrences_kind": "literal",
+    "source_hash": "5a5e60b2005d4d17",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/universal_developer_input.rs",
+        "line": 115,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CA2W7BVWP3ERKN4Y2",
+    "source": "Input mode locked while agent is monitoring a command",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 698,
+    "occurrences_kind": "literal",
+    "source_hash": "63d8d991b18af1a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/universal_developer_input.rs",
+        "line": 698,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D99WBCC0PD3SEF8S5",
+    "source": "Not supported in subshells",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 110,
+    "occurrences_kind": "literal",
+    "source_hash": "a8864b3ed935f135",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/universal_developer_input.rs",
+        "line": 110,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DYHKSZKWV3Y8D22WS",
+    "source": "No available objects in the current context.",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 103,
+    "occurrences_kind": "literal",
+    "source_hash": "786b136afa788dc7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/universal_developer_input.rs",
+        "line": 103,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EEXVT90M84BCR689A",
+    "source": "Request edit access to change input mode",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 696,
+    "occurrences_kind": "literal",
+    "source_hash": "bd779a08700ee8c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/universal_developer_input.rs",
+        "line": 696,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EF2JENC5WKGFMXX1Y",
+    "source": "Requires a filesystem",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 112,
+    "occurrences_kind": "literal",
+    "source_hash": "607c06f32a2b31a5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/universal_developer_input.rs",
+        "line": 112,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQD4RYPGPK9KFGJYN4RA",
+    "source": "Not supported in SSH sessions without remote server",
+    "file": "app/src/terminal/universal_developer_input.rs",
+    "line": 107,
+    "occurrences_kind": "literal",
+    "source_hash": "6fd8e412f9a9dc1b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/universal_developer_input.rs",
+        "line": 107,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1291K6KPYQCAWA9ERZE",
+    "source": "Background color",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 477,
+    "occurrences_kind": "literal",
+    "source_hash": "3e314dafdf7c6c51",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_creator_body.rs",
+        "line": 477,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1295CS2QKFQN0ZPKEZA",
+    "source": "Automatically generate a theme based on extracted colors from an image (.png, .jpg).",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 39,
+    "occurrences_kind": "literal",
+    "source_hash": "bcfc6286604d38bc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_creator_body.rs",
+        "line": 39,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BFK6EENXRKXZ6BR6R",
+    "source": "Failed to process selected image. Please try again with a different image.",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 178,
+    "occurrences_kind": "literal",
+    "source_hash": "f393e832f5f6c19a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_creator_body.rs",
+        "line": 178,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BXV020P7X94WVPVT7",
+    "source": "Failed to process selected image due to error: {e}. Please try again with a different image.",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 277,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bea28d5efe366451",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_creator_body.rs",
+        "line": 277,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GD0T1H3HWZCM28STE",
+    "source": "Something went wrong",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 214,
+    "occurrences_kind": "literal",
+    "source_hash": "ab827e3fe17da220",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_creator_body.rs",
+        "line": 214,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/themes/theme_deletion_body.rs",
+        "line": 110,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GG1XZPXF73BXAT5YF",
+    "source": "Theme name",
+    "file": "app/src/themes/theme_creator_body.rs",
+    "line": 448,
+    "occurrences_kind": "literal",
+    "source_hash": "e41991da0c6a0ac6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_creator_body.rs",
+        "line": 448,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10M4779Y071ECNGEB25",
+    "source": " A trait representing a stream which can be polled in the background.",
+    "file": "crates/warpui_core/src/async/native/mod.rs",
+    "line": 11,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1ab7f9a2adabfb76",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/async/native/mod.rs",
+        "line": 11,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui_core/src/async/wasm/mod.rs",
+        "line": 29,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10M82X67MEYH7S6QJDE",
+    "source": " A trait representing a task which can be run in the background.",
+    "file": "crates/warpui_core/src/async/native/mod.rs",
+    "line": 9,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ea5c52d913e260a7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/async/native/mod.rs",
+        "line": 9,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui_core/src/async/wasm/mod.rs",
+        "line": 27,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10ME58E34HJ3APPXKMF",
+    "source": " A trait representing a value which can be returned from a background",
+    "file": "crates/warpui_core/src/async/native/mod.rs",
+    "line": 13,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5f4f598c602e06fe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/async/native/mod.rs",
+        "line": 13,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui_core/src/async/wasm/mod.rs",
+        "line": 31,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10PGNF8VZ07D3GQXK3S",
+    "source": " Bounds for async I/O streams passed to cross-platform networking code.",
+    "file": "crates/warpui_core/src/async/native/mod.rs",
+    "line": 16,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cd006bebce75937e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/async/native/mod.rs",
+        "line": 16,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui_core/src/async/wasm/mod.rs",
+        "line": 37,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1145B25E1Z0NMD3EKQ8",
+    "source": " On native, streams must be `Send` for the multi-threaded tokio runtime.",
+    "file": "crates/warpui_core/src/async/native/mod.rs",
+    "line": 17,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "054266bddf694217",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/async/native/mod.rs",
+        "line": 17,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1256TDFMR5ZM7WTHWC1",
+    "source": " task.",
+    "file": "crates/warpui_core/src/async/native/mod.rs",
+    "line": 14,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "38bedc5d172442c1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/async/native/mod.rs",
+        "line": 14,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warpui_core/src/async/wasm/mod.rs",
+        "line": 32,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

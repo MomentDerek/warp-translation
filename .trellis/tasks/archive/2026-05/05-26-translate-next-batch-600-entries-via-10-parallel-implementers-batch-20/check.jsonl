@@ -1,0 +1,2 @@
+{"file": ".trellis/spec/guides/translation-contract.md", "reason": "Verify per-entry actions match policy §1-12; placeholder/strftime/whitespace/brand invariants"}
+{"file": ".trellis/tasks/05-26-translate-next-batch-600-entries-via-10-parallel-implementers-batch-20/prd.md", "reason": "Expected counts: new -602, translated +602; flag closure; no mutation of existing translated rows"}

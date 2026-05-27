@@ -1,0 +1,1158 @@
+[
+  {
+    "id": "01KQXQV10WKDK7H6ZR97G3D145",
+    "source": " Extracts key-value parameters from text in the format: key=value, used for code block metadata.",
+    "file": "app/src/ai/agent/util.rs",
+    "line": 26,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "77cc38cb51491eaa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 26,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10WVH3M82A174TW557X",
+    "source": " Expects to match on text with format path=/path/to/file start=<line_number>",
+    "file": "app/src/ai/agent/util.rs",
+    "line": 27,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1a6501233b1fe0d9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 27,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV110XN6WGHYDK5H75Y8R",
+    "source": " Importantly, parameters for linked code blocks are captured into their own group.",
+    "file": "app/src/ai/agent/util.rs",
+    "line": 20,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7766dc2915d3ed01",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 20,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1120F0XWNGZH3R6S0N2",
+    "source": " Markdown suffix for code blocks.",
+    "file": "app/src/ai/agent/util.rs",
+    "line": 23,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2e23c710e1b83745",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 23,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV112QXEA4C1JBJWFBP8S",
+    "source": " Markdown prefix for code blocks. Matches on triple backticks followed by a language.",
+    "file": "app/src/ai/agent/util.rs",
+    "line": 19,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "445e7baada47c432",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 19,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E04RE80PXH3EK5J9P",
+    "source": "Regex is valid",
+    "file": "app/src/ai/agent/util.rs",
+    "line": 21,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "19ab57dd9985b5c7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 15,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 21,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 24,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/ai/agent/util.rs",
+        "line": 28,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 29,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/mcp/file_mcp_watcher.rs",
+        "line": 34,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/ai/src/diff_validation/mod.rs",
+        "line": 15,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 48,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 49,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 50,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 51,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 52,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 53,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 54,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 55,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/warp_util/src/path.rs",
+        "line": 56,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128R285G31F4HAGNDCK",
+    "source": "AWS Bedrock credentials expired or invalid for {model_name}.",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 305,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c0aa4d018b1b00cd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+        "line": 305,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1296K5Q44JN8RDRHSCS",
+    "source": "An internal error occurred during the conversation. Please try again.",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 284,
+    "occurrences_kind": "literal",
+    "source_hash": "30d013fe72eb12a3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+        "line": 284,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129A55R1XH0CEA1QWGF",
+    "source": "Agent encountered an error",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 240,
+    "occurrences_kind": "literal",
+    "source_hash": "72f0ee03581a0253",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+        "line": 240,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ATZQD2NZGX6D3QX3H",
+    "source": "Context window exceeded: {msg}",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 291,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5cfc17d201448141",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+        "line": 291,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CRD2D0Y8TA956E856",
+    "source": "Invalid API key for {provider}. Update your API key in settings.",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 298,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a1695ef5f97deb46",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+        "line": 298,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GV5S1S2YHAKEKF3WJ",
+    "source": "The agent got stuck waiting for user confirmation on the action: {blocked_action}",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 251,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8c7d0191a0239cc3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+        "line": 251,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JDZ1WCXHG6F4YVHPS",
+    "source": "Your team has run out of credits. Purchase more credits to continue.",
+    "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+    "line": 269,
+    "occurrences_kind": "literal",
+    "source_hash": "46adccf3de79f241",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/task_status_sync_model.rs",
+        "line": 269,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV113RMN541X67T05DKPE",
+    "source": " Not the first time? See our ",
+    "file": "app/src/auth/login_failure_notification.rs",
+    "line": 32,
+    "occurrences_kind": "literal",
+    "source_hash": "eaef2976c358c15c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_failure_notification.rs",
+        "line": 32,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129GQDYMEYFA5RYAS9M",
+    "source": "An invalid auth token was entered into the modal.",
+    "file": "app/src/auth/login_failure_notification.rs",
+    "line": 44,
+    "occurrences_kind": "literal",
+    "source_hash": "edcd430b87dd92f1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_failure_notification.rs",
+        "line": 44,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B6P903GZHBRT2PFF1",
+    "source": "Failed to log in. Try manually copying the auth token from the authentication web page and pasting into the modal.",
+    "file": "app/src/auth/login_failure_notification.rs",
+    "line": 46,
+    "occurrences_kind": "literal",
+    "source_hash": "753071cb9417275c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_failure_notification.rs",
+        "line": 46,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EAQSW5H2AHRZMG3D9",
+    "source": "Request to sign up failed.",
+    "file": "app/src/auth/login_failure_notification.rs",
+    "line": 58,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ea113b1112eacbe4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_failure_notification.rs",
+        "line": 58,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ESJ0G773YJJ8GPB2H",
+    "source": "Request to log in failed.",
+    "file": "app/src/auth/login_failure_notification.rs",
+    "line": 53,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "03f89b2526fb0eea",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_failure_notification.rs",
+        "line": 53,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GNGJ4ZXNMF3NDX3XN",
+    "source": "The redirect URL pasted did not originate from this app. Please click the button below to try again.",
+    "file": "app/src/auth/login_failure_notification.rs",
+    "line": 63,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b469252fb12eefb9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/login_failure_notification.rs",
+        "line": 63,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A5D82K2H8N30YW35G",
+    "source": "Code signature is valid for {component}",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 329,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "aef3f85ece98125e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 329,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AECD7V098S2VDYBZT",
+    "source": "Could not get metadata for temporary app bundle",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 459,
+    "occurrences_kind": "literal",
+    "source_hash": "83b150fdbed4af8a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 459,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AMQRSR5NWP9GVQSYK",
+    "source": "Code signature is valid for {}",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 330,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7c56f058c97c946a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 330,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AY4E4QX26YB24MVXC",
+    "source": "Could not get metadata for app bundle",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 463,
+    "occurrences_kind": "literal",
+    "source_hash": "f911710347001424",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 463,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B28ZJFXFMY3K9DD9Q",
+    "source": "Error swapping old and new app bundles",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 401,
+    "occurrences_kind": "literal",
+    "source_hash": "bc5f06e002b4b9b0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 401,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B7MK40PC6H0CEG0S8",
+    "source": "Error unmounting dmg for update",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 550,
+    "occurrences_kind": "literal",
+    "source_hash": "935024a574970bf5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 550,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BA479A3PY0N0386D1",
+    "source": "Error cleaning up download dir {:?}: {:?}",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 183,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "51eafa31da9b4702",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 183,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BHPQMNFAPMBPJJW30",
+    "source": "Error cleaning up download dir: {e:?}",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 182,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "15982a07de1890ac",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 182,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J9DPRKKKMB6ER0GDR",
+    "source": "Writing to a tmp file to determine if permissions are correct",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 284,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2aa6e00d27232771",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 284,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JQJTB96RB3PXMFQFW",
+    "source": "Writing to a tmp file to determine if permissions are correct in {}",
+    "file": "app/src/autoupdate/mac.rs",
+    "line": 285,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "33c11063381180e7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/autoupdate/mac.rs",
+        "line": 285,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1295MJA714QG71MN9P1",
+    "source": "Changes committed and pushed.",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 445,
+    "occurrences_kind": "literal",
+    "source_hash": "5fc2850426f95806",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 445,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129GSED9SJNRT0B2GHH",
+    "source": "Changes successfully committed.",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 442,
+    "occurrences_kind": "literal",
+    "source_hash": "02388f64de6173c2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 442,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A8VHNP04ABCCTKPQ8",
+    "source": "Commit message",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 632,
+    "occurrences_kind": "literal",
+    "source_hash": "26306d203c4a6f1a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 632,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ADST3ABKF2Q0SW4JX",
+    "source": "Commit and publish",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 119,
+    "occurrences_kind": "literal",
+    "source_hash": "b655ff8b9dc190f3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 119,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ATNVY4AC8M0X9PDSM",
+    "source": "Committing…",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 84,
+    "occurrences_kind": "literal",
+    "source_hash": "c3f93413b825b8b5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 84,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AV8VZFG6PZ5VA8RD1",
+    "source": "Commit and push",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 117,
+    "occurrences_kind": "literal",
+    "source_hash": "cedd54ce541eb3c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 117,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AYA2NXPN1WKX7K86M",
+    "source": "Commit and create PR",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 180,
+    "occurrences_kind": "literal",
+    "source_hash": "8e598d1e9b5f1f8b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 180,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B4Q0A8WKNZTVCVHP3",
+    "source": "Enter a commit message",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 254,
+    "occurrences_kind": "literal",
+    "source_hash": "da0f5abafc31759d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 254,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C2259RD0F1WD29YC3",
+    "source": "Include unstaged",
+    "file": "app/src/code_review/git_dialog/commit.rs",
+    "line": 578,
+    "occurrences_kind": "literal",
+    "source_hash": "209213ae803be31d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/git_dialog/commit.rs",
+        "line": 578,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DNC78QNQ5DQHQ5S43",
+    "source": "Looks like you're out of credits. Contact a team admin to upgrade for more credits.",
+    "file": "app/src/search/command_search/view.rs",
+    "line": 618,
+    "occurrences_kind": "literal",
+    "source_hash": "9eb43fd04f4c9bd1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/view.rs",
+        "line": 618,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EFZ2Q33B82EN7F1VF",
+    "source": "Press Cmd-Up to navigate to the command's output.",
+    "file": "app/src/search/command_search/view.rs",
+    "line": 518,
+    "occurrences_kind": "literal",
+    "source_hash": "c5194eea92373649",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/view.rs",
+        "line": 518,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EK44ECQG1DNG122RE",
+    "source": "Result executed",
+    "file": "app/src/search/command_search/view.rs",
+    "line": 517,
+    "occurrences_kind": "literal",
+    "source_hash": "7794ba156ccca04c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/view.rs",
+        "line": 517,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EKMA6DCNJ5JQK1VN4",
+    "source": "Result accepted.",
+    "file": "app/src/search/command_search/view.rs",
+    "line": 522,
+    "occurrences_kind": "literal",
+    "source_hash": "d3bba8b3d1e08e89",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/view.rs",
+        "line": 522,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FV6ADZ5ABND0JA06Y",
+    "source": "Search your history, workflows, and more.  Use the Up and Down arrows to browse search results after typing.  Press Enter to accept a selected result, inserting it into the terminal input.  Press Escape to close.",
+    "file": "app/src/search/command_search/view.rs",
+    "line": 1003,
+    "occurrences_kind": "literal",
+    "source_hash": "c328ee78af4ea486",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/view.rs",
+        "line": 1003,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HG4KS8SW2Y3VBXYJH",
+    "source": "View handle should upgradeable.",
+    "file": "app/src/search/command_search/view.rs",
+    "line": 788,
+    "occurrences_kind": "literal",
+    "source_hash": "520f34b6e58bc3e5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/view.rs",
+        "line": 788,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/search/external_secrets/view.rs",
+        "line": 220,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/search/notebook_embedding/view.rs",
+        "line": 235,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J6X3K9VFQSBTN3WBD",
+    "source": "You can edit the command here before pressing Enter to execute it.",
+    "file": "app/src/search/command_search/view.rs",
+    "line": 523,
+    "occurrences_kind": "literal",
+    "source_hash": "bb0b7bc84a579f58",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/view.rs",
+        "line": 523,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129KE9WVSERJ1TAHJ7H",
+    "source": "Autogenerate worktree branch name",
+    "file": "app/src/tab_configs/new_worktree_modal.rs",
+    "line": 474,
+    "occurrences_kind": "literal",
+    "source_hash": "bc67e4bdc723a67c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/new_worktree_modal.rs",
+        "line": 474,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D2RYJEMDZJVGRC5DC",
+    "source": "Name can only contain letters, numbers, hyphens, and underscores",
+    "file": "app/src/tab_configs/new_worktree_modal.rs",
+    "line": 79,
+    "occurrences_kind": "literal",
+    "source_hash": "c54436f8776af6c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/new_worktree_modal.rs",
+        "line": 79,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D7B9C96H40TRN3H4G",
+    "source": "New worktree",
+    "file": "app/src/tab_configs/new_worktree_modal.rs",
+    "line": 335,
+    "occurrences_kind": "literal",
+    "source_hash": "4f210afedcabde19",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/new_worktree_modal.rs",
+        "line": 335,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FDTEVZDCW7W7JXQC6",
+    "source": "Select branch",
+    "file": "app/src/tab_configs/new_worktree_modal.rs",
+    "line": 422,
+    "occurrences_kind": "literal",
+    "source_hash": "2454b121ba74a55c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/new_worktree_modal.rs",
+        "line": 422,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FKJV97V2WNXFRG2R5",
+    "source": "Select repository",
+    "file": "app/src/tab_configs/new_worktree_modal.rs",
+    "line": 417,
+    "occurrences_kind": "literal",
+    "source_hash": "c13b705420e40f5d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/new_worktree_modal.rs",
+        "line": 417,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JB4Z9WKFSQFDHDPPJ",
+    "source": "Worktree branch name",
+    "file": "app/src/tab_configs/new_worktree_modal.rs",
+    "line": 493,
+    "occurrences_kind": "literal",
+    "source_hash": "93f4723dc41c7077",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/new_worktree_modal.rs",
+        "line": 493,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/tab_configs/tab_config.rs",
+        "line": 452,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BBA143VN35STY4YNA",
+    "source": "Environment ended",
+    "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+    "line": 120,
+    "occurrences_kind": "literal",
+    "source_hash": "4e4a360f2a89bd40",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+        "line": 120,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BCE48ZPAQ1QQN3J6K",
+    "source": "Environment started",
+    "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+    "line": 104,
+    "occurrences_kind": "literal",
+    "source_hash": "5add025b19b337d0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+        "line": 104,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EFB9MM57JSX0B1478",
+    "source": "Remote control stopped",
+    "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+    "line": 122,
+    "occurrences_kind": "literal",
+    "source_hash": "e7a0d5ab7320adc3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+        "line": 122,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EX1RVZBMA7GT0K3Y5",
+    "source": "Remote control active",
+    "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+    "line": 106,
+    "occurrences_kind": "literal",
+    "source_hash": "21ce69d58bec8bae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+        "line": 106,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F74ZTGKY6RCA692HR",
+    "source": "Sharing started",
+    "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+    "line": 108,
+    "occurrences_kind": "literal",
+    "source_hash": "9eb92a53b7f5e524",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+        "line": 108,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FBBJQ5ZV39DYR5KFV",
+    "source": "Sharing ended",
+    "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+    "line": 124,
+    "occurrences_kind": "literal",
+    "source_hash": "e8249b34b058a86d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/shared_sessions.rs",
+        "line": 124,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1290RQCZYT70D2SY0G5",
+    "source": "Check terminal for events",
+    "file": "crates/warpui/examples/resizable/root_view.rs",
+    "line": 152,
+    "occurrences_kind": "literal",
+    "source_hash": "ac62a652c024806a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/resizable/root_view.rs",
+        "line": 152,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AVG8DX8PMXNQ29GZ1",
+    "source": "Cyan bar: Vertical resize (top)",
+    "file": "crates/warpui/examples/resizable/root_view.rs",
+    "line": 151,
+    "occurrences_kind": "literal",
+    "source_hash": "d0f77832d5ba575d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/resizable/root_view.rs",
+        "line": 151,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DC3E2BZFG0NPR6WNK",
+    "source": "Left Panel\n(Drag right edge)",
+    "file": "crates/warpui/examples/resizable/root_view.rs",
+    "line": 112,
+    "occurrences_kind": "literal",
+    "source_hash": "3812ce027dcd75a3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/resizable/root_view.rs",
+        "line": 112,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EPX3YCWQ8CEPKY8YR",
+    "source": "Resizable Example",
+    "file": "crates/warpui/examples/resizable/root_view.rs",
+    "line": 146,
+    "occurrences_kind": "literal",
+    "source_hash": "6a5ee346ceb4b619",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/resizable/root_view.rs",
+        "line": 146,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H5X5EEFBF83ZVP7Y0",
+    "source": "Top Panel\n(Drag bottom edge)",
+    "file": "crates/warpui/examples/resizable/root_view.rs",
+    "line": 78,
+    "occurrences_kind": "literal",
+    "source_hash": "00a7d53a2723b130",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/resizable/root_view.rs",
+        "line": 78,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J5J05XF0Z9ECY8EQ5",
+    "source": "Yellow bar: Horizontal resize (left)",
+    "file": "crates/warpui/examples/resizable/root_view.rs",
+    "line": 150,
+    "occurrences_kind": "literal",
+    "source_hash": "a3e3e5da1dfaa15c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/resizable/root_view.rs",
+        "line": 150,
+        "kind": "literal"
+      }
+    ]
+  }
+]

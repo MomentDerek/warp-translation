@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "01KQXQV12BF7NNXGRZSJHB1WZ6",
+    "source": "Failed to cancel task: {e}",
+    "file": "app/src/ai/ambient_agents/task.rs",
+    "line": 662,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9874dcbf45d7b943",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ambient_agents/task.rs",
+        "line": 662,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C06EK059BQ37JQ514",
+    "source": "GitHub Action",
+    "file": "app/src/ai/ambient_agents/task.rs",
+    "line": 225,
+    "occurrences_kind": "literal",
+    "source_hash": "9eab3a8406cbbbd9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ambient_agents/task.rs",
+        "line": 225,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EC42ZR6ZHQF76077K",
+    "source": "Oz Web",
+    "file": "app/src/ai/ambient_agents/task.rs",
+    "line": 224,
+    "occurrences_kind": "literal",
+    "source_hash": "47f82926e35dd8bd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ambient_agents/task.rs",
+        "line": 224,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GYBAXHCR1EWQ9T6NH",
+    "source": "Task cancelled",
+    "file": "app/src/ai/ambient_agents/task.rs",
+    "line": 659,
+    "occurrences_kind": "literal",
+    "source_hash": "1a7f1e13e7ad3ebe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ambient_agents/task.rs",
+        "line": 659,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HPEXA8VW0RT5A7D2N",
+    "source": "Warp App",
+    "file": "app/src/ai/ambient_agents/task.rs",
+    "line": 223,
+    "occurrences_kind": "literal",
+    "source_hash": "88bd8f5534da705f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ambient_agents/task.rs",
+        "line": 223,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HRNDWEGEA04ZC0KR4",
+    "source": "Unknown AmbientAgentSource: {}",
+    "file": "app/src/ai/ambient_agents/task.rs",
+    "line": 265,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "12952b4cefae156f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/ambient_agents/task.rs",
+        "line": 265,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10G45FKTZ8DDH9XD2RB",
+    "source": "\nHow do I fix this?",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 355,
+    "occurrences_kind": "literal",
+    "source_hash": "a33292fb77526258",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai_assistant/panel.rs",
+        "line": 355,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10G6BKMB0T3V17VS97W",
+    "source": "\nWhat should I do next?",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 353,
+    "occurrences_kind": "literal",
+    "source_hash": "4b5f556de57385f3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai_assistant/panel.rs",
+        "line": 353,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129818H6T99T90W9FHP",
+    "source": "Character limit exceeded.",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 849,
+    "occurrences_kind": "literal",
+    "source_hash": "494a8a0a00d023d9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai_assistant/panel.rs",
+        "line": 849,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CB9MZSS0P769457F8",
+    "source": "I ran the command: `",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 357,
+    "occurrences_kind": "literal",
+    "source_hash": "4ac9ebd80642856d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai_assistant/panel.rs",
+        "line": 357,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EWBNYSF77R9SSVR3X",
+    "source": "Prompt: {}\n\n",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 669,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "feac5ad6f52a7003",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai_assistant/panel.rs",
+        "line": 669,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQBJGAN9ARZQBJFKM",
+    "source": "Warp AI: {}\n\n",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 671,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "41913fc21c12ad5c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai_assistant/panel.rs",
+        "line": 671,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JFVMTVEEGWX0N0RH3",
+    "source": "` and got the following output:\n",
+    "file": "app/src/ai_assistant/panel.rs",
+    "line": 358,
+    "occurrences_kind": "literal",
+    "source_hash": "b2a97c4ada61b3e3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai_assistant/panel.rs",
+        "line": 358,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C1323QNPSKBQJJ2SZ",
+    "source": "Folder has too many files to display in the file explorer.",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 1608,
+    "occurrences_kind": "literal",
+    "source_hash": "e6071ef296edfee8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/file_tree/view.rs",
+        "line": 1608,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E153NMQ2KFTX9SHMK",
+    "source": "Reveal in Explorer",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2374,
+    "occurrences_kind": "literal",
+    "source_hash": "b1d3c17e8d131616",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/file_tree/view.rs",
+        "line": 2374,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/code/view.rs",
+        "line": 2031,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E9PYDJCKZ4987V22P",
+    "source": "Reveal in Finder",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2372,
+    "occurrences_kind": "literal",
+    "source_hash": "cc849385646ba0d6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/file_tree/view.rs",
+        "line": 2372,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/code/view.rs",
+        "line": 2029,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EW977HHX7KNFQR06S",
+    "source": "Project explorer unavailable",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2737,
+    "occurrences_kind": "literal",
+    "source_hash": "439a02ef0951b94c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/file_tree/view.rs",
+        "line": 2737,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EWP45SKS4X0HANAYF",
+    "source": "Reveal in file manager",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2376,
+    "occurrences_kind": "literal",
+    "source_hash": "425d61d7a1f3aa99",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/file_tree/view.rs",
+        "line": 2376,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/code/view.rs",
+        "line": 2033,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRBDMFT8YQR1Z06Q0SMQ3V9Y",
+    "source": "Rename",
+    "file": "app/src/code/file_tree/view.rs",
+    "line": 2389,
+    "occurrences_kind": "literal",
+    "source_hash": "3064d79a295cefe4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/file_tree/view.rs",
+        "line": 2389,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/drive/index.rs",
+        "line": 4434,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129NP2S4HAT8838V6EV",
+    "source": "Bounds should be set before event dispatching",
+    "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+    "line": 846,
+    "occurrences_kind": "literal",
+    "source_hash": "8f25038088b242a7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 6,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+        "line": 846,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/block_list_element.rs",
+        "line": 1548,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/block_list_element.rs",
+        "line": 1643,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/block_list_element.rs",
+        "line": 2857,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/waterfall_gap_element.rs",
+        "line": 107,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/waterfall_gap_element.rs",
+        "line": 130,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GAFRACP3ZGWF20DB7",
+    "source": "Size should be set before paint",
+    "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+    "line": 692,
+    "occurrences_kind": "literal",
+    "source_hash": "fb1a56afdb18cde8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+        "line": 692,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/block_list_element.rs",
+        "line": 3700,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GB3GJBQEKPZ7R0A3M",
+    "source": "Subagent output was laid out already.",
+    "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+    "line": 808,
+    "occurrences_kind": "literal",
+    "source_hash": "6f104cbcfa9b98fc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+        "line": 808,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GCP0FZHPZDWCFB97Y",
+    "source": "Size should be set in `layout()`",
+    "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+    "line": 673,
+    "occurrences_kind": "literal",
+    "source_hash": "94c356af0caad891",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+        "line": 673,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JS5C7XN6TPFHXPC5E",
+    "source": "bounds set during paint.",
+    "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+    "line": 811,
+    "occurrences_kind": "literal",
+    "source_hash": "27648e1a98628992",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+        "line": 811,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+        "line": 814,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JX0H923GZCNBAM8AY",
+    "source": "Z-index should exist.",
+    "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+    "line": 853,
+    "occurrences_kind": "literal",
+    "source_hash": "d3582e2d16980552",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/alt_screen/alt_screen_element.rs",
+        "line": 853,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/block_list_element.rs",
+        "line": 4430,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AB12BH2V8SV0C2E3Z",
+    "source": "Configure notifications",
+    "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+    "line": 134,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ac7349d8fa853b81",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+        "line": 134,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B0N0RZ4W4J89HN7RP",
+    "source": "Don't forget to 'Allow' the permissions request to finish setting up notifications.",
+    "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+    "line": 124,
+    "occurrences_kind": "literal",
+    "source_hash": "a8333d0d1acb84f6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+        "line": 124,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DRJ0QFV07GAXZ16GN",
+    "source": "Notifications were turned off, but you can always go to Settings to enable notifications.",
+    "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+    "line": 83,
+    "occurrences_kind": "literal",
+    "source_hash": "3c365bc600bf05ad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+        "line": 83,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G9NKGGDD0ZGP0XV2D",
+    "source": "Success! You are now ready to receive desktop notifications.",
+    "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+    "line": 111,
+    "occurrences_kind": "literal",
+    "source_hash": "f60d1812d1523a60",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+        "line": 111,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GX6JTEA605F063EPW",
+    "source": "Something went wrong while requesting permissions.",
+    "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+    "line": 119,
+    "occurrences_kind": "literal",
+    "source_hash": "dcc4f163f542b945",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+        "line": 119,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H94EXZBTCMH5D5STS",
+    "source": "We won't show this banner again, but you can always go to Settings to enable notifications.",
+    "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+    "line": 79,
+    "occurrences_kind": "literal",
+    "source_hash": "168394a469be2bd1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+        "line": 79,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HZAHWBMD65FA6D9NK",
+    "source": "Warp was denied permissions to send you notifications.",
+    "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+    "line": 115,
+    "occurrences_kind": "literal",
+    "source_hash": "fbdfb698c31034cf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_discovery.rs",
+        "line": 115,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129ZKC6MHC686MCCDM5",
+    "source": "Agent task",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 378,
+    "occurrences_kind": "literal",
+    "source_hash": "99f5b115c4ab6d5a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 378,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A31MHE2NV7XKJPJRM",
+    "source": "Credits used: {credits}",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 440,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "73b6c51409196fcb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 440,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AXWX1RRK69YX1Q68H",
+    "source": "Directory: {display_dir}",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 424,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "145a6f07ce3944df",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 424,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FFNQFKD1HEJC4Y616",
+    "source": "Run time: {run_time}",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 436,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b224225cdbdc6300",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 436,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G7SDZEAP076WZETK2",
+    "source": "This shared conversation shows the state when you opened it. If the agent is still running, refresh to see the latest progress.",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 405,
+    "occurrences_kind": "literal",
+    "source_hash": "9baf96bc869c49aa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 405,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GKF554VHYVM9K2XR0",
+    "source": "Skill: {skill}",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 432,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "20668ea669ba14d2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 432,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GXMPFCPS58GF6E7R2",
+    "source": "Source: {source}",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 428,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9f9d70c6e9c02550",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 428,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J0WDX34XNTMQDW8M6",
+    "source": "You're viewing a snapshot",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 346,
+    "occurrences_kind": "literal",
+    "source_hash": "d85af1af008a2fb0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 346,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9C8PMWMT06W6KZSNZ0Q",
+    "source": "Cloud agent failed to start",
+    "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+    "line": 192,
+    "occurrences_kind": "literal",
+    "source_hash": "a24d0a098d696709",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/conversation_ended_tombstone_view.rs",
+        "line": 192,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AEFYJG5C9KDN3S355",
+    "source": "Custom URI is invalid.",
+    "file": "app/src/uri/mod.rs",
+    "line": 885,
+    "occurrences_kind": "literal",
+    "source_hash": "2fb77e7caf3598a2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/uri/mod.rs",
+        "line": 885,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AF9K4TZ7BR9SGXA51",
+    "source": "Custom URI is invalid: {e:?}",
+    "file": "app/src/uri/mod.rs",
+    "line": 1135,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76b55a38e3c25502",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/uri/mod.rs",
+        "line": 1135,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BFR638XC08GQFK1V1",
+    "source": "Dispatched auth url to window {window_id}",
+    "file": "app/src/uri/mod.rs",
+    "line": 133,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b2c056df526aa9b3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/uri/mod.rs",
+        "line": 133,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BQVEGAAC6C5H5T01T",
+    "source": "Dispatched auth url {url} to window {window_id}",
+    "file": "app/src/uri/mod.rs",
+    "line": 134,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "da4db092c54f21b5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/uri/mod.rs",
+        "line": 134,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EGKCMJR35WNXFKKQQ",
+    "source": "Opening drive object in existing window: {args:?}",
+    "file": "app/src/uri/mod.rs",
+    "line": 318,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2d00b492293d5df7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/uri/mod.rs",
+        "line": 318,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EZVQP0Q1SQ9FWXWBE",
+    "source": "Opening drive object in existing window: object_type={:?} server_id={}",
+    "file": "app/src/uri/mod.rs",
+    "line": 315,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "177bcee182a79d2e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/uri/mod.rs",
+        "line": 315,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12915PJP7YHB4RS1MD8",
+    "source": "BitBlt failed while capturing screen: {e}",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 138,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0c81baec47562c87",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 138,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AK34KDP5AYSXTB50J",
+    "source": "CreateCompatibleDC failed",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 281,
+    "occurrences_kind": "literal",
+    "source_hash": "78b19b7edec2099a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 281,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ASBKKC2C51NEBMA45",
+    "source": "CreateCompatibleBitmap failed for {width}x{height} bitmap",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 309,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b2934c072fecf51f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 309,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BMR9HX9WHYN14DR6Z",
+    "source": "Failed to construct image from GDI pixel data",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 87,
+    "occurrences_kind": "literal",
+    "source_hash": "0ace51c71603e62b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 87,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C026CYR6JJ5692HJR",
+    "source": "GetDC(NULL) returned a null handle",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 251,
+    "occurrences_kind": "literal",
+    "source_hash": "12e462919acc802a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 251,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CM9Y7W9VP4RMM04F0",
+    "source": "GetDIBits copied {scanlines} of {height} scan lines for screenshot",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 215,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a6059ac07baf12ee",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 215,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F2JNXMW41SE9SDX2C",
+    "source": "Screenshot dimensions {width}x{height} overflow buffer size",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 193,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1a575bd38fc9ab0b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 193,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FNDGZZ3YCZXDFZAEZ",
+    "source": "SelectObject failed for screenshot bitmap",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 113,
+    "occurrences_kind": "literal",
+    "source_hash": "74e60eeb20f7f9fb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 113,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FVYV7T84D7M4XP6QY",
+    "source": "Screenshot region ({}, {})-({}, {}) exceeds virtual screen bounds ({virt_x}, {virt_y})-({max_x}, {max_y})",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 71,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "395a1373d3d2ce15",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 71,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H0ATPJ8YQ8WT0Z1KB",
+    "source": "Virtual screen has invalid dimensions ({virt_w}x{virt_h})",
+    "file": "crates/computer_use/src/windows/screenshot.rs",
+    "line": 48,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "49ac9d65b6114117",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/screenshot.rs",
+        "line": 48,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B2BVQXP3KFM18E9N0",
+    "source": "Failed to acquire lock on highlighted_hyperlink",
+    "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+    "line": 375,
+    "occurrences_kind": "literal",
+    "source_hash": "dff605127fa8e473",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 5,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 375,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 459,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 877,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 2211,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 2218,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BD55XY84P5DG9ZRD4",
+    "source": "Expected size to not be none",
+    "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+    "line": 2046,
+    "occurrences_kind": "literal",
+    "source_hash": "dd5163cbbda58fd6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 2046,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F53F8EQE2GTRX8W5X",
+    "source": "Secret redaction OOB: failed to map start_char to byte index. range={:?}, start_char={}, end_char={}, total_chars={}, byte_len={}",
+    "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+    "line": 1522,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3827942b07853919",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 1522,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FJWKNNJV9DYZ0RA0C",
+    "source": "Secret redaction OOB: char start beyond length. range={:?}, start_char={}, end_char={}, total_chars={}, byte_len={}",
+    "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+    "line": 1506,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5b0514d24e27997d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 1506,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FPCDSN41A42AJNGDE",
+    "source": "Secret redaction OOB: byte range invalid. start_byte={}, end_byte={}, byte_len={}, start_char={}, end_char={}, total_chars={}",
+    "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+    "line": 1550,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9fc870d70c8ce267",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 1550,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FTRGXTW0RHBEAAMA5",
+    "source": "Secret redaction OOB: failed to map end_char to byte index. range={:?}, start_char={}, end_char={}, total_chars={}, byte_len={}",
+    "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+    "line": 1538,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "aa79d9b48ab712dc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/formatted_text_element.rs",
+        "line": 1538,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

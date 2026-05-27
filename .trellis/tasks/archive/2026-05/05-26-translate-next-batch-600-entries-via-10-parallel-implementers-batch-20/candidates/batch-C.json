@@ -1,0 +1,998 @@
+[
+  {
+    "id": "01KQXQV12AS7E4TCZV4GEF79T2",
+    "source": "Conversation exists- was just created.",
+    "file": "app/src/ai/blocklist/controller.rs",
+    "line": 2179,
+    "occurrences_kind": "literal",
+    "source_hash": "d1528b1672729a0e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 2179,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CPBAQT4YTA7QEHJ34",
+    "source": "Input exceeded context window limit.",
+    "file": "app/src/ai/blocklist/controller.rs",
+    "line": 2944,
+    "occurrences_kind": "literal",
+    "source_hash": "489464c83096d4ba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 2944,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 3041,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D8D6NTXPD964DKJ59",
+    "source": "Not sending AI input because there is an in-flight request",
+    "file": "app/src/ai/blocklist/controller.rs",
+    "line": 2264,
+    "occurrences_kind": "literal",
+    "source_hash": "e9f50ed75790c5a6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 2264,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E8QHN647QV4DQADCC",
+    "source": "Response stream finished unexpectedly with internal error: {message}",
+    "file": "app/src/ai/blocklist/controller.rs",
+    "line": 3024,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e5e7ef461d2730f2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 3024,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EDJFJNCYQNKJYPPA3",
+    "source": "Request did not successfully complete",
+    "file": "app/src/ai/blocklist/controller.rs",
+    "line": 2756,
+    "occurrences_kind": "literal",
+    "source_hash": "75186b259c1b3dbe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 2756,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EZR9Z32M8W8FAAZXD",
+    "source": "Response stream finished unexpectedly (with finish reason `Other`).",
+    "file": "app/src/ai/blocklist/controller.rs",
+    "line": 2928,
+    "occurrences_kind": "literal",
+    "source_hash": "7181133436f1b432",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 2928,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GFN3TJJBK6E3XFQR4",
+    "source": "The LLM is currently unavailable.",
+    "file": "app/src/ai/blocklist/controller.rs",
+    "line": 2969,
+    "occurrences_kind": "literal",
+    "source_hash": "be25d607b2e976c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/controller.rs",
+        "line": 2969,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128NDN993X164S030BC",
+    "source": "AI Document",
+    "file": "app/src/pane_group/pane/mod.rs",
+    "line": 173,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "89d44e13676b0108",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/mod.rs",
+        "line": 173,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BCCD4D5X89YFCGQNN",
+    "source": "Environment Management",
+    "file": "app/src/pane_group/pane/mod.rs",
+    "line": 169,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c298636302e108a0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/mod.rs",
+        "line": 169,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BDTCFTXSRVG50J9K2",
+    "source": "Environment Variable Collection",
+    "file": "app/src/pane_group/pane/mod.rs",
+    "line": 168,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e002eb64887a0b95",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/mod.rs",
+        "line": 168,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BSYW9B34F94JEFZ4J",
+    "source": "Execution Profile Editor",
+    "file": "app/src/pane_group/pane/mod.rs",
+    "line": 174,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "23e7e0ce97843c74",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/mod.rs",
+        "line": 174,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DTPGP9JCZAC68BMZ0",
+    "source": "Network Log",
+    "file": "app/src/pane_group/pane/mod.rs",
+    "line": 176,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "33fa7ee384521a29",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/mod.rs",
+        "line": 176,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E9WNBRYR0341MJY2T",
+    "source": "Pane {} ({})",
+    "file": "app/src/pane_group/pane/mod.rs",
+    "line": 133,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "19be689c68335d17",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/mod.rs",
+        "line": 133,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EYH0ZGKT0B1MJ8WN3",
+    "source": "Pane {}",
+    "file": "app/src/pane_group/pane/mod.rs",
+    "line": 534,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e717c09b3ac7829e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/mod.rs",
+        "line": 534,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HY8WDG9V9SKW0QQSS",
+    "source": "Updating...",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 874,
+    "occurrences_kind": "literal",
+    "source_hash": "0a4e0b71b7f35837",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 874,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J3AYAA44EWK2VDXYT",
+    "source": "version update",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1021,
+    "occurrences_kind": "literal",
+    "source_hash": "517240ead46a7f69",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1021,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J6JYJ137M5X5H9V76",
+    "source": "sign out log out logout",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1069,
+    "occurrences_kind": "literal",
+    "source_hash": "7093fd1ee07886ef",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1069,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J9BWQDYZEWQ2P8JTF",
+    "source": "settings sync bindings lock poisoned",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 88,
+    "occurrences_kind": "literal",
+    "source_hash": "2827b14a058a748b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 88,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JESWBJ2M5WKVYGZ3C",
+    "source": "account sign up",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 611,
+    "occurrences_kind": "literal",
+    "source_hash": "750480688bbeccb6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 611,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JRN1MZ4M5MH3AQ7MS",
+    "source": "earn rewards referral share friends",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 768,
+    "occurrences_kind": "literal",
+    "source_hash": "08403ef6b0f2460a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 768,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C0BC2RQHPW3DNWRQK",
+    "source": "Font family defined",
+    "file": "app/src/tab.rs",
+    "line": 1095,
+    "occurrences_kind": "literal",
+    "source_hash": "3e3b623da3fd4ff1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 1095,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C7Z96681CKWRRHXJ3",
+    "source": "Font size defined",
+    "file": "app/src/tab.rs",
+    "line": 1096,
+    "occurrences_kind": "literal",
+    "source_hash": "a7790744c3660c80",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 1096,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZQAVSM5SVKF9WEB3",
+    "source": "Font color is set",
+    "file": "app/src/tab.rs",
+    "line": 1062,
+    "occurrences_kind": "literal",
+    "source_hash": "16153a99e6742d0b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 1062,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EE0J6936QMREBKS8N",
+    "source": "Rename tab",
+    "file": "app/src/tab.rs",
+    "line": 408,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "29365ea1847dbb09",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 408,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F11ETD9QK7QT4D9QQ",
+    "source": "Save as new config",
+    "file": "app/src/tab.rs",
+    "line": 525,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c340e0c60f5d5646",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 525,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9EJVY6Z1DNMNZH488WH",
+    "source": "Copy pane title",
+    "file": "app/src/tab.rs",
+    "line": 335,
+    "occurrences_kind": "literal",
+    "source_hash": "102c421e034c278f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 335,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9ERD1ZFXZZECCXNBXSX",
+    "source": "Copy pull request link",
+    "file": "app/src/tab.rs",
+    "line": 368,
+    "occurrences_kind": "literal",
+    "source_hash": "cf490d0e9a0cd8a3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 368,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9F1PC3V8P5MR0GDD5SZ",
+    "source": "Copy tab title",
+    "file": "app/src/tab.rs",
+    "line": 315,
+    "occurrences_kind": "literal",
+    "source_hash": "79a2426b48968dca",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 315,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/tab.rs",
+        "line": 346,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1299ASG0S40S4Y3K3YY",
+    "source": "Cloud agents require an environment that they'll run in to get their task done. Create your first environment below. You'll be able to edit the environment later, or add new environments when you need them.",
+    "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+    "line": 196,
+    "occurrences_kind": "literal",
+    "source_hash": "0b663bf5d83b2fc5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+        "line": 196,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GJ1AMV4W8V2Q6Z4H3",
+    "source": "Start a new Oz cloud agent",
+    "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+    "line": 152,
+    "occurrences_kind": "literal",
+    "source_hash": "25ac74e4c13f10a5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+        "line": 152,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HCWFQHSYVKTHAKHSZ",
+    "source": "Use Oz cloud agents to run parallel agents, build agents that run autonomously, and check in on your agents from anywhere. ",
+    "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+    "line": 164,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c98176ae30f47080",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+        "line": 164,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J8AN88ZZ6DBZ598FA",
+    "source": "You have 1 free credit to use on Oz cloud agents.",
+    "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+    "line": 229,
+    "occurrences_kind": "literal",
+    "source_hash": "96339875f7ee77f5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+        "line": 229,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JDCH6MG077P6E58ZQ",
+    "source": "You have {} free credits to use on Oz cloud agents.",
+    "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+    "line": 232,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6d71be6e23f734a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+        "line": 232,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9WG5A83EG0K3ENAZTPN",
+    "source": "Free credits",
+    "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+    "line": 216,
+    "occurrences_kind": "literal",
+    "source_hash": "8de29cdd5b88c29b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/first_time_setup.rs",
+        "line": 216,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B1Y5V57251P1X4FZ6",
+    "source": "Enables configuring Warp via a user-editable `settings.toml` file, with hot reload and error reporting for invalid values.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1048,
+    "occurrences_kind": "literal",
+    "source_hash": "c614e69e09723ec1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1048,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B2NMKASYPSDYF96X1",
+    "source": "Enables global search in the left panel",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1043,
+    "occurrences_kind": "literal",
+    "source_hash": "43493d3bae2fa81e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1043,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3J56AESK5FQTP1QG",
+    "source": "Enables viewing agent conversations within shared sessions.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1035,
+    "occurrences_kind": "literal",
+    "source_hash": "a872a761dc76491a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1035,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B6788MAAMARV4YH5M",
+    "source": "Enables rendering markdown images inline in AI block list responses.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1039,
+    "occurrences_kind": "literal",
+    "source_hash": "c73a86d6e2c16a4d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1039,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BAZ64ASYK1Q9VZTBV",
+    "source": "Enables rendering and interaction support for markdown tables in notebooks.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1047,
+    "occurrences_kind": "literal",
+    "source_hash": "f2a11913e5fcc9dc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1047,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BD29AES056Z7BGGMB",
+    "source": "Enables the find bar in the code review pane.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1037,
+    "occurrences_kind": "literal",
+    "source_hash": "ff341146bd7773c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1037,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BDWF24A0FJK2KPK84",
+    "source": "Enables commit, push, and create-PR actions directly from the code review panel.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1049,
+    "occurrences_kind": "literal",
+    "source_hash": "cac618efcc44ec69",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1049,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BFGHQW9FX4PKFXN17",
+    "source": "Enables rendering markdown tables inline in AI block list responses.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1045,
+    "occurrences_kind": "literal",
+    "source_hash": "be2e857d94ab1b0f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1045,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWYKG4SCF00XAVET4",
+    "source": "Enables the /create environment slash command for setting up Warp Environments with custom configurations.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1042,
+    "occurrences_kind": "literal",
+    "source_hash": "79e49d8b395faeba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1042,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZ7D64M5S3GHESXPC",
+    "source": "Enables creating and managing Warp Environments via the CLI.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1041,
+    "occurrences_kind": "literal",
+    "source_hash": "c64d456d885aaedd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1041,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9JQANHAQE5GHFB88QJ1",
+    "source": "Enables orchestration of teams of agents with dedicated UI, lifecycle events and inter-agent messaging.",
+    "file": "crates/warp_features/src/lib.rs",
+    "line": 1050,
+    "occurrences_kind": "literal",
+    "source_hash": "3ccb020a4083163f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_features/src/lib.rs",
+        "line": 1050,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1297H2WQRJCN2XDEVSW",
+    "source": "Capture requested...",
+    "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+    "line": 54,
+    "occurrences_kind": "literal",
+    "source_hash": "d4aeb5626003ee4d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+        "line": 54,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129SRQ6DSYBR8VT9N2W",
+    "source": "Click the button below to write a frame",
+    "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+    "line": 116,
+    "occurrences_kind": "literal",
+    "source_hash": "ac6ed57a0394c01e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+        "line": 116,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B076KY5RQZFGHEY1Y",
+    "source": "Error: {}",
+    "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+    "line": 72,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b890e9f0ddeb26cd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+        "line": 72,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CB9XEDXKC8SY8RAHH",
+    "source": "Frame Capture Test",
+    "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+    "line": 134,
+    "occurrences_kind": "literal",
+    "source_hash": "1c2210dc7a394fd0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+        "line": 134,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CJ6T7XQZX1197DMJK",
+    "source": "Frame written to {}",
+    "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+    "line": 68,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "34a1c799a494f3dd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+        "line": 68,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H6120G8Z5QJMGM62E",
+    "source": "WarpUI rendering sample with clickable capture button",
+    "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+    "line": 148,
+    "occurrences_kind": "literal",
+    "source_hash": "714032bcf92f1284",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+        "line": 148,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JE204YQ2KP4AHQQSJ",
+    "source": "Write Frame to File System",
+    "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+    "line": 245,
+    "occurrences_kind": "literal",
+    "source_hash": "4d0c0b9d14da3d3a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/frame-capture-test/root_view.rs",
+        "line": 245,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D4PNG05MANZ1FEEA2",
+    "source": "Item #{index}",
+    "file": "crates/warpui/examples/list/root_view.rs",
+    "line": 68,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c9d34c61b3b64103",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/list/root_view.rs",
+        "line": 68,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D6E2M2YHET81CSNTM",
+    "source": "List Demo - 1000 Items",
+    "file": "crates/warpui/examples/list/root_view.rs",
+    "line": 109,
+    "occurrences_kind": "literal",
+    "source_hash": "11c3389c37c077a5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/list/root_view.rs",
+        "line": 109,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G63B5C95TZE5WFF35",
+    "source": "This demonstrates viewporting: only visible items are rendered!",
+    "file": "crates/warpui/examples/list/root_view.rs",
+    "line": 118,
+    "occurrences_kind": "literal",
+    "source_hash": "4e4363992b6dbfa1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/list/root_view.rs",
+        "line": 118,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J2580MJR8PM4SCTMJ",
+    "source": "🟥 Red borders mark milestone items (every 10th).",
+    "file": "crates/warpui/examples/list/root_view.rs",
+    "line": 138,
+    "occurrences_kind": "literal",
+    "source_hash": "c9e637260ba6422b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/list/root_view.rs",
+        "line": 138,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J2B1QEGZBWAQ5THHR",
+    "source": "📏 Viewport height: 400px.",
+    "file": "crates/warpui/examples/list/root_view.rs",
+    "line": 147,
+    "occurrences_kind": "literal",
+    "source_hash": "836ebb1dc6774aef",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/list/root_view.rs",
+        "line": 147,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JXT0JC8J6GQMBZYN1",
+    "source": "🔍 Check the console output to see which items are being rendered.",
+    "file": "crates/warpui/examples/list/root_view.rs",
+    "line": 128,
+    "occurrences_kind": "literal",
+    "source_hash": "2c3408c676de66c5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/list/root_view.rs",
+        "line": 128,
+        "kind": "literal"
+      }
+    ]
+  }
+]

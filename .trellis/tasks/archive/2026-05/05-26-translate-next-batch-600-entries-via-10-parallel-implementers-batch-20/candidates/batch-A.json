@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "01KQXQV1295T8B3FS0NRYFTHYB",
+    "source": "All of Warp’s non-cloud features work offline.",
+    "file": "app/src/auth/auth_view_shared_helpers.rs",
+    "line": 178,
+    "occurrences_kind": "literal",
+    "source_hash": "b0e6722d580d4e14",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_shared_helpers.rs",
+        "line": 178,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A4QH1D4YH602DA8KG",
+    "source": "Crash reporting helps Warp's engineering team understand stability and improve performance.",
+    "file": "app/src/auth/auth_view_shared_helpers.rs",
+    "line": 523,
+    "occurrences_kind": "literal",
+    "source_hash": "253e960a7594b00b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_shared_helpers.rs",
+        "line": 523,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C89YM3XK8AM8W9BSK",
+    "source": "However, we require users to be online when using Warp for the first time in order to enable Warp's AI and cloud features.",
+    "file": "app/src/auth/auth_view_shared_helpers.rs",
+    "line": 179,
+    "occurrences_kind": "literal",
+    "source_hash": "427f4d36c7a9ecc5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_shared_helpers.rs",
+        "line": 179,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CXJ20E7N89QVW5YE4",
+    "source": "High-level feature usage data helps Warp's product team prioritize the roadmap.",
+    "file": "app/src/auth/auth_view_shared_helpers.rs",
+    "line": 478,
+    "occurrences_kind": "literal",
+    "source_hash": "31859208d162e44e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_shared_helpers.rs",
+        "line": 478,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HH242WKFQN67NDCEW",
+    "source": "We offer cloud features to all users, and so we need an internet connection to meter AI usage, prevent abuse, and associate cloud objects with users. If you opt to use Warp logged-out, a unique ID will be attached to an anonymous user account in order to support these features.",
+    "file": "app/src/auth/auth_view_shared_helpers.rs",
+    "line": 180,
+    "occurrences_kind": "literal",
+    "source_hash": "060de98f4ffcb93e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_shared_helpers.rs",
+        "line": 180,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J1HA5WSQAZER6C5J4",
+    "source": "You are currently offline. An internet connection is required to use Warp for the first time.",
+    "file": "app/src/auth/auth_view_shared_helpers.rs",
+    "line": 64,
+    "occurrences_kind": "literal",
+    "source_hash": "70593f24d93109d2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/auth_view_shared_helpers.rs",
+        "line": 64,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129VWQT5DMCKASTR2EH",
+    "source": "Choose files...",
+    "file": "app/src/drive/import/modal_body.rs",
+    "line": 396,
+    "occurrences_kind": "literal",
+    "source_hash": "a25b14bf044a91fd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/import/modal_body.rs",
+        "line": 396,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B57NE7JVA44Q33SPB",
+    "source": "Failed to upload file to server",
+    "file": "app/src/drive/import/modal_body.rs",
+    "line": 129,
+    "occurrences_kind": "literal",
+    "source_hash": "89eb39c15af31ca0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/import/modal_body.rs",
+        "line": 129,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BDE1J3G9HEJBGEYWH",
+    "source": "Failed to upload folder to server",
+    "file": "app/src/drive/import/modal_body.rs",
+    "line": 144,
+    "occurrences_kind": "literal",
+    "source_hash": "72e389d724953e5b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/import/modal_body.rs",
+        "line": 144,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CZSD57KH6MD7S01NN",
+    "source": "File node should exist",
+    "file": "app/src/drive/import/modal_body.rs",
+    "line": 155,
+    "occurrences_kind": "literal",
+    "source_hash": "bc12f63093f8bd41",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/import/modal_body.rs",
+        "line": 155,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DFZP7HNV5DZSSYAZA",
+    "source": "Learn about file support and formatting",
+    "file": "app/src/drive/import/modal_body.rs",
+    "line": 436,
+    "occurrences_kind": "literal",
+    "source_hash": "5ae2ba308cdf8896",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/import/modal_body.rs",
+        "line": 436,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FYCHM4NNZA6NBKJQ7",
+    "source": "Root node should exist",
+    "file": "app/src/drive/import/modal_body.rs",
+    "line": 477,
+    "occurrences_kind": "literal",
+    "source_hash": "15ceaba9e281b739",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/import/modal_body.rs",
+        "line": 477,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/drive/import/nodes.rs",
+        "line": 800,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/drive/import/nodes.rs",
+        "line": 808,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JJ5JB2EFJR0B57XS5",
+    "source": "md, yaml, yml",
+    "file": "app/src/drive/import/modal_body.rs",
+    "line": 46,
+    "occurrences_kind": "literal",
+    "source_hash": "538f27153ea959be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/import/modal_body.rs",
+        "line": 46,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J3WBQPVXTSYADXFZW",
+    "source": "split_right:{id_str}",
+    "file": "app/src/search/command_palette/new_session/data_source.rs",
+    "line": 152,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f71016f23be8b431",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/new_session/data_source.rs",
+        "line": 152,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J40T99VMTSD0CPEY5",
+    "source": "split_down:{id_str}",
+    "file": "app/src/search/command_palette/new_session/data_source.rs",
+    "line": 151,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7308aa9bdbc446c8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/new_session/data_source.rs",
+        "line": 151,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J791D0PQTPYRHS0ZR",
+    "source": "split_up:{id_str}",
+    "file": "app/src/search/command_palette/new_session/data_source.rs",
+    "line": 153,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "10a955a192b2462c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/new_session/data_source.rs",
+        "line": 153,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J8VKED6MS31J0KP7M",
+    "source": "split_left:{id_str}",
+    "file": "app/src/search/command_palette/new_session/data_source.rs",
+    "line": 154,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6500cff98b56132b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/new_session/data_source.rs",
+        "line": 154,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JG5EXFSQPDRT0SQ8S",
+    "source": "new_tab:{id_str}",
+    "file": "app/src/search/command_palette/new_session/data_source.rs",
+    "line": 141,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a8ed4a4c8ac1c5b3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/new_session/data_source.rs",
+        "line": 141,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JVFFXZ8XSXG0B6H2H",
+    "source": "new_window:{id_str}",
+    "file": "app/src/search/command_palette/new_session/data_source.rs",
+    "line": 132,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b59ccc3377e59220",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/new_session/data_source.rs",
+        "line": 132,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV11205PNX54NQSDWXWJD",
+    "source": " Matches \"gcloud compute ssh\" for connecting to GCP VMs.",
+    "file": "app/src/terminal/ssh/util.rs",
+    "line": 171,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3003fec80ecfea5c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/ssh/util.rs",
+        "line": 171,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV112JJAZR9FFA87B52MT",
+    "source": " Matches \"eb ssh\" for connecting to AWS Elastic Beanstalk VMs.",
+    "file": "app/src/terminal/ssh/util.rs",
+    "line": 174,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e61feca302300d9e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/ssh/util.rs",
+        "line": 174,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV112WXXXXPBE0R6JG274",
+    "source": " Matches \"doctl compute ssh\" for connecting to a digital ocean droplet.",
+    "file": "app/src/terminal/ssh/util.rs",
+    "line": 177,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1fc139a8dffc4100",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/ssh/util.rs",
+        "line": 177,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AFK8TRXPBRDRRP8GB",
+    "source": "Confirm user presence",
+    "file": "app/src/terminal/ssh/util.rs",
+    "line": 67,
+    "occurrences_kind": "literal",
+    "source_hash": "42eddb93010d4ff7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/ssh/util.rs",
+        "line": 67,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D5GJ2X3K146EX7XEV",
+    "source": "Last login:",
+    "file": "app/src/terminal/ssh/util.rs",
+    "line": 52,
+    "occurrences_kind": "literal",
+    "source_hash": "4f241dd63506fc03",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/ssh/util.rs",
+        "line": 52,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EGCRZ2R5ME8NZ0VZK",
+    "source": "Please type",
+    "file": "app/src/terminal/ssh/util.rs",
+    "line": 65,
+    "occurrences_kind": "literal",
+    "source_hash": "63294be9b23f07a6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/ssh/util.rs",
+        "line": 65,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GBF4KZWG6C1VQJJEF",
+    "source": "The zoom level for the window, as a percentage.",
+    "file": "app/src/window_settings.rs",
+    "line": 80,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "101a7c5a72467131",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 80,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GBH0QX0V0CQGFKC0N",
+    "source": "The number of rows for new windows when using a custom size.",
+    "file": "app/src/window_settings.rs",
+    "line": 62,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3436511f4b629daf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 62,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GDDZP9T6AS341JJ39",
+    "source": "The blur radius applied to the window background.",
+    "file": "app/src/window_settings.rs",
+    "line": 15,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a18c8201ceb29bbc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 15,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GFD18DWZ7Z4EHPMGW",
+    "source": "The number of columns for new windows when using a custom size.",
+    "file": "app/src/window_settings.rs",
+    "line": 53,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4fb479b6b390c402",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 53,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GY9Y0V13KDZYPXNXA",
+    "source": "The opacity of the window background, from 1 to 100 percent.",
+    "file": "app/src/window_settings.rs",
+    "line": 35,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ff647cb23f9b18a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 35,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H8CF4H2X7DKNNHY35",
+    "source": "Whether to apply a blur texture to the window background.",
+    "file": "app/src/window_settings.rs",
+    "line": 25,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "97db3d0852b0b988",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 25,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H9J2DFN39KJGCG2C7",
+    "source": "Whether to open new windows at a custom size instead of the default.",
+    "file": "app/src/window_settings.rs",
+    "line": 44,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "253afa58e9c52132",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 44,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQ11TTYBECMVAZYBZ",
+    "source": "Whether the left panel visibility is shared across all tabs.",
+    "file": "app/src/window_settings.rs",
+    "line": 71,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f8e8d7b58a7df8dd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/window_settings.rs",
+        "line": 71,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BPT8TCP17HNQ2RPTG",
+    "source": "Failed to create key up event for keycode {}",
+    "file": "crates/computer_use/src/mac/keyboard.rs",
+    "line": 85,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8b9c8e2b1027005c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/mac/keyboard.rs",
+        "line": 85,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWME0V2S0RYGS3VG0",
+    "source": "Failed to create key up event for TypeText.",
+    "file": "crates/computer_use/src/mac/keyboard.rs",
+    "line": 117,
+    "occurrences_kind": "literal",
+    "source_hash": "7024a51ca4ead933",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/mac/keyboard.rs",
+        "line": 117,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BYHV99BXFS20T98DW",
+    "source": "Failed to create key down event for TypeText.",
+    "file": "crates/computer_use/src/mac/keyboard.rs",
+    "line": 97,
+    "occurrences_kind": "literal",
+    "source_hash": "142bacdb5b28cee0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/mac/keyboard.rs",
+        "line": 97,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZ44ZRJSCFZQM8RCT",
+    "source": "Failed to create key down event for keycode {}",
+    "file": "crates/computer_use/src/mac/keyboard.rs",
+    "line": 76,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ded4959321c83804",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/mac/keyboard.rs",
+        "line": 76,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CE7S61VH0M2A9P67Z",
+    "source": "Invalid keycode {code}: must be in range 0..={}",
+    "file": "crates/computer_use/src/mac/keyboard.rs",
+    "line": 59,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "43643a29207a5383",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/mac/keyboard.rs",
+        "line": 59,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D0R1VT0QBS3Q99VQ5",
+    "source": "No keycode found for character '{}'",
+    "file": "crates/computer_use/src/mac/keyboard.rs",
+    "line": 67,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dc154f659317a7a4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/mac/keyboard.rs",
+        "line": 67,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1292Z07NNW03FP2PK92",
+    "source": "Back to terminal",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 184,
+    "occurrences_kind": "literal",
+    "source_hash": "4fa0834d68fb70e3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 184,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GQEN08PPFRSQ8V9J1",
+    "source": "Skip initialization",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 164,
+    "occurrences_kind": "literal",
+    "source_hash": "e370b77f55ed90b7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 164,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JPESSCRGJ6HKBQ653",
+    "source": "You can type in natural language to engage the agent. Submit the query below to start: What tests exist in this repo, how are they structured, and what do they cover?",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 79,
+    "occurrences_kind": "literal",
+    "source_hash": "a52d442e9b2fdd80",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 79,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JTNYV95MCZ4MR2TA8",
+    "source": "Your terminal input accepts both terminal commands and agent prompts and automatically detects which you're using. Use {} to lock the input to Agent mode (natural language) or Terminal mode (commands).",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 65,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "02f7b699b2138e32",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 65,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEPNFE32WQ6HAFSRQFZ40",
+    "source": "Agent mode gives your questions and tasks their own conversation, so you can ask follow-ups without leaving your terminal workflow.\n\nSubmit the query below to have the agent initialize this project, or ⊗ to clear the input and start your own!",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 161,
+    "occurrences_kind": "literal",
+    "source_hash": "e464d610775f8b6a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 161,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEPPY1CMXF8TVPAXDZFAC",
+    "source": "Agent mode gives your questions and tasks their own conversation, so you can ask follow-ups without leaving your terminal workflow. Press {} to return to terminal mode at any point.",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 179,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "58d13c033d66f888",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 179,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQM74GFY0XMNCPHA69VA",
+    "source": "Run commands here, just like a regular terminal. If you type a question or task using natural language, Warp can suggest opening it in agent mode. You can always override using {}.",
+    "file": "crates/onboarding/src/callout/view.rs",
+    "line": 123,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c106ad48043fd3c9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 123,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/onboarding/src/callout/view.rs",
+        "line": 140,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129683KGCGB0KJV9G8X",
+    "source": "Basic {credentials}",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 114,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5172fd00e704be95",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 114,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B5DQC7GFRQ7BV7SZ7",
+    "source": "Failed to connect to proxy {}:{}",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 84,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "32d557d9e473962a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 84,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B65KS4Z8J5QV1VT04",
+    "source": "Failed to upgrade proxy connection after CONNECT",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 132,
+    "occurrences_kind": "literal",
+    "source_hash": "1067b6bdaeaeeb04",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 132,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BCFNP7VZPTC252FYQ",
+    "source": "Failed to build CONNECT request",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 109,
+    "occurrences_kind": "literal",
+    "source_hash": "b92d0fb310d082e8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 109,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZ2QJDYM6B8249CZK",
+    "source": "Failed to send CONNECT request to proxy",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 123,
+    "occurrences_kind": "literal",
+    "source_hash": "cc1493b4fb5acdae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 123,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CPNW0KXSNPZS51FYD",
+    "source": "Invalid Proxy-Authorization header value",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 116,
+    "occurrences_kind": "literal",
+    "source_hash": "d8cfc1c7303073bd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 116,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CXGE3JCEBTE73A23N",
+    "source": "Invalid proxy URL configured in {proxy_env_name}",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 60,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "af92413c9384bc88",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 60,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CYX037PG0V673VH33",
+    "source": "HTTP handshake with proxy failed",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 93,
+    "occurrences_kind": "literal",
+    "source_hash": "17db4d046bcdf0c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 93,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G8DBAJTJ8BHTAJJ2J",
+    "source": "Target URI has no host",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 72,
+    "occurrences_kind": "literal",
+    "source_hash": "704af9db54213e67",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 72,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G9H35GMQX5FBD92ZJ",
+    "source": "Timed out during HTTP handshake with proxy",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 92,
+    "occurrences_kind": "literal",
+    "source_hash": "ff5ad37945a1abfe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 92,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GFYSFQJ268JBZSMBQ",
+    "source": "Timed out waiting for CONNECT response from proxy",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 122,
+    "occurrences_kind": "literal",
+    "source_hash": "82c23faa7b56ba39",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 122,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GN9DYRJZG1ZGYPBXJ",
+    "source": "Timed out connecting to proxy",
+    "file": "crates/websocket/src/proxy.rs",
+    "line": 83,
+    "occurrences_kind": "literal",
+    "source_hash": "c2d3e463a5fc5a44",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/websocket/src/proxy.rs",
+        "line": 83,
+        "kind": "literal"
+      }
+    ]
+  }
+]
