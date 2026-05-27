@@ -1,0 +1,29 @@
+{
+  "translations": {
+    "01KQXQV12BAKXPCSJ9SGD6530X": "无法加载 id 为 {conversation_id} 的会话",
+    "01KQXQV12B33Q6W38MTD8X5MTN": "启用别名展开",
+    "01KQXQV12FT257M9DAR1WS6CHR": "会话已 Warp 化",
+    "01KQXQV1288SJMVDDXGZ9ABF09": "# Warp 启动配置\n#\n#\n# 使用此文件来启动特定的窗口、标签页和窗格配置。\n# 打开启动配置面板即可访问并打开任意启动配置。\n#\n# 本文件定义您的启动配置。\n# 关于如何配置的更多信息请参阅：\n# https://docs.warp.dev/terminal/sessions/launch-configurations\n#\n# 所有启动配置都存储在 {} 下。\n# 您可以随时编辑它们！\n#\n# 您还可以像下面这样为启动配置添加在启动时运行的命令：\n# ---\n# name: Example with Command\n# windows:\n#  - tabs:\n#      - layout:\n#          cwd: /Users/warp-user/project\n#          commands:\n#            - exec: code .\n",
+    "01KQXQV12J3BNJE8HKGJ2E487K": "{} 个 Reload 额度已添加至您的 {}。",
+    "01KQXQV129E0KXZVYQ12W832TR": null,
+    "01KQXQV12B92W37Z417SVV7F8J": null,
+    "01KQXQV12FKV3JGM3N8QBSH2R7": null,
+    "01KQXQV129B013G36X265QCSHQ": null,
+    "01KQXQV129ZTQPPRCZP1N3GZ22": null,
+    "01KQXQV12HNNJRWGJSBNMAY6SZ": null,
+    "01KQXQV12BXTCJ2KDD8JZW4QNK": null,
+    "01KQXQV12AEFHHYFZNWB5S0WAS": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV129E0KXZVYQ12W832TR": ["panic_message"],
+    "01KQXQV12B92W37Z417SVV7F8J": ["telemetry_payload"],
+    "01KQXQV12FKV3JGM3N8QBSH2R7": ["panic_message"],
+    "01KQXQV129B013G36X265QCSHQ": ["panic_message"],
+    "01KQXQV129ZTQPPRCZP1N3GZ22": ["panic_message"],
+    "01KQXQV12HNNJRWGJSBNMAY6SZ": ["panic_message"],
+    "01KQXQV12BXTCJ2KDD8JZW4QNK": ["panic_message"],
+    "01KQXQV12AEFHHYFZNWB5S0WAS": ["protocol_key"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "agent_view.rs:158 -> show_error_toast format! arg, user-facing toast, translated, {conversation_id} preserved. alias_expansion.rs:45 -> InlineBannerTextButton.text UI button label, translated imperative. success_block.rs:159 -> build_header_row UI title; 'Warpified' coined verb, kept Warp brand, rendered '会话已 Warp 化'. user_config/mod.rs:27 -> LAUNCH_CONFIG_COMMENT written into user's launch config file & shown in editor (user-facing doc text); translated prose, preserved URL, {} placeholder, YAML keys/values (name/windows/tabs/layout/cwd/commands/exec, 'Example with Command') and exact newline shape incl trailing \\n. bonus_grant_notification_model.rs:111 -> notification message format!; first {} = numeric credit count, second {} = English scope_text ('account'/'team'); kept positional order (number then scope), left second {} as English word in neutral Chinese context per contract S2; 'Reload' kept as feature name. hash.rs:154 & 220 -> both .expect('Buffer is sufficient for a SHA-256 hash') = panic_message. markdown.rs:736 -> anyhow .context('Failed to parse HTML bytes') diagnostic error annotation feeding error chain/log, not localized UI surface -> telemetry_payload. selection.rs:715 & 724 -> .expect(...) panic_message. repo_metadata lib.rs:179 -> .expect('CanonicalizedPath is always absolute') panic_message. escape_sequences.rs:136 -> .expect(...) multi-line assertion panic_message. winit/app.rs:235 -> .expect('Unable to run winit event loop') panic_message. drag_resize.rs:90 -> .expect('DragResizeState lock poisoned') panic_message. platform/mod.rs:749 -> 'DirectX 12' graphics backend label from to_label(), one of DirectX 12/Vulkan/OpenGL/Metal/WebGPU; proper graphics-API product/identifier name kept English via protocol_key."
+}

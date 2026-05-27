@@ -1,0 +1,211 @@
+[
+  {
+    "id": "01KQXQV12GTVW2MCXPW30PZQ3S",
+    "source": "Timed out waiting for Warp Drive to sync for docker sandbox",
+    "file": "app/src/terminal/view/docker_sandbox/mod.rs",
+    "line": 220,
+    "occurrences_kind": "literal",
+    "source_hash": "3e8bf81d13c8ec7f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/docker_sandbox/mod.rs",
+        "line": 220,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JS3RHN63BKY6E58HA",
+    "source": "While advanced features like file browsing and code review are currently disabled, the rest of your Warpified experience is fully available.",
+    "file": "app/src/terminal/view/ssh_remote_server_failed_banner.rs",
+    "line": 21,
+    "occurrences_kind": "literal",
+    "source_hash": "11f229ef5f2df2d0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ssh_remote_server_failed_banner.rs",
+        "line": 21,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129CNC5WT7D53XP29FN",
+    "source": "Are you sure you want to delete this theme?",
+    "file": "app/src/themes/theme_deletion_modal.rs",
+    "line": 13,
+    "occurrences_kind": "literal",
+    "source_hash": "bacc0cc01e7c5834",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_deletion_modal.rs",
+        "line": 13,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H7TP7MS8F2G8F5FBM",
+    "source": "Unable to parse enum_id",
+    "file": "app/src/workflows/workflow.rs",
+    "line": 375,
+    "occurrences_kind": "literal",
+    "source_hash": "37dfa1c538c80875",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow.rs",
+        "line": 375,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HPVVQZ6X0PMHCJAZ1",
+    "source": "View all cloud runs",
+    "file": "app/src/workspace/view/wasm_view.rs",
+    "line": 65,
+    "occurrences_kind": "literal",
+    "source_hash": "8492e6ba08675085",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/wasm_view.rs",
+        "line": 65,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A0QNS7XFD0PG1YKKQ",
+    "source": "Computer use is not available: no accessible input desktop",
+    "file": "crates/computer_use/src/windows/mod.rs",
+    "line": 90,
+    "occurrences_kind": "literal",
+    "source_hash": "5a75d3fbfd552d91",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/windows/mod.rs",
+        "line": 90,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HRXXNQRPH1W64WHNN",
+    "source": "Type text or Markdown",
+    "file": "crates/editor/src/render/element/paragraph.rs",
+    "line": 17,
+    "occurrences_kind": "literal",
+    "source_hash": "76bfc17b90f87486",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/element/paragraph.rs",
+        "line": 17,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DNBAEMRNVMS2M7CAR",
+    "source": "Log in",
+    "file": "crates/onboarding/src/slides/intro_slide.rs",
+    "line": 89,
+    "occurrences_kind": "literal",
+    "source_hash": "c189840cf7e2d6f6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/intro_slide.rs",
+        "line": 89,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FBKYMJ2CRZF00AZCM",
+    "source": "Server root URL should be valid",
+    "file": "crates/warp_core/src/channel/state.rs",
+    "line": 287,
+    "occurrences_kind": "literal",
+    "source_hash": "12cd43857bfde438",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_core/src/channel/state.rs",
+        "line": 287,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J7QQWJR2M23DZKFGW",
+    "source": "rustWrapper",
+    "file": "crates/warpui/src/platform/mac/app.rs",
+    "line": 90,
+    "occurrences_kind": "literal",
+    "source_hash": "46035e3aeae9f90f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/app.rs",
+        "line": 90,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G6SEJG8Q4KQJCY0K6",
+    "source": "String has exactly 1 character",
+    "file": "crates/warpui_core/src/accessibility.rs",
+    "line": 111,
+    "occurrences_kind": "literal",
+    "source_hash": "898cb4752d45f8e6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/accessibility.rs",
+        "line": 111,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BABWZD45D829CVXG5",
+    "source": "Expected non-empty range",
+    "file": "crates/warpui_core/src/elements/text.rs",
+    "line": 196,
+    "occurrences_kind": "literal",
+    "source_hash": "634ada7be5959a66",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/text.rs",
+        "line": 196,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/text.rs",
+        "line": 205,
+        "kind": "literal"
+      }
+    ]
+  }
+]

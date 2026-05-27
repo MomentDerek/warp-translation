@@ -1,0 +1,29 @@
+{
+  "translations": {
+    "01KQXQV12EN1D13AF6QJY7WQ5S": "为此代码库优化 Warp？",
+    "01KQXQV12D5TNQYB418ZGHFW2W": "永不 Warpify 此主机",
+    "01KQXQV12D5Z3MCXJ12QYMRCVK": null,
+    "01KQXQV129RVMTZV818HZ07RDG": "添加环境变量",
+    "01KQXQV129CQ9XRP2JS0HA0A5E": null,
+    "01KQXQV12A5VHBY72WV2K8WT92": null,
+    "01KQXQV12DA0W0WWDV27VZAN76": null,
+    "01KRNVKAC8Y35FNW9NV73DVWG9": null,
+    "01KQXQV12D927NDZC383ACR3YH": null,
+    "01KQXQV12BQHWNR16ZAM50RCRC": null,
+    "01KQXQV129DK78FDTXNFZHTJBV": null,
+    "01KQXQV129BMCY87F04XNW59HY": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12D5Z3MCXJ12QYMRCVK": ["panic_message"],
+    "01KQXQV129CQ9XRP2JS0HA0A5E": ["panic_message"],
+    "01KQXQV12A5VHBY72WV2K8WT92": ["telemetry_payload"],
+    "01KQXQV12DA0W0WWDV27VZAN76": ["panic_message"],
+    "01KRNVKAC8Y35FNW9NV73DVWG9": ["telemetry_payload"],
+    "01KQXQV12D927NDZC383ACR3YH": ["protocol_key"],
+    "01KQXQV12BQHWNR16ZAM50RCRC": ["panic_message"],
+    "01KQXQV129DK78FDTXNFZHTJBV": ["panic_message"],
+    "01KQXQV129BMCY87F04XNW59HY": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "agent_mode_setup.rs:19 SPEEDBUMP_HEADER is an inline banner dialog title rendered to UI -> translate (interrogative, full-width ？); brand Warp preserved. warpify/render.rs:185 'Never Warpify this host' is a clickable link label rendered via ui_builder().link() -> translate, brand Warpify preserved. docker.rs:72 'NAME_REGEX should be valid.' is a Regex::new(...).expect(...) literal -> panic_message. argument_editor.rs:829 'Add environment variables' is a button with_centered_text_label -> translate (imperative button label, no trailing punct). naive.rs:21 'Chunks must have at least one element' is chunk.last().expect(...) -> panic_message. find.rs:325 'Couldn't advance to next state' is anyhow .context(...) on DFA state stepping; pure internal error-chain diagnostic that flows to error/log sinks, never UI -> telemetry_payload. search.rs:241 'Must have search results' is .expect(...) -> panic_message. manager.rs:1857 'Remote server returned an empty GetDiffStateResponse' (line-continuation literal) flows into log::warn! sink -> telemetry_payload. paths.rs:173 'Library/Application Support' is a filesystem path component passed to .join() -> not UI, identifier/path -> protocol_key. wgpu/mod.rs:77 'Failed to send lock acquired signal' is tx.send(...).expect(...) -> panic_message. clipped.rs:57 'Clipped element should have a size at time of paint' is .expect(...) -> panic_message. viewported_list.rs:417 'Child should exist at paint time' is .expect(...) -> panic_message."
+}

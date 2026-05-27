@@ -1,0 +1,233 @@
+[
+  {
+    "id": "01KRNVKAQ4F1SMCSM24D461Z52",
+    "source": "This conversation is with the Warp Agent, so the cloud handoff will also use Warp",
+    "file": "app/src/terminal/view/ambient_agent/harness_selector.rs",
+    "line": 230,
+    "occurrences_kind": "literal",
+    "source_hash": "c395853f33ddc4c1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/harness_selector.rs",
+        "line": 230,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FMEH48S66N5V0SHS5",
+    "source": "Set permissions",
+    "file": "app/src/terminal/view/inline_banner/notifications_error.rs",
+    "line": 49,
+    "occurrences_kind": "literal",
+    "source_hash": "9f062e5834475894",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/notifications_error.rs",
+        "line": 49,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQFMDHSM3B77X9ZZ8S23",
+    "source": "Remote host",
+    "file": "app/src/terminal/writeable_pty/remote_server_controller.rs",
+    "line": 579,
+    "occurrences_kind": "literal",
+    "source_hash": "dc8c985d6b0c5f88",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/writeable_pty/remote_server_controller.rs",
+        "line": 579,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JGT46HJRK7AX8SP33",
+    "source": "full_path should never be root directory.",
+    "file": "app/src/util/file.rs",
+    "line": 142,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d0c93ecb3895a533",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/file.rs",
+        "line": 142,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C8BFKHYYJMR7ZCMBF",
+    "source": "Introducing universal agent support: level up any coding agent with Warp",
+    "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+    "line": 109,
+    "occurrences_kind": "literal",
+    "source_hash": "2cc7a8b008c00e9d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+        "line": 109,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DRX3AYPZCJ03MT6BV",
+    "source": "Node should be leaf",
+    "file": "crates/ai/src/index/full_source_code_embedding/sync_client.rs",
+    "line": 269,
+    "occurrences_kind": "literal",
+    "source_hash": "cc6b8c77698bdbf9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/index/full_source_code_embedding/sync_client.rs",
+        "line": 269,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/ai/src/index/full_source_code_embedding/sync_client.rs",
+        "line": 558,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQPZPXVR8JB1Q88SE",
+    "source": "Truncating to literal 1 cannot fail",
+    "file": "crates/editor/src/content/selection.rs",
+    "line": 114,
+    "occurrences_kind": "literal",
+    "source_hash": "a0985e0d0437dff4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/selection.rs",
+        "line": 114,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CEEYDQXWC5VCVBCDS",
+    "source": "Invalid input type: {s}. Must be 'shell' or 'ai'",
+    "file": "crates/input_classifier/src/input_type.rs",
+    "line": 27,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "22c0efae006c2809",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/input_classifier/src/input_type.rs",
+        "line": 27,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BBWJ77SGTF0ZWCDZD",
+    "source": "Failed to write {} to storage",
+    "file": "crates/settings/src/lib.rs",
+    "line": 487,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "337f669dc02212ad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/settings/src/lib.rs",
+        "line": 487,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "crates/settings/src/lib.rs",
+        "line": 492,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BN2P46DW0JPQ3Q8GP",
+    "source": "Event must convert to JavaScript",
+    "file": "crates/warp_web_event_bus/src/lib.rs",
+    "line": 47,
+    "occurrences_kind": "literal",
+    "source_hash": "1dd6d78442cf35b1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_web_event_bus/src/lib.rs",
+        "line": 47,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F8JSXD79AYB82P29R",
+    "source": "Should not fail to downcast the platform window to its concrete type",
+    "file": "crates/warpui/src/windowing/winit/event_loop/mod.rs",
+    "line": 2067,
+    "occurrences_kind": "literal",
+    "source_hash": "00a97c8027e5fee9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/event_loop/mod.rs",
+        "line": 2067,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GF02WDTHRVVVVYMEW",
+    "source": "The hoverable range should lock mouse state",
+    "file": "crates/warpui_core/src/elements/mod.rs",
+    "line": 704,
+    "occurrences_kind": "literal",
+    "source_hash": "207510589d173896",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/mod.rs",
+        "line": 704,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D9A894ZCFBJFGVNZ9",
+    "source": "No font family",
+    "file": "crates/warpui_core/src/ui_components/radio_buttons.rs",
+    "line": 210,
+    "occurrences_kind": "literal",
+    "source_hash": "3f20c700ec27e2e7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/ui_components/radio_buttons.rs",
+        "line": 210,
+        "kind": "literal"
+      }
+    ]
+  }
+]

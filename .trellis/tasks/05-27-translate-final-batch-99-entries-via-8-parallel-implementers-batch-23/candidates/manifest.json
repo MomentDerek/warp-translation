@@ -1,0 +1,453 @@
+{
+  "num_batches": 8,
+  "target_total": 600,
+  "total": 99,
+  "status_filter": "new",
+  "strings_path": "<HOME>/Documents/Codes/warp_translation/translations/strings.json",
+  "batches": [
+    {
+      "letter": "A",
+      "count": 13,
+      "files": [
+        {
+          "path": "app/src/terminal/view/agent_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/inline_banner/alias_expansion.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/warpify/success_block.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/user_config/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/bonus_grant_notification_model.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/ai/src/index/full_source_code_embedding/merkle_tree/hash.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/content/markdown.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/selection.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/repo_metadata/src/lib.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_terminal/src/model/escape_sequences.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/app.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/drag_resize.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/platform/mod.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "count": 13,
+      "files": [
+        {
+          "path": "app/src/terminal/view/ambient_agent/harness_selector.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/inline_banner/notifications_error.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/writeable_pty/remote_server_controller.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/util/file.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/hoa_onboarding/welcome_banner.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/ai/src/index/full_source_code_embedding/sync_client.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/content/selection.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/input_classifier/src/input_type.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/settings/src/lib.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_web_event_bus/src/lib.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/event_loop/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/ui_components/radio_buttons.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "count": 13,
+      "files": [
+        {
+          "path": "app/src/terminal/view/ambient_agent/model_selector.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/inline_banner/shell_process_terminated.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/themes/theme.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/util/links.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/home.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/ai/src/skills/parser.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/content/undo.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/managed_secrets/src/manager.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_completer/src/completer/suggest/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/examples/typed_actions/root_view.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/linux/cursor_theme.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/new_scrollable/single_axis_config.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/watcher/src/lib.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "count": 12,
+      "files": [
+        {
+          "path": "app/src/terminal/view/ambient_agent/view_impl.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/plugin_instructions_block.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/themes/theme_creator_modal.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/view_components/find.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/view/codex_modal.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/asset_macro/src/lib.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/render/element/broken_embedding.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/onboarding/src/model.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_completer/src/completer/testing/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/fonts/font_kit.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/linux/zbus/desktop_settings.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/resizable.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "E",
+      "count": 12,
+      "files": [
+        {
+          "path": "app/src/terminal/view/block_banner/warpify.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/shared_session/adapter.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/themes/theme_deletion_body.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/wasm_nux_dialog.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/view/global_search/model.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/computer_use/src/linux/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/render/element/ordered_list.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/onboarding/src/slides/customize_slide.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_completer/src/signatures/clap.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/platform/headless/delegate.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/windows/registry.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/scrollable.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "count": 12,
+      "files": [
+        {
+          "path": "app/src/terminal/view/docker_sandbox/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/ssh_remote_server_failed_banner.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/themes/theme_deletion_modal.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workflows/workflow.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/view/wasm_view.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/computer_use/src/windows/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/render/element/paragraph.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/onboarding/src/slides/intro_slide.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_core/src/channel/state.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/platform/mac/app.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/accessibility.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/text.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "G",
+      "count": 12,
+      "files": [
+        {
+          "path": "app/src/terminal/view/init_environment/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/zero_state_block.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ui_components/avatar.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workflows/workflow_view/alias_bar.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspaces/user_workspaces.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/benches/buffer_bench.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/render/model/viewport.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/onboarding/src/slides/third_party_slide.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_core/src/features.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/platform/mac/window.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/app_focus_telemetry.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/uniform_list.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "H",
+      "count": 12,
+      "files": [
+        {
+          "path": "app/src/terminal/view/inline_banner/agent_mode_setup.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/warpify/render.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/uri/docker.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workflows/workflow_view/argument_editor.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/ai/src/index/full_source_code_embedding/chunker/naive.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/content/find.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/editor/src/search.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/remote_server/src/manager.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_core/src/paths.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/rendering/wgpu/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/clipped.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui_core/src/elements/viewported_list.rs",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

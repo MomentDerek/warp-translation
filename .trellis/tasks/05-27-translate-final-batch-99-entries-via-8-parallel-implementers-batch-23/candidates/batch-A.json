@@ -1,0 +1,233 @@
+[
+  {
+    "id": "01KQXQV12BAKXPCSJ9SGD6530X",
+    "source": "Failed to load conversation with id: {conversation_id}",
+    "file": "app/src/terminal/view/agent_view.rs",
+    "line": 158,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "89353cb53a04a34d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/agent_view.rs",
+        "line": 158,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B33Q6W38MTD8X5MTN",
+    "source": "Enable alias expansion",
+    "file": "app/src/terminal/view/inline_banner/alias_expansion.rs",
+    "line": 45,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "995c5f29cdad5201",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/alias_expansion.rs",
+        "line": 45,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FT257M9DAR1WS6CHR",
+    "source": "Session Warpified",
+    "file": "app/src/terminal/warpify/success_block.rs",
+    "line": 159,
+    "occurrences_kind": "literal",
+    "source_hash": "84155f9822be76c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/warpify/success_block.rs",
+        "line": 159,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1288SJMVDDXGZ9ABF09",
+    "source": "# Warp Launch Configuration\n#\n#\n# Use this to start a certain configuration of windows, tabs, and panes.\n# Open the launch configuration palette to access and open any launch configuration.\n#\n# This file defines your launch configuration.\n# More on how to do so here:\n# https://docs.warp.dev/terminal/sessions/launch-configurations\n#\n# All launch configurations are stored under {}.\n# Edit them anytime!\n#\n# You can also add commands that run on-start for your launch configurations like so:\n# ---\n# name: Example with Command\n# windows:\n#  - tabs:\n#      - layout:\n#          cwd: /Users/warp-user/project\n#          commands:\n#            - exec: code .\n",
+    "file": "app/src/user_config/mod.rs",
+    "line": 27,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "82e2da9aa1972526",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/user_config/mod.rs",
+        "line": 27,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J3BNJE8HKGJ2E487K",
+    "source": "{} Reload Credits have been added to your {}.",
+    "file": "app/src/workspace/bonus_grant_notification_model.rs",
+    "line": 111,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f4760e795947ba32",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/bonus_grant_notification_model.rs",
+        "line": 111,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129E0KXZVYQ12W832TR",
+    "source": "Buffer is sufficient for a SHA-256 hash",
+    "file": "crates/ai/src/index/full_source_code_embedding/merkle_tree/hash.rs",
+    "line": 154,
+    "occurrences_kind": "literal",
+    "source_hash": "9e88180daf4b8464",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/index/full_source_code_embedding/merkle_tree/hash.rs",
+        "line": 154,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/ai/src/index/full_source_code_embedding/merkle_tree/hash.rs",
+        "line": 220,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B92W37Z417SVV7F8J",
+    "source": "Failed to parse HTML bytes",
+    "file": "crates/editor/src/content/markdown.rs",
+    "line": 736,
+    "occurrences_kind": "literal",
+    "source_hash": "d686573e2b09b843",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/markdown.rs",
+        "line": 736,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FKV3JGM3N8QBSH2R7",
+    "source": "Should not be empty because original was a vec1",
+    "file": "crates/editor/src/selection.rs",
+    "line": 715,
+    "occurrences_kind": "literal",
+    "source_hash": "0378b7704f10e0bd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/selection.rs",
+        "line": 715,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/editor/src/selection.rs",
+        "line": 724,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129B013G36X265QCSHQ",
+    "source": "CanonicalizedPath is always absolute",
+    "file": "crates/repo_metadata/src/lib.rs",
+    "line": 179,
+    "occurrences_kind": "literal",
+    "source_hash": "da5b268f9a3ee5f5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/lib.rs",
+        "line": 179,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129ZTQPPRCZP1N3GZ22",
+    "source": "Called with an invalid C1 sequence.This method should only be called with C1 sequences defined by constants in the C1 module.",
+    "file": "crates/warp_terminal/src/model/escape_sequences.rs",
+    "line": 136,
+    "occurrences_kind": "literal",
+    "source_hash": "58aea7cea93464db",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_terminal/src/model/escape_sequences.rs",
+        "line": 136,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HNNJRWGJSBNMAY6SZ",
+    "source": "Unable to run winit event loop",
+    "file": "crates/warpui/src/windowing/winit/app.rs",
+    "line": 235,
+    "occurrences_kind": "literal",
+    "source_hash": "a1c8388e14c5a938",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/app.rs",
+        "line": 235,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BXTCJ2KDD8JZW4QNK",
+    "source": "DragResizeState lock poisoned",
+    "file": "crates/warpui_core/src/elements/drag_resize.rs",
+    "line": 90,
+    "occurrences_kind": "literal",
+    "source_hash": "7f77597da96beb3a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/drag_resize.rs",
+        "line": 90,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AEFHHYFZNWB5S0WAS",
+    "source": "DirectX 12",
+    "file": "crates/warpui_core/src/platform/mod.rs",
+    "line": 749,
+    "occurrences_kind": "literal",
+    "source_hash": "05b30c4c9253a349",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/platform/mod.rs",
+        "line": 749,
+        "kind": "literal"
+      }
+    ]
+  }
+]

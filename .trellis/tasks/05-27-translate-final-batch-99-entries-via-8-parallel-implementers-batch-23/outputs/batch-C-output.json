@@ -1,0 +1,28 @@
+{
+  "translations": {
+    "01KS2GEQRKPC8FMCN3DK8T6PPV": "默认",
+    "01KQXQV12GT0HJCTZ3772CA2GF": "Warp 初始化脚本的输出显示在上方，以协助调试。",
+    "01KQXQV12E75YG4AM5NYKKPBCS": null,
+    "01KQXQV12FNY0GNSDP3A1T7RA6": null,
+    "01KQXQV10GESG857ZEW9TNN0VY": "\n欢迎使用 Warp on Web —— 您在浏览器中的 Warp 之家！\n使用 Warp on Web 可以：\n* 加入共享会话\n* 创建、查看和编辑 Warp Drive 对象\n* 管理您的 Warp 设置\n\n您那些尚未下载 Warp 的队友和同事也可以使用 Warp on Web 来查看您共享的会话、笔记本和工作流。",
+    "01KQXQV12BW8P1RCY3NZGPK58J": "解析 YAML 前置元数据失败",
+    "01KQXQV12H7730EMTHHAWCW104": null,
+    "01KQXQV12HM276R15CC9SMQRCZ": "不支持的令牌类型 `{other}`",
+    "01KQXQV128N3R8HX462YVBYA99": "\"{replacement_text}\" 的缩写",
+    "01KQXQV12GBHE5WRXE9FSXNVY1": null,
+    "01KQXQV12C5NJQ7J81PX86JRRH": null,
+    "01KQXQV129SD7ZBMXXW616VA52": null,
+    "01KQXQV129FETS5RY3JTM33E7X": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12E75YG4AM5NYKKPBCS": ["protocol_key"],
+    "01KQXQV12FNY0GNSDP3A1T7RA6": ["panic_message"],
+    "01KQXQV12H7730EMTHHAWCW104": ["panic_message"],
+    "01KQXQV12GBHE5WRXE9FSXNVY1": ["test_fixture"],
+    "01KQXQV12C5NJQ7J81PX86JRRH": ["protocol_key"],
+    "01KQXQV129SD7ZBMXXW616VA52": ["panic_message"],
+    "01KQXQV129FETS5RY3JTM33E7X": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "model_selector.rs:548 — MenuItemFields::new(\"default\") is the visible label for the default model menu item -> translate to 默认 (the query-match literal on line 546 is a separate untouched literal). shell_process_terminated.rs:25 — Text::new(...) inside InlineBannerContent, user-facing banner body -> translate, brand Warp preserved. theme.rs:137 — ReceivedReferralReward ThemeKind Display name used by .matches() query and theme picker; theme identifier -> protocol_key. links.rs:11 — .expect(\"Should not fail to parse\") -> panic_message. home.rs:12 — WARP_HOME_CONTENT raw string rendered in home pane via open_static -> translate, preserved leading newline + bullet/newline shape, brand Warp/Warp Drive/Warp on Web preserved. parser.rs:57 — .context(\"Failed to parse YAML front matter\") surfaces as error when a user's skill YAML is malformed (user-editable skill files) -> translate as error message, YAML preserved. undo.rs:216 — .expect(...) -> panic_message. manager.rs:239 — format! error message returned for unsupported GCP token type; translated as error message preserving {other} placeholder and backtick code quoting. suggest/mod.rs:104 — format! building completion suggestion description shown in completer UI -> translate, preserved {replacement_text} placeholder and escaped quotes. examples/typed_actions/root_view.rs:123 — string in examples/ demo view -> test_fixture. cursor_theme.rs:6 — THEME_FILE_CURSOR_SECTION = \"Icon Theme\", a freedesktop index.theme INI section name (external format key) -> protocol_key. single_axis_config.rs:136/144 — .expect(...) x2 -> panic_message. watcher/lib.rs:150 — thread::Builder::name(\"Bulk Filesystem Watcher\"), diagnostic thread name visible only in debuggers/profilers, not UI -> telemetry_payload."
+}

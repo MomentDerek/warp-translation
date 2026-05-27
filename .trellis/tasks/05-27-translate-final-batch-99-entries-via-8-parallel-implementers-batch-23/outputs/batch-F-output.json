@@ -1,0 +1,27 @@
+{
+  "translations": {
+    "01KQXQV12GTVW2MCXPW30PZQ3S": null,
+    "01KQXQV12JS3RHN63BKY6E58HA": "尽管文件浏览和代码审查等高级功能当前已禁用，但您的其余 Warp 化体验仍完全可用。",
+    "01KQXQV129CNC5WT7D53XP29FN": "确定要删除此主题吗？",
+    "01KQXQV12H7TP7MS8F2G8F5FBM": null,
+    "01KQXQV12HPVVQZ6X0PMHCJAZ1": "查看所有云端运行",
+    "01KQXQV12A0QNS7XFD0PG1YKKQ": null,
+    "01KQXQV12HRXXNQRPH1W64WHNN": "输入文本或 Markdown",
+    "01KQXQV12DNBAEMRNVMS2M7CAR": "登录",
+    "01KQXQV12FBKYMJ2CRZF00AZCM": null,
+    "01KQXQV12J7QQWJR2M23DZKFGW": null,
+    "01KQXQV12G6SEJG8Q4KQJCY0K6": null,
+    "01KQXQV12BABWZD45D829CVXG5": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12GTVW2MCXPW30PZQ3S": ["telemetry_payload"],
+    "01KQXQV12H7TP7MS8F2G8F5FBM": ["telemetry_payload"],
+    "01KQXQV12A0QNS7XFD0PG1YKKQ": ["telemetry_payload"],
+    "01KQXQV12FBKYMJ2CRZF00AZCM": ["panic_message"],
+    "01KQXQV12J7QQWJR2M23DZKFGW": ["protocol_key"],
+    "01KQXQV12G6SEJG8Q4KQJCY0K6": ["panic_message"],
+    "01KQXQV12BABWZD45D829CVXG5": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "docker_sandbox/mod.rs:220 — `return Err(\"Timed out...\")` string propagates up and is consumed only by log::error! (mod.rs:278); never rendered to UI -> telemetry_payload. ssh_remote_server_failed_banner.rs:21 — BANNER_BODY user-facing banner text rendered via Text element -> translate; 'Warpified' rendered as Warp化 (brand Warp preserved). theme_deletion_modal.rs:13 — modal header (dialog title), interrogative -> '？'. workflow.rs:375 — serde::de::Error::custom deserialization error, developer-facing -> telemetry_payload. wasm_view.rs:65 — ActionButton label UI -> translate. computer_use/windows/mod.rs:90 — NO_INPUT_DESKTOP_ERROR const returned as Error to callers (diagnostic), not UI -> telemetry_payload. paragraph.rs:17 — editor empty-block placeholder text, UI -> translate; Markdown brand preserved. intro_slide.rs:89 — link label 'Log in' UI -> translate (登录). state.rs:287 — .expect(\"Server root URL should be valid\") -> panic_message. mac/app.rs:90 — RUST_WRAPPER_IVAR_NAME ObjC ivar identifier string, runtime key not UI -> protocol_key. accessibility.rs:111 & text.rs:196/205 — .expect(...) assertion strings -> panic_message."
+}

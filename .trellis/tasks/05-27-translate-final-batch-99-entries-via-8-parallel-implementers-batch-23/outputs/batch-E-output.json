@@ -1,0 +1,25 @@
+{
+  "translations": {
+    "01KQXQV12H1TH36KNWF51E994A": "Warpify SSH 会话",
+    "01KQXQV12DRWGK4WRBAETK8CBX": "离线，正在尝试重新连接……",
+    "01KQXQV12GXTJXQNR1QQSCDXWS": "这将永久删除该主题。",
+    "01KQXQV12JAAX9GKJS0SFE2S5P": "共享会话",
+    "01KQXQV12CPYSQYNKH6ZH8TR6Y": "全局搜索失败。",
+    "01KQXQV12AYMX1VYRKK5012BNW": "无法使用计算机操作：未检测到受支持的显示服务器。需要 X11 或 Wayland。",
+    "01KQXQV12DQ12C6MSPVAP6P62C": null,
+    "01KQXQV12A5W8MNK8F3FJQZBCQ": "自定义您的 Warp",
+    "01KQXQV12FCGJNB36Y2K3Y2CVN": null,
+    "01KQXQV12JNHD14TZSDEJPVXHP": null,
+    "01KQXQV12G68YASTVCNWHF0BAY": null,
+    "01KQXQV12FJGAHJQDQNSDFEGYY": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12DQ12C6MSPVAP6P62C": ["panic_message"],
+    "01KQXQV12FCGJNB36Y2K3Y2CVN": ["panic_message"],
+    "01KQXQV12JNHD14TZSDEJPVXHP": ["panic_message"],
+    "01KQXQV12G68YASTVCNWHF0BAY": ["telemetry_payload"],
+    "01KQXQV12FJGAHJQDQNSDFEGYY": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "warpify.rs/warpify_footer.rs: 'Warpify SSH session' is a banner title + button label (UI) -> translate, keep brand-derived 'Warpify' and 'SSH'. adapter.rs: 'Offline, trying to reconnect...' is Banner formatted text (UI) -> translate, '...' -> '……'. theme_deletion_body.rs: MODAL_SUBHEADER dialog text (UI) -> translate. wasm_nux_dialog.rs: 'shared sessions' is object_kind noun phrase filling {} in 'Always open {object_kind} on the web?' (UI) -> translate as noun phrase. global_search/model.rs: 'Global search failed.' emitted as GlobalSearchEvent::Failed error surfaced to user (UI) -> translate. computer_use/linux/mod.rs: capability error returned to caller, user-facing -> translate; line-continuation collapses to one line; preserved X11/Wayland. ordered_list.rs / clap.rs / headless+winit delegate.rs / scrollable.rs: all .expect(...) assertion strings -> panic_message, target null. registry.rs: 'System theme value {theme_value:?} was invalid' is format!() wrapped into io::Error (developer/log-facing diagnostic with :? debug placeholder, not rendered UI) -> telemetry_payload, target null."
+}

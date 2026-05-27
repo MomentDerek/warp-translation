@@ -1,0 +1,25 @@
+{
+  "translations": {
+    "01KQXQV12C5016WY8ENQFHEENM": "启动子 Agent 前需要先完成 GitHub 身份验证。",
+    "01KQXQV12J6MRWS3GJ3BDNTWJH": "{} 请务必在您的远程机器上运行这些命令。",
+    "01KQXQV12A2NQX2EZ51JC065NQ": "从图片创建新主题",
+    "01KQXQV12EGZQCBYFA6EMVZHGE": "按 escape 退出，使用 enter 和 shift-enter 在匹配项之间导航",
+    "01KQXQV12HHZ6RVR0N1WZ9AQVD": "使用最新的 codex 模型",
+    "01KQXQV12B60C7WMPS12TA9PJV": null,
+    "01KQXQV12BH6FRRTE8RZDY9Q27": "未找到嵌入内容",
+    "01KQXQV12GJNQ177EJG1Z35YJX": "起价 ${}/月",
+    "01KQXQV12CY5Q75W5TGBD8GK69": null,
+    "01KQXQV12C6NR7AP4EBMRYE214": null,
+    "01KQXQV12B8V1XXB8EDP7WFFQP": null,
+    "01KQXQV12EM2D39ZYTJSKQ49PQ": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12B60C7WMPS12TA9PJV": ["telemetry_payload"],
+    "01KQXQV12CY5Q75W5TGBD8GK69": ["panic_message"],
+    "01KQXQV12C6NR7AP4EBMRYE214": ["panic_message"],
+    "01KQXQV12B8V1XXB8EDP7WFFQP": ["telemetry_payload"],
+    "01KQXQV12EM2D39ZYTJSKQ49PQ": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "ambient_agent/view_impl.rs:40 — const flows to ConversationStatus::Blocked{blocked_action} rendered in the agent footer (UI); translated, kept brand 'GitHub' and 'Agent'. plugin_instructions_block.rs:202 — format! result is a Text subtitle (UI); preserved {} placeholder (filled by instructions.subtitle text). theme_creator_modal.rs:19 — modal header const (UI); translated. find.rs:526 — AccessibilityContent hint (screen-reader UI); translated, kept key names escape/enter/shift-enter verbatim. codex_modal.rs:73 — ActionButton label (UI); translated, kept OpenAI model name 'codex'. asset_macro/lib.rs:152 — feeds compile_error! macro (build-time developer diagnostic, never runtime UI) -> telemetry_payload. broken_embedding.rs:47 — Text::new_inline placeholder in editor render (UI); translated. onboarding/model.rs:300 — agent_price_badge() UI badge; translated, preserved ${} (filled by cents/100) and '/mo' -> '/月'. completer/testing/mod.rs:124 — .expect() in test fixture context -> panic_message. font_kit.rs:39 — .expect() assertion -> panic_message. desktop_settings.rs:167 — string wrapped into zbus::Error TimedOut returned to caller, developer-facing diagnostic not UI-rendered -> telemetry_payload. resizable.rs:298 — .expect() on mutex lock -> panic_message."
+}

@@ -1,0 +1,28 @@
+{
+  "translations": {
+    "01KQXQV12BK7WNJ4AA6S56RN2B": "环境设置已取消",
+    "01KQXQV12DFB57J5NEAKZR5FEZ": "新建终端会话",
+    "01KQXQV12JQQ9HTHFA698CN2AQ": null,
+    "01KQXQV129MEH6FNVKC9CQPP15": "添加别名",
+    "01KQXQV12BKV6VT154HK8472Y3": null,
+    "01KQXQV12FKBNFX1ZEZ4PTWDPX": null,
+    "01KQXQV12HGBCNJEMJQ9JQW8HH": null,
+    "01KQXQV12AFBSTFSFZKFBXPKN2": "自定义第三方 Agent",
+    "01KQXQV12J72WMGT4MQM92ARZ4": null,
+    "01KQXQV12E173G8VMFX923R1FT": null,
+    "01KQXQV12AW29HZ07FBZ906CF0": null,
+    "01KQXQV12GXFNXXJJT59CFGFGR": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12JQQ9HTHFA698CN2AQ": ["panic_message"],
+    "01KQXQV12BKV6VT154HK8472Y3": ["telemetry_payload"],
+    "01KQXQV12FKBNFX1ZEZ4PTWDPX": ["panic_message"],
+    "01KQXQV12HGBCNJEMJQ9JQW8HH": ["telemetry_payload"],
+    "01KQXQV12J72WMGT4MQM92ARZ4": ["telemetry_payload"],
+    "01KQXQV12E173G8VMFX923R1FT": ["panic_message"],
+    "01KQXQV12AW29HZ07FBZ906CF0": ["telemetry_payload"],
+    "01KQXQV12GXFNXXJJT59CFGFGR": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "init_environment/mod.rs:158 'Environment setup cancelled' -> RenderableAction::new render, UI label -> translate. zero_state_block.rs:169 'New terminal session' -> Text::new title in zero-state block, UI -> translate. avatar.rs:219 'text must have font family' -> .expect() on font_family_id -> panic_message. alias_bar.rs:474 'Add alias' -> button text label (TextAndIcon) -> translate. user_workspaces.rs:837 'Failed to load user workspaces' -> report_error!(e.context(...)) error-reporting sink, not UI render -> telemetry_payload. buffer_bench.rs:88 'Should work' -> .expect() in benches harness -> panic_message. viewport.rs:437 'Unexpected block {other:?} at {}' -> log::trace! macro arg -> telemetry_payload. third_party_slide.rs:139 'Customize third party agents' -> paragraph title onboarding slide, UI -> translate; 'agents' rendered as glossary brand Agent (keep English). features.rs:6 '{flag:?}' -> format! shell rendering FeatureFlag enum debug repr in runtime feature-flags dev menu; placeholder-only shell, developer console surface -> telemetry_payload. window.rs:416 'Pointer was null' -> .expect() -> panic_message. app_focus_telemetry.rs:22 'Daily App Focus Duration (seconds)' -> telemetry::record_event event name -> telemetry_payload. uniform_list.rs:308 'Size must be set during layout' -> .expect() -> panic_message."
+}

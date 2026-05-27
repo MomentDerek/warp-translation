@@ -1,0 +1,206 @@
+[
+  {
+    "id": "01KQXQV12EN1D13AF6QJY7WQ5S",
+    "source": "Optimize Warp for this codebase?",
+    "file": "app/src/terminal/view/inline_banner/agent_mode_setup.rs",
+    "line": 19,
+    "occurrences_kind": "literal",
+    "source_hash": "cbf8891872cc1be9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/agent_mode_setup.rs",
+        "line": 19,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D5TNQYB418ZGHFW2W",
+    "source": "Never Warpify this host",
+    "file": "app/src/terminal/warpify/render.rs",
+    "line": 185,
+    "occurrences_kind": "literal",
+    "source_hash": "75e64b9c6d296478",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/warpify/render.rs",
+        "line": 185,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D5Z3MCXJ12QYMRCVK",
+    "source": "NAME_REGEX should be valid.",
+    "file": "app/src/uri/docker.rs",
+    "line": 72,
+    "occurrences_kind": "literal",
+    "source_hash": "a2bae31be10998c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/uri/docker.rs",
+        "line": 72,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129RVMTZV818HZ07RDG",
+    "source": "Add environment variables",
+    "file": "app/src/workflows/workflow_view/argument_editor.rs",
+    "line": 829,
+    "occurrences_kind": "literal",
+    "source_hash": "480e4172d543be7a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view/argument_editor.rs",
+        "line": 829,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129CQ9XRP2JS0HA0A5E",
+    "source": "Chunks must have at least one element",
+    "file": "crates/ai/src/index/full_source_code_embedding/chunker/naive.rs",
+    "line": 21,
+    "occurrences_kind": "literal",
+    "source_hash": "b73234aaa9c05c7b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/index/full_source_code_embedding/chunker/naive.rs",
+        "line": 21,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A5VHBY72WV2K8WT92",
+    "source": "Couldn't advance to next state",
+    "file": "crates/editor/src/content/find.rs",
+    "line": 325,
+    "occurrences_kind": "literal",
+    "source_hash": "1abacc6793d93335",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/find.rs",
+        "line": 325,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DA0W0WWDV27VZAN76",
+    "source": "Must have search results",
+    "file": "crates/editor/src/search.rs",
+    "line": 241,
+    "occurrences_kind": "literal",
+    "source_hash": "630126b84db3eaca",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/search.rs",
+        "line": 241,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAC8Y35FNW9NV73DVWG9",
+    "source": "Remote server returned an empty GetDiffStateResponse",
+    "file": "crates/remote_server/src/manager.rs",
+    "line": 1857,
+    "occurrences_kind": "literal",
+    "source_hash": "fd5c44e2d8855742",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/manager.rs",
+        "line": 1857,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D927NDZC383ACR3YH",
+    "source": "Library/Application Support",
+    "file": "crates/warp_core/src/paths.rs",
+    "line": 173,
+    "occurrences_kind": "literal",
+    "source_hash": "1540352f5b776a25",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_core/src/paths.rs",
+        "line": 173,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BQHWNR16ZAM50RCRC",
+    "source": "Failed to send lock acquired signal",
+    "file": "crates/warpui/src/rendering/wgpu/mod.rs",
+    "line": 77,
+    "occurrences_kind": "literal",
+    "source_hash": "deb679ce1373667b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/mod.rs",
+        "line": 77,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129DK78FDTXNFZHTJBV",
+    "source": "Clipped element should have a size at time of paint",
+    "file": "crates/warpui_core/src/elements/clipped.rs",
+    "line": 57,
+    "occurrences_kind": "literal",
+    "source_hash": "27d5abf61b9d4d20",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/clipped.rs",
+        "line": 57,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129BMCY87F04XNW59HY",
+    "source": "Child should exist at paint time",
+    "file": "crates/warpui_core/src/elements/viewported_list.rs",
+    "line": 417,
+    "occurrences_kind": "literal",
+    "source_hash": "54a9c1b3f4cfbc69",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/viewported_list.rs",
+        "line": 417,
+        "kind": "literal"
+      }
+    ]
+  }
+]

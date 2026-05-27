@@ -1,0 +1,206 @@
+[
+  {
+    "id": "01KQXQV12C5016WY8ENQFHEENM",
+    "source": "GitHub authentication required before starting the child agent.",
+    "file": "app/src/terminal/view/ambient_agent/view_impl.rs",
+    "line": 40,
+    "occurrences_kind": "literal",
+    "source_hash": "5dd64ab94a61697e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/view_impl.rs",
+        "line": 40,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J6MRWS3GJ3BDNTWJH",
+    "source": "{} Be sure to run these commands on your remote machine.",
+    "file": "app/src/terminal/view/plugin_instructions_block.rs",
+    "line": 202,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "79eee9b1ede78dfe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/plugin_instructions_block.rs",
+        "line": 202,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A2NQX2EZ51JC065NQ",
+    "source": "Create new theme from image",
+    "file": "app/src/themes/theme_creator_modal.rs",
+    "line": 19,
+    "occurrences_kind": "literal",
+    "source_hash": "af440546a059036c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_creator_modal.rs",
+        "line": 19,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EGZQCBYFA6EMVZHGE",
+    "source": "Press escape to quit, use enter and shift-enter to navigate between matches",
+    "file": "app/src/view_components/find.rs",
+    "line": 526,
+    "occurrences_kind": "literal",
+    "source_hash": "1e47f052846fd74b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/view_components/find.rs",
+        "line": 526,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HHZ6RVR0N1WZ9AQVD",
+    "source": "Use latest codex model",
+    "file": "app/src/workspace/view/codex_modal.rs",
+    "line": 73,
+    "occurrences_kind": "literal",
+    "source_hash": "f0679726f7df5f09",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/codex_modal.rs",
+        "line": 73,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B60C7WMPS12TA9PJV",
+    "source": "Error loading asset at {full_path:?}: {error_string}",
+    "file": "crates/asset_macro/src/lib.rs",
+    "line": 152,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f9a6d0b033e0d7db",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/asset_macro/src/lib.rs",
+        "line": 152,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BH6FRRTE8RZDY9Q27",
+    "source": "Embed not found",
+    "file": "crates/editor/src/render/element/broken_embedding.rs",
+    "line": 47,
+    "occurrences_kind": "literal",
+    "source_hash": "63d6ffb989c44512",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/element/broken_embedding.rs",
+        "line": 47,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GJNQ177EJG1Z35YJX",
+    "source": "Starting at ${}/mo",
+    "file": "crates/onboarding/src/model.rs",
+    "line": 300,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f550c159a7cf7eef",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/model.rs",
+        "line": 300,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CY5Q75W5TGBD8GK69",
+    "source": "Generator command expectation should have been set on TestGeneratorContext.",
+    "file": "crates/warp_completer/src/completer/testing/mod.rs",
+    "line": 124,
+    "occurrences_kind": "literal",
+    "source_hash": "6fac58da1384c3c7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/completer/testing/mod.rs",
+        "line": 124,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C6NR7AP4EBMRYE214",
+    "source": "Font must exist",
+    "file": "crates/warpui/src/fonts/font_kit.rs",
+    "line": 39,
+    "occurrences_kind": "literal",
+    "source_hash": "10f840160a6756e2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/fonts/font_kit.rs",
+        "line": 39,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B8V1XXB8EDP7WFFQP",
+    "source": "Failed to get a response within 200ms",
+    "file": "crates/warpui/src/windowing/winit/linux/zbus/desktop_settings.rs",
+    "line": 167,
+    "occurrences_kind": "literal",
+    "source_hash": "1af70e305a9c2e6f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/linux/zbus/desktop_settings.rs",
+        "line": 167,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EM2D39ZYTJSKQ49PQ",
+    "source": "Resizable state should be accessible",
+    "file": "crates/warpui_core/src/elements/resizable.rs",
+    "line": 298,
+    "occurrences_kind": "literal",
+    "source_hash": "7c565b25f773fc88",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/resizable.rs",
+        "line": 298,
+        "kind": "literal"
+      }
+    ]
+  }
+]

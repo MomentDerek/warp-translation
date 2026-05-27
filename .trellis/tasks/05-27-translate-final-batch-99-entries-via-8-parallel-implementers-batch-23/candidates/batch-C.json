@@ -1,0 +1,228 @@
+[
+  {
+    "id": "01KS2GEQRKPC8FMCN3DK8T6PPV",
+    "source": "default",
+    "file": "app/src/terminal/view/ambient_agent/model_selector.rs",
+    "line": 548,
+    "occurrences_kind": "literal",
+    "source_hash": "37a8eec1ce19687d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/model_selector.rs",
+        "line": 548,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GT0HJCTZ3772CA2GF",
+    "source": "The output from Warp's initialization script is visible above to assist with debugging.",
+    "file": "app/src/terminal/view/inline_banner/shell_process_terminated.rs",
+    "line": 25,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "34a8e647704cb558",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/inline_banner/shell_process_terminated.rs",
+        "line": 25,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E75YG4AM5NYKKPBCS",
+    "source": "Referred to Warp",
+    "file": "app/src/themes/theme.rs",
+    "line": 137,
+    "occurrences_kind": "literal",
+    "source_hash": "d41c56fe6593682e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme.rs",
+        "line": 137,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FNY0GNSDP3A1T7RA6",
+    "source": "Should not fail to parse",
+    "file": "app/src/util/links.rs",
+    "line": 11,
+    "occurrences_kind": "literal",
+    "source_hash": "44aff8a4e33456e2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/links.rs",
+        "line": 11,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10GESG857ZEW9TNN0VY",
+    "source": "\nWelcome to Warp on Web - your browser-based home for Warp! \nUse Warp on Web to:\n* Join Shared Sessions\n* Create, View, and Edit Warp Drive Objects\n* Manage your Warp Settings\n\nWarp on Web can also be used by your teammates and peers who don't have Warp downloaded yet to view your shared sessions, notebooks, and workflows.",
+    "file": "app/src/workspace/home.rs",
+    "line": 12,
+    "occurrences_kind": "literal",
+    "source_hash": "4391ab344d7ae03e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/home.rs",
+        "line": 12,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BW8P1RCY3NZGPK58J",
+    "source": "Failed to parse YAML front matter",
+    "file": "crates/ai/src/skills/parser.rs",
+    "line": 57,
+    "occurrences_kind": "literal",
+    "source_hash": "502c7b542ff9278e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/ai/src/skills/parser.rs",
+        "line": 57,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H7730EMTHHAWCW104",
+    "source": "Undo stack is empty after checking size",
+    "file": "crates/editor/src/content/undo.rs",
+    "line": 216,
+    "occurrences_kind": "literal",
+    "source_hash": "d5fdd8b211f56edf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/undo.rs",
+        "line": 216,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HM276R15CC9SMQRCZ",
+    "source": "Unsupported token type `{other}`",
+    "file": "crates/managed_secrets/src/manager.rs",
+    "line": 239,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0c957fee01a2608b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/managed_secrets/src/manager.rs",
+        "line": 239,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128N3R8HX462YVBYA99",
+    "source": "Abbreviation for \"{replacement_text}\"",
+    "file": "crates/warp_completer/src/completer/suggest/mod.rs",
+    "line": 104,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fa0e10de594aba5d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/completer/suggest/mod.rs",
+        "line": 104,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GBHE5WRXE9FSXNVY1",
+    "source": "This is some text for testing",
+    "file": "crates/warpui/examples/typed_actions/root_view.rs",
+    "line": 123,
+    "occurrences_kind": "literal",
+    "source_hash": "83ba9322eb283287",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/typed_actions/root_view.rs",
+        "line": 123,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C5NJQ7J81PX86JRRH",
+    "source": "Icon Theme",
+    "file": "crates/warpui/src/windowing/winit/linux/cursor_theme.rs",
+    "line": 6,
+    "occurrences_kind": "literal",
+    "source_hash": "962acd6c46f0de1e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/linux/cursor_theme.rs",
+        "line": 6,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129SD7ZBMXXW616VA52",
+    "source": "Child should have size at after layout",
+    "file": "crates/warpui_core/src/elements/new_scrollable/single_axis_config.rs",
+    "line": 136,
+    "occurrences_kind": "literal",
+    "source_hash": "f44dbd425a1e78d2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/new_scrollable/single_axis_config.rs",
+        "line": 136,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/new_scrollable/single_axis_config.rs",
+        "line": 144,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129FETS5RY3JTM33E7X",
+    "source": "Bulk Filesystem Watcher",
+    "file": "crates/watcher/src/lib.rs",
+    "line": 150,
+    "occurrences_kind": "literal",
+    "source_hash": "9a9c4f81378a2ab8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/watcher/src/lib.rs",
+        "line": 150,
+        "kind": "literal"
+      }
+    ]
+  }
+]

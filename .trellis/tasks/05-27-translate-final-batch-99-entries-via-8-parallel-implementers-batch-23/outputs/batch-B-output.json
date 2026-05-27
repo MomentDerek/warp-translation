@@ -1,0 +1,30 @@
+{
+  "translations": {
+    "01KRNVKAQ4F1SMCSM24D461Z52": "此对话使用的是 Warp Agent，因此云端交接也将使用 Warp",
+    "01KQXQV12FMEH48S66N5V0SHS5": "设置权限",
+    "01KS2GEQFMDHSM3B77X9ZZ8S23": "远程主机",
+    "01KQXQV12JGT46HJRK7AX8SP33": null,
+    "01KQXQV12C8BFKHYYJMR7ZCMBF": "推出通用 Agent 支持：用 Warp 为任意编程 Agent 全面升级",
+    "01KQXQV12DRX3AYPZCJ03MT6BV": null,
+    "01KQXQV12HQPZPXVR8JB1Q88SE": null,
+    "01KQXQV12CEEYDQXWC5VCVBCDS": null,
+    "01KQXQV12BBWJ77SGTF0ZWCDZD": null,
+    "01KQXQV12BN2P46DW0JPQ3Q8GP": null,
+    "01KQXQV12F8JSXD79AYB82P29R": null,
+    "01KQXQV12GF02WDTHRVVVVYMEW": null,
+    "01KQXQV12D9A894ZCFBJFGVNZ9": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12JGT46HJRK7AX8SP33": ["panic_message"],
+    "01KQXQV12DRX3AYPZCJ03MT6BV": ["panic_message"],
+    "01KQXQV12HQPZPXVR8JB1Q88SE": ["panic_message"],
+    "01KQXQV12CEEYDQXWC5VCVBCDS": ["telemetry_payload"],
+    "01KQXQV12BBWJ77SGTF0ZWCDZD": ["telemetry_payload"],
+    "01KQXQV12BN2P46DW0JPQ3Q8GP": ["panic_message"],
+    "01KQXQV12F8JSXD79AYB82P29R": ["panic_message"],
+    "01KQXQV12GF02WDTHRVVVVYMEW": ["panic_message"],
+    "01KQXQV12D9A894ZCFBJFGVNZ9": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "harness_selector.rs:230 — Button::set_tooltip UI string, translated; brand 'Warp' and 'Warp Agent' preserved. notifications_error.rs:49 — InlineBannerTextButton.text UI button label, imperative '设置权限'. remote_server_controller.rs:579 — connection_label_from_user_and_host fallback display label rendered in UI, translated '远程主机'. file.rs:142 — io::Error::other internal invariant message ('full_path should never be root directory.'), assertion-style developer diagnostic returned as error, never UI; flagged panic_message. welcome_banner.rs:109 — Text::new modal title, onboarding UI, translated; 'Warp' and 'Agent' preserved per glossary. sync_client.rs:269 — .expect('Node should be leaf') panic. selection.rs:114 — .expect('Truncating to literal 1 cannot fail') panic. input_type.rs:27 — FromStr Err(format!) parse-error string with literal 'shell'/'ai' identifiers, surfaces in error/log chain not UI; flagged telemetry_payload. settings/lib.rs:487,492 — anyhow .context(format!) error-context string for internal storage write failure, surfaces in error chain/logs; flagged telemetry_payload (placeholder {} preserved if it were translated, but flagged). web_event_bus/lib.rs:47 — .expect('Event must convert to JavaScript') panic. winit event_loop/mod.rs:2067 — .expect downcast panic. warpui_core elements/mod.rs:704 — .expect mutex lock panic. radio_buttons.rs:210 — .expect('No font family') panic on Option font_family_id."
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "01KQXQV12BK7WNJ4AA6S56RN2B",
+    "source": "Environment setup cancelled",
+    "file": "app/src/terminal/view/init_environment/mod.rs",
+    "line": 158,
+    "occurrences_kind": "literal",
+    "source_hash": "50886d900573a5e0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/init_environment/mod.rs",
+        "line": 158,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DFB57J5NEAKZR5FEZ",
+    "source": "New terminal session",
+    "file": "app/src/terminal/view/zero_state_block.rs",
+    "line": 169,
+    "occurrences_kind": "literal",
+    "source_hash": "96e872de71a6c777",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/zero_state_block.rs",
+        "line": 169,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JQQ9HTHFA698CN2AQ",
+    "source": "text must have font family",
+    "file": "app/src/ui_components/avatar.rs",
+    "line": 219,
+    "occurrences_kind": "literal",
+    "source_hash": "3c4e596cec014a5c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ui_components/avatar.rs",
+        "line": 219,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129MEH6FNVKC9CQPP15",
+    "source": "Add alias",
+    "file": "app/src/workflows/workflow_view/alias_bar.rs",
+    "line": 474,
+    "occurrences_kind": "literal",
+    "source_hash": "7fbbfdb34dec5f64",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/workflow_view/alias_bar.rs",
+        "line": 474,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BKV6VT154HK8472Y3",
+    "source": "Failed to load user workspaces",
+    "file": "app/src/workspaces/user_workspaces.rs",
+    "line": 837,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c0b0b0c72558cf22",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/user_workspaces.rs",
+        "line": 837,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FKBNFX1ZEZ4PTWDPX",
+    "source": "Should work",
+    "file": "crates/editor/benches/buffer_bench.rs",
+    "line": 88,
+    "occurrences_kind": "literal",
+    "source_hash": "09fb52231afe20c5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/benches/buffer_bench.rs",
+        "line": 88,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HGBCNJEMJQ9JQW8HH",
+    "source": "Unexpected block {other:?} at {}",
+    "file": "crates/editor/src/render/model/viewport.rs",
+    "line": 437,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b44e111b6ccde7a2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/model/viewport.rs",
+        "line": 437,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AFBSTFSFZKFBXPKN2",
+    "source": "Customize third party agents",
+    "file": "crates/onboarding/src/slides/third_party_slide.rs",
+    "line": 139,
+    "occurrences_kind": "literal",
+    "source_hash": "660d1866e272d976",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/third_party_slide.rs",
+        "line": 139,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J72WMGT4MQM92ARZ4",
+    "source": "{flag:?}",
+    "file": "crates/warp_core/src/features.rs",
+    "line": 6,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f3165418a89eee23",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_core/src/features.rs",
+        "line": 6,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E173G8VMFX923R1FT",
+    "source": "Pointer was null",
+    "file": "crates/warpui/src/platform/mac/window.rs",
+    "line": 416,
+    "occurrences_kind": "literal",
+    "source_hash": "0376bed10a991ade",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 416,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AW29HZ07FBZ906CF0",
+    "source": "Daily App Focus Duration (seconds)",
+    "file": "crates/warpui_core/src/app_focus_telemetry.rs",
+    "line": 22,
+    "occurrences_kind": "literal",
+    "source_hash": "c2d8e9b5a91ea439",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/app_focus_telemetry.rs",
+        "line": 22,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GXFNXXJJT59CFGFGR",
+    "source": "Size must be set during layout",
+    "file": "crates/warpui_core/src/elements/uniform_list.rs",
+    "line": 308,
+    "occurrences_kind": "literal",
+    "source_hash": "e31f0227573b19d8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/uniform_list.rs",
+        "line": 308,
+        "kind": "literal"
+      }
+    ]
+  }
+]

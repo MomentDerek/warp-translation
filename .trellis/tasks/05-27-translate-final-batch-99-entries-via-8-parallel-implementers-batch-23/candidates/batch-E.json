@@ -1,0 +1,216 @@
+[
+  {
+    "id": "01KQXQV12H1TH36KNWF51E994A",
+    "source": "Warpify SSH session",
+    "file": "app/src/terminal/view/block_banner/warpify.rs",
+    "line": 100,
+    "occurrences_kind": "literal",
+    "source_hash": "e10c285a53e21193",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/block_banner/warpify.rs",
+        "line": 100,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/view/use_agent_footer/warpify_footer.rs",
+        "line": 79,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DRWGK4WRBAETK8CBX",
+    "source": "Offline, trying to reconnect...",
+    "file": "app/src/terminal/view/shared_session/adapter.rs",
+    "line": 112,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2d74a9daab361a0d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/adapter.rs",
+        "line": 112,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GXTJXQNR1QQSCDXWS",
+    "source": "This will permanently delete the theme.",
+    "file": "app/src/themes/theme_deletion_body.rs",
+    "line": 29,
+    "occurrences_kind": "literal",
+    "source_hash": "31921467ed337bf4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/themes/theme_deletion_body.rs",
+        "line": 29,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JAAX9GKJS0SFE2S5P",
+    "source": "shared sessions",
+    "file": "app/src/wasm_nux_dialog.rs",
+    "line": 222,
+    "occurrences_kind": "literal",
+    "source_hash": "01032e5febdd4565",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/wasm_nux_dialog.rs",
+        "line": 222,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CPYSQYNKH6ZH8TR6Y",
+    "source": "Global search failed.",
+    "file": "app/src/workspace/view/global_search/model.rs",
+    "line": 109,
+    "occurrences_kind": "literal",
+    "source_hash": "5a3aee4147af7664",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/global_search/model.rs",
+        "line": 109,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AYMX1VYRKK5012BNW",
+    "source": "Computer use is not available: No supported display server detected. X11 or Wayland is required.",
+    "file": "crates/computer_use/src/linux/mod.rs",
+    "line": 87,
+    "occurrences_kind": "literal",
+    "source_hash": "b0750fb28f574fc8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/mod.rs",
+        "line": 87,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DQ12C6MSPVAP6P62C",
+    "source": "Number should be set during layout",
+    "file": "crates/editor/src/render/element/ordered_list.rs",
+    "line": 87,
+    "occurrences_kind": "literal",
+    "source_hash": "401c1b55dc5806b1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/render/element/ordered_list.rs",
+        "line": 87,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A5W8MNK8F3FJQZBCQ",
+    "source": "Customize your Warp",
+    "file": "crates/onboarding/src/slides/customize_slide.rs",
+    "line": 147,
+    "occurrences_kind": "literal",
+    "source_hash": "cafa24bfe23b9134",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/customize_slide.rs",
+        "line": 147,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FCGJNB36Y2K3Y2CVN",
+    "source": "Set above",
+    "file": "crates/warp_completer/src/signatures/clap.rs",
+    "line": 12,
+    "occurrences_kind": "literal",
+    "source_hash": "4e57ad4178deff71",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/signatures/clap.rs",
+        "line": 12,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JNHD14TZSDEJPVXHP",
+    "source": "should only call mark_current_thread_as_main once!",
+    "file": "crates/warpui/src/platform/headless/delegate.rs",
+    "line": 27,
+    "occurrences_kind": "literal",
+    "source_hash": "4a039b97b22fb5e8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/headless/delegate.rs",
+        "line": 27,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/windowing/winit/delegate.rs",
+        "line": 144,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G68YASTVCNWHF0BAY",
+    "source": "System theme value {theme_value:?} was invalid",
+    "file": "crates/warpui/src/windowing/winit/windows/registry.rs",
+    "line": 19,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c042b4a054766fc9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/windows/registry.rs",
+        "line": 19,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FJGAHJQDQNSDFEGYY",
+    "source": "ScrollData should be some to be scrollable",
+    "file": "crates/warpui_core/src/elements/scrollable.rs",
+    "line": 354,
+    "occurrences_kind": "literal",
+    "source_hash": "a43818485a840a81",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/scrollable.rs",
+        "line": 354,
+        "kind": "literal"
+      }
+    ]
+  }
+]
