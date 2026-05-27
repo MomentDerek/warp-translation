@@ -171,3 +171,36 @@ Changed translation kit default parallelism from 10 to 8 to match the Workflow c
 ### Next Steps
 
 - None - task complete
+
+
+## Session 21: Translation batch 22 — 600 entries via 8 parallel implementers
+
+**Date**: 2026-05-27
+**Task**: Translation batch 22 — 600 entries via 8 parallel implementers
+**Branch**: `main`
+
+### Summary
+
+Ran batch 22 of the parallel translation workflow: 8 trellis-implement agents translated 600 file-pinned candidates (328 UI translate + 5 bilingual search_terms + 267 flagged), applied to translations/strings.json (translated 5983->6583, new 699->99). Fixed two pre-apply blockers: added trailing space to entry 01KQXQV12HM1CE1R7S2VPJK6SJ to match source whitespace, and fixed apply_batch.py bilingual punctuation validator to inspect only appended Chinese keywords (not the source prefix, which may carry punctuation like 'a.i.'). trellis-check verdict PASS on all 6 checks. 99 'new' entries remain for the next batch.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `d05e303` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
