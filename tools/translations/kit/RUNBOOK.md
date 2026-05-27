@@ -18,7 +18,8 @@ the file reference; this RUNBOOK is the step-by-step.
 | Source repo (where `.rs` live) | `<HOME>/Documents/Codes/warp` |
 | Translation table | `translations/strings.json` (repo root — NOT `tools/translations/`) |
 | Batch flag pattern | `pr-by-file-parallel-batch-<N>` |
-| Default size | 10 implementers × ~60 entries = ~600 per batch |
+| Default size | 8 implementers × ~75 entries = ~600 per batch |
+| Why 8 | matches the Workflow concurrency cap `min(16, cores−2)` on this machine — all implementers run in one wave, no queueing |
 | Policy | `.trellis/spec/guides/translation-contract.md` |
 | Implementer / check agents | `trellis-implement` / `trellis-check`, model `opus` |
 
@@ -37,7 +38,7 @@ print('latest batch:',max(int(re.search(r'(\d+)$',f).group(1)) for f in fs))"
 ## 1. Create + name the task
 
 ```bash
-python3 ./.trellis/scripts/task.py create "translate next batch ~600 entries via 10 parallel implementers (batch <N>)"
+python3 ./.trellis/scripts/task.py create "translate next batch ~600 entries via 8 parallel implementers (batch <N>)"
 # Note the printed task dir, e.g.:
 TASK="$(python3 ./.trellis/scripts/task.py current)"
 ```
@@ -49,11 +50,11 @@ the workflow does not require `prd.md`.
 
 ```bash
 python3 tools/translations/kit/build_batch.py \
-    --task-dir "$TASK" --num-batches 10 --target-total 600
+    --task-dir "$TASK" --num-batches 8 --target-total 600
 ```
 
 Writes:
-- `$TASK/candidates/batch-{A..J}.json` — one file per implementer
+- `$TASK/candidates/batch-{A..H}.json` — one file per implementer
 - `$TASK/candidates/manifest.json` — `{num_batches,total,batches:[{letter,count,files}]}`
 - `$TASK/research/composition.md` — human-readable file→bin map
 
@@ -82,7 +83,7 @@ Workflow({
     repoRoot:  "<HOME>/Documents/Codes/warp_translation",
     srcRepo:   "<HOME>/Documents/Codes/warp",
     batchFlag: "pr-by-file-parallel-batch-<N>",
-    letters:   ["A","B","C","D","E","F","G","H","I","J"],
+    letters:   ["A","B","C","D","E","F","G","H"],
     activeTask: "<$TASK>"            // for the trellis sub-agent dispatch line
   }
 })
@@ -125,7 +126,7 @@ Phase 3.4 — the **main agent drives the commit** (state the plan, then commit)
 
 ```bash
 git add translations/strings.json "$TASK"
-git commit -m "chore(translations): batch-<N> — <total> entries (<X> UI + <Y> bilingual + <Z> flagged) across <F> files via 10 parallel implementers"
+git commit -m "chore(translations): batch-<N> — <total> entries (<X> UI + <Y> bilingual + <Z> flagged) across <F> files via 8 parallel implementers"
 ```
 
 (Include the kit itself in the first commit that introduces/changes it.)

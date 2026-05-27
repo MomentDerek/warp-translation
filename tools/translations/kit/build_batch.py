@@ -9,7 +9,7 @@ splitting a file across bins. Writes:
 
 Usage:
   python3 build_batch.py --task-dir <abs-or-rel task dir> \
-      --num-batches 10 --target-total 600 [--strings <path>] [--status new]
+      --num-batches 8 --target-total 600 [--strings <path>] [--status new]
 
 Defaults:
   --strings  : <repo-root>/translations/strings.json  (repo-root = 3 levels up
@@ -40,7 +40,7 @@ def bin_label(i: int) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--task-dir", required=True)
-    ap.add_argument("--num-batches", type=int, default=10)
+    ap.add_argument("--num-batches", type=int, default=8)
     ap.add_argument("--target-total", type=int, default=600)
     ap.add_argument("--strings", default=str(DEFAULT_STRINGS))
     ap.add_argument("--status", default="new")

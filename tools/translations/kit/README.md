@@ -19,12 +19,12 @@ Nothing here is batch-number-specific; per-batch values are passed as arguments.
 
 ```bash
 # 1. create + start the task
-python3 ./.trellis/scripts/task.py create "translate next batch ~600 entries via 10 parallel implementers (batch 21)"
+python3 ./.trellis/scripts/task.py create "translate next batch ~600 entries via 8 parallel implementers (batch 21)"
 TASK=.trellis/tasks/05-27-translate-next-batch-...-batch-21   # printed by create
 
 # 2. build candidates (auto file-pinned bins)
 python3 tools/translations/kit/build_batch.py \
-    --task-dir "$TASK" --num-batches 10 --target-total 600
+    --task-dir "$TASK" --num-batches 8 --target-total 600
 
 # 3. (optional) write prd.md, curate implement.jsonl/check.jsonl, then:
 python3 ./.trellis/scripts/task.py start "$TASK"
@@ -41,7 +41,7 @@ Workflow({
     repoRoot:  "<HOME>/Documents/Codes/warp_translation",
     srcRepo:   "<HOME>/Documents/Codes/warp",
     batchFlag: "pr-by-file-parallel-batch-21",
-    letters:   ["A","B","C","D","E","F","G","H","I","J"],   // from manifest.json
+    letters:   ["A","B","C","D","E","F","G","H"],   // from manifest.json
     activeTask: "<$TASK>"
   }
 })
