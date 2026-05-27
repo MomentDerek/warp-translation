@@ -1,0 +1,1353 @@
+{
+  "num_batches": 8,
+  "target_total": 600,
+  "total": 600,
+  "status_filter": "new",
+  "strings_path": "<HOME>/Documents/Codes/warp_translation/translations/strings.json",
+  "batches": [
+    {
+      "letter": "A",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/read_skill.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/request_computer_use.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/controller/response_stream.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/history_model.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/facts/manager.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/mcp/templatable_manager/oauth.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/auth/auth_state.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/changelog_model.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code_review/comment_rendering.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/completer/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/env_vars/manager.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/notebooks/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/pane_group/pane/notebook_pane.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/search/ai_context_menu/code/data_source.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_palette/view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/slash_command_menu/static_commands/commands.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings/app_icon.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/gpu.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings/ssh.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/custom_inference_modal.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/settings_file_footer.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/system/info.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/enable_auto_reload_modal.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/input/models/model_spec_scores.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/local_tty/server/protocol.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/local_tty/unix.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/model/tmux/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/shared_session/role_change_modal/viewer_request_body.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/view/bookmarks.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/shared_session/view_impl.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/uri/browser_url_handler.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workspace/sync_inputs.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/workspace/view/right_panel.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/computer_use/src/linux/x11/keyboard.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/editor/src/content/text.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/onboarding/src/slides/intention_slide.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/vim/src/vim.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/examples/segmented-control/root_view.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/src/rendering/wgpu/renderer.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/elements/stack/offset_positioning.rs",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/search_codebase.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/upload_artifact.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/inline_action/requested_action.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/inline_action/web_fetch.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/facts/view/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/predict/next_command_model.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/auth/paste_auth_token_modal.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/cloud_object/model/view.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code_review/diff_state/remote.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/context_chips/builtins.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/env_vars/view/fixed_view_components.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/pane_group/pane/view/header/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/pane_group/pane/workflow_pane.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/search/ai_context_menu/code/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_search/history/history_search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/welcome_palette/view.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings/changelog.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/import/view.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings_view/admin_actions.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/keybindings.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/settings_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/tab_configs/remove_confirmation_dialog.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/input/inline_history/search_item.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/input/plans/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/local_tty/windows/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/model/blocks/selection.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/platform.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/shared_session/viewer/terminal_manager.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/view/init_project/lsp_server_selector.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/shell_terminated_banner.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/util/bindings.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/workspaces/workspace.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/computer_use/src/linux/x11/screenshot.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/editor/src/model.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/onboarding/src/slides/theme_picker_slide.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warp_completer/src/completer/describe.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/event_loop/key_events.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/window.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/integration/action_log.rs",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/agent_view/agent_input_footer/editor.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/agent_view/agent_message_bar.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/inline_action/requested_script.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/suggestion_chip_view.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/mcp/http_client.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai_assistant/utils.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code/diff_viewer.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code/find_references_view.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/coding_entrypoints/clone_repo_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/context_chips/display_menu.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/notebooks/active_notebook_data.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/plugin/app/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/plugin/host/native/logging.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/ai_context_menu/commands/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_search/projects/project_search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/block_visibility.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings/cloud_preferences.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/pane.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings_view/agent_assisted_environment_modal.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/tab_configs/action_sidecar.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/tab_configs/params_modal.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/tab_configs/session_config.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/input/profiles/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/local_tty/spawner.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/model/blockgrid.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/recorder.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/shared_session/participant_avatar_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/auth_secret_ftux_dropdown.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/view/inline_banner/anonymous_user_ai_sign_up.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/tooltips.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/util/git.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workspace/view/orchestration_launch_modal/view.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/ai/src/skills/parse_skill.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/computer_use/src/windows/keyboard.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/field_mask/src/lib.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warp_completer/src/completer/engine/command.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warp_files/src/lib.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/fonts/windows.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui_core/src/async/wasm/mod.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/notification.rs",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/agent_view/orchestration_conversation_links.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/passive_suggestions/legacy.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/document/orchestration_config_block.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/mcp/parsing.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/auth/auth_manager.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code/editor/comment_editor.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/comments/convert.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/completer/js.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/default_terminal/mac.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/notebooks/editor/block_insertion_menu.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/prompt/editor_modal.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/remote_server/codebase_index_model.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/ai_context_menu/notebooks/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_search/settings.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/import/alacritty_parser.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/init.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/ai_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/tab_configs/session_config_modal.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/block_filter.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/input/prompts/data_source.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/local_tty/windows/environment.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/model/iterm_image.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/rich_history.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/shared_session/role_change_modal/sharer_response_body.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/model.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/view/inline_banner/aws_bedrock_login.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/util/link_detection.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/util/traffic_lights/windows/renderer_state.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workspaces/team.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/channel_versions/src/lib.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/computer_use/src/windows/mouse.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/input_classifier/src/onnx/candle.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warp_core/src/ui/color/hex_color.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warp_logging/src/wasm.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/src/windowing/winit/notifications/wasm.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui_core/src/elements/new_scrollable/mod.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/text_layout.rs",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "letter": "E",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/agent/api/convert_to.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/agent_conversations_model.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/block/pending_user_query_block.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/cloud_agent_config/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/execution_profiles/editor/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/mcp/reconnecting_peer.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/auth/web_handoff.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code/editor/goto_line/view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/diff_menu.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/drive/import/nodes.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/drive/items/env_var_collection.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/notebooks/editor/embedded_item.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/resource_center/keybindings_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/action/search_item.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/search/ai_context_menu/rules/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/external_secrets/external_secret_search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/input_mode.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/select.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage/usage_history_entry.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/mcp_servers/server_card.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/alt_screen_reporting.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/grid_renderer.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/input/repos/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/model/blocks.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/model/kitty.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/shared_session/share_modal/denied_body.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/ssh/warpify.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/block_onboarding/onboarding_prompt_block.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/view/inline_banner/aws_cli_not_installed.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/util/windows.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/voltron.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workspaces/update_manager.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/computer_use/src/mac/screenshot.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/editor/src/content/core.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/languages/src/lib.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warp_server_client/src/cloud_object/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warp_server_client/src/drive/sharing.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/core/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui_core/src/keymap.rs",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/agent/conversation.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/agent_conversations_model/entry.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/block/model/debug_model_impl.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/block/view_impl/todos.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/cloud_environments/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/harness_display.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/skills/file_watchers/utils.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/autoupdate/channel_versions.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code/editor/nav_bar.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/diff_state/local.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/drive/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/drive/workflows/arguments.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/notebooks/editor/link_editor.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/resource_center/main_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/ai_context_menu/diffset/data_source.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/search/ai_context_menu/skills/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search_bar.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/linux.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/theme.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage_dispatch.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/mcp_servers/update_modal.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/block_list_settings.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/command_corrections_denylist.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/history.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/input/user_query/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/model/session.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/model/session/command_executor/tmux_executor.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/shared_session/share_modal/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/block/setup_command_text.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/init_environment/mode_selector.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/view/inline_banner/ssh.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workflows/command_parser.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/workflows/manager.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/ai/src/agent/citation.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/computer_use/src/screenshot_utils.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/editor/src/render/element/mermaid.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/natural_language_detection/src/lib.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warp_util/src/assets.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/examples/formatted-text/root_view.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/elements/min_size.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui_extras/src/secure_storage/linux.rs",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "letter": "G",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/agent/comment.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/action_model/execute.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/read_files.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/block/secret_redaction.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/code_block.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/connected_self_hosted_workers.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/local_child_harnesses.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/app_services/windows/registry.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/autoupdate/windows.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code/language_server_extension.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/git_dialog/pr.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/drive/settings.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/env_vars/view/command_dialog/command_dialog_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/notebooks/editor/model.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/resource_center/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/ai_context_menu/workflows/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_search/ai_queries/ai_queries_search_item.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings/accessibility.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/native_preference.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/features_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/privacy/add_regex_modal.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/bootstrap.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/input/inline_menu/message_bar.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/input/skills/data_source.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/ligature_settings.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/model/terminal_model.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/session_settings/working_directory_config.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/shared_session/viewer/event_loop.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/footer.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/link_detection.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/open_in_warp.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/workflows/info_box.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/workspace/header_toolbar_editor.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/ai/src/index/full_source_code_embedding/manager.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/editor/src/content/edit.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/editor/src/render/model/mod.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/onboarding/src/callout/model.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/examples/animated-gradient-text/root_view.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/examples/percentage/root_view.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/elements/new_scrollable/dual_axis_config.rs",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "letter": "H",
+      "count": 75,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/fetch_conversation.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/file_glob.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/read_mcp_resource.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/block/view_impl.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/execution_profiles/model_menu_items.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/mcp/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/appearance.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/bin/generate_settings_schema.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code_review/code_review_header/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/drive/workflows/modal.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/env_vars/view/menus.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/notebooks/editor/omnibar.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/resource_center/section_views/feature_section.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_palette/tabs/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_search/warp_ai.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings/alias_expansion.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/scroll.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage_page_v2.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/mcp_servers_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/warp_drive_page.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/cli_agent.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/input/inline_menu/view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/links.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/local_tty/event_loop.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/model/tmux/commands.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/terminal_size_element.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/shared_session/sharer/inactivity_modal.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/undo_close/settings.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workflows/local_workflows.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/workspace/hoa_onboarding/tab_config_step.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/computer_use/src/lib.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/editor/src/content/selection_model.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/onboarding/examples/callout.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/settings_value_derive/src/lib.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/examples/autotracking/root_view.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/src/platform/mac/fonts.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui_core/src/elements/selectable_area.rs",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

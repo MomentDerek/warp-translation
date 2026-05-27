@@ -87,9 +87,13 @@ def check_bilingual_invariants(src: str, tgt: str) -> list[str]:
     problems: list[str] = []
     if not tgt.startswith(src + " "):
         problems.append("bilingual target does not start with '<source> '")
-    bad = [c for c in tgt if c in ",.，。；;！!？?"]
+        return problems
+    # Only the appended Chinese keywords must be punctuation-free; the source
+    # prefix may legitimately carry punctuation (e.g. search_terms "a.i.").
+    appended = tgt[len(src) + 1:]
+    bad = [c for c in appended if c in ",.，。；;！!？?"]
     if bad:
-        problems.append(f"bilingual target contains punctuation: {set(bad)}")
+        problems.append(f"bilingual appended keywords contain punctuation: {set(bad)}")
     return problems
 
 

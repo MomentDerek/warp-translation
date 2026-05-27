@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "01KQXQV12G1TG0SFQWJGQFBE7J",
+    "source": "The codebase doesn't exist",
+    "file": "app/src/ai/blocklist/action_model/execute/search_codebase.rs",
+    "line": 341,
+    "occurrences_kind": "literal",
+    "source_hash": "4b0540ab377e9594",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/search_codebase.rs",
+        "line": 341,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G558JME4S9E2WTV12",
+    "source": "The codebase isn't indexed",
+    "file": "app/src/ai/blocklist/action_model/execute/search_codebase.rs",
+    "line": 339,
+    "occurrences_kind": "literal",
+    "source_hash": "53e48d733203c9c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/search_codebase.rs",
+        "line": 339,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ARKJVJ6RCBFQXHGED",
+    "source": "Current conversation has not been synced to the server yet",
+    "file": "app/src/ai/blocklist/action_model/execute/upload_artifact.rs",
+    "line": 114,
+    "occurrences_kind": "literal",
+    "source_hash": "b7f258f74595f702",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/upload_artifact.rs",
+        "line": 114,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E5DRCYSZC3GNVT06X",
+    "source": "RUN_REQUESTED_ACTION_KEYSTROKE is invalid",
+    "file": "app/src/ai/blocklist/inline_action/requested_action.rs",
+    "line": 58,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f0103e0c73a563f7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/requested_action.rs",
+        "line": 58,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CFDEQW2JM626E1SDW",
+    "source": "Fetched {} of {} web pages",
+    "file": "app/src/ai/blocklist/inline_action/web_fetch.rs",
+    "line": 54,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9f165fe2d80fb869",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/web_fetch.rs",
+        "line": 54,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D68Z2QQNH5Y6KACSY",
+    "source": "No URLs fetched",
+    "file": "app/src/ai/blocklist/inline_action/web_fetch.rs",
+    "line": 121,
+    "occurrences_kind": "literal",
+    "source_hash": "8d7ee0d42cf01ea3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/web_fetch.rs",
+        "line": 121,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FJX052NV90FJ1MMDR",
+    "source": "Rule Editor",
+    "file": "app/src/ai/facts/view/mod.rs",
+    "line": 49,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c98cbd9f2e2672ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/facts/view/mod.rs",
+        "line": 49,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BST7TAPX60N9818JE",
+    "source": "Failed to generate Next Command suggestion",
+    "file": "app/src/ai/predict/next_command_model.rs",
+    "line": 630,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6b42e2cb0c4482f0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/predict/next_command_model.rs",
+        "line": 630,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C8GY7NBGRS3K0DG71",
+    "source": "Generator validation for arg `{}` in command `{}` timed out - assuming it's valid",
+    "file": "app/src/ai/predict/next_command_model.rs",
+    "line": 719,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dc8aff2476e6e964",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/predict/next_command_model.rs",
+        "line": 719,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BXWR0RGNRMV1C22NR",
+    "source": "Enter auth token",
+    "file": "app/src/auth/paste_auth_token_modal.rs",
+    "line": 123,
+    "occurrences_kind": "literal",
+    "source_hash": "a90f58df0224c103",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/auth/paste_auth_token_modal.rs",
+        "line": 123,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A5K7FJBG2EMBBZCV8",
+    "source": "Current editor idle, eagerly grabbing edit access for notebook",
+    "file": "app/src/cloud_object/model/view.rs",
+    "line": 134,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3494ba91abdce5d3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/cloud_object/model/view.rs",
+        "line": 134,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A8R0Q2P8DPAD41C30",
+    "source": "Current editor idle, eagerly grabbing edit access for notebook with editor: {}",
+    "file": "app/src/cloud_object/model/view.rs",
+    "line": 135,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c0d57e0b35f52846",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/cloud_object/model/view.rs",
+        "line": 135,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAKR3PAJ99KBZG16EE5G",
+    "source": "Server reported loaded state but no diff data was available",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 311,
+    "occurrences_kind": "literal",
+    "source_hash": "1ae9098e4dbd9074",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 311,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C17PAYD1N7M74GVQC",
+    "source": "GIT_OPTIONAL_LOCKS=0 git -c diff.autoRefreshIndex=false diff --shortstat HEAD",
+    "file": "app/src/context_chips/builtins.rs",
+    "line": 174,
+    "occurrences_kind": "literal",
+    "source_hash": "a3c53f71a4d28907",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/builtins.rs",
+        "line": 174,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CT7ZY4ZBXJG52DMDZ",
+    "source": "GIT_OPTIONAL_LOCKS=0 git symbolic-ref --short HEAD 2> /dev/null || GIT_OPTIONAL_LOCKS=0 git rev-parse --short HEAD 2> /dev/null",
+    "file": "app/src/context_chips/builtins.rs",
+    "line": 130,
+    "occurrences_kind": "literal",
+    "source_hash": "93263ddcf84e5fd6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/context_chips/builtins.rs",
+        "line": 130,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B6YERYTXBE6H5HTTP",
+    "source": "Environment variables were moved to trash",
+    "file": "app/src/env_vars/view/fixed_view_components.rs",
+    "line": 68,
+    "occurrences_kind": "literal",
+    "source_hash": "c3cd99ba0086c442",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/env_vars/view/fixed_view_components.rs",
+        "line": 68,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JKKKC0Y9EVEXJBRW2",
+    "source": "You no longer have access to these environment variables",
+    "file": "app/src/env_vars/view/fixed_view_components.rs",
+    "line": 66,
+    "occurrences_kind": "literal",
+    "source_hash": "6399acad6c406668",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/env_vars/view/fixed_view_components.rs",
+        "line": 66,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EYBKDEBARVS6B313R",
+    "source": "Open files and review code diffs",
+    "file": "app/src/pane_group/pane/view/header/mod.rs",
+    "line": 157,
+    "occurrences_kind": "literal",
+    "source_hash": "722e4023b5e2b59c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/view/header/mod.rs",
+        "line": 157,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ADYC6DFZ3MMSBS221",
+    "source": "Could not retrieve workflow url from view",
+    "file": "app/src/pane_group/pane/workflow_pane.rs",
+    "line": 163,
+    "occurrences_kind": "literal",
+    "source_hash": "0f29342750ddbe01",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/workflow_pane.rs",
+        "line": 163,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BV35NVVBAYZ06TVJJ",
+    "source": "Failed to parse workflow url",
+    "file": "app/src/pane_group/pane/workflow_pane.rs",
+    "line": 158,
+    "occurrences_kind": "literal",
+    "source_hash": "23fca466ccc867b4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/workflow_pane.rs",
+        "line": 158,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A4YXQR0RFS4M2R7XS",
+    "source": "Code symbol: {} in {}:{}",
+    "file": "app/src/search/ai_context_menu/code/search_item.rs",
+    "line": 264,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b685871a92f42ad9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/ai_context_menu/code/search_item.rs",
+        "line": 264,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C7QRD4M91QCWZRA8G",
+    "source": "History item: {}",
+    "file": "app/src/search/command_search/history/history_search_item.rs",
+    "line": 162,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0d7eebbb4bb09c3d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/history/history_search_item.rs",
+        "line": 162,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129CMFXS23NHTK7G6WZ",
+    "source": "Add repository {keystroke}",
+    "file": "app/src/search/welcome_palette/view.rs",
+    "line": 702,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7e9237f8f2c2e136",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/welcome_palette/view.rs",
+        "line": 702,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A1A9CZYE4QXDRDKXY",
+    "source": "Code, build, or search for anything...",
+    "file": "app/src/search/welcome_palette/view.rs",
+    "line": 271,
+    "occurrences_kind": "literal",
+    "source_hash": "fcaf354dc6dc0120",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/welcome_palette/view.rs",
+        "line": 271,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GCK5H2DMBE752D2Y7",
+    "source": "Terminal session {keystroke}",
+    "file": "app/src/search/welcome_palette/view.rs",
+    "line": 725,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6f791d7bb763fba7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/welcome_palette/view.rs",
+        "line": 725,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJN7N8NPVKHJ6JVKJ",
+    "source": "Whether the changelog is shown after an update.",
+    "file": "app/src/settings/changelog.rs",
+    "line": 13,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76d63a342bcf09e4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/changelog.rs",
+        "line": 13,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ECRWCH45GT4ME3XBG",
+    "source": "Reset to Warp defaults",
+    "file": "app/src/settings/import/view.rs",
+    "line": 301,
+    "occurrences_kind": "literal",
+    "source_hash": "33193b3ee5a3e892",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/import/view.rs",
+        "line": 301,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G03RYJWBCJG8T6BH4",
+    "source": "Some settings will take effect when you open a new session.",
+    "file": "app/src/settings/import/view.rs",
+    "line": 998,
+    "occurrences_kind": "literal",
+    "source_hash": "3d8cfca806e0a401",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/import/view.rs",
+        "line": 998,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JTMWSMZX1V1HV4HBK",
+    "source": "{}/admin/{}",
+    "file": "app/src/settings_view/admin_actions.rs",
+    "line": 10,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c64448ba1870fa00",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/admin_actions.rs",
+        "line": 10,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12908HE9YSSBGAVNJJ5",
+    "source": "Clear",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 65,
+    "occurrences_kind": "literal",
+    "source_hash": "83b12c2216efb4fd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/keybindings.rs",
+        "line": 65,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AR2SPQFBKYHBA9KX3",
+    "source": "Default",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 63,
+    "occurrences_kind": "literal",
+    "source_hash": "21b111cbfe6e8fca",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/keybindings.rs",
+        "line": 63,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workflows/workflow_view/alias_bar.rs",
+        "line": 438,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JR5G9224TP431XGX2",
+    "source": "keybindings keyboard shortcuts hotkeys",
+    "file": "app/src/settings_view/keybindings.rs",
+    "line": 1108,
+    "occurrences_kind": "literal",
+    "source_hash": "aa3adfca49a01e4c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/keybindings.rs",
+        "line": 1108,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV10H6GN7SK1CET7PRFKP",
+    "source": " ({n})",
+    "file": "app/src/settings_view/settings_page.rs",
+    "line": 1311,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "167e0440dd358b28",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/settings_page.rs",
+        "line": 1311,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EV0CMDMQM9PQQ2QG2",
+    "source": "Remove '{}'?",
+    "file": "app/src/tab_configs/remove_confirmation_dialog.rs",
+    "line": 112,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d1248b77a6ad608c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/remove_confirmation_dialog.rs",
+        "line": 112,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G0J83S1H2MTZCCHD3",
+    "source": "This tab config will be permanently deleted. This action cannot be undone.",
+    "file": "app/src/tab_configs/remove_confirmation_dialog.rs",
+    "line": 117,
+    "occurrences_kind": "literal",
+    "source_hash": "2a2156b0cbeca6be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab_configs/remove_confirmation_dialog.rs",
+        "line": 117,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV128D15MGHRJFVAFTFFE",
+    "source": "AI prompt: {query_text}",
+    "file": "app/src/terminal/input/inline_history/search_item.rs",
+    "line": 282,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6e976e1f00e7722f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/inline_history/search_item.rs",
+        "line": 282,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AH3PEBF77QBZ0JFGK",
+    "source": "Command: {command}",
+    "file": "app/src/terminal/input/inline_history/search_item.rs",
+    "line": 281,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9f1ab118fecb8373",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/inline_history/search_item.rs",
+        "line": 281,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AN17W8XMNJ7M17WKH",
+    "source": "Conversation: {title}",
+    "file": "app/src/terminal/input/inline_history/search_item.rs",
+    "line": 280,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c3c225e5887a60ca",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/inline_history/search_item.rs",
+        "line": 280,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EN5Y3BSCNZ5GYNKC6",
+    "source": "Plan: {}",
+    "file": "app/src/terminal/input/plans/search_item.rs",
+    "line": 163,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "35138ea641695b0e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/plans/search_item.rs",
+        "line": 163,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BECBKBTRQT4PG7VXX",
+    "source": "Docker sandbox shells are not supported on Windows",
+    "file": "app/src/terminal/local_tty/windows/mod.rs",
+    "line": 170,
+    "occurrences_kind": "literal",
+    "source_hash": "bcf6880825273437",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/local_tty/windows/mod.rs",
+        "line": 170,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129SB84PKZWZE1W8CSM",
+    "source": "Block index should be valid.",
+    "file": "app/src/terminal/model/blocks/selection.rs",
+    "line": 1494,
+    "occurrences_kind": "literal",
+    "source_hash": "86062072cd0bf7e0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/blocks/selection.rs",
+        "line": 1494,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/model/blocks/selection.rs",
+        "line": 1517,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F4D5VCED5QDWQ6YSV",
+    "source": "Selection should exist if it can be expanded",
+    "file": "app/src/terminal/model/blocks/selection.rs",
+    "line": 903,
+    "occurrences_kind": "literal",
+    "source_hash": "21b25b48cd28d01e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/blocks/selection.rs",
+        "line": 903,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/model/blocks/selection.rs",
+        "line": 998,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FB4J3R6WGKTC321ZJ",
+    "source": "Should never fail to create empty CString",
+    "file": "app/src/terminal/platform.rs",
+    "line": 38,
+    "occurrences_kind": "literal",
+    "source_hash": "7714b86d2d650ab7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/platform.rs",
+        "line": 38,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BWNY19GDSX37YHJWM",
+    "source": "Failed to reconnect. Please try again later.",
+    "file": "app/src/terminal/shared_session/viewer/terminal_manager.rs",
+    "line": 940,
+    "occurrences_kind": "literal",
+    "source_hash": "4b292665e2065608",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/viewer/terminal_manager.rs",
+        "line": 940,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D094NDJR1NAZ0BRTD",
+    "source": "One or more of the emails are not Warp users.",
+    "file": "app/src/terminal/shared_session/viewer/terminal_manager.rs",
+    "line": 1295,
+    "occurrences_kind": "literal",
+    "source_hash": "bb2358ca20306da1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/viewer/terminal_manager.rs",
+        "line": 1295,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DFHXC3JWRA2JQBXJ0",
+    "source": "One or more of the guests has already been added.",
+    "file": "app/src/terminal/shared_session/viewer/terminal_manager.rs",
+    "line": 1298,
+    "occurrences_kind": "literal",
+    "source_hash": "5d09fcf55b571748",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/viewer/terminal_manager.rs",
+        "line": 1298,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B90P7MEBZWK46EMF0",
+    "source": "Enable language support",
+    "file": "app/src/terminal/view/init_project/lsp_server_selector.rs",
+    "line": 181,
+    "occurrences_kind": "literal",
+    "source_hash": "e1593aa6df6475fb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/init_project/lsp_server_selector.rs",
+        "line": 181,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CQEF84W6S1X36CNM8",
+    "source": "Install and enable",
+    "file": "app/src/terminal/view/init_project/lsp_server_selector.rs",
+    "line": 179,
+    "occurrences_kind": "literal",
+    "source_hash": "dbb448423c35ccb4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/init_project/lsp_server_selector.rs",
+        "line": 179,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AG2AV7XSS9R7HFYBZ",
+    "source": "Copy error",
+    "file": "app/src/terminal/view/shell_terminated_banner.rs",
+    "line": 243,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "19dc540f83585b33",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shell_terminated_banner.rs",
+        "line": 243,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FAP92GA4PHJFZZMM6",
+    "source": "Shell process could not start!",
+    "file": "app/src/terminal/view/shell_terminated_banner.rs",
+    "line": 169,
+    "occurrences_kind": "literal",
+    "source_hash": "9ea7e7a1e8ba2cf9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shell_terminated_banner.rs",
+        "line": 169,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GTP12M9GZJ984HM3P",
+    "source": "Something went wrong while starting {shell_detail} and Warpifying it, causing the process to terminate. Warpify script output is displayed here, which may point at a cause.",
+    "file": "app/src/terminal/view/shell_terminated_banner.rs",
+    "line": 186,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0a4bfaa4243cfa8a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shell_terminated_banner.rs",
+        "line": 186,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129896NCCDG4FR9S7K1",
+    "source": "Character should exist",
+    "file": "app/src/util/bindings.rs",
+    "line": 878,
+    "occurrences_kind": "literal",
+    "source_hash": "ffebd7ab4160348c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/bindings.rs",
+        "line": 878,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/keymap.rs",
+        "line": 945,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129ENRQYNDTCQAV04KS",
+    "source": "All custom actions are handled.",
+    "file": "app/src/util/bindings.rs",
+    "line": 235,
+    "occurrences_kind": "literal",
+    "source_hash": "4dcecd4f295f005f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/util/bindings.rs",
+        "line": 235,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HJ28PA24699JDQ4CT",
+    "source": "Warp is now open-source",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 214,
+    "occurrences_kind": "literal",
+    "source_hash": "e90f0078a3b224d7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+        "line": 214,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HW49W7B9WJ2X836VF",
+    "source": "Visit the repo",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 145,
+    "occurrences_kind": "literal",
+    "source_hash": "1108bb53b885cafa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+        "line": 145,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JV1DMMVAY2EF5D6GM",
+    "source": "You, our community, can participate in building Warp using an agent-first workflow.",
+    "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+    "line": 222,
+    "occurrences_kind": "literal",
+    "source_hash": "5b0ee354ed3ee414",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/openwarp_launch_modal/view.rs",
+        "line": 222,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BX6JHGS1V9YWX34XV",
+    "source": "Early adopter",
+    "file": "app/src/workspaces/workspace.rs",
+    "line": 287,
+    "occurrences_kind": "literal",
+    "source_hash": "fd0f38d38167a91b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/workspace.rs",
+        "line": 287,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H7AG3368VJXCMT7P8",
+    "source": "Warp Plan",
+    "file": "app/src/workspaces/workspace.rs",
+    "line": 684,
+    "occurrences_kind": "literal",
+    "source_hash": "febcc63789ab57c5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/workspace.rs",
+        "line": 684,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B5RHZS5PMGK6X3FQ6",
+    "source": "Failed to get screenshot reply: {e}",
+    "file": "crates/computer_use/src/linux/x11/screenshot.rs",
+    "line": 41,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e152a37c4d936f43",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/x11/screenshot.rs",
+        "line": 41,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BGFBY00QJHZ8J1Q4G",
+    "source": "Failed to create image from raw data",
+    "file": "crates/computer_use/src/linux/x11/screenshot.rs",
+    "line": 51,
+    "occurrences_kind": "literal",
+    "source_hash": "f654f1885915358a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/x11/screenshot.rs",
+        "line": 51,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H8MWJWBGR08190FRS",
+    "source": "Unsupported screen depth: {depth}",
+    "file": "crates/computer_use/src/linux/x11/screenshot.rs",
+    "line": 109,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bde34c869eadcae8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/linux/x11/screenshot.rs",
+        "line": 109,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C1G06KABDY3PNHB4Q",
+    "source": "Hello, World!",
+    "file": "crates/editor/src/model.rs",
+    "line": 1111,
+    "occurrences_kind": "literal",
+    "source_hash": "dffd6021bb2bd5b0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/model.rs",
+        "line": 1111,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HQYEE0E6FN2JXP46H",
+    "source": "Vec1 should not be empty because input Vec1 cannot be empty.",
+    "file": "crates/editor/src/model.rs",
+    "line": 252,
+    "occurrences_kind": "literal",
+    "source_hash": "bec58dc6ef21ccbb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/model.rs",
+        "line": 252,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129787BCE5CMTDG2F2Q",
+    "source": "Choose a theme",
+    "file": "crates/onboarding/src/slides/theme_picker_slide.rs",
+    "line": 194,
+    "occurrences_kind": "literal",
+    "source_hash": "fb92afc484e9b5e6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/theme_picker_slide.rs",
+        "line": 194,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GD7RT5DFZ3TE44QH2",
+    "source": "Sync light/dark theme with OS",
+    "file": "crates/onboarding/src/slides/theme_picker_slide.rs",
+    "line": 532,
+    "occurrences_kind": "literal",
+    "source_hash": "da705d37ea84aa87",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/theme_picker_slide.rs",
+        "line": 532,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GTFK8578CNR5ZHAE5",
+    "source": "Theme {}",
+    "file": "crates/onboarding/src/slides/theme_picker_slide.rs",
+    "line": 128,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "61be61a303fdcb9c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/src/slides/theme_picker_slide.rs",
+        "line": 128,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A1W5HJNY83XHPEVRA",
+    "source": "Command inspector triggered for {}",
+    "file": "crates/warp_completer/src/completer/describe.rs",
+    "line": 29,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "732ef76b0da2adc7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/completer/describe.rs",
+        "line": 29,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A3DD7D724X0W11R1F",
+    "source": "Command inspector triggered for {}, {}",
+    "file": "crates/warp_completer/src/completer/describe.rs",
+    "line": 26,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d188fd8ab145721a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_completer/src/completer/describe.rs",
+        "line": 26,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV112WR74QSNF0ERE3C59",
+    "source": " Mapping between a printable ASCII character and its corresponding control code had `ctrl`",
+    "file": "crates/warpui/src/windowing/winit/event_loop/key_events.rs",
+    "line": 19,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "623536ff04588816",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/event_loop/key_events.rs",
+        "line": 19,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV127XNCG242EA6W2F982",
+    "source": " value of 03. See <https://www.geeksforgeeks.org/control-characters/> for more details.",
+    "file": "crates/warpui/src/windowing/winit/event_loop/key_events.rs",
+    "line": 21,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4b15023ff4d58f47",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/event_loop/key_events.rs",
+        "line": 21,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B4RGE249NBE48K6E4",
+    "source": "Error getting active display bounds: {err:?}",
+    "file": "crates/warpui/src/windowing/winit/window.rs",
+    "line": 334,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b23f9a148b4b30e1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/window.rs",
+        "line": 334,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BSG0G9FA6XX0YMFAE",
+    "source": "Failed to recreate window renderer",
+    "file": "crates/warpui/src/windowing/winit/window.rs",
+    "line": 946,
+    "occurrences_kind": "literal",
+    "source_hash": "ecd64297f8cb1ef8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/window.rs",
+        "line": 946,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZHNM4R5QY14R5CFC",
+    "source": "Error getting active display ID: {err:?}",
+    "file": "crates/warpui/src/windowing/winit/window.rs",
+    "line": 356,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fee1b386888d725b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/windowing/winit/window.rs",
+        "line": 356,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DHXGRNVYW6NAM1P9C",
+    "source": "KeyDown '{chars}'",
+    "file": "crates/warpui_core/src/integration/action_log.rs",
+    "line": 19,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "52bce2f97d2611ac",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/action_log.rs",
+        "line": 19,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HNJW833FCMWFTHMSH",
+    "source": "TypedCharacters '{chars}'",
+    "file": "crates/warpui_core/src/integration/action_log.rs",
+    "line": 20,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "89fa5e8afccb65b6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/integration/action_log.rs",
+        "line": 20,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

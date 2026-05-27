@@ -1,0 +1,203 @@
+{
+  "translations": {
+    "01KQXQV12GYTZF6Z9EZ99VMYX3": null,
+    "01KQXQV12B3THBB0Q4Z2CRYP6T": null,
+    "01KQXQV12H5GTDKNAEQVZY69JT": null,
+    "01KQXQV12DG3PSRF735FW7HAS5": null,
+    "01KQXQV129379BT2TKJ6C7RJ2J": null,
+    "01KQXQV12AW86PA2DKRX5ATKN7": "已成功完成",
+    "01KQXQV12JKZYAX02RDYEK9AAX": null,
+    "01KQXQV12BTGD0WZYM94D5TYH3": null,
+    "01KQXQV12D6H07WP84ECGN0F76": "MCP 服务器需要 OAuth 身份验证。请先在 Warp 桌面应用中对该服务器进行身份验证，然后重试。",
+    "01KQXQV12HC3GNX2YBTKBDM273": null,
+    "01KQXQV129PS0RSFA633A2AFYN": "错误修复",
+    "01KQXQV12D95XH9NKC8HPE4TVF": "新功能",
+    "01KQXQV12CAQQHYXBC0TVBW9PJ": "来自 GitHub",
+    "01KQXQV12B02GRXJDH0HPCGBMR": null,
+    "01KQXQV12BW20MK91KM1N3SH8Y": null,
+    "01KQXQV12C0J8HF0CA6YPW47R4": null,
+    "01KQXQV12CD6VGGN7H1D4MGJYT": null,
+    "01KQXQV12B12VEJH1K76GS2VFR": null,
+    "01KQXQV12A5XAKCD3XG1V80S4C": null,
+    "01KQXQV12B8HJFB78W7KXNE8H2": null,
+    "01KQXQV12AGP00B88786PNTEJ2": "代码搜索失败",
+    "01KQXQV12J30KA5H0RJ64E19WK": null,
+    "01KQXQV12841E10A6033B8GB7E": null,
+    "01KQXQV1288DS2HCN337TY3M51": null,
+    "01KQXQV128HR7FTMM4MQ8SCP4Q": null,
+    "01KQXQV12GY3GQ3VGGW6W4WZB0": "在程序坞中显示的应用图标。",
+    "01KQXQV12G1JHASPHSGPYSSWG0": "Windows 上首选的图形后端。",
+    "01KQXQV12HWRF7H7GZBJ1N5C78": "是否优先使用集成（低功耗）GPU。",
+    "01KQXQV12HB13RN3B80A7DDSP0": "是否为 SSH 会话启用旧版 SSH 包装器。",
+    "01KRNVKATSTZT0W13WV1TBV4VW": "例如：GLM-5",
+    "01KRNVKATTNG5M6HZ94KZE71HS": "例如：GLM-5-FP8",
+    "01KRNVKATVVBW27BAWY135VGRV": "例如：Zach 的外部模型",
+    "01KQXQV12JNGG0SNMZKNNM96QP": "{heading} {description}",
+    "01KQXQV12EMYT71FC0DZ5DWR83": null,
+    "01KQXQV12GRFVTYA32ZGVY0920": null,
+    "01KQXQV128C17NCERECXZ8W15K": " 将在您的额度用尽时自动购买您所选的套餐。 ",
+    "01KQXQV12BMZDP5NTC45W6Z2GE": "启用自动重新加载？",
+    "01KQXQV12HM1CE1R7S2VPJK6SJ": "启用后， ",
+    "01KQXQV1298V935GVJFG7BRXM1": "按 API 计费",
+    "01KQXQV12B1VV6N7B8Y81QCM5J": null,
+    "01KQXQV12BEE9XBZ1EDGBEPN6F": "Docker 沙箱设置失败：{e}",
+    "01KQXQV12CAG4HYE605GHCAKRH": null,
+    "01KQXQV126EKFX9K0YAYWACZD1": null,
+    "01KQXQV129Z4FCEHFYWKQ0BAJQ": "取消请求",
+    "01KQXQV12HXTC64H1063JASRAM": "正在等待 {}……",
+    "01KQXQV12JSF17JC9BNYRN5FKD": "您已请求 {} 模式",
+    "01KQXQV128E60Q3KP03QFRZN69": "（已省略 {count} 行）……",
+    "01KQXQV128RG2FNEDW4E0PGM8N": "（已省略 {count} 行）……",
+    "01KQXQV12BZTRYEBFVERXEX0XG": "因共享者处于空闲状态，编辑权限已被撤销",
+    "01KQXQV12FFZZR1B89VZVN6205": "因长时间无活动，共享编辑权限已被撤销",
+    "01KQXQV12FPC3HRTV7NWCG5W75": "因长时间无活动，共享已结束",
+    "01KQXQV12B5W7F4PY9BR3Y0JEM": null,
+    "01KQXQV12C4JK1BTN38R3WG320": null,
+    "01KQXQV12G4SA408ZHK30MJZC3": "停止同步任意窗格",
+    "01KQXQV12GDS58KPXZNEB15V6Q": "切换同步所有标签页中的全部窗格",
+    "01KQXQV12GYR0BA8380YZJDQ2A": "切换同步当前标签页中的全部窗格",
+    "01KQXQV128FXPMS4CTCYBVJFTX": "Warp 审查目标已禁用 AI",
+    "01KQXQV12DR5M5SH6NYFFG9GS7": "最大化",
+    "01KQXQV12BTYP6Q1D1F1A81Q46": null,
+    "01KQXQV12C3D20JGNHA6Q4C2GM": null,
+    "01KQXQV12D0MYRD2VZE63F0YMA": null,
+    "01KQXQV1125RENG7Z3R447TZ65": null,
+    "01KQXQV12FRZ157QZ1NCRZ8VD8": null,
+    "01KQXQV1293FHJW98H60HBN49V": "借助 AI Agent 更快地构建",
+    "01KQXQV12D87D035MVW84KG4YD": "仅使用终端",
+    "01KQXQV12DYB1BHD5SQHT9S5YE": "无 AI 功能",
+    "01KQXQV12C13321GVJ6FC92VNG": null,
+    "01KQXQV12CYZ0HZRRRTZK1WFQ8": null,
+    "01KQXQV12F1EK9RGETVGYT0EGM": null,
+    "01KQXQV12F5RWDNA29EV70F3AF": null,
+    "01KQXQV12904C0DTHQXF860NPN": null,
+    "01KQXQV12BCKDSGVP7W4G64300": null,
+    "01KQXQV12C5BJMHEW0TP5Y08N7": null,
+    "01KQXQV12EFK7J2J6TA8VPSK9R": null,
+    "01KQXQV12EZ61PXBA0W2H68G37": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12GYTZF6Z9EZ99VMYX3": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12B3THBB0Q4Z2CRYP6T": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12H5GTDKNAEQVZY69JT": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12DG3PSRF735FW7HAS5": [
+      "telemetry_payload"
+    ],
+    "01KQXQV129379BT2TKJ6C7RJ2J": [
+      "panic_message"
+    ],
+    "01KQXQV12JKZYAX02RDYEK9AAX": [
+      "panic_message"
+    ],
+    "01KQXQV12BTGD0WZYM94D5TYH3": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12HC3GNX2YBTKBDM273": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12B02GRXJDH0HPCGBMR": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12BW20MK91KM1N3SH8Y": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12C0J8HF0CA6YPW47R4": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12CD6VGGN7H1D4MGJYT": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12B12VEJH1K76GS2VFR": [
+      "panic_message"
+    ],
+    "01KQXQV12A5XAKCD3XG1V80S4C": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12B8HJFB78W7KXNE8H2": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12J30KA5H0RJ64E19WK": [
+      "protocol_key"
+    ],
+    "01KQXQV12841E10A6033B8GB7E": [
+      "protocol_key"
+    ],
+    "01KQXQV1288DS2HCN337TY3M51": [
+      "protocol_key"
+    ],
+    "01KQXQV128HR7FTMM4MQ8SCP4Q": [
+      "protocol_key"
+    ],
+    "01KQXQV12EMYT71FC0DZ5DWR83": [
+      "panic_message"
+    ],
+    "01KQXQV12GRFVTYA32ZGVY0920": [
+      "panic_message"
+    ],
+    "01KQXQV12B1VV6N7B8Y81QCM5J": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12CAG4HYE605GHCAKRH": [
+      "telemetry_payload"
+    ],
+    "01KQXQV126EKFX9K0YAYWACZD1": [
+      "extractor_false_positive_doc_comment"
+    ],
+    "01KQXQV12B5W7F4PY9BR3Y0JEM": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12C4JK1BTN38R3WG320": [
+      "panic_message"
+    ],
+    "01KQXQV12BTYP6Q1D1F1A81Q46": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12C3D20JGNHA6Q4C2GM": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12D0MYRD2VZE63F0YMA": [
+      "telemetry_payload"
+    ],
+    "01KQXQV1125RENG7Z3R447TZ65": [
+      "extractor_false_positive_doc_comment"
+    ],
+    "01KQXQV12FRZ157QZ1NCRZ8VD8": [
+      "panic_message"
+    ],
+    "01KQXQV12C13321GVJ6FC92VNG": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12CYZ0HZRRRTZK1WFQ8": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12F1EK9RGETVGYT0EGM": [
+      "test_fixture"
+    ],
+    "01KQXQV12F5RWDNA29EV70F3AF": [
+      "test_fixture"
+    ],
+    "01KQXQV12904C0DTHQXF860NPN": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12BCKDSGVP7W4G64300": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12C5BJMHEW0TP5Y08N7": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12EFK7J2J6TA8VPSK9R": [
+      "telemetry_payload"
+    ],
+    "01KQXQV12EZ61PXBA0W2H68G37": [
+      "telemetry_payload"
+    ]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "read_skill.rs/request_computer_use.rs: AI-action Error result strings ({:?} debug, internal diagnostics) -> telemetry_payload. response_stream.rs MultiAgent retry -> report_error! -> telemetry. history_model.rs: 'Completed successfully' is display_text() UI -> translate; 'Child conversation exists' is .expect() -> panic. facts/manager.rs .expect -> panic. oauth.rs: InternalError 'Failed to create authorization manager' -> internal/telemetry; AuthorizationFailed MCP OAuth msg is user-facing instructional -> translate. auth_state.rs report_error! -> telemetry. changelog_model.rs Bug fixes/New features are fmt::Display UI -> translate. comment_rendering.rs 'From GitHub' Text::new UI -> translate. completer/mod.rs + env_vars/manager.rs safe_warn!/safe_info! -> telemetry. notebooks/mod.rs .expect -> panic; notebook_pane.rs ShareableLinkError::Unexpected internal err strings -> telemetry. data_source.rs 'Code search failed' is user_facing_error() -> translate. command_palette view.rs query_result:{index} is internal save-position id -> protocol_key. slash commands /orchestrate //plan //add-prompt are command name identifiers (literal commands user types) -> protocol_key. settings/*.rs define_settings_group! description: fields render as TOML config docs/UI -> translate. custom_inference_modal placeholder hints (e.g., GLM-5 etc) -> translate as example hints keeping model identifiers. settings_file_footer.rs '{heading} {description}' is pure placeholder shell -> identical (no text). system/info.rs .expect -> panic. enable_auto_reload_modal.rs FormattedText fragments + Modal title -> translate (preserve leading/trailing spaces). model_spec_scores 'Billed to API' Text UI -> translate. protocol.rs anyhow .context error -> telemetry. local_tty/unix.rs: 'Docker sandbox setup failed' returned spawn err with cause -> translate; 'Given invalid shell starter' internal invariant guard -> telemetry. tmux/mod.rs + editor text.rs leading-space /// doc comments inside lazy_static! -> extractor_false_positive_doc_comment. viewer_request_body.rs: Cancel request button, Waiting for {}..., You have requested {} mode (placeholder fills English edit/view, restructured) -> translate. bookmarks.rs omitted-line UI -> translate. shared_session view_impl.rs show_persistent_toast msgs -> translate. browser_url_handler.rs: log::error/ErrorLogged 'Failed to replace browser state' -> telemetry; 'Invalid href parsed from url' .expect -> panic. sync_inputs.rs EditableBinding command-palette labels -> translate. right_panel.rs label() unavailable-reason text + Maximize tooltip -> translate. x11 keyboard.rs Result<_,String> Err format! internal low-level errors -> telemetry. editor text.rs 'Serde YAML mapping should convert to string' .expect -> panic. onboarding intention_slide paragraph UI -> translate (AI agents -> AI Agent per glossary). vim.rs safe_info! -> telemetry. warpui/examples segmented-control are example fixtures -> test_fixture. warpui wgpu renderer + warpui_core offset_positioning Err(format!) internal GPU/layout errors -> telemetry."
+}

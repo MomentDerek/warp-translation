@@ -1,0 +1,1357 @@
+[
+  {
+    "id": "01KQXQV12B125YH55HMGBT90RN",
+    "source": "Failed to load conversation {server_conversation_id}",
+    "file": "app/src/ai/blocklist/action_model/execute/fetch_conversation.rs",
+    "line": 78,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0cd9ac01cd747a70",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/fetch_conversation.rs",
+        "line": 78,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BS7SYN3PNTJ118ME0",
+    "source": "Failed to materialize conversation: {e}",
+    "file": "app/src/ai/blocklist/action_model/execute/fetch_conversation.rs",
+    "line": 103,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "eb77c3cf3dee95f7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/fetch_conversation.rs",
+        "line": 103,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C2C9Q41K93DADJWRX",
+    "source": "Get-ChildItem -File -Recurse -Include {pattern_args} -Path \"{target_path}\" | ForEach-Object {{ $_.FullName }}",
+    "file": "app/src/ai/blocklist/action_model/execute/file_glob.rs",
+    "line": 339,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "22f988bddfe30ca7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/file_glob.rs",
+        "line": 339,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D0AYDQHVQ9NA013ZQ",
+    "source": "MCP server for resource not found",
+    "file": "app/src/ai/blocklist/action_model/execute/read_mcp_resource.rs",
+    "line": 124,
+    "occurrences_kind": "literal",
+    "source_hash": "cd9d5efff2e87fc1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/read_mcp_resource.rs",
+        "line": 124,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DPE67RQWKW4B4PH38",
+    "source": "MCP server resource not found",
+    "file": "app/src/ai/blocklist/action_model/execute/read_mcp_resource.rs",
+    "line": 115,
+    "occurrences_kind": "literal",
+    "source_hash": "39236b9b7eb620ae",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/read_mcp_resource.rs",
+        "line": 115,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HND8RZ2M8G1TCNXEC",
+    "source": "Warp Docs",
+    "file": "app/src/ai/blocklist/block/view_impl.rs",
+    "line": 677,
+    "occurrences_kind": "literal",
+    "source_hash": "3a3772107b2ce2c9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/block/view_impl.rs",
+        "line": 677,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CFQG8NCNG9YGQZCT3",
+    "source": "Index Codebase?",
+    "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+    "line": 20,
+    "occurrences_kind": "literal",
+    "source_hash": "29e4d55a89c11053",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+        "line": 20,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CFVM1YHMEZ6MEZGN1",
+    "source": "Indexing codebase",
+    "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+    "line": 29,
+    "occurrences_kind": "literal",
+    "source_hash": "63502339bad23314",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/codebase_index_speedbump_banner.rs",
+        "line": 29,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E5NWJ3KVFM6KG0TSF",
+    "source": "Profile default",
+    "file": "app/src/ai/execution_profiles/model_menu_items.rs",
+    "line": 41,
+    "occurrences_kind": "literal",
+    "source_hash": "addf41dad23b2c33",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/execution_profiles/model_menu_items.rs",
+        "line": 41,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DDMGNQRXNVYP44QAF",
+    "source": "MCP server",
+    "file": "app/src/ai/mcp/mod.rs",
+    "line": 194,
+    "occurrences_kind": "literal",
+    "source_hash": "d938c8168e3acbba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/mod.rs",
+        "line": 194,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/mcp/templatable.rs",
+        "line": 238,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ECQBMYG37K251ED66",
+    "source": "Other Agents",
+    "file": "app/src/ai/mcp/mod.rs",
+    "line": 631,
+    "occurrences_kind": "literal",
+    "source_hash": "4b7f06121ca1b81b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/mcp/mod.rs",
+        "line": 631,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FH60NTSV7XAYVNRD9",
+    "source": "Segoe UI",
+    "file": "app/src/appearance.rs",
+    "line": 333,
+    "occurrences_kind": "literal",
+    "source_hash": "96c4069d9bb6bc73",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 5,
+    "occurrences_all": [
+      {
+        "file": "app/src/appearance.rs",
+        "line": 333,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/onboarding/examples/callout.rs",
+        "line": 39,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/onboarding/examples/callout_flow.rs",
+        "line": 257,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/onboarding/src/bin/main.rs",
+        "line": 466,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/ui_components/examples/library.rs",
+        "line": 52,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D3G7V33R194DSKH2F",
+    "source": "JSON Schema for Warp settings ({channel} channel, {entry_count} settings)",
+    "file": "app/src/bin/generate_settings_schema.rs",
+    "line": 238,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e4acbb2e9ea8f0b3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/bin/generate_settings_schema.rs",
+        "line": 238,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HXPHJV2WDS0EBE3KN",
+    "source": "Warp Settings",
+    "file": "app/src/bin/generate_settings_schema.rs",
+    "line": 233,
+    "occurrences_kind": "literal",
+    "source_hash": "7dbd573095eef24e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/bin/generate_settings_schema.rs",
+        "line": 233,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E7A74V3WHZYZHBF7S",
+    "source": "Reviewing open changes",
+    "file": "app/src/code_review/code_review_header/mod.rs",
+    "line": 500,
+    "occurrences_kind": "literal",
+    "source_hash": "8f5c381fb8a39c6a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/code_review_header/mod.rs",
+        "line": 500,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129285B2FKFSQS820C9",
+    "source": "Code generated by",
+    "file": "app/src/code_review/mod.rs",
+    "line": 102,
+    "occurrences_kind": "literal",
+    "source_hash": "3cb681ae8b182a5e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/mod.rs",
+        "line": 102,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G5ZCAF31FVKTJNB9T",
+    "source": "This file is automatically generated",
+    "file": "app/src/code_review/mod.rs",
+    "line": 103,
+    "occurrences_kind": "literal",
+    "source_hash": "dbe4e814cc1ff59a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/mod.rs",
+        "line": 103,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C6T0GNJEAC79PQ9Y7",
+    "source": "Generate a title, descriptions, or parameters with Warp AI",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 1743,
+    "occurrences_kind": "literal",
+    "source_hash": "6818b0d8a418ac46",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/workflows/modal.rs",
+        "line": 1743,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 2468,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JMXNBJDQC80B1RA4S",
+    "source": "echo \"Hello {{your_name}}\" # insert arguments with curly braces\n# enter a single-line command or an entire shell script",
+    "file": "app/src/drive/workflows/modal.rs",
+    "line": 105,
+    "occurrences_kind": "literal",
+    "source_hash": "92d352a9551b7232",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/workflows/modal.rs",
+        "line": 105,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/workflows/workflow_view.rs",
+        "line": 150,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV1295CNAEF29T52EE6W1",
+    "source": "Clear secret",
+    "file": "app/src/env_vars/view/menus.rs",
+    "line": 63,
+    "occurrences_kind": "literal",
+    "source_hash": "826a386f698f2864",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/env_vars/view/menus.rs",
+        "line": 63,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AB4P61C6CBXCBW9C5",
+    "source": "Convert to {}",
+    "file": "app/src/notebooks/editor/omnibar.rs",
+    "line": 449,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "927f86fd668ade3a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/editor/omnibar.rs",
+        "line": 449,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ETKEXYPZ947YS603Z",
+    "source": "Remove link",
+    "file": "app/src/notebooks/editor/omnibar.rs",
+    "line": 455,
+    "occurrences_kind": "literal",
+    "source_hash": "4953f897094826d3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/editor/omnibar.rs",
+        "line": 455,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JYAYVYKFD8FEJHMBD",
+    "source": "{tips_completed_count}/{tip_count}",
+    "file": "app/src/resource_center/section_views/feature_section.rs",
+    "line": 412,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "de08c806f0446684",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/resource_center/section_views/feature_section.rs",
+        "line": 412,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKATMAYNYDNSN090QYR1S",
+    "source": "[Tab {}] {}",
+    "file": "app/src/search/command_palette/tabs/search_item.rs",
+    "line": 56,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d9b3abedf2f8301b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/tabs/search_item.rs",
+        "line": 56,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DAT8EC1PWX6BJGR7C",
+    "source": "No results found. Please try again with a more specific query.",
+    "file": "app/src/search/command_search/warp_ai.rs",
+    "line": 245,
+    "occurrences_kind": "literal",
+    "source_hash": "93397d7978660313",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/warp_ai.rs",
+        "line": 245,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HV7JC0GBTA5SH7WAS",
+    "source": "Warp AI: {}",
+    "file": "app/src/search/command_search/warp_ai.rs",
+    "line": 143,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8bca975d378efb3a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_search/warp_ai.rs",
+        "line": 143,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HW0YJTWR2WH3DVSA9",
+    "source": "Whether shell alias expansion is enabled in the input.",
+    "file": "app/src/settings/alias_expansion.rs",
+    "line": 13,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "195fbf278ecef6f7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/alias_expansion.rs",
+        "line": 13,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GNTADYQHHB8Y398AV",
+    "source": "The scroll speed multiplier for mouse scroll events.",
+    "file": "app/src/settings/scroll.rs",
+    "line": 11,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6affb2f4b34cf2cd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/scroll.rs",
+        "line": 11,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK92A4E96V7FSB6QEGJAG",
+    "source": "Auto-reload",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 1631,
+    "occurrences_kind": "literal",
+    "source_hash": "920ccab4d6bda793",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+        "line": 1631,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKATXNWP3CK75ZK6QHZP2",
+    "source": "selected credit amount",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 1151,
+    "occurrences_kind": "literal",
+    "source_hash": "442237ca0edce7aa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+        "line": 1151,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKATXZZ6SXBABB4D2TC97",
+    "source": "{credits} credits / {dollars}",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 1146,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3bb00e6f021c08ba",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+        "line": 1146,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JSYWVSJJ8PBGKE18P",
+    "source": "mcp servers",
+    "file": "app/src/settings_view/mcp_servers_page.rs",
+    "line": 573,
+    "occurrences_kind": "literal",
+    "source_hash": "702b20dcbd3949cc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/mcp_servers_page.rs",
+        "line": 573,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JEAHNF0PRXC1D56RQ",
+    "source": "warp drive tools panel command palette search workflows prompts notebooks environment variables",
+    "file": "app/src/settings_view/warp_drive_page.rs",
+    "line": 205,
+    "occurrences_kind": "literal",
+    "source_hash": "14dc02451e76e85e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/warp_drive_page.rs",
+        "line": 205,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JPESGX51MXZDJZB10",
+    "source": "warp drive sign up",
+    "file": "app/src/settings_view/warp_drive_page.rs",
+    "line": 122,
+    "occurrences_kind": "literal",
+    "source_hash": "94f0ec720fa16e55",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/warp_drive_page.rs",
+        "line": 122,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129C690XCDJ26BXZ2F4",
+    "source": "CLI Agent",
+    "file": "app/src/terminal/cli_agent.rs",
+    "line": 214,
+    "occurrences_kind": "literal",
+    "source_hash": "a4335bc71a1c3f57",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent.rs",
+        "line": 214,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ERG7Y6KKCRHHVBEG3",
+    "source": "Please address the following code review comments. Run `git diff` (or `git diff HEAD`) to see the full context of any changes, especially for deleted lines.\n",
+    "file": "app/src/terminal/cli_agent.rs",
+    "line": 410,
+    "occurrences_kind": "literal",
+    "source_hash": "da426834b4e27dd5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent.rs",
+        "line": 410,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9ZDNDMPE3BK82N2ANYH",
+    "source": "Mistral Vibe",
+    "file": "app/src/terminal/cli_agent.rs",
+    "line": 213,
+    "occurrences_kind": "literal",
+    "source_hash": "15e2b9ce10aed6a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent.rs",
+        "line": 213,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CJJQ8MZ86A62CTKPH",
+    "source": "Handle is upgradeable",
+    "file": "app/src/terminal/input/inline_menu/view.rs",
+    "line": 889,
+    "occurrences_kind": "literal",
+    "source_hash": "bf4d489b7cb145e4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/inline_menu/view.rs",
+        "line": 889,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129FSRWRPN8428RW7C7",
+    "source": "Cmd +",
+    "file": "app/src/terminal/links.rs",
+    "line": 9,
+    "occurrences_kind": "literal",
+    "source_hash": "a2966d263a342307",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/links.rs",
+        "line": 9,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A8T5BPC4E32DVWENH",
+    "source": "Ctrl +",
+    "file": "app/src/terminal/links.rs",
+    "line": 10,
+    "occurrences_kind": "literal",
+    "source_hash": "268e9b2832520e33",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/links.rs",
+        "line": 10,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E0VB4ES0V4H9MNHSB",
+    "source": "PTY reader",
+    "file": "app/src/terminal/local_tty/event_loop.rs",
+    "line": 324,
+    "occurrences_kind": "literal",
+    "source_hash": "e8623329db83b34d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/local_tty/event_loop.rs",
+        "line": 324,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CY8SZ02CK6QH9EQW7",
+    "source": "Invalid regex!",
+    "file": "app/src/terminal/model/tmux/commands.rs",
+    "line": 36,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7165abe3ec64b7c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/tmux/commands.rs",
+        "line": 36,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DZ7XCRH19EJ47YPHW",
+    "source": "Make Editor",
+    "file": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+    "line": 86,
+    "occurrences_kind": "literal",
+    "source_hash": "b8692a0fe67bf65f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+        "line": 86,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GNFDZKAWC7N4EZHQN",
+    "source": "This grants the ability to execute commands on your",
+    "file": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+    "line": 114,
+    "occurrences_kind": "literal",
+    "source_hash": "cde1bd5998f22da2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+        "line": 114,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/shared_session/role_change_modal/sharer_response_body.rs",
+        "line": 273,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JKD5FSJE9872NG31N",
+    "source": "behalf. Use with caution.",
+    "file": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+    "line": 115,
+    "occurrences_kind": "literal",
+    "source_hash": "baad5a5c7e4d71d8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/role_change_modal/sharer_grant_body.rs",
+        "line": 115,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/shared_session/role_change_modal/sharer_response_body.rs",
+        "line": 274,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GRSSV3HFVQT2KS1P4",
+    "source": "Size should be present",
+    "file": "app/src/terminal/terminal_size_element.rs",
+    "line": 39,
+    "occurrences_kind": "literal",
+    "source_hash": "f7d654ef634ea2f9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/terminal_size_element.rs",
+        "line": 39,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F6NWSNCGX7AH6TCP1",
+    "source": "Share this {}",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+    "line": 104,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c1a286fa98f212f7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+        "line": 104,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FE1SZKR8FFAMZKC7G",
+    "source": "Share {}",
+    "file": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+    "line": 103,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "82298b422b38d0bb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/block_onboarding/onboarding_drive_sharing_block.rs",
+        "line": 103,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12925Z4Y3QQE2ZZZYTD",
+    "source": "Are you still there?",
+    "file": "app/src/terminal/view/shared_session/sharer/inactivity_modal.rs",
+    "line": 234,
+    "occurrences_kind": "literal",
+    "source_hash": "69b81bb4dec2efcc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/sharer/inactivity_modal.rs",
+        "line": 234,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AXHDQ77FESB9X94MT",
+    "source": "Continue sharing",
+    "file": "app/src/terminal/view/shared_session/sharer/inactivity_modal.rs",
+    "line": 207,
+    "occurrences_kind": "literal",
+    "source_hash": "fda7ad4a1f09c37a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/sharer/inactivity_modal.rs",
+        "line": 207,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FW2EBVQYTNHJSGBH3",
+    "source": "Sharing will end in {}:{:02} due to inactivity.",
+    "file": "app/src/terminal/view/shared_session/sharer/inactivity_modal.rs",
+    "line": 151,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5b7729bb777214e9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/shared_session/sharer/inactivity_modal.rs",
+        "line": 151,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C06YSWGK6F5Z78E54",
+    "source": "How long after closing a tab you can still undo the close.",
+    "file": "app/src/undo_close/settings.rs",
+    "line": 24,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b03617900344a82c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/undo_close/settings.rs",
+        "line": 24,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HFJR58FXCTEVWJGRZ",
+    "source": "Whether the undo close feature is enabled.",
+    "file": "app/src/undo_close/settings.rs",
+    "line": 15,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1edb7e4f7a56e899",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/undo_close/settings.rs",
+        "line": 15,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CYM2MJRM5035A4M5V",
+    "source": "Get-Content -Wait -Tail 10 -Path \"{}\"",
+    "file": "app/src/workflows/local_workflows.rs",
+    "line": 206,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e8899e45f61b0132",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/local_workflows.rs",
+        "line": 206,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GCKRTXM1RF02JMQ37",
+    "source": "Tail prompt chip log",
+    "file": "app/src/workflows/local_workflows.rs",
+    "line": 218,
+    "occurrences_kind": "literal",
+    "source_hash": "79a37bc0466cec2e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/local_workflows.rs",
+        "line": 218,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JS8DHV9570N6N9P6X",
+    "source": "Workflows should exist; they were just inserted",
+    "file": "app/src/workflows/local_workflows.rs",
+    "line": 110,
+    "occurrences_kind": "literal",
+    "source_hash": "83b345e51a43c9ab",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workflows/local_workflows.rs",
+        "line": 110,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12ARW5307ZQCEF08AH5",
+    "source": "Create your first tab config",
+    "file": "app/src/workspace/hoa_onboarding/tab_config_step.rs",
+    "line": 59,
+    "occurrences_kind": "literal",
+    "source_hash": "f0963013c9a47181",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/hoa_onboarding/tab_config_step.rs",
+        "line": 59,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FBRN47WEMHTWYV8SE",
+    "source": "Set up a reusable starting point for your tabs. Pick a repo, choose a session type, and optionally attach a worktree. Use it whenever you want to open a tab with this setup.",
+    "file": "app/src/workspace/hoa_onboarding/tab_config_step.rs",
+    "line": 68,
+    "occurrences_kind": "literal",
+    "source_hash": "bad1ec8ea07bd71e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/hoa_onboarding/tab_config_step.rs",
+        "line": 68,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FNJVV449KX7AAV4GZ",
+    "source": "Screenshot region must have positive width (bottom_right.x {} must be > top_left.x {})",
+    "file": "crates/computer_use/src/lib.rs",
+    "line": 152,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4b0d254eca381f1f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/lib.rs",
+        "line": 152,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FR7DVNVJ1G497TGT6",
+    "source": "Screenshot region top_left must be non-negative, got ({}, {})",
+    "file": "crates/computer_use/src/lib.rs",
+    "line": 145,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8772053792144459",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/lib.rs",
+        "line": 145,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FZKBB6D8TA7Y0MQW6",
+    "source": "Screenshot region must have positive height (bottom_right.y {} must be > top_left.y {})",
+    "file": "crates/computer_use/src/lib.rs",
+    "line": 159,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "321a2f933faafe5e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/lib.rs",
+        "line": 159,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129WAGVH913AV9AD1FQ",
+    "source": "At least one selection style should exist",
+    "file": "crates/editor/src/content/selection_model.rs",
+    "line": 258,
+    "occurrences_kind": "literal",
+    "source_hash": "0890d57d37f01d7c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/selection_model.rs",
+        "line": 258,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FBF63YM5GVJ38YKCZ",
+    "source": "Should have more than 1 element",
+    "file": "crates/editor/src/content/selection_model.rs",
+    "line": 109,
+    "occurrences_kind": "literal",
+    "source_hash": "f984a750b86931fd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/editor/src/content/selection_model.rs",
+        "line": 109,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DGBYZ46S888KT813S",
+    "source": "Noto Sans",
+    "file": "crates/onboarding/examples/callout.rs",
+    "line": 41,
+    "occurrences_kind": "literal",
+    "source_hash": "e42550ccd0b1c014",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/examples/callout.rs",
+        "line": 41,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/ui_components/examples/library.rs",
+        "line": 54,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DQ3G4AKMN688Y2AY1",
+    "source": "Onboarding Example",
+    "file": "crates/onboarding/examples/callout.rs",
+    "line": 149,
+    "occurrences_kind": "literal",
+    "source_hash": "16e80645ad7c6c96",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/examples/callout.rs",
+        "line": 149,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JEZNRN95XMZ7TMCX2",
+    "source": "Your terminal input can detect natural language as well as commands.",
+    "file": "crates/onboarding/examples/callout.rs",
+    "line": 85,
+    "occurrences_kind": "literal",
+    "source_hash": "da334fbc1069f04b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/onboarding/examples/callout.rs",
+        "line": 85,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F671FW418CP19AYDW",
+    "source": "SettingsValue derive only supports structs with named fields or newtype structs",
+    "file": "crates/settings_value_derive/src/lib.rs",
+    "line": 238,
+    "occurrences_kind": "literal",
+    "source_hash": "5de04f5600c0e545",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/settings_value_derive/src/lib.rs",
+        "line": 238,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F7XMFZCXF1TZR225X",
+    "source": "SettingsValue cannot be derived for unions",
+    "file": "crates/settings_value_derive/src/lib.rs",
+    "line": 247,
+    "occurrences_kind": "literal",
+    "source_hash": "b79279a788923c10",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/settings_value_derive/src/lib.rs",
+        "line": 247,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12F40PKJFP7Z7S6C8DX",
+    "source": "Save Value",
+    "file": "crates/warpui/examples/autotracking/root_view.rs",
+    "line": 208,
+    "occurrences_kind": "literal",
+    "source_hash": "b6d9548140e002a2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/autotracking/root_view.rs",
+        "line": 208,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12G7B4G7SMTN65B4YNG",
+    "source": "Toggle Dark Mode",
+    "file": "crates/warpui/examples/autotracking/root_view.rs",
+    "line": 194,
+    "occurrences_kind": "literal",
+    "source_hash": "6ace13689a037196",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/examples/autotracking/root_view.rs",
+        "line": 194,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129WNMG7FTA2RQPEXGW",
+    "source": "Apple Symbols",
+    "file": "crates/warpui/src/platform/mac/fonts.rs",
+    "line": 336,
+    "occurrences_kind": "literal",
+    "source_hash": "1f6eb6e3e72066b5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/fonts.rs",
+        "line": 336,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B3QWF9B0QBK7D6YJH",
+    "source": "FamilyId must correspond to a valid family",
+    "file": "crates/warpui/src/platform/mac/fonts.rs",
+    "line": 404,
+    "occurrences_kind": "literal",
+    "source_hash": "342cb9cddf0e4aa4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/fonts.rs",
+        "line": 404,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CKHKHS4D7MABGXRRT",
+    "source": "Font fallback should not be empty",
+    "file": "crates/warpui/src/platform/mac/fonts.rs",
+    "line": 283,
+    "occurrences_kind": "literal",
+    "source_hash": "40b4dccae2b846c1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/fonts.rs",
+        "line": 283,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DTRGC7N45E4VSEHMX",
+    "source": "Mutex is not poisoned.",
+    "file": "crates/warpui_core/src/elements/selectable_area.rs",
+    "line": 207,
+    "occurrences_kind": "literal",
+    "source_hash": "77a58dcbf2e3eed7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 207,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 213,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FFPGVNHNX7NW2KHH2",
+    "source": "Should not be poisoned.",
+    "file": "crates/warpui_core/src/elements/selectable_area.rs",
+    "line": 189,
+    "occurrences_kind": "literal",
+    "source_hash": "1237f24f5a47166e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 6,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 189,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 200,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 300,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 422,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 550,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui_core/src/elements/selectable_area.rs",
+        "line": 735,
+        "kind": "literal"
+      }
+    ]
+  }
+]
