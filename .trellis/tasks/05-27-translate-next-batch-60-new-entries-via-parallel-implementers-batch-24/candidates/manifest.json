@@ -1,0 +1,165 @@
+{
+  "num_batches": 8,
+  "target_total": 600,
+  "total": 60,
+  "status_filter": "new",
+  "strings_path": "<HOME>/Documents/Codes/warp_translation/translations/strings.json",
+  "batches": [
+    {
+      "letter": "A",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/code_review/diff_state/remote.rs",
+          "count": 7
+        },
+        {
+          "path": "app/src/terminal/event.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/code/view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/drive/sharing/dialog/mod.rs",
+          "count": 6
+        },
+        {
+          "path": "app/src/workspace/view.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/code_review/comments/diff_hunk_parser.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/notebooks/file/mod.rs",
+          "count": 6
+        },
+        {
+          "path": "app/src/workspace/view/vertical_tabs.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/code_review/telemetry_event.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/input/models/data_source.rs",
+          "count": 4
+        },
+        {
+          "path": "crates/remote_server/src/client/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/warpui/src/rendering/wgpu/resources.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "E",
+      "count": 7,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/handoff/snapshot.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/execution_profiles/editor/ui_helpers.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/notebooks/editor/notebook_command.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/model/secrets.rs",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "count": 7,
+      "files": [
+        {
+          "path": "app/src/ai/execution_profiles/mod.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/ai_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/teams_page.rs",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "letter": "G",
+      "count": 7,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/code/footer.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/drive/cloud_action_confirmation_dialog.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/execution_profile_view.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "H",
+      "count": 7,
+      "files": [
+        {
+          "path": "app/src/code/local_code_editor.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/features_page.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/settings_view/platform_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/tab.rs",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

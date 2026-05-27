@@ -1,0 +1,126 @@
+[
+  {
+    "id": "01KSMD6WFZ84X1V8E9CBPD72MS",
+    "source": "Remote host disconnected. You will not be able to see updates and save changes.",
+    "file": "app/src/code/local_code_editor.rs",
+    "line": 2484,
+    "occurrences_kind": "literal",
+    "source_hash": "fd9a20ae4340395d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/local_code_editor.rs",
+        "line": 2484,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6M4QTT1XGV55MW792JK2",
+    "source": "Asynchronous find",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7306,
+    "occurrences_kind": "literal",
+    "source_hash": "44c5704707220cdf",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 7306,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD724G1V6EMRJE2NAPMRPY",
+    "source": "Use an improved implementation of find to keep the UI responsive while searching for matches on large outputs.",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7342,
+    "occurrences_kind": "literal",
+    "source_hash": "8c23c8a9659e1c89",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 7342,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/settings.rs",
+        "line": 147,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD72AP6R5M0HWV6MD48632",
+    "source": "async asynchronous fast find search",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 7288,
+    "occurrences_kind": "literal",
+    "source_hash": "2be98ca72b15703e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 7288,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD70V72B7HPHCRXBEK2E08",
+    "source": "Search API keys",
+    "file": "app/src/settings_view/platform_page.rs",
+    "line": 174,
+    "occurrences_kind": "literal",
+    "source_hash": "b49d0138f281f9f0",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/platform_page.rs",
+        "line": 174,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6TD7C53JDXPS87ATKNCF",
+    "source": "Move to group",
+    "file": "app/src/tab.rs",
+    "line": 540,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f1c038660cfb46e0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 540,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6TKKD58P42QHRQXMSR6V",
+    "source": "New group with tab",
+    "file": "app/src/tab.rs",
+    "line": 539,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7428a85cfcb0897d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/tab.rs",
+        "line": 539,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "01KSMD6R1R0NZSD1RMFT1B6TEG",
+    "source": "Give the Agent full autonomy to use computer use tools without approval.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 123,
+    "occurrences_kind": "literal",
+    "source_hash": "cee483f892a701a4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/execution_profiles/mod.rs",
+        "line": 123,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD70BX2AHVGR4PY6S7XCWR",
+    "source": "Require explicit approval before the Agent uses computer use tools.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 120,
+    "occurrences_kind": "literal",
+    "source_hash": "cdeaf909ef9f4939",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/execution_profiles/mod.rs",
+        "line": 120,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD719ZAFKWATN1WSKM0BQ0",
+    "source": "The Agent cannot run child agents and the run_agents tool will not be available.",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 193,
+    "occurrences_kind": "literal",
+    "source_hash": "c2cedfa6eda7ae57",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/execution_profiles/mod.rs",
+        "line": 193,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6NZ22R71PW5DABWZCFJJ",
+    "source": "Custom endpoints",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 7391,
+    "occurrences_kind": "literal",
+    "source_hash": "693550d6426cdcaf",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 7391,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6JWV0GHKMKJ5R25KBW08",
+    "source": " for a higher team member limit.",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2140,
+    "occurrences_kind": "literal",
+    "source_hash": "75f91d45f038d4f3",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2140,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6K83NT1Q79YPJDZ5B3G1",
+    "source": " for an unlimited team member limit.",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2137,
+    "occurrences_kind": "literal",
+    "source_hash": "986c35a9623d87de",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2137,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6TGBZ4GKGP0H8NJPXH1N",
+    "source": "Need more seats? ",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 3033,
+    "occurrences_kind": "literal",
+    "source_hash": "8bae08099399bea5",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 3033,
+        "kind": "literal"
+      }
+    ]
+  }
+]

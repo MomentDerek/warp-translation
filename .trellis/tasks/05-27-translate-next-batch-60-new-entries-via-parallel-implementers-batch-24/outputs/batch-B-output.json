@@ -1,0 +1,15 @@
+{
+  "translations": {
+    "01KSMD6N1X00ZZH4NYZRK7S47E": "无法保存——远程会话已断开连接。",
+    "01KSMD6PB5AGV8Q6ECRD3FJVP1": "下载二维码",
+    "01KSMD6W01QK2MD6RQ8P679FNZ": "二维码已下载。",
+    "01KSMD7110MW794EQM3HPEHGF2": "分享会话二维码",
+    "01KSMD712GRS49GS97QDHSQRX0": "显示二维码",
+    "01KSMD71VGB96FS449J4KSNBZC": "无法为此会话链接创建二维码。",
+    "01KSMD71XJFHN2061ZP29E48YM": "无法下载二维码。",
+    "01KSMD6TP0AFTV8AQ1Z7THQ1XB": "新建标签组"
+  },
+  "do_not_translate_subflags": {},
+  "bilingual_search_terms_ids": [],
+  "notes": "app/src/code/view.rs:941 — error toast (DismissibleToast::error) on remote save failure; UI, translated; em-dash kept as ——. app/src/drive/sharing/dialog/mod.rs — all QR-related literals are user-facing: 2683 footer icon-button label, 2488 success toast, 2607 dialog title span, 2791 footer icon-button label, 2706 paragraph fallback text, 2450/2460/2492 error toast (single id, 3 occurrences). 'QR code' translated to 二维码 (not a brand). app/src/workspace/view.rs:6361 — MenuItemFields label 'New tab group', UI menu item, translated as 新建标签组."
+}

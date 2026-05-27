@@ -1,0 +1,138 @@
+[
+  {
+    "id": "01KSMD6PJVD4TGYMHC97Z8D6WG",
+    "source": "Empty diff hunk",
+    "file": "app/src/code_review/comments/diff_hunk_parser.rs",
+    "line": 23,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c8e256b6e2378b2b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/comments/diff_hunk_parser.rs",
+        "line": 23,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6PTRNVTD7584XY19A060",
+    "source": "Failed to read remote markdown file",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 661,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3314719ad4744a72",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 661,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6Q5EEYCRVHP5B17RDQCX",
+    "source": "Failed to read remote markdown file: {error_msg}",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 662,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1d63afc0950893a1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 662,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6V4W1M1Q57VJMCAZGZK6",
+    "source": "No remote server client for host when opening markdown file",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 611,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7c13b5283c936bb1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 611,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6VGQR03Y4YB5TP7NPQYR",
+    "source": "No remote server client for host {host_id:?} when opening markdown file",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 612,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "200e9d21fb1a4e17",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 612,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6WNQQMT1DNV1HNG4WSJ7",
+    "source": "Remote server error reading markdown file",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 673,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5d48231d512e0a3a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 673,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6WWDDA0PBE36NEX8VK68",
+    "source": "Remote server error reading markdown file: {err}",
+    "file": "app/src/notebooks/file/mod.rs",
+    "line": 674,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "096a57fd83915fb4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/file/mod.rs",
+        "line": 674,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6VT9NZBV14HT0XNZ4M53",
+    "source": "No tabs match your search.",
+    "file": "app/src/workspace/view/vertical_tabs.rs",
+    "line": 1704,
+    "occurrences_kind": "literal",
+    "source_hash": "62c27b6c4621aa50",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/vertical_tabs.rs",
+        "line": 1704,
+        "kind": "literal"
+      }
+    ]
+  }
+]

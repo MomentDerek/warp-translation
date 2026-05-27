@@ -1,0 +1,138 @@
+[
+  {
+    "id": "01KSMD6Y0ZTDDCN54D4Z430FSH",
+    "source": "RemoteDiffStateModel: failed to decode diff state file delta",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 271,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1a7a375c470b8abd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 271,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6YAD0WSDRGMZM53D9Y9P",
+    "source": "RemoteDiffStateModel: failed to decode diff state file delta: {error}",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 272,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "df14894ba97c1791",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 272,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6YK9CTF5DXD8VHTV24R4",
+    "source": "RemoteDiffStateModel: failed to decode diff state metadata update",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 253,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "367f6ed8033e0095",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 253,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6YXD2JA1E7D1MTKZRYHB",
+    "source": "RemoteDiffStateModel: failed to decode diff state metadata update: {error}",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 254,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4ef32853ef4d2d4d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 254,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6Z5C22M4NABKVQN9KJG4",
+    "source": "RemoteDiffStateModel: failed to decode diff state snapshot",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 231,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "219f322cfbd7963d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 231,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6ZEHS1VTVMCR740ZZGT4",
+    "source": "RemoteDiffStateModel: failed to decode diff state snapshot: {error}",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 232,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "15579a4737b889be",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 232,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD70YE4JEBK051A7NS6NMA",
+    "source": "Server reported diff error",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 345,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4766710cbd487b20",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/diff_state/remote.rs",
+        "line": 345,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6MP8EPHHKNKKJ31QC2GG",
+    "source": "BlockWorkingDirectoryUpdated({:?}, Done bootstrapping: {:?})",
+    "file": "app/src/terminal/event.rs",
+    "line": 441,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "da86b8da776de82d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/event.rs",
+        "line": 441,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

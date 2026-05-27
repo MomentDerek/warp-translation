@@ -1,0 +1,23 @@
+{
+  "translations": {
+    "01KSMD6PJVD4TGYMHC97Z8D6WG": null,
+    "01KSMD6PTRNVTD7584XY19A060": null,
+    "01KSMD6Q5EEYCRVHP5B17RDQCX": null,
+    "01KSMD6V4W1M1Q57VJMCAZGZK6": null,
+    "01KSMD6VGQR03Y4YB5TP7NPQYR": null,
+    "01KSMD6WNQQMT1DNV1HNG4WSJ7": null,
+    "01KSMD6WWDDA0PBE36NEX8VK68": null,
+    "01KSMD6VT9NZBV14HT0XNZ4M53": "没有标签页匹配您的搜索。"
+  },
+  "do_not_translate_subflags": {
+    "01KSMD6PJVD4TGYMHC97Z8D6WG": ["telemetry_payload"],
+    "01KSMD6PTRNVTD7584XY19A060": ["telemetry_payload"],
+    "01KSMD6Q5EEYCRVHP5B17RDQCX": ["telemetry_payload"],
+    "01KSMD6V4W1M1Q57VJMCAZGZK6": ["telemetry_payload"],
+    "01KSMD6VGQR03Y4YB5TP7NPQYR": ["telemetry_payload"],
+    "01KSMD6WNQQMT1DNV1HNG4WSJ7": ["telemetry_payload"],
+    "01KSMD6WWDDA0PBE36NEX8VK68": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "diff_hunk_parser.rs:23 'Empty diff hunk' — Display impl for DiffHunkParseError enum (write!(f,...)); sibling variants are developer diagnostics ('Invalid header', 'Unexpected hunk header at line index'). Error-display/log payload, not rendered UI -> telemetry_payload. notebooks/file/mod.rs lines 611/612/661/662/673/674 — all six are args to safe_warn! macro (safe:/full: pairs) which expands to log::warn! (crates/warp_core/src/safe_log.rs:23); pure logging sink, no UI render -> telemetry_payload. Placeholders {error_msg}/{err}/{host_id:?} would have been preserved had they been translated. vertical_tabs.rs:1704 'No tabs match your search.' — rendered via Text::new_inline in the vertical tabs panel empty-search state; genuine UI -> translated with full-width period and formal 您."
+}

@@ -1,0 +1,14 @@
+{
+  "translations": {
+    "01KSMD6WFZ84X1V8E9CBPD72MS": "远程主机已断开连接。您将无法看到更新或保存更改。",
+    "01KSMD6M4QTT1XGV55MW792JK2": "异步查找",
+    "01KSMD724G1V6EMRJE2NAPMRPY": "使用改进的查找实现，在大量输出中搜索匹配项时保持界面响应流畅。",
+    "01KSMD72AP6R5M0HWV6MD48632": "async asynchronous fast find search 异步 快速 查找 搜索",
+    "01KSMD70V72B7HPHCRXBEK2E08": "搜索 API 密钥",
+    "01KSMD6TD7C53JDXPS87ATKNCF": "移动到分组",
+    "01KSMD6TKKD58P42QHRQXMSR6V": "新建分组并加入标签页"
+  },
+  "do_not_translate_subflags": {},
+  "bilingual_search_terms_ids": ["01KSMD72AP6R5M0HWV6MD48632"],
+  "notes": "local_code_editor.rs:2484 Text::new UI banner -> translated. features_page.rs AsyncFindWidget: line 7306 render_body_item_label setting title 'Asynchronous find' -> translated; line 7342 build_toggle_element description (second occurrence terminal/settings.rs:147 macro_arg is same setting copy) -> translated; line 7288 fn search_terms() keyword string -> bilingual append (English keywords preserved verbatim + Chinese, space-separated, lowercase, no punctuation). platform_page.rs:174 set_placeholder_text 'Search API keys' editor placeholder -> translated, API kept English brand. tab.rs:539/540 MenuItemFields menu items -> translated."
+}

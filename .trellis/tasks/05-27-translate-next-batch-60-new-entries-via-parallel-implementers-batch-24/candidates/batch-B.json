@@ -1,0 +1,148 @@
+[
+  {
+    "id": "01KSMD6N1X00ZZH4NYZRK7S47E",
+    "source": "Cannot save — remote session disconnected.",
+    "file": "app/src/code/view.rs",
+    "line": 941,
+    "occurrences_kind": "literal",
+    "source_hash": "96b1ba535d9b924a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/view.rs",
+        "line": 941,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6PB5AGV8Q6ECRD3FJVP1",
+    "source": "Download QR code",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2683,
+    "occurrences_kind": "literal",
+    "source_hash": "41ac000a0c494249",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2683,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6W01QK2MD6RQ8P679FNZ",
+    "source": "QR code downloaded.",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2488,
+    "occurrences_kind": "literal",
+    "source_hash": "4fb19e5e43812364",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2488,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD7110MW794EQM3HPEHGF2",
+    "source": "Share session QR code",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2607,
+    "occurrences_kind": "literal",
+    "source_hash": "3e6a88aad332f333",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2607,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD712GRS49GS97QDHSQRX0",
+    "source": "Show QR code",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2791,
+    "occurrences_kind": "literal",
+    "source_hash": "f5cb68c3d7941f7c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2791,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD71VGB96FS449J4KSNBZC",
+    "source": "Unable to create QR code for this session link.",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2706,
+    "occurrences_kind": "literal",
+    "source_hash": "982054fc69c61fb3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2706,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD71XJFHN2061ZP29E48YM",
+    "source": "Unable to download QR code.",
+    "file": "app/src/drive/sharing/dialog/mod.rs",
+    "line": 2450,
+    "occurrences_kind": "literal",
+    "source_hash": "a8e29d30699b63e6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2450,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2460,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/drive/sharing/dialog/mod.rs",
+        "line": 2492,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6TP0AFTV8AQ1Z7THQ1XB",
+    "source": "New tab group",
+    "file": "app/src/workspace/view.rs",
+    "line": 6361,
+    "occurrences_kind": "literal",
+    "source_hash": "1a740c40c607dd43",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 6361,
+        "kind": "literal"
+      }
+    ]
+  }
+]

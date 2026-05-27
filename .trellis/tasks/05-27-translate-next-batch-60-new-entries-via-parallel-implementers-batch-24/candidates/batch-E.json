@@ -1,0 +1,121 @@
+[
+  {
+    "id": "01KSMD6W4WBG05F4EENHJJHT6V",
+    "source": "Remote handoff snapshot RPC failed",
+    "file": "app/src/ai/blocklist/handoff/snapshot.rs",
+    "line": 162,
+    "occurrences_kind": "literal",
+    "source_hash": "c5cd6d83830f15ff",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/handoff/snapshot.rs",
+        "line": 162,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD70GQ5HHG7N6TXW2NCBWQ",
+    "source": "Run orchestrated agents",
+    "file": "app/src/ai/execution_profiles/editor/ui_helpers.rs",
+    "line": 551,
+    "occurrences_kind": "literal",
+    "source_hash": "38f378497226a9e7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/execution_profiles/editor/ui_helpers.rs",
+        "line": 551,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6VX1GS10N706A2ZTF72Y",
+    "source": "Open full screen",
+    "file": "app/src/notebooks/editor/notebook_command.rs",
+    "line": 740,
+    "occurrences_kind": "literal",
+    "source_hash": "bef3526c2315ce9c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/notebooks/editor/notebook_command.rs",
+        "line": 740,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6GT0ZFK23906W07TSS6D",
+    "source": " The information needed to search for secrets in strings or terminal grids.",
+    "file": "app/src/terminal/model/secrets.rs",
+    "line": 46,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "10f27c65f18589f7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/secrets.rs",
+        "line": 46,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6HP654XQKQX2CS5C8C1B",
+    "source": " These are initially empty, and will be populated with regexes when safe mode is enabled.",
+    "file": "app/src/terminal/model/secrets.rs",
+    "line": 48,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0a56acb2bd4e471b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/secrets.rs",
+        "line": 48,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6JJV8RQRJVGR21CHXKG4",
+    "source": " This is wrapped in an Arc so that readers can clone it cheaply to keep the critical section",
+    "file": "app/src/terminal/model/secrets.rs",
+    "line": 50,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b9b21f22b3ae1ef3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/secrets.rs",
+        "line": 50,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6KJQZW7ARS22V37P3G0X",
+    "source": " on any users of the old patterns.",
+    "file": "app/src/terminal/model/secrets.rs",
+    "line": 52,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "84d18cc3a021755f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/model/secrets.rs",
+        "line": 52,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

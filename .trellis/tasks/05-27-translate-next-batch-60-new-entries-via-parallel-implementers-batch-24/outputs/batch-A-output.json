@@ -1,0 +1,24 @@
+{
+  "translations": {
+    "01KSMD6Y0ZTDDCN54D4Z430FSH": null,
+    "01KSMD6YAD0WSDRGMZM53D9Y9P": null,
+    "01KSMD6YK9CTF5DXD8VHTV24R4": null,
+    "01KSMD6YXD2JA1E7D1MTKZRYHB": null,
+    "01KSMD6Z5C22M4NABKVQN9KJG4": null,
+    "01KSMD6ZEHS1VTVMCR740ZZGT4": null,
+    "01KSMD70YE4JEBK051A7NS6NMA": null,
+    "01KSMD6MP8EPHHKNKKJ31QC2GG": null
+  },
+  "do_not_translate_subflags": {
+    "01KSMD6Y0ZTDDCN54D4Z430FSH": ["telemetry_payload"],
+    "01KSMD6YAD0WSDRGMZM53D9Y9P": ["telemetry_payload"],
+    "01KSMD6YK9CTF5DXD8VHTV24R4": ["telemetry_payload"],
+    "01KSMD6YXD2JA1E7D1MTKZRYHB": ["telemetry_payload"],
+    "01KSMD6Z5C22M4NABKVQN9KJG4": ["telemetry_payload"],
+    "01KSMD6ZEHS1VTVMCR740ZZGT4": ["telemetry_payload"],
+    "01KSMD70YE4JEBK051A7NS6NMA": ["telemetry_payload"],
+    "01KSMD6MP8EPHHKNKKJ31QC2GG": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "remote.rs (code_review/diff_state): six 'safe:'/'full:' literals (lines 231/232/253/254/271/272) are arguments to warp_core::safe_error! — an error-logging/telemetry macro, not a UI surface; flag telemetry_payload. Line 345 'Server reported diff error' is the `error:` field of CodeReviewTelemetryEvent::LoadDiffFailed sent via send_telemetry_from_ctx! — telemetry dimension value, flag telemetry_payload. event.rs:441 'BlockWorkingDirectoryUpdated({:?}, Done bootstrapping: {:?})' is a Debug-impl write!(f, ...) format string for Event — developer diagnostic logging, not user-facing; flag telemetry_payload (placeholders {:?} would be preserved anyway, but no translation per §11)."
+}

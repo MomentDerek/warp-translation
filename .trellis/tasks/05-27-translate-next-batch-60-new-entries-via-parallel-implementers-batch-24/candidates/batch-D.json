@@ -1,0 +1,138 @@
+[
+  {
+    "id": "01KSMD6P71XSAPQ3MV12AA45GJ",
+    "source": "Diff content loaded successfully",
+    "file": "app/src/code_review/telemetry_event.rs",
+    "line": 572,
+    "occurrences_kind": "literal",
+    "source_hash": "d81fd36d170ce027",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/telemetry_event.rs",
+        "line": 572,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6S9CJ0YK09B532P260AR",
+    "source": "Inference may use Bedrock",
+    "file": "app/src/terminal/input/models/data_source.rs",
+    "line": 518,
+    "occurrences_kind": "literal",
+    "source_hash": "4edee2ee635e46a9",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/models/data_source.rs",
+        "line": 518,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6SDJ0KRV9P39CP0PVTY3",
+    "source": "Inference via API key",
+    "file": "app/src/terminal/input/models/data_source.rs",
+    "line": 522,
+    "occurrences_kind": "literal",
+    "source_hash": "ddbf876194e98938",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/models/data_source.rs",
+        "line": 522,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6SHRGMFWNENGS7H59NZP",
+    "source": "Inference via Bedrock",
+    "file": "app/src/terminal/input/models/data_source.rs",
+    "line": 520,
+    "occurrences_kind": "literal",
+    "source_hash": "e8f9bc08fc51ba50",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/models/data_source.rs",
+        "line": 520,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD729NS2GDE6VA2A2EFE29",
+    "source": "Warp uses Bedrock when the model Auto selects supports it; otherwise it may use Warp-hosted inference.",
+    "file": "app/src/terminal/input/models/data_source.rs",
+    "line": 46,
+    "occurrences_kind": "literal",
+    "source_hash": "70f3e339a34f165d",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/models/data_source.rs",
+        "line": 46,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6X4MP165RCKJ6JFSPTEP",
+    "source": "Remote server unexpected response for UploadHandoffSnapshot",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1177,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7a617c60c3e63047",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 1177,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6XRQX6N1XR2YRYTSNS8C",
+    "source": "Remote server unexpected response for WriteFile: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 673,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "103c9c30a18bd26f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 673,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6T5BHF3QD0E9BCPGGK58",
+    "source": "Intel(R) UHD Graphics 620",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 498,
+    "occurrences_kind": "literal",
+    "source_hash": "f3e424d46941cf19",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+        "line": 498,
+        "kind": "literal"
+      }
+    ]
+  }
+]

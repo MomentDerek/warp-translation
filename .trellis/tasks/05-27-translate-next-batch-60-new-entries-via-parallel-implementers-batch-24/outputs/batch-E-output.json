@@ -1,0 +1,20 @@
+{
+  "translations": {
+    "01KSMD6W4WBG05F4EENHJJHT6V": null,
+    "01KSMD70GQ5HHG7N6TXW2NCBWQ": "运行编排的 Agent",
+    "01KSMD6VX1GS10N706A2ZTF72Y": "全屏打开",
+    "01KSMD6GT0ZFK23906W07TSS6D": null,
+    "01KSMD6HP654XQKQX2CS5C8C1B": null,
+    "01KSMD6JJV8RQRJVGR21CHXKG4": null,
+    "01KSMD6KJQZW7ARS22V37P3G0X": null
+  },
+  "do_not_translate_subflags": {
+    "01KSMD6W4WBG05F4EENHJJHT6V": ["telemetry_payload"],
+    "01KSMD6GT0ZFK23906W07TSS6D": ["extractor_false_positive_doc_comment"],
+    "01KSMD6HP654XQKQX2CS5C8C1B": ["extractor_false_positive_doc_comment"],
+    "01KSMD6JJV8RQRJVGR21CHXKG4": ["extractor_false_positive_doc_comment"],
+    "01KSMD6KJQZW7ARS22V37P3G0X": ["extractor_false_positive_doc_comment"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "snapshot.rs:162 — 'Remote handoff snapshot RPC failed' is an anyhow .context() string attached to an Err on a remote RPC failure; it surfaces in error logs/diagnostics, not UI -> telemetry_payload, target null. ui_helpers.rs:551 — 'Run orchestrated agents' is the label arg of render_permission_row (a settings/permission row UI), sibling to 'Ask questions'/'Call MCP servers' -> UI, translated; 'Agent' kept English per glossary, pluralized as Agent. notebook_command.rs:740 — 'Open full screen' is the label of a block_footer_action_button (Maximize icon) that opens a lightbox -> UI button, translated '全屏打开'. secrets.rs:46/48/50/52 — four /// doc-comment fragments captured inside the lazy_static!{ } macro body for SECRETS_REGEX; not user-facing, extractor scan_macro_tokens false positive -> extractor_false_positive_doc_comment, target null."
+}

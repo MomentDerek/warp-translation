@@ -1,0 +1,20 @@
+{
+  "translations": {
+    "01KSMD6P71XSAPQ3MV12AA45GJ": null,
+    "01KSMD6S9CJ0YK09B532P260AR": "推理可能使用 Bedrock",
+    "01KSMD6SDJ0KRV9P39CP0PVTY3": "通过 API 密钥推理",
+    "01KSMD6SHRGMFWNENGS7H59NZP": "通过 Bedrock 推理",
+    "01KSMD729NS2GDE6VA2A2EFE29": "当 Auto 选择的模型支持时，Warp 会使用 Bedrock；否则可能使用 Warp 托管的推理。",
+    "01KSMD6X4MP165RCKJ6JFSPTEP": null,
+    "01KSMD6XRQX6N1XR2YRYTSNS8C": null,
+    "01KSMD6T5BHF3QD0E9BCPGGK58": null
+  },
+  "do_not_translate_subflags": {
+    "01KSMD6P71XSAPQ3MV12AA45GJ": ["telemetry_payload"],
+    "01KSMD6X4MP165RCKJ6JFSPTEP": ["telemetry_payload"],
+    "01KSMD6XRQX6N1XR2YRYTSNS8C": ["telemetry_payload"],
+    "01KSMD6T5BHF3QD0E9BCPGGK58": ["protocol_key"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "telemetry_event.rs:572 'Diff content loaded successfully' is the return of fn description() -> &'static str for a CodeReview telemetry event enum variant; it labels a telemetry event, never rendered in UI -> telemetry_payload. data_source.rs:517-522 'Inference may use Bedrock'/'Inference via Bedrock'/'Inference via API key' are CostRow::BilledToProvider { label } UI strings shown in the model cost row -> translated; Bedrock kept (AWS service brand), API kept. data_source.rs:46 AUTO_BEDROCK_TOOLTIP feeds CostRowTooltip { text } -> UI tooltip, translated; kept Warp, Bedrock, and Auto (model-selector mode name). remote_server/client/mod.rs:1177 & :673 both literals are the safe: arm of the safe_error! logging macro (error/log sink, not UI); the :673 one carries {other:?} placeholder -> telemetry_payload, untranslated. warpui resources.rs:498 'Intel(R) UHD Graphics 620' is matched via adapter_info.name.contains(...) against the GPU driver-reported adapter name (external identifier) -> protocol_key."
+}

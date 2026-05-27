@@ -1,0 +1,14 @@
+{
+  "translations": {
+    "01KSMD6R1R0NZSD1RMFT1B6TEG": "授予 Agent 完全自主权，无需批准即可使用计算机操作工具。",
+    "01KSMD70BX2AHVGR4PY6S7XCWR": "在 Agent 使用计算机操作工具前需要明确批准。",
+    "01KSMD719ZAFKWATN1WSKM0BQ0": "Agent 无法运行子代理，run_agents 工具将不可用。",
+    "01KSMD6NZ22R71PW5DABWZCFJJ": "自定义端点",
+    "01KSMD6JWV0GHKMKJ5R25KBW08": " ，以提高团队成员数量上限。",
+    "01KSMD6K83NT1Q79YPJDZ5B3G1": " ，以获得无限的团队成员数量上限。",
+    "01KSMD6TGBZ4GKGP0H8NJPXH1N": "需要更多席位？ "
+  },
+  "do_not_translate_subflags": {},
+  "bilingual_search_terms_ids": [],
+  "notes": "execution_profiles/mod.rs: ComputerUsePermission::description() and RunAgentsPermission::description() return &'static str rendered as settings descriptions (UI). All three translated; 'Agent' kept English per glossary, 'run_agents' kept as identifier. ai_page.rs:7391 'Custom endpoints' is a Text::new_inline UI sub-label -> translated. teams_page.rs:2137/2140 are link-copy suffixes appended after an upgrade link (UI); leading ASCII space preserved exactly. teams_page.rs:3033 'Need more seats? ' is render_sub_text prefix before the link (UI); '?' -> full-width '？', trailing ASCII space preserved exactly. No panic/telemetry/doc-comment/search_terms candidates in this batch."
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "01KSMD6NPSQ2AA9T8WR6ZKRZ6C",
+    "source": "Cloud child agents using this harness require an API key before they can run.",
+    "file": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+    "line": 390,
+    "occurrences_kind": "literal",
+    "source_hash": "3bd1af74151c3021",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+        "line": 390,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD70S36TBW9Q6QAEFWJ0ST",
+    "source": "Running child agents is disabled by the active execution profile.",
+    "file": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+    "line": 385,
+    "occurrences_kind": "literal",
+    "source_hash": "93ab90317736452b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+        "line": 385,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6ZJHNCMPKXWFWQZ6RY4W",
+    "source": "Remove server",
+    "file": "app/src/code/footer.rs",
+    "line": 1264,
+    "occurrences_kind": "literal",
+    "source_hash": "357349c91d60edbc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code/footer.rs",
+        "line": 1264,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6KZKDJNC719Q61XETN4G",
+    "source": "Are you sure you want to remove this member?",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 22,
+    "occurrences_kind": "literal",
+    "source_hash": "308e35ff90fb6744",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+        "line": 22,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD6S4CERNMC2FN0XXT2X0P",
+    "source": "If you leave this team, you’ll lose access to any remaining reload credits tied to it. You’ll regain access to any unused, non-expired credits if you rejoin the same team later.",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 26,
+    "occurrences_kind": "literal",
+    "source_hash": "30bbb0b2790d0f16",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+        "line": 26,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD71R1N6ZVMH4ZGFW9HD0N",
+    "source": "This member will lose access to any remaining reload credits tied to this team. If they rejoin later, they’ll regain access to any unused, non-expired credits.",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 27,
+    "occurrences_kind": "literal",
+    "source_hash": "45c1e8a5ef678f65",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+        "line": 27,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KSMD70DK2VR3GMQZXCYB47PA",
+    "source": "Run agents:",
+    "file": "app/src/settings_view/execution_profile_view.rs",
+    "line": 310,
+    "occurrences_kind": "literal",
+    "source_hash": "8f3971b1a32d1089",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/execution_profile_view.rs",
+        "line": 310,
+        "kind": "literal"
+      }
+    ]
+  }
+]

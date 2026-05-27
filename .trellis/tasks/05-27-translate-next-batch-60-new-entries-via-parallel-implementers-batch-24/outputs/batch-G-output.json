@@ -1,0 +1,15 @@
+{
+  "translations": {
+    "01KSMD6NPSQ2AA9T8WR6ZKRZ6C": "云端子 Agent 使用此 harness 需要先提供 API 密钥才能运行。",
+    "01KSMD70S36TBW9Q6QAEFWJ0ST": "当前激活的执行 Profile 已禁用运行子 Agent。",
+    "01KSMD6ZJHNCMPKXWFWQZ6RY4W": "移除服务器",
+    "01KSMD6KZKDJNC719Q61XETN4G": "您确定要移除此成员吗？",
+    "01KSMD6S4CERNMC2FN0XXT2X0P": "如果您离开此团队，将失去对与之关联的所有剩余充值额度的访问权限。若日后您重新加入同一团队，将恢复对所有未使用且未过期额度的访问权限。",
+    "01KSMD71R1N6ZVMH4ZGFW9HD0N": "此成员将失去对与此团队关联的所有剩余充值额度的访问权限。若其日后重新加入，将恢复对所有未使用且未过期额度的访问权限。",
+    "01KSMD70DK2VR3GMQZXCYB47PA": "运行 Agent："
+  },
+  "do_not_translate_subflags": {},
+  "bilingual_search_terms_ids": [],
+  "notes": "run_agents.rs:385,390 — denial reasons flow into RunAgentsResult::Denied { reason } surfaced as user-facing agent action result (not telemetry/log); regular UI text. 'harness' kept English (project term per run_agents harness usage); Agent/Profile/API kept per brand glossary. footer.rs:1264 'Remove server' — render_menu_item label, button register, no trailing punctuation. cloud_action_confirmation_dialog.rs:22 dialog title -> 您…吗？ (interrogative full-width ?). lines 26,27 long description body text, full sentences ending 。 ; 'reload credits' -> 充值额度. execution_profile_view.rs:310 'Run agents:' permission line label with trailing colon -> full-width ：, Agent kept English.",
+  "batch": "G"
+}
