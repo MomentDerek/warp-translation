@@ -7,6 +7,8 @@ tools/target/
 .DS_Store
 *.swp
 *.swo
+.idea/
+.vscode/
 
 # Runtime metadata (per research/translation-table-format.md)
 translations/.lock.json

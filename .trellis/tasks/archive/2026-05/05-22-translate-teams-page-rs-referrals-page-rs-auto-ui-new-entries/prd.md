@@ -93,8 +93,8 @@
 - Glossary: `translations/glossary.json`。
 - Builder: `tools/builder/` → `build/warp-zh/`。
 - 源码上下文:
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/teams_page.rs`（重点 L1924-3186）
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/referrals_page.rs`（重点 L45-467）
+  - `../warp/app/src/settings_view/teams_page.rs`（重点 L1924-3186）
+  - `../warp/app/src/settings_view/referrals_page.rs`（重点 L45-467）
 - 上轮 PRD: `.trellis/tasks/archive/2026-05/05-22-translate-update-environment-form-rs-auto-ui-new-entries/prd.md`。
 - 上轮 apply 脚本参考：`.trellis/tasks/archive/2026-05/05-22-translate-update-environment-form-rs-auto-ui-new-entries/apply_translations.py`。
 - 候选 entry 清单（36 条）：

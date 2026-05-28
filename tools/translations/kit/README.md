@@ -13,7 +13,11 @@ Nothing here is batch-number-specific; per-batch values are passed as arguments.
 |---|---|
 | `build_batch.py` | Pack `status=new` entries into N file-pinned bins. Writes `candidates/batch-*.json`, `candidates/manifest.json`, `research/composition.md`. |
 | `apply_batch.py` | Merge implementer outputs into `translations/strings.json`. Discovers batch letters + expected total automatically. Writes `outputs/apply_summary.json`. |
-| `translate_batch.mjs` | Workflow: N implementers (opus) → apply → check. Fully parameterized via `args`. |
+| `../../../.claude/workflows/translate_batch.mjs` | Claude Code Workflow: N implementers (opus) → apply → check. Fully parameterized via `args`. |
+| `../../../.claude/workflows/sync-upstream-translations.ts` | Claude Code Workflow: pull upstream Warp (ff-only), re-extract, diff `strings.json`, categorize changes, emit a report. |
+
+The Python scripts are standalone (`python3 …`). The two `.mjs/.ts` workflow scripts live under
+`.claude/workflows/` and require [Claude Code](https://claude.com/claude-code) to drive sub-agents.
 
 ## Per-batch run (e.g. batch 21)
 
@@ -35,11 +39,11 @@ and invokes:
 
 ```js
 Workflow({
-  scriptPath: "tools/translations/kit/translate_batch.mjs",
+  scriptPath: ".claude/workflows/translate_batch.mjs",
   args: {
-    taskDir:   "<abs $TASK>",
-    repoRoot:  "<HOME>/Documents/Codes/warp_translation",
-    srcRepo:   "<HOME>/Documents/Codes/warp",
+    taskDir:   "<absolute path to $TASK>",
+    repoRoot:  "<absolute path to this repo>",
+    srcRepo:   "<absolute path to upstream warp clone>",
     batchFlag: "pr-by-file-parallel-batch-21",
     letters:   ["A","B","C","D","E","F","G","H"],   // from manifest.json
     activeTask: "<$TASK>"

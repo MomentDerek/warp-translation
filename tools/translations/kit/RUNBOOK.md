@@ -3,10 +3,12 @@
 End-to-end procedure for running ONE parallel-translation batch (N implementers →
 apply → check → commit → archive). Use this to start every subsequent batch.
 
-The supporting tooling lives next to this file (`tools/translations/kit/`):
-`build_batch.py`, `apply_batch.py`, `translate_batch.mjs`. None of it is
-batch-number-specific — everything is passed at run time. See `README.md` for
-the file reference; this RUNBOOK is the step-by-step.
+The supporting tooling lives in two places:
+- `tools/translations/kit/` — standalone Python: `build_batch.py`, `apply_batch.py`
+- `.claude/workflows/` — Claude Code Workflow scripts: `translate_batch.mjs`, `sync-upstream-translations.ts`
+
+None of it is batch-number-specific — everything is passed at run time. See
+`README.md` for the file reference; this RUNBOOK is the step-by-step.
 
 ---
 
@@ -14,8 +16,8 @@ the file reference; this RUNBOOK is the step-by-step.
 
 | Thing | Value |
 |---|---|
-| Repo root | `<HOME>/Documents/Codes/warp_translation` |
-| Source repo (where `.rs` live) | `<HOME>/Documents/Codes/warp` |
+| Repo root | this repository's absolute path (use `pwd` from the repo root) |
+| Source repo (where `.rs` live) | upstream Warp clone at `../warp` (sibling of this repo) |
 | Translation table | `translations/strings.json` (repo root — NOT `tools/translations/`) |
 | Batch flag pattern | `pr-by-file-parallel-batch-<N>` |
 | Default size | 8 implementers × ~75 entries = ~600 per batch |
@@ -77,11 +79,11 @@ workflow. `letters` is just `manifest.batches[*].letter`.
 
 ```js
 Workflow({
-  scriptPath: "tools/translations/kit/translate_batch.mjs",
+  scriptPath: ".claude/workflows/translate_batch.mjs",
   args: {
     taskDir:   "<absolute $TASK>",
-    repoRoot:  "<HOME>/Documents/Codes/warp_translation",
-    srcRepo:   "<HOME>/Documents/Codes/warp",
+    repoRoot:  "<absolute path to this repo>",   // pwd from repo root
+    srcRepo:   "<absolute path to upstream warp clone>",
     batchFlag: "pr-by-file-parallel-batch-<N>",
     letters:   ["A","B","C","D","E","F","G","H"],
     activeTask: "<$TASK>"            // for the trellis sub-agent dispatch line

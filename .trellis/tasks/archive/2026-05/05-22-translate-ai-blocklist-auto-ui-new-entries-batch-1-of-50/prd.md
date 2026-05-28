@@ -121,14 +121,14 @@
 - Builder: `tools/builder/` → `build/warp-zh/`。
 - Candidates (固化): `.trellis/tasks/05-22-translate-ai-blocklist-auto-ui-new-entries-batch-1-of-50/candidates.json`（51 条）。
 - 源码上下文（9 文件）:
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/agent_view/inline_agent_view_header.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/agent_view/orchestration_pill_bar.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/agent_view/zero_state_block.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/block/view_impl/common.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/block/view_impl/orchestration.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/inline_action/requested_command.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/ai/blocklist/inline_action/orchestration_controls.rs`
+  - `../warp/app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs`
+  - `../warp/app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs`
+  - `../warp/app/src/ai/blocklist/agent_view/inline_agent_view_header.rs`
+  - `../warp/app/src/ai/blocklist/agent_view/orchestration_pill_bar.rs`
+  - `../warp/app/src/ai/blocklist/agent_view/zero_state_block.rs`
+  - `../warp/app/src/ai/blocklist/block/view_impl/common.rs`
+  - `../warp/app/src/ai/blocklist/block/view_impl/orchestration.rs`
+  - `../warp/app/src/ai/blocklist/inline_action/requested_command.rs`
+  - `../warp/app/src/ai/blocklist/inline_action/orchestration_controls.rs`
 - 上轮 PRD: `.trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-remaining-files-auto-ui-new-entries-edit-update-installation-destructive-page/prd.md`。
 - 上轮 apply 脚本: `.trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-remaining-files-auto-ui-new-entries-edit-update-installation-destructive-page/apply_translations.py`。

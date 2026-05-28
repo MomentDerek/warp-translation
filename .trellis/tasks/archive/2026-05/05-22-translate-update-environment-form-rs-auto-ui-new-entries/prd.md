@@ -86,7 +86,7 @@
 - Source-of-truth: `translations/strings.json`。
 - Glossary: `translations/glossary.json`。
 - Builder: `tools/builder/` → `build/warp-zh/`。
-- 源码上下文: `<HOME>/Documents/Codes/warp/app/src/settings_view/update_environment_form.rs`（重点 L44-3300）。
+- 源码上下文: `../warp/app/src/settings_view/update_environment_form.rs`（重点 L44-3300）。
 - 上轮 PRD: `.trellis/tasks/archive/2026-05/05-21-translate-environments-page-rs-auto-ui-new-entries/prd.md`。
 - 上轮 apply 脚本参考：`.trellis/tasks/archive/2026-05/05-21-translate-environments-page-rs-auto-ui-new-entries/apply_translations.py`。
 - 候选 entry 清单（30 条，按行号排序）：L44, L120, L265, L267, L271, L280, L283, L287, L369, L370, L371, L1362, L1562, L1575, L1589, L1657, L1694, L1740, L1866, L2119, L2167, L2476, L2502, L2520, L2689, L2974, L3100, L3103, L3230, L3265。

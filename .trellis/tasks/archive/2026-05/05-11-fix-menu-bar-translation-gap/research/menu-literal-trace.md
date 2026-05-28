@@ -133,13 +133,13 @@ The Help-menu "GitHub Issues..." string is a different pattern (positional `&'st
 
 ## Files inspected
 
-- <HOME>/Documents/Codes/warp/app/src/app_menus.rs (lines 75-932)
-- <HOME>/Documents/Codes/warp/app/src/util/bindings.rs (lines 1-470)
-- <HOME>/Documents/Codes/warp/app/src/workspace/mod.rs (lines 155-1010)
-- <HOME>/Documents/Codes/warp/app/src/terminal/view/init.rs (lines 388-710)
-- <HOME>/Documents/Codes/warp/app/src/editor/view/mod.rs (lines 590-970)
-- <HOME>/Documents/Codes/warp/app/src/pane_group/pane/view/mod.rs (lines 35-50)
-- <HOME>/Documents/Codes/warp/app/src/terminal/input.rs (lines 1855-1880)
-- <HOME>/Documents/Codes/warp/app/src/voltron.rs (lines 85-100)
-- <HOME>/Documents/Codes/warp/crates/warpui_core/src/core/app.rs (lines 1700-1820)
-- <HOME>/Documents/Codes/warp/crates/warpui_core/src/keymap.rs (lines 110-170, 490-665)
+- ../warp/app/src/app_menus.rs (lines 75-932)
+- ../warp/app/src/util/bindings.rs (lines 1-470)
+- ../warp/app/src/workspace/mod.rs (lines 155-1010)
+- ../warp/app/src/terminal/view/init.rs (lines 388-710)
+- ../warp/app/src/editor/view/mod.rs (lines 590-970)
+- ../warp/app/src/pane_group/pane/view/mod.rs (lines 35-50)
+- ../warp/app/src/terminal/input.rs (lines 1855-1880)
+- ../warp/app/src/voltron.rs (lines 85-100)
+- ../warp/crates/warpui_core/src/core/app.rs (lines 1700-1820)
+- ../warp/crates/warpui_core/src/keymap.rs (lines 110-170, 490-665)

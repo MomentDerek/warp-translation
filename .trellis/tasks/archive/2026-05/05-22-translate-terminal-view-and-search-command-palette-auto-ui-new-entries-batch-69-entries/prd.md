@@ -240,4 +240,4 @@
 - 源码上下文：见 candidates.json `file` 字段（34 文件）。
 - 上轮 (batch 2) PRD: `.trellis/tasks/archive/2026-05/05-22-translate-ai-blocklist-remaining-43-auto-ui-new-entries-batch-2-of-2-sweep/prd.md`。
 - 上轮 apply 脚本: `.trellis/tasks/archive/2026-05/05-22-translate-ai-blocklist-remaining-43-auto-ui-new-entries-batch-2-of-2-sweep/apply_translations.py`。
-- L60 view.rs 上下文需 implementer 实际打开 `<HOME>/Documents/Codes/warp/app/src/search/command_palette/view.rs:60` 验证是否注释 / doc string / runtime UI 文案。
+- L60 view.rs 上下文需 implementer 实际打开 `../warp/app/src/search/command_palette/view.rs:60` 验证是否注释 / doc string / runtime UI 文案。

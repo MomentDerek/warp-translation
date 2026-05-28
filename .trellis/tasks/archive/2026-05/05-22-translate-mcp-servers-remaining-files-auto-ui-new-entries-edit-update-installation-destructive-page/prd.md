@@ -93,11 +93,11 @@ mcp_servers 子模块收尾批次：接力 list_page+server_card 批，处理 mc
 - Glossary: `translations/glossary.json`。
 - Builder: `tools/builder/` → `build/warp-zh/`。
 - 源码上下文（5 文件）:
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/mcp_servers/edit_page.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/mcp_servers/update_modal.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/mcp_servers/installation_modal.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/mcp_servers/destructive_mcp_confirmation_dialog.rs`
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/mcp_servers_page.rs`
+  - `../warp/app/src/settings_view/mcp_servers/edit_page.rs`
+  - `../warp/app/src/settings_view/mcp_servers/update_modal.rs`
+  - `../warp/app/src/settings_view/mcp_servers/installation_modal.rs`
+  - `../warp/app/src/settings_view/mcp_servers/destructive_mcp_confirmation_dialog.rs`
+  - `../warp/app/src/settings_view/mcp_servers_page.rs`
 - 上轮 PRD: `.trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-list-page-rs-server-card-rs-auto-ui-new-entries/prd.md`。
 - 上轮 apply 脚本: `.trellis/tasks/archive/2026-05/05-22-translate-mcp-servers-list-page-rs-server-card-rs-auto-ui-new-entries/apply_translations.py`。
 - 候选 entry 行号清单（32）：

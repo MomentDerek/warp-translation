@@ -71,7 +71,7 @@
 
 ## Process
 
-1. 6 路 trellis-implement 并行（opus）。每路读自己的 `candidates/batch-{X}.json` + 翻译规约 + 源码（在 `<HOME>/Documents/Codes/warp` 工作目录）。
+1. 6 路 trellis-implement 并行（opus）。每路读自己的 `candidates/batch-{X}.json` + 翻译规约 + 源码（在 `../warp` 工作目录）。
 2. 主 orchestrator 收齐 6 份 output，运行 `apply_translations.py` 合并到 `translations/strings.json`（仓库根目录，非 `tools/translations/`）。
 3. trellis-check 验证：
    - placeholder/strftime/whitespace/brand 不变量

@@ -232,7 +232,7 @@ println!("hello {name}");
 
 ### 场景 G：`asset_macro`（warp 项目特有）
 
-`<HOME>/Documents/Codes/warp/crates/asset_macro/` 看名字像静态资源宏。其字面量极可能是路径或 key，**默认加入跳过名单**。
+`../warp/crates/asset_macro/` 看名字像静态资源宏。其字面量极可能是路径或 key，**默认加入跳过名单**。
 
 ---
 

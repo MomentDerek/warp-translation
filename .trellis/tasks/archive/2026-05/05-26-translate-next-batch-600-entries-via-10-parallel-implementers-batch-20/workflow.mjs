@@ -8,9 +8,9 @@ export const meta = {
   ],
 }
 
-const REPO_ROOT = '<HOME>/Documents/Codes/warp_translation'
+const REPO_ROOT = '<repo>'
 const TASK_DIR = `${REPO_ROOT}/.trellis/tasks/05-26-translate-next-batch-600-entries-via-10-parallel-implementers-batch-20`
-const SRC_REPO = '<HOME>/Documents/Codes/warp'
+const SRC_REPO = '../warp'
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
 
 function implementerPrompt(letter) {

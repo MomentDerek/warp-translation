@@ -89,7 +89,7 @@
 - Source-of-truth: `translations/strings.json`。
 - Glossary: `translations/glossary.json`。
 - Builder: `tools/builder/` → `build/warp-zh/`。
-- 源码上下文: `<HOME>/Documents/Codes/warp/app/src/settings_view/privacy_page.rs:60-252`（常量定义 / `build_page()` 主组件树）。
+- 源码上下文: `../warp/app/src/settings_view/privacy_page.rs:60-252`（常量定义 / `build_page()` 主组件树）。
 - 上轮 PRD: `.trellis/tasks/archive/2026-05/05-21-translate-next-batch-of-new-auto-ui-entries-settings-view-code-page/prd.md`。
 - 上轮 apply 脚本参考：`.trellis/tasks/archive/2026-05/05-21-translate-next-batch-of-new-auto-ui-entries-settings-view-code-page/apply_translations.py`。
 - 注意：drafter 在 code 批次混入了半角 `,`（违反 §5）—— 本批前先在 apply 脚本中加全角标点 invariant 校验，或在翻译草稿后批量替换为全角 `，`。

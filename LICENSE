@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2026 warp_translation contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Note on derivative builds:
+
+This repository contains only:
+  1. Original Rust tooling (warp-zh-extractor, warp-zh-builder) — MIT, this license.
+  2. Standalone Python batch-translation scripts (tools/translations/kit/) — MIT, this license.
+  3. A translation table (translations/strings.json) and glossary
+     (translations/glossary.json) — original work of this repository's
+     contributors, MIT, this license.
+
+Running `warp-zh-builder` produces a localized copy of Warp under
+`build/warp-zh/`. That output is a derivative work of the upstream Warp
+source (https://github.com/warpdotdev/Warp), which is licensed under AGPLv3
+and MIT. The output therefore remains subject to upstream Warp's licenses;
+the MIT license above does NOT relicense Warp itself.

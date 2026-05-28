@@ -3,7 +3,7 @@
 - **Query**: 在没有 i18n 框架的 Rust 项目中，如何自动判定哪些字符串字面量是用户可见 UI 文本，避免误译日志/标识符/正则等非 UI 字符串
 - **Scope**: 内部 (Warp 仓库结构 + AST 调用点) + 外部 (cargo-i18n / xtr / i18next-parser / fluent-rs 启发式)
 - **Date**: 2026-05-04
-- **Source repo**: `<HOME>/Documents/Codes/warp`
+- **Source repo**: `../warp`
 
 ---
 

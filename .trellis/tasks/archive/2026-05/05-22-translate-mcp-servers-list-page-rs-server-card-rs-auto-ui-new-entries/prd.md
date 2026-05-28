@@ -91,8 +91,8 @@
 - Glossary: `translations/glossary.json`。
 - Builder: `tools/builder/` → `build/warp-zh/`。
 - 源码上下文:
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/mcp_servers/list_page.rs`（L78-1779）
-  - `<HOME>/Documents/Codes/warp/app/src/settings_view/mcp_servers/server_card.rs`（L257-912）
+  - `../warp/app/src/settings_view/mcp_servers/list_page.rs`（L78-1779）
+  - `../warp/app/src/settings_view/mcp_servers/server_card.rs`（L257-912）
 - 上轮 PRD: `.trellis/tasks/archive/2026-05/05-22-translate-teams-page-rs-referrals-page-rs-auto-ui-new-entries/prd.md`。
 - 上轮 apply 脚本：`.trellis/tasks/archive/2026-05/05-22-translate-teams-page-rs-referrals-page-rs-auto-ui-new-entries/apply_translations.py`。
 - 候选 entry 清单（29 条）：

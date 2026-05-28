@@ -87,6 +87,6 @@
 - Source-of-truth: `translations/strings.json`。
 - Glossary: `translations/glossary.json`。
 - Builder: `tools/builder/` → `build/warp-zh/`。
-- 源码上下文: `<HOME>/Documents/Codes/warp/app/src/settings_view/environments_page.rs`（重点 L60-1900）。
+- 源码上下文: `../warp/app/src/settings_view/environments_page.rs`（重点 L60-1900）。
 - 上轮 PRD: `.trellis/tasks/archive/2026-05/05-21-translate-privacy-page-rs-auto-ui-new-entries/prd.md`。
 - 上轮 apply 脚本参考：`.trellis/tasks/archive/2026-05/05-21-translate-privacy-page-rs-auto-ui-new-entries/apply_translations.py`。

@@ -9,8 +9,14 @@ export const meta = {
   ],
 }
 
-const REPO = '<HOME>/Documents/Codes/warp_translation'
-const WARP = '<HOME>/Documents/Codes/warp'
+// args contract (all required):
+//   { repoRoot: "<abs path to warp_translation>", srcRepo: "<abs path to upstream warp clone>" }
+// The main session should pass absolute paths so sub-agents can chdir reliably.
+if (!args || !args.repoRoot || !args.srcRepo) {
+  throw new Error('sync-upstream-translations requires args = {repoRoot, srcRepo} (absolute paths)')
+}
+const REPO = args.repoRoot
+const WARP = args.srcRepo
 const TOOLS = `${REPO}/tools`
 const TABLE = `${REPO}/translations/strings.json`
 const LOCK = `${REPO}/translations/.lock.json`

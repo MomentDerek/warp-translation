@@ -3,7 +3,7 @@
   "target_total": 600,
   "total": 602,
   "status_filter": "new",
-  "strings_path": "<HOME>/Documents/Codes/warp_translation/translations/strings.json",
+  "strings_path": "<repo>/translations/strings.json",
   "batches": [
     {
       "letter": "A",

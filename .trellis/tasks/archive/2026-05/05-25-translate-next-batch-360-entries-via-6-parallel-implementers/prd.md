@@ -83,5 +83,5 @@
 ## Notes
 
 - 6 个文件互不相交，候选 ID 跨批互斥（generator 已校验 360 unique ids）。
-- 单文件批：实现 agent 可以读源文件上下文（`<HOME>/Documents/Codes/warp/` 是 source 副本）来判定 panic / telemetry / UI sink。
+- 单文件批：实现 agent 可以读源文件上下文（`../warp/` 是 source 副本）来判定 panic / telemetry / UI sink。
 - batch-E (`table-sample/root_view.rs`) 是 **整文件 examples 子集**，预期大部分将被 `flag_test_fixture` 而非翻译。这是 OK 的——examples/ 下的 demo 字符串不上线，按既有 [[project_translation_flag_test_fixture]] 政策处理。
