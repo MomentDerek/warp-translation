@@ -219,6 +219,9 @@ jobs:
         run: |
           sudo apt-get update -y
           ./script/linux/install_build_deps
+          # AppImage tooling (linuxdeploy) dlopens libfuse.so.2, which ubuntu-24.04
+          # runners no longer ship by default.
+          sudo apt-get install -y libfuse2t64 || sudo apt-get install -y libfuse2 || true
           ./script/install_cargo_release_deps || echo "::warning::install_cargo_release_deps reported errors (continuing)"
           ./script/linux/install_linuxdeploy
           ./script/install_cargo_bundle
