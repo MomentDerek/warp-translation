@@ -6,18 +6,20 @@
 |---|---|---|---|
 | `tools` | ubuntu | Build + unit-test the Rust extractor/builder. No upstream Warp needed. | seconds–minutes |
 | `build-localized` | ubuntu | Clone upstream Warp, run the builder, publish `build/warp-zh` + a coverage summary as artifacts. | minutes (clone-bound) |
-| `compile` | macOS **and** Linux | `cargo check -p warp` on the localized tree — the real "does it compile" proof. Mirrors upstream Warp's build setup. | **heavy** (tens of minutes) |
+| `package` | macOS **and** Linux | Build installable packages from the localized tree via upstream Warp's `script/bundle`: Linux **deb/rpm/AppImage**, macOS **unsigned `.dmg`** (`--nosign`). Uploaded as `warp-zh-installer-*` artifacts. A successful bundle also proves the translated source compiles in release mode. | **heavy** (tens of minutes) |
 
 ### Triggers
 
 - **push / PR** touching `tools/**`, `translations/**`, or the workflow files.
 - **`workflow_dispatch`** with inputs:
   - `warp_ref` — upstream `warpdotdev/warp` ref to build against (default: the pinned commit in the workflow's `DEFAULT_WARP_REF`, which is what `strings.json` was last extracted at; `translations/.lock.json` is gitignored so the pin lives in the workflow).
-  - `run_compile` — set `false` to skip the heavy `compile` job and only produce the localized tree.
+  - `build_packages` — set `false` to skip the heavy `package` job and only produce the localized tree.
+
+> **macOS `.dmg` is unsigned.** It is built with `script/bundle --nosign`, so it is **not** code-signed or notarized. On first launch macOS Gatekeeper blocks it — right-click → Open (or `xattr -dr com.apple.quarantine Warp.app`) to run it. For a distributable signed/notarized build you'd add Apple Developer ID secrets and switch `--nosign` to `--read-passwords-from-env`.
 
 ## Local testing with `act`
 
-[`act`](https://nektosact.com) runs workflows in **Linux Docker containers only** — it **cannot emulate macOS**, so the `compile` job's `macos-latest` leg never runs locally. The `compile` job is therefore guarded with `if: ${{ !github.event.act }}` and skips entirely under `act`. Validate it on real GitHub Actions.
+[`act`](https://nektosact.com) runs workflows in **Linux Docker containers only** — it **cannot emulate macOS**, so the `package` job's `macos-latest` leg never runs locally. The `package` job is therefore guarded with `if: ${{ !github.event.act }}` and skips entirely under `act`. Validate it on real GitHub Actions.
 
 ### Prerequisites
 
@@ -56,16 +58,22 @@ act -W .github/workflows/build-translation.yml -j build-localized \
 > First run pulls the runner image (~1 GB) and clones Warp — expect several
 > minutes. `--pull=false` skips re-pulling the image on later runs.
 
-### Why the real compile isn't tested under `act`
+### Why packaging isn't tested under `act`
 
-`cargo check -p warp` requires upstream Warp's full toolchain (protoc, Node/Corepack
-for `build.rs`, Git LFS assets, and on macOS the `MACOSX_DEPLOYMENT_TARGET` /
-Xcode setup from Warp's `build.rs`). That is what the `compile` job provides on
-GitHub-hosted macOS + Linux runners. Locally, run the equivalent by hand:
+`script/bundle` requires upstream Warp's full toolchain (protoc, Node/Corepack
+for `build.rs`, Go, Git LFS assets, `cargo-bundle`, `create-dmg`/`linuxdeploy`,
+and on macOS the `MACOSX_DEPLOYMENT_TARGET` setup). That is what the `package`
+job provides on GitHub-hosted macOS + Linux runners. Locally, run the
+equivalent by hand:
 
 ```bash
+# 1. produce the localized tree
 cd tools && cargo run -p warp-zh-builder -- build \
     --source ../../warp --table ../translations/strings.json \
     --out ../build/warp-zh --report ../reports/build.json
-cd ../build/warp-zh && MACOSX_DEPLOYMENT_TARGET=14.0 cargo check -p warp
+# 2. compile-check, or build a package
+cd ../build/warp-zh
+MACOSX_DEPLOYMENT_TARGET=14.0 cargo check -p warp           # quick verify, or:
+script/bundle --nosign --channel dev --arch aarch64         # macOS unsigned .dmg
+script/bundle --channel dev --packages appimage,deb,rpm     # Linux packages
 ```
