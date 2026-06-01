@@ -6,7 +6,7 @@
 |---|---|---|---|
 | `tools` | ubuntu | Build + unit-test the Rust extractor/builder. No upstream Warp needed. | seconds–minutes |
 | `build-localized` | ubuntu | Clone upstream Warp, run the builder, publish `build/warp-zh` + a coverage summary as artifacts. | minutes (clone-bound) |
-| `package` | macOS **and** Linux | Build installable packages from the localized tree via upstream Warp's `script/bundle`: Linux **deb/rpm/AppImage**, macOS **unsigned `.dmg`** (`--nosign`). Uploaded as `warp-zh-installer-*` artifacts. A successful bundle also proves the translated source compiles in release mode. | **heavy** (tens of minutes) |
+| `package` | macOS **and** Linux | Build installable packages from the localized tree via upstream Warp's `script/bundle --channel oss` (the `warp-oss` bin — self-contained, no private warp-channel-config): Linux **deb/rpm/AppImage**, macOS **unsigned `.dmg`** (`--nosign`). Uploaded as `warp-zh-installer-*` artifacts. A successful bundle also proves the translated source compiles in release mode. | **heavy** (tens of minutes) |
 
 ### Triggers
 
@@ -74,6 +74,6 @@ cd tools && cargo run -p warp-zh-builder -- build \
 # 2. compile-check, or build a package
 cd ../build/warp-zh
 MACOSX_DEPLOYMENT_TARGET=14.0 cargo check -p warp           # quick verify, or:
-script/bundle --nosign --channel dev --arch aarch64         # macOS unsigned .dmg
-script/bundle --channel dev --packages appimage,deb,rpm     # Linux packages
+script/bundle --nosign --channel oss --arch aarch64         # macOS unsigned WarpOss.dmg
+script/bundle --channel oss --packages appimage,deb,rpm     # Linux WarpOss packages
 ```

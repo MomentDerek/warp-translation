@@ -171,7 +171,10 @@ jobs:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 150
     env:
-      CHANNEL: dev
+      # The `oss` channel builds the self-contained `warp-oss` bin (inline
+      # ChannelConfig, no Sentry), so it needs none of Warp's private
+      # warp-channel-config tooling — the only OSS-buildable channel.
+      CHANNEL: oss
     steps:
       - uses: actions/checkout@v5
 
