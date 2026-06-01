@@ -1,0 +1,97 @@
+name: Build localized Warp source
+description: >
+  Clone upstream warpdotdev/warp at a given ref, materialize Git LFS, build the
+  warp-zh tools, and produce build/warp-zh (a compilable Chinese source tree)
+  via warp-zh-builder. Shared by the build-localized and compile jobs.
+
+inputs:
+  warp_ref:
+    description: Upstream warpdotdev/warp git ref (commit SHA / branch / tag) to build against.
+    required: true
+  warp_dir:
+    description: Directory to clone upstream Warp into.
+    required: false
+    default: ${{ github.workspace }}/upstream-warp
+  run_check:
+    description: If 'true', run `warp-zh-extractor extract --check` against the cloned ref (non-fatal — drift only annotates).
+    required: false
+    default: 'false'
+
+outputs:
+  out_dir:
+    description: Absolute path to the generated localized source tree (build/warp-zh).
+    value: ${{ steps.build.outputs.out_dir }}
+  source_commit:
+    description: The resolved upstream commit SHA that was checked out.
+    value: ${{ steps.clone.outputs.sha }}
+
+runs:
+  using: composite
+  steps:
+    - name: Clone upstream Warp (${{ inputs.warp_ref }})
+      id: clone
+      shell: bash
+      run: |
+        set -euo pipefail
+        DIR="${{ inputs.warp_dir }}"
+        REF="${{ inputs.warp_ref }}"
+        if [ ! -d "$DIR/.git" ]; then
+          git init -q "$DIR"
+          git -C "$DIR" remote add origin https://github.com/warpdotdev/warp.git
+        fi
+        # Fetch the requested ref shallowly. GitHub allows fetching reachable
+        # commit SHAs directly, so this works for both SHAs and branch names.
+        git -C "$DIR" fetch --depth 1 origin "$REF"
+        git -C "$DIR" checkout -q --force FETCH_HEAD
+        SHA="$(git -C "$DIR" rev-parse HEAD)"
+        echo "Checked out upstream Warp at $SHA"
+        echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+
+    - name: Materialize Git LFS objects
+      shell: bash
+      run: |
+        set -euo pipefail
+        DIR="${{ inputs.warp_dir }}"
+        if command -v git-lfs >/dev/null 2>&1; then
+          git -C "$DIR" lfs install --local
+          git -C "$DIR" lfs pull || echo "::warning title=LFS::git lfs pull failed; continuing (binary assets may be missing)"
+        else
+          echo "::warning title=LFS::git-lfs not installed; skipping LFS materialization"
+        fi
+
+    - name: Build warp-zh tools
+      shell: bash
+      working-directory: tools
+      run: cargo build --release -p warp-zh-extractor -p warp-zh-builder
+
+    - name: Validate translation table is canonical (--check)
+      if: ${{ inputs.run_check == 'true' }}
+      shell: bash
+      working-directory: tools
+      run: |
+        # Non-fatal: `--check` only passes byte-for-byte when the cloned ref
+        # matches the ref strings.json was last extracted at. On a different
+        # ref this surfaces upstream drift as an annotation, not a failure —
+        # missing/stale entries fall back to English and the build still works.
+        if ./target/release/warp-zh-extractor extract \
+              --source "${{ inputs.warp_dir }}" \
+              --table ../translations/strings.json \
+              --check; then
+          echo "✓ translation table is canonical for this ref"
+        else
+          echo "::warning title=Table drift::strings.json is not canonical for upstream ref ${{ inputs.warp_ref }} (untranslated/changed entries fall back to English)"
+        fi
+
+    - name: Build localized source tree
+      id: build
+      shell: bash
+      working-directory: tools
+      run: |
+        set -euo pipefail
+        mkdir -p ../reports
+        ./target/release/warp-zh-builder build \
+          --source "${{ inputs.warp_dir }}" \
+          --table ../translations/strings.json \
+          --out ../build/warp-zh \
+          --report ../reports/build.json
+        echo "out_dir=${{ github.workspace }}/build/warp-zh" >> "$GITHUB_OUTPUT"

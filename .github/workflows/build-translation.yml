@@ -1,0 +1,221 @@
+name: Build Chinese Warp
+
+# Builds the Chinese localization overlay end-to-end:
+#   1. tools          — build + test the Rust extractor/builder (self-contained)
+#   2. build-localized — clone upstream Warp, run the builder, publish build/warp-zh
+#   3. compile        — cargo check the localized tree on macOS + Linux (the real proof)
+#
+# The `compile` job mirrors upstream Warp's own build setup and is heavy; it is
+# skipped automatically under `act` (which cannot emulate macOS). See
+# .github/workflows/README.md for local testing with act.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - 'translations/**'
+      - '.github/workflows/build-translation.yml'
+      - '.github/actions/build-localized-tree/**'
+  pull_request:
+    paths:
+      - 'tools/**'
+      - 'translations/**'
+      - '.github/workflows/build-translation.yml'
+      - '.github/actions/build-localized-tree/**'
+  workflow_dispatch:
+    inputs:
+      warp_ref:
+        description: 'Upstream warpdotdev/warp ref (commit SHA / branch / tag) to build against'
+        required: false
+        type: string
+      run_compile:
+        description: 'Run the heavy `cargo check -p warp` on the localized tree (macOS + Linux)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-translation-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Upstream Warp commit that translations/strings.json was last extracted at
+  # (translations/.lock.json is gitignored, so the pin lives here). Override
+  # via the workflow_dispatch `warp_ref` input.
+  DEFAULT_WARP_REF: 2566f54af7c3e71facfe1865f2c492549b14248a
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # 1. Build + test the translation tools. Fully self-contained (no upstream
+  #    Warp needed) — this is the fast job that `act` runs locally.
+  # ---------------------------------------------------------------------------
+  tools:
+    name: Build & test translation tools
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install Rust 1.92.0
+        uses: dtolnay/rust-toolchain@1.92.0
+        with:
+          components: clippy, rustfmt
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: tools
+
+      - name: Unit tests
+        working-directory: tools
+        run: cargo test --workspace
+
+      # Lint signal — non-blocking so unrelated style drift never fails the build.
+      - name: Format check (informational)
+        working-directory: tools
+        continue-on-error: true
+        run: cargo fmt --all --check
+
+      - name: Clippy (informational)
+        working-directory: tools
+        continue-on-error: true
+        run: cargo clippy --all-targets
+
+  # ---------------------------------------------------------------------------
+  # 2. Produce the localized source tree and publish it as an artifact, plus a
+  #    coverage summary. Cheap (no Warp compilation) — only string substitution.
+  # ---------------------------------------------------------------------------
+  build-localized:
+    name: Build localized source tree
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install Rust 1.92.0
+        uses: dtolnay/rust-toolchain@1.92.0
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: tools
+
+      - name: Resolve upstream Warp ref
+        id: ref
+        run: echo "value=${{ inputs.warp_ref || env.DEFAULT_WARP_REF }}" >> "$GITHUB_OUTPUT"
+
+      - name: Build localized tree
+        id: localize
+        uses: ./.github/actions/build-localized-tree
+        with:
+          warp_ref: ${{ steps.ref.outputs.value }}
+          run_check: 'true'
+
+      - name: Coverage summary
+        if: always()
+        run: |
+          set -euo pipefail
+          REPORT=reports/build.json
+          {
+            echo "## Localized build report"
+            echo ""
+            echo "- Upstream ref: \`${{ steps.ref.outputs.value }}\`"
+            echo "- Resolved commit: \`${{ steps.localize.outputs.source_commit }}\`"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "$REPORT" ] && command -v jq >/dev/null 2>&1; then
+            jq -r '
+              "- Files copied: \(.stats.files_copied)",
+              "- Files modified (translated): \(.stats.files_modified)",
+              "- Literals replaced: \(.stats.literals_replaced)",
+              "- Literals kept English (fallback): \(.stats.literals_kept_english)",
+              "- Parse failures: \(.stats.files_parse_failed)"
+            ' "$REPORT" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "- (build report unavailable)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Package localized tree
+        run: tar -C build -czf warp-zh-src.tar.gz warp-zh
+
+      - name: Upload localized source tree
+        uses: actions/upload-artifact@v4
+        with:
+          name: warp-zh-src
+          path: warp-zh-src.tar.gz
+          retention-days: 7
+
+      - name: Upload build report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-report
+          path: reports/build.json
+          if-no-files-found: ignore
+
+  # ---------------------------------------------------------------------------
+  # 3. The real proof: compile the localized tree on macOS + Linux, mirroring
+  #    upstream Warp's own build setup. Heavy; skipped under `act` (macOS can't
+  #    be emulated) and skippable via the run_compile dispatch input.
+  # ---------------------------------------------------------------------------
+  compile:
+    name: Compile localized Warp (${{ matrix.os }})
+    needs: build-localized
+    if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || inputs.run_compile) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install Rust 1.92.0
+        uses: dtolnay/rust-toolchain@1.92.0
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: tools
+
+      - name: Resolve upstream Warp ref
+        id: ref
+        run: echo "value=${{ inputs.warp_ref || env.DEFAULT_WARP_REF }}" >> "$GITHUB_OUTPUT"
+
+      - name: Build localized tree
+        id: localize
+        uses: ./.github/actions/build-localized-tree
+        with:
+          warp_ref: ${{ steps.ref.outputs.value }}
+
+      - name: Install protoc
+        uses: arduino/setup-protoc@v3
+        with:
+          repo-token: ${{ github.token }}
+
+      - name: Install Node (for build.rs command-signature generation)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.9.0'
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install upstream build dependencies (Linux)
+        if: runner.os == 'Linux'
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        run: |
+          sudo apt-get update -y
+          ./script/linux/install_build_deps
+
+      - name: Install upstream build dependencies (macOS)
+        if: runner.os == 'macOS'
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        run: |
+          # Best-effort: private warp-channel-config is unavailable on public
+          # runners, so don't fail the build if optional deps can't install.
+          ./script/install_cargo_build_deps || echo "::warning::install_cargo_build_deps reported errors (continuing)"
+
+      - name: cargo check the localized Warp
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        env:
+          MACOSX_DEPLOYMENT_TARGET: '14.0'
+        run: cargo check -p warp --locked

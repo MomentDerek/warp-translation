@@ -1,0 +1,4 @@
+# Local defaults for nektos/act (https://nektosact.com).
+# Apple Silicon must emulate amd64 — most action/runner images are amd64-only.
+--container-architecture linux/amd64
+-P ubuntu-latest=catthehacker/ubuntu:act-latest
