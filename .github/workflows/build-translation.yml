@@ -29,8 +29,8 @@ on:
         description: 'Upstream warpdotdev/warp ref (commit SHA / branch / tag) to build against'
         required: false
         type: string
-      run_compile:
-        description: 'Run the heavy `cargo check -p warp` on the localized tree (macOS + Linux)'
+      build_packages:
+        description: 'Build installable packages (Linux deb/rpm/AppImage + macOS unsigned .dmg)'
         type: boolean
         default: true
 
@@ -152,20 +152,32 @@ jobs:
           if-no-files-found: ignore
 
   # ---------------------------------------------------------------------------
-  # 3. The real proof: compile the localized tree on macOS + Linux, mirroring
-  #    upstream Warp's own build setup. Heavy; skipped under `act` (macOS can't
-  #    be emulated) and skippable via the run_compile dispatch input.
+  # 3. The real deliverable: build installable packages from the localized tree,
+  #    mirroring upstream Warp's own release bundling (script/bundle).
+  #      - Linux:  deb / rpm / AppImage  (no signing required)
+  #      - macOS:  unsigned .dmg (--nosign; Gatekeeper warns on first open)
+  #    A successful bundle also proves the translated source compiles in release
+  #    mode. Heavy (full `cargo build --release`); skipped under `act` (macOS
+  #    can't be emulated) and skippable via the build_packages dispatch input.
   # ---------------------------------------------------------------------------
-  compile:
-    name: Compile localized Warp (${{ matrix.os }})
+  package:
+    name: Package localized Warp (${{ matrix.os }})
     needs: build-localized
-    if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || inputs.run_compile) }}
+    if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || inputs.build_packages) }}
     strategy:
       fail-fast: false
       matrix:
         os: [macos-latest, ubuntu-latest]
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 120
+    timeout-minutes: 150
+    env:
+      # The `oss` channel builds the self-contained `warp-oss` bin (inline
+      # ChannelConfig, no Sentry), so it needs none of Warp's private
+      # warp-channel-config tooling — the only OSS-buildable channel.
+      CHANNEL: oss
+      # deb/rpm derive their Version from GIT_RELEASE_TAG (`sed 's/^v//'`);
+      # unset it and dpkg-deb fails with "version string is empty".
+      GIT_RELEASE_TAG: v0.0.${{ github.run_number }}
     steps:
       - uses: actions/checkout@v5
 
@@ -199,23 +211,78 @@ jobs:
       - name: Enable Corepack
         run: corepack enable
 
-      - name: Install upstream build dependencies (Linux)
+      - name: Setup Go (some bundle steps need it)
+        uses: actions/setup-go@v6
+        with:
+          go-version: stable
+
+      - name: Install build + bundle dependencies (Linux)
         if: runner.os == 'Linux'
         working-directory: ${{ steps.localize.outputs.out_dir }}
         run: |
           sudo apt-get update -y
           ./script/linux/install_build_deps
+          # AppImage tooling (linuxdeploy) dlopens libfuse.so.2, which ubuntu-24.04
+          # runners no longer ship by default.
+          sudo apt-get install -y libfuse2t64 || sudo apt-get install -y libfuse2 || true
+          ./script/install_cargo_release_deps || echo "::warning::install_cargo_release_deps reported errors (continuing)"
+          ./script/linux/install_linuxdeploy
+          ./script/install_cargo_bundle
 
-      - name: Install upstream build dependencies (macOS)
+      - name: Install build + bundle dependencies (macOS)
         if: runner.os == 'macOS'
         working-directory: ${{ steps.localize.outputs.out_dir }}
         run: |
-          # Best-effort: private warp-channel-config is unavailable on public
-          # runners, so don't fail the build if optional deps can't install.
+          # Private warp-channel-config is unavailable on public runners — keep
+          # optional dep installs non-fatal.
           ./script/install_cargo_build_deps || echo "::warning::install_cargo_build_deps reported errors (continuing)"
+          ./script/install_cargo_release_deps || echo "::warning::install_cargo_release_deps reported errors (continuing)"
+          ./script/install_cargo_bundle
+          brew install create-dmg
+          rustup target add aarch64-apple-darwin
 
-      - name: cargo check the localized Warp
+      - name: Bundle Linux packages (deb / rpm / AppImage)
+        id: bundle_linux
+        if: runner.os == 'Linux'
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        run: script/bundle --channel "$CHANNEL" --packages appimage,deb,rpm
+
+      - name: Bundle macOS unsigned .dmg
+        id: bundle_macos
+        if: runner.os == 'macOS'
         working-directory: ${{ steps.localize.outputs.out_dir }}
         env:
           MACOSX_DEPLOYMENT_TARGET: '14.0'
-        run: cargo check -p warp --locked
+        run: script/bundle --nosign --channel "$CHANNEL" --arch aarch64 --dmg-name-suffix arm64
+
+      - name: Collect installers
+        id: collect
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        run: |
+          set -euo pipefail
+          OUT="$GITHUB_WORKSPACE/dist-out"
+          mkdir -p "$OUT"
+          if [ "${{ runner.os }}" = "Linux" ]; then
+            PKGS="${{ steps.bundle_linux.outputs.packages_dir }}"
+            if [ -z "$PKGS" ] || [ ! -d "$PKGS" ]; then
+              PKGS="$(find target -type d -path '*/bundle/linux' | head -1)"
+            fi
+            echo "Packages dir: $PKGS"
+            find "$PKGS" -maxdepth 1 -type f \( -name '*.deb' -o -name '*.rpm' -o -name '*.AppImage' \) -exec cp -v {} "$OUT/" \;
+          else
+            DMG="${{ steps.bundle_macos.outputs.dmg_path }}"
+            if [ -z "$DMG" ] || [ ! -f "$DMG" ]; then
+              DMG="$(find target -name '*.dmg' -type f | head -1)"
+            fi
+            echo "DMG: $DMG"
+            cp -v "$DMG" "$OUT/"
+          fi
+          echo "--- collected ---"
+          ls -la "$OUT"
+
+      - name: Upload installer artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: warp-zh-installer-${{ matrix.os }}
+          path: dist-out/**
+          if-no-files-found: error
