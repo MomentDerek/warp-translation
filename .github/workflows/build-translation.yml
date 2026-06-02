@@ -175,6 +175,9 @@ jobs:
       # ChannelConfig, no Sentry), so it needs none of Warp's private
       # warp-channel-config tooling — the only OSS-buildable channel.
       CHANNEL: oss
+      # deb/rpm derive their Version from GIT_RELEASE_TAG (`sed 's/^v//'`);
+      # unset it and dpkg-deb fails with "version string is empty".
+      GIT_RELEASE_TAG: v0.0.${{ github.run_number }}
     steps:
       - uses: actions/checkout@v5
 
