@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-2.md`
-- **Total Sessions**: 24
+- **Total Sessions**: 25
 - **Last Active**: 2026-06-03
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-2.md` | ~306 | Active |
+| `journal-2.md` | ~339 | Active |
 | `journal-1.md` | ~1989 | Archived |
 <!-- @@@/auto:active-documents -->
 
@@ -30,6 +30,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 25 | 2026-06-03 | Batch-27: resolve remaining 12 flagged-fuzzy (fuzzy→0) | `5b95713` | `main` |
 | 24 | 2026-06-03 | Batch-26: resolve 49 null-fuzzy entries | `946436e` | `main` |
 | 23 | 2026-06-03 | Sync upstream warp (130 commits) + batch-25 translation + fuzzy resync | `cc02d63`, `b7ddbd6` | `main` |
 | 22 | 2026-05-27 | Translation batch-23 (final): clear remaining 99 new entries | `f4dffa1` | `main` |

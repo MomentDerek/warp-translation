@@ -304,3 +304,36 @@ Promoted 49 null-target unflagged fuzzy entries to status=new, ran standard 6-im
 ### Next Steps
 
 - None - task complete
+
+
+## Session 25: Batch-27: resolve remaining 12 flagged-fuzzy (fuzzy→0)
+
+**Date**: 2026-06-03
+**Task**: Batch-27: resolve remaining 12 flagged-fuzzy (fuzzy→0)
+**Branch**: `main`
+
+### Summary
+
+Re-verified 12 flagged-fuzzy entries against current source: 10 reaffirmed do_not_translate (telemetry/panic/protocol_key, sinks confirmed), 2 pr3_first_batch search_terms converted to bilingual append. Flipped fuzzy→translated, re-ran extractor to canonicalize source_hash (idempotent, --check passed). Translation table now fully resolved: 6874 entries all translated, fuzzy=0.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `5b95713` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
