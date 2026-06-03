@@ -1,0 +1,176 @@
+[
+  {
+    "id": "01KQXQV12B0NH3T732BG08W5EF",
+    "source": "Empty diff data",
+    "file": "app/src/code_review/diff_state/remote.rs",
+    "line": 356,
+    "kind": "macro_arg",
+    "current_flags": [
+      "pr-by-file-parallel-batch-21",
+      "do_not_translate",
+      "telemetry_payload"
+    ],
+    "current_subflag": [
+      "telemetry_payload"
+    ]
+  },
+  {
+    "id": "01KQXQV12BNEEE5X1Z4H8DBG2K",
+    "source": "Failed to generate device code",
+    "file": "crates/warp_server_client/src/auth/session.rs",
+    "line": 169,
+    "kind": "literal",
+    "current_flags": [
+      "pr-by-file-parallel-batch-21",
+      "do_not_translate",
+      "telemetry_payload"
+    ],
+    "current_subflag": [
+      "telemetry_payload"
+    ]
+  },
+  {
+    "id": "01KQXQV12BSV50VEA0SF263CJW",
+    "source": "Failed to generate diffs",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits.rs",
+    "line": 338,
+    "kind": "macro_arg",
+    "current_flags": [
+      "pr-by-file-parallel-batch-21",
+      "do_not_translate",
+      "telemetry_payload"
+    ],
+    "current_subflag": [
+      "telemetry_payload"
+    ]
+  },
+  {
+    "id": "01KQXQV12CBQH2BD5HK2ZFSJ8P",
+    "source": "Intel(R) HD Graphics P4600",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 528,
+    "kind": "literal",
+    "current_flags": [
+      "pr-by-file-parallel-batch-18",
+      "do_not_translate",
+      "protocol_key"
+    ],
+    "current_subflag": [
+      "protocol_key"
+    ]
+  },
+  {
+    "id": "01KQXQV12CHYVXGG7K6TTC6G3X",
+    "source": "Intel(R) HD Graphics 2500",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 523,
+    "kind": "literal",
+    "current_flags": [
+      "pr-by-file-parallel-batch-18",
+      "do_not_translate",
+      "protocol_key"
+    ],
+    "current_subflag": [
+      "protocol_key"
+    ]
+  },
+  {
+    "id": "01KQXQV12CZ6A4QKJYB80ZWNH9",
+    "source": "Intel(R) HD Graphics 5500",
+    "file": "crates/warpui/src/rendering/wgpu/resources.rs",
+    "line": 527,
+    "kind": "literal",
+    "current_flags": [
+      "pr-by-file-parallel-batch-18",
+      "do_not_translate",
+      "protocol_key"
+    ],
+    "current_subflag": [
+      "protocol_key"
+    ]
+  },
+  {
+    "id": "01KQXQV12EQ0HRYJ4SKWKH450W",
+    "source": "Post-install version check: platform plugin is still outdated\n",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 196,
+    "kind": "literal",
+    "current_flags": [
+      "pr-by-file-parallel-batch-20",
+      "do_not_translate",
+      "telemetry_payload"
+    ],
+    "current_subflag": [
+      "telemetry_payload"
+    ]
+  },
+  {
+    "id": "01KQXQV12FBKYMJ2CRZF00AZCM",
+    "source": "Server root URL must be valid",
+    "file": "crates/warp_server_client/src/auth/session.rs",
+    "line": 200,
+    "kind": "literal",
+    "current_flags": [
+      "pr-by-file-parallel-batch-23",
+      "do_not_translate",
+      "panic_message"
+    ],
+    "current_subflag": [
+      "panic_message"
+    ]
+  },
+  {
+    "id": "01KQXQV12J2T28M0CZMGZQVDY7",
+    "source": "other oz updates zero state empty changelog new conversation agent what's new use agent footer toolbar layout chip chips rearrange re-arrange thinking expanded reasoning collapse never show hide conversation history",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6354,
+    "kind": "literal",
+    "current_flags": [
+      "pr3_first_batch",
+      "do_not_translate"
+    ],
+    "current_subflag": []
+  },
+  {
+    "id": "01KQXQV12J614X5SDH5CNFS2SC",
+    "source": "api keys bring your own byo openai anthropic google claude gemini gpt custom inference endpoint",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 7546,
+    "kind": "literal",
+    "current_flags": [
+      "pr3_first_batch",
+      "do_not_translate"
+    ],
+    "current_subflag": []
+  },
+  {
+    "id": "01KRNVK9P1GPX331M8RMH72MZK",
+    "source": "Failed to delete harness auth secret",
+    "file": "app/src/ai/harness_availability.rs",
+    "line": 330,
+    "kind": "macro_arg",
+    "current_flags": [
+      "pr-by-file-parallel-batch-21",
+      "do_not_translate",
+      "telemetry_payload"
+    ],
+    "current_subflag": [
+      "telemetry_payload"
+    ]
+  },
+  {
+    "id": "01KS2GEQHW84VB8R0BXGVZ5KB0",
+    "source": "Remote server unexpected response for UploadHandoffSnapshot: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1178,
+    "kind": "macro_arg",
+    "current_flags": [
+      "pr-by-file-parallel-batch-17",
+      "do_not_translate",
+      "telemetry_payload"
+    ],
+    "current_subflag": [
+      "telemetry_payload"
+    ]
+  }
+]
