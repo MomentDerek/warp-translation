@@ -1,0 +1,169 @@
+{
+  "num_batches": 6,
+  "target_total": 60,
+  "total": 49,
+  "status_filter": "new",
+  "strings_path": "/Users/derek/Documents/Codes/warp_translation/translations/strings.json",
+  "batches": [
+    {
+      "letter": "A",
+      "count": 9,
+      "files": [
+        {
+          "path": "app/src/search/action/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/referrals_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspaces/gql_convert.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/remote_server/src/client/mod.rs",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/pane_group/pane/terminal_pane.rs",
+          "count": 4
+        },
+        {
+          "path": "app/src/search/command_palette/navigation/render.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/show_blocks_view.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/node_runtime/src/lib.rs",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/llms.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/ai_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/teams_page.rs",
+          "count": 4
+        },
+        {
+          "path": "app/src/terminal/cli_agent.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/code_review_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage_page_v2.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/auth_secret_ftux_view.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "E",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/inline_action/run_agents_card_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/drive/index.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/search/command_palette/tabs/search_item.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage_dispatch.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/platform/create_api_key_modal.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/block/harness_session_header.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "count": 8,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/orchestration_events.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/pane_group/pane/local_harness_launch.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings_view/code_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/view.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/workspace/view/conversation_list/view.rs",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

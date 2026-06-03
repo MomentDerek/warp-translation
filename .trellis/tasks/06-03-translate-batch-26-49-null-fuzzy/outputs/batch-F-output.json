@@ -1,0 +1,17 @@
+{
+  "translations": {
+    "01KQXQV12GEQBE6SPN4DFW5GEP": null,
+    "01KQXQV12AR0MP8VBG4QSQC1ET": "无法为本地 {} 子进程解析工作目录。",
+    "01KRNVK9CCKHMMQXYGAQY4C32M": "云端 Agent 用量",
+    "01KRNVKAV0SX6XV1KX5RZNNK83": "（{} 个额度）",
+    "01KQXQV12DAWK7WXFJKCTFW878": "已达索引上限",
+    "01KQXQV129QRQ29G3PKR9S7818": "云端 Agent",
+    "01KQXQV12B5XQ9PK10E7HTNZ4W": "文档",
+    "01KQXQV129DBQE7ZXN729DW6KV": "无法删除此对话"
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12GEQBE6SPN4DFW5GEP": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "orchestration_events.rs:209 'Child conversation not found' -> SendEventResult::Error, consumed only by log::warn! (handle_emit_result lines 468-472); never rendered in UI -> telemetry_payload. local_harness_launch.rs:195 'Could not resolve a working directory for the local {} child.' -> format! inside ok_or_else, returned as Err(String) and surfaced via create_error_child_agent_conversation (terminal_pane.rs:1951-1963) as a UI error conversation -> translate; {} filled by harness.display_name() (e.g. Claude), stands alone fine. billing_cycle_usage_team_totals.rs:94 'Cloud agent usage' is TeamTotalCardSummary.title (UI card) -> translate, Agent kept English per glossary. :224 '({} credits)' is Text::new_inline UI credits display -> translate, {} = format_credits count. code_page.rs:1804 'Index limit reached' is IndexingStatusPresentation.text (UI) -> translate. workspace/view.rs:6367 'Cloud Agent' is MenuItemFields menu item (UI) -> translate, Agent kept. :9128 'Documentation' is menu item (UI) -> translate. conversation_list/view.rs:936 'This conversation cannot be deleted' is .with_tooltip (UI) -> translate."
+}

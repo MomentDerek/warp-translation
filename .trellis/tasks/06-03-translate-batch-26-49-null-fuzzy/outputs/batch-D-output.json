@@ -1,0 +1,17 @@
+{
+  "translations": {
+    "01KQXQV12DY6B3G4KER1JPHTZN": "本地 Oz 子 Agent 需要父级的 run_id 可用。",
+    "01KQXQV12E1455J9R9TDZQNN61": "本地执行环境子 Agent 需要父级的 run_id 可用。",
+    "01KQXQV12FH2CEABWTN5YQ42P7": "空环境",
+    "01KQXQV12B7QDPSTG0PSSMMH89": null,
+    "01KQXQV12JF8Y82MTRQCF9V603": "打开管理面板",
+    "01KQXQV12CH2Y7PXE20Z62103K": "基础积分",
+    "01KQXQV12JGCYHTPB871VFX1J3": "购买积分",
+    "01KQXQV12B28P8TS9HTPMNRQJ1": "保存 API 密钥失败：{error}"
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12B7QDPSTG0PSSMMH89": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "start_agent.rs:334/386 — StartAgentResult::Error.error renders via FormattedTextFragment::plain_text in the agent block UI (orchestration.rs:587-591), so user-facing -> translate; preserved identifier run_id and brand Oz; 'harness' -> '执行环境' per glossary; 'agent' -> 'Agent' kept. orchestration_controls.rs:64 ORCHESTRATION_ENV_NONE_LABEL 'Empty environment' is an env-picker UI label -> translate. code_review_view.rs:6224 'Failed to save file: {err}' is the safe: arg of safe_error! which expands to log::error! (crates/warp_core/src/safe_log.rs) — logfile sink, not UI -> telemetry_payload. billing_cycle_usage_section.rs:759 'Open the admin panel' is an upgrade-nudge UI string -> 打开管理面板. billing_and_usage_page_v2.rs:803 'Base credits' is a render_balance_card title, 1272/1365 'Buy credits' is a Text::new_inline header — both UI; credit -> 积分 per glossary. auth_secret_ftux_view.rs:221 'Failed to save API key: {error}' flows into DismissibleToast::error (UI toast) -> translate, {error} placeholder + brand API preserved, full-width colon."
+}

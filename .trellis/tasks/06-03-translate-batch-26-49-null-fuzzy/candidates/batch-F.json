@@ -1,0 +1,138 @@
+[
+  {
+    "id": "01KQXQV12GEQBE6SPN4DFW5GEP",
+    "source": "Child conversation not found",
+    "file": "app/src/ai/blocklist/orchestration_events.rs",
+    "line": 209,
+    "occurrences_kind": "literal",
+    "source_hash": "f0847a3fc2b5acea",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/orchestration_events.rs",
+        "line": 209,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12AR0MP8VBG4QSQC1ET",
+    "source": "Could not resolve a working directory for the local {} child.",
+    "file": "app/src/pane_group/pane/local_harness_launch.rs",
+    "line": 195,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8bcd51c3f6e13539",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/local_harness_launch.rs",
+        "line": 195,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVK9CCKHMMQXYGAQY4C32M",
+    "source": "Cloud agent usage",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+    "line": 94,
+    "occurrences_kind": "literal",
+    "source_hash": "182f68eb0ef4b662",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+        "line": 94,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAV0SX6XV1KX5RZNNK83",
+    "source": "({} credits)",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+    "line": 224,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fa0a5f47ef8031fe",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_team_totals.rs",
+        "line": 224,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DAWK7WXFJKCTFW878",
+    "source": "Index limit reached",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 1804,
+    "occurrences_kind": "literal",
+    "source_hash": "1d9dc87e584b2f0b",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 1804,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129QRQ29G3PKR9S7818",
+    "source": "Cloud Agent",
+    "file": "app/src/workspace/view.rs",
+    "line": 6367,
+    "occurrences_kind": "literal",
+    "source_hash": "f594d8cb27bb1dbf",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 6367,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B5XQ9PK10E7HTNZ4W",
+    "source": "Documentation",
+    "file": "app/src/workspace/view.rs",
+    "line": 9128,
+    "occurrences_kind": "literal",
+    "source_hash": "c205924de0fe636c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9128,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129DBQE7ZXN729DW6KV",
+    "source": "This conversation cannot be deleted",
+    "file": "app/src/workspace/view/conversation_list/view.rs",
+    "line": 936,
+    "occurrences_kind": "literal",
+    "source_hash": "5f21bf626abf1d59",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view/conversation_list/view.rs",
+        "line": 936,
+        "kind": "literal"
+      }
+    ]
+  }
+]

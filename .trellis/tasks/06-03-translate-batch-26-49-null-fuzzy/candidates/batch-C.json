@@ -1,0 +1,158 @@
+[
+  {
+    "id": "01KQXQV12D851ZFM99WQA525DZ",
+    "source": "New environment",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs",
+    "line": 171,
+    "occurrences_kind": "literal",
+    "source_hash": "39fe4fa85dad7e25",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 5,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs",
+        "line": 171,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs",
+        "line": 433,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/agent_view/agent_input_footer/environment_selector.rs",
+        "line": 435,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+        "line": 896,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings_view/environments_page/new_environment_button.rs",
+        "line": 99,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12A83R9SM6KMMYNH45Y",
+    "source": "Custom · {}",
+    "file": "app/src/ai/llms.rs",
+    "line": 1344,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4d066e2b260fd71c",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/llms.rs",
+        "line": 1344,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKATRNXVFHK31834PEY3J",
+    "source": "cloud handoff auto sleep ampersand & move to cloud local",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6990,
+    "occurrences_kind": "literal",
+    "source_hash": "bc4d0d7a2a1f0fcf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 6990,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E25BKD4WS5R93EE77",
+    "source": "Contact a team admin to restore access.",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2031,
+    "occurrences_kind": "literal",
+    "source_hash": "fca3f680b593dfcf",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2031,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EQTX7TSN2Z9BG8A1N",
+    "source": "By link",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2738,
+    "occurrences_kind": "literal",
+    "source_hash": "2262fe732349c080",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2738,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JDPD3J14C14BWFTQF",
+    "source": "Update billing",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2080,
+    "occurrences_kind": "literal",
+    "source_hash": "f5a0dcbaa62ace13",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2080,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JXEG7SMSH7GBD3JFE",
+    "source": "1 team member",
+    "file": "app/src/settings_view/teams_page.rs",
+    "line": 2942,
+    "occurrences_kind": "literal",
+    "source_hash": "3ea5120d9f2de54e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 2942,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JF69PJHBDYB4JAKNA",
+    "source": "{file_path} L{start_line}-L{end_line} (+{lines_added} -{lines_removed}) -- run `git diff` to see the full context.",
+    "file": "app/src/terminal/cli_agent.rs",
+    "line": 500,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d8e1a7759820e056",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent.rs",
+        "line": 500,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

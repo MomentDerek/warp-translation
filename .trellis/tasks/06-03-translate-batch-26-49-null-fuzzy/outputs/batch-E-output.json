@@ -1,0 +1,15 @@
+{
+  "translations": {
+    "01KQXQV12G2V77JZRN2BRZ850W": "已取消生成 Agent",
+    "01KQXQV12EWQQ6MKTC28EFSE3D": "请联系团队管理员以恢复访问权限。",
+    "01KQXQV12EAR63KQVND6E5YZ09": "按回车键导航到标签页：{}。",
+    "01KQXQV12FAEZ04XYFFW0EHCSY": "已选中标签页：{}。",
+    "01KQXQV129V5RRK4T6RH21F3TF": "账单与用量",
+    "01KQXQV12BD1VPCMEFKAAXB819": "加载 Agent 失败。请关闭后重试。",
+    "01KQXQV12GH2ZY03HS71Y6N3TS": "此 API 密钥绑定到某个 Agent，可代表该 Agent 发起请求。",
+    "01KQXQV12FY3R425GE389HHYC9": "正在运行 {}……"
+  },
+  "do_not_translate_subflags": {},
+  "bilingual_search_terms_ids": [],
+  "notes": "All 8 entries traced to UI sinks. run_agents_card_view.rs:987/1402 'Spawn agents cancelled' is a status-card label (render_status_only_card / StatusKind::Cancelled) -> UI. drive/index.rs:200 payment-issue banner line -> UI. search_item.rs:102/107 are accessibility_label/accessibility_help_message (screen-reader UI), {} = tab.title preserved. billing_and_usage_dispatch.rs:50 'Billing and Usage' is a PageType title -> UI. create_api_key_modal.rs:297 error event message -> modal UI; :57 ApiKeyType::Agent description -> modal UI; 'Agent'/'API' kept English per brand list. harness_session_header.rs:66 'Running {}...' is a Text label, {} = cli_name preserved, '...' -> '……'. No panic/telemetry/doc/search_terms/fixture cases in this batch."
+}

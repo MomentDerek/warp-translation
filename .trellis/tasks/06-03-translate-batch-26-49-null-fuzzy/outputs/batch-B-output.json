@@ -1,0 +1,19 @@
+{
+  "translations": {
+    "01KQXQV12B5A165VD3GCER635G": "无法为本地子 Agent 创建隐藏窗格。",
+    "01KQXQV12BNJ60DS7G5ZTT5HH7": "创建本地子任务失败：{error}",
+    "01KQXQV12BP3KSVTTHNQTND9C7": null,
+    "01KQXQV12D8PANG1PPYKYW5DD1": "WASM 构建不支持本地子 Agent。",
+    "01KQXQV12FP02EAJPQ7C8GABYW": "运行中……",
+    "01KQXQV12BZVNSTCK27KFMM9XN": "加载命令块失败，请重试。",
+    "01KQXQV12BAV49DPDBNBZ69F47": null,
+    "01KQXQV12BV11JWHG4WFR5HGR7": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12BP3KSVTTHNQTND9C7": ["telemetry_payload"],
+    "01KQXQV12BAV49DPDBNBZ69F47": ["telemetry_payload"],
+    "01KQXQV12BV11JWHG4WFR5HGR7": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "terminal_pane.rs error_message fields (lines 1795/1811/1625) flow through create_error_child_agent_conversation -> update_conversation_status_with_error_message -> ConversationStatus::Error rendered in the AI child-agent conversation UI (enter_agent_view), so they are user-facing -> translated. {error} placeholder preserved; brand 'Agent' and 'WASM' kept English. terminal_pane.rs:681 'Failed to retreive shared session link' becomes ShareableLinkError::Unexpected(message) whose only consumer (pane_group/mod.rs:7659) is log::error! -> telemetry_payload, null. command_palette/navigation/render.rs:340/366 'Running...' is hint_text rendered in the navigation palette -> UI, translated, ASCII '...' -> '……'. show_blocks_view.rs:313 is a ui_builder.label() -> UI, translated; 'blocks' per glossary -> 命令块. node_runtime/src/lib.rs:307/382 'Failed to write to/file {:?}' are anyhow .with_context() error-chain context strings with {:?} debug formatting of paths, surfaced in developer error logs not UI -> telemetry_payload, null; {:?} would have been preserved if translated."
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "01KQXQV12B5A165VD3GCER635G",
+    "source": "Failed to create a hidden pane for the local child agent.",
+    "file": "app/src/pane_group/pane/terminal_pane.rs",
+    "line": 1795,
+    "occurrences_kind": "literal",
+    "source_hash": "1bc665d55c35e261",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/terminal_pane.rs",
+        "line": 1795,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BNJ60DS7G5ZTT5HH7",
+    "source": "Failed to create local child task: {error}",
+    "file": "app/src/pane_group/pane/terminal_pane.rs",
+    "line": 1811,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6165b49d8b0d50f8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/terminal_pane.rs",
+        "line": 1811,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BP3KSVTTHNQTND9C7",
+    "source": "Failed to retreive shared session link",
+    "file": "app/src/pane_group/pane/terminal_pane.rs",
+    "line": 681,
+    "occurrences_kind": "literal",
+    "source_hash": "9b8916d7eaf1b118",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/terminal_pane.rs",
+        "line": 681,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12D8PANG1PPYKYW5DD1",
+    "source": "Local child agents are not supported in WASM builds.",
+    "file": "app/src/pane_group/pane/terminal_pane.rs",
+    "line": 1625,
+    "occurrences_kind": "literal",
+    "source_hash": "ce81212e5e3c8ea2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/pane_group/pane/terminal_pane.rs",
+        "line": 1625,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FP02EAJPQ7C8GABYW",
+    "source": "Running...",
+    "file": "app/src/search/command_palette/navigation/render.rs",
+    "line": 340,
+    "occurrences_kind": "literal",
+    "source_hash": "4977a7e5bb3675c4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/navigation/render.rs",
+        "line": 340,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/search/command_palette/navigation/render.rs",
+        "line": 366,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BZVNSTCK27KFMM9XN",
+    "source": "Failed to load blocks. Please try again.",
+    "file": "app/src/settings_view/show_blocks_view.rs",
+    "line": 313,
+    "occurrences_kind": "literal",
+    "source_hash": "8cf6987be3a9488e",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/show_blocks_view.rs",
+        "line": 313,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BAV49DPDBNBZ69F47",
+    "source": "Failed to write file: {:?}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 382,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1c54df0e51166f40",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 382,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BV11JWHG4WFR5HGR7",
+    "source": "Failed to write to {:?}",
+    "file": "crates/node_runtime/src/lib.rs",
+    "line": 307,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "efee46b385b405f3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/node_runtime/src/lib.rs",
+        "line": 307,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

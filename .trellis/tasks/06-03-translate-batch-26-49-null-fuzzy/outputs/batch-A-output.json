@@ -1,0 +1,24 @@
+{
+  "translations": {
+    "01KQXQV12FH9C31Q4HN7F9545H": "已选中 {}，{}。",
+    "01KQXQV12GBFPDMXGF82EVGQ9A": "发送中……",
+    "01KQXQV12C8W0086R5F26ESEBV": null,
+    "01KRNVKADEHJHCDQ981A8W2DKY": null,
+    "01KRNVKADQ30KCMK06HSBSSXHK": null,
+    "01KRNVKADY6455ZEQGW6TB14HE": null,
+    "01KRNVKAE72YR8DPMGY0D6BZMX": null,
+    "01KRNVKAGKQ36R2AVPW4WR0WBF": null,
+    "01KRNVKAGX2MKHSEAF9KDEX0CM": null
+  },
+  "do_not_translate_subflags": {
+    "01KQXQV12C8W0086R5F26ESEBV": ["telemetry_payload"],
+    "01KRNVKADEHJHCDQ981A8W2DKY": ["telemetry_payload"],
+    "01KRNVKADQ30KCMK06HSBSSXHK": ["telemetry_payload"],
+    "01KRNVKADY6455ZEQGW6TB14HE": ["telemetry_payload"],
+    "01KRNVKAE72YR8DPMGY0D6BZMX": ["telemetry_payload"],
+    "01KRNVKAGKQ36R2AVPW4WR0WBF": ["telemetry_payload"],
+    "01KRNVKAGX2MKHSEAF9KDEX0CM": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "search_item.rs:151 'Selected {}, {}.' is accessibility_label() returning a String for screen readers (user-facing a11y UI) -> translated, both {} placeholders preserved (slot1=description, slot2=trigger keystroke). referrals_page.rs:55 EMAIL_BUTTON_SENDING_TEXT 'Sending...' is a referrals send-email button label -> translated, ASCII ... -> Chinese ellipsis. gql_convert.rs:460 wrapped in report_error!(anyhow!(...)) error-report sink (not UI) -> telemetry_payload. The 6 remote_server/src/client/mod.rs entries (lines 323,324,987,988,1051,1052) all sit inside safe_error! which expands to log::error! (warp_core/src/safe_log.rs:39) -> pure logging sink, not UI -> telemetry_payload."
+}

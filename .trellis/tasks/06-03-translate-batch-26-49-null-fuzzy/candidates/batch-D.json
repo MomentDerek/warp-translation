@@ -1,0 +1,143 @@
+[
+  {
+    "id": "01KQXQV12DY6B3G4KER1JPHTZN",
+    "source": "Local Oz child agents require the parent run_id to be available.",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 334,
+    "occurrences_kind": "literal",
+    "source_hash": "06d8863cc8571697",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 334,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12E1455J9R9TDZQNN61",
+    "source": "Local harness child agents require the parent run_id to be available.",
+    "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+    "line": 386,
+    "occurrences_kind": "literal",
+    "source_hash": "f24a003a3dce4b4d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/start_agent.rs",
+        "line": 386,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FH2CEABWTN5YQ42P7",
+    "source": "Empty environment",
+    "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+    "line": 64,
+    "occurrences_kind": "literal",
+    "source_hash": "0492fbeca82c0d9a",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+        "line": 64,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B7QDPSTG0PSSMMH89",
+    "source": "Failed to save file: {err}",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6224,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "21561f39e4d5a552",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/code_review_view.rs",
+        "line": 6224,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JF8Y82MTRQCF9V603",
+    "source": "Open the admin panel",
+    "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+    "line": 759,
+    "occurrences_kind": "literal",
+    "source_hash": "9440f52ba62d80ba",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage/billing_cycle_usage_section.rs",
+        "line": 759,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CH2Y7PXE20Z62103K",
+    "source": "Base credits",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 803,
+    "occurrences_kind": "literal",
+    "source_hash": "b30713847fb33b40",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+        "line": 803,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12JGCYHTPB871VFX1J3",
+    "source": "Buy credits",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 1272,
+    "occurrences_kind": "literal",
+    "source_hash": "fd70f8c19e460a12",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+        "line": 1272,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+        "line": 1365,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12B28P8TS9HTPMNRQJ1",
+    "source": "Failed to save API key: {error}",
+    "file": "app/src/terminal/view/ambient_agent/auth_secret_ftux_view.rs",
+    "line": 221,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cfd22ea08cb71c7f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/auth_secret_ftux_view.rs",
+        "line": 221,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

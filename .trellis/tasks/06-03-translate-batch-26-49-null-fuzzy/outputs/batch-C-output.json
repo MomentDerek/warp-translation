@@ -1,0 +1,15 @@
+{
+  "translations": {
+    "01KQXQV12D851ZFM99WQA525DZ": "新建环境",
+    "01KQXQV12A83R9SM6KMMYNH45Y": "自定义 · {}",
+    "01KRNVKATRNXVFHK31834PEY3J": "cloud handoff auto sleep ampersand & move to cloud local 云 切换 移交 自动 睡眠 休眠 与号 移至 本地",
+    "01KQXQV12E25BKD4WS5R93EE77": "请联系团队管理员以恢复访问权限。",
+    "01KQXQV12EQTX7TSN2Z9BG8A1N": "通过链接",
+    "01KQXQV12JDPD3J14C14BWFTQF": "更新账单",
+    "01KQXQV12JXEG7SMSH7GBD3JFE": "1 名团队成员",
+    "01KQXQV12JF69PJHBDYB4JAKNA": "{file_path} L{start_line}-L{end_line} (+{lines_added} -{lines_removed}) —— 运行 `git diff` 查看完整上下文。"
+  },
+  "do_not_translate_subflags": {},
+  "bilingual_search_terms_ids": ["01KRNVKATRNXVFHK31834PEY3J"],
+  "notes": "environment_selector.rs:171 — GenericMenuItem::name() menu label, UI -> translate '新建环境'. llms.rs:1344 — LLMInfo.description, '{}' fills with endpoint.name (custom endpoint name, untranslatable); '·' separator + {} preserved -> '自定义 · {}'. ai_page.rs:6990 — fn search_terms() on CloudHandoffWidget -> bilingual append, kept English verbatim incl '&', added 云/切换/移交/自动/睡眠/休眠/与号/移至/本地 lowercase no-punct. teams_page.rs:2031 — cta_sentence UI string -> translate (formal 您 register, full-width 。). teams_page.rs:2738 — render_subsubsection_header 'By link' subsection header -> '通过链接'. teams_page.rs:2080 — CTA button label 'Update billing' -> '更新账单' (imperative, no trailing punct). teams_page.rs:2942 — count_label singular branch ('1 team member') vs format!('{count} team members') -> '1 名团队成员'. cli_agent.rs:500 — build_diff_hunk_prompt: text sent to CLI agent PTY / rich input (view.rs:22463 try_send_text_to_cli_agent_or_rich_input), user-visible prompt not telemetry/panic; preserved all {placeholder} location fields and (+{} -{}) stats and `git diff` identifier, translated only trailing instruction sentence, '--' -> '——'."
+}

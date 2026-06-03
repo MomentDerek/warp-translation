@@ -1,0 +1,155 @@
+[
+  {
+    "id": "01KQXQV12FH9C31Q4HN7F9545H",
+    "source": "Selected {}, {}.",
+    "file": "app/src/search/action/search_item.rs",
+    "line": 151,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "abbf6340441ea40c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/action/search_item.rs",
+        "line": 151,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GBFPDMXGF82EVGQ9A",
+    "source": "Sending...",
+    "file": "app/src/settings_view/referrals_page.rs",
+    "line": 55,
+    "occurrences_kind": "literal",
+    "source_hash": "286a3af7348e8312",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/referrals_page.rs",
+        "line": 55,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12C8W0086R5F26ESEBV",
+    "source": "Invalid UsageVisibilityGranularity '{value}'. Make sure to update client GraphQL types!",
+    "file": "app/src/workspaces/gql_convert.rs",
+    "line": 460,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b18608bf4269a0df",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspaces/gql_convert.rs",
+        "line": 460,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKADEHJHCDQ981A8W2DKY",
+    "source": "Remote server unexpected response for GetBranches",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1051,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e982e32a750947ef",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 1051,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKADQ30KCMK06HSBSSXHK",
+    "source": "Remote server unexpected response for GetBranches: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 1052,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "13971c249072b503",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 1052,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKADY6455ZEQGW6TB14HE",
+    "source": "Remote server unexpected response for GetDiffState",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 987,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "21403303b467e2a3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 987,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAE72YR8DPMGY0D6BZMX",
+    "source": "Remote server unexpected response for GetDiffState: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 988,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a82681590ea277e8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 988,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAGKQ36R2AVPW4WR0WBF",
+    "source": "Remote server unexpected response for Initialize",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 323,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9538b92577a5b5c7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 323,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKAGX2MKHSEAF9KDEX0CM",
+    "source": "Remote server unexpected response for Initialize: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 324,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fdd76c5def962b6a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 324,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

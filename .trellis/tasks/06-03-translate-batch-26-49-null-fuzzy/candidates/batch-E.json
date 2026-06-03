@@ -1,0 +1,143 @@
+[
+  {
+    "id": "01KQXQV12G2V77JZRN2BRZ850W",
+    "source": "Spawn agents cancelled",
+    "file": "app/src/ai/blocklist/inline_action/run_agents_card_view.rs",
+    "line": 987,
+    "occurrences_kind": "literal",
+    "source_hash": "222fd02661bf4236",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/inline_action/run_agents_card_view.rs",
+        "line": 987,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/inline_action/run_agents_card_view.rs",
+        "line": 1402,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EWQQ6MKTC28EFSE3D",
+    "source": "Please contact a team admin to restore access.",
+    "file": "app/src/drive/index.rs",
+    "line": 200,
+    "occurrences_kind": "literal",
+    "source_hash": "f62cfb317fdccca9",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/drive/index.rs",
+        "line": 200,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EAR63KQVND6E5YZ09",
+    "source": "Press enter to navigate to tab: {}.",
+    "file": "app/src/search/command_palette/tabs/search_item.rs",
+    "line": 107,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3befb8a36bdcdc1d",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/tabs/search_item.rs",
+        "line": 107,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FAEZ04XYFFW0EHCSY",
+    "source": "Selected tab: {}.",
+    "file": "app/src/search/command_palette/tabs/search_item.rs",
+    "line": 102,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "287f273c82aa1d66",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/tabs/search_item.rs",
+        "line": 102,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV129V5RRK4T6RH21F3TF",
+    "source": "Billing and Usage",
+    "file": "app/src/settings_view/billing_and_usage_dispatch.rs",
+    "line": 50,
+    "occurrences_kind": "literal",
+    "source_hash": "24bd5f912c219b04",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage_dispatch.rs",
+        "line": 50,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12BD1VPCMEFKAAXB819",
+    "source": "Failed to load agents. Please close and try again.",
+    "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+    "line": 297,
+    "occurrences_kind": "literal",
+    "source_hash": "e35e717b029693de",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+        "line": 297,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12GH2ZY03HS71Y6N3TS",
+    "source": "This API key is tied to an agent and can make requests on behalf of the agent.",
+    "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+    "line": 57,
+    "occurrences_kind": "literal",
+    "source_hash": "e549954c1d3a71d0",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/platform/create_api_key_modal.rs",
+        "line": 57,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12FY3R425GE389HHYC9",
+    "source": "Running {}...",
+    "file": "app/src/terminal/view/ambient_agent/block/harness_session_header.rs",
+    "line": 66,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "85610cbd5eefffaf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/block/harness_session_header.rs",
+        "line": 66,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]
