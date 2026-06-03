@@ -237,3 +237,37 @@ Ran the parallel-translation workflow for batch-23 (final cleanup batch) per RUN
 ### Next Steps
 
 - None - task complete
+
+
+## Session 23: Sync upstream warp (130 commits) + batch-25 translation + fuzzy resync
+
+**Date**: 2026-06-03
+**Task**: Sync upstream warp (130 commits) + batch-25 translation + fuzzy resync
+**Branch**: `main`
+
+### Summary
+
+Fast-forwarded ../warp 2566f54a→2249469e (130 commits). Ran sync-upstream-translations workflow: 110 new + 14 fuzzy flips + 23 obsolete. batch-25 via 8 parallel opus implementers (75 UI + 5 bilingual + 30 flag), check PASS. Dispatched trellis-implement to resync 17 stale real-UI fuzzy (fixed 2 semantic inversions). Extractor fixed-point pass auto-hard-deleted 30 obsolete entries; extract --check exit 0, idempotent, 0 unexpected target changes. Final: translated 6813 / fuzzy 61. Documented fuzzy/obsolete handling in RUNBOOK. Backlog: 49 null-fuzzy + 12 flagged-fuzzy for a future maintenance batch.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `cc02d63` | (see git log) |
+| `b7ddbd6` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

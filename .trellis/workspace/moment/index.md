@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-2.md`
-- **Total Sessions**: 22
-- **Last Active**: 2026-05-27
+- **Total Sessions**: 23
+- **Last Active**: 2026-06-03
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-2.md` | ~239 | Active |
+| `journal-2.md` | ~273 | Active |
 | `journal-1.md` | ~1989 | Archived |
 <!-- @@@/auto:active-documents -->
 
@@ -30,6 +30,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 23 | 2026-06-03 | Sync upstream warp (130 commits) + batch-25 translation + fuzzy resync | `cc02d63`, `b7ddbd6` | `main` |
 | 22 | 2026-05-27 | Translation batch-23 (final): clear remaining 99 new entries | `f4dffa1` | `main` |
 | 21 | 2026-05-27 | Translation batch 22 — 600 entries via 8 parallel implementers | `d05e303` | `main` |
 | 20 | 2026-05-27 | Align translation kit default parallelism to 8 | `ca80c80` | `main` |
