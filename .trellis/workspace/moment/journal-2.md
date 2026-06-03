@@ -271,3 +271,36 @@ Fast-forwarded ../warp 2566f54a→2249469e (130 commits). Ran sync-upstream-tran
 ### Next Steps
 
 - None - task complete
+
+
+## Session 24: Batch-26: resolve 49 null-fuzzy entries
+
+**Date**: 2026-06-03
+**Task**: Batch-26: resolve 49 null-fuzzy entries
+**Branch**: `main`
+
+### Summary
+
+Promoted 49 null-target unflagged fuzzy entries to status=new, ran standard 6-implementer parallel batch (36 UI + 1 bilingual + 12 telemetry flag), apply+check PASS. Re-ran extractor extract to canonicalize source_hash (idempotent, --check passed) so resolution survives future syncs. fuzzy 61→12 (only flagged-fuzzy remain). 0 unexpected target changes. apply_batch hard-requires status=new (line 226), hence the promote-to-new pre-step rather than direct fuzzy apply.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `946436e` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
