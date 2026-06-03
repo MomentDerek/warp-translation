@@ -1,0 +1,26 @@
+{
+  "translations": {
+    "01KT6NX06TGM644A3NQMG75TWB": null,
+    "01KT6NX7PNPPARQ1FZS12JFBZ2": "远程代码库 {} 尚未建立索引。",
+    "01KT6NX4QFRSXSEB5C7XCG2YNV": null,
+    "01KT6NX4V340SS0R2XQP8P0ND6": null,
+    "01KT6NX9NTA9FYE2VGXN5P4YEY": "云端 AI 对话存储",
+    "01KT6NWVYBNRQMSS9YWF96ASBS": "关闭分组内所有标签页",
+    "01KT6NWW2Z31ADRQCKQCM4PVPD": "关闭上方标签页",
+    "01KT6NWW7M0P9XQXSXJ3FVD7X3": "关闭下方标签页",
+    "01KT6NX22NBQJGYMWECNRP316M": "下移分组",
+    "01KT6NX257VMRQKG9KVK37HE4N": "上移分组",
+    "01KT6NX2C3V9S6ZHSRC51XD2BA": "在分组内新建标签页",
+    "01KT6NX7T0G51P6YGXB3HNS9J5": "取消标签页分组",
+    "01KT6NX7V62XAP5R4B1385QRDG": "未命名分组",
+    "01KT6NX8Q5EP58SVQFMTKB078X": null
+  },
+  "do_not_translate_subflags": {
+    "01KT6NX06TGM644A3NQMG75TWB": ["telemetry_payload"],
+    "01KT6NX4QFRSXSEB5C7XCG2YNV": ["protocol_key"],
+    "01KT6NX4V340SS0R2XQP8P0ND6": ["protocol_key"],
+    "01KT6NX8Q5EP58SVQFMTKB078X": ["protocol_key"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "request_file_edits.rs:339 'Failed to generate diffs {err:?}' is the full: arm of safe_warn! (logging/telemetry sink, not UI) -> telemetry_payload. native.rs:428 'The remote codebase at {} is not indexed yet.' is SearchCodebaseResult::Failed.message surfaced to the user; translated with {} preserved (filled by remote_path.path). settings_view/mod.rs:510-511 PROMPT_SUBMISSION_INTERRUPT/QUEUE are values of context-flag &str constants (identifier/protocol keys, not UI) -> protocol_key. privacy_page.rs:2018 'cloud AI conversation storage' is description_suffix for ToggleSettingActionPair::new, rendered to user as 'Enable/Disable {suffix}' in command palette -> translated UI fragment. workspace/view.rs entries are all MenuItemFields::new(...) tab-group context-menu labels -> translated; 'Untitled group' is the unwrap_or_else fallback display name for an unnamed group -> translated. graphql_helpers.rs:66 'User not in context: Not found' is matched via error.message.contains(...) against a server GraphQL response to detect a disabled/deleted account; it is a protocol comparison literal, never rendered -> protocol_key."
+}

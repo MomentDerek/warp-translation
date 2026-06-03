@@ -1,0 +1,213 @@
+{
+  "num_batches": 8,
+  "target_total": 200,
+  "total": 110,
+  "status_filter": "new",
+  "strings_path": "/Users/derek/Documents/Codes/warp_translation/translations/strings.json",
+  "batches": [
+    {
+      "letter": "A",
+      "count": 14,
+      "files": [
+        {
+          "path": "app/src/settings/editor.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/features_page.rs",
+          "count": 12
+        },
+        {
+          "path": "crates/cloud_object_client/src/lib.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "count": 14,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/upload_artifact.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/ai_page.rs",
+          "count": 11
+        },
+        {
+          "path": "app/src/settings_view/billing_and_usage_page_v2.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/computer_use/src/mac/keycode_cache.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "count": 14,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/appearance_page.rs",
+          "count": 8
+        },
+        {
+          "path": "app/src/settings_view/mcp_servers/destructive_mcp_confirmation_dialog.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/http_client/src/iap.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_server_client/src/auth/session.rs",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "count": 14,
+      "files": [
+        {
+          "path": "app/src/ai/conversation_details_panel.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings_view/main_page.rs",
+          "count": 8
+        },
+        {
+          "path": "app/src/settings_view/mcp_servers/installation_modal.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_core/src/channel/state.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warp_server_client/src/auth/mod.rs",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "letter": "E",
+      "count": 14,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/request_file_edits.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/get_relevant_files/remote_search/native.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings_view/privacy_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/view.rs",
+          "count": 8
+        },
+        {
+          "path": "crates/warp_server_client/src/graphql_helpers.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "count": 14,
+      "files": [
+        {
+          "path": "app/src/ai/harness_availability.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/file_invalidation_queue.rs",
+          "count": 6
+        },
+        {
+          "path": "app/src/settings_view/warpify_page.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/queued_prompts_panel.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/warpui/src/platform/mac/rendering/metal/renderer.rs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "letter": "G",
+      "count": 13,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/ai/local_harness_setup.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/ai.rs",
+          "count": 5
+        },
+        {
+          "path": "app/src/terminal/share_block_modal.rs",
+          "count": 1
+        },
+        {
+          "path": "crates/warpui/src/platform/mac/window.rs",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "letter": "H",
+      "count": 13,
+      "files": [
+        {
+          "path": "app/src/search/command_palette/files/search_item.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/code_page.rs",
+          "count": 5
+        },
+        {
+          "path": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+          "count": 4
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/auth_secret_ftux_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/delete_auth_secret_confirmation_dialog.rs",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

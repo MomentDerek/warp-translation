@@ -1,0 +1,258 @@
+[
+  {
+    "id": "01KT6NX6B0685B825T3Y1F5J9T",
+    "source": "Requested agent(s) have already been launched: {duplicate_list}. Do not start duplicate child agents; send any follow-up with send_message_to_agent using the existing agent id(s): {addresses}.",
+    "file": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+    "line": 499,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bfbefc6f1f7428bf",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/run_agents.rs",
+        "line": 499,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX1BCHNYK4F116CFJT3HE",
+    "source": "Install Claude Code to use this local harness.",
+    "file": "app/src/ai/local_harness_setup.rs",
+    "line": 8,
+    "occurrences_kind": "literal",
+    "source_hash": "e335e22fc0d5e345",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/local_harness_setup.rs",
+        "line": 8,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWX9RKKR9PRHMP9TP8MQP",
+    "source": "Default behavior when submitting a new prompt while the agent is still responding.",
+    "file": "app/src/settings/ai.rs",
+    "line": 436,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a6358cbd389d4c11",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/ai.rs",
+        "line": 436,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX1F2E9XS2GDJ218VES69",
+    "source": "Interrupt response",
+    "file": "app/src/settings/ai.rs",
+    "line": 444,
+    "occurrences_kind": "literal",
+    "source_hash": "0f72b9ce4d73c48e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/ai.rs",
+        "line": 444,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX58EBKRMTBSGKN74C21K",
+    "source": "Queue until response finishes",
+    "file": "app/src/settings/ai.rs",
+    "line": 445,
+    "occurrences_kind": "literal",
+    "source_hash": "52488213a1e782e1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/ai.rs",
+        "line": 445,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX72VHE8AWF3QA9VNN0ZT",
+    "source": "Set default prompt submission: interrupt response",
+    "file": "app/src/settings/ai.rs",
+    "line": 451,
+    "occurrences_kind": "literal",
+    "source_hash": "ac551058cc101a16",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/ai.rs",
+        "line": 451,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7A2NRKMTM1PV4M037VX",
+    "source": "Set default prompt submission: queue until response finishes",
+    "file": "app/src/settings/ai.rs",
+    "line": 453,
+    "occurrences_kind": "literal",
+    "source_hash": "39482ef1cf391a0f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/ai.rs",
+        "line": 453,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7BHG72RSDZXZJ11E2NN",
+    "source": "Show prompt",
+    "file": "app/src/terminal/share_block_modal.rs",
+    "line": 958,
+    "occurrences_kind": "literal",
+    "source_hash": "af42cee1abdfd2c1",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/share_block_modal.rs",
+        "line": 958,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX8VP7N9M82NYM93X5DFJ",
+    "source": "WarpHostView always has a backing layer",
+    "file": "crates/warpui/src/platform/mac/window.rs",
+    "line": 1124,
+    "occurrences_kind": "literal",
+    "source_hash": "ca6a64a18d3cee1d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1124,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1266,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1362,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX8Y0MJQZRCX085PPSSJP",
+    "source": "WarpHostView backing layer is a CAMetalLayer",
+    "file": "crates/warpui/src/platform/mac/window.rs",
+    "line": 1284,
+    "occurrences_kind": "literal",
+    "source_hash": "b3ec0d32edc243cc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1284,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1375,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX8ZEBXA44WEWNNDF4ET7",
+    "source": "WarpHostView content view",
+    "file": "crates/warpui/src/platform/mac/window.rs",
+    "line": 1121,
+    "occurrences_kind": "literal",
+    "source_hash": "c95c965d97fec500",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1121,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX91CPKJWXWTJJ177MBF4",
+    "source": "WarpWindow always has a content view",
+    "file": "crates/warpui/src/platform/mac/window.rs",
+    "line": 600,
+    "occurrences_kind": "literal",
+    "source_hash": "4ca600125712102f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 4,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 600,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1084,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1174,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1665,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9348TEVXJTWPYDHTR25",
+    "source": "WarpWindow always has a delegate",
+    "file": "crates/warpui/src/platform/mac/window.rs",
+    "line": 637,
+    "occurrences_kind": "literal",
+    "source_hash": "b744c5fe14352e37",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 637,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/warpui/src/platform/mac/window.rs",
+        "line": 1671,
+        "kind": "literal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "translations": {
+    "01KT6NWTKYYJFN27Q1TXFY6T0N": "工件上传失败：{error_chain}",
+    "01KT6NWXHFY7SCRCJE4ZJ0M995": "默认提示词提交模式",
+    "01KT6NX99V2QFBMKH70631GR9Z": "在 Agent 仍在响应时提交新提示词的处理方式。您可以在每次对话中使用自动排队开关单独覆盖此设置。",
+    "01KT6NX9GN1RH5XTG4TTW9ZN3T": "提交提示词后自动关闭 Rich Input",
+    "01KT6NX9HVFC8J0TKCY11SGBDD": "编程 Agent 会话开始时自动打开 Rich Input",
+    "01KT6NX9KMXNA5NVXE69FHWWGX": "根据 Agent 状态自动显示或隐藏 Rich Input",
+    "01KT6NX9QSF8DCDA1CW85SHQ2E": "编程 Agent 工具栏",
+    "01KT6NX9RHWCRRZM1TMTHW5MQP": "提交和拉取请求生成",
+    "01KT6NX9SA85757BY8N4YQ9GW7": "工具面板中的对话历史",
+    "01KT6NX9YEWCHF0D9XFEKMYQX6": "在历史中包含 Agent 执行的命令",
+    "01KT6NXA19BXCGB1X3TQ4M4DQG": "提示词中的模型选择器",
+    "01KT6NXA97TNKZC9JH4BVE69TY": "oz agent ai input natural language detection autodetection prompt terminal command commands history shell executed execution queue interrupt submission submit auto-queue response while responding default 自然语言 检测 自动检测 提示词 终端 命令 历史 执行 队列 中断 提交 响应 正在响应 默认 输入",
+    "01KT6NWRDD8GZ63GPHKM49HH8Y": "/ {} 剩余",
+    "01KT6NWTY0810W5QJW838BS7Z0": null
+  },
+  "do_not_translate_subflags": {
+    "01KT6NWTY0810W5QJW838BS7Z0": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": ["01KT6NXA97TNKZC9JH4BVE69TY"],
+  "notes": "upload_artifact.rs:32 'Artifact upload failed: {error_chain}' is a user-facing error String returned from format_upload_artifact_error -> translated, {error_chain} preserved. ai_page.rs: 8 ToggleSettingActionPair::new first-arg labels (commit/pull request gen, include agent-executed commands, conversation history in tools panel, model picker, coding agent toolbar, auto show/hide+open+dismiss Rich Input) are UI toggle setting labels -> translated; Rich Input/Agent kept as brand/glossary terms. ai_page.rs:5689 'Default prompt submission mode' dropdown label and :5691 its description both UI -> translated. ai_page.rs:5616 fn search_terms() -> bilingual append, English keywords preserved verbatim + Chinese appended, no punctuation, no dups. billing_and_usage_page_v2.rs:2213 '/ {} remaining' is a Text::new_inline label -> translated, {} preserved. keycode_cache.rs:108/122 'Attempted to create a NULL object.' is a .expect() panic string -> flag_panic_message, target null."
+}

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "01KT6NWWMV3ABNZC9QK8497ANS",
+    "source": "Create a file named {}…",
+    "file": "app/src/search/command_palette/files/search_item.rs",
+    "line": 164,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "69b3366d6827a587",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/search/command_palette/files/search_item.rs",
+        "line": 164,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9JHHMMGTKTPVVAHFYP9",
+    "source": "auto open code review panel",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 940,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5637aeaf9071283d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 940,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9PC9K7V9KFZSKR3JRG5",
+    "source": "code review button",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 948,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cf5c5e9d8ee95be8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 948,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9TQ1YH3N93HWGHKPEVZ",
+    "source": "diff stats on code review button",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 956,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fbdaad6ed5a4c6f3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 956,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9V6YHEMWZ2YNVD6BKWP",
+    "source": "global file search",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 972,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d393a5c0156df1b4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 972,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXAA9AJZ7JJEPK1KGMYGA",
+    "source": "project explorer",
+    "file": "app/src/settings_view/code_page.rs",
+    "line": 964,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f4eb99d7d5fd28e6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/code_page.rs",
+        "line": 964,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX3BP9SQHGJWS0WG74W5B",
+    "source": "Platform plugin installation did not take effect",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 198,
+    "occurrences_kind": "literal",
+    "source_hash": "260a1bba8eb5a05a",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+        "line": 198,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX3R2E9CWG0F3FW6MQ095",
+    "source": "Plugin update did not take effect",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 141,
+    "occurrences_kind": "literal",
+    "source_hash": "ac0bafd20e108d62",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+        "line": 141,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 101,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX4B71QF8SMFFRBS5YASA",
+    "source": "Post-update version check: platform plugin is still outdated\n",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 219,
+    "occurrences_kind": "literal",
+    "source_hash": "81b23e302287c0d2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+        "line": 219,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX4K9QGF5HBN344ZYHNHE",
+    "source": "Post-update version check: plugin is still outdated\n",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 139,
+    "occurrences_kind": "literal",
+    "source_hash": "e1df308c2e7f7d59",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+        "line": 139,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 99,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWRWJGR134FQJNXHSJABN",
+    "source": "API key '{name}' saved.",
+    "file": "app/src/terminal/view/ambient_agent/auth_secret_ftux_view.rs",
+    "line": 726,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f8c132fd7e1506e4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/auth_secret_ftux_view.rs",
+        "line": 726,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWT8XSM920GCAR4Z43EJ5",
+    "source": "Are you sure you want to delete {}? This action cannot be undone. Any agents or environments referencing this secret will no longer have access to it.",
+    "file": "app/src/terminal/view/ambient_agent/delete_auth_secret_confirmation_dialog.rs",
+    "line": 97,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fab45c772cca86fb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/delete_auth_secret_confirmation_dialog.rs",
+        "line": 97,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWXSNSZRKPMRCEKPBFG0B",
+    "source": "Delete secret",
+    "file": "app/src/terminal/view/ambient_agent/delete_auth_secret_confirmation_dialog.rs",
+    "line": 102,
+    "occurrences_kind": "literal",
+    "source_hash": "1a48c8c8304349bd",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/delete_auth_secret_confirmation_dialog.rs",
+        "line": 102,
+        "kind": "literal"
+      }
+    ]
+  }
+]

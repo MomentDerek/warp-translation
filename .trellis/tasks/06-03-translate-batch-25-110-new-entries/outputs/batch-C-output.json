@@ -1,0 +1,28 @@
+{
+  "translations": {
+    "01KT6NX0RM0KY7Y7NSXERVRY0R": "云端 Agent 对话始终启用快进",
+    "01KT6NX9ER7HYR3W3PXR1HFYXM": "Agent 字体匹配终端字体",
+    "01KT6NX9SZM97CS7HHC160DD98": "备用屏幕中的自定义内边距",
+    "01KT6NX9ZBSSMJZMR0HXKA4D4H": "在标签页名称中以最新用户提示词作为对话标题",
+    "01KT6NXA2MW2JBRSANTK1GD2K1": "笔记本字体大小匹配终端字体大小",
+    "01KT6NXA492JD6840EEGJJB44J": "open windows with custom size 打开 窗口 自定义 大小 尺寸",
+    "01KT6NXA9WYTYQXZ4QDDG6EQGE": "为新标签页保留当前标签页颜色",
+    "01KT6NXAARREXB3E9CVJ76H15G": "跨标签页的工具面板可见性",
+    "01KT6NXABFCRRHRY5D97GDCK1B": "窗口模糊亚克力纹理",
+    "01KT6NX5GPC4W5HQRNCJ8V583W": "从团队中移除",
+    "01KT6NWV294YGQZ038GHSHE8FA": null,
+    "01KT6NX1JR85R8A6M92EK5E1VC": null,
+    "01KT6NX1T2APS30RNPF9HS8MHB": null,
+    "01KT6NX7RY23T67BX9SAPK4EWY": null
+  },
+  "do_not_translate_subflags": {
+    "01KT6NWV294YGQZ038GHSHE8FA": ["protocol_key"],
+    "01KT6NX1JR85R8A6M92EK5E1VC": ["panic_message"],
+    "01KT6NX1T2APS30RNPF9HS8MHB": ["panic_message"],
+    "01KT6NX7RY23T67BX9SAPK4EWY": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [
+    "01KT6NXA492JD6840EEGJJB44J"
+  ],
+  "notes": "agent_input_footer/mod.rs:126 + block/view_impl/common.rs:905 — FAST_FORWARD_LOCKED_TOOLTIP, a user-visible tooltip string (props.is_locked branch). Translated; 'Agent' kept English per glossary, 'fast forward' rendered as 快进. appearance_page.rs toggle pairs (lines 280/454/424/289/445/271/262) are ToggleSettingActionPair::new first arg `description_suffix` — confirmed user-visible (mod.rs:744 renders 'Enable {suffix}'/'Disable {suffix}' in command palette). Translated per glossary: agent→Agent, notebook→笔记本, tab→标签页, blur→模糊, padding→内边距. appearance_page.rs:2967 is fn search_terms() return value → bilingual append (English keywords kept verbatim, Chinese appended, no punctuation). destructive_mcp_confirmation_dialog.rs:74 'Remove from team' is a destructive button label → translated. iap.rs:8 'Bearer {token}' is format! for the Proxy-Authorization HTTP header value (RFC auth scheme), wire/protocol literal, not UI → protocol_key. session.rs:203/206 are .expect('Invalid token URL'/'Invalid device URL') → panic_message. session.rs:189 'Unable to obtain access token' is .context() on an anyhow error wrapped into UserAuthenticationError::Unexpected, which renders into the dev-facing error chain ('{0:#}') and log::info! sinks, not a translated UI surface → telemetry_payload."
+}

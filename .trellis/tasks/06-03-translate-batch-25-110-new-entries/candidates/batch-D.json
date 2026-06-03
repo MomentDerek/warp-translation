@@ -1,0 +1,250 @@
+[
+  {
+    "id": "01KT6NX6F11WFW06CP7YRT4CYS",
+    "source": "Run metadata is not available",
+    "file": "app/src/ai/conversation_details_panel.rs",
+    "line": 82,
+    "occurrences_kind": "literal",
+    "source_hash": "0fdb1d7d99fe91ab",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/conversation_details_panel.rs",
+        "line": 82,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9DXTZBKF8DBVZBCPXBW",
+    "source": "You can view this shared session, but run metadata is only visible to users with access to this run.",
+    "file": "app/src/ai/conversation_details_panel.rs",
+    "line": 84,
+    "occurrences_kind": "literal",
+    "source_hash": "b8d15720f82c292a",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/conversation_details_panel.rs",
+        "line": 84,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX0AT4RTZH91B89V05F75",
+    "source": "Failed: {message}",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1115,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7cb0ae90c1252c55",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1115,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX1ZR754AKNRQ2CSC00DV",
+    "source": "Loaded (refreshes in ~{mins}m)",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1113,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ee4b409015f2b6df",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1113,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX2R8R5MAGF1ZP5MK6DVS",
+    "source": "Not yet loaded",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1106,
+    "occurrences_kind": "literal",
+    "source_hash": "d14dd45aba4145c0",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1106,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX59QDG7Q4ZJQ5MPCQSX7",
+    "source": "Refresh",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1159,
+    "occurrences_kind": "literal",
+    "source_hash": "0e91610117029a62",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1159,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX5BKRGFSEMXX8PFV3MGT",
+    "source": "Refreshing…",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1107,
+    "occurrences_kind": "literal",
+    "source_hash": "1c0def7be0607b96",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1107,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1157,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7E54FSB20FRMGQ127V9",
+    "source": "Staging IAP credentials",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1125,
+    "occurrences_kind": "literal",
+    "source_hash": "45972a2f5e66f44e",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1125,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX8SKKSMKEDDXC5MW8KEW",
+    "source": "Using injected token (WARP_IAP_TOKEN)",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1117,
+    "occurrences_kind": "literal",
+    "source_hash": "595c2b924dea1d73",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1117,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9X4TAQ77789CZDXX57M",
+    "source": "iap staging gcloud proxy credentials",
+    "file": "app/src/settings_view/main_page.rs",
+    "line": 1088,
+    "occurrences_kind": "literal",
+    "source_hash": "0449f56132668d3f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/main_page.rs",
+        "line": 1088,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXAB3RP7R81D64S2CC703",
+    "source": "valid keystroke",
+    "file": "app/src/settings_view/mcp_servers/installation_modal.rs",
+    "line": 83,
+    "occurrences_kind": "literal",
+    "source_hash": "5bb205c353c9c738",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/mcp_servers/installation_modal.rs",
+        "line": 83,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings_view/mcp_servers/update_modal.rs",
+        "line": 65,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX6WXCZEA4YV0BJQTGGN6",
+    "source": "Server root URL should be valid",
+    "file": "crates/warp_core/src/channel/state.rs",
+    "line": 291,
+    "occurrences_kind": "literal",
+    "source_hash": "12cd43857bfde438",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_core/src/channel/state.rs",
+        "line": 291,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWZ2035REARW2T6X83YRT",
+    "source": "Failed to exchange refresh token with access token.",
+    "file": "crates/warp_server_client/src/auth/mod.rs",
+    "line": 523,
+    "occurrences_kind": "literal",
+    "source_hash": "f624b3454a17b9ee",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_server_client/src/auth/mod.rs",
+        "line": 523,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWZJF81034QKT0F412E3V",
+    "source": "Failed to fetch user response data",
+    "file": "crates/warp_server_client/src/auth/mod.rs",
+    "line": 249,
+    "occurrences_kind": "literal",
+    "source_hash": "6d6c86b292198579",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_server_client/src/auth/mod.rs",
+        "line": 249,
+        "kind": "literal"
+      }
+    ]
+  }
+]

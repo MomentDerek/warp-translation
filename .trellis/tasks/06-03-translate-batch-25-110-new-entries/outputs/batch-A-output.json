@@ -1,0 +1,26 @@
+{
+  "translations": {
+    "01KT6NX12AT7G68KEG5MK7T1VG": "代码编辑器中行号的显示方式。",
+    "01KT6NWWEMQ66FRJZP9QKRPFS5": "代码编辑器行号：",
+    "01KT6NWY3NCVTTHAZ9AHTKJ6AP": "在终端模式中启用“@”上下文菜单",
+    "01KT6NX9FM98FCQS041C1W7X4Q": "Agent 任务完成通知",
+    "01KT6NX9N46TXJTNAYQ5XZ0GSK": "autosuggestion ignore button hide 自动建议 忽略 按钮 隐藏",
+    "01KT6NX9Q72G9M3NPR5WKZ4JTG": "“@”上下文菜单中的代码库符号",
+    "01KT6NX9VVPRBBW148V5N1PGYQ": "命令搜索中的全局工作流",
+    "01KT6NX9WDVTS5120TXNHE4RHD": "新会话中的帮助命令块",
+    "01KT6NX9XPMQT6TNZPQJCPPR3J": "应用内 Agent 通知",
+    "01KT6NXA050CFVBGYF3M62VCB9": "line number relative line vim gutter code editor 行号 相对 行 编辑器 代码 槽",
+    "01KT6NXA0S4ED46V5SX6CF3DHW": "长时间运行命令的通知",
+    "01KT6NXA1V7281XRASK9EGCM7K": "需要关注的通知",
+    "01KT6NXA33DQPCFM83NC1JC6WY": "通知声音",
+    "01KT6NX2X8GTCDAEFD03B3E76N": null
+  },
+  "do_not_translate_subflags": {
+    "01KT6NX2X8GTCDAEFD03B3E76N": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [
+    "01KT6NXA050CFVBGYF3M62VCB9",
+    "01KT6NX9N46TXJTNAYQ5XZ0GSK"
+  ],
+  "notes": "app/src/settings/editor.rs:236 — settings `description` field, user-facing → translated. app/src/settings_view/features_page.rs: line 5796 dropdown label, line 6229 render_body_item label, lines 328/343/358/374/389/569/631/647 are ToggleSettingActionPair::new `description_suffix` (mod.rs:719 comment: 'The user will actually read these strings'; rendered as `Enable {suffix}`/`Disable {suffix}`) → translated as standalone noun phrases; Agent kept English per glossary, block→命令块. Lines 5780 & 6481 are `fn search_terms` → bilingual append (English keywords verbatim + lowercase Chinese, whitespace-separated, no punctuation). crates/cloud_object_client/src/lib.rs:165 'ObjectPermissionsChanged (V2)' is ObjectUpdateMessage::as_str() enum-variant name flowing into log::info! at listener.rs:303 (not UI) → flag telemetry_payload."
+}

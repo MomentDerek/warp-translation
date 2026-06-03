@@ -1,0 +1,28 @@
+{
+  "translations": {
+    "01KT6NX6F11WFW06CP7YRT4CYS": "运行元数据不可用",
+    "01KT6NX9DXTZBKF8DBVZBCPXBW": "您可以查看此共享会话，但运行元数据仅对有权访问此运行的用户可见。",
+    "01KT6NX0AT4RTZH91B89V05F75": "失败：{message}",
+    "01KT6NX1ZR754AKNRQ2CSC00DV": "已加载（约 {mins} 分钟后刷新）",
+    "01KT6NX2R8R5MAGF1ZP5MK6DVS": "尚未加载",
+    "01KT6NX59QDG7Q4ZJQ5MPCQSX7": "刷新",
+    "01KT6NX5BKRGFSEMXX8PFV3MGT": "正在刷新……",
+    "01KT6NX7E54FSB20FRMGQ127V9": "暂存 IAP 凭据",
+    "01KT6NX8SKKSMKEDDXC5MW8KEW": "使用注入的令牌（WARP_IAP_TOKEN）",
+    "01KT6NX9X4TAQ77789CZDXX57M": "iap staging gcloud proxy credentials 暂存 代理 凭据 凭证",
+    "01KT6NXAB3RP7R81D64S2CC703": null,
+    "01KT6NX6WXCZEA4YV0BJQTGGN6": null,
+    "01KT6NWZ2035REARW2T6X83YRT": null,
+    "01KT6NWZJF81034QKT0F412E3V": null
+  },
+  "do_not_translate_subflags": {
+    "01KT6NXAB3RP7R81D64S2CC703": ["panic_message"],
+    "01KT6NX6WXCZEA4YV0BJQTGGN6": ["panic_message"],
+    "01KT6NWZ2035REARW2T6X83YRT": ["telemetry_payload"],
+    "01KT6NWZJF81034QKT0F412E3V": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [
+    "01KT6NX9X4TAQ77789CZDXX57M"
+  ],
+  "notes": "conversation_details_panel.rs:82,84 - access-denied title + description consts rendered in shared-session panel; regular UI text. main_page.rs - IapCredentialsWidget renders status_text/label/button to the settings UI: 'Not yet loaded','Refreshing…','Failed: {message}','Loaded (refreshes in ~{mins}m)','Staging IAP credentials','Using injected token (WARP_IAP_TOKEN)','Refresh' all translated; placeholders {message}/{mins} preserved, WARP_IAP_TOKEN env-var name preserved, '…' kept as Chinese ellipsis '……'. main_page.rs:1088 search_terms() keyword string -> bilingual append (iap/gcloud kept as technical terms, no Chinese duplicate). installation_modal.rs:83 'valid keystroke' is .expect() -> panic_message. channel/state.rs:291 'Server root URL should be valid' is .expect() -> panic_message. auth/mod.rs:249,523 are anyhow .context() error-chain strings (developer/log-facing diagnostics, not UI render) -> telemetry_payload."
+}

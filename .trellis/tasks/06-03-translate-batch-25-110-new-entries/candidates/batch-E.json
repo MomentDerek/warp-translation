@@ -1,0 +1,240 @@
+[
+  {
+    "id": "01KT6NX06TGM644A3NQMG75TWB",
+    "source": "Failed to generate diffs {err:?}",
+    "file": "app/src/ai/blocklist/action_model/execute/request_file_edits.rs",
+    "line": 339,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "dd29bc577da5ab1d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/request_file_edits.rs",
+        "line": 339,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7PNPPARQ1FZS12JFBZ2",
+    "source": "The remote codebase at {} is not indexed yet.",
+    "file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+    "line": 428,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3e62081d337404f2",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/get_relevant_files/remote_search/native.rs",
+        "line": 428,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX4QFRSXSEB5C7XCG2YNV",
+    "source": "Prompt_Submission_Interrupt",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 510,
+    "occurrences_kind": "literal",
+    "source_hash": "78dac8994ae420e8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/mod.rs",
+        "line": 510,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX4V340SS0R2XQP8P0ND6",
+    "source": "Prompt_Submission_Queue",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 511,
+    "occurrences_kind": "literal",
+    "source_hash": "42bd290269323d86",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/mod.rs",
+        "line": 511,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9NTA9FYE2VGXN5P4YEY",
+    "source": "cloud AI conversation storage",
+    "file": "app/src/settings_view/privacy_page.rs",
+    "line": 2018,
+    "occurrences_kind": "literal",
+    "source_hash": "793e6c8ee48afa14",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/privacy_page.rs",
+        "line": 2018,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWVYBNRQMSS9YWF96ASBS",
+    "source": "Close all tabs in group",
+    "file": "app/src/workspace/view.rs",
+    "line": 9326,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "aa239f7d76f0e5d5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9326,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWW2Z31ADRQCKQCM4PVPD",
+    "source": "Close tabs above",
+    "file": "app/src/workspace/view.rs",
+    "line": 9338,
+    "occurrences_kind": "literal",
+    "source_hash": "cd344a9cc32000fa",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9338,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWW7M0P9XQXSXJ3FVD7X3",
+    "source": "Close tabs below",
+    "file": "app/src/workspace/view.rs",
+    "line": 9345,
+    "occurrences_kind": "literal",
+    "source_hash": "9acc72fcd599e4da",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9345,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX22NBQJGYMWECNRP316M",
+    "source": "Move group down",
+    "file": "app/src/workspace/view.rs",
+    "line": 9317,
+    "occurrences_kind": "literal",
+    "source_hash": "919cca7059f23a50",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9317,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX257VMRQKG9KVK37HE4N",
+    "source": "Move group up",
+    "file": "app/src/workspace/view.rs",
+    "line": 9310,
+    "occurrences_kind": "literal",
+    "source_hash": "d16ceb1a3eaab9dd",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9310,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX2C3V9S6ZHSRC51XD2BA",
+    "source": "New tab in group",
+    "file": "app/src/workspace/view.rs",
+    "line": 9359,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "423dfb19b84fb343",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9359,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7T0G51P6YGXB3HNS9J5",
+    "source": "Ungroup tabs",
+    "file": "app/src/workspace/view.rs",
+    "line": 9356,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "70c8ea7031977b23",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9356,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7V62XAP5R4B1385QRDG",
+    "source": "Untitled group",
+    "file": "app/src/workspace/view.rs",
+    "line": 9411,
+    "occurrences_kind": "literal",
+    "source_hash": "b2b2e25ce9705bfa",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/view.rs",
+        "line": 9411,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX8Q5EP58SVQFMTKB078X",
+    "source": "User not in context: Not found",
+    "file": "crates/warp_server_client/src/graphql_helpers.rs",
+    "line": 66,
+    "occurrences_kind": "literal",
+    "source_hash": "c2762cf918a90fb2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_server_client/src/graphql_helpers.rs",
+        "line": 66,
+        "kind": "literal"
+      }
+    ]
+  }
+]

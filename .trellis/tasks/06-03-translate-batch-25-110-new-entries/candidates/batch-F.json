@@ -1,0 +1,240 @@
+[
+  {
+    "id": "01KT6NWZAFAEW4WMPQFW1KGEGS",
+    "source": "Failed to fetch harness auth secrets",
+    "file": "app/src/ai/harness_availability.rs",
+    "line": 240,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7f2c2f616b152269",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/harness_availability.rs",
+        "line": 240,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX1PKA0WZ5GTRCZTYB6PB",
+    "source": "Invalid status code",
+    "file": "app/src/code_review/file_invalidation_queue.rs",
+    "line": 75,
+    "occurrences_kind": "literal",
+    "source_hash": "3b3dab088bd9ddf8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/file_invalidation_queue.rs",
+        "line": 75,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX2H747NF0K1J2MM14A17",
+    "source": "No developer tools were found",
+    "file": "app/src/code_review/file_invalidation_queue.rs",
+    "line": 50,
+    "occurrences_kind": "literal",
+    "source_hash": "c31c0f9764efe5b1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/file_invalidation_queue.rs",
+        "line": 50,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX2NM1HJ093K1QNVN8HBB",
+    "source": "No such file or directory",
+    "file": "app/src/code_review/file_invalidation_queue.rs",
+    "line": 48,
+    "occurrences_kind": "literal",
+    "source_hash": "d2c116f5a4270ada",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/file_invalidation_queue.rs",
+        "line": 48,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX316HWA9B8YH44X73QP8",
+    "source": "Operation not permitted",
+    "file": "app/src/code_review/file_invalidation_queue.rs",
+    "line": 65,
+    "occurrences_kind": "literal",
+    "source_hash": "a2e44fe4aa7c7941",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/file_invalidation_queue.rs",
+        "line": 65,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX343NNGQJK68RH34Z11C",
+    "source": "Permission denied",
+    "file": "app/src/code_review/file_invalidation_queue.rs",
+    "line": 66,
+    "occurrences_kind": "literal",
+    "source_hash": "59b77dbd5bd2fc76",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/file_invalidation_queue.rs",
+        "line": 66,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9AVK28DRC45BRFEC050",
+    "source": "Xcode license agreements",
+    "file": "app/src/code_review/file_invalidation_queue.rs",
+    "line": 55,
+    "occurrences_kind": "literal",
+    "source_hash": "23ea303ecfc8341f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/file_invalidation_queue.rs",
+        "line": 55,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX6HF885C6R4CMXDVM368",
+    "source": "SSH Warpification",
+    "file": "app/src/settings_view/warpify_page.rs",
+    "line": 53,
+    "occurrences_kind": "literal",
+    "source_hash": "cc23b9cba2366ab2",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/warpify_page.rs",
+        "line": 53,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWXP2DPQTCF5V5YEEE603",
+    "source": "Delete API key {}",
+    "file": "app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+    "line": 606,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b1f7187270d54dfb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+        "line": 606,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWYDH12WZJVKTVEWYZ6WC",
+    "source": "Failed to delete API key '{name}': {error}",
+    "file": "app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+    "line": 433,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "140287e2fc460167",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+        "line": 433,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX53ZP6XFSGQ7X9NS0MQT",
+    "source": "Prompts cannot be sent until environment setup is complete.",
+    "file": "app/src/terminal/view/queued_prompts_panel.rs",
+    "line": 56,
+    "occurrences_kind": "literal",
+    "source_hash": "523bbba500eebdf4",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/queued_prompts_panel.rs",
+        "line": 56,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX6NCNDM5EF7X01GHCJPA",
+    "source": "Send to full terminal use agent",
+    "file": "app/src/terminal/view/queued_prompts_panel.rs",
+    "line": 57,
+    "occurrences_kind": "literal",
+    "source_hash": "5ffc46ffad58918d",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/queued_prompts_panel.rs",
+        "line": 57,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7JHMV9PF3B3BAS92RDG",
+    "source": "The first cloud-mode prompt cannot be changed.",
+    "file": "app/src/terminal/view/queued_prompts_panel.rs",
+    "line": 54,
+    "occurrences_kind": "literal",
+    "source_hash": "3c80231c90f7dade",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/queued_prompts_panel.rs",
+        "line": 54,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWVQVWSYWSW68DX2H3MQK",
+    "source": "CAMetalLayer with allowsNextDrawableTimeout disabled always vends a drawable",
+    "file": "crates/warpui/src/platform/mac/rendering/metal/renderer.rs",
+    "line": 1070,
+    "occurrences_kind": "literal",
+    "source_hash": "ea268e0e9b1e1d85",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warpui/src/platform/mac/rendering/metal/renderer.rs",
+        "line": 1070,
+        "kind": "literal"
+      }
+    ]
+  }
+]

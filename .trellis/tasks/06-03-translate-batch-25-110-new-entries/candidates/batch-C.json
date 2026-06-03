@@ -1,0 +1,255 @@
+[
+  {
+    "id": "01KT6NX0RM0KY7Y7NSXERVRY0R",
+    "source": "Fast forward is always enabled for cloud agent conversations",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 126,
+    "occurrences_kind": "literal",
+    "source_hash": "9e8cbe135ba931f6",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+        "line": 126,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/ai/blocklist/block/view_impl/common.rs",
+        "line": 905,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9ER7HYR3W3PXR1HFYXM",
+    "source": "agent font matching terminal font",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 280,
+    "occurrences_kind": "literal",
+    "source_hash": "6309073717aa7b11",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 280,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9SZM97CS7HHC160DD98",
+    "source": "custom padding in alt-screen",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 454,
+    "occurrences_kind": "literal",
+    "source_hash": "4f93be6f4cc42991",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 454,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9ZBSSMJZMR0HXKA4D4H",
+    "source": "latest user prompt as conversation title in tab names",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 424,
+    "occurrences_kind": "literal",
+    "source_hash": "430f678b34c515fb",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 424,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA2MW2JBRSANTK1GD2K1",
+    "source": "notebook font size matching terminal font size",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 289,
+    "occurrences_kind": "literal",
+    "source_hash": "5b88a9dd815f2df3",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 289,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA492JD6840EEGJJB44J",
+    "source": "open windows with custom size",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 2967,
+    "occurrences_kind": "literal",
+    "source_hash": "08b4e118dab3a2db",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 2967,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA9WYTYQXZ4QDDG6EQGE",
+    "source": "preserve active tab color for new tabs",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 445,
+    "occurrences_kind": "literal",
+    "source_hash": "6e5d9fc10e67b208",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 445,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXAARREXB3E9CVJ76H15G",
+    "source": "tools panel visibility across tabs",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 271,
+    "occurrences_kind": "literal",
+    "source_hash": "7a8c9d517ae7fccb",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 271,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXABFCRRHRY5D97GDCK1B",
+    "source": "window blur acrylic texture",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 262,
+    "occurrences_kind": "literal",
+    "source_hash": "e515e634520f86d9",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/appearance_page.rs",
+        "line": 262,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX5GPC4W5HQRNCJ8V583W",
+    "source": "Remove from team",
+    "file": "app/src/settings_view/mcp_servers/destructive_mcp_confirmation_dialog.rs",
+    "line": 74,
+    "occurrences_kind": "literal",
+    "source_hash": "5f389604d311fc70",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 3,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/mcp_servers/destructive_mcp_confirmation_dialog.rs",
+        "line": 74,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings_view/mcp_servers/edit_page.rs",
+        "line": 152,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/settings_view/teams_page.rs",
+        "line": 1799,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWV294YGQZ038GHSHE8FA",
+    "source": "Bearer {token}",
+    "file": "crates/http_client/src/iap.rs",
+    "line": 8,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bf733da73429e88a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/http_client/src/iap.rs",
+        "line": 8,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX1JR85R8A6M92EK5E1VC",
+    "source": "Invalid device URL",
+    "file": "crates/warp_server_client/src/auth/session.rs",
+    "line": 206,
+    "occurrences_kind": "literal",
+    "source_hash": "67ed47b93680dd1f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_server_client/src/auth/session.rs",
+        "line": 206,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX1T2APS30RNPF9HS8MHB",
+    "source": "Invalid token URL",
+    "file": "crates/warp_server_client/src/auth/session.rs",
+    "line": 203,
+    "occurrences_kind": "literal",
+    "source_hash": "bdb0c3f16241333d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_server_client/src/auth/session.rs",
+        "line": 203,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX7RY23T67BX9SAPK4EWY",
+    "source": "Unable to obtain access token",
+    "file": "crates/warp_server_client/src/auth/session.rs",
+    "line": 189,
+    "occurrences_kind": "literal",
+    "source_hash": "4d2efac028ddd4ad",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/warp_server_client/src/auth/session.rs",
+        "line": 189,
+        "kind": "literal"
+      }
+    ]
+  }
+]

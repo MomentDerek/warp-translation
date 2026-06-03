@@ -1,0 +1,245 @@
+[
+  {
+    "id": "01KT6NWTKYYJFN27Q1TXFY6T0N",
+    "source": "Artifact upload failed: {error_chain}",
+    "file": "app/src/ai/blocklist/action_model/execute/upload_artifact.rs",
+    "line": 32,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "42425ca99371e7ce",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/action_model/execute/upload_artifact.rs",
+        "line": 32,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWXHFY7SCRCJE4ZJ0M995",
+    "source": "Default prompt submission mode",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 5689,
+    "occurrences_kind": "literal",
+    "source_hash": "c63e7cc5987a0122",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 5689,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX99V2QFBMKH70631GR9Z",
+    "source": "What happens when you submit a new prompt while the agent is still responding. You can override this per conversation using the auto-queue toggle.",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 5691,
+    "occurrences_kind": "literal",
+    "source_hash": "9e34bbea6b8dea1d",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 5691,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9GN1RH5XTG4TTW9ZN3T",
+    "source": "auto dismiss Rich Input after prompt submission",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 556,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7b1c8fd401eb139a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 556,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9HVFC8J0TKCY11SGBDD",
+    "source": "auto open Rich Input when a coding agent session starts",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 546,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "cb9f36273ca4d166",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 546,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9KMXNA5NVXE69FHWWGX",
+    "source": "auto show or hide Rich Input based on agent status",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 536,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fc2671c9371516d4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 536,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9QSF8DCDA1CW85SHQ2E",
+    "source": "coding agent toolbar",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 461,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5daa94b70747352c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 461,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9RHWCRRZM1TMTHW5MQP",
+    "source": "commit and pull request generation",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 384,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "44e2e84e0a970dc6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 384,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9SA85757BY8N4YQ9GW7",
+    "source": "conversation history in tools panel",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 443,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "5b5f1a344b2d99e5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 443,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9YEWCHF0D9XFEKMYQX6",
+    "source": "include agent-executed commands in history",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 434,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "8ea5d4366e0c226b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 434,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA19BXCGB1X3TQ4M4DQG",
+    "source": "model picker in prompt",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 452,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "76edb72c05330f7c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 452,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA97TNKZC9JH4BVE69TY",
+    "source": "oz agent ai input natural language detection autodetection prompt terminal command commands history shell executed execution queue interrupt submission submit auto-queue response while responding default",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 5616,
+    "occurrences_kind": "literal",
+    "source_hash": "65126177b3e49afd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 5616,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWRDD8GZ63GPHKM49HH8Y",
+    "source": "/ {} remaining",
+    "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+    "line": 2213,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "1dee178706c359d8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/billing_and_usage_page_v2.rs",
+        "line": 2213,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWTY0810W5QJW838BS7Z0",
+    "source": "Attempted to create a NULL object.",
+    "file": "crates/computer_use/src/mac/keycode_cache.rs",
+    "line": 108,
+    "occurrences_kind": "literal",
+    "source_hash": "a49ca7a4cbb513c7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "crates/computer_use/src/mac/keycode_cache.rs",
+        "line": 108,
+        "kind": "literal"
+      },
+      {
+        "file": "crates/computer_use/src/mac/keycode_cache.rs",
+        "line": 122,
+        "kind": "literal"
+      }
+    ]
+  }
+]

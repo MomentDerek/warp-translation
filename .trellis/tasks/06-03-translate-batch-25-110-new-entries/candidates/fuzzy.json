@@ -1,0 +1,191 @@
+[
+  {
+    "id": "01KQXQV12BSXCX2S6HJKN6K18T",
+    "source": "'@' context menu in terminal mode",
+    "current_stale_target": "在终端模式下启用 “@” 上下文菜单",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 597,
+    "flags": [
+      "pr-settings-features-batch"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12C3HGFMNH8KFA70TX2",
+    "source": "Give the Agent full autonomy to run child agents without approval.",
+    "current_stale_target": "授予 Agent 完全自主权，无需批准即可使用 Computer Use 工具。",
+    "file": "crates/cloud_object_models/src/ai_execution_profile.rs",
+    "line": 141,
+    "flags": [
+      "pr-by-file-parallel-batch-17"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12D11BYGHG8HFV6XRJK",
+    "source": "No settings match your search.",
+    "current_stale_target": "没有符合搜索条件的标签页。",
+    "file": "app/src/settings_view/mod.rs",
+    "line": 2331,
+    "flags": [
+      "pr-by-file-parallel-batch-15"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12D6J2FMNJE3CANGQFE",
+    "source": "New Group",
+    "current_stale_target": "新建提示词",
+    "file": "app/src/workspace/view.rs",
+    "line": 6816,
+    "flags": [
+      "pr-menu-batch"
+    ],
+    "occurrences_count": 2
+  },
+  {
+    "id": "01KQXQV12DH1E5P1HX5VPX8PRW",
+    "source": "Missing GitHub authentication.",
+    "current_stale_target": "缺少 GitHub 身份验证。 ",
+    "file": "app/src/ai/blocklist/block/status_bar.rs",
+    "line": 934,
+    "flags": [
+      "pr-by-file-parallel-batch-19"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12DP37CKVX2AY8V0846",
+    "source": "No API keys match your search",
+    "current_stale_target": "没有匹配您搜索条件的设置。",
+    "file": "app/src/settings_view/platform_page.rs",
+    "line": 895,
+    "flags": [
+      "pr-settings-view-sweep-batch"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12E46JV63MM828BSYTF",
+    "source": "Require explicit approval before the Agent runs child agents.",
+    "current_stale_target": "Agent 执行任何操作前需要明确批准。",
+    "file": "crates/cloud_object_models/src/ai_execution_profile.rs",
+    "line": 144,
+    "flags": [
+      "pr-by-file-parallel-batch-17"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12E59XTZMWNJMMBMMQR",
+    "source": "Platform plugin update did not take effect",
+    "current_stale_target": "插件更新未生效",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 221,
+    "flags": [
+      "pr-cli-agent-sessions-plugin-manager-batch"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12EABWYGQ10Z889G820",
+    "source": "Remove from group",
+    "current_stale_target": "移出团队",
+    "file": "app/src/tab.rs",
+    "line": 568,
+    "flags": [
+      "pr-settings-teams-batch"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12EK7Q14AEYNR8CW77B",
+    "source": "Require explicit approval before the Agent takes any action.",
+    "current_stale_target": "Agent 使用 Computer Use 工具前需要明确批准。",
+    "file": "crates/cloud_object_models/src/ai_execution_profile.rs",
+    "line": 40,
+    "flags": [
+      "pr-by-file-parallel-batch-17"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12EYWK584GRN3X0SHTP",
+    "source": "Remove Member",
+    "current_stale_target": "移除服务器",
+    "file": "app/src/drive/cloud_action_confirmation_dialog.rs",
+    "line": 32,
+    "flags": [
+      "pr-long-tail-ui-leaves-code-footer-notebook-editor-batch-11"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12G2WCQ6G9SJK9T3G4T",
+    "source": "New prompt",
+    "current_stale_target": "显示提示词",
+    "file": "app/src/drive/index.rs",
+    "line": 167,
+    "flags": [
+      "pr-billing-ai-settings-workflow-share-code-review-agent-batch"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12J2XV0APVF392VEF4M",
+    "source": "open new windows with custom size",
+    "current_stale_target": "open windows with custom size 打开 窗口 自定义 大小 尺寸",
+    "file": "app/src/settings_view/appearance_page.rs",
+    "line": 253,
+    "flags": [
+      "pr-uncertain-pool-billing-search-terms-panic-telemetry-code-review-batch-13",
+      "search_terms_bilingual"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KQXQV12JM1FMN5ZEQF238NN5",
+    "source": "autosuggestion ignore button",
+    "current_stale_target": "autosuggestion ignore button hide 自动建议 忽略 按钮 隐藏",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 295,
+    "flags": [
+      "pr-uncertain-pool-billing-search-terms-panic-telemetry-code-review-batch-13",
+      "search_terms_bilingual"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KRNVK8W0AEPG1WVKWNF847DC",
+    "source": "API key '{name}' deleted.",
+    "current_stale_target": "已保存 API 密钥“{name}”。",
+    "file": "app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+    "line": 404,
+    "flags": [
+      "pr-by-file-parallel-batch-20"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KRNVK9GXPFMNC4DYTJ8R26W1",
+    "source": "Custom endpoint",
+    "current_stale_target": "自定义端点",
+    "file": "app/src/ai/llms.rs",
+    "line": 49,
+    "flags": [
+      "pr-post-sync-batch"
+    ],
+    "occurrences_count": 1
+  },
+  {
+    "id": "01KRNVKASE8R5ZFV6P003HHKWV",
+    "source": "Use your own API keys from model providers for Warp Agent. You can also add custom endpoints to use third-party models. Custom endpoints must support the OpenAI-compatible Chat Completions API. API keys are stored only on your device, never on Warp's servers. They're used to make requests to your chosen model provider. Using auto models or models from providers you have not provided API keys for will consume Warp credits. ",
+    "current_stale_target": "为 Warp Agent 使用您自己的模型提供商 API 密钥。您也可以添加自定义端点以使用第三方模型。自定义端点必须支持兼容 OpenAI 的 Chat Completions API。API 密钥仅本地存储，绝不会同步至云端。使用 auto 模型或未提供 API 密钥的提供商的模型，会消耗 Warp 积分。 ",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 7343,
+    "flags": [
+      "pr-post-sync-batch"
+    ],
+    "occurrences_count": 1
+  }
+]

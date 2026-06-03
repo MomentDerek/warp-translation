@@ -1,0 +1,41 @@
+{
+  "batch_flag": "pr-by-file-parallel-batch-25",
+  "letters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "expected_total": 110,
+  "applied": 110,
+  "already": 0,
+  "per_action": {
+    "translate": 75,
+    "bilingual_search_terms": 5,
+    "flag_telemetry_payload": 9,
+    "flag_panic_message": 11,
+    "flag_protocol_key": 10
+  },
+  "before": {
+    "new": 110,
+    "translated": 6686,
+    "fuzzy": 78
+  },
+  "after": {
+    "new": 0,
+    "translated": 6796,
+    "fuzzy": 78
+  },
+  "delta": {
+    "new": -110,
+    "translated": 110,
+    "fuzzy": 0
+  },
+  "batch_flag_count": 110,
+  "entry_count": 6904,
+  "applied_at": "2026-06-03T12:19:44Z"
+}

@@ -1,0 +1,30 @@
+{
+  "translations": {
+    "01KT6NWZAFAEW4WMPQFW1KGEGS": null,
+    "01KT6NX1PKA0WZ5GTRCZTYB6PB": null,
+    "01KT6NX2H747NF0K1J2MM14A17": null,
+    "01KT6NX2NM1HJ093K1QNVN8HBB": null,
+    "01KT6NX316HWA9B8YH44X73QP8": null,
+    "01KT6NX343NNGQJK68RH34Z11C": null,
+    "01KT6NX9AVK28DRC45BRFEC050": null,
+    "01KT6NX6HF885C6R4CMXDVM368": "SSH Warp 化",
+    "01KT6NWXP2DPQTCF5V5YEEE603": "删除 API 密钥 {}",
+    "01KT6NWYDH12WZJVKTVEWYZ6WC": "删除 API 密钥 '{name}' 失败：{error}",
+    "01KT6NX53ZP6XFSGQ7X9NS0MQT": "环境设置完成前无法发送提示词。",
+    "01KT6NX6NCNDM5EF7X01GHCJPA": "发送至完整终端使用 Agent",
+    "01KT6NX7JHMV9PF3B3BAS92RDG": "首个云端模式提示词无法更改。",
+    "01KT6NWVQVWSYWSW68DX2H3MQK": null
+  },
+  "do_not_translate_subflags": {
+    "01KT6NWZAFAEW4WMPQFW1KGEGS": ["telemetry_payload"],
+    "01KT6NX1PKA0WZ5GTRCZTYB6PB": ["protocol_key"],
+    "01KT6NX2H747NF0K1J2MM14A17": ["protocol_key"],
+    "01KT6NX2NM1HJ093K1QNVN8HBB": ["protocol_key"],
+    "01KT6NX316HWA9B8YH44X73QP8": ["protocol_key"],
+    "01KT6NX343NNGQJK68RH34Z11C": ["protocol_key"],
+    "01KT6NX9AVK28DRC45BRFEC050": ["protocol_key"],
+    "01KT6NWVQVWSYWSW68DX2H3MQK": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "harness_availability.rs:240 report_error!(e.context(...)) -> error telemetry/log context, not UI -> telemetry_payload. file_invalidation_queue.rs 48/50/55/65/66/75: all are message.contains(\"...\") guards in FileInvalidationErrorKind::from_message matching English git/OS error output (No such file or directory, No developer tools were found, Xcode license agreements, Operation not permitted, Permission denied, Invalid status code) -> protocol_key (matching keys against external English output; translating would break detection). warpify_page.rs:53 'SSH Warpification' is a Command Palette toggle label; 'Warpification' is Warp's coined product term -> translated UI preserving brand Warp -> 'SSH Warp 化'. auth_secret_selector.rs:606 with_right_side_icon_a11y_label('Delete API key {}') -> UI a11y label, {} preserved, API brand kept. auth_secret_selector.rs:433 toast error 'Failed to delete API key {name}: {error}' -> UI error toast, placeholders + API preserved, full-width colon. queued_prompts_panel.rs 54/56/57 are tooltip/&str consts rendered in UI -> translated; line57 keeps brand Agent. renderer.rs:1070 .expect(...) -> panic_message."
+}

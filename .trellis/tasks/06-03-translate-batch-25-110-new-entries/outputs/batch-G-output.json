@@ -1,0 +1,27 @@
+{
+  "translations": {
+    "01KT6NX6B0685B825T3Y1F5J9T": null,
+    "01KT6NX1BCHNYK4F116CFJT3HE": "安装 Claude Code 以使用此本地工具集。",
+    "01KT6NWX9RKKR9PRHMP9TP8MQP": "在 Agent 仍在响应时提交新提示词的默认行为。",
+    "01KT6NX1F2E9XS2GDJ218VES69": "中断响应",
+    "01KT6NX58EBKRMTBSGKN74C21K": "排队直到响应完成",
+    "01KT6NX72VHE8AWF3QA9VNN0ZT": "设置默认提示词提交方式：中断响应",
+    "01KT6NX7A2NRKMTM1PV4M037VX": "设置默认提示词提交方式：排队直到响应完成",
+    "01KT6NX7BHG72RSDZXZJ11E2NN": "显示提示词",
+    "01KT6NX8VP7N9M82NYM93X5DFJ": null,
+    "01KT6NX8Y0MJQZRCX085PPSSJP": null,
+    "01KT6NX8ZEBXA44WEWNNDF4ET7": null,
+    "01KT6NX91CPKJWXWTJJ177MBF4": null,
+    "01KT6NX9348TEVXJTWPYDHTR25": null
+  },
+  "do_not_translate_subflags": {
+    "01KT6NX6B0685B825T3Y1F5J9T": ["telemetry_payload"],
+    "01KT6NX8VP7N9M82NYM93X5DFJ": ["panic_message"],
+    "01KT6NX8Y0MJQZRCX085PPSSJP": ["panic_message"],
+    "01KT6NX8ZEBXA44WEWNNDF4ET7": ["panic_message"],
+    "01KT6NX91CPKJWXWTJJ177MBF4": ["panic_message"],
+    "01KT6NX9348TEVXJTWPYDHTR25": ["panic_message"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "run_agents.rs:499 (01KT6NX6B0...) — format! string returned by duplicate_launched_agents_reason() as a tool-rejection 'reason'; it is fed back to the AI agent as a machine/protocol instruction (references send_message_to_agent tool + agent ids), never rendered to user UI -> flag telemetry_payload, target null. local_harness_setup.rs:8 — UI tooltip constant shown when local harness CLI missing -> translate; kept 'Claude Code' brand. settings/ai.rs:436 — implement_setting_for_enum description (settings UI) -> translate; Agent kept English per glossary, prompt=提示词 (AI). ai.rs:444/445 display_name dropdown labels; 451/453 command_palette_description -> UI -> translate; used full-width colon. share_block_modal.rs:958 'Show prompt' span -> UI label -> translate (提示词, AI context). All five window.rs entries are .expect() assertion messages (mac window backing-layer/content-view/delegate invariants) -> panic_message, target null."
+}

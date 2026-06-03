@@ -1,0 +1,23 @@
+{
+  "translations": {
+    "01KT6NWWMV3ABNZC9QK8497ANS": "创建一个名为 {} 的文件……",
+    "01KT6NX9JHHMMGTKTPVVAHFYP9": "自动打开代码审查面板",
+    "01KT6NX9PC9K7V9KFZSKR3JRG5": "代码审查按钮",
+    "01KT6NX9TQ1YH3N93HWGHKPEVZ": "代码审查按钮上的差异统计",
+    "01KT6NX9V6YHEMWZ2YNVD6BKWP": "全局文件搜索",
+    "01KT6NXAA9AJZ7JJEPK1KGMYGA": "项目资源管理器",
+    "01KT6NX3BP9SQHGJWS0WG74W5B": "平台插件安装未生效",
+    "01KT6NX3R2E9CWG0F3FW6MQ095": "插件更新未生效",
+    "01KT6NX4B71QF8SMFFRBS5YASA": null,
+    "01KT6NX4K9QGF5HBN344ZYHNHE": null,
+    "01KT6NWRWJGR134FQJNXHSJABN": "API 密钥“{name}”已保存。",
+    "01KT6NWT8XSM920GCAR4Z43EJ5": "确定要删除 {} 吗？此操作无法撤销。任何引用此密钥的 Agent 或环境都将失去对它的访问权限。",
+    "01KT6NWXSNSZRKPMRCEKPBFG0B": "删除密钥"
+  },
+  "do_not_translate_subflags": {
+    "01KT6NX4B71QF8SMFFRBS5YASA": ["telemetry_payload"],
+    "01KT6NX4K9QGF5HBN344ZYHNHE": ["telemetry_payload"]
+  },
+  "bilingual_search_terms_ids": [],
+  "notes": "search_item.rs: render_item command-palette label, Text::new_inline -> UI; translated, preserved {} and ellipsis (…). code_page.rs: 5x ToggleSettingActionPair::new first arg = description_suffix, which mod.rs:764 renders as format!(\"Enable {suffix}\")/(\"Disable {suffix}\") in the command palette (struct doc: 'The user will actually read these strings') -> regular UI nouns, translated as standalone noun phrases. claude.rs: PluginInstallError.message (mod.rs:56, 'Short description shown in the toast notification', Display writes message) is user-facing -> 'Platform plugin installation did not take effect' and 'Plugin update did not take effect' translated. The two 'Post-...version check: ...still outdated\\n' literals are log.push_str into PluginInstallError.log (mod.rs:58, 'Detailed log of every command/step... log file the user can inspect') NOT the toast -> log/telemetry payload, flagged telemetry_payload, target null, trailing \\n shape moot. auth_secret_ftux_view.rs:726 format! -> add_ephemeral_toast (toast UI), translated, preserved {name}. delete_auth_secret_confirmation_dialog.rs: description -> Dialog::new body, title 'Delete secret' -> Dialog title; both translated, preserved {}, full-width punctuation, Agent kept English (brand)."
+}

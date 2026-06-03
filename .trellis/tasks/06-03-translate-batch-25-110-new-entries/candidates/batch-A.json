@@ -1,0 +1,240 @@
+[
+  {
+    "id": "01KT6NX12AT7G68KEG5MK7T1VG",
+    "source": "How line numbers are displayed in code editors.",
+    "file": "app/src/settings/editor.rs",
+    "line": 236,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "337eb69980c06aa4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/editor.rs",
+        "line": 236,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWWEMQ66FRJZP9QKRPFS5",
+    "source": "Code editor line numbers:",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5796,
+    "occurrences_kind": "literal",
+    "source_hash": "dba3591de9f1a690",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 5796,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NWY3NCVTTHAZ9AHTKJ6AP",
+    "source": "Enable '@' context menu in terminal mode",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6229,
+    "occurrences_kind": "literal",
+    "source_hash": "a411f28891c9f427",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 6229,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9FM98FCQS041C1W7X4Q",
+    "source": "agent task completion notifications",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 343,
+    "occurrences_kind": "literal",
+    "source_hash": "fbaf037da1e71a8f",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 343,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9N46TXJTNAYQ5XZ0GSK",
+    "source": "autosuggestion ignore button hide",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6481,
+    "occurrences_kind": "literal",
+    "source_hash": "37ef50e8d89bb72d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 6481,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9Q72G9M3NPR5WKZ4JTG",
+    "source": "codebase symbols in the '@' context menu",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 631,
+    "occurrences_kind": "literal",
+    "source_hash": "eae3ec53261616c8",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 631,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9VVPRBBW148V5N1PGYQ",
+    "source": "global workflows in Command Search",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 647,
+    "occurrences_kind": "literal",
+    "source_hash": "7527a994e5623a96",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 647,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9WDVTS5120TXNHE4RHD",
+    "source": "help block in new sessions",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 569,
+    "occurrences_kind": "literal",
+    "source_hash": "3ff606fa6edc45b0",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 569,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX9XPMQT6TNZPQJCPPR3J",
+    "source": "in-app agent notifications",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 389,
+    "occurrences_kind": "literal",
+    "source_hash": "1e6585ae4f555c32",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 389,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA050CFVBGYF3M62VCB9",
+    "source": "line number relative line vim gutter code editor",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 5780,
+    "occurrences_kind": "literal",
+    "source_hash": "dc6b822e8037428d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 5780,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA0S4ED46V5SX6CF3DHW",
+    "source": "long-running command notifications",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 328,
+    "occurrences_kind": "literal",
+    "source_hash": "7f503a2d94e5405f",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 328,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA1V7281XRASK9EGCM7K",
+    "source": "needs-attention notifications",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 358,
+    "occurrences_kind": "literal",
+    "source_hash": "2e1d85c37e8cff9a",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 358,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NXA33DQPCFM83NC1JC6WY",
+    "source": "notification sounds",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 374,
+    "occurrences_kind": "literal",
+    "source_hash": "53b435331f29d60d",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 374,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KT6NX2X8GTCDAEFD03B3E76N",
+    "source": "ObjectPermissionsChanged (V2)",
+    "file": "crates/cloud_object_client/src/lib.rs",
+    "line": 165,
+    "occurrences_kind": "literal",
+    "source_hash": "0c174e88186450b3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/cloud_object_client/src/lib.rs",
+        "line": 165,
+        "kind": "literal"
+      }
+    ]
+  }
+]
