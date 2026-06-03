@@ -144,6 +144,43 @@ git commit -m "chore(translations): batch-<N> — <total> entries (<X> UI + <Y> 
 
 ---
 
+## Fuzzy & obsolete entries (NOT covered by build_batch / translate_batch)
+
+`build_batch.py` selects **`status=new` only**, and `translate_batch.mjs`'s check
+asserts `delta.fuzzy == 0`. So a normal batch never touches `fuzzy` or `obsolete`
+entries — handle them separately each sync:
+
+- **fuzzy** (upstream source text changed; existing Chinese target may be stale).
+  After `sync-upstream-translations`, split the fuzzy set with:
+  ```bash
+  python3 - <<'PY'
+  import json
+  d=json.load(open('translations/strings.json'))
+  subs=('panic_message','telemetry_payload','extractor_false_positive_doc_comment','test_fixture','wgpu_debug_label','protocol_key')
+  flg=lambda e:'do_not_translate' in (e.get('flags') or []) or any(f in (e.get('flags') or []) for f in subs)
+  fz=[e for e in d['entries'] if e['status']=='fuzzy']
+  print('real-UI (target, not flagged):',len([e for e in fz if e.get('target') and not flg(e)]))
+  print('flagged:',len([e for e in fz if flg(e)]),'| null & unflagged:',len([e for e in fz if not e.get('target') and not flg(e)]))
+  PY
+  ```
+  Only the **real-UI fuzzy** (has target, not flagged) ship wrong/stale Chinese —
+  fix those first. Dispatch ONE `trellis-implement` (opus): for each id, trace the
+  source at `../warp/<file>:<line>`, re-translate per the contract, then patch
+  `strings.json` directly (no kit tool) — set `target`, flip `status` to
+  `translated`, append a provenance flag `fuzzy-resync-<YYYY-MM-DD>` (do NOT add
+  `do_not_translate`). Keep `search_terms` entries bilingual. The "null & unflagged"
+  fuzzy are effectively an unprocessed batch — fold into a later `status=new`-style
+  pass or a dedicated batch; don't silently bundle into the resync.
+
+- **obsolete** (string removed upstream): **no manual cleanup needed**. The extractor
+  marks them `obsolete`, then a subsequent `extract` fixed-point pass **hard-deletes**
+  them automatically. After any post-sync `extract`, re-run `extract` once more and
+  confirm idempotency (`hard_deleted=0 added=0 changed=0`) + `extract --check` exit 0
+  — that proves every kept entry still exists in source and nothing valid was dropped
+  (a spuriously-deleted entry would reappear as `added>0`).
+
+---
+
 ## Per-entry decision flow (what each implementer applies)
 
 FIRST hit wins:
