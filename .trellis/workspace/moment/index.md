@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-2.md`
-- **Total Sessions**: 26
+- **Total Sessions**: 27
 - **Last Active**: 2026-06-04
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-2.md` | ~372 | Active |
+| `journal-2.md` | ~405 | Active |
 | `journal-1.md` | ~1989 | Archived |
 <!-- @@@/auto:active-documents -->
 
@@ -30,6 +30,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 27 | 2026-06-04 | 同步上游 v0.2026.06.03.09.49 并发布首个 release | `31156d0` | `main` |
 | 26 | 2026-06-04 | tag 自动 release + README Mac 运行产物说明 | `5442e76` | `main` |
 | 25 | 2026-06-03 | Batch-27: resolve remaining 12 flagged-fuzzy (fuzzy→0) | `5b95713` | `main` |
 | 24 | 2026-06-03 | Batch-26: resolve 49 null-fuzzy entries | `946436e` | `main` |

@@ -370,3 +370,36 @@ build-translation.yml 加 tags:['*'] 触发器 + tag-aware GIT_RELEASE_TAG + rel
 ### Next Steps
 
 - None - task complete
+
+
+## Session 27: 同步上游 v0.2026.06.03.09.49 并发布首个 release
+
+**Date**: 2026-06-04
+**Task**: 同步上游 v0.2026.06.03.09.49 并发布首个 release
+**Branch**: `main`
+
+### Summary
+
+验证翻译表已与上游 v0.2026.06.03.09.49.stable_00 (2249469e) 完全同步（重抽取零变更、--check passed、6874 条全译 fuzzy 0），故同步仅需把 DEFAULT_WARP_REF 2566f54→2249469e 并对齐两份 README 状态行。push main 后打纯版本号 tag v0.2026.06.03.09.49 触发 release：5 个 job 全绿，正式 Release 已发布，附 WarpOss-arm64.dmg + AppImage/deb/rpm 全平台产物。验证了上一任务新加的 tag 自动 release 流水线端到端可用。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `31156d0` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
