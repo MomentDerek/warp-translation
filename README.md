@@ -45,6 +45,33 @@ cd build/warp-zh && MACOSX_DEPLOYMENT_TARGET=14.0 cargo check -p warp
 
 就这么简单。本地化后的二进制产物位于 `build/warp-zh/target/`。
 
+## 在 Mac 上运行 action 编译产物
+
+不想本地编译，也可以直接用 GitHub Actions 构建好的安装包。
+
+### 获取 `.dmg`
+
+- **正式版本（推荐）**：仓库 [Releases](../../releases) 页面 —— 每个 tag 都会自动发布一个 release，里面附带 macOS 的 `WarpOss-arm64.dmg`（以及 Linux 的 deb/rpm/AppImage）。
+- **任意一次构建**：进入 [Actions](../../actions) → 选择某次 *Build Chinese Warp* 运行 → 页面底部 **Artifacts** → 下载 `warp-zh-installer-macos-latest`（解压后即为 `.dmg`）。
+
+> 产物为 **Apple Silicon（arm64）** 架构；Intel Mac 不适用，请改用上面「快速开始」自行编译。
+
+### 安装并绕过 Gatekeeper
+
+该 `.dmg` 用 `script/bundle --nosign` 构建，**未经签名 / 公证**，首次打开会被 macOS Gatekeeper 拦截（提示「无法打开，因为无法验证开发者」）。步骤：
+
+```bash
+# 1. 双击挂载 WarpOss-arm64.dmg，把 WarpOss.app 拖入「应用程序」
+# 2. 清除隔离属性（二选一）：
+
+#  a) 命令行一次解决：
+xattr -dr com.apple.quarantine /Applications/WarpOss.app
+
+#  b) 或在「访达」里右键 WarpOss.app → 打开 → 在弹窗里再次点「打开」
+```
+
+之后即可正常启动。`WarpOss.app` 是 Warp 的 OSS 自包含构建（`oss` channel，bundle id `dev.warp.WarpOss`），与官方签名版互不冲突，可并存。
+
 ## 仓库结构
 
 | 路径 | 用途 |

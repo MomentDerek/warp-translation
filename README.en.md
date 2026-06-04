@@ -45,6 +45,33 @@ cd build/warp-zh && MACOSX_DEPLOYMENT_TARGET=14.0 cargo check -p warp
 
 That's it. The localized binary lives in `build/warp-zh/target/`.
 
+## Running the action-built artifacts on Mac
+
+Don't want to compile locally? Grab the installer GitHub Actions already built.
+
+### Get the `.dmg`
+
+- **A tagged release (recommended)**: the repo's [Releases](../../releases) page — every tag auto-publishes a release with the macOS `WarpOss-arm64.dmg` (plus the Linux deb/rpm/AppImage).
+- **Any build**: go to [Actions](../../actions) → pick a *Build Chinese Warp* run → **Artifacts** at the bottom → download `warp-zh-installer-macos-latest` (unzips to the `.dmg`).
+
+> The artifact is **Apple Silicon (arm64)** only; Intel Macs aren't covered — build from source via "Quick start" above instead.
+
+### Install and get past Gatekeeper
+
+The `.dmg` is built with `script/bundle --nosign`, so it is **unsigned / un-notarized**. macOS Gatekeeper blocks it on first launch ("cannot be opened because the developer cannot be verified"). To run it:
+
+```bash
+# 1. Double-click WarpOss-arm64.dmg to mount it, drag WarpOss.app to Applications
+# 2. Clear the quarantine attribute (either one):
+
+#  a) one-shot from the CLI:
+xattr -dr com.apple.quarantine /Applications/WarpOss.app
+
+#  b) or in Finder: right-click WarpOss.app → Open → click "Open" again in the dialog
+```
+
+It launches normally afterward. `WarpOss.app` is Warp's self-contained OSS build (`oss` channel, bundle id `dev.warp.WarpOss`); it coexists with the official signed Warp without conflict.
+
 ## Repository layout
 
 | Path | Purpose |

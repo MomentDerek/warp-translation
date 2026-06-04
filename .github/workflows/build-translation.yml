@@ -1,17 +1,24 @@
 name: Build Chinese Warp
 
 # Builds the Chinese localization overlay end-to-end:
-#   1. tools          — build + test the Rust extractor/builder (self-contained)
+#   1. tools           — build + test the Rust extractor/builder (self-contained)
 #   2. build-localized — clone upstream Warp, run the builder, publish build/warp-zh
-#   3. compile        — cargo check the localized tree on macOS + Linux (the real proof)
+#   3. package         — bundle installers on macOS + Linux (the real proof)
+#   4. release         — on a tag push, publish those installers as a GitHub Release
 #
-# The `compile` job mirrors upstream Warp's own build setup and is heavy; it is
-# skipped automatically under `act` (which cannot emulate macOS). See
-# .github/workflows/README.md for local testing with act.
+# The `package` job mirrors upstream Warp's own build setup and is heavy; it is
+# skipped automatically under `act` (which cannot emulate macOS). The `release`
+# job runs only for tag pushes. See .github/workflows/README.md for local
+# testing with act and how tagging cuts a release.
 
 on:
   push:
     branches: [main]
+    # Any tag push triggers a full build + GitHub Release (see the `release`
+    # job). GitHub ANDs `paths` with branch pushes but NOT with tag pushes, so
+    # tags fire regardless of which files the tagged commit touched — provided a
+    # `branches` filter is also present (it is). See community discussion #26821.
+    tags: ['*']
     paths:
       - 'tools/**'
       - 'translations/**'
@@ -176,8 +183,10 @@ jobs:
       # warp-channel-config tooling — the only OSS-buildable channel.
       CHANNEL: oss
       # deb/rpm derive their Version from GIT_RELEASE_TAG (`sed 's/^v//'`);
-      # unset it and dpkg-deb fails with "version string is empty".
-      GIT_RELEASE_TAG: v0.0.${{ github.run_number }}
+      # unset it and dpkg-deb fails with "version string is empty". On a tag
+      # push, use the real tag so packages carry the released version; otherwise
+      # fall back to a run-number stamp.
+      GIT_RELEASE_TAG: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || format('v0.0.{0}', github.run_number) }}
     steps:
       - uses: actions/checkout@v5
 
@@ -286,3 +295,53 @@ jobs:
           name: warp-zh-installer-${{ matrix.os }}
           path: dist-out/**
           if-no-files-found: error
+
+  # ---------------------------------------------------------------------------
+  # 4. On a tag push, publish a GitHub Release with every installer the
+  #    `package` matrix produced — macOS unsigned .dmg + Linux deb/rpm/AppImage.
+  #    Only runs for tag pushes; normal branch/PR/dispatch builds skip it.
+  # ---------------------------------------------------------------------------
+  release:
+    name: Publish GitHub Release
+    needs: package
+    if: ${{ startsWith(github.ref, 'refs/tags/') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # create releases + upload assets (overrides top-level read)
+    steps:
+      - name: Download installer artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: warp-zh-installer-*
+          path: dist
+          merge-multiple: true
+
+      - name: List release assets
+        run: |
+          set -euo pipefail
+          echo "Assets to publish:"
+          find dist -type f -print
+
+      - name: Create / update GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mapfile -t ASSETS < <(find dist -type f)
+          if [ "${#ASSETS[@]}" -eq 0 ]; then
+            echo "::error::No installer assets found to release"
+            exit 1
+          fi
+          # Idempotent: re-running the same tag updates assets instead of failing.
+          if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
+            echo "Release $TAG exists — uploading assets (clobber)."
+            gh release upload "$TAG" "${ASSETS[@]}" --repo "$REPO" --clobber
+          else
+            echo "Creating release $TAG."
+            gh release create "$TAG" "${ASSETS[@]}" \
+              --repo "$REPO" \
+              --title "$TAG" \
+              --generate-notes
+          fi
