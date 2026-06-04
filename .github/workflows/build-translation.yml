@@ -52,7 +52,8 @@ env:
   # Upstream Warp commit that translations/strings.json was last extracted at
   # (translations/.lock.json is gitignored, so the pin lives here). Override
   # via the workflow_dispatch `warp_ref` input.
-  DEFAULT_WARP_REF: 2566f54af7c3e71facfe1865f2c492549b14248a
+  # Pinned to upstream tag v0.2026.06.03.09.49.stable_00.
+  DEFAULT_WARP_REF: 2249469e5d24e472cee6ce97d3d324293f67db71
 
 jobs:
   # ---------------------------------------------------------------------------

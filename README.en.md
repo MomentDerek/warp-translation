@@ -18,7 +18,7 @@ warp-zh-extractor ──► translations/strings.json   (single source of truth)
 
 Missing or stale entries automatically fall back to English, so the build always succeeds. Incremental: only new/changed strings need retranslation when upstream moves.
 
-**Status** (table snapshot): 6,794 entries — 6,723 translated, 64 fuzzy (upstream text changed), 7 obsolete.
+**Status** (table snapshot, aligned with upstream `v0.2026.06.03.09.49.stable_00`): 6,874 entries — all translated, 0 fuzzy, 0 obsolete.
 
 ## Quick start
 
