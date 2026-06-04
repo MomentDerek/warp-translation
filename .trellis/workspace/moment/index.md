@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-2.md`
-- **Total Sessions**: 25
-- **Last Active**: 2026-06-03
+- **Total Sessions**: 26
+- **Last Active**: 2026-06-04
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-2.md` | ~339 | Active |
+| `journal-2.md` | ~372 | Active |
 | `journal-1.md` | ~1989 | Archived |
 <!-- @@@/auto:active-documents -->
 
@@ -30,6 +30,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 26 | 2026-06-04 | tag 自动 release + README Mac 运行产物说明 | `5442e76` | `main` |
 | 25 | 2026-06-03 | Batch-27: resolve remaining 12 flagged-fuzzy (fuzzy→0) | `5b95713` | `main` |
 | 24 | 2026-06-03 | Batch-26: resolve 49 null-fuzzy entries | `946436e` | `main` |
 | 23 | 2026-06-03 | Sync upstream warp (130 commits) + batch-25 translation + fuzzy resync | `cc02d63`, `b7ddbd6` | `main` |

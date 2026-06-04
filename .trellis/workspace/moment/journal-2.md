@@ -337,3 +337,36 @@ Re-verified 12 flagged-fuzzy entries against current source: 10 reaffirmed do_no
 ### Next Steps
 
 - None - task complete
+
+
+## Session 26: tag 自动 release + README Mac 运行产物说明
+
+**Date**: 2026-06-04
+**Task**: tag 自动 release + README Mac 运行产物说明
+**Branch**: `main`
+
+### Summary
+
+build-translation.yml 加 tags:['*'] 触发器 + tag-aware GIT_RELEASE_TAG + release job（needs package, tag-only, contents:write, gh release 幂等 clobber）；README.md/en 新增 Mac 运行未签名 WarpOss-arm64.dmg 章节（来源 + xattr 去隔离）；workflows/README.md 记录 release job 与 tag 发版流程。act -n 验证结构有效。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `5442e76` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
