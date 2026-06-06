@@ -354,15 +354,23 @@ jobs:
           ---
           EOF
           )
+          # Channel-suffixed tags (e.g. v0.2026.06.05.09.22.dev / .preview)
+          # track an upstream dev/preview build → mark as a GitHub pre-release.
+          # Plain stable version tags (v0.2026.06.03.09.49) are full releases.
+          PRERELEASE=()
+          case "$TAG" in
+            *dev*|*preview*|*rc*) PRERELEASE=(--prerelease) ;;
+          esac
           # Idempotent: re-running the same tag updates assets instead of failing.
           if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
             echo "Release $TAG exists — uploading assets (clobber)."
             gh release upload "$TAG" "${ASSETS[@]}" --repo "$REPO" --clobber
           else
-            echo "Creating release $TAG."
+            echo "Creating release $TAG (prerelease: ${PRERELEASE[*]:-no})."
             gh release create "$TAG" "${ASSETS[@]}" \
               --repo "$REPO" \
               --title "$TAG" \
               --notes "$NOTES" \
-              --generate-notes
+              --generate-notes \
+              "${PRERELEASE[@]}"
           fi
