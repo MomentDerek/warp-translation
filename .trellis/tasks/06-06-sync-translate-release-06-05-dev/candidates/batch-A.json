@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "01KQXQV12HHGP6YRDPW7TF4WF0",
+    "source": "Warp plugin installed. Please restart the session to activate.",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 1379,
+    "occurrences_kind": "literal",
+    "source_hash": "0939e9287815bde2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+        "line": 1379,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/mod.rs",
+        "line": 201,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5W02V5DE2V43VRD5SY67V",
+    "source": "Warp plugin updated. Please restart the session to activate.",
+    "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+    "line": 1396,
+    "occurrences_kind": "literal",
+    "source_hash": "8ee5605f87346831",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+        "line": 1396,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/mod.rs",
+        "line": 206,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VJY5RQ7MW903VJCSE1S4",
+    "source": "OpenAI automatically applies long-context pricing when context exceeds 272,000 tokens. ",
+    "file": "app/src/ai/execution_profiles/mod.rs",
+    "line": 26,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2192e4f6329a2ff4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/ai/execution_profiles/mod.rs",
+        "line": 26,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VG9F2EBW57DFCAXM450M",
+    "source": "Git operations aren't available in remote sessions",
+    "file": "app/src/code_review/code_review_view.rs",
+    "line": 6526,
+    "occurrences_kind": "literal",
+    "source_hash": "1d26a91df8e05d3c",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/code_review/code_review_view.rs",
+        "line": 6526,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VH39ZTFVX7E2670WSGHE",
+    "source": "HostScopedRequest had no message variant set",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 752,
+    "occurrences_kind": "literal",
+    "source_hash": "a981da1678fbd4a0",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/remote_server/server_model.rs",
+        "line": 752,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VT90SWRZNC2A4V75Z3J3",
+    "source": "SessionScopedRequest had no message variant set",
+    "file": "app/src/remote_server/server_model.rs",
+    "line": 789,
+    "occurrences_kind": "literal",
+    "source_hash": "87e0a64eb7ed3bcc",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/remote_server/server_model.rs",
+        "line": 789,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5W0DCZ8EJ5HVG2SSJS3EG",
+    "source": "When enabled, the Rich Input editor submits on Ctrl+Enter instead of Enter. Enter inserts a newline.",
+    "file": "app/src/settings/ai.rs",
+    "line": 1222,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4db76ea8db6386fc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/ai.rs",
+        "line": 1222,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5W0H630NK74YK73JGV4NZ",
+    "source": "Whether hidden files (dotfiles) are shown in the project explorer.",
+    "file": "app/src/settings/code.rs",
+    "line": 70,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "fef82fafd4bb89c3",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings/code.rs",
+        "line": 70,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12J4GN03XTDDZNHV6SG",
+    "source": "third party cli coding agent claude codex gemini toolbar footer layout chip chips rearrange re-arrange bar command regex auto show rich input dismiss ctrl enter submit newline",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6507,
+    "occurrences_kind": "literal",
+    "source_hash": "939033f80b9b727c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 6507,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VXSXSGYW3SRGQ16B6QD9",
+    "source": "Submit Rich Input with Ctrl+Enter",
+    "file": "app/src/settings_view/ai_page.rs",
+    "line": 6640,
+    "occurrences_kind": "literal",
+    "source_hash": "099830a48332f150",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/ai_page.rs",
+        "line": 6640,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VK66G9VCQZMRMM08V3SS",
+    "source": "Preserve input focus on block selection",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6469,
+    "occurrences_kind": "literal",
+    "source_hash": "a28dc55e053716ce",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 6469,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5W0NEF6FTPVEKE1CBSMQ0",
+    "source": "preserve input focus block selection navigate arrow keys",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 6458,
+    "occurrences_kind": "literal",
+    "source_hash": "ec0b5ea5e384120f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 6458,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5W0PA9T2PG1S0WRSM6MZS",
+    "source": "preserve input focus on block selection",
+    "file": "app/src/settings_view/features_page.rs",
+    "line": 612,
+    "occurrences_kind": "literal",
+    "source_hash": "f3aca2391d716441",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/settings_view/features_page.rs",
+        "line": 612,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5W0MA1C09H50CB1FJB74Z",
+    "source": "Whether to preserve input box focus when selecting a block.",
+    "file": "app/src/terminal/block_list_settings.rs",
+    "line": 34,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c1993e2d4c4eeaa2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/block_list_settings.rs",
+        "line": 34,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5W077VNZM7GTFEX1S55XG",
+    "source": "Warp plugin updated. Please run /reload-plugins to activate.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+    "line": 153,
+    "occurrences_kind": "literal",
+    "source_hash": "fa15fafc9b6a5434",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+        "line": 153,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12CGSHC5ZMCCM64WZE8",
+    "source": "Install Warp Plugin for Codex",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 182,
+    "occurrences_kind": "literal",
+    "source_hash": "67c2f53b92a2a47e",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 182,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EJY20QN61F570HXJ0",
+    "source": "Restart Codex to activate the plugin.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 198,
+    "occurrences_kind": "literal",
+    "source_hash": "b913bc3cea9f7233",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 198,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EKR4TDJK8VJ0HB76M",
+    "source": "Restart Codex to activate the update.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 248,
+    "occurrences_kind": "literal",
+    "source_hash": "5e0ca03ca888f71b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 248,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H3F8YS8XSM5WDDREK",
+    "source": "Warp plugin updated. Please restart Codex to activate.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 141,
+    "occurrences_kind": "literal",
+    "source_hash": "fb92207d4088f2e1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 141,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12H96ZBKZ3720R7S9QZ",
+    "source": "Warp plugin installed. Please restart Codex to activate.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 137,
+    "occurrences_kind": "literal",
+    "source_hash": "6f255b3a6c164fa1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 137,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VMQH73WTG50KQ6MZRP2S",
+    "source": "Reinstall the Warp plugin",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 242,
+    "occurrences_kind": "literal",
+    "source_hash": "969fdec059cc09c2",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 242,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VRE4BRVGEBR5X57AXJ6H",
+    "source": "Run the following commands, then restart Codex.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 183,
+    "occurrences_kind": "literal",
+    "source_hash": "c5f8611b9e71f23b",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 183,
+        "kind": "literal"
+      },
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 233,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VZ85M5CNA8QD2EB0CTYM",
+    "source": "Update Warp Plugin for Codex",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 232,
+    "occurrences_kind": "literal",
+    "source_hash": "de67b33cbe80b186",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 232,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VZDGMQ9J2GVR8QEZRG03",
+    "source": "Upgrade the marketplace",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+    "line": 236,
+    "occurrences_kind": "literal",
+    "source_hash": "fd545be5b25e16c2",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+        "line": 236,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HFHH47EVHSKJRGEXJ",
+    "source": "Warp plugin updated. Please restart Gemini CLI to activate.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 113,
+    "occurrences_kind": "literal",
+    "source_hash": "ce06474877928b5e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 113,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VQP95DE7V821TNNGB8C6",
+    "source": "Restart Gemini CLI to activate the update.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+    "line": 147,
+    "occurrences_kind": "literal",
+    "source_hash": "7643a9d53f8a8f5e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+        "line": 147,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12EN1FB18BXP9F59JWG",
+    "source": "Restart OpenCode to activate the plugin.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 53,
+    "occurrences_kind": "literal",
+    "source_hash": "8f7ee62a42ed2b26",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+        "line": 53,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12HMGGG6BFRYJYBAFHE",
+    "source": "Install Warp Plugin for OpenCode",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 36,
+    "occurrences_kind": "literal",
+    "source_hash": "36d3aa684fef032b",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+        "line": 36,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VR5RZJRVPY51HFV26Q75",
+    "source": "Restart OpenCode to load the updated plugin.",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 75,
+    "occurrences_kind": "literal",
+    "source_hash": "7967c2259fd5d6a2",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+        "line": 75,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VZB61SYBGXYBF6EJTDS0",
+    "source": "Update Warp Plugin for OpenCode",
+    "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+    "line": 59,
+    "occurrences_kind": "literal",
+    "source_hash": "1fff5dc30bf5a94f",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+        "line": 59,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VJBR102JHKV63ESTDKPX",
+    "source": "Nothing to hand off — start a conversation first.",
+    "file": "app/src/terminal/input/slash_commands/mod.rs",
+    "line": 957,
+    "occurrences_kind": "literal",
+    "source_hash": "c727a04a407aa541",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/input/slash_commands/mod.rs",
+        "line": 957,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5V83VTK3PWHJ8GYK0SCDP",
+    "source": "Cannot create shared session without startup config",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 758,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "39ae236529ef4d0f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 758,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5V900TYZEB12F3F2DM5VJ",
+    "source": "Cannot reconnect to session as sharer without session_id, and reconnect_token",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1049,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "f464752204a7aad5",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1049,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5V9WP02NF1E3DCMFH59WD",
+    "source": "Connected to session sharing server for reconnect; waiting for server confirmation",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1103,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d2a2419c8afb3a8b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1103,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VB3TQVD2657VHDH4TYYR",
+    "source": "Dropping shared session sharer network; stage={stage}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1872,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "149751a610ad6ef1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1872,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VBZ3JQZG63M6E0QK9Y9P",
+    "source": "Ending shared session: reason={reason:?}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 507,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0dfe196b0e3c13e0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 507,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VCFN4HXXPB9Z60WM1MZ6",
+    "source": "Failed to deserialize CRDT operations from server: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1435,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0f8223f9469f1f97",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1435,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VCVTVS4X3ABA8R6F6EY4",
+    "source": "Failed to initialize session: {reason:?}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1337,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "0e1ee76d6fff01d7",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1337,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VDFBE4PNJWQ2HS1SDRHF",
+    "source": "Failed to reconnect to shared session, and retries exhausted: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1144,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a44b83284efaf29c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1144,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VDZA0DKQZ5XPR85YSA09",
+    "source": "Failed to reconnect to shared session, will retry: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1138,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "4ee8e79d52025c05",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1138,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VEPZ4X76NYR6G13CM9TT",
+    "source": "Failed to send message over selection_throttled_tx channel in sharer network: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 560,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7d511cc1202683fc",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 560,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VFAHPJD2YB1ZR74X62WX",
+    "source": "Failed to send message over ws_proxy channel in session sharer: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1661,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "9194907ba6ee3b30",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 2,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1661,
+        "kind": "macro_arg"
+      },
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1686,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VFVG9Z7J5EAVSS8MYNMA",
+    "source": "Failed to serialize CRDT operations to send to server: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 646,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3405894c34303f05",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 646,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VGQG1NZ4K58B0TCJMNRM",
+    "source": "Got error from shared session sharer websocket: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1194,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ec679567208b1f8a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1194,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VKPFJM8WGX40Y3EF9HSK",
+    "source": "Received unexpected SessionInitialized message when we weren't in BeforeStarted stage",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1305,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a6cfe7fb6cfe9f7e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1305,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VM4XTK5544191J00S7MK",
+    "source": "Received unexpected SessionReconnected message when we weren't reconnecting",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1347,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7481fa7e832e9b4c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1347,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VMJ0KMT0Z7NRY9WFJ8X0",
+    "source": "Received unexpected message from shared session websocket as sharer",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1290,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "b5605678f29ce7ee",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1290,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VQ0V3D6SRCEH503XH3ZX",
+    "source": "Requesting extended shared session retention: {reason:?}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1670,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e50d857ff427bcb8",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1670,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VRN5SXMJ0WQ0W22N55BZ",
+    "source": "Sent session sharing initialization message",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 858,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c89777903a363b73",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 858,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VS01Q1E863J9Q9H9MA8B",
+    "source": "Session sharing scrollback exceeds max session size; failing startup",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 446,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7efd9849685c78c4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 446,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VSA7PTHGF6FDK0SP59GZ",
+    "source": "Session sharing server closed websocket to sharer; stage={stage}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1212,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6c54c9efe16343c6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1212,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VSP436AQ9H48C2K18GWA",
+    "source": "Session sharing server rejected sharer reconnect request: reason={reason:?}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1372,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "e1e2e216a1ab7f73",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1372,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VT1E3TESVGQZDTHQ4R0J",
+    "source": "Session sharing server terminated sharer session: reason={reason_label}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1381,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "d9dc1b85d8d7392e",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1381,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VTT4HQP83K2EDPV22DVC",
+    "source": "Shared session creation attempt failed, will retry; attempt={attempt} max_attempts={max_attempts} reason={reason}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 997,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c111128b2e96ffdd",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 997,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VVDMC0VMNN03HFRRZAGN",
+    "source": "Shared session creation attempt failed, will retry; attempt={attempt} max_attempts={max_attempts} reason={reason} cause={cause:#}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 992,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "2ec8755b3d20624f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 992,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VVYK352XQGBPZRJR6SDT",
+    "source": "Shared session creation failed, retries exhausted; attempt={attempt} max_attempts={max_attempts} reason={reason}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1016,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "417c4caaad2dc2ea",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1016,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VWHZ5P6J4CT8CC7JJDJF",
+    "source": "Shared session creation failed, retries exhausted; attempt={attempt} max_attempts={max_attempts} reason={reason} cause={cause:#}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1011,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "6940b37cc03d421c",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1011,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VWSHJH56CP7BX01ETMWX",
+    "source": "Sharer failed to send initialization message: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 854,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "db4ac6de9b2826f1",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 854,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VX0ABFW3G6ZX6B8FXH73",
+    "source": "Sharer failed to send reconnect message: {e}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1126,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "68d32241535038e0",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1126,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VX6YDFDXXK9Q5EZJ4RVV",
+    "source": "Sharer reconnecting: heartbeat idle timeout",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 522,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "84d7150d22d6aedb",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 522,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VXE5B08Z1T2NQQES53S3",
+    "source": "Sharer reconnecting: websocket closed by server",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1220,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a6275981c9fe177f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1220,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VXN84BAWKH1VN7MRVTMX",
+    "source": "Stopping shared session because max bytes exceeded.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1633,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "26954623b3a15575",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1633,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VY4Z2TJJ3G57758BWW95",
+    "source": "Successfully created shared session; attempt={attempt} max_attempts={max_attempts}",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1316,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "bf6e3202fc4dbc89",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1316,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VYD5AVT36T2C2B1NVJJ4",
+    "source": "Successfully reconnected to shared session server as sharer.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1353,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "a6ba81a207ecc38f",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1353,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VYJH7TCXG31CMY6V6C7M",
+    "source": "This channel does not support session-sharing.",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 1055,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3c4861a02bb992a6",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 1055,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VYP66FYWA3D8YP8NGKCW",
+    "source": "Timed out creating shared session",
+    "file": "app/src/terminal/shared_session/sharer/network.rs",
+    "line": 215,
+    "occurrences_kind": "literal",
+    "source_hash": "04e13f79eb722085",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/shared_session/sharer/network.rs",
+        "line": 215,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5V7H1VDXPMKCXKQM1FY77",
+    "source": "Apply the workspace changes from my previous session.",
+    "file": "app/src/terminal/view/ambient_agent/model.rs",
+    "line": 65,
+    "occurrences_kind": "literal",
+    "source_hash": "eade43fad65573ab",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/model.rs",
+        "line": 65,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VAJHW41XC51PGGBTKRG1",
+    "source": "Continue. Apply the workspace changes from my previous session.",
+    "file": "app/src/terminal/view/ambient_agent/model.rs",
+    "line": 57,
+    "occurrences_kind": "literal",
+    "source_hash": "1a601aa86820f3fb",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/ambient_agent/model.rs",
+        "line": 57,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KQXQV12DJZN1BB7QB8B493DQ",
+    "source": "Jump to latest agent message",
+    "file": "app/src/terminal/view/init.rs",
+    "line": 442,
+    "occurrences_kind": "literal",
+    "source_hash": "3edcebceb87f3ef9",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/terminal/view/init.rs",
+        "line": 442,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VJ0SWQSGQAEP9ARQMZX6",
+    "source": "Jump to latest agent task",
+    "file": "app/src/workspace/mod.rs",
+    "line": 1309,
+    "occurrences_kind": "literal",
+    "source_hash": "b9605a5d1b8d2b34",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/mod.rs",
+        "line": 1309,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VYT9A0ARSD0FGMYKTPXR",
+    "source": "Toggle hidden files in Project Explorer",
+    "file": "app/src/workspace/mod.rs",
+    "line": 750,
+    "occurrences_kind": "literal",
+    "source_hash": "dbdc3d4e0c3cfcd1",
+    "audit_verdict": "auto_ui",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "app/src/workspace/mod.rs",
+        "line": 750,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKADEHJHCDQ981A8W2DKY",
+    "source": "Remote server unexpected response for OpenBuffer",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 524,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "3da6d8332ca40ea4",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 524,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KRNVKADQ30KCMK06HSBSSXHK",
+    "source": "Remote server unexpected response for OpenBuffer: response={other:?}",
+    "file": "crates/remote_server/src/client/mod.rs",
+    "line": 525,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "7ca2e69264db5f94",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/client/mod.rs",
+        "line": 525,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VBJ81V5EKVYY8V2BCX6E",
+    "source": "Empty {} response",
+    "file": "crates/remote_server/src/host_response.rs",
+    "line": 37,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "032caaa8fd934f55",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/host_response.rs",
+        "line": 37,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VZ5DDJ4SKX3Z18RZW8TB",
+    "source": "Unexpected response variant for {op}: {other:?}",
+    "file": "crates/remote_server/src/host_response.rs",
+    "line": 85,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "ce0fa07d2cf532ac",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/host_response.rs",
+        "line": 85,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VBC3DWREWW50YARJRHV1",
+    "source": "Empty GetBranchesResponse",
+    "file": "crates/remote_server/src/manager.rs",
+    "line": 2635,
+    "occurrences_kind": "literal",
+    "source_hash": "72e607e626c51b7d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/manager.rs",
+        "line": 2635,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VYXSEFDW7SPBNF6A7C19",
+    "source": "Unexpected response for GetBranches",
+    "file": "crates/remote_server/src/manager.rs",
+    "line": 2638,
+    "occurrences_kind": "literal",
+    "source_hash": "0cd552ed04893c7a",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/manager.rs",
+        "line": 2638,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VZ0WBDNXVSNMVQ506EZS",
+    "source": "Unexpected response from server",
+    "file": "crates/remote_server/src/manager.rs",
+    "line": 2542,
+    "occurrences_kind": "literal",
+    "source_hash": "e4d41507b8ec640d",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/remote_server/src/manager.rs",
+        "line": 2542,
+        "kind": "literal"
+      }
+    ]
+  },
+  {
+    "id": "01KS2GEQJMYM71DPAH6WMJKGMW",
+    "source": "Repository {repo_path_str} exceeded the max file budget ({MAX_FILES_PER_REPO}); indexed breadth-first up to the budget — remaining directories load on expand",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 1600,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "94aba73585f4ce6b",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 1600,
+        "kind": "macro_arg"
+      }
+    ]
+  },
+  {
+    "id": "01KTE5VNSP0SHCPPKTGK55CGVY",
+    "source": "Repository exceeded max file budget; indexed with partial coverage",
+    "file": "crates/repo_metadata/src/local_model.rs",
+    "line": 1599,
+    "occurrences_kind": "macro_arg",
+    "source_hash": "c6991dfd4977c321",
+    "audit_verdict": "uncertain",
+    "occurrences_count": 1,
+    "occurrences_all": [
+      {
+        "file": "crates/repo_metadata/src/local_model.rs",
+        "line": 1599,
+        "kind": "macro_arg"
+      }
+    ]
+  }
+]

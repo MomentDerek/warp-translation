@@ -1,0 +1,103 @@
+{
+  "num_batches": 1,
+  "target_total": 200,
+  "total": 80,
+  "status_filter": "new",
+  "strings_path": "/Users/derek/Documents/Codes/warp_translation/translations/strings.json",
+  "batches": [
+    {
+      "letter": "A",
+      "count": 80,
+      "files": [
+        {
+          "path": "app/src/ai/blocklist/agent_view/agent_input_footer/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/ai/execution_profiles/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/code_review/code_review_view.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/remote_server/server_model.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings/ai.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings/code.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/settings_view/ai_page.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/settings_view/features_page.rs",
+          "count": 3
+        },
+        {
+          "path": "app/src/terminal/block_list_settings.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/cli_agent_sessions/plugin_manager/claude.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/cli_agent_sessions/plugin_manager/codex.rs",
+          "count": 9
+        },
+        {
+          "path": "app/src/terminal/cli_agent_sessions/plugin_manager/gemini.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/cli_agent_sessions/plugin_manager/opencode.rs",
+          "count": 4
+        },
+        {
+          "path": "app/src/terminal/input/slash_commands/mod.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/terminal/shared_session/sharer/network.rs",
+          "count": 35
+        },
+        {
+          "path": "app/src/terminal/view/ambient_agent/model.rs",
+          "count": 2
+        },
+        {
+          "path": "app/src/terminal/view/init.rs",
+          "count": 1
+        },
+        {
+          "path": "app/src/workspace/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/remote_server/src/client/mod.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/remote_server/src/host_response.rs",
+          "count": 2
+        },
+        {
+          "path": "crates/remote_server/src/manager.rs",
+          "count": 3
+        },
+        {
+          "path": "crates/repo_metadata/src/local_model.rs",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

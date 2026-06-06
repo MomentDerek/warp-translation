@@ -1,0 +1,231 @@
+{
+  "translations": {
+    "01KTE5V83VTK3PWHJ8GYK0SCDP": null,
+    "01KTE5V900TYZEB12F3F2DM5VJ": null,
+    "01KTE5V9WP02NF1E3DCMFH59WD": null,
+    "01KTE5VB3TQVD2657VHDH4TYYR": null,
+    "01KTE5VBZ3JQZG63M6E0QK9Y9P": null,
+    "01KTE5VCFN4HXXPB9Z60WM1MZ6": null,
+    "01KTE5VCVTVS4X3ABA8R6F6EY4": null,
+    "01KTE5VDFBE4PNJWQ2HS1SDRHF": null,
+    "01KTE5VDZA0DKQZ5XPR85YSA09": null,
+    "01KTE5VEPZ4X76NYR6G13CM9TT": null,
+    "01KTE5VFAHPJD2YB1ZR74X62WX": null,
+    "01KTE5VFVG9Z7J5EAVSS8MYNMA": null,
+    "01KTE5VGQG1NZ4K58B0TCJMNRM": null,
+    "01KTE5VKPFJM8WGX40Y3EF9HSK": null,
+    "01KTE5VM4XTK5544191J00S7MK": null,
+    "01KTE5VMJ0KMT0Z7NRY9WFJ8X0": null,
+    "01KTE5VQ0V3D6SRCEH503XH3ZX": null,
+    "01KTE5VRN5SXMJ0WQ0W22N55BZ": null,
+    "01KTE5VS01Q1E863J9Q9H9MA8B": null,
+    "01KTE5VSA7PTHGF6FDK0SP59GZ": null,
+    "01KTE5VSP436AQ9H48C2K18GWA": null,
+    "01KTE5VT1E3TESVGQZDTHQ4R0J": null,
+    "01KTE5VTT4HQP83K2EDPV22DVC": null,
+    "01KTE5VVDMC0VMNN03HFRRZAGN": null,
+    "01KTE5VVYK352XQGBPZRJR6SDT": null,
+    "01KTE5VWHZ5P6J4CT8CC7JJDJF": null,
+    "01KTE5VWSHJH56CP7BX01ETMWX": null,
+    "01KTE5VX0ABFW3G6ZX6B8FXH73": null,
+    "01KTE5VX6YDFDXXK9Q5EZJ4RVV": null,
+    "01KTE5VXE5B08Z1T2NQQES53S3": null,
+    "01KTE5VXN84BAWKH1VN7MRVTMX": null,
+    "01KTE5VY4Z2TJJ3G57758BWW95": null,
+    "01KTE5VYD5AVT36T2C2B1NVJJ4": null,
+    "01KTE5VYJH7TCXG31CMY6V6C7M": null,
+    "01KTE5VYP66FYWA3D8YP8NGKCW": null,
+    "01KTE5VH39ZTFVX7E2670WSGHE": null,
+    "01KTE5VT90SWRZNC2A4V75Z3J3": null,
+    "01KRNVKADEHJHCDQ981A8W2DKY": null,
+    "01KRNVKADQ30KCMK06HSBSSXHK": null,
+    "01KTE5VBJ81V5EKVYY8V2BCX6E": null,
+    "01KTE5VZ5DDJ4SKX3Z18RZW8TB": null,
+    "01KTE5VBC3DWREWW50YARJRHV1": null,
+    "01KTE5VYXSEFDW7SPBNF6A7C19": null,
+    "01KS2GEQJMYM71DPAH6WMJKGMW": null,
+    "01KTE5VNSP0SHCPPKTGK55CGVY": null,
+    "01KTE5V7H1VDXPMKCXKQM1FY77": null,
+    "01KTE5VAJHW41XC51PGGBTKRG1": null,
+    "01KQXQV12J4GN03XTDDZNHV6SG": "third party cli coding agent claude codex gemini toolbar footer layout chip chips rearrange re-arrange bar command regex auto show rich input dismiss ctrl enter submit newline 第三方 命令行 编码 代理 工具栏 页脚 布局 标签 重排 排列 栏 命令 正则 自动 显示 富文本 输入 关闭 提交 换行 回车",
+    "01KTE5W0NEF6FTPVEKE1CBSMQ0": "preserve input focus block selection navigate arrow keys 保留 输入 焦点 命令块 选择 导航 方向键 箭头",
+    "01KTE5VG9F2EBW57DFCAXM450M": "远程会话中无法使用 Git 操作",
+    "01KTE5VXSXSGYW3SRGQ16B6QD9": "使用 Ctrl+Enter 提交富文本输入",
+    "01KTE5VK66G9VCQZMRMM08V3SS": "选择命令块时保留输入焦点",
+    "01KTE5W0PA9T2PG1S0WRSM6MZS": "选择命令块时保留输入焦点",
+    "01KTE5W0DCZ8EJ5HVG2SSJS3EG": "启用后，富文本输入编辑器将以 Ctrl+Enter 提交，而非 Enter。Enter 将插入换行。",
+    "01KTE5W0H630NK74YK73JGV4NZ": "是否在项目资源管理器中显示隐藏文件（点文件）。",
+    "01KTE5W0MA1C09H50CB1FJB74Z": "选择命令块时是否保留输入框焦点。",
+    "01KTE5VJY5RQ7MW903VJCSE1S4": "当上下文超过 272,000 个 token 时，OpenAI 会自动应用长上下文定价。 ",
+    "01KQXQV12CGSHC5ZMCCM64WZE8": "为 Codex 安装 Warp 插件",
+    "01KTE5VRE4BRVGEBR5X57AXJ6H": "运行以下命令，然后重启 Codex。",
+    "01KQXQV12EJY20QN61F570HXJ0": "重启 Codex 以激活插件。",
+    "01KQXQV12EKR4TDJK8VJ0HB76M": "重启 Codex 以激活更新。",
+    "01KTE5VZ85M5CNA8QD2EB0CTYM": "为 Codex 更新 Warp 插件",
+    "01KTE5VZDGMQ9J2GVR8QEZRG03": "升级插件市场",
+    "01KTE5VMQH73WTG50KQ6MZRP2S": "重新安装 Warp 插件",
+    "01KQXQV12H3F8YS8XSM5WDDREK": "Warp 插件已更新。请重启 Codex 以激活。",
+    "01KQXQV12H96ZBKZ3720R7S9QZ": "Warp 插件已安装。请重启 Codex 以激活。",
+    "01KTE5W077VNZM7GTFEX1S55XG": "Warp 插件已更新。请运行 /reload-plugins 以激活。",
+    "01KQXQV12HFHH47EVHSKJRGEXJ": "Warp 插件已更新。请重启 Gemini CLI 以激活。",
+    "01KTE5VQP95DE7V821TNNGB8C6": "重启 Gemini CLI 以激活更新。",
+    "01KQXQV12EN1FB18BXP9F59JWG": "重启 OpenCode 以激活插件。",
+    "01KQXQV12HMGGG6BFRYJYBAFHE": "为 OpenCode 安装 Warp 插件",
+    "01KTE5VR5RZJRVPY51HFV26Q75": "重启 OpenCode 以加载更新后的插件。",
+    "01KTE5VZB61SYBGXYBF6EJTDS0": "为 OpenCode 更新 Warp 插件",
+    "01KTE5VJBR102JHKV63ESTDKPX": "无内容可交接 —— 请先开始一段对话。",
+    "01KTE5VZ0WBDNXVSNMVQ506EZS": "服务器返回了意外响应",
+    "01KTE5VJ0SWQSGQAEP9ARQMZX6": "跳转到最新的代理任务",
+    "01KTE5VYT9A0ARSD0FGMYKTPXR": "在项目资源管理器中切换隐藏文件",
+    "01KQXQV12DJZN1BB7QB8B493DQ": "跳转到最新的代理消息",
+    "01KQXQV12HHGP6YRDPW7TF4WF0": "Warp 插件已安装。请重启会话以激活。",
+    "01KTE5W02V5DE2V43VRD5SY67V": "Warp 插件已更新。请重启会话以激活。"
+  },
+  "do_not_translate_subflags": {
+    "01KTE5V83VTK3PWHJ8GYK0SCDP": [
+      "telemetry_payload"
+    ],
+    "01KTE5V900TYZEB12F3F2DM5VJ": [
+      "telemetry_payload"
+    ],
+    "01KTE5V9WP02NF1E3DCMFH59WD": [
+      "telemetry_payload"
+    ],
+    "01KTE5VB3TQVD2657VHDH4TYYR": [
+      "telemetry_payload"
+    ],
+    "01KTE5VBZ3JQZG63M6E0QK9Y9P": [
+      "telemetry_payload"
+    ],
+    "01KTE5VCFN4HXXPB9Z60WM1MZ6": [
+      "telemetry_payload"
+    ],
+    "01KTE5VCVTVS4X3ABA8R6F6EY4": [
+      "telemetry_payload"
+    ],
+    "01KTE5VDFBE4PNJWQ2HS1SDRHF": [
+      "telemetry_payload"
+    ],
+    "01KTE5VDZA0DKQZ5XPR85YSA09": [
+      "telemetry_payload"
+    ],
+    "01KTE5VEPZ4X76NYR6G13CM9TT": [
+      "telemetry_payload"
+    ],
+    "01KTE5VFAHPJD2YB1ZR74X62WX": [
+      "telemetry_payload"
+    ],
+    "01KTE5VFVG9Z7J5EAVSS8MYNMA": [
+      "telemetry_payload"
+    ],
+    "01KTE5VGQG1NZ4K58B0TCJMNRM": [
+      "telemetry_payload"
+    ],
+    "01KTE5VKPFJM8WGX40Y3EF9HSK": [
+      "telemetry_payload"
+    ],
+    "01KTE5VM4XTK5544191J00S7MK": [
+      "telemetry_payload"
+    ],
+    "01KTE5VMJ0KMT0Z7NRY9WFJ8X0": [
+      "telemetry_payload"
+    ],
+    "01KTE5VQ0V3D6SRCEH503XH3ZX": [
+      "telemetry_payload"
+    ],
+    "01KTE5VRN5SXMJ0WQ0W22N55BZ": [
+      "telemetry_payload"
+    ],
+    "01KTE5VS01Q1E863J9Q9H9MA8B": [
+      "telemetry_payload"
+    ],
+    "01KTE5VSA7PTHGF6FDK0SP59GZ": [
+      "telemetry_payload"
+    ],
+    "01KTE5VSP436AQ9H48C2K18GWA": [
+      "telemetry_payload"
+    ],
+    "01KTE5VT1E3TESVGQZDTHQ4R0J": [
+      "telemetry_payload"
+    ],
+    "01KTE5VTT4HQP83K2EDPV22DVC": [
+      "telemetry_payload"
+    ],
+    "01KTE5VVDMC0VMNN03HFRRZAGN": [
+      "telemetry_payload"
+    ],
+    "01KTE5VVYK352XQGBPZRJR6SDT": [
+      "telemetry_payload"
+    ],
+    "01KTE5VWHZ5P6J4CT8CC7JJDJF": [
+      "telemetry_payload"
+    ],
+    "01KTE5VWSHJH56CP7BX01ETMWX": [
+      "telemetry_payload"
+    ],
+    "01KTE5VX0ABFW3G6ZX6B8FXH73": [
+      "telemetry_payload"
+    ],
+    "01KTE5VX6YDFDXXK9Q5EZJ4RVV": [
+      "telemetry_payload"
+    ],
+    "01KTE5VXE5B08Z1T2NQQES53S3": [
+      "telemetry_payload"
+    ],
+    "01KTE5VXN84BAWKH1VN7MRVTMX": [
+      "telemetry_payload"
+    ],
+    "01KTE5VY4Z2TJJ3G57758BWW95": [
+      "telemetry_payload"
+    ],
+    "01KTE5VYD5AVT36T2C2B1NVJJ4": [
+      "telemetry_payload"
+    ],
+    "01KTE5VYJH7TCXG31CMY6V6C7M": [
+      "telemetry_payload"
+    ],
+    "01KTE5VYP66FYWA3D8YP8NGKCW": [
+      "telemetry_payload"
+    ],
+    "01KTE5VH39ZTFVX7E2670WSGHE": [
+      "telemetry_payload"
+    ],
+    "01KTE5VT90SWRZNC2A4V75Z3J3": [
+      "telemetry_payload"
+    ],
+    "01KRNVKADEHJHCDQ981A8W2DKY": [
+      "telemetry_payload"
+    ],
+    "01KRNVKADQ30KCMK06HSBSSXHK": [
+      "telemetry_payload"
+    ],
+    "01KTE5VBJ81V5EKVYY8V2BCX6E": [
+      "telemetry_payload"
+    ],
+    "01KTE5VZ5DDJ4SKX3Z18RZW8TB": [
+      "telemetry_payload"
+    ],
+    "01KTE5VBC3DWREWW50YARJRHV1": [
+      "telemetry_payload"
+    ],
+    "01KTE5VYXSEFDW7SPBNF6A7C19": [
+      "telemetry_payload"
+    ],
+    "01KS2GEQJMYM71DPAH6WMJKGMW": [
+      "telemetry_payload"
+    ],
+    "01KTE5VNSP0SHCPPKTGK55CGVY": [
+      "telemetry_payload"
+    ],
+    "01KTE5V7H1VDXPMKCXKQM1FY77": [
+      "telemetry_payload"
+    ],
+    "01KTE5VAJHW41XC51PGGBTKRG1": [
+      "telemetry_payload"
+    ]
+  },
+  "bilingual_search_terms_ids": [
+    "01KQXQV12J4GN03XTDDZNHV6SG",
+    "01KTE5W0NEF6FTPVEKE1CBSMQ0"
+  ]
+}
