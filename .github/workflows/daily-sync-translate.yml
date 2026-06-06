@@ -1,0 +1,340 @@
+name: Daily upstream sync + translate + release
+
+# Unattended daily pipeline:
+#   1. detect         — resolve the latest upstream warpdotdev/warp release tag
+#                       for a channel (default: dev) and compare it to our pin
+#                       (translations/strings.json -> metadata.source_commit).
+#   2. sync-translate — if upstream moved: clone upstream at that tag, run the
+#                       extractor (incremental new/fuzzy/obsolete), translate the
+#                       new entries via the EXISTING batch workflow driven by a
+#                       headless Claude Code run, bump the pin, commit to main and
+#                       push a tag named after the upstream release.
+#   3. (downstream)   — the tag push triggers build-translation.yml, which builds
+#                       the localized tree, packages installers on macOS + Linux,
+#                       and publishes the GitHub Release (dev/preview => prerelease).
+#
+# Secrets required (Settings -> Secrets and variables -> Actions):
+#   CLAUDE_CODE_OAUTH_TOKEN — auth for the headless Claude Code translation run,
+#                        billed against your Claude subscription (Pro/Max). Make
+#                        one locally with `claude setup-token`. Alternatively set
+#                        ANTHROPIC_API_KEY instead for pay-per-token API billing;
+#                        the step below prefers the OAuth token when present.
+#   WARP_ZH_PAT        — a PAT (contents:write) used to push the commit + tag so
+#                        the push TRIGGERS build-translation.yml. The default
+#                        GITHUB_TOKEN cannot trigger other workflows on push.
+#
+# fuzzy / obsolete entries are NOT auto-translated here (they need the manual
+# RUNBOOK resync path and have no invariant gate). They are surfaced in the run
+# summary + uploaded as an artifact for human follow-up; the release still ships
+# because untranslated/stale entries fall back to English in the build.
+
+on:
+  schedule:
+    # 06:30 UTC daily — a couple hours after upstream typically cuts its dev tag.
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: 'Upstream release channel to track'
+        type: choice
+        default: dev
+        options: [dev, preview, stable]
+      force:
+        description: 'Run even if we are already at the latest upstream tag'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Detect + extract + diff only; do not translate, commit, or release'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-sync-translate
+  cancel-in-progress: false
+
+env:
+  CHANNEL: ${{ inputs.channel || 'dev' }}
+  UPSTREAM_REPO: warpdotdev/warp
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # 1. Cheap gate: is there a newer upstream release for our channel?
+  # ---------------------------------------------------------------------------
+  detect:
+    name: Detect upstream release
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.resolve.outputs.should_run }}
+      upstream_tag: ${{ steps.resolve.outputs.upstream_tag }}
+      upstream_sha: ${{ steps.resolve.outputs.upstream_sha }}
+      current_pin: ${{ steps.resolve.outputs.current_pin }}
+      current_tag: ${{ steps.resolve.outputs.current_tag }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Resolve latest upstream tag vs our pin
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}   # raises gh api rate limit; public repo
+        run: |
+          python3 tools/translations/kit/resolve_upstream.py \
+            --channel "$CHANNEL" \
+            --repo "$UPSTREAM_REPO" \
+            ${{ (inputs.force && '--force') || '' }}
+
+      - name: Summary
+        run: |
+          {
+            echo "## Upstream detect"
+            echo ""
+            echo "| field | value |"
+            echo "|---|---|"
+            echo "| channel | \`$CHANNEL\` |"
+            echo "| latest upstream tag | \`${{ steps.resolve.outputs.upstream_tag }}\` |"
+            echo "| upstream sha | \`${{ steps.resolve.outputs.upstream_sha }}\` |"
+            echo "| current pin | \`${{ steps.resolve.outputs.current_pin }}\` |"
+            echo "| current tag | \`${{ steps.resolve.outputs.current_tag }}\` |"
+            echo "| should run | \`${{ steps.resolve.outputs.should_run }}\` |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  # ---------------------------------------------------------------------------
+  # 2. The real work: extract, translate new entries, bump pin, commit + tag.
+  # ---------------------------------------------------------------------------
+  sync-translate:
+    name: Sync + translate + release-tag
+    needs: detect
+    if: ${{ needs.detect.outputs.should_run == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      UPSTREAM_TAG: ${{ needs.detect.outputs.upstream_tag }}
+      UPSTREAM_SHA: ${{ needs.detect.outputs.upstream_sha }}
+      DRY_RUN: ${{ inputs.dry_run || false }}
+    steps:
+      - name: Set scratch paths
+        run: |
+          # runner.temp is not available in a job-level env: block, so derive
+          # these from the $RUNNER_TEMP shell var into the job environment.
+          echo "WARP_DIR=$RUNNER_TEMP/warp" >> "$GITHUB_ENV"
+          echo "TASK_DIR=$RUNNER_TEMP/daily-task" >> "$GITHUB_ENV"
+
+      - name: Checkout localization repo
+        uses: actions/checkout@v5
+        with:
+          # PAT so the later push to main + tag TRIGGERS build-translation.yml.
+          token: ${{ secrets.WARP_ZH_PAT }}
+          fetch-depth: 0
+
+      - name: Install Rust 1.92.0
+        uses: dtolnay/rust-toolchain@1.92.0
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: tools
+
+      - name: Build extractor
+        working-directory: tools
+        run: cargo build --release -p warp-zh-extractor
+
+      - name: Clone upstream Warp at ${{ env.UPSTREAM_TAG }}
+        run: |
+          set -euo pipefail
+          git init -q "$WARP_DIR"
+          git -C "$WARP_DIR" remote add origin "https://github.com/$UPSTREAM_REPO.git"
+          git -C "$WARP_DIR" fetch --depth 1 origin "$UPSTREAM_SHA"
+          git -C "$WARP_DIR" checkout -q --force FETCH_HEAD
+          if command -v git-lfs >/dev/null 2>&1; then
+            git -C "$WARP_DIR" lfs install --local || true
+            git -C "$WARP_DIR" lfs pull || echo "::warning::git lfs pull failed (binary assets may be missing)"
+          fi
+          echo "upstream HEAD: $(git -C "$WARP_DIR" rev-parse HEAD)"
+
+      - name: Snapshot table (before)
+        run: cp translations/strings.json "$RUNNER_TEMP/strings.before.json"
+
+      - name: Extract (incremental) + fixed-point obsolete cleanup
+        working-directory: tools
+        run: |
+          set -euo pipefail
+          EXT=./target/release/warp-zh-extractor
+          # Pass 1: incremental merge — adds new, marks changed=fuzzy, gone=obsolete.
+          "$EXT" extract --source "$WARP_DIR" --table ../translations/strings.json --lock ../translations/.lock.json
+          # Pass 2: fixed-point — hard-deletes the obsolete entries from pass 1.
+          "$EXT" extract --source "$WARP_DIR" --table ../translations/strings.json --lock ../translations/.lock.json
+          # Drift check (non-fatal): every kept entry must still exist in source.
+          "$EXT" extract --source "$WARP_DIR" --table ../translations/strings.json --check \
+            && echo "✓ table canonical for $UPSTREAM_TAG" \
+            || echo "::warning::table not byte-canonical for $UPSTREAM_TAG"
+
+      - name: Diff table (new / fuzzy / obsolete / deleted)
+        id: diff
+        run: |
+          mkdir -p reports
+          python3 tools/translations/kit/diff_table.py \
+            "$RUNNER_TEMP/strings.before.json" translations/strings.json \
+            --report reports/daily-diff.json
+
+      - name: Upload diff report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-diff
+          path: reports/daily-diff.json
+          if-no-files-found: ignore
+
+      - name: Diff summary
+        run: |
+          {
+            echo "## Translation diff for \`$UPSTREAM_TAG\`"
+            echo ""
+            echo "- new: **${{ steps.diff.outputs.new_count }}**"
+            echo "- fuzzy: **${{ steps.diff.outputs.fuzzy_count }}** (surfaced for human resync — not auto-translated)"
+            echo "- obsolete: **${{ steps.diff.outputs.obsolete_count }}**"
+            echo "- deleted: **${{ steps.diff.outputs.deleted_count }}** (hard-removed by the fixed-point extract)"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # --- Translation of new entries (only when there are any) -------------
+      - name: Build batch candidates
+        id: candidates
+        if: ${{ steps.diff.outputs.new_count != '0' && env.DRY_RUN != 'true' }}
+        run: |
+          set -euo pipefail
+          NEW=${{ steps.diff.outputs.new_count }}
+          # ~75 entries per implementer, capped at 8 (the workflow concurrency cap).
+          N=$(( (NEW + 74) / 75 ))
+          if [ "$N" -lt 1 ]; then N=1; fi
+          if [ "$N" -gt 8 ]; then N=8; fi
+          python3 tools/translations/kit/build_batch.py \
+            --task-dir "$TASK_DIR" --num-batches "$N" --target-total "$NEW"
+          LETTERS=$(jq -c '[.batches[].letter]' "$TASK_DIR/candidates/manifest.json")
+          echo "num_batches=$N" >> "$GITHUB_OUTPUT"
+          echo "letters=$LETTERS" >> "$GITHUB_OUTPUT"
+
+      - name: Install Node + Claude Code CLI
+        if: ${{ steps.diff.outputs.new_count != '0' && env.DRY_RUN != 'true' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude Code
+        if: ${{ steps.diff.outputs.new_count != '0' && env.DRY_RUN != 'true' }}
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Translate new entries (headless Claude Code -> existing batch workflow)
+        id: translate
+        if: ${{ steps.diff.outputs.new_count != '0' && env.DRY_RUN != 'true' }}
+        env:
+          # Subscription auth (preferred) — `claude setup-token`. API key is the
+          # pay-per-token fallback; either one alone is sufficient.
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -euo pipefail
+          # If a subscription token is configured, drop the API key so Claude
+          # Code authenticates via the subscription rather than per-token billing.
+          if [ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ]; then unset ANTHROPIC_API_KEY; fi
+          STATUS_FILE="$RUNNER_TEMP/translate-status.json"
+          BATCH_FLAG="daily-sync-$UPSTREAM_TAG"
+          ARGS_JSON=$(jq -nc \
+            --arg td "$TASK_DIR" \
+            --arg rr "$PWD" \
+            --arg sr "$WARP_DIR" \
+            --arg bf "$BATCH_FLAG" \
+            --argjson letters '${{ steps.candidates.outputs.letters }}' \
+            '{taskDir:$td, repoRoot:$rr, srcRepo:$sr, batchFlag:$bf, letters:$letters, activeTask:$td}')
+          PROMPT=$(sed \
+            -e "s|__ARGS_JSON__|$ARGS_JSON|g" \
+            -e "s|__STATUS_FILE__|$STATUS_FILE|g" \
+            .claude/workflows/daily-translate.prompt.md)
+          echo "::group::translate prompt"; echo "$PROMPT"; echo "::endgroup::"
+          claude -p "$PROMPT" \
+            --permission-mode bypassPermissions \
+            --model claude-sonnet-4-6 \
+            --add-dir "$WARP_DIR" \
+            --max-turns 60 \
+            --output-format text || true
+          if [ ! -f "$STATUS_FILE" ]; then
+            echo "::error::translation produced no status file"; exit 1
+          fi
+          echo "--- status ---"; cat "$STATUS_FILE"
+          VERDICT=$(jq -r '.verdict' "$STATUS_FILE")
+          if [ "$VERDICT" != "PASS" ]; then
+            echo "::error::translation check verdict=$VERDICT — not releasing"
+            jq -r '.critical_failures[]?' "$STATUS_FILE" || true
+            exit 1
+          fi
+
+      - name: Upload translation task artifacts
+        if: ${{ always() && steps.diff.outputs.new_count != '0' && env.DRY_RUN != 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-translate-task
+          path: |
+            ${{ runner.temp }}/daily-task/candidates/manifest.json
+            ${{ runner.temp }}/daily-task/outputs/apply_summary.json
+            ${{ runner.temp }}/daily-task/check.report.md
+          if-no-files-found: ignore
+
+      # --- Bump the pin, commit, tag, push ----------------------------------
+      - name: Bump DEFAULT_WARP_REF pin
+        if: ${{ env.DRY_RUN != 'true' }}
+        run: |
+          set -euo pipefail
+          WF=.github/workflows/build-translation.yml
+          # The extractor already wrote metadata.source_commit = $UPSTREAM_SHA into
+          # strings.json; mirror that into the build workflow's pin + comment.
+          python3 - "$WF" "$UPSTREAM_SHA" "$UPSTREAM_TAG" <<'PY'
+          import re, sys
+          wf, sha, tag = sys.argv[1], sys.argv[2], sys.argv[3]
+          s = open(wf, encoding="utf-8").read()
+          s = re.sub(r"(# Pinned to upstream tag )\S+\.", rf"\g<1>{tag}.", s)
+          s = re.sub(r"(DEFAULT_WARP_REF:\s*)\S+", rf"\g<1>{sha}", s)
+          open(wf, "w", encoding="utf-8").write(s)
+          PY
+          # Sanity: strings.json pin must equal the upstream sha we built against.
+          PIN=$(python3 -c "import json;print(json.load(open('translations/strings.json'))['metadata']['source_commit'])")
+          if [ "$PIN" != "$UPSTREAM_SHA" ]; then
+            echo "::error::strings.json pin ($PIN) != upstream sha ($UPSTREAM_SHA)"; exit 1
+          fi
+
+      - name: Detect changes
+        id: changed
+        if: ${{ env.DRY_RUN != 'true' }}
+        run: |
+          if git diff --quiet -- translations/strings.json .github/workflows/build-translation.yml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No table/pin changes to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit, tag, push
+        if: ${{ env.DRY_RUN != 'true' && steps.changed.outputs.changed == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          NEW=${{ steps.diff.outputs.new_count }}
+          FUZZY=${{ steps.diff.outputs.fuzzy_count }}
+          git add translations/strings.json .github/workflows/build-translation.yml
+          git commit -m "feat(sync): align to upstream $UPSTREAM_TAG" \
+                     -m "Incremental extract + translate: ${NEW} new entries translated, ${FUZZY} fuzzy surfaced for human resync. Pin -> ${UPSTREAM_SHA}." \
+                     -m "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+          # Tag named after the upstream release; pushing it triggers
+          # build-translation.yml (package + GitHub Release).
+          if git rev-parse "$UPSTREAM_TAG" >/dev/null 2>&1; then
+            echo "Tag $UPSTREAM_TAG already exists locally — skipping tag create."
+          else
+            git tag "$UPSTREAM_TAG"
+          fi
+          git push origin HEAD:main
+          git push origin "refs/tags/$UPSTREAM_TAG"
+          {
+            echo "## Released"
+            echo ""
+            echo "- committed pin bump + ${NEW} new translations to \`main\`"
+            echo "- pushed tag \`$UPSTREAM_TAG\` → build-translation.yml will package + publish the release"
+          } >> "$GITHUB_STEP_SUMMARY"

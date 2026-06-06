@@ -13,8 +13,16 @@ Nothing here is batch-number-specific; per-batch values are passed as arguments.
 |---|---|
 | `build_batch.py` | Pack `status=new` entries into N file-pinned bins. Writes `candidates/batch-*.json`, `candidates/manifest.json`, `research/composition.md`. |
 | `apply_batch.py` | Merge implementer outputs into `translations/strings.json`. Discovers batch letters + expected total automatically. Writes `outputs/apply_summary.json`. |
+| `resolve_upstream.py` | Resolve the latest upstream `warpdotdev/warp` release tag for a channel (`gh api` → `git ls-remote` fallback), compare to the pin (`strings.json` → `metadata.source_commit`), emit `should_run`/`upstream_tag`/`upstream_sha` GitHub-Actions outputs. Drives `daily-sync-translate.yml`. |
+| `diff_table.py` | Diff a `strings.json` before/after an extractor run into `new`/`fuzzy`/`obsolete`/`deleted` (same logic `sync-upstream-translations.ts` uses inline). Emits a machine report + GH outputs. |
 | `../../../.claude/workflows/translate_batch.mjs` | Claude Code Workflow: N implementers (opus) → apply → check. Fully parameterized via `args`. |
 | `../../../.claude/workflows/sync-upstream-translations.ts` | Claude Code Workflow: pull upstream Warp (ff-only), re-extract, diff `strings.json`, categorize changes, emit a report. |
+| `../../../.claude/workflows/daily-translate.prompt.md` | Headless-CI prompt template: instructs `claude -p` to run `translate_batch.mjs` over the day's `status=new` entries and write a PASS/FAIL status file. |
+
+The daily CI pipeline (`.github/workflows/daily-sync-translate.yml`) chains
+`resolve_upstream.py` → extractor → `diff_table.py` → `build_batch.py` →
+headless Claude (`translate_batch.mjs`) → pin bump → release tag. See
+[`.github/workflows/README.md`](../../../.github/workflows/README.md#daily-automation-daily-sync-translateyml).
 
 The Python scripts are standalone (`python3 …`). The two `.mjs/.ts` workflow scripts live under
 `.claude/workflows/` and require [Claude Code](https://claude.com/claude-code) to drive sub-agents.

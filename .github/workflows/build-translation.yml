@@ -171,7 +171,13 @@ jobs:
   package:
     name: Package localized Warp (${{ matrix.os }})
     needs: build-localized
-    if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || inputs.build_packages) }}
+    # Heavy job (full release build on macOS + Linux). Run it only when it can
+    # produce a release — on a tag push — or when explicitly dispatched. Plain
+    # branch pushes / PRs get the cheap `tools` + `build-localized` signal only.
+    # This also keeps the daily pipeline's `main` push (which lands the pin bump
+    # right before pushing the release tag) from triggering a duplicate heavy
+    # build alongside the tag's own package+release run.
+    if: ${{ !github.event.act && (startsWith(github.ref, 'refs/tags/') || (github.event_name == 'workflow_dispatch' && inputs.build_packages)) }}
     strategy:
       fail-fast: false
       matrix:
