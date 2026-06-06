@@ -74,6 +74,21 @@ xattr -dr com.apple.quarantine /Applications/WarpOss.app
 
 之后即可正常启动。`WarpOss.app` 是 Warp 的 OSS 自包含构建（`oss` channel，bundle id `dev.warp.WarpOss`），与官方签名版互不冲突，可并存。
 
+## 常见问题
+
+### 中文版能登录 Warp 账号吗？
+
+能。中文版是上游 Warp 的 **OSS 构建**（`oss` channel，bundle id `dev.warp.WarpOss`），直接连生产服务器 `https://app.warp.dev`，账号体系与官方版一致。点登录会打开浏览器走 OAuth，认证完成后服务端回跳深链 `warposs://auth?refresh_token=...` 把令牌交还 App。
+
+**若浏览器没有自动拉起 WarpOss**（回跳 scheme 未被识别时常见），用手动粘贴 token 登录：
+
+1. 登录界面点 **「copy the URL」** 复制登录链接（形如 `https://app.warp.dev/login/remote?scheme=warposs&state=...`）。
+2. 在浏览器打开该链接并完成登录。
+3. 登录成功后浏览器会尝试跳转到一条 `warposs://auth?refresh_token=...&state=...` —— 复制这条**完整 URL**（若跳转被拦截，可从地址栏 / 右键「复制链接地址」拿到）。
+4. 回 WarpOss，点 **「输入 token」**，把整条 `warposs://auth?...` 粘进 **「Browser auth token」** 输入框回车。App 会解析其中的 `refresh_token` 完成登录。
+
+> ⚠️ 登录成功 ≠ 全功能解锁。Drive 同步、托管 AI agent、团队功能依赖闭源后端（见上游 [`FAQ.md`](https://github.com/warpdotdev/Warp/blob/main/FAQ.md)）；本地终端功能不受影响。翻译层只替换字符串字面量，不碰登录 / 网络逻辑。
+
 ## 仓库结构
 
 | 路径 | 用途 |

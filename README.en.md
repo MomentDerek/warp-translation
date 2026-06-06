@@ -72,6 +72,21 @@ xattr -dr com.apple.quarantine /Applications/WarpOss.app
 
 It launches normally afterward. `WarpOss.app` is Warp's self-contained OSS build (`oss` channel, bundle id `dev.warp.WarpOss`); it coexists with the official signed Warp without conflict.
 
+## FAQ
+
+### Can the Chinese build sign in to a Warp account?
+
+Yes. The Chinese build is upstream Warp's **OSS build** (`oss` channel, bundle id `dev.warp.WarpOss`). It talks to the production server `https://app.warp.dev` directly and shares the same account system as the official app. Clicking sign-in opens a browser OAuth flow; once you authenticate, the server redirects to the deep link `warposs://auth?refresh_token=...` to hand the token back to the app.
+
+**If the browser doesn't launch WarpOss automatically** (common when the redirect scheme isn't recognized), sign in by pasting the token manually:
+
+1. On the sign-in screen, click **"copy the URL"** to copy the login link (looks like `https://app.warp.dev/login/remote?scheme=warposs&state=...`).
+2. Open that link in your browser and complete the login.
+3. After a successful login the browser tries to redirect to a `warposs://auth?refresh_token=...&state=...` link — copy that **full URL** (if the redirect is blocked, grab it from the address bar or via right-click → "Copy link address").
+4. Back in WarpOss, click **"enter token"** and paste the entire `warposs://auth?...` URL into the **"Browser auth token"** field, then press Enter. The app parses the `refresh_token` from it to complete the login.
+
+> ⚠️ A successful login ≠ all features unlocked. Drive sync, hosted AI agents, and team features depend on the closed-source backend (see upstream [`FAQ.md`](https://github.com/warpdotdev/Warp/blob/main/FAQ.md)); local terminal features are unaffected. The translation layer only replaces string literals — it never touches login / network logic.
+
 ## Repository layout
 
 | Path | Purpose |
