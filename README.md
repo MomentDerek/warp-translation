@@ -2,6 +2,8 @@
 
 > 📖 **English version / 英文版**: [README.en.md](README.en.md)
 
+> 🍎 **macOS 打不开？** 双击提示「**已损坏，无法打开。**」或「无法验证开发者」，是未签名构建被 Gatekeeper 拦截所致，**并非真的损坏**。一行命令即可解决 —— 见 [安装并绕过 Gatekeeper](#安装并绕过-gatekeeper)。
+
 [Warp](https://github.com/warpdotdev/Warp) 终端的中文本地化项目 —— **不修改上游源码**。
 
 这是一个纯粹的"覆盖层"方案：从 `../warp` 中抽取每一条 Rust 字符串字面量，把译文存进本仓库的 `translations/strings.json`，再构建出一份本地化的源码副本，像平常一样 `cargo build` 即可。上游始终保持原样。
@@ -58,7 +60,7 @@ cd build/warp-zh && MACOSX_DEPLOYMENT_TARGET=14.0 cargo check -p warp
 
 ### 安装并绕过 Gatekeeper
 
-该 `.dmg` 用 `script/bundle --nosign` 构建，**未经签名 / 公证**，首次打开会被 macOS Gatekeeper 拦截（提示「无法打开，因为无法验证开发者」）。步骤：
+该 `.dmg` 用 `script/bundle --nosign` 构建，**未经签名 / 公证**，首次打开会被 macOS Gatekeeper 拦截 —— 视系统版本可能提示「**已损坏，无法打开。你应该将它移到废纸篓。**」或「无法打开，因为无法验证开发者」。**这并非文件真的损坏**，只是缺少签名而被隔离属性拦下。步骤：
 
 ```bash
 # 1. 双击挂载 WarpOss-arm64.dmg，把 WarpOss.app 拖入「应用程序」
@@ -232,6 +234,10 @@ Workflow({
 - [`syn` 字符串抽取](.trellis/tasks/archive/2026-05/05-04-translate-warp-project-to-chinese/research/syn-string-extraction.md)
 - [UI 字符串启发式规则](.trellis/tasks/archive/2026-05/05-04-translate-warp-project-to-chinese/research/ui-string-heuristics.md)
 - [初始 PRD](.trellis/tasks/archive/2026-05/05-04-translate-warp-project-to-chinese/prd.md)
+
+## 友情链接
+
+- [LINUX DO](https://linux.do/) —— 新的理想型社区，技术爱好者的聚集地。
 
 ## 许可证
 

@@ -335,6 +335,25 @@ jobs:
             echo "::error::No installer assets found to release"
             exit 1
           fi
+          # 自定义说明：macOS 安装包未签名，首次打开会被 Gatekeeper 拦截。
+          # 这段文字会出现在 release 正文最前面；--generate-notes 自动生成的
+          # 变更日志会追加在它之后。
+          NOTES=$(cat <<'EOF'
+          ## 🍎 macOS 安装提示
+
+          `WarpOss-arm64.dmg` 为 **未签名 / 未公证** 的 OSS 构建（Apple Silicon / arm64）。
+          首次打开若提示「**已损坏，无法打开。**」或「无法验证开发者」，**并非文件损坏**，
+          只是被 Gatekeeper 的隔离属性拦下。把 `WarpOss.app` 拖入「应用程序」后执行：
+
+          ```bash
+          xattr -dr com.apple.quarantine /Applications/WarpOss.app
+          ```
+
+          之后即可正常启动。详见 [README — 安装并绕过 Gatekeeper](https://github.com/${{ github.repository }}#安装并绕过-gatekeeper)。
+
+          ---
+          EOF
+          )
           # Idempotent: re-running the same tag updates assets instead of failing.
           if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
             echo "Release $TAG exists — uploading assets (clobber)."
@@ -344,5 +363,6 @@ jobs:
             gh release create "$TAG" "${ASSETS[@]}" \
               --repo "$REPO" \
               --title "$TAG" \
+              --notes "$NOTES" \
               --generate-notes
           fi
