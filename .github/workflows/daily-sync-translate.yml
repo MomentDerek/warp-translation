@@ -197,6 +197,18 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
       # --- Translation of new entries (only when there are any) -------------
+      - name: Isolate new entries (revert extractor fuzzy/obsolete churn)
+        if: ${{ steps.diff.outputs.new_count != '0' && env.DRY_RUN != 'true' }}
+        run: |
+          # The extractor leaves fuzzy/obsolete flips in the table; the batch
+          # Check phase treats those as out-of-scope collateral and fails. Revert
+          # non-new entries to their HEAD state so the batch + check see a clean
+          # table whose only delta is the new additions. fuzzy/obsolete stay in
+          # the daily-diff artifact and are re-detected next run.
+          python3 tools/translations/kit/isolate_new.py \
+            --before "$RUNNER_TEMP/strings.before.json" \
+            --table translations/strings.json
+
       - name: Build batch candidates
         id: candidates
         if: ${{ steps.diff.outputs.new_count != '0' && env.DRY_RUN != 'true' }}
