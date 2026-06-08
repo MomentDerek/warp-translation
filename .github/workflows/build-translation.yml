@@ -274,7 +274,11 @@ jobs:
         working-directory: ${{ steps.localize.outputs.out_dir }}
         shell: pwsh
         run: |
-          bash ./script/install_cargo_build_deps; if (-not $?) { Write-Output "::warning::install_cargo_build_deps reported errors (continuing)" }
+          # install_cargo_release_deps runs install_cargo_build_deps internally,
+          # then `cargo install cargo-about` (needed for third-party license
+          # generation in prepare_bundled_resources.ps1). Mirrors the macOS/Linux
+          # deps steps; non-fatal like them.
+          bash ./script/install_cargo_release_deps; if (-not $?) { Write-Output "::warning::install_cargo_release_deps reported errors (continuing)" }
 
       - name: Bundle Linux packages (deb / rpm / AppImage)
         id: bundle_linux
