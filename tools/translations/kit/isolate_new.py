@@ -42,9 +42,14 @@ def main() -> int:
     # definition absent from `before`, so this can't duplicate.
     kept = list(before["entries"]) + [e for e in new_entries if e["id"] not in before_ids]
 
-    out = {"metadata": after.get("metadata", before.get("metadata", {})), "entries": kept}
-    out["metadata"]["entry_count"] = len(kept)
-    Path(args.table).write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
+    # Mutate the post-extract object in place so ALL top-level fields are
+    # preserved (e.g. `$schema_version`, which the builder's strict parser
+    # requires) — only the entry list and entry_count change. Keep the bumped
+    # metadata.source_commit from the extract.
+    after["entries"] = kept
+    if isinstance(after.get("metadata"), dict):
+        after["metadata"]["entry_count"] = len(kept)
+    Path(args.table).write_text(json.dumps(after, ensure_ascii=False, indent=2) + "\n")
 
     print(
         f"isolated: kept {len(before['entries'])} HEAD entries + {len(new_entries)} new "
