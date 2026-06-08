@@ -219,6 +219,23 @@ jobs:
         with:
           warp_ref: ${{ steps.ref.outputs.value }}
 
+      # Cache upstream Warp's dependency builds — this is the package job's long
+      # pole (a cold `cargo build --release` of Warp's huge dep tree, ~1h on the
+      # macOS runner). Keyed on the localized tree's Cargo.lock (stable for a
+      # given upstream ref) + rustc + runner OS, so day-to-day runs whose
+      # Cargo.lock is unchanged restore deps and only recompile the Warp app
+      # crates (which carry the translated strings). A new ref that bumps deps is
+      # a clean miss (full rebuild) — no worse than today. rust-cache prunes the
+      # workspace members' own artifacts, so the cache holds deps, not the whole
+      # target/. Must run AFTER localize (the tree, and its Cargo.lock, only
+      # exist once the builder has produced build/warp-zh).
+      - name: Cache upstream Warp build
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: ${{ steps.localize.outputs.out_dir }}
+          prefix-key: warp-build
+          cache-on-failure: true
+
       - name: Install protoc
         uses: arduino/setup-protoc@v3
         with:
