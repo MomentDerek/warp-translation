@@ -181,9 +181,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-latest, ubuntu-latest]
+        os: [macos-latest, ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 150
+    # Windows release builds are slow (full cargo --release + Inno Setup); the
+    # 150 default was tuned for macOS/Linux. Bump to 180 to give Windows headroom.
+    timeout-minutes: 180
     env:
       # The `oss` channel builds the self-contained `warp-oss` bin (inline
       # ChannelConfig, no Sentry), so it needs none of Warp's private
@@ -206,6 +208,9 @@ jobs:
 
       - name: Resolve upstream Warp ref
         id: ref
+        # Bash syntax (`>> "$GITHUB_OUTPUT"`); the Windows runner defaults to
+        # pwsh, so pin git-bash explicitly to keep all three platforms uniform.
+        shell: bash
         run: echo "value=${{ inputs.warp_ref || env.DEFAULT_WARP_REF }}" >> "$GITHUB_OUTPUT"
 
       - name: Build localized tree
@@ -257,6 +262,24 @@ jobs:
           brew install create-dmg
           rustup target add aarch64-apple-darwin
 
+      - name: Install Inno Setup (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          choco install innosetup -y --no-progress
+          "C:\Program Files (x86)\Inno Setup 6" | Out-File -FilePath $env:GITHUB_PATH -Append
+
+      - name: Install build deps (Windows)
+        if: runner.os == 'Windows'
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        shell: pwsh
+        run: |
+          # install_cargo_release_deps runs install_cargo_build_deps internally,
+          # then `cargo install cargo-about` (needed for third-party license
+          # generation in prepare_bundled_resources.ps1). Mirrors the macOS/Linux
+          # deps steps; non-fatal like them.
+          bash ./script/install_cargo_release_deps; if (-not $?) { Write-Output "::warning::install_cargo_release_deps reported errors (continuing)" }
+
       - name: Bundle Linux packages (deb / rpm / AppImage)
         id: bundle_linux
         if: runner.os == 'Linux'
@@ -271,8 +294,19 @@ jobs:
           MACOSX_DEPLOYMENT_TARGET: '14.0'
         run: script/bundle --nosign --channel "$CHANNEL" --arch aarch64 --dmg-name-suffix arm64
 
+      - name: Bundle Windows installer (oss x64)
+        id: bundle_windows
+        if: runner.os == 'Windows'
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        shell: pwsh
+        run: .\script\windows\bundle.ps1 -CHANNEL oss -ARCH x64 -RELEASE_TAG "$env:GIT_RELEASE_TAG"
+
       - name: Collect installers
         id: collect
+        # Bash collection logic; macOS/Linux only. Windows uses the pwsh
+        # "Collect installer (Windows)" step below.
+        if: runner.os != 'Windows'
+        shell: bash
         working-directory: ${{ steps.localize.outputs.out_dir }}
         run: |
           set -euo pipefail
@@ -295,6 +329,19 @@ jobs:
           fi
           echo "--- collected ---"
           ls -la "$OUT"
+
+      - name: Collect installer (Windows)
+        if: runner.os == 'Windows'
+        working-directory: ${{ steps.localize.outputs.out_dir }}
+        shell: pwsh
+        run: |
+          $out = "$env:GITHUB_WORKSPACE\dist-out"
+          New-Item -ItemType Directory -Force -Path $out | Out-Null
+          $exe = ".\script\windows\Output\WarpOssSetup.exe"
+          if (-not (Test-Path $exe)) { $exe = (Get-ChildItem -Recurse -Filter '*Setup*.exe' .\script\windows\Output | Select-Object -First 1).FullName }
+          Write-Output "Installer: $exe"
+          Copy-Item $exe $out -Verbose
+          Get-ChildItem $out
 
       - name: Upload installer artifacts
         uses: actions/upload-artifact@v4
