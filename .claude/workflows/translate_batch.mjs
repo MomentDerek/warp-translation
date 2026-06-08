@@ -22,18 +22,23 @@ export const meta = {
 // The main session derives `letters` from candidates/manifest.json before launch.
 // ---------------------------------------------------------------------------
 
-if (!args || !args.taskDir || !args.repoRoot || !args.srcRepo || !args.batchFlag || !Array.isArray(args.letters)) {
+// Some headless/CI invocations of the Workflow tool deliver `args` as a
+// JSON-encoded string rather than a parsed object (the model stringifies the
+// tool argument). Normalize so property access works in both cases.
+const ARGS = typeof args === 'string' ? JSON.parse(args) : (args || {})
+
+if (!ARGS.taskDir || !ARGS.repoRoot || !ARGS.srcRepo || !ARGS.batchFlag || !Array.isArray(ARGS.letters)) {
   throw new Error('translate-batch requires args = {taskDir, repoRoot, srcRepo, batchFlag, letters[]}. ' +
     'Pass absolute paths so sub-agents can chdir reliably; no hardcoded defaults.')
 }
 
-const TASK_DIR = args.taskDir
-const REPO_ROOT = args.repoRoot
-const SRC_REPO = args.srcRepo
-const BATCH_FLAG = args.batchFlag
-const LETTERS = args.letters
-const POLICY = args.policyPath || `${REPO_ROOT}/.trellis/spec/guides/translation-contract.md`
-const ACTIVE_TASK = args.activeTask || TASK_DIR
+const TASK_DIR = ARGS.taskDir
+const REPO_ROOT = ARGS.repoRoot
+const SRC_REPO = ARGS.srcRepo
+const BATCH_FLAG = ARGS.batchFlag
+const LETTERS = ARGS.letters
+const POLICY = ARGS.policyPath || `${REPO_ROOT}/.trellis/spec/guides/translation-contract.md`
+const ACTIVE_TASK = ARGS.activeTask || TASK_DIR
 const KIT_DIR = `${REPO_ROOT}/tools/translations/kit`
 
 function implementerPrompt(letter) {
